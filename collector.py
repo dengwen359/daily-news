@@ -26,7 +26,7 @@ import urllib.request
 import urllib.error
 from email.mime.text import MIMEText
 from email.header import Header
-from email.utils import parsedate_to_datetime
+from email.utils import parsedate_to_datetime, formatdate, make_msgid
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(BASE_DIR, "config.yaml")
@@ -527,8 +527,6 @@ def build_mail_body(items, cfg, run_time):
         for i, r in enumerate(lv2, 1):
             L.append(f"{i}. {r['title']}")
             L.append(f"   {r['source']}" + (f" · {r['why']}" if r.get("why") else ""))
-            L.append(f"   {r['link']}")
-            L.append("")
         L.append("")
 
     if lv1:
@@ -571,6 +569,11 @@ def send_mail(cfg, subject, body):
     msg["Subject"] = Header(subject, "utf-8")
     msg["From"] = sender
     msg["To"] = ", ".join(receivers)
+    # 缺 Date 和 Message-ID 会被邮件服务商当成垃圾邮件的典型特征，
+    # 139 邮箱实测会因此拒收（550 Mail rejected score）。
+    msg["Date"] = formatdate(localtime=True)
+    msg["Message-ID"] = make_msgid(domain=sender.split("@")[-1])
+    msg["X-Mailer"] = "news-collector"
     try:
         ctx = ssl.create_default_context()
         with smtplib.SMTP_SSL(host, port, context=ctx, timeout=25) as s:
