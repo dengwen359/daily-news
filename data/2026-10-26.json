@@ -1,9 +1,9 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-26 21:03",
+ "generated_at": "2026-10-26 21:34",
  "hours_window": 30,
- "count": 103,
- "sources_ok": 14,
+ "count": 161,
+ "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
   "科技与产业",
@@ -27,7 +27,7 @@
     "总统"
    ],
    "time": "15:33",
-   "score": 20.3,
+   "score": 20.2,
    "level": 2,
    "why": "大选",
    "tier": "must"
@@ -65,7 +65,7 @@
     "总理"
    ],
    "time": "17:31",
-   "score": 16.6,
+   "score": 16.5,
    "level": 2,
    "why": "国务院",
    "tier": "must"
@@ -86,7 +86,7 @@
     "外交"
    ],
    "time": "15:59",
-   "score": 15.4,
+   "score": 15.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -146,7 +146,7 @@
    "topics": [],
    "words": [],
    "time": "14:42",
-   "score": 14.2,
+   "score": 14.1,
    "level": 2,
    "why": "全会",
    "tier": "must"
@@ -168,10 +168,29 @@
     "融资"
    ],
    "time": "20:53",
-   "score": 13.0,
+   "score": 12.9,
    "level": 0,
    "why": "",
    "tier": ""
+  },
+  {
+   "id": "38233fe176c0b95b",
+   "title": "亚洲开发银行提供7200万美元融资支持柬埔寨农业发展",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10721350.shtml",
+   "summary": "中新社金边10月26日电 (张堰林 张安琪 杨强)亚洲开发银行当地时间26日发布消息称，亚行已批准一项总额7200万美元融资方案，资金用于柬埔寨“小农户韧性经济发展项目”，支持柬埔寨农村农业发展。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "融资"
+   ],
+   "time": "21:12",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
   },
   {
    "id": "6cec7dc26cf03692",
@@ -197,6 +216,53 @@
    "tier": ""
   },
   {
+   "id": "666f4bd726c9fd4c",
+   "title": "Anthropic 提交纳斯达克 IPO 申请，股票代码为“ANT”",
+   "link": "https://www.ithome.com/1/018/162.htm",
+   "summary": "IT之家 10 月 26 日消息，10 月 26 日，人工智能初创公司 Anthropic 向美国证券交易委员会提交 S-1 注册文件，计划首次公开发行 A 类普通股，并申请在纳斯达克以“ANT”为股票代码上市。本次发行规模、定价区间与上市日期暂未公布。 招股书披露，公司业绩呈现高速增长态势：2025 年营收 45.85 亿美元 （IT之家注：现汇率约合 306.16 亿元人民币） ，净亏损 419.65 亿美元 （现汇率约合 2,802.19 亿元人民币） ； 2026 年上半年营收飙升至 162.86 亿美元 （现汇率约合 1,087.49 亿元人民币） ，同比暴涨 13 倍。虽然当期净亏",
+   "source": "IT之家",
+   "also": [
+    "界面新闻",
+    "BBC·国际",
+    "36氪"
+   ],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "人工智能",
+    "算力",
+    "数据中心",
+    "IPO"
+   ],
+   "time": "21:29",
+   "score": 11.0,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "438ec2c46876c13e",
+   "title": "80岁卢拉将开启第四个总统任期：工人出身，曾入狱580天，向西方喊话“巴西不是任何人后院”",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10721344.shtml",
+   "summary": "中新网10月26日电(冯小妍)当地时间10月25日，巴西举行总统选举第二轮投票，劳工党候选人、现任总统卢拉战胜在首轮投票中领先的自由党候选人、前总统博索纳罗之子弗拉维奥·博索纳罗，赢得连任。胜选后，卢拉发文称：“感谢巴西人民！”",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统",
+    "选举"
+   ],
+   "time": "21:06",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "42a16c31284a341f",
    "title": "SpaceX 达成史上最大规模 GPU 融资安排，协议总额约 400 亿美元",
    "link": "https://www.ithome.com/1/018/150.htm",
@@ -212,7 +278,7 @@
     "融资"
    ],
    "time": "20:42",
-   "score": 11.0,
+   "score": 10.9,
    "level": 0,
    "why": "",
    "tier": ""
@@ -254,7 +320,7 @@
     "融资"
    ],
    "time": "20:06",
-   "score": 10.9,
+   "score": 10.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -275,7 +341,7 @@
     "黄金"
    ],
    "time": "17:37",
-   "score": 10.6,
+   "score": 10.5,
    "level": 0,
    "why": "",
    "tier": ""
@@ -294,7 +360,7 @@
     "外交"
    ],
    "time": "16:13",
-   "score": 10.4,
+   "score": 10.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -313,7 +379,7 @@
     "外交"
    ],
    "time": "15:58",
-   "score": 10.4,
+   "score": 10.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -332,7 +398,7 @@
     "外交"
    ],
    "time": "15:53",
-   "score": 10.4,
+   "score": 10.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -372,10 +438,30 @@
     "外交"
    ],
    "time": "15:32",
-   "score": 10.3,
+   "score": 10.2,
    "level": 1,
    "why": "",
    "tier": "must"
+  },
+  {
+   "id": "118d798163660e79",
+   "title": "SpaceX与阿波罗400亿美元融资交易债券利率最高达8.75%",
+   "link": "https://www.jiemian.com/article/15242456.html",
+   "summary": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "利率",
+    "融资"
+   ],
+   "time": "20:54",
+   "score": 9.9,
+   "level": 0,
+   "why": "",
+   "tier": ""
   },
   {
    "id": "1c6ad0e31e15c34e",
@@ -392,7 +478,7 @@
     "选举"
    ],
    "time": "10:16",
-   "score": 9.7,
+   "score": 9.6,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -412,7 +498,7 @@
     "选举"
    ],
    "time": "10:16",
-   "score": 9.7,
+   "score": 9.6,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -432,7 +518,7 @@
     "选举"
    ],
    "time": "08:21",
-   "score": 9.4,
+   "score": 9.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -451,7 +537,7 @@
     "商业航天"
    ],
    "time": "15:19",
-   "score": 9.3,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -470,7 +556,7 @@
     "新能源"
    ],
    "time": "15:06",
-   "score": 9.3,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -493,7 +579,7 @@
     "并购"
    ],
    "time": "19:26",
-   "score": 8.8,
+   "score": 8.7,
    "level": 0,
    "why": "",
    "tier": ""
@@ -513,7 +599,7 @@
     "总统"
    ],
    "time": "19:23",
-   "score": 8.8,
+   "score": 8.7,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -532,7 +618,7 @@
     "外交"
    ],
    "time": "16:02",
-   "score": 8.4,
+   "score": 8.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -570,16 +656,55 @@
     "外交"
    ],
    "time": "15:31",
-   "score": 8.3,
+   "score": 8.2,
    "level": 1,
    "why": "",
    "tier": "must"
   },
   {
+   "id": "f09dc2445a72e650",
+   "title": "5499 元起：苹果发布 iPad mini 8 平板，8.5 寸 60Hz OLED 屏、A20 Pro 芯片、支持 IP67 防尘防水",
+   "link": "https://www.ithome.com/1/018/156.htm",
+   "summary": "IT之家 10 月 26 日闪讯速报，苹果发布 iPad mini 8 平板电脑。这款产品搭载 8.5 英寸 OLED 屏幕，比上一代薄了 14%，采用 A20 Pro 芯片，10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售， 定价 5,499 元起 。 IT之家附 iPad mini 8 各版本定价如下： 128GB：Wi-Fi 版 5,499 元，Wi-Fi+ 蜂窝版 6,799 元 256GB：Wi-Fi 版 6,299 元，Wi-Fi+ 蜂窝版 7,599 元 512GB：Wi-Fi 版本 7,999 元，Wi-Fi+ 蜂窝版 9,299 元 据介绍，iPad m",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "芯片"
+   ],
+   "time": "21:04",
+   "score": 7.9,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "15dc9f12583b50b4",
+   "title": "巴西股市因触发熔断机制而暂停交易",
+   "link": "https://www.jiemian.com/article/15242482.html",
+   "summary": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "股市"
+   ],
+   "time": "21:03",
+   "score": 7.9,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
    "id": "9f8bd846b6515c28",
-   "title": "古尔曼称苹果可能本周连续三天发布新品：OLED iPad mini、M6 芯片 Mac 及触控屏 MacBook Pro 将登场",
+   "title": "古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro",
    "link": "https://www.ithome.com/1/018/153.htm",
-   "summary": "IT之家 10 月 26 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）认为，苹果本周可能采取连续三天发布新品的方式，从今日开始陆续公布多款产品，北京时间 10 月 29 日凌晨 1 点的活动可能是供受邀媒体尝鲜的新品上手活动。 古尔曼表示，苹果很有可能在今日推出 OLED 屏幕版 iPad mini，明天更新搭载 M6 芯片的 iMac 和 MacBook Pro，后天发布触控屏 MacBook Pro，这样的安排就比较合理。 截至目前，除苹果营销主管格雷格 · 乔斯维亚克（Greg Joswiak）上周发布的“Pro and Tell”预告外，苹果尚未完整公布本周新品发布计划",
+   "summary": "IT之家 10 月 26 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）认为，苹果本周可能采取连续三天发布新品的方式，从今日开始陆续公布多款产品，北京时间 10 月 29 日凌晨 1 点的活动可能是供受邀媒体尝鲜的新品上手活动。 古尔曼表示，苹果很有可能在今日推出 OLED 屏幕版 iPad mini，明天更新搭载 M6 芯片的 iMac，后天发布触控屏 MacBook Pro，这样的安排就比较合理。 截至目前，除苹果营销主管格雷格 · 乔斯维亚克（Greg Joswiak）上周发布的“Pro and Tell”预告外，苹果尚未完整公布本周新品发布计划。OLED iPad min",
    "source": "IT之家",
    "also": [],
    "topics": [
@@ -589,7 +714,7 @@
     "芯片"
    ],
    "time": "21:00",
-   "score": 8.0,
+   "score": 7.9,
    "level": 0,
    "why": "",
    "tier": ""
@@ -609,7 +734,7 @@
     "人工智能"
    ],
    "time": "20:58",
-   "score": 8.0,
+   "score": 7.9,
    "level": 0,
    "why": "",
    "tier": ""
@@ -628,7 +753,7 @@
     "美股"
    ],
    "time": "20:46",
-   "score": 8.0,
+   "score": 7.9,
    "level": 0,
    "why": "",
    "tier": ""
@@ -647,7 +772,7 @@
     "机器人"
    ],
    "time": "20:45",
-   "score": 8.0,
+   "score": 7.9,
    "level": 0,
    "why": "",
    "tier": ""
@@ -704,7 +829,7 @@
     "利率"
    ],
    "time": "20:19",
-   "score": 7.9,
+   "score": 7.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -723,7 +848,7 @@
     "芯片"
    ],
    "time": "20:16",
-   "score": 7.9,
+   "score": 7.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -742,7 +867,7 @@
     "新能源"
    ],
    "time": "20:04",
-   "score": 7.9,
+   "score": 7.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -789,6 +914,25 @@
    "tier": ""
   },
   {
+   "id": "a2d40c375534dacf",
+   "title": "卢拉：感谢人民支持 巴西“不是任何人的后院”",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720980.shtml",
+   "summary": "当地时间10月25日，卢拉在再次成功当选巴西总统后，在社交媒体发文称：“感谢，巴西人民！”",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "10:17",
+   "score": 7.7,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "d0dd99a18d59e126",
    "title": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
    "link": "https://www.ithome.com/1/018/125.htm",
@@ -802,7 +946,7 @@
     "英伟达"
    ],
    "time": "19:06",
-   "score": 7.8,
+   "score": 7.7,
    "level": 0,
    "why": "",
    "tier": ""
@@ -846,7 +990,7 @@
     "新能源"
    ],
    "time": "10:42",
-   "score": 7.7,
+   "score": 7.6,
    "level": 0,
    "why": "",
    "tier": ""
@@ -866,26 +1010,7 @@
     "众议院"
    ],
    "time": "10:17",
-   "score": 7.7,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
-   "id": "a2d40c375534dacf",
-   "title": "卢拉：感谢人民支持 巴西“不是任何人的后院”",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720980.shtml",
-   "summary": "当地时间10月25日，卢拉在再次成功当选巴西总统后，在社交媒体发文称：“感谢，巴西人民！”",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "总统"
-   ],
-   "time": "10:17",
-   "score": 7.7,
+   "score": 7.6,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -944,7 +1069,7 @@
     "机器人"
    ],
    "time": "17:43",
-   "score": 7.6,
+   "score": 7.5,
    "level": 0,
    "why": "",
    "tier": ""
@@ -988,6 +1113,25 @@
    "tier": ""
   },
   {
+   "id": "7e38536cf876b3ee",
+   "title": "英伟达为开发者更新路径追踪工具：性能提升 20%，支持 Windows on Arm",
+   "link": "https://www.ithome.com/1/017/945.htm",
+   "summary": "IT之家 10 月 26 日消息，英伟达面向开发者的 RTX Path Tracing 路径追踪开发工具已更新至 1.9.0 版本，性能最高提升 20%，并支持 WoA（Windows on Arm）平台。 可用于 RTX Spark 笔记本 。 据介绍，RTX Path Tracing 是一款免费的开发工具和技术演示程序，整合英伟达最新 RTX SDK 光追技术和 DLSS，旨在展示一种适用于 DirectX 12 和 Vulkan 的纯路径追踪光照方案，无需依赖光栅化技术。 英伟达表示，RTX Path Tracing 1.9.0 相比 1.8.1 版本， 在画质相当或更好的情况下性能提升",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "英伟达"
+   ],
+   "time": "16:08",
+   "score": 7.4,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
    "id": "0ac669aa773194e3",
    "title": "智元发布重载具身机器人精灵 G2 Max，双臂额定负载 40kg",
    "link": "https://www.ithome.com/1/017/951.htm",
@@ -1008,27 +1152,83 @@
    "tier": ""
   },
   {
-   "id": "7e38536cf876b3ee",
-   "title": "英伟达为开发者更新路径追踪工具：性能提升 20%，支持 Windows on Arm",
-   "link": "https://www.ithome.com/1/017/945.htm",
-   "summary": "IT之家 10 月 26 日消息，英伟达面向开发者的 RTX Path Tracing 路径追踪开发工具已更新至 1.9.0 版本，性能最高提升 20%，并支持 WoA（Windows on Arm）平台。 可用于 RTX Spark 笔记本 。 据介绍，RTX Path Tracing 是一款免费的开发工具和技术演示程序，整合英伟达最新 RTX SDK 光追技术和 DLSS，旨在展示一种适用于 DirectX 12 和 Vulkan 的纯路径追踪光照方案，无需依赖光栅化技术。 英伟达表示，RTX Path Tracing 1.9.0 相比 1.8.1 版本， 在画质相当或更好的情况下性能提升",
-   "source": "IT之家",
+   "id": "dfb177f2a2f7fa87",
+   "title": "‘Pull Out the Sick Trees’: Xi’s Constant Purges Pave Way for Next Term",
+   "link": "https://www.nytimes.com/2026/10/26/world/asia/china-communist-party-xi-forever-purge.html",
+   "summary": "The Chinese leader Xi Jinping, who is likely preparing to secure a fourth term in power in 2027, has complained that officials cannot be trusted.",
+   "source": "纽约时报·国际",
    "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "英伟达"
-   ],
-   "time": "16:08",
-   "score": 7.4,
-   "level": 0,
+   "topics": [],
+   "words": [],
+   "time": "21:14",
+   "score": 7.0,
+   "level": 1,
    "why": "",
-   "tier": ""
+   "tier": "must"
+  },
+  {
+   "id": "9fcde44e2e127478",
+   "title": "Chris Brown Gets Suspended Prison Sentence Over Nightclub Assault",
+   "link": "https://www.nytimes.com/2026/10/26/arts/music/chris-brown-sentencing.html",
+   "summary": "The singer, 37, had pleaded guilty after hitting a music producer repeatedly in the head with a bottle in London in 2023.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:11",
+   "score": 7.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "21d0937351c98174",
+   "title": "Catholic Leaders Say Trump Meeting Wasn’t Intended to Be Political After White House Shares Video",
+   "link": "https://www.nytimes.com/2026/10/25/us/trump-catholic-bishops-meeting-apology.html",
+   "summary": "A video of Catholic leaders praying with the president was shared by the White House. One archbishop said it was done without permission.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:08",
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "caefa359e2e41bad",
+   "title": "俄罗斯战略轰炸机飞临阿拉斯加州西海岸",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10721345.shtml",
+   "summary": "中新网10月26日电 据俄罗斯媒体当地时间26日报道，俄罗斯国防部发布声明称，俄军图-95MS战略轰炸机在紧邻美国阿拉斯加州西海岸的白令海和楚科奇海中立水域完成了一次计划内飞行任务，苏-35S战机护航，在部分阶段有外国战机伴飞。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:08",
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "08af244134c0ff73",
+   "title": "Lula Defeats Bolsonaro for Brazil Presidency, in Blow to Latin America’s Right",
+   "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
+   "summary": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:06",
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
   },
   {
    "id": "335b4d6ab628ed59",
-   "title": "Nurse killed in Ebola attack in DR Congo",
+   "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
    "link": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
    "summary": "Local youths reportedly accused the health workers of contaminating water sources and spreading Ebola.",
    "source": "BBC·国际",
@@ -1036,7 +1236,22 @@
    "topics": [],
    "words": [],
    "time": "20:57",
-   "score": 7.0,
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "d245e76fe360151c",
+   "title": "Flurry of Diplomacy in Iran Amid Reports of U.S. and Israeli Plans to Renew War",
+   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/iran-war-new-attacks-diplomacy.html",
+   "summary": "A rare joint visit to Tehran is expected by Saudi Arabia, Turkey and Pakistan amid reports that the U.S. and Israel are drawing up plans to renew their war on Iran.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "20:56",
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1047,11 +1262,13 @@
    "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
    "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
    "source": "BBC·国际",
-   "also": [],
+   "also": [
+    "纽约时报·国际"
+   ],
    "topics": [],
    "words": [],
    "time": "20:52",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1066,7 +1283,7 @@
    "topics": [],
    "words": [],
    "time": "20:43",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1081,7 +1298,7 @@
    "topics": [],
    "words": [],
    "time": "20:42",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1096,7 +1313,7 @@
    "topics": [],
    "words": [],
    "time": "20:41",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1136,6 +1353,36 @@
    "tier": "must"
   },
   {
+   "id": "f67d6b616dc16ceb",
+   "title": "Lula, Latin America’s Most Influential Statesman, Halts a Right-Wing Surge",
+   "link": "https://www.nytimes.com/2026/10/24/world/americas/lula-brazil-election-president.html",
+   "summary": "Brazil’s President Luiz Inácio Lula da Silva, a leftist, staged a remarkable comeback on Sunday, winning re-election and stopping a right-wing wave.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "20:13",
+   "score": 6.8,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "b3951a9f5db99b6b",
+   "title": "Jordan Arrests 3 in Connection With Church Attack, State Media Reports",
+   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/jordan-arrests-terror-attack-church.html",
+   "summary": "Nine people were killed and dozens were wounded in the attack last week on a Greek Orthodox Church in southern Jordan.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "20:09",
+   "score": 6.8,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "de35a87564434bf0",
    "title": "特斯拉FSD获拉脱维亚批准，欧盟批准使用国家增至10个",
    "link": "https://36kr.com/newsflashes/4042641618031745?f=rss",
@@ -1149,10 +1396,27 @@
     "欧盟"
    ],
    "time": "20:04",
-   "score": 6.9,
+   "score": 6.8,
    "level": 0,
    "why": "",
    "tier": ""
+  },
+  {
+   "id": "1b0c73df544aff2f",
+   "title": "María Corina Machado Returns to Venezuela",
+   "link": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html",
+   "summary": "After nearly 10 months in exile, Ms. Machado, a Nobel laureate, came back to challenge leaders who have sidelined her and press for new elections.",
+   "source": "纽约时报·国际",
+   "also": [
+    "BBC·国际"
+   ],
+   "topics": [],
+   "words": [],
+   "time": "19:56",
+   "score": 6.8,
+   "level": 1,
+   "why": "",
+   "tier": "must"
   },
   {
    "id": "667b1208cae9fe3a",
@@ -1179,7 +1443,7 @@
    "topics": [],
    "words": [],
    "time": "19:29",
-   "score": 6.8,
+   "score": 6.7,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1194,7 +1458,114 @@
    "topics": [],
    "words": [],
    "time": "19:27",
-   "score": 6.8,
+   "score": 6.7,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "e1d7c28459186a7c",
+   "title": "Who Is Netanyahu’s Main Opponent in Israel’s Elections?",
+   "link": "https://www.nytimes.com/video/world/asia/100000011222464/who-is-netanyahus-main-opponent-in-israels-elections.html",
+   "summary": "Gadi Eisenkot has emerged as Benjamin Netanyahu’s main opponent in the upcoming elections. The New York Times Jerusalem bureau chief, David Halbfinger, describes why Mr. Eisenkot is resonating with Israeli voters.",
+   "source": "纽约时报·国际",
+   "also": [
+    "BBC·国际"
+   ],
+   "topics": [],
+   "words": [],
+   "time": "19:06",
+   "score": 6.7,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "739c1df5090e2f8c",
+   "title": "Bridges Still Destroyed Years After Hurricane",
+   "link": "https://www.nytimes.com/video/us/100000011153947/north-carolina-bridges-destroyed-hurricane-helene.html",
+   "summary": "When Hurricane Helene hit western North Carolina in 2024, hundreds of households lost the private bridges they rely on to access their homes. Two years later, only 44 bridges have been rebuilt by the state. Our reporter Eduardo Medina takes us there.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "19:06",
+   "score": 6.7,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "faf2f9d92cbef25b",
+   "title": "What to Know About Lula’s Election Victory in Brazil, and What Comes Next",
+   "link": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html",
+   "summary": "President Luiz Inácio Lula da Silva won a fourth term, halting a string of conservative victories in Latin America. His opponent disputed the result.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "18:31",
+   "score": 6.6,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "5b09a4e2c35511c9",
+   "title": "Israeli Jews Across the Spectrum Face an Election of Fears",
+   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/israel-election-stakes.html",
+   "summary": "Supporters and opponents of Prime Minister Benjamin Netanyahu have expressed intense anxieties about isolation abroad, security at home and the future of Israel’s identity.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "18:30",
+   "score": 6.6,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "89d44e2d96a17384",
+   "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+   "link": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html",
+   "summary": "“It is clear that we have lost these elections,” Aleksandar Vucic said in a surprisingly early speech congratulating his opponents.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "18:03",
+   "score": 6.6,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "b2fc81002b169540",
+   "title": "U.S. Army Trains Apache Helicopter Pilots to Shoot Drones",
+   "link": "https://www.nytimes.com/2026/10/26/world/europe/helicopters-drones-apache-shahed-russia-iran.html",
+   "summary": "The U.S. Army is training Apache pilots to shoot down drones as militaries around the world assess the efficacy of 20th-century technologies in a new era.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "18:00",
+   "score": 6.6,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "7387451d38a97eb9",
+   "title": "To Work With P.O.W.s, Ukrainians Suppress Feelings About the Enemy",
+   "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-russia-pows-prisoners.html",
+   "summary": "Much has been said about how Ukraine should treat Russian prisoners of war. Less attention has been paid to the emotional struggle for the Ukrainians tasked with that work.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:58",
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1209,7 +1580,7 @@
    "topics": [],
    "words": [],
    "time": "17:31",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1224,7 +1595,7 @@
    "topics": [],
    "words": [],
    "time": "17:31",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1245,6 +1616,36 @@
    "tier": "must"
   },
   {
+   "id": "703b1ccae45b8f34",
+   "title": "Darline Graham Gets Help From the Data Center Industry in South Carolina Senate Race",
+   "link": "https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html",
+   "summary": "As political fights over artificial intelligence accelerate, there is now a super PAC aligned with the data center industry. Its first bet is on Ms. Graham, a Republican in an unexpectedly tight race.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:03",
+   "score": 6.4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "e7666bdb67285ae0",
+   "title": "Who’s Winning the Race for Congress?",
+   "link": "https://www.nytimes.com/2026/10/26/us/politics/whos-winning-the-race-for-congress.html",
+   "summary": "It’s Oct. 26 — eight days from the midterms. Here’s the state of play.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:02",
+   "score": 6.4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "6c2d924d7da7806d",
    "title": "外国画家眼中的新疆：“壮观的美景，无需修图”",
    "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721212.shtml",
@@ -1254,7 +1655,52 @@
    "topics": [],
    "words": [],
    "time": "17:02",
-   "score": 6.5,
+   "score": 6.4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "255f316356a14281",
+   "title": "In Fight for the Senate, Democrats Face a Once-in-a-Generation Test",
+   "link": "https://www.nytimes.com/2026/10/26/us/elections/democrats-senate-republicans-midterms.html",
+   "summary": "Democrats are targeting G.O.P. strongholds that could set them up for new majorities. But if they don’t win those races now, it could be a long time before they have another chance.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:01",
+   "score": 6.4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "ddf05d48da961933",
+   "title": "Democratic Attorneys General Have Defied Trump. Some May Fall on Nov. 3.",
+   "link": "https://www.nytimes.com/2026/10/26/us/elections/state-attorney-general-elections.html",
+   "summary": "Democratic attorneys general have spearheaded state resistance to President Trump’s policies. But some face tight election races despite polls showing broad voter support for Democrats.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:01",
+   "score": 6.4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "0e4852dee1fff86c",
+   "title": "The 11 Midterm Races That Could Shape the Progressive Movement’s Future",
+   "link": "https://www.nytimes.com/2026/10/26/us/politics/the-11-midterm-races-that-could-shape-the-progressive-movements-future.html",
+   "summary": "The left says its populist message can attract moderates and conservatives in addition to liberals. That theory will be put to the test in a series of competitive races on Election Day.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:01",
+   "score": 6.4,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1269,7 +1715,22 @@
    "topics": [],
    "words": [],
    "time": "16:52",
-   "score": 6.5,
+   "score": 6.4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "4d7f56e53a7318b9",
+   "title": "Here’s the latest.",
+   "link": "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots/heres-the-latest",
+   "summary": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "16:41",
+   "score": 6.4,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1321,7 +1782,7 @@
    "topics": [],
    "words": [],
    "time": "16:14",
-   "score": 6.4,
+   "score": 6.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1381,7 +1842,7 @@
    "topics": [],
    "words": [],
    "time": "14:19",
-   "score": 6.2,
+   "score": 6.1,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1396,7 +1857,7 @@
    "topics": [],
    "words": [],
    "time": "14:16",
-   "score": 6.2,
+   "score": 6.1,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1412,6 +1873,36 @@
    "words": [],
    "time": "13:59",
    "score": 6.1,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "56adccdcb55475ec",
+   "title": "Modi’s Plan to Stop India’s Protests",
+   "link": "https://www.nytimes.com/2026/10/25/world/modi-india-protests-brazil-election.html",
+   "summary": "The Indian leader, facing a volatile youth uprising, appears to be deliberately drawing into the fray a political rival he’s beaten before.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "13:53",
+   "score": 6.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "6ec22c1d2d6b0972",
+   "title": "How Obama and Trump Made their Cases in Dueling Midterm Speeches",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/obama-trump-competing-rallies-midterms.html",
+   "summary": "At rallies this weekend, Mr. Obama and Mr. Trump delivered two starkly contrasting pitches, differing in style and substance.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "13:40",
+   "score": 6.0,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1438,6 +1929,46 @@
    "tier": ""
   },
   {
+   "id": "1309215d9769f74f",
+   "title": "英特尔 CEO 陈立武：已经和 AMD CEO 苏姿丰就潜在合作展开对话",
+   "link": "https://www.ithome.com/1/018/155.htm",
+   "summary": "IT之家 10 月 26 日消息，据科技媒体 Wccftech 今天报道，英特尔首席执行官陈立武近期在华美半导体协会（CASPA）炉边谈话中透露，他已经和 AMD 首席执行官苏姿丰对话，探讨潜在合作方向。 陈立武在谈话中表示，英特尔过去过于骄傲，从不愿意根据客户需求做出调整。公司如今正在加倍投入定制芯片业务，尤其是在至强产品线方面。 谈到先进制程时陈立武表示：“18A 已经进入量产阶段，14A 正在取得非常强劲的进展。我们已经推出了 0.5 版 PDK，请继续关注，未来很快就会有 0.9 版 PDK，明年年初到来的则是量产 1.0 版 PDK。我们有多家客户，我们确实希望帮他们扩大规模。” I",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "芯片",
+    "半导体"
+   ],
+   "time": "21:02",
+   "score": 5.9,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "f5f663630788ebed",
+   "title": "微软重新分工 Win11 硬件安全：Pluton 剥离 TPM 2.0 职能",
+   "link": "https://www.ithome.com/1/018/142.htm",
+   "summary": "IT之家 10 月 26 日消息，科技媒体 NeoWin 今天（10 月 26 日）发布博文，报道称微软更新支持文档，宣布在新一代 AMD、英特尔和高通平台上， Pluton 安全协处理器不再承担 TPM 2.0 功能 ，TPM 将改由厂商固件 TPM 或独立 TPM 提供。 IT之家注：在 Windows 11 系统中，微软提高了硬件门槛，其中一项硬性要求就是设备必须要支持可信平台模块（TPM）2.0 版本。 TPM 通常以独立芯片、CPU 内的固件模块，或 SoC 中的安全协处理器形式存在。它拥有受保护存储区域，可保存密钥、证书、密码哈希和度量值；即使系统被重装或硬盘被拆走，这些受 TPM",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "芯片"
+   ],
+   "time": "20:15",
+   "score": 5.8,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
    "id": "1831d94434237582",
    "title": "Australian murderer loses bid to eat Vegemite in prison",
    "link": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
@@ -1447,7 +1978,22 @@
    "topics": [],
    "words": [],
    "time": "12:05",
-   "score": 5.9,
+   "score": 5.8,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "9a59d5f195857273",
+   "title": "Is the Venice Soccer Team Ever Going to Be as Good as It Looks?",
+   "link": "https://www.nytimes.com/2026/10/26/world/europe/venice-soceer.html",
+   "summary": "Venezia FC, a historically modest club, has become a fashion sensation. But its performance has struggled to match the off-field hype.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "12:01",
+   "score": 5.8,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1483,6 +2029,21 @@
    "tier": "must"
   },
   {
+   "id": "d7ec555f6758a00f",
+   "title": "In Islamophobic Rant, Trump Seeks to Stir Republican Base in Michigan",
+   "link": "https://www.nytimes.com/2026/10/25/us/elections/trump-michigan-el-sayed-rogers.html",
+   "summary": "The president contended that Dr. Abdul El-Sayed, a Muslim, would “invite hordes of jihadis to our shores” as he sought to bolster the G.O.P. candidate in a tight Senate race.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "10:26",
+   "score": 5.6,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "2d60b8fd6338e8ee",
    "title": "肯尼亚发生严重车祸致24人死亡",
    "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720946.shtml",
@@ -1492,7 +2053,7 @@
    "topics": [],
    "words": [],
    "time": "10:16",
-   "score": 5.7,
+   "score": 5.6,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1557,7 +2118,7 @@
     "芯片"
    ],
    "time": "17:57",
-   "score": 5.6,
+   "score": 5.5,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1577,7 +2138,7 @@
     "储能"
    ],
    "time": "17:48",
-   "score": 5.6,
+   "score": 5.5,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1597,10 +2158,25 @@
     "芯片"
    ],
    "time": "17:28",
-   "score": 5.6,
+   "score": 5.5,
    "level": 0,
    "why": "",
    "tier": ""
+  },
+  {
+   "id": "079b9a05e84efddd",
+   "title": "Trump’s Election Attacks Enter New Pre-emptive Phase",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/trumps-election-alaska.html",
+   "summary": "A lawsuit by the Justice Department challenging a potential narrow loss by the GOP Senate incumbent in Alaska reflects a new tactic by the president to try to shape the election results.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "09:12",
+   "score": 5.5,
+   "level": 1,
+   "why": "",
+   "tier": "must"
   },
   {
    "id": "c8affa437bdecfac",
@@ -1612,52 +2188,17 @@
    "topics": [],
    "words": [],
    "time": "09:09",
-   "score": 5.5,
+   "score": 5.4,
    "level": 1,
    "why": "",
    "tier": "must"
   },
   {
-   "id": "73d0d7fb992e6d31",
-   "title": "松下员工违规上传同事及家属信息至 GenAI 服务，影响 33.4 万人",
-   "link": "https://www.ithome.com/1/017/949.htm",
-   "summary": "IT之家 10 月 26 日消息，松下卓越运营 (PEX) 日本当地时间本月 23 日发布公告，就其与子公司松下数字共同开展的人力资源信息系统项目出现的信息违规上传事件进行通告并向受影响者致歉。 根据公告，负责人力资源信息系统项目的一名员工违反既定规则， 将包含现员工、前员工及员工家属的数据上传到禁止使用的外部生成式人工智能服务平台 。 此次事件影响到使用松下集团统一人力资源信息系统的 7.5 万名现员工、17.8 万名前员工、5.5 万名现员工家属、2.6 万名前员工家属， 合计约 33.4 万人 。涉及数据包括现 / 前员工的编号、地址、电话号码、电邮地址以及作为紧急联系人的家属的姓名、地",
+   "id": "7e7ecb5f76c00acd",
+   "title": "九号公司 2026 年第三季度归母净利润 3.43 亿元，同比下降 37.18%",
+   "link": "https://www.ithome.com/1/018/011.htm",
+   "summary": "IT之家 10 月 26 日消息，九号公司今日发布 2026 年第三季度（2026 年 7 月～2026 年 9 月）报告： 营业总收入 ：75.85 亿元，同比增长 14.1% 归母净利润 ：3.43 亿元，同比下降 37.18% 扣非净利润 ：2.47 亿元，同比下降 49.21% 基本每股收益 ：4.72 元，同比下降 37.98% 稀释每股收益 ：4.63 元，同比下降 35.69% AI 解读 九号公司 2026 财年第三财季营业收入同比保持双位数增长，收入端表现优于高盛此前预期的 18% 同比增速中枢，但净利润受汇兑损失与成本压力显著低于机构预期。 公司主营业务与本季亮点 九号公司",
    "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "人工智能"
-   ],
-   "time": "16:22",
-   "score": 5.4,
-   "level": 0,
-   "why": "",
-   "tier": ""
-  },
-  {
-   "id": "1d2cc9bea130434d",
-   "title": "日本民众集会抗议：“不要导弹”“反对战争”",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720895.shtml",
-   "summary": "中新网10月26日电 据日本《朝日新闻》报道，当地时间10月24日，日本市民团体在静冈县举行抗议集会，反对美军27日将在日本陆上自卫队东富士演习场开展火箭炮射击训练。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "08:08",
-   "score": 5.4,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
-   "id": "bdb21fcd54ab14da",
-   "title": "有个业务问题，想找技术伙伴聊聊？WISE2026「世界咖啡·产业对接」征集需求中",
-   "link": "https://36kr.com/p/4042414899270790?f=rss",
-   "summary": "如果你有一个具体业务问题，想看看AI或具身智能能不能帮上忙，可以把问题带来，和技术团队坐下来聊聊。 有些技术问题，找懂行的人一起拆开看看 你大概有过这种时候。 公司里总有那么一个环节，明显不顺。可能是客服，工单越堆越多，人手排不开；可能是质检，常年靠人眼盯着，慢，还容易漏；可能是仓库，搬运全靠排班，旺季一忙就打架；也可能是门店，导览、服务这类活儿，人手总是紧巴巴的。 你清楚哪里有问题。你也刷到过不少AI和机器人的消息，看过不少大佬的直播，收藏夹里是盘包浆的“某某行业落地案例”。但真到要往前走一步的时候，心头卡着的其实一直是三个很基础的问题： 我这情况，到底适不适合用这类技术？得先准备什么？靠谱",
-   "source": "36氪",
    "also": [],
    "topics": [
     "科技与产业"
@@ -1666,7 +2207,7 @@
     "AI",
     "机器人"
    ],
-   "time": "15:59",
+   "time": "17:06",
    "score": 5.4,
    "level": 0,
    "why": "",
@@ -1693,34 +2234,74 @@
    "tier": ""
   },
   {
-   "id": "02743508ed9c89f2",
-   "title": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
-   "link": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss",
-   "summary": "Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.",
+   "id": "1d2cc9bea130434d",
+   "title": "日本民众集会抗议：“不要导弹”“反对战争”",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720895.shtml",
+   "summary": "中新网10月26日电 据日本《朝日新闻》报道，当地时间10月24日，日本市民团体在静冈县举行抗议集会，反对美军27日将在日本陆上自卫队东富士演习场开展火箭炮射击训练。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "08:08",
+   "score": 5.4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "73d0d7fb992e6d31",
+   "title": "松下员工违规上传同事及家属信息至 GenAI 服务，影响 33.4 万人",
+   "link": "https://www.ithome.com/1/017/949.htm",
+   "summary": "IT之家 10 月 26 日消息，松下卓越运营 (PEX) 日本当地时间本月 23 日发布公告，就其与子公司松下数字共同开展的人力资源信息系统项目出现的信息违规上传事件进行通告并向受影响者致歉。 根据公告，负责人力资源信息系统项目的一名员工违反既定规则， 将包含现员工、前员工及员工家属的数据上传到禁止使用的外部生成式人工智能服务平台 。 此次事件影响到使用松下集团统一人力资源信息系统的 7.5 万名现员工、17.8 万名前员工、5.5 万名现员工家属、2.6 万名前员工家属， 合计约 33.4 万人 。涉及数据包括现 / 前员工的编号、地址、电话号码、电邮地址以及作为紧急联系人的家属的姓名、地",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "人工智能"
+   ],
+   "time": "16:22",
+   "score": 5.4,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "c069234a3c3e745d",
+   "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
+   "summary": "Kylian Mbappe's two goals at Barcelona have opened up La Liga, as Jose Mourinho's Real Madrid leave Camp Nou with a victory.",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
    "words": [],
-   "time": "07:44",
+   "time": "08:07",
    "score": 5.3,
    "level": 1,
    "why": "",
    "tier": "must"
   },
   {
-   "id": "f5528361f38aadc9",
-   "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
-   "link": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss",
-   "summary": "The Super Bass singer is the latest big name to campaign in Michigan, where a tight Senate race is playing out ahead of the 3 November midterms.",
-   "source": "BBC·国际",
+   "id": "bdb21fcd54ab14da",
+   "title": "有个业务问题，想找技术伙伴聊聊？WISE2026「世界咖啡·产业对接」征集需求中",
+   "link": "https://36kr.com/p/4042414899270790?f=rss",
+   "summary": "如果你有一个具体业务问题，想看看AI或具身智能能不能帮上忙，可以把问题带来，和技术团队坐下来聊聊。 有些技术问题，找懂行的人一起拆开看看 你大概有过这种时候。 公司里总有那么一个环节，明显不顺。可能是客服，工单越堆越多，人手排不开；可能是质检，常年靠人眼盯着，慢，还容易漏；可能是仓库，搬运全靠排班，旺季一忙就打架；也可能是门店，导览、服务这类活儿，人手总是紧巴巴的。 你清楚哪里有问题。你也刷到过不少AI和机器人的消息，看过不少大佬的直播，收藏夹里是盘包浆的“某某行业落地案例”。但真到要往前走一步的时候，心头卡着的其实一直是三个很基础的问题： 我这情况，到底适不适合用这类技术？得先准备什么？靠谱",
+   "source": "36氪",
    "also": [],
-   "topics": [],
-   "words": [],
-   "time": "07:33",
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "机器人"
+   ],
+   "time": "15:59",
    "score": 5.3,
-   "level": 1,
+   "level": 0,
    "why": "",
-   "tier": "must"
+   "tier": ""
   },
   {
    "id": "0a98bf34b85cb061",
@@ -1738,15 +2319,90 @@
    "tier": "must"
   },
   {
-   "id": "fa0a466988f0dc8f",
-   "title": "Deeply divided Israel braces for pivotal election",
-   "link": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
-   "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
+   "id": "02743508ed9c89f2",
+   "title": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
+   "link": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss",
+   "summary": "Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
    "words": [],
-   "time": "06:11",
+   "time": "07:44",
+   "score": 5.3,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "4e1618d82e29daa8",
+   "title": "The presidential election in Brazil is a test of Trump’s power as a kingmaker.",
+   "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-presidential-election-in-brazil-is-a-test-of-trumps-power-as-a-kingmaker",
+   "summary": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:41",
+   "score": 5.3,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "cdaacb77af5d1d25",
+   "title": "A corruption scandal involving a Brazilian Supreme Court justice has shaken up the election.",
+   "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/a-corruption-scandal-involving-a-brazilian-supreme-court-justice-has-shaken-up-the-election",
+   "summary": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:33",
+   "score": 5.2,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "f5528361f38aadc9",
+   "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
+   "link": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss",
+   "summary": "The Super Bass singer is the latest big name to campaign in Michigan, where a tight Senate race is playing out ahead of the 3 November midterms.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:33",
+   "score": 5.2,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "2c5df730988bb529",
+   "title": "Appeals Court Appears to Doubt Justice Dept. Claims in California Ballot Case",
+   "link": "https://www.nytimes.com/2026/10/25/us/elections/midterms-california-mail-ballots-trump.html",
+   "summary": "A federal appeals court panel seemed disinclined to order the state to set aside as many as 20,000 mail-in ballots the Trump administration claimed were sent to noncitizens.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:00",
+   "score": 5.2,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "435d0233001f4abe",
+   "title": "The future of the Amazon rainforest could depend on who wins.",
+   "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-future-of-the-amazon-rainforest-could-depend-on-who-wins",
+   "summary": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "06:40",
    "score": 5.1,
    "level": 1,
    "why": "",
@@ -1768,6 +2424,171 @@
    "tier": "must"
   },
   {
+   "id": "702a395a33790e9a",
+   "title": "Lula has accused Meta of helping his opponent.",
+   "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/lula-has-accused-meta-of-helping-his-opponent",
+   "summary": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "06:13",
+   "score": 5.1,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "fa0a466988f0dc8f",
+   "title": "Deeply divided Israel braces for pivotal election",
+   "link": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+   "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "06:11",
+   "score": 5.1,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "9b1c70fcb7d537a4",
+   "title": "An Iowa Republican’s Unusual Connection to the Kochs (and Kansas)",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/zach-lahn-iowa-governor-kansas-kochs.html",
+   "summary": "In his campaign for governor, Zach Lahn has pitched himself as a self-made businessman. His backstory is more complicated.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:57",
+   "score": 5.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "70b083a2580e79e0",
+   "title": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+   "link": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html",
+   "summary": "The Houthis, an Iran-backed Yemeni militia, launched several deadly attacks on the airport this month.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:39",
+   "score": 5.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "5ef9cb4c35c076c9",
+   "title": "In Texas Senate Race, Talarico Leans Into Growing Rivalry With Elon Musk",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/talarico-musk-texas-senate-paxton-midterms.html",
+   "summary": "On the trail, James Talarico, the Democratic Senate nominee, has increasingly gone after Mr. Musk, a critic of his who has given big to a group aligned with the Republican candidate, Ken Paxton.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:37",
+   "score": 5.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "315099e623a23d11",
+   "title": "A.I. videos flooded the internet in the run-up to the election.",
+   "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/ai-videos-flooded-the-internet-in-the-run-up-to-the-election",
+   "summary": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:18",
+   "score": 5.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "69468a1312c2fa87",
+   "title": "Peltola Postpones Events After ‘Minor Injuries’ in Automobile Collision, Campaign Says",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/peltola-automobile-collision-campaign-events-postponed.html",
+   "summary": "Mary Peltola, Alaska’s Democratic Senate nominee, is rescheduling stops that were planned for Sunday and Monday after the vehicle she was in was struck by another driver Saturday night, according to her campaign.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "04:33",
+   "score": 4.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "9a1da9ea3326a1fd",
+   "title": "Paris, Battened Down Against Riots, Offers Lonely Welcome to Visitors",
+   "link": "https://www.nytimes.com/2026/10/24/world/europe/paris-riots-tourism.html",
+   "summary": "Americans on hand for the N.F.L.’s first-ever game in France found famous museums closed and shops boarded up.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "03:41",
+   "score": 4.8,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "a405a3ed5e7986cc",
+   "title": "A Day After Renewed Street Clashes in France, Relief and Anxiety Mix",
+   "link": "https://www.nytimes.com/2026/10/25/world/europe/france-protests-macron-lepen.html",
+   "summary": "While the police kept a lid on vandalism, the huge number of protesters and France’s fraught politics suggest unrest could grow.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "01:52",
+   "score": 4.5,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "31cb261eacb1fb3d",
+   "title": "Italy’s Young Protesters Return to the Streets",
+   "link": "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots/milan-youth-protests",
+   "summary": "Fed up with the political establishment and rising cost of living, demonstrators hoped to make their message heard after violence overshadowed protests last weekend.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "23:41",
+   "score": 4.3,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "a4f1eaf3a8e876d0",
+   "title": "What These Senate Seats Mean for Progressives",
+   "link": "https://www.nytimes.com/video/us/elections/100000011219565/senate-seats-progressives-michigan-florida-maine.html",
+   "summary": "Our politics reporter Kellen Browning walks through the four Senate races that progressive Democrats are closely watching in the upcoming midterm elections.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "23:41",
+   "score": 4.3,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "6ebf2a85bd414018",
    "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
    "link": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
@@ -1777,7 +2598,7 @@
    "topics": [],
    "words": [],
    "time": "23:32",
-   "score": 4.3,
+   "score": 4.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1807,7 +2628,7 @@
    "topics": [],
    "words": [],
    "time": "22:34",
-   "score": 4.2,
+   "score": 4.1,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1822,6 +2643,111 @@
    "topics": [],
    "words": [],
    "time": "18:55",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "1cd15d81f00ed584",
+   "title": "Democrats Have Edge Across Four Key House Races in Pennsylvania, Polls Find",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/polls-pennsylvania-house-midterms-battlegrounds.html",
+   "summary": "Democratic candidates are ahead in two, hold a narrow edge in a third and are tied in a fourth, new polling shows. The seats embody the fights playing out nationwide in the midterms.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "20:59",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "4bbeacb26607f65a",
+   "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
+   "link": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
+   "summary": "The comments came after the disruption in the country’s satellite service. Earlier, Ukraine said drones using Starshield, the Pentagon-funded service, were back to normal speeds.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:28",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "85f2fbbd2a6526ce",
+   "title": "Berkeley Considers Starting a Public Bank With Taxpayer Dollars",
+   "link": "https://www.nytimes.com/2026/10/25/us/berkeley-california-public-bank.html",
+   "summary": "The bank would offer low-interest loans to community projects in the East Bay region of Northern California.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:01",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "6e85ddae95c87c0e",
+   "title": "Latinos Are Now America’s Most Important Swing Voters",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/latino-voters-poll-midterm-elections.html",
+   "summary": "Latinos helped fuel President Trump’s return to the White House. But Democrats have won back the trust of many Hispanic voters over the past two years.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:01",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "6647f773435f8f86",
+   "title": "Israel’s High-Stakes Election: What to Know",
+   "link": "https://www.nytimes.com/2026/10/25/world/middleeast/israels-high-stakes-election-what-to-know.html",
+   "summary": "Israelis head to the polls on Tuesday for an election that will determine the country’s next prime minister. But it can take weeks, months or longer to form a new government.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:01",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "c71cce7e44fc93a9",
+   "title": "In Deep Red Kansas, a Trump Loyalist Fights to Defend a Senate Seat",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/roger-marshall-kansas-senate.html",
+   "summary": "Senator Roger Marshall was slow to recognize the steep challenge he faced in his solidly conservative state. Now he is confronting dissent among voters with deep economic worries.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:00",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "56874ce3db1236a7",
+   "title": "He Took Big Risks to Make Billions. He Wants Georgia Voters to Bet on Him.",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/he-took-big-risks-to-make-billions-he-wants-georgia-voters-to-bet-on-him.html",
+   "summary": "Rick Jackson’s run for governor as a political nobody was his latest gamble. The campaign has brought scrutiny to the businesses that made him a fortune.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:00",
    "score": 4,
    "level": 1,
    "why": "",
