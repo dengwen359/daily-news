@@ -12,6 +12,6 @@ if not defined PY (
   pause
   exit /b 1
 )
-"%PY%" desktop_notify.py %*
+"%PY%" desktop_notify.py --force %*
 echo.
 pause

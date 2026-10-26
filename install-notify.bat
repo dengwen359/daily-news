@@ -12,7 +12,8 @@ if not defined PY (
   pause
   exit /b 1
 )
-echo 正在安装桌面通知：每天 08:40 和 20:40 各弹一次。
+echo 正在安装桌面通知。
+echo 规则：每天 08:40 起每 30 分钟检查一次，只要当天那份还没收到，开机就补上。
 echo.
 "%PY%" install_notify.py
 echo.

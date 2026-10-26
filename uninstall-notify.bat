@@ -1,5 +1,7 @@
 @echo off
 setlocal
+schtasks /Delete /TN "每日新闻·桌面通知" /F >nul 2>nul
+schtasks /Delete /TN "每日新闻·开机补弹" /F >nul 2>nul
 schtasks /Delete /TN "每日新闻·桌面通知（早）" /F >nul 2>nul
 schtasks /Delete /TN "每日新闻·桌面通知（晚）" /F >nul 2>nul
 del "%USERPROFILE%\Desktop\今日新闻.url" >nul 2>nul

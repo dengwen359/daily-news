@@ -215,16 +215,75 @@ def save_state(st):
         json.dump(st, f, ensure_ascii=False, indent=1)
 
 
-def slot_key(date_str):
-    """早晚各一次，互不打扰"""
-    return f"{date_str}-{'am' if dt.datetime.now().hour < 15 else 'pm'}"
+SLOT_AM, SLOT_PM = 840, 2040      # 08:40 / 20:40，和计划任务里的时间一致
+
+
+def slot_key(date_str, now=None):
+    """手动模式下算当前属于哪一份：15 点前算早上那份，之后算晚上那份"""
+    now = now or dt.datetime.now()
+    return f"{date_str}-{'am' if now.hour < 15 else 'pm'}"
+
+
+def due_slots(now):
+    """今天到此刻为止，本该已经推送过的时段"""
+    hm = now.hour * 100 + now.minute
+    out = []
+    if hm >= SLOT_AM:
+        out.append("am")
+    if hm >= SLOT_PM:
+        out.append("pm")
+    return out
 
 
 # ---------------------------------------------------------------- 主流程
+def run_auto(args):
+    """巡检模式：只在"今天该弹的那份还没弹过"时才真弹，否则一声不响地退出。
+
+    计划任务每 30 分钟跑一次，所以哪怕 08:40 时电脑是关着的，
+    只要当天还没收到过，开机后的下一次巡检就会补上——
+    不需要赌 Windows 的"错过任务补跑"能不能正常工作。
+    """
+    now = dt.datetime.now()
+    today = now.strftime("%Y-%m-%d")
+    st = load_state()
+    due = due_slots(now)
+    if not due:
+        return 0                                  # 还没到今天第一次推送的时间
+    latest = due[-1]
+    if st.get(f"{today}-{latest}"):
+        return 0                                  # 最近这份已经推过，安静退出
+
+    try:
+        date_str, data = latest_day(tries=2, wait=60)
+    except Exception as e:
+        print(f"[巡检] 取不到数据：{e}")
+        return 1
+
+    rows, tag, n_must, n_head, total = pick_items(data, args.lines)
+    is_today = (date_str == today)
+    xml = build_xml(date_str, rows, tag, n_must, n_head, total, is_today)
+
+    if args.dry:
+        print(xml)
+        return 0
+
+    register_app_id()
+    show_toast(xml)
+
+    stamp = now.strftime("%H:%M")
+    for s in due:
+        st.setdefault(f"{today}-{s}", stamp)
+    save_state(st)
+    print(f"[巡检] 补弹 {today} 的 {latest} 那份（数据 {date_str}，共 {total} 条）")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description="把当天新闻推到 Windows 桌面通知")
     ap.add_argument("--date", help="指定日期 YYYY-MM-DD，默认今天（没数据自动往前找）")
     ap.add_argument("--lines", type=int, default=3, help="通知里列几条（默认 3）")
+    ap.add_argument("--auto", action="store_true",
+                    help="巡检模式：该弹就弹，已弹过或还没到时间就静默退出（计划任务用）")
     ap.add_argument("--open", action="store_true", help="只打开网页看板，不弹通知")
     ap.add_argument("--test", action="store_true", help="弹一条测试通知，确认通道可用")
     ap.add_argument("--force", action="store_true", help="今天已经弹过也再弹一次")
@@ -235,6 +294,9 @@ def main():
         webbrowser.open(SITE)
         print("已在浏览器打开：" + SITE)
         return 0
+
+    if args.auto:
+        return run_auto(args)
 
     if args.test:
         xml = ('<toast activationType="protocol" launch="%s" duration="long">'
