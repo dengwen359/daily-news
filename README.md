@@ -188,6 +188,56 @@ email:
 
 ---
 
+## 推到电脑桌面（可选）
+
+手机和邮箱已经有了，电脑这边可以再挂一条**系统通知**：每天早晚各弹一次，写着"必看 N 条"和前 3 条标题，点一下就打开网页看板看全文。
+
+### 装一次
+
+双击项目里的 **`install-notify.bat`**，看到两行 `√ 每天 08:40 自动弹通知` 就装好了。
+
+装的时候做了三件事：
+
+1. 建两个计划任务（每天 **08:40**、**20:40**，比云端抓完晚 10 分钟）；
+2. 用 `pythonw.exe` 跑，不会闪黑窗口；
+3. 桌面放一个「今日新闻」快捷方式，双击直接看。
+
+**电脑那会儿关机怎么办？** 任务设了"错过后尽快启动"，开机后会自动补弹当天的。
+
+### 想立刻试
+
+双击 **`run-notify.bat`**，右下角应该马上弹一条。没反应就双击 `install-notify.bat` 装一遍。
+
+### 它怎么工作的
+
+```
+云端 GitHub Actions 抓取 → data/2026-10-26.json
+        ↓ 本机只读这一步（1～3 秒）
+api.github.com 取回来 → 挑必看 → 弹系统通知
+        ↓ 取不到时
+退回读网页看板里内嵌的数据
+```
+
+不抓网页、不需要令牌、不装第三方库，所以只花流量不花额度。
+
+### 常用参数
+
+```bash
+python desktop_notify.py            # 正常推送（同一天同一时段只弹一次）
+python desktop_notify.py --force    # 无视"已弹过"，再弹一次
+python desktop_notify.py --test     # 弹一条测试通知
+python desktop_notify.py --open     # 只打开网页看板
+python desktop_notify.py --lines 5  # 通知里列 5 条（默认 3 条）
+python desktop_notify.py --dry      # 只打印内容，不弹窗
+python desktop_notify.py --date 2026-10-25   # 看某一天
+```
+
+**不想要了**：双击 `uninstall-notify.bat`，计划任务和桌面快捷方式一起清掉。
+
+> 如果系统通知被"专注助手/勿扰模式"挡了，通知会静默进通知中心，点任务栏右下角的时间就能翻到。
+
+---
+
 ## 当前收录的源
 
 **必收源**（内容全部进「今日重点」，保证不漏）
@@ -272,6 +322,13 @@ news-collector/
 ├── run-now.bat          ← 立即运行一次（含网页）
 ├── run-daily.bat        ← 定时任务实际调用的入口
 ├── uninstall.bat        ← 卸载本地定时任务
+│
+├── desktop_notify.py    ← 电脑桌面通知（从云端取数据后弹窗）
+├── install_notify.py    ← 注册每日通知的计划任务
+├── install-notify.bat   ← 双击安装桌面通知
+├── run-notify.bat       ← 立刻弹一条试试
+├── uninstall-notify.bat ← 取消桌面通知
+├── push_github.py       ← 把文件推到 GitHub（本机 github.com 不通时用）
 │
 ├── reports/             ← Markdown 日报
 │   └── 2026-10-26.md
