@@ -1,8 +1,8 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-26 21:50",
+ "generated_at": "2026-10-26 21:53",
  "hours_window": 30,
- "count": 166,
+ "count": 172,
  "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
@@ -342,7 +342,7 @@
     "美股"
    ],
    "time": "20:39",
-   "score": 10.9,
+   "score": 10.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -521,7 +521,7 @@
     "选举"
    ],
    "time": "10:16",
-   "score": 9.6,
+   "score": 9.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -541,7 +541,7 @@
     "选举"
    ],
    "time": "10:16",
-   "score": 9.6,
+   "score": 9.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -703,6 +703,82 @@
    "level": 1,
    "why": "",
    "tier": "must"
+  },
+  {
+   "id": "f29d1641dfbdff0c",
+   "title": "Anthropic披露巨额算力采购承诺：拟向谷歌采购至少1145亿美元服务",
+   "link": "https://www.jiemian.com/article/15242566.html",
+   "summary": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "算力"
+   ],
+   "time": "21:38",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "c4e41c6691c0a7e4",
+   "title": "费城半导体指数涨1%",
+   "link": "https://www.jiemian.com/article/15242558.html",
+   "summary": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "半导体"
+   ],
+   "time": "21:34",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "3c652a37e7a858d8",
+   "title": "美股三大指数集体高开，巴西在美股上市的公司暴跌",
+   "link": "https://www.jiemian.com/article/15242539.html",
+   "summary": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "美股"
+   ],
+   "time": "21:31",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "7b85848791de0b59",
+   "title": "“用AI拣椒导致裁员”传闻惹争议，老干妈回应信息不实",
+   "link": "https://www.jiemian.com/article/15242502.html",
+   "summary": "AI视觉质检系统落地之后，老干妈关键工序产品不良率降至0.02%。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "21:28",
+   "score": 7.9,
+   "level": 0,
+   "why": "",
+   "tier": ""
   },
   {
    "id": "f09dc2445a72e650",
@@ -878,25 +954,6 @@
    "tier": ""
   },
   {
-   "id": "046dc0181ab91927",
-   "title": "圣邦股份：拟8.33亿元收购模拟芯片公司申矽凌微电子58.29%股份",
-   "link": "https://36kr.com/newsflashes/4042638784074628?f=rss",
-   "summary": "36氪获悉，圣邦股份公告，公司拟使用自有资金、自筹资金及/或H股上市募集资金，以合计8.33亿元收购上海申矽凌微电子科技股份有限公司58.2878%的股份。交易完成后，公司将成为标的公司控股股东，标的公司将成为公司合并报表范围内的控股子公司。标的公司专注于传感器芯片及混合信号芯片设计，产品涵盖温度传感器、温湿度传感器等，应用于工业、医疗、智能穿戴等领域。本次交易不构成关联交易及重大资产重组，属董事会审批权限范围，无需提交股东会审议。",
-   "source": "36氪",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "芯片"
-   ],
-   "time": "20:16",
-   "score": 7.8,
-   "level": 0,
-   "why": "",
-   "tier": ""
-  },
-  {
    "id": "965c43a2e7e98e3c",
    "title": "上纬新材：公司消费级具身智能机器人业务目前处于规模化量产爬坡及商业化验证阶段",
    "link": "https://36kr.com/newsflashes/4042637958534275?f=rss",
@@ -911,6 +968,25 @@
     "机器人"
    ],
    "time": "19:43",
+   "score": 7.8,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "046dc0181ab91927",
+   "title": "圣邦股份：拟8.33亿元收购模拟芯片公司申矽凌微电子58.29%股份",
+   "link": "https://36kr.com/newsflashes/4042638784074628?f=rss",
+   "summary": "36氪获悉，圣邦股份公告，公司拟使用自有资金、自筹资金及/或H股上市募集资金，以合计8.33亿元收购上海申矽凌微电子科技股份有限公司58.2878%的股份。交易完成后，公司将成为标的公司控股股东，标的公司将成为公司合并报表范围内的控股子公司。标的公司专注于传感器芯片及混合信号芯片设计，产品涵盖温度传感器、温湿度传感器等，应用于工业、医疗、智能穿戴等领域。本次交易不构成关联交易及重大资产重组，属董事会审批权限范围，无需提交股东会审议。",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "芯片"
+   ],
+   "time": "20:16",
    "score": 7.8,
    "level": 0,
    "why": "",
@@ -1131,7 +1207,7 @@
     "AI"
    ],
    "time": "17:27",
-   "score": 7.5,
+   "score": 7.4,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1190,6 +1266,27 @@
    ],
    "time": "16:27",
    "score": 7.3,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "cf6d552221b559cb",
+   "title": "伊朗总统会晤麦加协议三国高官",
+   "link": "https://www.jiemian.com/article/15242569.html",
+   "summary": "",
+   "source": "界面新闻",
+   "also": [
+    "中国新闻网·国际"
+   ],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "21:43",
+   "score": 7.0,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1394,6 +1491,21 @@
    "tier": "must"
   },
   {
+   "id": "265c64f3364979f1",
+   "title": "2027年国考345万人通过资格审查，平均报录比97：1",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721321.shtml",
+   "summary": "中新网北京10月26日电(记者 李京统)中央机关及其直属机构2027年度考试录用公务员注册认证、网上报名与资格审查工作分别于2026年10月23日18:00、10月24日18:00和10月26日18:00结束。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "20:23",
+   "score": 6.8,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "ee52a55f14a806c2",
    "title": "英国首相：不会在本届议会提出重返欧盟",
    "link": "https://www.jiemian.com/article/15242376.html",
@@ -1411,21 +1523,6 @@
    "level": 0,
    "why": "",
    "tier": ""
-  },
-  {
-   "id": "265c64f3364979f1",
-   "title": "2027年国考345万人通过资格审查，平均报录比97：1",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721321.shtml",
-   "summary": "中新网北京10月26日电(记者 李京统)中央机关及其直属机构2027年度考试录用公务员注册认证、网上报名与资格审查工作分别于2026年10月23日18:00、10月24日18:00和10月26日18:00结束。",
-   "source": "中国新闻网·国内",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "20:23",
-   "score": 6.8,
-   "level": 1,
-   "why": "",
-   "tier": "must"
   },
   {
    "id": "f67d6b616dc16ceb",
@@ -1461,7 +1558,7 @@
    "id": "de35a87564434bf0",
    "title": "特斯拉FSD获拉脱维亚批准，欧盟批准使用国家增至10个",
    "link": "https://36kr.com/newsflashes/4042641618031745?f=rss",
-   "summary": "特斯拉在社交平台上宣布，拉脱维亚已批准其全自动驾驶系统（FSD）在该国使用。拉脱维亚由此成为欧盟第10个批准��斯拉FSD系统的成员国，标志着该公司自动驾驶技术在欧洲市场的应用范围进一步扩大。（新浪财经）",
+   "summary": "特斯拉在社交平台上宣布，拉脱维亚已批准其全自动驾驶系统（FSD）在该国使用。拉脱维亚由此成为欧盟第10个批准特斯拉FSD系统的成员国，标志着该公司自动驾驶技术在欧洲市场的应用范围进一步扩大。（新浪财经）",
    "source": "36氪",
    "also": [],
    "topics": [
@@ -1947,7 +2044,7 @@
    "topics": [],
    "words": [],
    "time": "14:16",
-   "score": 6.1,
+   "score": 6.0,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1962,21 +2059,6 @@
    "topics": [],
    "words": [],
    "time": "13:59",
-   "score": 6.0,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
-   "id": "56adccdcb55475ec",
-   "title": "Modi’s Plan to Stop India’s Protests",
-   "link": "https://www.nytimes.com/2026/10/25/world/modi-india-protests-brazil-election.html",
-   "summary": "The Indian leader, facing a volatile youth uprising, appears to be deliberately drawing into the fray a political rival he’s beaten before.",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "13:53",
    "score": 6.0,
    "level": 1,
    "why": "",
@@ -2004,6 +2086,21 @@
    "tier": ""
   },
   {
+   "id": "56adccdcb55475ec",
+   "title": "Modi’s Plan to Stop India’s Protests",
+   "link": "https://www.nytimes.com/2026/10/25/world/modi-india-protests-brazil-election.html",
+   "summary": "The Indian leader, facing a volatile youth uprising, appears to be deliberately drawing into the fray a political rival he’s beaten before.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "13:53",
+   "score": 6.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "6ec22c1d2d6b0972",
    "title": "How Obama and Trump Made their Cases in Dueling Midterm Speeches",
    "link": "https://www.nytimes.com/2026/10/25/us/politics/obama-trump-competing-rallies-midterms.html",
@@ -2017,6 +2114,26 @@
    "level": 1,
    "why": "",
    "tier": "must"
+  },
+  {
+   "id": "af1d75f6ee8dfa2d",
+   "title": "苹果发布新款iPad mini：配备8.5英寸OLED屏，起售价5499元",
+   "link": "https://www.jiemian.com/article/15242530.html",
+   "summary": "10月26日，苹果公司发布新款iPad mini，配备8.5英寸OLED显示屏和A20 Pro芯片，机身厚度仅5.4毫米，并支持IP67级抗水防尘。苹果称，新款设备的AI性能最高提升至前代的4.5倍，图形性能最高提升至2.7倍，蜂窝网络数据传输速度最高提升50%。新款iPad mini提供午夜色、星光色两种配色及128GB、256GB、512GB三种容量，10月28日起接受订购，11月6日起正式发售。无线局域网机型起售价为5499元，蜂窝网络机型起售价为6799元；教育优惠起售价为5099元。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "芯片"
+   ],
+   "time": "21:27",
+   "score": 5.9,
+   "level": 0,
+   "why": "",
+   "tier": ""
   },
   {
    "id": "1309215d9769f74f",
@@ -2143,7 +2260,7 @@
    "topics": [],
    "words": [],
    "time": "10:16",
-   "score": 5.6,
+   "score": 5.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2158,7 +2275,7 @@
    "topics": [],
    "words": [],
    "time": "10:15",
-   "score": 5.6,
+   "score": 5.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2173,7 +2290,7 @@
    "topics": [],
    "words": [],
    "time": "10:14",
-   "score": 5.6,
+   "score": 5.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2248,7 +2365,7 @@
     "芯片"
    ],
    "time": "17:28",
-   "score": 5.5,
+   "score": 5.4,
    "level": 0,
    "why": "",
    "tier": ""
@@ -2484,21 +2601,6 @@
    "tier": "must"
   },
   {
-   "id": "435d0233001f4abe",
-   "title": "The future of the Amazon rainforest could depend on who wins.",
-   "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-future-of-the-amazon-rainforest-could-depend-on-who-wins",
-   "summary": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "06:40",
-   "score": 5.1,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
    "id": "3274643ec811211e",
    "title": "Why Israel's election is one of the most important in its history",
    "link": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
@@ -2508,6 +2610,21 @@
    "topics": [],
    "words": [],
    "time": "06:05",
+   "score": 5.1,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "435d0233001f4abe",
+   "title": "The future of the Amazon rainforest could depend on who wins.",
+   "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-future-of-the-amazon-rainforest-could-depend-on-who-wins",
+   "summary": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "06:40",
    "score": 5.1,
    "level": 1,
    "why": "",
