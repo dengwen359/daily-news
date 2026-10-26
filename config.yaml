@@ -339,9 +339,11 @@ keep_days: 90
 #   receiver: "手机@qq.com,电脑@outlook.com"
 # 在 GitHub 上运行时，这些值会被仓库 Secrets 覆盖，密码不会出现在代码里
 email:
-  enabled: false
-  smtp_host: smtp.qq.com
+  enabled: true
+  smtp_host: smtp.139.com          # 中国移动 139 邮箱
   smtp_port: 465
-  sender: your@qq.com
+  # 下面三项在仓库 Secrets 里已配置，运行时会被覆盖。
+  # 这里留占位，避免邮箱地址出现在公开仓库里。
+  sender: ""
   password: ""
-  receiver: your@qq.com
+  receiver: ""
