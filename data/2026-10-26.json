@@ -1,8 +1,8 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-26 21:47",
+ "generated_at": "2026-10-26 21:50",
  "hours_window": 30,
- "count": 165,
+ "count": 166,
  "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
@@ -131,7 +131,7 @@
    "topics": [],
    "words": [],
    "time": "14:59",
-   "score": 14.2,
+   "score": 14.1,
    "level": 2,
    "why": "大选",
    "tier": "must"
@@ -175,7 +175,7 @@
   },
   {
    "id": "9a600a3478e41b1b",
-   "title": "AI giant Anthropic unveils blockbuster stock market debut",
+   "title": "AI giant Anthropic unveils plans for blockbuster share listing",
    "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
    "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
    "source": "BBC·国际",
@@ -834,7 +834,7 @@
     "英伟达"
    ],
    "time": "20:36",
-   "score": 7.9,
+   "score": 7.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1072,7 +1072,7 @@
     "总统"
    ],
    "time": "10:14",
-   "score": 7.6,
+   "score": 7.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1225,6 +1225,23 @@
    "tier": "must"
   },
   {
+   "id": "73bf6b85b72ab684",
+   "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+   "link": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+   "summary": "The R&B star previously pleaded guilty to affray, after attacking a music producer with a glass bottle.",
+   "source": "BBC·国际",
+   "also": [
+    "纽约时报·国际"
+   ],
+   "topics": [],
+   "words": [],
+   "time": "21:25",
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "dfb177f2a2f7fa87",
    "title": "‘Pull Out the Sick Trees’: Xi’s Constant Purges Pave Way for Next Term",
    "link": "https://www.nytimes.com/2026/10/26/world/asia/china-communist-party-xi-forever-purge.html",
@@ -1234,21 +1251,6 @@
    "topics": [],
    "words": [],
    "time": "21:14",
-   "score": 6.9,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
-   "id": "9fcde44e2e127478",
-   "title": "Chris Brown Gets Suspended Prison Sentence Over Nightclub Assault",
-   "link": "https://www.nytimes.com/2026/10/26/arts/music/chris-brown-sentencing.html",
-   "summary": "The singer, 37, had pleaded guilty after hitting a music producer repeatedly in the head with a bottle in London in 2023.",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "21:11",
    "score": 6.9,
    "level": 1,
    "why": "",
@@ -1279,6 +1281,21 @@
    "topics": [],
    "words": [],
    "time": "21:08",
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "9fcde44e2e127478",
+   "title": "Chris Brown Gets Suspended Prison Sentence Over Nightclub Assault",
+   "link": "https://www.nytimes.com/2026/10/26/arts/music/chris-brown-sentencing.html",
+   "summary": "The singer, 37, had pleaded guilty after hitting a music producer repeatedly in the head with a bottle in London in 2023.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:11",
    "score": 6.9,
    "level": 1,
    "why": "",
@@ -1444,7 +1461,7 @@
    "id": "de35a87564434bf0",
    "title": "特斯拉FSD获拉脱维亚批准，欧盟批准使用国家增至10个",
    "link": "https://36kr.com/newsflashes/4042641618031745?f=rss",
-   "summary": "特斯拉在社交平台上宣布，拉脱维亚已批准其全自动驾驶系统（FSD）在该国使用。拉脱维亚由此成为欧盟第10个批准特斯拉FSD系统的成员国，标志着该公司自动驾驶技术在欧洲市场的应用范围进一步扩大。（新浪财经）",
+   "summary": "特斯拉在社交平台上宣布，拉脱维亚已批准其全自动驾驶系统（FSD）在该国使用。拉脱维亚由此成为欧盟第10个批准��斯拉FSD系统的成员国，标志着该公司自动驾驶技术在欧洲市场的应用范围进一步扩大。（新浪财经）",
    "source": "36氪",
    "also": [],
    "topics": [
@@ -2081,7 +2098,7 @@
    "topics": [],
    "words": [],
    "time": "11:02",
-   "score": 5.7,
+   "score": 5.6,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2461,7 +2478,7 @@
    "topics": [],
    "words": [],
    "time": "07:00",
-   "score": 5.2,
+   "score": 5.1,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2506,7 +2523,7 @@
    "topics": [],
    "words": [],
    "time": "06:13",
-   "score": 5.1,
+   "score": 5.0,
    "level": 1,
    "why": "",
    "tier": "must"
