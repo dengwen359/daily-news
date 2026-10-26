@@ -349,8 +349,10 @@ def enrich_items(items, cfg):
     timeout = int(ec.get("timeout", 10))
     workers = int(ec.get("workers", 6))
 
-    # 必看优先，其次按分数
-    order = sorted(items, key=lambda x: (-x.get("level", 0), -x["score"], -(x["ts"] or 0)))
+    # 必看优先，其次中文稿优先（英文稿的 RSS 摘要本来就比较完整），再按分数
+    order = sorted(items, key=lambda x: (-x.get("level", 0),
+                                         0 if is_cjk_text(x.get("title", "")) else 1,
+                                         -x["score"], -(x["ts"] or 0)))
     todo = [it for it in order
             if it.get("link") and len(it.get("summary", "")) < min_chars][:max_items]
     if not todo:
