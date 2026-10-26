@@ -701,13 +701,19 @@ def _also_line(r, style="md"):
     also = r.get("also") or []
     if not also:
         return ""
+    # 老数据里 also 只存了来源名字符串，这里统一兼容一下
+    norm = [(a if isinstance(a, dict) else {"src": str(a), "t": "", "u": ""}) for a in also]
     if style == "md":
         parts = []
-        for a in also[:4]:
-            t = a["t"] if len(a["t"]) <= 22 else a["t"][:22] + "…"
-            parts.append(f"[{a['src']}｜{t}]({a['u']})")
+        for a in norm[:4]:
+            if not a.get("u"):
+                parts.append(a.get("src", ""))
+                continue
+            t = a.get("t", "")
+            label = f"{a['src']}｜{t[:22] + '…' if len(t) > 22 else t}" if t else a["src"]
+            parts.append(f"[{label}]({a['u']})")
         return f"　<sub>同题另报：{' · '.join(parts)}</sub>"
-    parts = [f"{a['src']} {a['u']}" for a in also[:2]]
+    parts = [f"{a['src']} {a['u']}".strip() for a in norm[:2]]
     return "   同题另报：" + "；".join(parts)
 
 
