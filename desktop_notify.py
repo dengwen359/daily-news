@@ -29,59 +29,142 @@ APP_NAME = "每日新闻"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(HERE, ".state", "notified.json")
+CACHE_DIR = os.path.join(HERE, ".state", "cache")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 news-desktop/1.0"
 
 
 # ---------------------------------------------------------------- 取数据
-def _get(url, timeout=25):
-    req = urllib.request.Request(url, headers={"User-Agent": UA,
-                                              "Accept": "application/vnd.github+json"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def _get(url, timeout=25, retries=2, accept="*/*"):
+    """带重试的 GET：SSL 抖动、连接被重置这类毛病重试一次基本就好"""
+    last = None
+    for i in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": UA, "Accept": accept, "Cache-Control": "no-cache"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:
+            last = e
+            if i < retries:
+                time.sleep(2)
+    raise last
+
+
+# ---------------------------------------------------------------- 三个取数通道
+def _parse_site_days(html):
+    """网页看板把全部数据内嵌在 const DATA 里，一次请求能拿到好几天"""
+    i = html.index("const DATA")
+    j = html.index("[", i)
+    days, _ = json.JSONDecoder().raw_decode(html[j:])
+    return days
+
+
+def _site_day_to_data(d, date_str):
+    items = [{
+        "title": x.get("t", ""), "link": x.get("u", ""),
+        "summary": x.get("s", ""), "source": x.get("src", ""),
+        "level": x.get("lv", 0), "time": x.get("tm", ""),
+        "also": x.get("also", []),
+    } for x in d.get("items", [])]
+    return {"date": date_str, "items": items, "count": len(items),
+            "sources_ok": d.get("ok", 0), "sources_total": d.get("tot", 0)}
+
+
+def _cache_path(date_str):
+    return os.path.join(CACHE_DIR, date_str + ".json")
+
+
+def cache_save(date_str, data):
+    try:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        with open(_cache_path(date_str), "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False)
+    except Exception:
+        pass
+
+
+def cache_load(date_str):
+    try:
+        with open(_cache_path(date_str), encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def _fetch_api_day(date_str):
+    raw = _get(f"https://api.github.com/repos/{REPO}/contents/data/{date_str}.json?ref=main",
+               accept="application/vnd.github+json")
+    d = json.loads(raw.decode("utf-8"))
+    return json.loads(base64.b64decode(d["content"]).decode("utf-8"))
 
 
 def load_day(date_str):
-    """读某一天的完整数据；返回 (data, 来源说明)"""
-    api_err = ""
-    try:
-        raw = _get(f"https://api.github.com/repos/{REPO}/contents/data/{date_str}.json?ref=main")
-        d = json.loads(raw.decode("utf-8"))
-        return json.loads(base64.b64decode(d["content"]).decode("utf-8")), "api"
-    except Exception as e:
-        api_err = f"接口: {e}"
+    """按 网页 → 接口 → 本地缓存 取某一天的数据。
 
-    # 备用通道：网页看板把数据内嵌在 const DATA 里，去掉 base64 这一步一样能拿到
+    网页排第一，是因为它不限流：匿名调 GitHub 接口每小时只有 60 次，
+    多跑几次就撞 403（之前正是这么失败的），而网页随便读、还更快。
+    """
+    errs = []
     try:
-        html = _get(SITE, 30).decode("utf-8", "ignore")
-        i = html.index("const DATA")
-        j = html.index("[", i)
-        days, _ = json.JSONDecoder().raw_decode(html[j:])
+        days = _parse_site_days(_get(SITE, 30).decode("utf-8", "ignore"))
         for d in days:
             if d.get("date") == date_str:
-                items = [{
-                    "title": x.get("t", ""), "link": x.get("u", ""),
-                    "summary": x.get("s", ""), "source": x.get("src", ""),
-                    "level": x.get("lv", 0), "time": x.get("tm", ""),
-                    "also": x.get("also", []),
-                } for x in d.get("items", [])]
-                return {
-                    "date": date_str, "items": items, "count": len(items),
-                    "sources_ok": d.get("ok", 0), "sources_total": d.get("tot", 0),
-                }, "网页"
+                data = _site_day_to_data(d, date_str)
+                cache_save(date_str, data)
+                return data, "网页"
+        errs.append("网页: 还没有这一天的数据")
     except Exception as e:
-        raise RuntimeError(f"{api_err}；网页: {e}")
+        errs.append(f"网页: {e}")
+
+    try:
+        data = _fetch_api_day(date_str)
+        cache_save(date_str, data)
+        return data, "接口"
+    except Exception as e:
+        msg = str(e)
+        if "403" in msg:
+            msg = "接口限流（匿名每小时 60 次）"
+        errs.append(f"接口: {msg}")
+
+    data = cache_load(date_str)
+    if data:
+        return data, "本地缓存"
+
+    raise RuntimeError("；".join(errs))
 
 
 def latest_day(max_back=4, tries=1, wait=90):
-    """今天没数据就往回找（云端可能还没跑完），最多返回 max_back 天前"""
+    """今天没数据就往回找（云端可能还没跑完），最多回退 max_back 天"""
     today = dt.date.today()
+    wanted = [(today - dt.timedelta(days=n)).strftime("%Y-%m-%d")
+              for n in range(max_back)]
+
+    # 一次网页请求就能覆盖好几天，不用逐日去问（省时间也省接口配额）
+    site_days = None
+    try:
+        site_days = _parse_site_days(_get(SITE, 30).decode("utf-8", "ignore"))
+    except Exception:
+        site_days = None
+
+    if site_days:
+        have = {d.get("date"): d for d in site_days}
+        for ds in wanted:
+            if ds in have:
+                data = _site_day_to_data(have[ds], ds)
+                cache_save(ds, data)
+                return ds, data, "网页"
+        for ds in wanted:                     # 网页里没有，翻本地缓存
+            c = cache_load(ds)
+            if c:
+                return ds, c, "本地缓存"
+        raise RuntimeError("网页里没有可用的日期，本地也没有缓存")
+
     err = ""
-    for n in range(max_back):
-        day = today - dt.timedelta(days=n)
-        ds = day.strftime("%Y-%m-%d")
+    for ds in wanted:
         for k in range(tries):
             try:
-                return ds, load_day(ds)[0]
+                data, via = load_day(ds)
+                return ds, data, via
             except Exception as e:
                 err = str(e)
                 if k + 1 < tries:
@@ -96,9 +179,15 @@ def pick_items(data, lines=3):
     items = [it for it in (data.get("items") or []) if it.get("title")]
     must = [it for it in items if (it.get("level") or 0) >= 2]
     head = [it for it in items if (it.get("level") or 0) == 1]
-    key = lambda x: (-(x.get("score") or 0), x.get("time") or "")
-    must.sort(key=key)
-    head.sort(key=key)
+
+    def order(rows):
+        # 网页通道没有评分字段，所以先按时间新→旧，再稳定地按级别排
+        rows.sort(key=lambda x: (x.get("time") or "", x.get("score") or 0), reverse=True)
+        rows.sort(key=lambda x: -(x.get("level") or 0))
+        return rows
+
+    order(must)
+    order(head)
 
     rows = must[:lines]
     tag = {id(it): "必看" for it in rows}
@@ -254,7 +343,7 @@ def run_auto(args):
         return 0                                  # 最近这份已经推过，安静退出
 
     try:
-        date_str, data = latest_day(tries=2, wait=60)
+        date_str, data, via = latest_day(tries=1)
     except Exception as e:
         print(f"[巡检] 取不到数据：{e}")
         return 1
@@ -319,17 +408,16 @@ def main():
         return 0
 
     if args.date:
-        date_str, data = args.date, load_day(args.date)[0]
-        src = "api"
+        data, via = load_day(args.date)
+        date_str = args.date
     else:
-        # 计划任务里多等几轮：云端可能刚好还在抓
-        date_str, data = latest_day(tries=3, wait=100)
+        date_str, data, via = latest_day(tries=1)
 
     rows, tag, n_must, n_head, total = pick_items(data, args.lines)
     is_today = (date_str == dt.date.today().strftime("%Y-%m-%d"))
     xml = build_xml(date_str, rows, tag, n_must, n_head, total, is_today)
 
-    print(f"数据日期 {date_str}：共 {total} 条（必看 {n_must} / 要闻 {n_head}）")
+    print(f"数据日期 {date_str}（来源：{via}）：共 {total} 条（必看 {n_must} / 要闻 {n_head}）")
     for i, it in enumerate(rows, 1):
         print(f"  {i}. [{tag[id(it)]}] {it.get('title', '')}")
     print(f"  看板：{SITE}")
