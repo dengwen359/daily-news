@@ -720,7 +720,7 @@ def _also_line(r, style="md"):
 def render_item(r, mark_key=False):
     L = [f"- **[{r['title']}]({r['link']})**",
          f"  <sub>{_meta_line(r, mark_key)}</sub>"]
-    body = (r.get("body") or r.get("summary") or "").strip()
+    body = clean_body_text(r.get("body") or r.get("summary"))
     if body:
         L.append(f"  {body}")
     extra = _also_line(r)
@@ -748,6 +748,26 @@ def cap_by_source(items, per_source):
         else:
             overflow.append(it)
     return keep, overflow
+
+
+def diverse_pick(items, limit, per_source):
+    """按分数挑前 N 条，但同一个源最多占几条，保证邮件里不全是同一家的通稿"""
+    seen, picked = {}, []
+    for it in items:
+        if len(picked) >= limit:
+            break
+        n = seen.get(it["source"], 0)
+        if n >= per_source:
+            continue
+        seen[it["source"]] = n + 1
+        picked.append(it)
+    return picked
+
+
+def clean_body_text(s):
+    s = (s or "").strip()
+    s = re.sub(r"[（(](完|全文|end)[）)]\s*$", "", s).strip()
+    return s
 
 
 def build_report(items, cfg, run_time, feed_stats):
@@ -937,7 +957,7 @@ def build_mail_body(items, cfg, run_time):
             if r.get("why"):
                 meta.append(r["why"])
             L.append("   " + " · ".join(meta))
-            body = (r.get("body") or r.get("summary") or "").strip()
+            body = clean_body_text(r.get("body") or r.get("summary"))
             if body:
                 L.append("   " + trim_sentence(body, body_chars))
             L.append(f"   原文：{r['link']}")
@@ -945,17 +965,22 @@ def build_mail_body(items, cfg, run_time):
             if ext:
                 L.append(ext)
 
-    block("必看", lv2[:n1], "命中货币政策、监管、宏观数据、重大政治事件等必收关键词，保证不遗漏。")
-    if len(lv2) > n1:
-        L.append(f"   还有 {len(lv2) - n1} 条必看内容在网页版")
+    per_src = int(lim.get("mail_per_feed", 4))
+    must_rows = diverse_pick(lv2, n1, per_src)
+    lv1_rows = diverse_pick(lv1_zh, n2, per_src)
+    lv0_rows = diverse_pick(lv0_zh, n3, per_src)
 
-    block("要闻 · 精选", lv1_zh[:n2], "中国新闻网、国家统计局、美联储等权威源的原发内容。")
-    if len(lv1_zh) > n2:
-        L.append(f"   还有 {len(lv1_zh) - n2} 条要闻在网页版")
+    block("必看", must_rows, "命中货币政策、监管、宏观数据、重大政治事件等必收关键词，保证不遗漏。")
+    if len(lv2) > len(must_rows):
+        L.append(f"   还有 {len(lv2) - len(must_rows)} 条必看内容在网页版")
 
-    block("兴趣", lv0_zh[:n3])
-    if len(lv0_zh) > n3:
-        L.append(f"   还有 {len(lv0_zh) - n3} 条在网页版")
+    block("要闻 · 精选", lv1_rows, "中国新闻网、国家统计局、美联储等权威源的原发内容。")
+    if len(lv1_zh) > len(lv1_rows):
+        L.append(f"   还有 {len(lv1_zh) - len(lv1_rows)} 条要闻在网页版")
+
+    block("兴趣", lv0_rows)
+    if len(lv0_zh) > len(lv0_rows):
+        L.append(f"   还有 {len(lv0_zh) - len(lv0_rows)} 条在网页版")
 
     en_rows = lv1_en + lv0_en
     if en_rows:
@@ -1006,14 +1031,37 @@ def send_mail(cfg, subject, body):
     msg["Date"] = formatdate(localtime=True)
     msg["Message-ID"] = make_msgid(domain=sender.split("@")[-1])
     msg["X-Mailer"] = "news-collector"
-    try:
-        ctx = ssl.create_default_context()
-        with smtplib.SMTP_SSL(host, port, context=ctx, timeout=25) as s:
-            s.login(sender, password)
-            s.sendmail(sender, receivers, msg.as_string())
-        print(f"  [邮件] 已发送至 {len(receivers)} 个地址：{', '.join(receivers)}")
-    except Exception as e:
-        print(f"  [邮件] 发送失败：{e}")
+    text = msg.as_string()
+
+    # 465 走 SSL；连不上时退到 587 + STARTTLS。整体重试两轮，
+    # GitHub 跑机器偶尔和邮件服务器握手超时，重试一次基本都能过。
+    plans = [(host, port, port != 465)]
+    if port == 465:
+        plans.append((host, 587, True))
+    last_err = None
+    for attempt in range(2):
+        for h, p, use_tls in plans:
+            try:
+                ctx = ssl.create_default_context()
+                if use_tls:
+                    with smtplib.SMTP(h, p, timeout=30) as s:
+                        s.ehlo()
+                        s.starttls(context=ctx)
+                        s.ehlo()
+                        s.login(sender, password)
+                        s.sendmail(sender, receivers, text)
+                else:
+                    with smtplib.SMTP_SSL(h, p, context=ctx, timeout=30) as s:
+                        s.login(sender, password)
+                        s.sendmail(sender, receivers, text)
+                print(f"  [邮件] 已发送至 {len(receivers)} 个地址：{', '.join(receivers)}"
+                      f"（{h}:{p}）")
+                return
+            except Exception as e:
+                last_err = e
+                print(f"  [邮件] 第 {attempt + 1} 轮 {h}:{p} 失败：{e}")
+        time.sleep(5)
+    print(f"  [邮件] 发送失败：{last_err}")
 
 
 def load_today_json(cfg, date_str):

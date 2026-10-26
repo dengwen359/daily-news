@@ -361,6 +361,7 @@ limits:
   mail_must: 20       # 邮件里必看最多给几条
   mail_level1: 12     # 邮件里要闻最多给几条
   mail_interest: 8    # 邮件里兴趣最多给几条
+  mail_per_feed: 4    # 邮件里同一个源最多占几条（避免一整封都是同一家通稿）
   mail_en: 3          # 邮件里外媒原文最多列几条标题
   mail_body_chars: 180  # 邮件里每条正文摘录最多多少字（太长容易被 139 当垃圾邮件）
 
