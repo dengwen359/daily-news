@@ -24,6 +24,7 @@ import argparse
 import datetime as dt
 import urllib.request
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.mime.text import MIMEText
 from email.header import Header
 from email.utils import parsedate_to_datetime, formatdate, make_msgid
@@ -236,6 +237,141 @@ def parse_time(s):
     return None
 
 
+# ---------------------------------------------------------------- 正文提取
+# RSS 摘要经常只有一句导语（"中新网北京10月26日电(记者 xxx)…"），
+# 真正的内容要点拿不到。所以打开原文页面，把正文前几段抽出来放进日报。
+_BODY_SKIP = re.compile(
+    r"(责任编辑|责编\s*[:：]|编辑\s*[:：]|来源\s*[:：]|供稿|原标题|扫一扫|二维码|分享到|"
+    r"点击进入|点击查看|转载请注明|免责声明|版权声明|相关阅读|相关新闻|延伸阅读|"
+    r"上一篇|下一篇|热门推荐|猜你喜欢|责任编辑|Copyright|All rights reserved|"
+    r"Sign up|Subscribe|Read more|Advertisement|Cookie|JavaScript)", re.I)
+_CREDIT_LINE = re.compile(r"^[（(][^）)]{0,40}(记者|编辑|摄影|通讯员|编译)[^）)]{0,60}[）)]$")
+_CUT_MARK = re.compile(
+    r"(相关阅读|相关新闻|延伸阅读|推荐阅读|猜你喜欢|热门推荐|责任编辑|责编\s*[:：]|"
+    r"版权声明|免责声明|扫一扫|class=\"[^\"]*(?:related|recommend|ydtj|hotnews|tuijian)[^\"]*\")", re.I)
+_SENT_END = re.compile(r"[。！？…”’][\"'”’]?$|[.!?][\"'”’)]$")
+
+
+def _clean_para(s):
+    s = re.sub(r"<[^>]*>", "", s)
+    s = html.unescape(s)
+    s = s.replace("\u3000", " ").replace("\xa0", " ").replace("\u200b", "")
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def trim_sentence(text, limit):
+    """按句号截断，不要把一个句子砍一半"""
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    ends = list(re.finditer(r"[。！？…]|[.!?](?=\s|$)", cut))
+    if ends and ends[-1].end() >= limit * 0.5:
+        return cut[:ends[-1].end()]
+    return cut.rstrip() + "…"
+
+
+def extract_body(page, target_chars=280, title=""):
+    """从新闻页面 HTML 里抽出正文前几段"""
+    page = re.sub(r"<!--.*?-->", " ", page, flags=re.S)   # 注释里常藏着残留标签
+    scope = page
+    # 尽量缩小到正文容器，找不到就用整页
+    for pat in (r'<article[^>]*>(.*?)</article>',
+                r'<div[^>]+(?:id|class)="[^"]*(?:article|content|detail|post|body|txt)[^"]*"[^>]*>(.*)'):
+        m = re.search(pat, page, re.S | re.I)
+        if m and m.group(1).count("<p") >= 2:
+            scope = m.group(1)
+            break
+
+    tnorm = norm_title(title)
+    paras, blank = [], 0
+    for m in re.finditer(r"<p[^>]*>(.*?)</p>", scope, re.S | re.I):
+        blk = m.group(1)
+        p = _clean_para(blk)
+        if len(p) < 10:
+            continue
+        # 整段被 <a> 包住的，是"相关推荐"里的标题链接，不是正文
+        head = scope[:m.start()]
+        if head.rfind("<a ") > head.rfind("</a>"):
+            blank += 1
+            if blank >= 2 and paras:
+                break
+            continue
+        if _BODY_SKIP.search(p) or _CREDIT_LINE.match(p) or "-->" in p:
+            continue
+        if tnorm and norm_title(p)[:12] == tnorm[:12]:
+            continue                      # 正文第一段往往是标题重复
+        # 正文里的段落一般不带链接；带链接的短段落基本都是"相关推荐"的标题
+        looks_like_headline = ("<a " in blk.lower() and len(p) < 70) or (
+            not _SENT_END.search(p) and len(p) < 60)
+        if looks_like_headline:
+            blank += 1
+            if blank >= 2 and paras:
+                break                     # 后面是推荐阅读的标题列表
+            continue
+        blank = 0
+        if p not in paras:
+            paras.append(p)
+        if sum(len(x) for x in paras) >= target_chars:
+            break
+
+    if not paras:
+        m = re.search(
+            r'<meta[^>]+(?:name|property)="(?:description|og:description)"[^>]+content="([^"]{40,})"',
+            page, re.I)
+        if m:
+            paras = [_clean_para(m.group(1))]
+
+    if not paras:
+        return ""
+    sep = "" if is_cjk_text(paras[0]) else " "
+    return trim_sentence(sep.join(paras), target_chars)
+
+
+def fetch_body(url, target_chars=280, timeout=10, title=""):
+    try:
+        page = fetch(url, timeout=timeout, retries=0)
+    except Exception:
+        return ""
+    try:
+        return extract_body(page, target_chars, title)
+    except Exception:
+        return ""
+
+
+def enrich_items(items, cfg):
+    """给摘要过短的新闻补抓正文，让每条下面都有内容可读"""
+    ec = cfg.get("enrich", {}) or {}
+    if ec.get("enabled", True) is False:
+        return
+    target = int(ec.get("target_chars", 280))
+    min_chars = int(ec.get("min_chars", 150))
+    max_items = int(ec.get("max_items", 60))
+    timeout = int(ec.get("timeout", 10))
+    workers = int(ec.get("workers", 6))
+
+    # 必看优先，其次按分数
+    order = sorted(items, key=lambda x: (-x.get("level", 0), -x["score"], -(x["ts"] or 0)))
+    todo = [it for it in order
+            if it.get("link") and len(it.get("summary", "")) < min_chars][:max_items]
+    if not todo:
+        return
+    print(f"  补抓正文：{len(todo)} 条（并发 {workers}）…")
+    done = 0
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futs = {ex.submit(fetch_body, it["link"], target, timeout, it["title"]): it for it in todo}
+        for f in as_completed(futs):
+            it = futs[f]
+            try:
+                body = f.result()
+            except Exception:
+                body = ""
+            if body and len(body) > len(it.get("summary", "")):
+                it["body"] = body
+                it["summary"] = body
+                done += 1
+    print(f"  补抓正文：{done}/{len(todo)} 条成功")
+
+
 # ---------------------------------------------------------------- 过滤打分
 def _kw_pattern(kw):
     """
@@ -299,8 +435,14 @@ def item_id(link, title):
 
 
 def norm_title(t):
-    """标题归一化：去掉标点空格，便于比较相似度"""
-    t = re.sub(r"[^\w\u4e00-\u9fff]", "", (t or "").lower())
+    """标题归一化：去掉栏目前缀和标点空格，便于比较相似度"""
+    t = t or ""
+    # 去掉"外媒：""快讯丨""【独家】"这类栏目前缀，它们会让同一事件的标题看起来不一样
+    t = re.sub(r"^\s*(?:【[^】]{0,10}】\s*)+", "", t)
+    t = re.sub(
+        r"^\s*(?:外媒|快讯|快讯丨|直击|独家|视频|受权发布|受权发布丨|观察|观察丨|聚焦|关注|"
+        r"热点|现场|图集|专访|解读|评论|重磅|最新|突发|视频丨|直播)[：:丨|\s]+\s*", "", t)
+    t = re.sub(r"[^\w\u4e00-\u9fff]", "", t.lower())
     return t
 
 
@@ -329,6 +471,11 @@ def similar(a, b):
         return False
     if a == b:
         return True
+    # 数字对不上的一定不是同一条：公司财报、行情、比分这类标题句式一模一样，
+    # 只有数字不同（"紫光国微…10.45 亿元" vs "长川科技…17.65 亿元"）
+    na, nb = numbers_in(a), numbers_in(b)
+    if na and nb and na != nb:
+        return False
     short, long_ = (a, b) if len(a) <= len(b) else (b, a)
     # 短标题被长标题完整包含，且长度接近（防止"AI"这种短词误判）
     if len(short) >= 8 and short in long_ and len(short) / len(long_) >= 0.72:
@@ -360,6 +507,161 @@ def ratio_close(a, b):
     return 2.0 * inter / (len(A) + len(B))
 
 
+# ---------------------------------------------------------------- 同一事件聚类
+# 标题相似度只能抓住"用词几乎一样"的稿子，抓不住：
+#   「卢拉将第四次出任巴西总统」/「外媒：巴西总统卢拉赢得连任」/「外交部：中方祝贺卢拉在巴西总统大选中获胜」
+# 这几条是同一件事，但标题写法差得远、相似度只有 0.3 左右。
+# 所以换一种判法：把两条标题共有的原文片段找出来（"巴西总统""卢拉"），
+# 去掉"外交部""表示""事故"这类官话套话之后，如果共有的实体片段够长、够多，
+# 就判定为同一事件——合并成一条，其余来源作为"同题另报"链接列出，一条都不丢。
+_CJK_RUN = re.compile(r"[\u4e00-\u9fff]+")
+_LATIN_WORD = re.compile(r"[A-Za-z][A-Za-z'-]{2,}")
+
+# 官话套话：出现在共有片段里就丢掉，它们不能证明两条新闻讲的是同一件事
+_ENT_BAD = (
+    "外交", "交部", "发言", "言人", "记者", "采访", "报道", "消息", "表示", "宣布",
+    "发布", "举行", "召开", "会议", "工作", "情况", "有关", "相关", "方面", "问题",
+    "进行", "推进", "加强", "推动", "发展", "建设", "管理", "服务", "活动", "内容",
+    "时间", "地方", "今年", "去年", "明年", "目前", "近日", "今天", "昨天", "我们",
+    "他们", "其中", "此外", "以及", "通过", "实现", "事故", "发生", "致人", "受伤",
+    "死亡", "遇难", "救援", "调查", "原因", "一起", "多人", "全国", "国家", "美国",
+    "中国", "中方", "美方", "双方", "国际", "全球", "世界", "市场", "公司", "亿元",
+    "美元", "同比", "增长", "下降", "上涨", "下跌", "季度", "净利润", "营收",
+    "反对", "呼吁", "谴责", "支持", "合作", "携手", "一道", "继续", "深化", "促进",
+    # 行业/主题大类词：两条新闻都提到"新能源汽车"不代表讲的是同一件事
+    "新能源", "能源", "汽车", "机器人", "智能", "芯片", "手机", "半导体", "电动车",
+    "房地产", "银行", "股市", "股价", "医药", "军工", "航天", "人工智能",
+)
+
+_EN_STOP = {
+    "the", "and", "for", "with", "from", "that", "this", "who", "why", "how",
+    "what", "after", "before", "over", "into", "says", "said", "new", "his",
+    "her", "its", "are", "was", "were", "has", "have", "had", "will", "would",
+    "could", "should", "not", "but", "they", "their", "you", "your", "about",
+    "more", "most", "than", "then", "when", "where", "which", "while", "amid",
+    "ahead", "against", "between", "during", "under", "also", "just", "one",
+    "two", "three", "first", "last", "next", "back", "down", "out", "off",
+    "top", "get", "gets", "can", "may", "now", "still", "even", "here",
+    "there", "these", "those", "such", "some", "many", "much", "very",
+}
+
+_NUM_TOKEN = re.compile(r"\d+(?:\.\d+)?")
+
+
+def numbers_in(s):
+    return set(_NUM_TOKEN.findall(s or ""))
+
+
+def is_cjk_text(s):
+    return bool(re.search(r"[\u4e00-\u9fff]", s or ""))
+
+
+def common_spans(a, b, min_len=2):
+    """两条标题共有的原文片段（重叠的会合并成一段）"""
+    if not a or not b:
+        return []
+    la, lb = len(a), len(b)
+    dp = [[0] * (lb + 1) for _ in range(la + 1)]
+    raw = []
+    for i in range(1, la + 1):
+        for j in range(1, lb + 1):
+            if a[i - 1] == b[j - 1]:
+                v = dp[i - 1][j - 1] + 1
+                dp[i][j] = v
+                if v >= min_len:
+                    raw.append((i, v))
+    if not raw:
+        return []
+    # 只保留"自身已是最长"的匹配，再把重叠的合并
+    spans = []
+    for i, v in raw:
+        if any(i2 == i and v2 > v for i2, v2 in raw):
+            continue
+        spans.append((i - v, v))
+    spans.sort()
+    merged = []
+    for s0, L in spans:
+        if merged and s0 <= merged[-1][0] + merged[-1][1]:
+            ps, pl = merged[-1]
+            merged[-1] = (ps, max(ps + pl, s0 + L) - ps)
+        else:
+            merged.append((s0, L))
+    return [a[s0:s0 + L] for s0, L in merged]
+
+
+def same_event(a, b, same_source=False):
+    """两条归一化标题是否在讲同一件事"""
+    if not a or not b:
+        return False
+    if is_cjk_text(a) != is_cjk_text(b):
+        return False           # 中英文稿不做跨语言匹配（没有翻译能力，容易误判）
+    # 数字对不上的一定不是同一条：财报、行情类标题句式一模一样，只有数字不同
+    na, nb = numbers_in(a), numbers_in(b)
+    if na and nb and na != nb:
+        return False
+
+    if not is_cjk_text(a):
+        wa = {w for w in _LATIN_WORD.findall(a.lower()) if w not in _EN_STOP}
+        wb = {w for w in _LATIN_WORD.findall(b.lower()) if w not in _EN_STOP}
+        inter = wa & wb
+        return len(inter) >= 4 and len(inter) / max(1, min(len(wa), len(wb))) >= 0.5
+
+    if similar(a, b):
+        return True
+
+    spans = [sp for sp in common_spans(a, b)
+             if not any(bad in sp for bad in _ENT_BAD)]
+    if not spans:
+        return False
+    total = sum(len(sp) for sp in spans)
+    longest = max(len(sp) for sp in spans)
+    if same_source:
+        # 同一家媒体：共享 4 个字以上的实体片段就算（同一编辑部常换角度重写）
+        return longest >= 4 and total >= 4
+    # 不同来源：要求更硬，避免把同一主题的两条不同新闻合并掉
+    return longest >= 6 and total >= 8
+
+
+def cluster_items(items):
+    """把讲同一件事的条目合并成一条，其余来源挂在 also 里，链接一个不丢"""
+    norms = [norm_title(it.get("title", "")) for it in items]
+    clusters = []
+    for idx, it in enumerate(items):
+        home = None
+        for cl in clusters:
+            if len(cl["members"]) >= 5:
+                continue
+            m = cl["rep"]          # 只跟代表条目比，避免 A→B→C 的连环误合并
+            if same_event(norms[idx], norms[m],
+                          same_source=(it.get("group") == items[m].get("group"))):
+                home = cl
+                break
+        if home:
+            home["members"].append(idx)
+        else:
+            clusters.append({"rep": idx, "members": [idx]})
+
+    out = []
+    for cl in clusters:
+        rep = items[cl["rep"]]
+        also = []
+        for m in cl["members"][1:]:
+            other = items[m]
+            also.append({
+                "src": other.get("source", ""),
+                "t": other.get("title", ""),
+                "u": other.get("link", ""),
+            })
+            # 合并时保留更高的重要级别和命中的必收词
+            if other.get("level", 0) > rep.get("level", 0):
+                rep["level"] = other["level"]
+            if other.get("why") and not rep.get("why"):
+                rep["why"] = other["why"]
+        rep["also"] = also
+        out.append(rep)
+    return out
+
+
 # ---------------------------------------------------------------- 状态
 def load_state():
     if os.path.exists(STATE_PATH):
@@ -380,20 +682,92 @@ def save_state(state, max_age_days=7):
 
 
 # ---------------------------------------------------------------- 生成报告
+def _meta_line(r, mark_key=False):
+    bits = []
+    if r["dt"]:
+        bits.append(r["dt"].strftime("%m-%d %H:%M"))
+    bits.append(r["source"])
+    if mark_key:
+        if r.get("why"):
+            bits.append(f"**{r['why']}**")
+        elif r.get("tier") == "must":
+            bits.append("**权威源**")
+    elif r["words"]:
+        bits.append(f"命中 {'、'.join(r['words'][:4])}")
+    return " · ".join(bits)
+
+
+def _also_line(r, style="md"):
+    also = r.get("also") or []
+    if not also:
+        return ""
+    if style == "md":
+        parts = []
+        for a in also[:4]:
+            t = a["t"] if len(a["t"]) <= 22 else a["t"][:22] + "…"
+            parts.append(f"[{a['src']}｜{t}]({a['u']})")
+        return f"　<sub>同题另报：{' · '.join(parts)}</sub>"
+    parts = [f"{a['src']} {a['u']}" for a in also[:2]]
+    return "   同题另报：" + "；".join(parts)
+
+
+def render_item(r, mark_key=False):
+    L = [f"- **[{r['title']}]({r['link']})**",
+         f"  <sub>{_meta_line(r, mark_key)}</sub>"]
+    body = (r.get("body") or r.get("summary") or "").strip()
+    if body:
+        L.append(f"  {body}")
+    extra = _also_line(r)
+    if extra:
+        L.append(extra)
+    L.append("")
+    return L
+
+
+def split_en(items):
+    """英文稿单独放一块：中英文没法比对，混在中文里会显得重复"""
+    en = [it for it in items if not is_cjk_text(it.get("title", ""))]
+    zh = [it for it in items if is_cjk_text(it.get("title", ""))]
+    return zh, en
+
+
+def cap_by_source(items, per_source):
+    """每个源最多留几条，多的折叠起来（避免一个源刷满整屏）"""
+    seen, keep, overflow = {}, [], []
+    for it in items:
+        n = seen.get(it["source"], 0)
+        if n < per_source:
+            seen[it["source"]] = n + 1
+            keep.append(it)
+        else:
+            overflow.append(it)
+    return keep, overflow
+
+
 def build_report(items, cfg, run_time, feed_stats):
     hw = cfg.get("hours_window", 30)
     topics = cfg.get("topics", {}) or {}
+    lim = cfg.get("limits", {}) or {}
+    per_src = int(lim.get("max_per_feed", 8))
+    per_topic = int(lim.get("max_per_topic", 12))
 
-    # 分级抽出：2=必看（命中必收词） 1=要闻（权威源） 0=普通
     lv2 = [it for it in items if it.get("level", 0) == 2]
     lv1 = [it for it in items if it.get("level", 0) == 1]
-    key_items = lv2 + lv1
-    key_ids = {it["id"] for it in key_items}
+    key_ids = {it["id"] for it in lv2 + lv1}
     rest = [it for it in items if it["id"] not in key_ids]
+
+    lv2.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
+    lv1.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
+
+    # 中文/英文分开：英文源没法和中文稿比对，混排会显得同一件事出现两次
+    lv1_zh, lv1_en = split_en(lv1)
+    rest_zh, rest_en = split_en(rest)
+
+    lv1_show, lv1_more = cap_by_source(lv1_zh, per_src)
 
     grouped = {name: [] for name in topics}
     grouped["其他"] = []
-    for it in rest:
+    for it in rest_zh:
         placed = False
         for t in it["topics"]:
             if t in grouped:
@@ -406,62 +780,33 @@ def build_report(items, cfg, run_time, feed_stats):
     sources_ok = sum(1 for v in feed_stats.values() if v["ok"])
     sources_fail = len(feed_stats) - sources_ok
 
-    def render_item(r, mark_key=False):
-        L = []
-        t = r["dt"].strftime("%m-%d %H:%M") if r["dt"] else ""
-        L.append(f"- [{r['title']}]({r['link']})")
-        meta = []
-        if t:
-            meta.append(t)
-        meta.append(r["source"])
-        if r.get("also"):
-            meta.append("多家报道")
-        if mark_key:
-            if r.get("why"):
-                meta.append(f"**{r['why']}**")
-            elif r.get("tier") == "must":
-                meta.append("**权威源**")
-        elif r["words"]:
-            meta.append(f"命中 {'、'.join(r['words'][:4])}")
-        L.append(f"  <sub>{' · '.join(meta)}</sub>")
-        if r["summary"]:
-            s = r["summary"][:170]
-            L.append(f"  {s}{'…' if len(r['summary']) > 170 else ''}")
-        L.append("")
-        return L
-
     L = []
     L.append(f"# 每日新闻简报 · {run_time.strftime('%Y-%m-%d')}")
     L.append("")
     L.append(f"> 生成时间：{run_time.strftime('%Y-%m-%d %H:%M')}　|　"
              f"必看 **{len(lv2)}** 条 · 要闻 **{len(lv1)}** 条 · 全部 **{total}** 条　|　"
              f"时间窗：最近 {hw} 小时")
-    L.append(f"> 信息源：{sources_ok} 个正常" + (f"，{sources_fail} 个暂不可用（已自动跳过）" if sources_fail else ""))
+    L.append(f"> 信息源：{sources_ok} 个正常" +
+             (f"，{sources_fail} 个暂不可用（已自动跳过）" if sources_fail else ""))
+    L.append("> 每条都带原文链接和正文摘录；同一事件多家报道只列一条，其余收在“同题另报”。")
     L.append("")
 
-    # ---- 必看（命中央行、美联储、CPI、全会等硬新闻关键词） ----
     if lv2:
-        lv2.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
         L.append(f"## ★★ 必看（{len(lv2)} 条）")
         L.append("")
         L.append("> 命中货币政策、监管政策、宏观数据、重大政治事件等必收关键词。**这部分保证不遗漏。**")
         L.append("")
         for r in lv2:
             L.extend(render_item(r, mark_key=True))
-        L.append("")
 
-    # ---- 要闻（权威源当天的其他新闻） ----
-    if lv1:
-        lv1.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
-        L.append(f"## ★ 要闻（{len(lv1)} 条）")
+    if lv1_show:
+        L.append(f"## ★ 要闻（{len(lv1)} 条，先列 {len(lv1_show)} 条）")
         L.append("")
         L.append("> 来自中国新闻网、国家统计局、美联储等权威源的原发内容。")
         L.append("")
-        for r in lv1:
+        for r in lv1_show:
             L.extend(render_item(r, mark_key=True))
-        L.append("")
 
-    # 概览
     L.append("## 今日概览")
     L.append("")
     if lv2:
@@ -471,20 +816,58 @@ def build_report(items, cfg, run_time, feed_stats):
     for name in list(topics.keys()) + ["其他"]:
         if grouped[name]:
             L.append(f"- **{name}**：{len(grouped[name])} 条")
+    if rest_en or lv1_en:
+        L.append(f"- **外媒原文**：{len(lv1_en) + len(rest_en)} 条（英文）")
     L.append("")
 
-    # 各主题明细
     for name in list(topics.keys()) + ["其他"]:
         rows = grouped[name]
         if not rows:
             continue
         rows.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
+        show, more = rows[:per_topic], rows[per_topic:]
         L.append(f"## {name}（{len(rows)} 条）")
         L.append("")
-        for r in rows:
+        for r in show:
             L.extend(render_item(r))
+        if more:
+            L.append("<details><summary>展开该主题其余 "
+                     f"{len(more)} 条</summary>")
+            L.append("")
+            for r in more:
+                L.extend(render_item(r))
+            L.append("</details>")
+            L.append("")
 
-    # 源状态
+    # 要闻超出的部分折叠，不丢内容但不占版面
+    if lv1_more:
+        L.append(f"### 要闻 · 其余 {len(lv1_more)} 条")
+        L.append("")
+        L.append("<details><summary>展开全部</summary>")
+        L.append("")
+        for r in lv1_more:
+            L.extend(render_item(r, mark_key=True))
+        L.append("</details>")
+        L.append("")
+
+    en_all = lv1_en + rest_en
+    if en_all:
+        en_all.sort(key=lambda x: (-x.get("level", 0), -x["score"], -(x["ts"] or 0)))
+        show, more = cap_by_source(en_all, int(lim.get("max_per_feed_en", 5)))
+        L.append(f"## 外媒原文 · 英文（{len(en_all)} 条）")
+        L.append("")
+        L.append("> BBC、纽约时报等英文源的原始报道，按源限量，方便对照着看外媒口径。")
+        L.append("")
+        for r in show:
+            L.extend(render_item(r, mark_key=(r.get("level", 0) > 0)))
+        if more:
+            L.append("<details><summary>其余外媒报道</summary>")
+            L.append("")
+            for r in more:
+                L.extend(render_item(r, mark_key=(r.get("level", 0) > 0)))
+            L.append("</details>")
+            L.append("")
+
     L.append("---")
     L.append("")
     L.append("<details><summary>信息源状态</summary>")
@@ -501,47 +884,90 @@ def build_report(items, cfg, run_time, feed_stats):
 
 
 def build_mail_body(items, cfg, run_time):
-    """精简版邮件正文。
+    """邮件正文。
 
-    完整日报有上百条、上百个链接，直接塞进邮件会被反垃圾机制拦截
-    （实测 139 邮箱返回 450 Mail rejected）。所以邮件只负责"提醒 + 重点"：
-    必看逐条给标题和原文链接，要闻只列标题，完整内容引导去网页看。
+    邮件要满足三件事：每条有原文链接、每条有正文摘录、条数不能太多。
+    所以必看全给，要闻和兴趣各按分数取前若干条，其余引导去网页看。
     """
+    lim = cfg.get("limits", {}) or {}
+    n1 = int(lim.get("mail_must", 20))
+    n2 = int(lim.get("mail_level1", 12))
+    n3 = int(lim.get("mail_interest", 8))
+    en_n = int(lim.get("mail_en", 3))
+    body_chars = int(lim.get("mail_body_chars", 180))
+
     lv2 = [it for it in items if it.get("level", 0) == 2]
     lv1 = [it for it in items if it.get("level", 0) == 1]
     lv0 = [it for it in items if it.get("level", 0) == 0]
+    for lst in (lv2, lv1, lv0):
+        lst.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
+
+    lv1_zh, lv1_en = split_en(lv1)
+    lv0_zh, lv0_en = split_en(lv0)
     hour = run_time.hour
     edition = "早报" if hour < 15 else "晚报"
     site = cfg.get("site_url", "")
 
     L = []
     L.append(f"新闻{edition} · {run_time.strftime('%Y年%m月%d日')}")
-    L.append("=" * 30)
+    L.append("=" * 34)
     L.append(f"共 {len(items)} 条：必看 {len(lv2)} · 要闻 {len(lv1)} · 兴趣 {len(lv0)}")
     L.append(f"生成于 {run_time.strftime('%H:%M')}，覆盖最近 {cfg.get('hours_window', 30)} 小时")
-    L.append("")
 
-    if lv2:
-        L.append("【必看】")
-        L.append("-" * 30)
-        for i, r in enumerate(lv2, 1):
+    def block(title, rows, note=""):
+        if not rows:
+            return
+        L.append("")
+        L.append(f"【{title}】")
+        L.append("-" * 34)
+        if note:
+            L.append(note)
+        for i, r in enumerate(rows, 1):
             L.append(f"{i}. {r['title']}")
-            L.append(f"   {r['source']}" + (f" · {r['why']}" if r.get("why") else ""))
-        L.append("")
+            meta = []
+            if r["dt"]:
+                meta.append(r["dt"].strftime("%m-%d %H:%M"))
+            meta.append(r["source"])
+            if r.get("why"):
+                meta.append(r["why"])
+            L.append("   " + " · ".join(meta))
+            body = (r.get("body") or r.get("summary") or "").strip()
+            if body:
+                L.append("   " + trim_sentence(body, body_chars))
+            L.append(f"   原文：{r['link']}")
+            ext = _also_line(r, style="mail")
+            if ext:
+                L.append(ext)
 
-    if lv1:
-        L.append(f"【要闻】共 {len(lv1)} 条")
-        L.append("-" * 30)
-        for r in lv1:
-            L.append(f"· {r['title']}")
+    block("必看", lv2[:n1], "命中货币政策、监管、宏观数据、重大政治事件等必收关键词，保证不遗漏。")
+    if len(lv2) > n1:
+        L.append(f"   还有 {len(lv2) - n1} 条必看内容在网页版")
+
+    block("要闻 · 精选", lv1_zh[:n2], "中国新闻网、国家统计局、美联储等权威源的原发内容。")
+    if len(lv1_zh) > n2:
+        L.append(f"   还有 {len(lv1_zh) - n2} 条要闻在网页版")
+
+    block("兴趣", lv0_zh[:n3])
+    if len(lv0_zh) > n3:
+        L.append(f"   还有 {len(lv0_zh) - n3} 条在网页版")
+
+    en_rows = lv1_en + lv0_en
+    if en_rows:
         L.append("")
+        L.append(f"【外媒原文 · {len(en_rows)} 条，先列 {min(en_n, len(en_rows))} 条】")
+        L.append("-" * 34)
+        for r in en_rows[:en_n]:
+            L.append(f"· {r['title']}")
+            L.append(f"  {r['source']}　{r['link']}")
 
     if site:
-        L.append("=" * 30)
-        L.append(f"完整日报（含原文链接、可翻历史）：{site}")
+        L.append("")
+        L.append("=" * 34)
+        L.append(f"完整 {len(items)} 条（按主题分类、可翻历史）：")
+        L.append(site)
         L.append("")
 
-    L.append("— 新闻收集器自动发送")
+    L.append("— 新闻收集器自动发送，不要回复本邮件")
     return "\n".join(L), edition
 
 
@@ -615,6 +1041,7 @@ def load_today_json(cfg, date_str):
             "title": title,
             "link": link,
             "summary": it.get("summary", ""),
+            "body": it.get("body", ""),
             "source": it.get("source", ""),
             "topics": it.get("topics", []) or [],
             "words": it.get("words", []) or [],
@@ -627,6 +1054,7 @@ def load_today_json(cfg, date_str):
             "level": it.get("level", 0),
             "why": it.get("why", ""),
             "tier": it.get("tier", ""),
+            "group": it.get("group", ""),
         })
     return out
 
@@ -651,9 +1079,10 @@ def write_json(items, cfg, run_time, feed_stats):
                 "id": it["id"],
                 "title": it["title"],
                 "link": it["link"],
-                "summary": it["summary"][:300],
+                "summary": it["summary"][:400],
+                "body": it.get("body", "")[:400],
                 "source": it["source"],
-                "also": it.get("also", []),
+                "also": it.get("also", [])[:5],
                 "topics": it["topics"],
                 "words": it["words"][:5],
                 "time": it["dt"].strftime("%H:%M") if it["dt"] else "",
@@ -661,6 +1090,7 @@ def write_json(items, cfg, run_time, feed_stats):
                 "level": it.get("level", 0),
                 "why": it.get("why", ""),
                 "tier": it.get("tier", ""),
+                "group": it.get("group", ""),
             }
             for it in items
         ],
@@ -832,6 +1262,7 @@ def main():
                     "level": level,
                     "why": hit_must[0] if hit_must else "",
                     "tier": fd.get("tier", ""),
+                    "group": fd.get("group") or name,
                 }
                 cnt += 1
             feed_stats[name] = {"ok": True, "count": cnt, "error": ""}
@@ -848,27 +1279,12 @@ def main():
 
     items = list(pool.values())
 
-    # ---- 跨源同题去重：保留权重最高的一条，记录还有哪些源也报了 ----
-    items.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
-    deduped = []
-    for it in items:
-        nt = norm_title(it["title"])
-        dup_of = None
-        for kept in deduped:
-            if similar(nt, kept["ntitle"]):
-                dup_of = kept
-                break
-        if dup_of is not None:
-            if it["source"] not in dup_of["also"] and it["source"] != dup_of["source"]:
-                dup_of["also"].append(it["source"])
-            continue
-        it["ntitle"] = nt
-        it["also"] = []
-        deduped.append(it)
-    dropped = len(items) - len(deduped)
-    if dropped:
-        print(f"  同题去重：合并 {dropped} 条重复报道")
-    items = deduped
+    # ---- 同一事件合并：巴西大选被六家媒体各写一条，只留一条，其余挂在"同题另报" ----
+    items.sort(key=lambda x: (-x["level"], -x["score"], -(x["ts"] or 0)))
+    before = len(items)
+    items = cluster_items(items)
+    if before > len(items):
+        print(f"  同题合并：{before} 条合并为 {len(items)} 条（其余来源记在“同题另报”）")
 
     # 过滤已推送过的（首次运行不启用，避免第一天空白）
     # --no-dedup 时跳过这一步：云端每天只跑一次，不需要增量过滤
@@ -882,6 +1298,9 @@ def main():
 
     items.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
     print(f"\n本次新增 {len(items)} 条")
+
+    # 摘要太短的去原文页面补抓正文，让每条新闻下面都有实质内容
+    enrich_items(items, cfg)
 
     # 同一天多次运行时，把新内容累加到已有日报，而不是覆盖。
     # 一天跑两次时，晚上那次不会因为某个源临时失败而丢掉早上的内容。

@@ -203,18 +203,21 @@ title_excludes:
 feeds:
   # ---------- 国内权威源（必收） ----------
   - name: 中国新闻网·国内
+    group: chinanews
     url: https://www.chinanews.com.cn/rss/china.xml
     topic_hint: 时政国际
     tier: must
     enabled: true
 
   - name: 中国新闻网·国际
+    group: chinanews
     url: https://www.chinanews.com.cn/rss/world.xml
     topic_hint: 时政国际
     tier: must
     enabled: true
 
   - name: 国家统计局·数据发布
+    group: stats
     url: https://www.stats.gov.cn/sj/zxfb/rss.xml
     topic_hint: 财经投资
     tier: must
@@ -248,6 +251,7 @@ feeds:
 
   # ---------- 海外权威源（必收，需云端运行） ----------
   - name: 美联储·货币政策
+    group: fed
     url: https://www.federalreserve.gov/feeds/press_monetary.xml
     topic_hint: 财经投资
     tier: must
@@ -255,6 +259,7 @@ feeds:
     enabled: true
 
   - name: 美联储·全部公告
+    group: fed
     url: https://www.federalreserve.gov/feeds/press_all.xml
     topic_hint: 财经投资
     tier: must
@@ -262,12 +267,14 @@ feeds:
     enabled: true
 
   - name: 美国证监会SEC
+    group: sec
     url: https://www.sec.gov/news/pressreleases.rss
     topic_hint: 财经投资
     intl: true
     enabled: true
 
   - name: 纽约时报·国际
+    group: nyt
     url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
     topic_hint: 时政国际
     tier: must
@@ -275,6 +282,7 @@ feeds:
     enabled: true
 
   - name: 纽约时报·美国
+    group: nyt
     url: https://rss.nytimes.com/services/xml/rss/nyt/US.xml
     topic_hint: 时政国际
     tier: must
@@ -282,12 +290,14 @@ feeds:
     enabled: true
 
   - name: 纽约时报·商业
+    group: nyt
     url: https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
     topic_hint: 财经投资
     intl: true
     enabled: true
 
   - name: BBC·国际
+    group: bbc
     url: https://feeds.bbci.co.uk/news/world/rss.xml
     topic_hint: 时政国际
     tier: must
@@ -295,12 +305,14 @@ feeds:
     enabled: true
 
   - name: BBC·商业
+    group: bbc
     url: https://feeds.bbci.co.uk/news/business/rss.xml
     topic_hint: 财经投资
     intl: true
     enabled: true
 
   - name: NPR·国际
+    group: npr
     url: https://feeds.npr.org/1004/rss.xml
     topic_hint: 时政国际
     intl: true
@@ -328,6 +340,29 @@ hours_window: 30
 # 有些源的 RSS 不带发布时间（如部分党媒），无法判断新旧，
 # 每个这种源最多取前 N 条，避免倒出整个历史库
 max_undated: 15
+
+# ---------- 正文补抓 ----------
+# RSS 摘要常常只有一句导语（"中新网北京10月26日电（记者 xxx）…"），
+# 打开不够的会去原文页面把正文前几段抓下来，这样每条新闻下面都有实质内容。
+enrich:
+  enabled: true
+  min_chars: 150      # 摘要短于这个字数才去抓原文
+  target_chars: 300   # 抓到后保留多少字（超过按句号截断）
+  max_items: 60       # 单次最多抓多少条，控制运行时间
+  timeout: 10
+  workers: 6          # 并发数，太高容易被网站限流
+
+# ---------- 条数控制 ----------
+# 一份日报塞太多条会看不完，所以按源限量：超出部分折叠到"其余"里，不丢内容。
+limits:
+  max_per_feed: 8     # 中文权威源每个源最多先列几条
+  max_per_topic: 12   # 每个兴趣主题最多先列几条
+  max_per_feed_en: 5  # 英文源每个源最多先列几条
+  mail_must: 20       # 邮件里必看最多给几条
+  mail_level1: 12     # 邮件里要闻最多给几条
+  mail_interest: 8    # 邮件里兴趣最多给几条
+  mail_en: 3          # 邮件里外媒原文最多列几条标题
+  mail_body_chars: 180  # 邮件里每条正文摘录最多多少字（太长容易被 139 当垃圾邮件）
 
 # ---------- 输出 ----------
 output_dir: reports

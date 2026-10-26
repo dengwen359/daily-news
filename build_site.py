@@ -15,7 +15,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 OUT_DIR = os.path.join(BASE_DIR, "docs")
 MAX_DAYS = 60          # 只保留最近 60 天，控制页面体积
-SUMMARY_LIMIT = 150    # 摘要截断字数
+SUMMARY_LIMIT = 240    # 正文摘录截断字数
 
 
 def load_all():
@@ -70,7 +70,7 @@ def build_html(days):
             items.append({
                 "t": it.get("title", ""),
                 "u": it.get("link", ""),
-                "s": short(it.get("summary", "")),
+                "s": short(it.get("body") or it.get("summary", "")),
                 "src": it.get("source", ""),
                 "also": it.get("also", []),
                 "tp": it.get("topics", []),
@@ -171,6 +171,9 @@ def build_html(days):
     padding:1px 7px;border-radius:4px;font-size:11.5px;font-weight:550;
   }}
   .sum{{font-size:13.5px;color:var(--tx2);margin-top:9px;line-height:1.65}}
+  .also{{font-size:12px;color:var(--tx3);margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}}
+  .also a{{color:var(--accent);text-decoration:none}}
+  .also a:hover{{text-decoration:underline}}
 
   .empty{{text-align:center;color:var(--tx3);padding:50px 0;font-size:14px}}
   footer{{text-align:center;color:var(--tx3);font-size:12px;margin-top:34px}}
@@ -280,7 +283,7 @@ function itemHTML(it, lv){{
   const meta = [];
   if (it.tm) meta.push(it.tm);
   if (it.src) meta.push(it.src);
-  if ((it.also||[]).length) meta.push('多家报道');
+  if ((it.also||[]).length) meta.push(`同题 ${{it.also.length}} 家`);
   if (showWhy) {{
     if (it.wy) meta.push(`<b>${{esc(it.wy)}}</b>`);
     else if (it.tr === 'must') meta.push('<b>权威源</b>');
@@ -293,6 +296,11 @@ function itemHTML(it, lv){{
         (i ? '<span class="dot">·</span>' : '') + `<span>${{m}}</span>`
       ).join('') + '</div>';
   if (it.s) h += `<div class="sum">${{esc(it.s)}}</div>`;
+  if ((it.also||[]).length) {{
+    h += '<div class="also">同题另报：' + it.also.map(a =>
+      `<a href="${{esc(a.u)}}" target="_blank" rel="noopener">${{esc(a.src)}}</a>`
+    ).join(' · ') + '</div>';
+  }}
   h += '</div>';
   return h;
 }}
