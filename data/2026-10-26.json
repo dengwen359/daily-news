@@ -1,8 +1,8 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-26 21:34",
+ "generated_at": "2026-10-26 21:47",
  "hours_window": 30,
- "count": 161,
+ "count": 165,
  "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
@@ -46,7 +46,7 @@
     "选举"
    ],
    "time": "14:54",
-   "score": 18.2,
+   "score": 18.1,
    "level": 2,
    "why": "大选",
    "tier": "must"
@@ -101,7 +101,7 @@
    "topics": [],
    "words": [],
    "time": "20:32",
-   "score": 14.9,
+   "score": 14.8,
    "level": 2,
    "why": "巡视",
    "tier": "must"
@@ -116,7 +116,7 @@
    "topics": [],
    "words": [],
    "time": "17:16",
-   "score": 14.5,
+   "score": 14.4,
    "level": 2,
    "why": "国务院",
    "tier": "must"
@@ -174,6 +174,28 @@
    "tier": ""
   },
   {
+   "id": "9a600a3478e41b1b",
+   "title": "AI giant Anthropic unveils blockbuster stock market debut",
+   "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+   "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
+   "source": "BBC·国际",
+   "also": [
+    "IT之家",
+    "36氪"
+   ],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "21:46",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
    "id": "38233fe176c0b95b",
    "title": "亚洲开发银行提供7200万美元融资支持柬埔寨农业发展",
    "link": "https://www.chinanews.com.cn/gj/2026/10-26/10721350.shtml",
@@ -187,7 +209,7 @@
     "融资"
    ],
    "time": "21:12",
-   "score": 12.0,
+   "score": 11.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -210,7 +232,7 @@
     "算力"
    ],
    "time": "18:06",
-   "score": 11.6,
+   "score": 11.5,
    "level": 0,
    "why": "",
    "tier": ""
@@ -261,6 +283,27 @@
    "level": 1,
    "why": "",
    "tier": "must"
+  },
+  {
+   "id": "cc8bb705fdeafda4",
+   "title": "Anthropic提交IPO注册文件，拟以“ANT”为代码在纳斯达克上市",
+   "link": "https://www.jiemian.com/article/15242492.html",
+   "summary": "10月26日，人工智能初创公司Anthropic向美国证券交易委员会提交S-1注册文件，计划首次公开发行A类普通股，并申请在纳斯达克全球精选市场以“ANT”为股票代码上市。文件尚未披露发行股数、价格区间及具体发行日期。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "人工智能",
+    "IPO"
+   ],
+   "time": "21:05",
+   "score": 10.9,
+   "level": 0,
+   "why": "",
+   "tier": ""
   },
   {
    "id": "42a16c31284a341f",
@@ -417,7 +460,7 @@
     "外交"
    ],
    "time": "15:35",
-   "score": 10.3,
+   "score": 10.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -524,25 +567,6 @@
    "tier": "must"
   },
   {
-   "id": "65bbfca5efa1aa55",
-   "title": "力箭二号遥二运载火箭转运至发射区",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721136.shtml",
-   "summary": "今天(26日)，我国自主研制的力箭二号遥二运载火箭在东风商业航天创新试验区转运至专属发射工位，进入发射前的关键准备阶段，近期择机发射。",
-   "source": "中国新闻网·国内",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "商业航天"
-   ],
-   "time": "15:19",
-   "score": 9.2,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
    "id": "f2563c59a86581d6",
    "title": "国家能源局：我国风光累计装机容量突破20亿千瓦",
    "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721128.shtml",
@@ -556,6 +580,25 @@
     "新能源"
    ],
    "time": "15:06",
+   "score": 9.2,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "65bbfca5efa1aa55",
+   "title": "力箭二号遥二运载火箭转运至发射区",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721136.shtml",
+   "summary": "今天(26日)，我国自主研制的力箭二号遥二运载火箭在东风商业航天创新试验区转运至专属发射工位，进入发射前的关键准备阶段，近期择机发射。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "商业航天"
+   ],
+   "time": "15:19",
    "score": 9.2,
    "level": 1,
    "why": "",
@@ -637,7 +680,7 @@
     "外交"
    ],
    "time": "15:39",
-   "score": 8.3,
+   "score": 8.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -810,7 +853,7 @@
     "债市"
    ],
    "time": "20:25",
-   "score": 7.9,
+   "score": 7.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -854,25 +897,6 @@
    "tier": ""
   },
   {
-   "id": "b7b96d42bfc43a37",
-   "title": "央视曝光新能源汽车充电桩“电动自行车充电神器”转接头：无安全认证、极易引发火灾",
-   "link": "https://www.ithome.com/1/018/138.htm",
-   "summary": "IT之家 10 月 26 日消息，随着新能源汽车的普及，很多停车场都配有相应的充电设施。不过有部分民众擅自用新能源汽车充电桩为电动自行车充电，结果引发了火灾。 据央视新闻报道，今年 9 月 21 日 21 时许，上海市奉贤区一小区停车场发生火灾，火灾导致充电桩、电动自行车等烧损、烧毁。 ▲ 图源央视新闻 事后，经调查，该事故系居民擅自将转接头接入新能源汽车充电桩，为电动自行车充电，充电过程中电气线路出现故障，最终引发火灾。所幸事故未造成人员伤亡。 央视新闻表示，业界一些被称为“电动自行车充电神器”的转接头，无安全认证、无保护机制，存在安全隐患，极易引发火灾。民众绝不应当利用新能源汽车充电桩为电",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "新能源"
-   ],
-   "time": "20:04",
-   "score": 7.8,
-   "level": 0,
-   "why": "",
-   "tier": ""
-  },
-  {
    "id": "965c43a2e7e98e3c",
    "title": "上纬新材：公司消费级具身智能机器人业务目前处于规模化量产爬坡及商业化验证阶段",
    "link": "https://36kr.com/newsflashes/4042637958534275?f=rss",
@@ -887,6 +911,25 @@
     "机器人"
    ],
    "time": "19:43",
+   "score": 7.8,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "b7b96d42bfc43a37",
+   "title": "央视曝光新能源汽车充电桩“电动自行车充电神器”转接头：无安全认证、极易引发火灾",
+   "link": "https://www.ithome.com/1/018/138.htm",
+   "summary": "IT之家 10 月 26 日消息，随着新能源汽车的普及，很多停车场都配有相应的充电设施。不过有部分民众擅自用新能源汽车充电桩为电动自行车充电，结果引发了火灾。 据央视新闻报道，今年 9 月 21 日 21 时许，上海市奉贤区一小区停车场发生火灾，火灾导致充电桩、电动自行车等烧损、烧毁。 ▲ 图源央视新闻 事后，经调查，该事故系居民擅自将转接头接入新能源汽车充电桩，为电动自行车充电，充电过程中电气线路出现故障，最终引发火灾。所幸事故未造成人员伤亡。 央视新闻表示，业界一些被称为“电动自行车充电神器”的转接头，无安全认证、无保护机制，存在安全隐患，极易引发火灾。民众绝不应当利用新能源汽车充电桩为电",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "新能源"
+   ],
+   "time": "20:04",
    "score": 7.8,
    "level": 0,
    "why": "",
@@ -908,7 +951,7 @@
     "算力"
    ],
    "time": "19:42",
-   "score": 7.8,
+   "score": 7.7,
    "level": 0,
    "why": "",
    "tier": ""
@@ -966,7 +1009,7 @@
     "半导体"
    ],
    "time": "18:52",
-   "score": 7.7,
+   "score": 7.6,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1049,7 +1092,7 @@
     "数据中心"
    ],
    "time": "18:00",
-   "score": 7.6,
+   "score": 7.5,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1107,7 +1150,7 @@
     "AI"
    ],
    "time": "17:12",
-   "score": 7.5,
+   "score": 7.4,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1146,10 +1189,40 @@
     "机器人"
    ],
    "time": "16:27",
-   "score": 7.4,
+   "score": 7.3,
    "level": 0,
    "why": "",
    "tier": ""
+  },
+  {
+   "id": "a17941d9bcac75b9",
+   "title": "台当局筹设学院培养基础科学人才 被曝招生计划延期",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721361.shtml",
+   "summary": "中新社台北10月26日电 据台湾《联合报》26日报道，台当局教育事务主管部门近期筹设台湾高等研究学院(Taiwan Academy of Advanced Studies，简称“TAAS”)与台湾科学实验高级中等学校(简称“台湾实中”)。TAAS原计划明年9月迎来首批学生，日前却传出因执行问题，暂缓招生。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:35",
+   "score": 7.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "08af244134c0ff73",
+   "title": "Lula Defeats Bolsonaro for Brazil Presidency, in Blow to Latin America’s Right",
+   "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
+   "summary": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago.",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:34",
+   "score": 7.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
   },
   {
    "id": "dfb177f2a2f7fa87",
@@ -1161,7 +1234,7 @@
    "topics": [],
    "words": [],
    "time": "21:14",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1176,7 +1249,7 @@
    "topics": [],
    "words": [],
    "time": "21:11",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1206,21 +1279,6 @@
    "topics": [],
    "words": [],
    "time": "21:08",
-   "score": 6.9,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
-   "id": "08af244134c0ff73",
-   "title": "Lula Defeats Bolsonaro for Brazil Presidency, in Blow to Latin America’s Right",
-   "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
-   "summary": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago.",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "21:06",
    "score": 6.9,
    "level": 1,
    "why": "",
@@ -1332,7 +1390,7 @@
     "欧盟"
    ],
    "time": "20:29",
-   "score": 6.9,
+   "score": 6.8,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1347,7 +1405,7 @@
    "topics": [],
    "words": [],
    "time": "20:23",
-   "score": 6.9,
+   "score": 6.8,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1428,7 +1486,22 @@
    "topics": [],
    "words": [],
    "time": "19:39",
-   "score": 6.8,
+   "score": 6.7,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "a070a609d948e2be",
+   "title": "Marci Webber Killed Her Child. When Should the Mental Hospital Free Her?",
+   "link": "https://www.nytimes.com/2026/10/25/us/marci-webber-mental-hospital-lindsay-clancy.html",
+   "summary": "Marci Webber was institutionalized after being convicted by reason of insanity for killing her 4-year-old daughter. For years she has said she is cured and should be freed.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "19:36",
+   "score": 6.7,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1535,7 +1608,7 @@
    "topics": [],
    "words": [],
    "time": "18:03",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1550,7 +1623,7 @@
    "topics": [],
    "words": [],
    "time": "18:00",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1610,7 +1683,7 @@
    "topics": [],
    "words": [],
    "time": "17:19",
-   "score": 6.5,
+   "score": 6.4,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1752,7 +1825,7 @@
     "算力"
    ],
    "time": "08:34",
-   "score": 6.4,
+   "score": 6.3,
    "level": 0,
    "why": "",
    "tier": ""
@@ -1767,7 +1840,7 @@
    "topics": [],
    "words": [],
    "time": "16:34",
-   "score": 6.4,
+   "score": 6.3,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1797,7 +1870,7 @@
    "topics": [],
    "words": [],
    "time": "15:40",
-   "score": 6.3,
+   "score": 6.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1812,7 +1885,7 @@
    "topics": [],
    "words": [],
    "time": "14:58",
-   "score": 6.2,
+   "score": 6.1,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1827,7 +1900,7 @@
    "topics": [],
    "words": [],
    "time": "14:53",
-   "score": 6.2,
+   "score": 6.1,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1872,7 +1945,7 @@
    "topics": [],
    "words": [],
    "time": "13:59",
-   "score": 6.1,
+   "score": 6.0,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -1887,21 +1960,6 @@
    "topics": [],
    "words": [],
    "time": "13:53",
-   "score": 6.0,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
-   "id": "6ec22c1d2d6b0972",
-   "title": "How Obama and Trump Made their Cases in Dueling Midterm Speeches",
-   "link": "https://www.nytimes.com/2026/10/25/us/politics/obama-trump-competing-rallies-midterms.html",
-   "summary": "At rallies this weekend, Mr. Obama and Mr. Trump delivered two starkly contrasting pitches, differing in style and substance.",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "13:40",
    "score": 6.0,
    "level": 1,
    "why": "",
@@ -1927,6 +1985,21 @@
    "level": 0,
    "why": "",
    "tier": ""
+  },
+  {
+   "id": "6ec22c1d2d6b0972",
+   "title": "How Obama and Trump Made their Cases in Dueling Midterm Speeches",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/obama-trump-competing-rallies-midterms.html",
+   "summary": "At rallies this weekend, Mr. Obama and Mr. Trump delivered two starkly contrasting pitches, differing in style and substance.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "13:40",
+   "score": 6.0,
+   "level": 1,
+   "why": "",
+   "tier": "must"
   },
   {
    "id": "1309215d9769f74f",
@@ -2023,7 +2096,7 @@
    "topics": [],
    "words": [],
    "time": "10:53",
-   "score": 5.7,
+   "score": 5.6,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2098,7 +2171,7 @@
    "topics": [],
    "words": [],
    "time": "10:06",
-   "score": 5.6,
+   "score": 5.5,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2173,7 +2246,7 @@
    "topics": [],
    "words": [],
    "time": "09:12",
-   "score": 5.5,
+   "score": 5.4,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2208,6 +2281,26 @@
     "机器人"
    ],
    "time": "17:06",
+   "score": 5.4,
+   "level": 0,
+   "why": "",
+   "tier": ""
+  },
+  {
+   "id": "73d0d7fb992e6d31",
+   "title": "松下员工违规上传同事及家属信息至 GenAI 服务，影响 33.4 万人",
+   "link": "https://www.ithome.com/1/017/949.htm",
+   "summary": "IT之家 10 月 26 日消息，松下卓越运营 (PEX) 日本当地时间本月 23 日发布公告，就其与子公司松下数字共同开展的人力资源信息系统项目出现的信息违规上传事件进行通告并向受影响者致歉。 根据公告，负责人力资源信息系统项目的一名员工违反既定规则， 将包含现员工、前员工及员工家属的数据上传到禁止使用的外部生成式人工智能服务平台 。 此次事件影响到使用松下集团统一人力资源信息系统的 7.5 万名现员工、17.8 万名前员工、5.5 万名现员工家属、2.6 万名前员工家属， 合计约 33.4 万人 。涉及数据包括现 / 前员工的编号、地址、电话号码、电邮地址以及作为紧急联系人的家属的姓名、地",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "人工智能"
+   ],
+   "time": "16:22",
    "score": 5.4,
    "level": 0,
    "why": "",
@@ -2249,24 +2342,19 @@
    "tier": "must"
   },
   {
-   "id": "73d0d7fb992e6d31",
-   "title": "松下员工违规上传同事及家属信息至 GenAI 服务，影响 33.4 万人",
-   "link": "https://www.ithome.com/1/017/949.htm",
-   "summary": "IT之家 10 月 26 日消息，松下卓越运营 (PEX) 日本当地时间本月 23 日发布公告，就其与子公司松下数字共同开展的人力资源信息系统项目出现的信息违规上传事件进行通告并向受影响者致歉。 根据公告，负责人力资源信息系统项目的一名员工违反既定规则， 将包含现员工、前员工及员工家属的数据上传到禁止使用的外部生成式人工智能服务平台 。 此次事件影响到使用松下集团统一人力资源信息系统的 7.5 万名现员工、17.8 万名前员工、5.5 万名现员工家属、2.6 万名前员工家属， 合计约 33.4 万人 。涉及数据包括现 / 前员工的编号、地址、电话号码、电邮地址以及作为紧急联系人的家属的姓名、地",
-   "source": "IT之家",
+   "id": "0a98bf34b85cb061",
+   "title": "日本小笠原群岛附近海域发生5.6级地震 震源深度500千米",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720878.shtml",
+   "summary": "中新网10月26日电 据日本TBS电视台报道，当地时间26日7时15分左右，日本小笠原群岛附近海域发生5.6级地震，震源深度500千米。",
+   "source": "中国新闻网·国际",
    "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "人工智能"
-   ],
-   "time": "16:22",
-   "score": 5.4,
-   "level": 0,
+   "topics": [],
+   "words": [],
+   "time": "07:11",
+   "score": 5.3,
+   "level": 1,
    "why": "",
-   "tier": ""
+   "tier": "must"
   },
   {
    "id": "c069234a3c3e745d",
@@ -2304,21 +2392,6 @@
    "tier": ""
   },
   {
-   "id": "0a98bf34b85cb061",
-   "title": "日本小笠原群岛附近海域发生5.6级地震 震源深度500千米",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720878.shtml",
-   "summary": "中新网10月26日电 据日本TBS电视台报道，当地时间26日7时15分左右，日本小笠原群岛附近海域发生5.6级地震，震源深度500千米。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "07:11",
-   "score": 5.3,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
    "id": "02743508ed9c89f2",
    "title": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
    "link": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss",
@@ -2328,7 +2401,7 @@
    "topics": [],
    "words": [],
    "time": "07:44",
-   "score": 5.3,
+   "score": 5.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2343,7 +2416,7 @@
    "topics": [],
    "words": [],
    "time": "07:41",
-   "score": 5.3,
+   "score": 5.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2448,7 +2521,7 @@
    "topics": [],
    "words": [],
    "time": "06:11",
-   "score": 5.1,
+   "score": 5.0,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2508,7 +2581,7 @@
    "topics": [],
    "words": [],
    "time": "05:18",
-   "score": 5.0,
+   "score": 4.9,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2523,7 +2596,7 @@
    "topics": [],
    "words": [],
    "time": "04:33",
-   "score": 4.9,
+   "score": 4.8,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2538,7 +2611,7 @@
    "topics": [],
    "words": [],
    "time": "03:41",
-   "score": 4.8,
+   "score": 4.7,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2568,7 +2641,7 @@
    "topics": [],
    "words": [],
    "time": "23:41",
-   "score": 4.3,
+   "score": 4.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2583,7 +2656,7 @@
    "topics": [],
    "words": [],
    "time": "23:41",
-   "score": 4.3,
+   "score": 4.2,
    "level": 1,
    "why": "",
    "tier": "must"
@@ -2643,6 +2716,21 @@
    "topics": [],
    "words": [],
    "time": "18:55",
+   "score": 4,
+   "level": 1,
+   "why": "",
+   "tier": "must"
+  },
+  {
+   "id": "56874ce3db1236a7",
+   "title": "He Took Big Risks to Make Billions. He Wants Georgia Voters to Bet on Him.",
+   "link": "https://www.nytimes.com/2026/10/25/us/politics/he-took-big-risks-to-make-billions-he-wants-georgia-voters-to-bet-on-him.html",
+   "summary": "Rick Jackson’s run for governor as a political nobody was his latest gamble. The campaign has brought scrutiny to the businesses that made him a fortune.",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "17:00",
    "score": 4,
    "level": 1,
    "why": "",
@@ -2728,21 +2816,6 @@
    "title": "In Deep Red Kansas, a Trump Loyalist Fights to Defend a Senate Seat",
    "link": "https://www.nytimes.com/2026/10/25/us/politics/roger-marshall-kansas-senate.html",
    "summary": "Senator Roger Marshall was slow to recognize the steep challenge he faced in his solidly conservative state. Now he is confronting dissent among voters with deep economic worries.",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "17:00",
-   "score": 4,
-   "level": 1,
-   "why": "",
-   "tier": "must"
-  },
-  {
-   "id": "56874ce3db1236a7",
-   "title": "He Took Big Risks to Make Billions. He Wants Georgia Voters to Bet on Him.",
-   "link": "https://www.nytimes.com/2026/10/25/us/politics/he-took-big-risks-to-make-billions-he-wants-georgia-voters-to-bet-on-him.html",
-   "summary": "Rick Jackson’s run for governor as a political nobody was his latest gamble. The campaign has brought scrutiny to the businesses that made him a fortune.",
    "source": "纽约时报·美国",
    "also": [],
    "topics": [],
