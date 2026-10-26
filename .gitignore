@@ -1,0 +1,12 @@
+# 本地运行的增量去重记录，不需要上传
+.state/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
