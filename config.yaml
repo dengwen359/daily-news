@@ -1,0 +1,347 @@
+# ===== 新闻收集器配置 =====
+# 想改关注方向，只改这个文件就行，不用碰代码。
+
+# ============================================================
+# 必收规则（保证不遗漏）
+# ============================================================
+# 命中下面这些词的内容，不管来自哪个源、有没有命中兴趣主题，
+# 都会被放进报告的「今日重点」区，置顶显示。
+# 这是"不能漏"的保险网，宁可多收，不会漏掉。
+must_watch:
+  keywords:
+    # ---- 货币政策 / 央行 ----
+    - CPI
+    - PPI
+    - 居民消费价格
+    - 工业生产者价格
+    - 货币政策
+    - 降准
+    - 降息
+    - 加息
+    - LPR
+    - 中期借贷便利
+    - MLF
+    - 公开市场操作
+    - 逆回购
+    - 净投放
+    - 央行
+    - 人民银行
+    - 中国人民银行
+    - 外汇储备
+    - 社融
+    - 社会融资
+    - 人民币汇率
+    - 中间价
+    # ---- 美联储 ----
+    - 美联储
+    - FOMC
+    - Federal Reserve
+    - 联邦基金利率
+    - 鲍威尔
+    - Powell
+    - 缩表
+    - 量化宽松
+    - 点阵图
+    # ---- 证券 / 监管 ----
+    - 证监会
+    - 注册制
+    - 印花税
+    - 退市
+    - 发行审核
+    - 北交所
+    - 科创板
+    - 创业板
+    - 融资融券
+    - 减持新规
+    - 证券公司
+    # ---- 宏观政策 ----
+    - 国务院
+    - 国务院常务会议
+    - 政治局
+    - 政治局会议
+    - 全会
+    - 中央委员会
+    - 中央经济工作会议
+    - 政府工作报告
+    - 中纪委
+    - 巡视
+    - 两会
+    - 人大
+    - 政协
+    - 总书记
+    - GDP
+    - 赤字率
+    - 特别国债
+    - 专项债
+    - 关税
+    - 制裁
+    - 出口管制
+    # ---- 国际大事 ----
+    - 宣战
+    - 停火
+    - 政变
+    - 大选
+    - 峰会
+    - 联合国安理会
+
+# ---------- 兴趣主题 ----------
+# 每个主题下的关键词命中任意一个即归入该主题
+# 权重 weight 决定排序优先级（数字越大越靠前）
+topics:
+  科技与产业:
+    weight: 3
+    keywords:
+      - AI
+      - 人工智能
+      - 大模型
+      - 芯片
+      - 半导体
+      - 英伟达
+      - OpenAI
+      - 算力
+      - 机器人
+      - 新能源
+      - 电动车
+      - 光伏
+      - 储能
+      - 生物医药
+      - 商业航天
+      - 数据中心
+
+  财经投资:
+    weight: 3
+    keywords:
+      - 股市
+      - A股
+      - 港股
+      - 美股
+      - 利率
+      - 汇率
+      - 通胀
+      - 财报
+      - 营收
+      - 融资
+      - IPO
+      - 并购
+      - 债市
+      - 黄金
+      - 房地产
+      - 关税
+      - 美联储
+
+  时政国际:
+    weight: 2
+    keywords:
+      - 外交
+      - 内政
+      - 国会
+      - 参议院
+      - 众议院
+      - 总统
+      - 总理
+      - 欧盟
+      - 白宫
+      - 联合国
+      - 地缘
+      - 冲突
+      - 选举
+      - 法案
+
+# ---------- 泛词（只在标题出现时才算命中） ----------
+# 这些词在正文里到处都是，比如"上市"可能指产品发售而非 IPO，
+# 只有出现在标题才认为真的跟主题相关，避免误分类。
+weak_keywords:
+  - 上市
+  - 消费
+  - 政策
+  - 融资
+  - 财报
+  - 营收
+  - 汇率
+  - 利率
+  - 谈判
+  - 局势
+  - 立法
+  - 冲突
+
+# ---------- 排除词 ----------
+# 标题或摘要里出现这些词的直接丢弃，用来过滤噪音
+exclude_keywords:
+  - 招聘
+  - 广告
+  - 优惠券
+  - 抽奖
+  - 直播预告
+  - 星座
+  - 娱乐八卦
+
+# ---------- 内容形态过滤 ----------
+# 标题包含这些词的丢弃：评论、纪录片、图解等不算新闻，
+# 尤其党媒客户端这类栏目很多，混进重点区会稀释真正的要闻
+title_excludes:
+  - 一图读懂
+  - 第一观察
+  - 东西问
+  - 纪录片
+  - 学习卡
+  - 微视频
+  - 时政微观察
+  - 人民论坛
+  - 新华时评
+  - 央视快评
+  - 理论
+  - 组图
+  - 海报
+  - 漫评
+
+# ============================================================
+# 信息源
+# ============================================================
+# tier: must   → 该源的所有内容都收录，不经过关键词筛选（保证不漏）
+# intl: true   → 海外源，本地（国内网络）可能访问不了，程序会自动跳过
+# enabled: false → 临时停用
+feeds:
+  # ---------- 国内权威源（必收） ----------
+  - name: 中国新闻网·国内
+    url: https://www.chinanews.com.cn/rss/china.xml
+    topic_hint: 时政国际
+    tier: must
+    enabled: true
+
+  - name: 中国新闻网·国际
+    url: https://www.chinanews.com.cn/rss/world.xml
+    topic_hint: 时政国际
+    tier: must
+    enabled: true
+
+  - name: 国家统计局·数据发布
+    url: https://www.stats.gov.cn/sj/zxfb/rss.xml
+    topic_hint: 财经投资
+    tier: must
+    enabled: true
+
+  # ---------- 国内媒体 ----------
+  - name: 36氪
+    url: https://www.36kr.com/feed
+    topic_hint: 科技与产业
+    enabled: true
+
+  - name: IT之家
+    url: https://www.ithome.com/rss/
+    topic_hint: 科技与产业
+    enabled: true
+
+  - name: 界面新闻
+    url: https://a.jiemian.com/index.php?m=article&a=rss
+    topic_hint: 财经投资
+    enabled: true
+
+  - name: 少数派
+    url: https://sspai.com/feed
+    topic_hint: 科技与产业
+    enabled: true
+
+  - name: Solidot 奇客
+    url: https://www.solidot.org/index.rss
+    topic_hint: 科技与产业
+    enabled: true
+
+  # ---------- 海外权威源（必收，需云端运行） ----------
+  - name: 美联储·货币政策
+    url: https://www.federalreserve.gov/feeds/press_monetary.xml
+    topic_hint: 财经投资
+    tier: must
+    intl: true
+    enabled: true
+
+  - name: 美联储·全部公告
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+    topic_hint: 财经投资
+    tier: must
+    intl: true
+    enabled: true
+
+  - name: 美国证监会SEC
+    url: https://www.sec.gov/news/pressreleases.rss
+    topic_hint: 财经投资
+    intl: true
+    enabled: true
+
+  - name: 纽约时报·国际
+    url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+    topic_hint: 时政国际
+    tier: must
+    intl: true
+    enabled: true
+
+  - name: 纽约时报·美国
+    url: https://rss.nytimes.com/services/xml/rss/nyt/US.xml
+    topic_hint: 时政国际
+    tier: must
+    intl: true
+    enabled: true
+
+  - name: 纽约时报·商业
+    url: https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
+    topic_hint: 财经投资
+    intl: true
+    enabled: true
+
+  - name: BBC·国际
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    topic_hint: 时政国际
+    tier: must
+    intl: true
+    enabled: true
+
+  - name: BBC·商业
+    url: https://feeds.bbci.co.uk/news/business/rss.xml
+    topic_hint: 财经投资
+    intl: true
+    enabled: true
+
+  - name: NPR·国际
+    url: https://feeds.npr.org/1004/rss.xml
+    topic_hint: 时政国际
+    intl: true
+    enabled: true
+
+  # ---------- 备用源（公共 RSSHub，忙时限流，默认关闭） ----------
+  - name: 财联社电报
+    url:
+      - https://rsshub.ktachibana.party/cls/telegraph
+      - https://rss.owo.nz/cls/telegraph
+    topic_hint: 财经投资
+    enabled: false
+
+  - name: 澎湃新闻
+    url:
+      - https://rsshub.ktachibana.party/thepaper/featured
+      - https://rss.owo.nz/thepaper/featured
+    topic_hint: 时政国际
+    enabled: false
+
+# ---------- 时间窗口 ----------
+# 只收最近 N 小时内发布的（小时）
+hours_window: 30
+
+# 有些源的 RSS 不带发布时间（如部分党媒），无法判断新旧，
+# 每个这种源最多取前 N 条，避免倒出整个历史库
+max_undated: 15
+
+# ---------- 输出 ----------
+output_dir: reports
+keep_days: 90
+
+# ---------- 邮件 ----------
+# 填好信息并把 enabled 改成 true 就会自动发邮件
+# receiver 可以填多个地址，用英文逗号分隔：
+#   receiver: "手机@qq.com,电脑@outlook.com"
+# 在 GitHub 上运行时，这些值会被仓库 Secrets 覆盖，密码不会出现在代码里
+email:
+  enabled: false
+  smtp_host: smtp.qq.com
+  smtp_port: 465
+  sender: your@qq.com
+  password: ""
+  receiver: your@qq.com

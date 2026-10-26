@@ -1,0 +1,88 @@
+# 自动抓新闻，生成日报和网页看板
+# 抓取一天 5 次（信息来源只保留最近几十条，抓得稀会漏），
+# 邮件只在早晚两次发出。
+
+name: 每日新闻
+
+on:
+  schedule:
+    # UTC 时间，北京时间 = UTC + 8
+    - cron: '30 0 * * *'    # 北京 08:30  早报（发邮件）
+    - cron: '30 4 * * *'    # 北京 12:30  只抓取
+    - cron: '30 8 * * *'    # 北京 16:30  只抓取
+    - cron: '30 12 * * *'   # 北京 20:30  晚报（发邮件）
+    - cron: '30 16 * * *'   # 北京 00:30  只抓取
+  workflow_dispatch:        # 支持在网页上手动点一下运行
+
+# 允许提交数据、部署网页
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取新闻
+        env:
+          # 邮件配置（在仓库 Settings → Secrets 里填，不填就不发邮件）
+          NEWS_MAIL_SENDER: ${{ secrets.NEWS_MAIL_SENDER }}
+          NEWS_MAIL_PASSWORD: ${{ secrets.NEWS_MAIL_PASSWORD }}
+          NEWS_MAIL_RECEIVER: ${{ secrets.NEWS_MAIL_RECEIVER }}
+          NEWS_MAIL_HOST: ${{ secrets.NEWS_MAIL_HOST }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          # 早报 08:30、晚报 20:30 和手动触发时发邮件，其余时段只抓取不打扰
+          if [ -z "$SCHEDULE" ] || [ "$SCHEDULE" = "30 0 * * *" ] || [ "$SCHEDULE" = "30 12 * * *" ]; then
+            echo "本次运行：抓取 + 发邮件"
+            python collector.py --no-dedup
+          else
+            echo "本次运行：只抓取，不发邮件"
+            python collector.py --no-dedup --no-mail
+          fi
+
+      - name: 生成网页看板
+        run: python build_site.py
+
+      - name: 保存结果到仓库
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "没有新内容，跳过提交"
+          else
+            git commit -m "新闻日报 $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - name: 准备网页部署
+        uses: actions/configure-pages@v5
+
+      - name: 上传网页
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: 发布到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
