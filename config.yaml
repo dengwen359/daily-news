@@ -333,6 +333,10 @@ max_undated: 15
 output_dir: reports
 keep_days: 90
 
+# ---------- 网页看板 ----------
+# 邮件末尾会给出这个链接，点开能看到完整日报和原文链接
+site_url: https://dengwen359.github.io/daily-news/
+
 # ---------- 邮件 ----------
 # 填好信息并把 enabled 改成 true 就会自动发邮件
 # receiver 可以填多个地址，用英文逗号分隔：
