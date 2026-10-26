@@ -500,6 +500,53 @@ def build_report(items, cfg, run_time, feed_stats):
     return "\n".join(L)
 
 
+def build_mail_body(items, cfg, run_time):
+    """精简版邮件正文。
+
+    完整日报有上百条、上百个链接，直接塞进邮件会被反垃圾机制拦截
+    （实测 139 邮箱返回 450 Mail rejected）。所以邮件只负责"提醒 + 重点"：
+    必看逐条给标题和原文链接，要闻只列标题，完整内容引导去网页看。
+    """
+    lv2 = [it for it in items if it.get("level", 0) == 2]
+    lv1 = [it for it in items if it.get("level", 0) == 1]
+    lv0 = [it for it in items if it.get("level", 0) == 0]
+    hour = run_time.hour
+    edition = "早报" if hour < 15 else "晚报"
+    site = cfg.get("site_url", "")
+
+    L = []
+    L.append(f"新闻{edition} · {run_time.strftime('%Y年%m月%d日')}")
+    L.append("=" * 30)
+    L.append(f"共 {len(items)} 条：必看 {len(lv2)} · 要闻 {len(lv1)} · 兴趣 {len(lv0)}")
+    L.append(f"生成于 {run_time.strftime('%H:%M')}，覆盖最近 {cfg.get('hours_window', 30)} 小时")
+    L.append("")
+
+    if lv2:
+        L.append("【必看】")
+        L.append("-" * 30)
+        for i, r in enumerate(lv2, 1):
+            L.append(f"{i}. {r['title']}")
+            L.append(f"   {r['source']}" + (f" · {r['why']}" if r.get("why") else ""))
+            L.append(f"   {r['link']}")
+            L.append("")
+        L.append("")
+
+    if lv1:
+        L.append(f"【要闻】共 {len(lv1)} 条")
+        L.append("-" * 30)
+        for r in lv1:
+            L.append(f"· {r['title']}")
+        L.append("")
+
+    if site:
+        L.append("=" * 30)
+        L.append(f"完整日报（含原文链接、可翻历史）：{site}")
+        L.append("")
+
+    L.append("— 新闻收集器自动发送")
+    return "\n".join(L), edition
+
+
 def send_mail(cfg, subject, body):
     ec = cfg.get("email", {}) or {}
     if not ec.get("enabled"):
@@ -889,8 +936,7 @@ def main():
         print("  [邮件] 本次只抓取，不发邮件")
         return
     key_n = sum(1 for it in items if it.get("level", 0) == 2)
-    edition = "早报" if run_time.hour < 15 else "晚报"
-    plain = re.sub(r"\[(.+?)\]\((.+?)\)", r"\1 (\2)", report)
+    plain, edition = build_mail_body(items, cfg, run_time)
     send_mail(
         cfg,
         f"新闻{edition} {run_time.strftime('%m-%d')} · 必看 {key_n} 条 / 共 {len(items)} 条",
