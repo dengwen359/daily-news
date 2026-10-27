@@ -262,10 +262,10 @@ function buildTabs(){{
   const tabs = $('tabs');
   let h = `<div class="tab ${{curTopic==='__all__'?'on':''}}" data-t="__all__">全部 ${{d.items.length}}</div>`;
   if (keyN) {{
-    h += `<div class="tab keytab ${{curTopic==='__key__'?'on':''}}" data-t="__key__">★★ 必看 ${{keyN}}</div>`;
+    h += `<div class="tab keytab ${{curTopic==='__key__'?'on':''}}" data-t="__key__">★★ 突发必看 ${{keyN}}</div>`;
   }}
   if (newsN) {{
-    h += `<div class="tab ${{curTopic==='__news__'?'on':''}}" data-t="__news__">★ 要闻 ${{newsN}}</div>`;
+    h += `<div class="tab ${{curTopic==='__news__'?'on':''}}" data-t="__news__">★ 政策要闻 ${{newsN}}</div>`;
   }}
   all.forEach(t => {{
     const n = d.items.filter(it => (it.tp||[]).includes(t)).length;
@@ -349,7 +349,7 @@ function render(){{
       box.innerHTML = `<div class="empty">今天没有必看内容</div>`;
       return;
     }}
-    box.innerHTML = `<div class="grp"><div class="grp-h keyhead">★★ 必看 · ${{mustRead.length}}</div>`
+    box.innerHTML = `<div class="grp"><div class="grp-h keyhead">★★ 突发必看 · ${{mustRead.length}}</div>`
       + mustRead.map(it => itemHTML(it, 2)).join('') + '</div>';
     return;
   }}
@@ -360,7 +360,7 @@ function render(){{
       box.innerHTML = `<div class="empty">今天没有要闻</div>`;
       return;
     }}
-    box.innerHTML = `<div class="grp"><div class="grp-h">★ 要闻 · ${{headlines.length}}</div>`
+    box.innerHTML = `<div class="grp"><div class="grp-h">★ 政策要闻 · ${{headlines.length}}</div>`
       + headlines.map(it => itemHTML(it, 1)).join('') + '</div>';
     return;
   }}
@@ -369,12 +369,12 @@ function render(){{
   if (curTopic === '__all__') {{
     let h = '';
     if (mustRead.length) {{
-      h += `<div class="grp"><div class="grp-h keyhead">★★ 必看 · ${{mustRead.length}}</div>`;
+      h += `<div class="grp"><div class="grp-h keyhead">★★ 突发必看 · ${{mustRead.length}}</div>`;
       h += mustRead.map(it => itemHTML(it, 2)).join('');
       h += '</div>';
     }}
     if (headlines.length) {{
-      h += `<div class="grp"><div class="grp-h">★ 要闻 · ${{headlines.length}}</div>`;
+      h += `<div class="grp"><div class="grp-h">★ 政策要闻 · ${{headlines.length}}</div>`;
       h += headlines.map(it => itemHTML(it, 1)).join('');
       h += '</div>';
     }}

@@ -26,12 +26,16 @@ import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from email.header import Header
 from email.utils import parsedate_to_datetime, formatdate, make_msgid
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(BASE_DIR, "config.yaml")
 STATE_PATH = os.path.join(BASE_DIR, ".state", "seen.json")
+# 已推送邮件的条目登记。放在 data/ 下随仓库提交，云端的早报和晚报
+# 之间靠它衔接：早报发过的内容晚报不再重复（.state/ 被 gitignore，不能放那）。
+MAILED_PATH = os.path.join(BASE_DIR, "data", "mailed.json")
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 
@@ -683,6 +687,30 @@ def save_state(state, max_age_days=7):
         json.dump(state, f)
 
 
+def load_mailed():
+    """最近推送过邮件的条目登记：{条目id: 推送时间戳}
+
+    早报发过的晚报不再发，昨天发过的今天不再发——宁少勿重，
+    哪怕这一轮只剩一条可发，也只发那一条。
+    """
+    if os.path.exists(MAILED_PATH):
+        try:
+            with open(MAILED_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
+def save_mailed(mailed, max_age_days=3):
+    cutoff = (dt.datetime.now() - dt.timedelta(days=max_age_days)).timestamp()
+    mailed = {k: v for k, v in mailed.items()
+              if isinstance(v, (int, float)) and v >= cutoff}
+    os.makedirs(os.path.dirname(MAILED_PATH), exist_ok=True)
+    with open(MAILED_PATH, "w", encoding="utf-8") as f:
+        json.dump(mailed, f, ensure_ascii=False)
+
+
 # ---------------------------------------------------------------- 生成报告
 def _meta_line(r, mark_key=False):
     bits = []
@@ -820,17 +848,17 @@ def build_report(items, cfg, run_time, feed_stats):
     L.append("")
 
     if lv2:
-        L.append(f"## ★★ 必看（{len(lv2)} 条）")
+        L.append(f"## ★★ 必看 · 突发（{len(lv2)} 条）")
         L.append("")
-        L.append("> 命中货币政策、监管政策、宏观数据、重大政治事件等必收关键词。**这部分保证不遗漏。**")
+        L.append("> 战争冲突、自然灾害、重大事故等突发新闻自动置顶，国内国际都算。**这部分保证不遗漏。**")
         L.append("")
         for r in lv2:
             L.extend(render_item(r, mark_key=True))
 
     if lv1_show:
-        L.append(f"## ★ 要闻（{len(lv1)} 条，先列 {len(lv1_show)} 条）")
+        L.append(f"## ★ 要闻 · 政策与数据（{len(lv1)} 条，先列 {len(lv1_show)} 条）")
         L.append("")
-        L.append("> 来自中国新闻网、国家统计局、美联储等权威源的原发内容。")
+        L.append("> 央行货币政策、监管政策、民生数据等政策类，以及权威源的原发内容。")
         L.append("")
         for r in lv1_show:
             L.extend(render_item(r, mark_key=True))
@@ -911,27 +939,55 @@ def build_report(items, cfg, run_time, feed_stats):
     return "\n".join(L)
 
 
-def build_mail_body(items, cfg, run_time):
-    """邮件正文。
+def select_mail_rows(items, cfg, run_time, exclude=None):
+    """挑出这封邮件真正要发的内容。
 
-    邮件要满足三件事：每条有原文链接、每条有正文摘录、条数不能太多。
-    所以必看全给，要闻和兴趣各按分数取前若干条，其余引导去网页看。
+    exclude 是之前推送过的条目 id 集合：早报发过的晚报不再发，
+    昨天发过的今天不再发。宁可发得少，也不拿旧闻凑条数——
+    哪怕这一轮只剩一条没推过，就只发那一条。
     """
     lim = cfg.get("limits", {}) or {}
-    n1 = int(lim.get("mail_must", 20))
-    n2 = int(lim.get("mail_level1", 12))
-    n3 = int(lim.get("mail_interest", 8))
-    en_n = int(lim.get("mail_en", 3))
-    body_chars = int(lim.get("mail_body_chars", 180))
-
-    lv2 = [it for it in items if it.get("level", 0) == 2]
-    lv1 = [it for it in items if it.get("level", 0) == 1]
-    lv0 = [it for it in items if it.get("level", 0) == 0]
+    excl = exclude or set()
+    lv2 = [it for it in items if it.get("level", 0) == 2 and it["id"] not in excl]
+    lv1 = [it for it in items if it.get("level", 0) == 1 and it["id"] not in excl]
+    lv0 = [it for it in items if it.get("level", 0) == 0 and it["id"] not in excl]
     for lst in (lv2, lv1, lv0):
         lst.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
 
     lv1_zh, lv1_en = split_en(lv1)
     lv0_zh, lv0_en = split_en(lv0)
+
+    per_src = int(lim.get("mail_per_feed", 4))
+    must_rows = diverse_pick(lv2, int(lim.get("mail_must", 20)), per_src)
+    lv1_rows = diverse_pick(lv1_zh, int(lim.get("mail_level1", 12)), per_src)
+    lv0_rows = diverse_pick(lv0_zh, int(lim.get("mail_interest", 8)), per_src)
+    en_rows = lv1_en + lv0_en
+    en_rows.sort(key=lambda x: (-x.get("level", 0), -x["score"], -(x["ts"] or 0)))
+    en_rows = en_rows[:int(lim.get("mail_en", 3))]
+
+    return {
+        "must": must_rows,
+        "lv1": lv1_rows,
+        "lv0": lv0_rows,
+        "en": en_rows,
+        # 这一轮真正发出去的条目，发送成功后登记，下一轮不再发
+        "ids": {r["id"] for r in must_rows + lv1_rows + lv0_rows + en_rows},
+        "skipped": sum(1 for it in items if it["id"] in excl),
+        "rest_must": len(lv2) - len(must_rows),
+        "rest_lv1": len(lv1_zh) - len(lv1_rows),
+        "rest_lv0": len(lv0_zh) - len(lv0_rows),
+    }
+
+
+def build_mail_body(items, cfg, run_time, exclude=None):
+    """邮件纯文本版。
+
+    邮件要满足三件事：每条有原文链接、每条有正文摘录、条数不能太多。
+    之前推送过的内容（exclude）直接跳过，不重复占版面。
+    """
+    lim = cfg.get("limits", {}) or {}
+    body_chars = int(lim.get("mail_body_chars", 180))
+    sel = select_mail_rows(items, cfg, run_time, exclude)
     hour = run_time.hour
     edition = "早报" if hour < 15 else "晚报"
     site = cfg.get("site_url", "")
@@ -939,7 +995,11 @@ def build_mail_body(items, cfg, run_time):
     L = []
     L.append(f"新闻{edition} · {run_time.strftime('%Y年%m月%d日')}")
     L.append("=" * 34)
-    L.append(f"共 {len(items)} 条：必看 {len(lv2)} · 要闻 {len(lv1)} · 兴趣 {len(lv0)}")
+    head = (f"本次新增 {len(sel['ids'])} 条：突发必看 {len(sel['must'])} · "
+            f"政策要闻 {len(sel['lv1'])} · 兴趣 {len(sel['lv0'])}")
+    if sel["skipped"]:
+        head += f"（另有 {sel['skipped']} 条之前已推送过，不再重复）"
+    L.append(head)
     L.append(f"生成于 {run_time.strftime('%H:%M')}，覆盖最近 {cfg.get('hours_window', 30)} 小时")
 
     def block(title, rows, note=""):
@@ -967,29 +1027,23 @@ def build_mail_body(items, cfg, run_time):
             if ext:
                 L.append(ext)
 
-    per_src = int(lim.get("mail_per_feed", 4))
-    must_rows = diverse_pick(lv2, n1, per_src)
-    lv1_rows = diverse_pick(lv1_zh, n2, per_src)
-    lv0_rows = diverse_pick(lv0_zh, n3, per_src)
+    block("突发必看", sel["must"], "战争、天灾、重大突发事件，命中即置顶，保证不遗漏。")
+    if sel["rest_must"] > 0:
+        L.append(f"   还有 {sel['rest_must']} 条必看内容在网页版")
 
-    block("必看", must_rows, "命中货币政策、监管、宏观数据、重大政治事件等必收关键词，保证不遗漏。")
-    if len(lv2) > len(must_rows):
-        L.append(f"   还有 {len(lv2) - len(must_rows)} 条必看内容在网页版")
+    block("要闻 · 政策与数据", sel["lv1"], "央行货币政策、监管政策、民生数据等政策类要闻。")
+    if sel["rest_lv1"] > 0:
+        L.append(f"   还有 {sel['rest_lv1']} 条要闻在网页版")
 
-    block("要闻 · 精选", lv1_rows, "中国新闻网、国家统计局、美联储等权威源的原发内容。")
-    if len(lv1_zh) > len(lv1_rows):
-        L.append(f"   还有 {len(lv1_zh) - len(lv1_rows)} 条要闻在网页版")
+    block("兴趣", sel["lv0"])
+    if sel["rest_lv0"] > 0:
+        L.append(f"   还有 {sel['rest_lv0']} 条在网页版")
 
-    block("兴趣", lv0_rows)
-    if len(lv0_zh) > len(lv0_rows):
-        L.append(f"   还有 {len(lv0_zh) - len(lv0_rows)} 条在网页版")
-
-    en_rows = lv1_en + lv0_en
-    if en_rows:
+    if sel["en"]:
         L.append("")
-        L.append(f"【外媒原文 · {len(en_rows)} 条，先列 {min(en_n, len(en_rows))} 条】")
+        L.append(f"【外媒原文 · 英文，{len(sel['en'])} 条】")
         L.append("-" * 34)
-        for r in en_rows[:en_n]:
+        for r in sel["en"]:
             L.append(f"· {r['title']}")
             L.append(f"  {r['source']}　{r['link']}")
 
@@ -1001,13 +1055,136 @@ def build_mail_body(items, cfg, run_time):
         L.append("")
 
     L.append("— 新闻收集器自动发送，不要回复本邮件")
-    return "\n".join(L), edition
+    return "\n".join(L), edition, sel
 
 
-def send_mail(cfg, subject, body):
+# ---------------------------------------------------------------- HTML 邮件
+_MAIL_BTN = ("display:inline-block;padding:6px 13px;margin:0 6px 6px 0;"
+             "border:1px solid #2b5c8a;border-radius:15px;color:#2b5c8a;"
+             "text-decoration:none;font-size:12px;font-weight:550;")
+_MAIL_BTN_GOLD = _MAIL_BTN.replace("#2b5c8a", "#a8841c")
+
+
+def build_mail_html(items, cfg, run_time, sel):
+    """HTML 版邮件：顶部一排类别按钮，点哪个跳哪个分类，
+    手机邮箱里也能像网页看板那样挑着看。"""
+    lim = cfg.get("limits", {}) or {}
+    body_chars = int(lim.get("mail_body_chars", 180))
+    edition = "早报" if run_time.hour < 15 else "晚报"
+    site = cfg.get("site_url", "")
+    e = html.escape
+
+    def item_html(r):
+        meta = []
+        if r["dt"]:
+            meta.append(r["dt"].strftime("%m-%d %H:%M"))
+        meta.append(e(r["source"]))
+        if r.get("why"):
+            meta.append(f"<b style='color:#a8841c'>{e(r['why'])}</b>")
+        also = r.get("also") or []
+        if also:
+            meta.append(f"同题另报 {len(also)} 家")
+        body = clean_body_text(r.get("body") or r.get("summary"))
+        if body:
+            body = trim_sentence(body, body_chars)
+        h = ['<div style="padding:10px 0;border-bottom:1px solid #eef0f2;">']
+        h.append(f'<a href="{e(r["link"], True)}" style="color:#1a1d21;'
+                 f'font-weight:600;text-decoration:none;font-size:15px;'
+                 f'line-height:1.45;">{e(r["title"])}</a>')
+        h.append('<div style="color:#8b939e;font-size:12px;margin-top:3px;">'
+                 + " · ".join(meta) + "</div>")
+        if body:
+            h.append(f'<div style="color:#5c6470;font-size:13px;'
+                     f'margin-top:5px;line-height:1.6;">{e(body)}</div>')
+        h.append(f'<div style="margin-top:5px;"><a href="{e(r["link"], True)}" '
+                 f'style="color:#2b5c8a;font-size:12px;text-decoration:none;">'
+                 f'阅读原文 ›</a></div>')
+        h.append("</div>")
+        return "".join(h)
+
+    def section(sid, name, rows, color="#1a1d21", note="", custom=""):
+        head = (f'<a id="sec-{sid}" style="text-decoration:none;"></a>'
+                f'<h3 style="font-size:14px;color:{color};margin:20px 0 2px;'
+                f'padding-bottom:6px;border-bottom:1px solid #e6e8ec;">'
+                f'{e(name)}（{len(rows)}）</h3>')
+        if note:
+            head += (f'<p style="color:#8b939e;font-size:12px;margin:0 0 6px;">'
+                     f'{e(note)}</p>')
+        return head + (custom or "".join(item_html(r) for r in rows))
+
+    # 兴趣区按产业分类再分组，每组一个按钮
+    topics_order = list((cfg.get("topics", {}) or {}).keys()) + ["其他"]
+    groups = []
+    used = set()
+    for t in topics_order:
+        rows = [r for r in sel["lv0"] if t in (r.get("topics") or []) and r["id"] not in used]
+        if rows:
+            for r in rows:
+                used.add(r["id"])
+            groups.append((t, rows))
+    left = [r for r in sel["lv0"] if r["id"] not in used]
+    if left:
+        groups.append(("其他", left))
+
+    # 顶部按钮：只有实际有内容的分类才出现
+    btns = []
+    if sel["must"]:
+        btns.append(f'<a href="#sec-must" style="{_MAIL_BTN_GOLD}">'
+                    f'★★ 突发必看 {len(sel["must"])}</a>')
+    if sel["lv1"]:
+        btns.append(f'<a href="#sec-lv1" style="{_MAIL_BTN}">'
+                    f'★ 政策要闻 {len(sel["lv1"])}</a>')
+    for t, rows in groups:
+        btns.append(f'<a href="#sec-g-{topics_order.index(t)}" style="{_MAIL_BTN}">'
+                    f'{e(t)} {len(rows)}</a>')
+    if sel["en"]:
+        btns.append(f'<a href="#sec-en" style="{_MAIL_BTN}">'
+                    f'外媒原文 {len(sel["en"])}</a>')
+
+    parts = ['<div style="max-width:660px;margin:0 auto;padding:0 10px;'
+             'font-family:-apple-system,\'Segoe UI\',\'PingFang SC\','
+             '\'Microsoft YaHei\',sans-serif;color:#1a1d21;'
+             'font-size:14px;line-height:1.6;">']
+    parts.append(f'<h2 style="font-size:18px;margin:0 0 4px;">新闻{edition} · '
+                 f'{run_time.strftime("%Y年%m月%d日")}</h2>')
+    head = f'本次新增 {len(sel["ids"])} 条'
+    if sel["skipped"]:
+        head += f'，另有 {sel["skipped"]} 条之前已推送过（不再重复）'
+    parts.append(f'<p style="color:#8b939e;font-size:12px;margin:0 0 14px;">{e(head)}</p>')
+    parts.append('<div style="margin-bottom:8px;">' + "".join(btns) + "</div>")
+
+    parts.append(section("must", "★★ 突发必看", sel["must"], color="#a8841c",
+                         note="战争、天灾、重大突发事件，命中即置顶，保证不遗漏。"))
+    parts.append(section("lv1", "★ 政策要闻", sel["lv1"],
+                         note="央行货币政策、监管政策、民生数据等政策类要闻。"))
+    for t, rows in groups:
+        parts.append(section(f"g-{topics_order.index(t)}", t, rows))
+    if sel["en"]:
+        en_rows = "".join(
+            f'<div style="padding:6px 0;border-bottom:1px solid #eef0f2;font-size:13px;">'
+            f'<a href="{e(r["link"], True)}" style="color:#1a1d21;text-decoration:none;">'
+            f'{e(r["title"])}</a>'
+            f'<span style="color:#8b939e;">　{e(r["source"])}</span></div>'
+            for r in sel["en"])
+        parts.append(section("en", "外媒原文 · 英文", sel["en"], custom=en_rows))
+
+    if site:
+        parts.append('<div style="margin-top:18px;padding:12px;background:#eaf1f8;'
+                     'border-radius:8px;text-align:center;">'
+                     f'<a href="{e(site, True)}" style="color:#2b5c8a;'
+                     'text-decoration:none;font-size:13px;font-weight:550;">'
+                     '打开完整看板（按主题分类、可翻历史） ›</a></div>')
+    parts.append('<p style="color:#8b939e;font-size:11px;margin-top:14px;">'
+                 '— 新闻收集器自动发送，不要回复本邮件</p>')
+    parts.append("</div>")
+    return "".join(parts)
+
+
+def send_mail(cfg, subject, body, body_html=""):
+    """发邮件，成功返回 True（调用方据此决定是否登记"已推送"）。"""
     ec = cfg.get("email", {}) or {}
     if not ec.get("enabled"):
-        return
+        return False
 
     # 优先读环境变量（GitHub Actions 用 Secrets 注入，密码不会进仓库）
     sender = os.environ.get("NEWS_MAIL_SENDER") or ec.get("sender")
@@ -1023,8 +1200,14 @@ def send_mail(cfg, subject, body):
 
     if not password or not sender:
         print("  [邮件] 未配置账号密码，跳过")
-        return
-    msg = MIMEText(body, "plain", "utf-8")
+        return False
+    if body_html:
+        # 纯文本打底（老客户端/反垃圾降级时兜底），HTML 版带类别按钮
+        msg = MIMEMultipart("alternative")
+        msg.attach(MIMEText(body, "plain", "utf-8"))
+        msg.attach(MIMEText(body_html, "html", "utf-8"))
+    else:
+        msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = Header(subject, "utf-8")
     msg["From"] = sender
     msg["To"] = ", ".join(receivers)
@@ -1058,12 +1241,13 @@ def send_mail(cfg, subject, body):
                         s.sendmail(sender, receivers, text)
                 print(f"  [邮件] 已发送至 {len(receivers)} 个地址：{', '.join(receivers)}"
                       f"（{h}:{p}）")
-                return
+                return True
             except Exception as e:
                 last_err = e
                 print(f"  [邮件] 第 {attempt + 1} 轮 {h}:{p} 失败：{e}")
         time.sleep(5)
     print(f"  [邮件] 发送失败：{last_err}")
+    return False
 
 
 def load_today_json(cfg, date_str):
@@ -1190,6 +1374,7 @@ def main():
     excludes = cfg.get("exclude_keywords", []) or []
     title_excludes = cfg.get("title_excludes", []) or []
     weak = set(cfg.get("weak_keywords", []) or [])
+    breaking_kw = (cfg.get("breaking", {}) or {}).get("keywords", []) or []
     must_kw = (cfg.get("must_watch", {}) or {}).get("keywords", []) or []
     feeds = [f for f in (cfg.get("feeds", []) or []) if f.get("enabled", True)]
     hours_window = int(cfg.get("hours_window", 30))
@@ -1260,14 +1445,16 @@ def main():
 
                 hits, words = match_topics(text, topics, weak, title)
 
-                # 必收词只在标题里匹配：正文提到"证监会""GDP"往往只是顺带一句，
-                # 标题命中才说明这条新闻本身讲的就是这件事
+                # 突发词、政策词都只在标题里匹配：正文顺带提一句的不算
+                hit_breaking = [k for k in breaking_kw if kw_hit(k, title)]
                 hit_must = [k for k in must_kw if kw_hit(k, title)]
 
-                # 分级：2=必看（命中必收词） 1=要闻（权威源） 0=普通兴趣
-                if hit_must:
+                # 分级：2=必看（突发：战争、天灾、重大事故）
+                #       1=要闻（政策发布、宏观数据、权威源）
+                #       0=普通兴趣
+                if hit_breaking:
                     level = 2
-                elif is_must_src:
+                elif hit_must or is_must_src:
                     level = 1
                 elif not hits:
                     continue
@@ -1277,6 +1464,7 @@ def main():
                     if not title_hits(title, topics) and len(words) == 1 and len(words[0]) <= 4:
                         continue
 
+                why = hit_breaking[0] if hit_breaking else (hit_must[0] if hit_must else "")
                 iid = item_id(link, title)
                 score = 0
                 for t in hits:
@@ -1284,9 +1472,11 @@ def main():
                 score += title_hits(title, topics) * 2
                 # 分级加权：必看最优先，要闻次之
                 if level == 2:
-                    score += 10
+                    score += 12
                 elif level == 1:
-                    score += 4
+                    score += 5
+                if hit_breaking:
+                    score += min(len(hit_breaking), 3) * 2
                 if hit_must:
                     score += min(len(hit_must), 3) * 2
                 # 时效加权：越新越靠前
@@ -1301,7 +1491,7 @@ def main():
                     if level > old.get("level", 0):
                         old["level"] = level
                     if hit_must and not old.get("why"):
-                        old["why"] = hit_must[0]
+                        old["why"] = why
                     continue
 
                 pool[iid] = {
@@ -1316,7 +1506,7 @@ def main():
                     "dt": pdt,
                     "ts": pdt.timestamp() if pdt else 0,
                     "level": level,
-                    "why": hit_must[0] if hit_must else "",
+                    "why": why,
                     "tier": fd.get("tier", ""),
                     "group": fd.get("group") or name,
                 }
@@ -1413,13 +1603,26 @@ def main():
     if args.no_mail:
         print("  [邮件] 本次只抓取，不发邮件")
         return
-    key_n = sum(1 for it in items if it.get("level", 0) == 2)
-    plain, edition = build_mail_body(items, cfg, run_time)
-    send_mail(
+    # 排除之前推送过的：早报发过的晚报不发，昨天发过的今天不发，宁少勿重
+    mailed = load_mailed()
+    plain, edition, sel = build_mail_body(items, cfg, run_time, exclude=set(mailed))
+    if not sel["ids"]:
+        print(f"  [邮件] 本轮 {len(items)} 条内容之前都推送过，不发邮件（宁少勿重）")
+        return
+    html_mail = build_mail_html(items, cfg, run_time, sel)
+    ok = send_mail(
         cfg,
-        f"新闻{edition} {run_time.strftime('%m-%d')} · 必看 {key_n} 条 / 共 {len(items)} 条",
+        f"新闻{edition} {run_time.strftime('%m-%d')} · "
+        f"突发 {len(sel['must'])} 条 / 新增 {len(sel['ids'])} 条",
         plain,
+        html_mail,
     )
+    # 发送成功才登记，万一哪次发送失败，内容下一轮还能补发
+    if ok:
+        now_ts = run_time.timestamp()
+        for iid in sel["ids"]:
+            mailed[iid] = now_ts
+        save_mailed(mailed)
 
 
 if __name__ == "__main__":

@@ -13,6 +13,7 @@
 import argparse
 import base64
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -29,6 +30,7 @@ APP_NAME = "每日新闻"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(HERE, ".state", "notified.json")
+PUSHED_FILE = os.path.join(HERE, ".state", "pushed.json")
 CACHE_DIR = os.path.join(HERE, ".state", "cache")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 news-desktop/1.0"
 
@@ -173,10 +175,45 @@ def latest_day(max_back=4, tries=1, wait=90):
     raise RuntimeError(err or "取不到数据")
 
 
+# ---------------------------------------------------------------- 推送登记
+def _push_key(it):
+    """条目的唯一键：链接优先，没有链接用标题"""
+    s = (it.get("link") or it.get("title") or "").strip()
+    return hashlib.md5(s.encode("utf-8", "ignore")).hexdigest()[:16]
+
+
+def pushed_registry():
+    """最近推送过的条目 {键: 时间戳}，超过 2 天的自动清理"""
+    try:
+        with open(PUSHED_FILE, encoding="utf-8") as f:
+            m = json.load(f)
+    except Exception:
+        m = {}
+    cutoff = (dt.datetime.now() - dt.timedelta(days=2)).timestamp()
+    return {k: v for k, v in m.items()
+            if isinstance(v, (int, float)) and v >= cutoff}
+
+
+def record_pushed(items):
+    """弹完通知把这几条记下来，下次推送不再重复它们"""
+    m = pushed_registry()
+    now = time.time()
+    for it in items:
+        m[_push_key(it)] = now
+    try:
+        os.makedirs(os.path.dirname(PUSHED_FILE), exist_ok=True)
+        with open(PUSHED_FILE, "w", encoding="utf-8") as f:
+            json.dump(m, f, ensure_ascii=False)
+    except Exception:
+        pass
+
+
 # ---------------------------------------------------------------- 组装通知
-def pick_items(data, lines=3):
-    """必看优先，不足用要闻补齐"""
+def pick_items(data, lines=3, exclude=None):
+    """必看优先，不足用要闻补齐；之前推送过的条目（exclude）直接跳过"""
     items = [it for it in (data.get("items") or []) if it.get("title")]
+    if exclude:
+        items = [it for it in items if _push_key(it) not in exclude]
     must = [it for it in items if (it.get("level") or 0) >= 2]
     head = [it for it in items if (it.get("level") or 0) == 1]
 
@@ -206,10 +243,12 @@ def shorten(t, n=30):
 def build_xml(date_str, rows, tag, n_must, n_head, total, is_today=True):
     mmdd = date_str[5:].replace("-", "/")
     prefix = "" if is_today else "昨日 · "
-    if n_must:
-        title = f"{prefix}{mmdd} 新闻 · 必看 {n_must} 条 / 共 {total} 条"
+    if not rows:
+        title = f"{prefix}{mmdd} 新闻 · 本轮无新内容"
+    elif n_must:
+        title = f"{prefix}{mmdd} 新闻 · 必看 {n_must} 条 / 本轮 {total} 条"
     elif total:
-        title = f"{prefix}{mmdd} 新闻 · 今日 {total} 条"
+        title = f"{prefix}{mmdd} 新闻 · 本轮 {total} 条"
     else:
         title = f"{prefix}{mmdd} 新闻"
 
@@ -217,8 +256,8 @@ def build_xml(date_str, rows, tag, n_must, n_head, total, is_today=True):
     for i, it in enumerate(rows, 1):
         label = tag.get(id(it), "要闻")
         body.append(f"{i}. [{label}] {shorten(it.get('title', ''))}")
-    if not body:
-        body.append("今天还没有抓到内容，稍后再看。")
+    if not rows:
+        body.append("之前推送过的不再重复，有新内容时下一时段再推。")
 
     def esc(s):
         return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -348,7 +387,8 @@ def run_auto(args):
         print(f"[巡检] 取不到数据：{e}")
         return 1
 
-    rows, tag, n_must, n_head, total = pick_items(data, args.lines)
+    rows, tag, n_must, n_head, total = pick_items(data, args.lines,
+                                                  exclude=pushed_registry())
     is_today = (date_str == today)
     xml = build_xml(date_str, rows, tag, n_must, n_head, total, is_today)
 
@@ -358,6 +398,7 @@ def run_auto(args):
 
     register_app_id()
     show_toast(xml)
+    record_pushed(rows)          # 弹过的记下来，下一次推送不再重复
 
     stamp = now.strftime("%H:%M")
     for s in due:
@@ -413,11 +454,12 @@ def main():
     else:
         date_str, data, via = latest_day(tries=1)
 
-    rows, tag, n_must, n_head, total = pick_items(data, args.lines)
+    rows, tag, n_must, n_head, total = pick_items(data, args.lines,
+                                                  exclude=pushed_registry())
     is_today = (date_str == dt.date.today().strftime("%Y-%m-%d"))
     xml = build_xml(date_str, rows, tag, n_must, n_head, total, is_today)
 
-    print(f"数据日期 {date_str}（来源：{via}）：共 {total} 条（必看 {n_must} / 要闻 {n_head}）")
+    print(f"数据日期 {date_str}（来源：{via}）：本轮 {total} 条（必看 {n_must} / 要闻 {n_head}）")
     for i, it in enumerate(rows, 1):
         print(f"  {i}. [{tag[id(it)]}] {it.get('title', '')}")
     print(f"  看板：{SITE}")
@@ -434,6 +476,7 @@ def main():
 
     register_app_id()
     show_toast(xml)
+    record_pushed(rows)
     st[key] = dt.datetime.now().strftime("%H:%M")
     save_state(st)
     print("已弹出桌面通知。")
