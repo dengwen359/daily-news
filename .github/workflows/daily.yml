@@ -1,17 +1,17 @@
 # 自动抓新闻，生成日报和网页看板
-# 抓取一天 5 次（信息来源只保留最近几十条，抓得稀会漏），
-# 邮件只在早晚两次发出。
+# GitHub 的定时任务会延迟几分钟到几小时，甚至整次漏跑，
+# 所以同一件事排多次：邮件由 collector 自己判断"这个时段发过没"，
+# 谁先跑起来谁发，发过就不再重复——晚一次也不会整份丢掉。
 
 name: 每日新闻
 
 on:
   schedule:
     # UTC 时间，北京时间 = UTC + 8
-    - cron: '30 0 * * *'    # 北京 08:30  早报（发邮件）
-    - cron: '30 4 * * *'    # 北京 12:30  只抓取
-    - cron: '30 8 * * *'    # 北京 16:30  只抓取
-    - cron: '30 12 * * *'   # 北京 20:30  晚报（发邮件）
-    - cron: '30 16 * * *'   # 北京 00:30  只抓取
+    - cron: '30 0,1 * * *'          # 北京 08:30 / 09:30  早报（第二发是补发）
+    - cron: '30 2,4,6,8,10 * * *'   # 北京 10:30 12:30 14:30 16:30 18:30  抓取；早报漏了就补发
+    - cron: '30 12,13,14 * * *'     # 北京 20:30 / 21:30 / 22:30  晚报（后两发是补发）
+    - cron: '30 16 * * *'           # 北京 00:30  抓取
   workflow_dispatch:        # 支持在网页上手动点一下运行
 
 # 允许提交数据、部署网页
@@ -49,16 +49,10 @@ jobs:
           NEWS_MAIL_PASSWORD: ${{ secrets.NEWS_MAIL_PASSWORD }}
           NEWS_MAIL_RECEIVER: ${{ secrets.NEWS_MAIL_RECEIVER }}
           NEWS_MAIL_HOST: ${{ secrets.NEWS_MAIL_HOST }}
-          SCHEDULE: ${{ github.event.schedule }}
         run: |
-          # 早报 08:30、晚报 20:30 和手动触发时发邮件，其余时段只抓取不打扰
-          if [ -z "$SCHEDULE" ] || [ "$SCHEDULE" = "30 0 * * *" ] || [ "$SCHEDULE" = "30 12 * * *" ]; then
-            echo "本次运行：抓取 + 发邮件"
-            python collector.py --no-dedup
-          else
-            echo "本次运行：只抓取，不发邮件"
-            python collector.py --no-dedup --no-mail
-          fi
+          # 是否发邮件由 collector 按时间判断：08:30 后发早报、20:30 后发晚报，
+          # 每个时段只发一次，其余时段只抓取。这样定时任务延迟也能补发。
+          python collector.py --no-dedup
 
       - name: 生成网页看板
         run: python build_site.py

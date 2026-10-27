@@ -37,6 +37,10 @@ STATE_PATH = os.path.join(BASE_DIR, ".state", "seen.json")
 # 已推送邮件的条目登记。放在 data/ 下随仓库提交，云端的早报和晚报
 # 之间靠它衔接：早报发过的内容晚报不再重复（.state/ 被 gitignore，不能放那）。
 MAILED_PATH = os.path.join(BASE_DIR, "data", "mailed.json")
+# 每天两个发信时段（早报/晚报）各自的发送记录。
+# GitHub 的定时任务会延迟甚至漏跑，所以一天要跑好几次，靠这个文件保证
+# 每个时段只发一封——谁先跑起来谁发，发过的绝不重复。
+MAILSTATE_PATH = os.path.join(BASE_DIR, "data", "mailstate.json")
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 
@@ -710,6 +714,33 @@ def save_mailed(mailed, max_age_days=3):
     os.makedirs(os.path.dirname(MAILED_PATH), exist_ok=True)
     with open(MAILED_PATH, "w", encoding="utf-8") as f:
         json.dump(mailed, f, ensure_ascii=False)
+
+
+def mail_slot(now):
+    """当前属于哪一份邮件：08:30 之后到 15:00 是早报，20:30 之后是晚报。
+    其余时间（中午、下午、凌晨）只抓数据不发信。"""
+    hm = now.hour * 100 + now.minute
+    if 830 <= hm < 1500:
+        return "am"
+    if hm >= 2030:
+        return "pm"
+    return None
+
+
+def load_mailstate():
+    try:
+        with open(MAILSTATE_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_mailstate(st, keep_days=5):
+    cutoff = (dt.date.today() - dt.timedelta(days=keep_days)).strftime("%Y-%m-%d")
+    st = {k: v for k, v in st.items() if k >= cutoff}
+    os.makedirs(os.path.dirname(MAILSTATE_PATH), exist_ok=True)
+    with open(MAILSTATE_PATH, "w", encoding="utf-8") as f:
+        json.dump(st, f, ensure_ascii=False)
 
 
 # ---------------------------------------------------------------- 生成报告
@@ -1611,6 +1642,20 @@ def main():
     if args.no_mail:
         print("  [邮件] 本次只抓取，不发邮件")
         return
+    # 一天跑好几次，但每个时段只发一封：谁先跑起来谁发，发过就跳过。
+    # 这样 GitHub 定时任务延迟/漏跑时，后面任意一次运行都能把这份补上。
+    slot = mail_slot(run_time)
+    if not slot:
+        print(f"  [邮件] {run_time.strftime('%H:%M')} 不在发信时段"
+              f"（08:30-15:00 早报 / 20:30 后晚报），本次只抓取")
+        return
+    today_key = run_time.strftime("%Y-%m-%d")
+    mstate = load_mailstate()
+    if (mstate.get(today_key) or {}).get(slot):
+        label = "早报" if slot == "am" else "晚报"
+        print(f"  [邮件] 今天的{label}已发过"
+              f"（{mstate[today_key][slot]}），本次跳过")
+        return
     # 排除之前推送过的：早报发过的晚报不发，昨天发过的今天不发，宁少勿重
     mailed = load_mailed()
     plain, edition, sel = build_mail_body(items, cfg, run_time, exclude=set(mailed))
@@ -1625,12 +1670,14 @@ def main():
         plain,
         html_mail,
     )
-    # 发送成功才登记，万一哪次发送失败，内容下一轮还能补发
+    # 发送成功才登记：条目登记（防重复）和时段登记（防重发）
     if ok:
         now_ts = run_time.timestamp()
         for iid in sel["ids"]:
             mailed[iid] = now_ts
         save_mailed(mailed)
+        mstate.setdefault(today_key, {})[slot] = run_time.strftime("%H:%M")
+        save_mailstate(mstate)
 
 
 if __name__ == "__main__":
