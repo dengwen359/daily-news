@@ -14,6 +14,7 @@
 import os
 import re
 import sys
+import copy
 import json
 import html
 import ssl
@@ -1017,8 +1018,6 @@ def build_mail_body(items, cfg, run_time, exclude=None):
     邮件要满足三件事：每条有原文链接、每条有正文摘录、条数不能太多。
     之前推送过的内容（exclude）直接跳过，不重复占版面。
     """
-    lim = cfg.get("limits", {}) or {}
-    body_chars = int(lim.get("mail_body_chars", 180))
     sel = select_mail_rows(items, cfg, run_time, exclude)
     hour = run_time.hour
     edition = "早报" if hour < 15 else "晚报"
@@ -1051,13 +1050,9 @@ def build_mail_body(items, cfg, run_time, exclude=None):
             if r.get("why"):
                 meta.append(r["why"])
             L.append("   " + " · ".join(meta))
-            body = clean_body_text(r.get("body") or r.get("summary"))
-            if body:
-                L.append("   " + trim_sentence(body, body_chars))
-            L.append(f"   原文：{r['link']}")
-            ext = _also_line(r, style="mail")
-            if ext:
-                L.append(ext)
+            # 纯文本只当兜底（正文和样式都在 HTML 版里），不重复正文，省下的
+            # 体积留给 HTML——139 邮箱对整封信的大小很敏感，超了会被判垃圾。
+            L.append(f"   {r['link']}")
 
     block("突发必看", sel["must"], "战争、天灾、重大突发事件，命中即置顶，保证不遗漏。")
     if sel["rest_must"] > 0:
@@ -1091,17 +1086,33 @@ def build_mail_body(items, cfg, run_time, exclude=None):
 
 
 # ---------------------------------------------------------------- HTML 邮件
-_MAIL_BTN = ("display:inline-block;padding:6px 13px;margin:0 6px 6px 0;"
-             "border:1px solid #2b5c8a;border-radius:15px;color:#2b5c8a;"
-             "text-decoration:none;font-size:12px;font-weight:550;")
-_MAIL_BTN_GOLD = _MAIL_BTN.replace("#2b5c8a", "#a8841c")
+# 样式放在 <style> 里用类选择器，不要每条内联——内联会让 20 条新闻多出
+# 四五 KB，中文本来一个字符 3 字节，整封信很容易超 139 的体积红线。
+_MAIL_CSS = """<style>
+body{margin:0}
+.wrap{max-width:640px;margin:0 auto;padding:12px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;color:#1a1d21;font-size:14px;line-height:1.6}
+h2{font-size:18px;margin:0 0 4px}
+h3{font-size:14px;margin:16px 0 4px;padding-bottom:5px;border-bottom:1px solid #e6e8ec}
+h3.gold{color:#a8841c}
+.sub{color:#999;font-size:12px;margin:0 0 10px}
+.btn{display:inline-block;padding:6px 13px;margin:0 6px 6px 0;border:1px solid #2b5c8a;border-radius:15px;color:#2b5c8a;text-decoration:none;font-size:12px}
+.btn.gold{border-color:#a8841c;color:#a8841c}
+.it{padding:8px 0;border-bottom:1px solid #eee}
+.tt{color:#1a1d21;font-weight:600;text-decoration:none}
+.mt{color:#999;font-size:12px;margin-top:2px}
+.mt b{color:#a8841c}
+.bd{color:#666;font-size:13px;margin-top:4px}
+.board{margin-top:16px;padding:11px;background:#eaf1f8;border-radius:8px;text-align:center}
+.board a{color:#2b5c8a;text-decoration:none;font-size:13px;font-weight:600}
+.foot{color:#999;font-size:11px;margin-top:12px}
+</style>"""
 
 
 def build_mail_html(items, cfg, run_time, sel):
     """HTML 版邮件：顶部一排类别按钮，点哪个跳哪个分类，
     手机邮箱里也能像网页看板那样挑着看。"""
     lim = cfg.get("limits", {}) or {}
-    body_chars = int(lim.get("mail_body_chars", 180))
+    body_chars = int(lim.get("mail_body_chars", 90))
     edition = "早报" if run_time.hour < 15 else "晚报"
     site = cfg.get("site_url", "")
     e = html.escape
@@ -1112,37 +1123,25 @@ def build_mail_html(items, cfg, run_time, sel):
             meta.append(r["dt"].strftime("%m-%d %H:%M"))
         meta.append(e(r["source"]))
         if r.get("why"):
-            meta.append(f"<b style='color:#a8841c'>{e(r['why'])}</b>")
+            meta.append(f"<b>{e(r['why'])}</b>")
         also = r.get("also") or []
         if also:
             meta.append(f"同题另报 {len(also)} 家")
         body = clean_body_text(r.get("body") or r.get("summary"))
         if body:
             body = trim_sentence(body, body_chars)
-        h = ['<div style="padding:10px 0;border-bottom:1px solid #eef0f2;">']
-        h.append(f'<a href="{e(r["link"], True)}" style="color:#1a1d21;'
-                 f'font-weight:600;text-decoration:none;font-size:15px;'
-                 f'line-height:1.45;">{e(r["title"])}</a>')
-        h.append('<div style="color:#8b939e;font-size:12px;margin-top:3px;">'
-                 + " · ".join(meta) + "</div>")
+        # 一条只留一个链接（标题本身就是链接），省一份重复链接
+        h = [f'<div class="it"><a class="tt" href="{e(r["link"], True)}">'
+             f'{e(r["title"])}</a><div class="mt">' + " · ".join(meta) + "</div>"]
         if body:
-            h.append(f'<div style="color:#5c6470;font-size:13px;'
-                     f'margin-top:5px;line-height:1.6;">{e(body)}</div>')
-        h.append(f'<div style="margin-top:5px;"><a href="{e(r["link"], True)}" '
-                 f'style="color:#2b5c8a;font-size:12px;text-decoration:none;">'
-                 f'阅读原文 ›</a></div>')
+            h.append(f'<div class="bd">{e(body)}</div>')
         h.append("</div>")
         return "".join(h)
 
-    def section(sid, name, rows, color="#1a1d21", note="", custom=""):
-        head = (f'<a id="sec-{sid}" style="text-decoration:none;"></a>'
-                f'<h3 style="font-size:14px;color:{color};margin:20px 0 2px;'
-                f'padding-bottom:6px;border-bottom:1px solid #e6e8ec;">'
-                f'{e(name)}（{len(rows)}）</h3>')
-        if note:
-            head += (f'<p style="color:#8b939e;font-size:12px;margin:0 0 6px;">'
-                     f'{e(note)}</p>')
-        return head + (custom or "".join(item_html(r) for r in rows))
+    def section(sid, name, rows, gold=False, custom=""):
+        cls = ' class="gold"' if gold else ""
+        return (f'<a id="sec-{sid}"></a><h3{cls}>{e(name)}（{len(rows)}）</h3>'
+                + (custom or "".join(item_html(r) for r in rows)))
 
     # 兴趣区按产业分类再分组，每组一个按钮
     topics_order = list((cfg.get("topics", {}) or {}).keys()) + ["其他"]
@@ -1162,13 +1161,11 @@ def build_mail_html(items, cfg, run_time, sel):
     # 注意：手机邮箱 App（139/QQ 等）普遍不支持邮件内锚点跳转，点了没反应，
     # 所以按钮直接打开网页看板并定位到对应分类（看板支持 ?t=分类 参数）。
     def _btn(label, topic, gold=False):
-        if site:
-            href = f"{site}?t={urllib.parse.quote(topic, safe='')}"
-        else:                                # 没配看板地址时退回邮件内锚点
-            href = f"#sec-{topic}"
-        style = _MAIL_BTN_GOLD if gold else _MAIL_BTN
-        return (f'<a href="{e(href, True)}" style="{style}" '
-                f'target="_blank" rel="noopener">{label}</a>')
+        href = (f"{site}?t={urllib.parse.quote(topic, safe='')}" if site
+                else f"#sec-{topic}")
+        cls = ' class="btn gold"' if gold else ' class="btn"'
+        return (f'<a href="{e(href, True)}"{cls} target="_blank" '
+                f'rel="noopener">{label}</a>')
 
     btns = []
     if sel["must"]:
@@ -1178,43 +1175,31 @@ def build_mail_html(items, cfg, run_time, sel):
     for t, rows in groups:
         btns.append(_btn(f"{e(t)} {len(rows)}", t))
 
-    parts = ['<div style="max-width:660px;margin:0 auto;padding:0 10px;'
-             'font-family:-apple-system,\'Segoe UI\',\'PingFang SC\','
-             '\'Microsoft YaHei\',sans-serif;color:#1a1d21;'
-             'font-size:14px;line-height:1.6;">']
-    parts.append(f'<h2 style="font-size:18px;margin:0 0 4px;">新闻{edition} · '
-                 f'{run_time.strftime("%Y年%m月%d日")}</h2>')
     head = f'本次新增 {len(sel["ids"])} 条'
     if sel["skipped"]:
         head += f'，另有 {sel["skipped"]} 条之前已推送过（不再重复）'
-    parts.append(f'<p style="color:#8b939e;font-size:12px;margin:0 0 14px;">{e(head)}</p>')
-    parts.append('<div style="margin-bottom:8px;">' + "".join(btns) + "</div>")
-    parts.append('<p style="color:#8b939e;font-size:11px;margin:0 0 10px;">'
-                 '↑ 点分类按钮，在浏览器里打开该分类的完整列表</p>')
 
-    parts.append(section("must", "★★ 突发必看", sel["must"], color="#a8841c",
-                         note="战争、天灾、重大突发事件，命中即置顶，保证不遗漏。"))
-    parts.append(section("lv1", "★ 政策要闻", sel["lv1"],
-                         note="央行货币政策、监管政策、民生数据等政策类要闻。"))
+    parts = [_MAIL_CSS, '<div class="wrap">',
+             f'<h2>新闻{edition} · {run_time.strftime("%Y年%m月%d日")}</h2>',
+             f'<p class="sub">{e(head)}</p>',
+             '<div>' + "".join(btns) + "</div>",
+             '<p class="sub">↑ 点分类按钮，在浏览器里打开该分类的完整列表</p>',
+             section("must", "★★ 突发必看", sel["must"], gold=True),
+             section("lv1", "★ 政策要闻", sel["lv1"])]
+
     for t, rows in groups:
         parts.append(section(f"g-{topics_order.index(t)}", t, rows))
     if sel["en"]:
         en_rows = "".join(
-            f'<div style="padding:6px 0;border-bottom:1px solid #eef0f2;font-size:13px;">'
-            f'<a href="{e(r["link"], True)}" style="color:#1a1d21;text-decoration:none;">'
-            f'{e(r["title"])}</a>'
-            f'<span style="color:#8b939e;">　{e(r["source"])}</span></div>'
+            f'<div class="it"><a class="tt" href="{e(r["link"], True)}">'
+            f'{e(r["title"])}</a><span class="mt">　{e(r["source"])}</span></div>'
             for r in sel["en"])
         parts.append(section("en", "外媒原文 · 英文", sel["en"], custom=en_rows))
 
     if site:
-        parts.append('<div style="margin-top:18px;padding:12px;background:#eaf1f8;'
-                     'border-radius:8px;text-align:center;">'
-                     f'<a href="{e(site, True)}" style="color:#2b5c8a;'
-                     'text-decoration:none;font-size:13px;font-weight:550;">'
-                     '打开完整看板（按主题分类、可翻历史） ›</a></div>')
-    parts.append('<p style="color:#8b939e;font-size:11px;margin-top:14px;">'
-                 '— 新闻收集器自动发送，不要回复本邮件</p>')
+        parts.append(f'<div class="board"><a href="{e(site, True)}">'
+                     f'打开完整看板（按主题分类、可翻历史） ›</a></div>')
+    parts.append('<p class="foot">— 新闻收集器自动发送，不要回复本邮件</p>')
     parts.append("</div>")
     return "".join(parts)
 
@@ -1658,11 +1643,32 @@ def main():
         return
     # 排除之前推送过的：早报发过的晚报不发，昨天发过的今天不发，宁少勿重
     mailed = load_mailed()
-    plain, edition, sel = build_mail_body(items, cfg, run_time, exclude=set(mailed))
-    if not sel["ids"]:
-        print(f"  [邮件] 本轮 {len(items)} 条内容之前都推送过，不发邮件（宁少勿重）")
-        return
-    html_mail = build_mail_html(items, cfg, run_time, sel)
+    # 体积兜底：139 邮箱对整封信大小很敏感，超了容易被判垃圾邮件，
+    # 所以先按配置生成，太大就自动减条目、缩摘要，直到落进上限。
+    max_kb = float(cfg.get("mail_max_kb", 20))
+    tiers = [
+        {},
+        {"mail_must": 8, "mail_level1": 6, "mail_interest": 4,
+         "mail_en": 2, "mail_body_chars": 70},
+        {"mail_must": 6, "mail_level1": 5, "mail_interest": 3,
+         "mail_en": 1, "mail_body_chars": 55},
+    ]
+    plain = html_mail = sel = None
+    size_kb = 0
+    for over in tiers:
+        cfg_try = copy.deepcopy(cfg)
+        if over:
+            cfg_try.setdefault("limits", {}).update(over)
+        plain, edition, sel = build_mail_body(items, cfg_try, run_time, exclude=set(mailed))
+        if not sel["ids"]:
+            print(f"  [邮件] 本轮 {len(items)} 条内容之前都推送过，不发邮件（宁少勿重）")
+            return
+        html_mail = build_mail_html(items, cfg_try, run_time, sel)
+        size_kb = (len(plain.encode("utf-8")) + len(html_mail.encode("utf-8"))) / 1024
+        if size_kb <= max_kb:
+            break
+        print(f"  [邮件] {size_kb:.0f} KB 超过 {max_kb:.0f} KB 上限，自动精简后重排")
+    print(f"  [邮件] {len(sel['ids'])} 条，体积 {size_kb:.0f} KB")
     ok = send_mail(
         cfg,
         f"新闻{edition} {run_time.strftime('%m-%d')} · "

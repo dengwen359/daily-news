@@ -399,12 +399,14 @@ limits:
   max_per_feed: 8     # 中文权威源每个源最多先列几条
   max_per_topic: 12   # 每个兴趣主题最多先列几条
   max_per_feed_en: 5  # 英文源每个源最多先列几条
-  mail_must: 20       # 邮件里必看最多给几条
-  mail_level1: 12     # 邮件里要闻最多给几条
-  mail_interest: 8    # 邮件里兴趣最多给几条
+  mail_must: 9       # 邮件里突发必看最多给几条
+  mail_level1: 7     # 邮件里政策要闻最多给几条
+  mail_interest: 4   # 邮件里兴趣最多给几条
   mail_per_feed: 4    # 邮件里同一个源最多占几条（避免一整封都是同一家通稿）
-  mail_en: 3          # 邮件里外媒原文最多列几条标题
-  mail_body_chars: 180  # 邮件里每条正文摘录最多多少字（太长容易被 139 当垃圾邮件）
+  mail_en: 2          # 邮件里外媒原文最多列几条标题
+  mail_body_chars: 80   # 邮件里每条正文摘录最多多少字（中文 3 字节/字，太长会被 139 判垃圾）
+  # 整封信（纯文本+HTML）的体积上限，超过会自动减条目、缩摘要后重排
+  mail_max_kb: 17
 
 # ---------- 输出 ----------
 output_dir: reports
