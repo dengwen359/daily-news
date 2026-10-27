@@ -24,6 +24,7 @@ import argparse
 import datetime as dt
 import urllib.request
 import urllib.error
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -1126,20 +1127,25 @@ def build_mail_html(items, cfg, run_time, sel):
     if left:
         groups.append(("其他", left))
 
-    # 顶部按钮：只有实际有内容的分类才出现
+    # 顶部按钮：只有实际有内容的分类才出现。
+    # 注意：手机邮箱 App（139/QQ 等）普遍不支持邮件内锚点跳转，点了没反应，
+    # 所以按钮直接打开网页看板并定位到对应分类（看板支持 ?t=分类 参数）。
+    def _btn(label, topic, gold=False):
+        if site:
+            href = f"{site}?t={urllib.parse.quote(topic, safe='')}"
+        else:                                # 没配看板地址时退回邮件内锚点
+            href = f"#sec-{topic}"
+        style = _MAIL_BTN_GOLD if gold else _MAIL_BTN
+        return (f'<a href="{e(href, True)}" style="{style}" '
+                f'target="_blank" rel="noopener">{label}</a>')
+
     btns = []
     if sel["must"]:
-        btns.append(f'<a href="#sec-must" style="{_MAIL_BTN_GOLD}">'
-                    f'★★ 突发必看 {len(sel["must"])}</a>')
+        btns.append(_btn(f"★★ 突发必看 {len(sel['must'])}", "__key__", gold=True))
     if sel["lv1"]:
-        btns.append(f'<a href="#sec-lv1" style="{_MAIL_BTN}">'
-                    f'★ 政策要闻 {len(sel["lv1"])}</a>')
+        btns.append(_btn(f"★ 政策要闻 {len(sel['lv1'])}", "__news__"))
     for t, rows in groups:
-        btns.append(f'<a href="#sec-g-{topics_order.index(t)}" style="{_MAIL_BTN}">'
-                    f'{e(t)} {len(rows)}</a>')
-    if sel["en"]:
-        btns.append(f'<a href="#sec-en" style="{_MAIL_BTN}">'
-                    f'外媒原文 {len(sel["en"])}</a>')
+        btns.append(_btn(f"{e(t)} {len(rows)}", t))
 
     parts = ['<div style="max-width:660px;margin:0 auto;padding:0 10px;'
              'font-family:-apple-system,\'Segoe UI\',\'PingFang SC\','
@@ -1152,6 +1158,8 @@ def build_mail_html(items, cfg, run_time, sel):
         head += f'，另有 {sel["skipped"]} 条之前已推送过（不再重复）'
     parts.append(f'<p style="color:#8b939e;font-size:12px;margin:0 0 14px;">{e(head)}</p>')
     parts.append('<div style="margin-bottom:8px;">' + "".join(btns) + "</div>")
+    parts.append('<p style="color:#8b939e;font-size:11px;margin:0 0 10px;">'
+                 '↑ 点分类按钮，在浏览器里打开该分类的完整列表</p>')
 
     parts.append(section("must", "★★ 突发必看", sel["must"], color="#a8841c",
                          note="战争、天灾、重大突发事件，命中即置顶，保证不遗漏。"))

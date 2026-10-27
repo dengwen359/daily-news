@@ -224,6 +224,19 @@ let curDate = DATA[0].date;
 let curTopic = '__all__';
 let curQ = '';
 
+// 支持 ?t=分类 或 #t=分类 直达某个分类（邮件里的类别按钮带这个参数，
+// 手机邮箱不支持邮件内锚点跳转，所以按钮直接打开看板并定位）
+(function() {{
+  try {{
+    let t = new URLSearchParams(location.search).get('t');
+    if (!t && location.hash.length > 1) {{
+      t = decodeURIComponent(location.hash.slice(1));
+      if (t.indexOf('t=') === 0) t = t.slice(2);
+    }}
+    if (t && t !== 'all') curTopic = t;
+  }} catch (e) {{}}
+}})();
+
 const $ = id => document.getElementById(id);
 
 function fmtCN(ds){{
@@ -256,6 +269,11 @@ function buildTabs(){{
   const order = (d.order||[]).filter(t => set.has(t));
   const others = [...set].filter(t => !order.includes(t));
   const all = [...order, ...others];
+  // 从 URL 直达的分类如果当天不存在，回落到"全部"，避免开着空列表
+  if (curTopic !== '__all__' && curTopic !== '__key__' && curTopic !== '__news__'
+      && !all.includes(curTopic)) {{
+    curTopic = '__all__';
+  }}
   const keyN = d.items.filter(it => it.lv === 2).length;
   const newsN = d.items.filter(it => it.lv === 1).length;
 
