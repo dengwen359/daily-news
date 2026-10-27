@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27 22:53",
+ "generated_at": "2026-10-27 23:00",
  "hours_window": 30,
  "count": 366,
  "sources_ok": 17,
@@ -54,7 +54,7 @@
     "总统"
    ],
    "time": "21:44",
-   "score": 18.9,
+   "score": 18.8,
    "level": 2,
    "why": "袭击",
    "tier": "must",
@@ -241,7 +241,7 @@
    "topics": [],
    "words": [],
    "time": "13:47",
-   "score": 15.9,
+   "score": 15.8,
    "level": 2,
    "why": "袭击",
    "tier": "must",
@@ -460,6 +460,30 @@
    "group": "chinanews"
   },
   {
+   "id": "658d2f8edb652f4c",
+   "title": "剑指美股人形和仿生机器人第一股，FFR 完成对 FFAI 的合并交易并挂牌上市",
+   "link": "https://www.ithome.com/1/018/301.htm",
+   "summary": "IT之家 10 月 27 日消息，Faraday Future 官微今天（27 日）上午宣布，FFR 已完成对 FFAI 机器人的合并交易，所有相关业务及资产已装入 FFR，并按计划向 FFAI 发行并交付了相应普通股及无投票权可转换优先股，此举标志着 FFR 在纳斯达克挂牌上市 。 根据公告，FFR 任命贾跃亭担任 CEO，Jerry Wang 担任执行董事长。FFR 目前已完成“Built in USA”加速计划第一阶段，集结 FF 机器人世界 2.0，正加快将先发优势转化为竞争优势，依托“四核全智”生态、EAI 技术优势、“一脑多形、多形多能”技术路线，打造美国领先的 Physical AI 与机器人生态平台。 此外，FFR 首次发布了 2026 年全年业绩指引：机器人业务按 2026 年独立全年口径计算， 预计机器人本体销售及出货量约为 2000 台，同时保持正毛利 。 在获得必要",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "AI",
+    "机器人",
+    "美股"
+   ],
+   "time": "11:26",
+   "score": 12.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家"
+  },
+  {
    "id": "745114806473a78d",
    "title": "中微半导体 2026 年前三季度归母净利润 1.62 亿元，营收 10.99 亿元同比增长 42.23%",
    "link": "https://www.ithome.com/1/018/665.htm",
@@ -478,30 +502,6 @@
     "营收"
    ],
    "time": "21:17",
-   "score": 12.8,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家"
-  },
-  {
-   "id": "658d2f8edb652f4c",
-   "title": "剑指美股人形和仿生机器人第一股，FFR 完成对 FFAI 的合并交易并挂牌上市",
-   "link": "https://www.ithome.com/1/018/301.htm",
-   "summary": "IT之家 10 月 27 日消息，Faraday Future 官微今天（27 日）上午宣布，FFR 已完成对 FFAI 机器人的合并交易，所有相关业务及资产已装入 FFR，并按计划向 FFAI 发行并交付了相应普通股及无投票权可转换优先股，此举标志着 FFR 在纳斯达克挂牌上市 。 根据公告，FFR 任命贾跃亭担任 CEO，Jerry Wang 担任执行董事长。FFR 目前已完成“Built in USA”加速计划第一阶段，集结 FF 机器人世界 2.0，正加快将先发优势转化为竞争优势，依托“四核全智”生态、EAI 技术优势、“一脑多形、多形多能”技术路线，打造美国领先的 Physical AI 与机器人生态平台。 此外，FFR 首次发布了 2026 年全年业绩指引：机器人业务按 2026 年独立全年口径计算， 预计机器人本体销售及出货量约为 2000 台，同时保持正毛利 。 在获得必要",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资"
-   ],
-   "words": [
-    "AI",
-    "机器人",
-    "美股"
-   ],
-   "time": "11:26",
    "score": 12.8,
    "level": 0,
    "why": "",
@@ -863,29 +863,6 @@
    "group": "36氪"
   },
   {
-   "id": "c63f60a86fd492b6",
-   "title": "波音 2026 年第三季度营收 241.88 亿美元同比增长 4%：净亏损收窄至 1.16 亿美元，交付 161 架飞机而积压订单超 6300 架",
-   "link": "https://www.ithome.com/1/018/644.htm",
-   "summary": "IT之家 10 月 27 日消息，波音今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告。 财报显示，波音第三季度营收同比增长 4% 至 241.88 亿美元，GAAP 运营利润转为正数，净亏损同比大幅收窄，经营现金流和自由现金流均实现同比增长。 2026 财年前三季度报 营业总收入 ：709.65 亿美元 （IT之家注：现汇率约合 4743.12 亿元人民币） ，同比增长 8% 毛利润 ：71.27 亿美元 （现汇率约合 476.35 亿元人民币） 毛利率 ：10.04% 归母净利润 ：-8.23 亿美元 （现汇率约合 -55.01 亿元人民币） ，同比亏损收窄 86.82% 经营现金流 ：26.81 亿美元 （现汇率约合 179.19 亿元人民币） ",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资"
-   ],
-   "words": [
-    "AI",
-    "营收"
-   ],
-   "time": "19:46",
-   "score": 10.6,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家"
-  },
-  {
    "id": "6cec7dc26cf03692",
    "title": "Counterpoint：英伟达引领人形机器人 AI 加速器市场，高通、英特尔、特斯拉、小鹏逐步崛起",
    "link": "https://www.ithome.com/1/018/075.htm",
@@ -1007,6 +984,29 @@
    "group": "chinanews"
   },
   {
+   "id": "c63f60a86fd492b6",
+   "title": "波音 2026 年第三季度营收 241.88 亿美元同比增长 4%：净亏损收窄至 1.16 亿美元，交付 161 架飞机而积压订单超 6300 架",
+   "link": "https://www.ithome.com/1/018/644.htm",
+   "summary": "IT之家 10 月 27 日消息，波音今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告。 财报显示，波音第三季度营收同比增长 4% 至 241.88 亿美元，GAAP 运营利润转为正数，净亏损同比大幅收窄，经营现金流和自由现金流均实现同比增长。 2026 财年前三季度报 营业总收入 ：709.65 亿美元 （IT之家注：现汇率约合 4743.12 亿元人民币） ，同比增长 8% 毛利润 ：71.27 亿美元 （现汇率约合 476.35 亿元人民币） 毛利率 ：10.04% 归母净利润 ：-8.23 亿美元 （现汇率约合 -55.01 亿元人民币） ，同比亏损收窄 86.82% 经营现金流 ：26.81 亿美元 （现汇率约合 179.19 亿元人民币） ",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "AI",
+    "营收"
+   ],
+   "time": "19:46",
+   "score": 10.6,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家"
+  },
+  {
    "id": "b0924fa3e9bffddd",
    "title": "PayPal 2026 财年前三季度营收 256.19 亿美元，净利润同比下降 13.3%",
    "link": "https://www.ithome.com/1/018/608.htm",
@@ -1068,7 +1068,7 @@
     "营收"
    ],
    "time": "18:33",
-   "score": 10.5,
+   "score": 10.4,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1277,30 +1277,6 @@
    "group": "chinanews"
   },
   {
-   "id": "0c8f38aae9e5cb66",
-   "title": "继英伟达 30 亿美元之后：AMD 也宣布向 Meta 投资 10 亿美元深化 AI 基础设施合作，覆盖 EPYC、Instinct GPU、ROCm 软件",
-   "link": "https://www.ithome.com/1/018/676.htm",
-   "summary": "IT之家 10 月 27 日消息，继英伟达的 30 亿美元之后，AMD 也宣布向 Meta 的股权发行投资 10 亿美元 （IT之家注：现汇率约合 66.84 亿元人民币） ，从而进一步深化与 Meta 的战略合作。 双方将围绕 CPU、GPU、网络、系统及软件展开协作，为 Meta 的人工智能基础设施及 AI 服务提供算力支持。 据官方公告，AMD Helios 机架级系统已在 Meta 安装并进入测试阶段，双方计划在后续进一步扩大部署规模。AMD 表示，两家公司正围绕当前及未来的 Meta 工作负载协调产品路线图和工程设计，目标是共同建设并部署吉瓦级 AI 基础设施。 在 CPU 方面，AMD EPYC 处理器已用于支撑 Meta 的 Muse 个人 AI 助手背后的专用计算环境。AMD 称，Meta 已在多个处理器世代中部署数百万颗 EPYC 处理器，也是第六代 EPYC CPU 的",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "人工智能",
-    "英伟达",
-    "算力"
-   ],
-   "time": "22:08",
-   "score": 9.9,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家"
-  },
-  {
    "id": "42a16c31284a341f",
    "title": "SpaceX 达成史上最大规模 GPU 融资安排，协议总额约 400 亿美元",
    "link": "https://www.ithome.com/1/018/150.htm",
@@ -1398,6 +1374,30 @@
    "group": "chinanews"
   },
   {
+   "id": "0c8f38aae9e5cb66",
+   "title": "继英伟达 30 亿美元之后：AMD 也宣布向 Meta 投资 10 亿美元深化 AI 基础设施合作，覆盖 EPYC、Instinct GPU、ROCm 软件",
+   "link": "https://www.ithome.com/1/018/676.htm",
+   "summary": "IT之家 10 月 27 日消息，继英伟达的 30 亿美元之后，AMD 也宣布向 Meta 的股权发行投资 10 亿美元 （IT之家注：现汇率约合 66.84 亿元人民币） ，从而进一步深化与 Meta 的战略合作。 双方将围绕 CPU、GPU、网络、系统及软件展开协作，为 Meta 的人工智能基础设施及 AI 服务提供算力支持。 据官方公告，AMD Helios 机架级系统已在 Meta 安装并进入测试阶段，双方计划在后续进一步扩大部署规模。AMD 表示，两家公司正围绕当前及未来的 Meta 工作负载协调产品路线图和工程设计，目标是共同建设并部署吉瓦级 AI 基础设施。 在 CPU 方面，AMD EPYC 处理器已用于支撑 Meta 的 Muse 个人 AI 助手背后的专用计算环境。AMD 称，Meta 已在多个处理器世代中部署数百万颗 EPYC 处理器，也是第六代 EPYC CPU 的",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "人工智能",
+    "英伟达",
+    "算力"
+   ],
+   "time": "22:08",
+   "score": 9.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家"
+  },
+  {
    "id": "5d1af2a970ef4643",
    "title": "委内瑞拉推进司法改革 最高法院改组工作取得进展",
    "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721868.shtml",
@@ -1433,7 +1433,7 @@
     "总统"
    ],
    "time": "20:54",
-   "score": 9.8,
+   "score": 9.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1664,7 +1664,7 @@
   },
   {
    "id": "fa239c00eb3350a3",
-   "title": "8点1氪丨Anthropic正式提交IPO申请；寿司郎传送带被曝窜出活老鼠；苹果客��称很多客户取消iPhone Duo订单",
+   "title": "8点1氪丨Anthropic正式提交IPO申请；寿司郎传送带被曝窜出活老鼠；苹果客服称很多客户取消iPhone Duo订单",
    "link": "https://36kr.com/p/4043364384707456?f=rss",
    "summary": "今日热点导览 Kimi致歉：将为会员提供重置机会 马斯克宣布X长按点赞可向对方转账1美元 微软向约6万名员工开放自愿离职方案，AI巨额投入挤压人力预算 中国石油午后涨近4%，创2008年5月以来新高 科学家展示全球首款织进衣服的触摸屏 TOP 3大新闻 Anthropic正式提交IPO申请 10月26日，Anthropic正式提交纳斯达克IPO申请，股票代码定为“ANT”。Anthropic上半年营收163亿美元，去年同期为12亿美元；上半年净亏损807亿美元。 Anthropic在招股书中披露，公司与多家科技企业签订大额算力及基础设施协议，相关支出承诺延伸至2036年。其中，公司承诺2026年4月至2033年7月向谷歌至少支出约1145亿美元；2026年5月至2036年4月向亚马逊至少支出1100亿美元；2026年11月至2033年5月向微软至少支出449亿美元，相关承诺原则上不因实际使",
    "body": "",
@@ -1682,7 +1682,7 @@
     "英伟达"
    ],
    "time": "08:08",
-   "score": 9.2,
+   "score": 9.1,
    "level": 0,
    "why": "",
    "tier": "",
@@ -2040,7 +2040,7 @@
     "机器人"
    ],
    "time": "14:33",
-   "score": 8.0,
+   "score": 7.9,
    "level": 0,
    "why": "",
    "tier": "",
@@ -2132,23 +2132,6 @@
    "group": "bbc"
   },
   {
-   "id": "8933a9f437e15438",
-   "title": "In Israel’s Election, It’s Nationalism vs. Founding Ideals",
-   "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-election-identity.html",
-   "summary": "As Israel votes, ever more strident hard-right views compete with hopes for a diverse land. The outcome could shape the country’s identity for years.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "22:10",
-   "score": 7.9,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
    "id": "1631909886667430",
    "title": "美股存储概念股涨幅扩大，西部数据涨超7%",
    "link": "https://www.jiemian.com/article/15249474.html",
@@ -2170,25 +2153,26 @@
    "group": "界面新闻"
   },
   {
-   "id": "0b19df97c621df96",
-   "title": "保时捷 2026 年前第三季度营收 252.8 亿欧元，同比下滑 5.9%",
-   "link": "https://www.ithome.com/1/018/675.htm",
-   "summary": "IT之家 10 月 27 日消息，保时捷今日公布 2026 年前三季度业绩，报告期内，该集团实现营业收入 252.8 亿欧元 （IT之家注：现汇率约合 1,888.95 亿元人民币） ， 同比下滑 5.9% ；营业利润 17.4 亿欧元 （现汇率约合 130.02 亿元人民币） ，销售营业回报率 6.9%。 2026 年前三季度，汽车业务净现金流利润率达到 11.3%，而去年同期为 5.6%。截至 2026 年 9 月 30 日，受汽车业务净现金流资金流入的主要驱动，汽车业务板块净流动资金较 2025 财年末增加 8.84 亿欧元 （现汇率约合 66.05 亿元人民币） ，达到 82.3 亿欧元 （现汇率约合 614.96 亿元人民币） 。 此外，该公司全球交付 178532 台 ，去年同期 212509 台， 同比下降 16% 。分区域： 北美：56088 台，-13%（IT之家注：保时",
+   "id": "f7155256cf26de6c",
+   "title": "无锡这座零碳园区如何让AI管好每一度电",
+   "link": "https://www.jiemian.com/article/15240147.html",
+   "summary": "朗新“九功AI能源大模型”将AI应用于充电调度、电力交易、虚拟电厂等场景。",
    "body": "",
-   "source": "IT之家",
+   "source": "界面新闻",
    "also": [],
    "topics": [
-    "财经投资"
+    "科技与产业"
    ],
    "words": [
-    "营收"
+    "AI",
+    "大模型"
    ],
-   "time": "22:07",
+   "time": "21:52",
    "score": 7.9,
    "level": 0,
    "why": "",
    "tier": "",
-   "group": "IT之家"
+   "group": "界面新闻"
   },
   {
    "id": "ed16be68cad3097e",
@@ -2399,6 +2383,44 @@
    "group": "IT之家"
   },
   {
+   "id": "8933a9f437e15438",
+   "title": "In Israel’s Election, It’s Nationalism vs. Founding Ideals",
+   "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-election-identity.html",
+   "summary": "As Israel votes, ever more strident hard-right views compete with hopes for a diverse land. The outcome could shape the country’s identity for years.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "22:10",
+   "score": 7.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
+  },
+  {
+   "id": "0b19df97c621df96",
+   "title": "保时捷 2026 年前第三季度营收 252.8 亿欧元，同比下滑 5.9%",
+   "link": "https://www.ithome.com/1/018/675.htm",
+   "summary": "IT之家 10 月 27 日消息，保时捷今日公布 2026 年前三季度业绩，报告期内，该集团实现营业收入 252.8 亿欧元 （IT之家注：现汇率约合 1,888.95 亿元人民币） ， 同比下滑 5.9% ；营业利润 17.4 亿欧元 （现汇率约合 130.02 亿元人民币） ，销售营业回报率 6.9%。 2026 年前三季度，汽车业务净现金流利润率达到 11.3%，而去年同期为 5.6%。截至 2026 年 9 月 30 日，受汽车业务净现金流资金流入的主要驱动，汽车业务板块净流动资金较 2025 财年末增加 8.84 亿欧元 （现汇率约合 66.05 亿元人民币） ，达到 82.3 亿欧元 （现汇率约合 614.96 亿元人民币） 。 此外，该公司全球交付 178532 台 ，去年同期 212509 台， 同比下降 16% 。分区域： 北美：56088 台，-13%（IT之家注：保时",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "营收"
+   ],
+   "time": "22:07",
+   "score": 7.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家"
+  },
+  {
    "id": "1e8316d884e00051",
    "title": "Meghan, Actress Turned Duchess, Will Join Australian Cooking Show",
    "link": "https://www.nytimes.com/2026/10/27/world/europe/meghan-junior-masterchef-australia.html",
@@ -2416,28 +2438,6 @@
    "group": "nyt"
   },
   {
-   "id": "f7155256cf26de6c",
-   "title": "无锡这座零碳园区如何让AI管好每一度电",
-   "link": "https://www.jiemian.com/article/15240147.html",
-   "summary": "朗新“九功AI能源大模型”将AI应用于充电调度、电力交易、虚拟电厂等场景。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "大模型"
-   ],
-   "time": "21:52",
-   "score": 7.9,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻"
-  },
-  {
    "id": "35ed0c358a9bb095",
    "title": "伊朗：一油轮在霍尔木兹海峡东部触雷起火",
    "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721918.shtml",
@@ -2448,7 +2448,7 @@
    "topics": [],
    "words": [],
    "time": "21:45",
-   "score": 7.9,
+   "score": 7.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2465,7 +2465,7 @@
    "topics": [],
    "words": [],
    "time": "21:43",
-   "score": 7.9,
+   "score": 7.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2482,7 +2482,7 @@
    "topics": [],
    "words": [],
    "time": "21:42",
-   "score": 7.9,
+   "score": 7.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2521,44 +2521,6 @@
    "why": "",
    "tier": "must",
    "group": "nyt"
-  },
-  {
-   "id": "3baebdbe792a3464",
-   "title": "Nanotyrannus skeleton goes to auction in New York with £4.5m price tag",
-   "link": "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss",
-   "summary": "The auction of the rare skeleton comes amid debate in the scientific community about whether dinosaur remains should end up in private hands or public view.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "21:23",
-   "score": 7.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc"
-  },
-  {
-   "id": "143acaa831e7186b",
-   "title": "苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线",
-   "link": "https://www.ithome.com/1/018/666.htm",
-   "summary": "IT之家 10 月 27 日消息，苹果公司今日宣布为 Apple 创作坊带来重大更新，为创作者带来专业级工具。Mac 版 Final Cut Pro 现内置 MotionVFX，集成视觉特效、插件、转场、模板和运动图形工具等功能。同时 Pixelmator Pro、Keynote 讲演、Pages 文稿和 Numbers 表格推出多项全新 AI 功能 Beta。 Apple 创作坊将于今年 11 月以免费更新的形式通过 App Store 推出。 视频工作流 IT之家了解到，Mac 与 iPad 版 Final Cut Pro 为视频剪辑师、内容创作者和电影工作者提供了一系列新功能。Mac 版 FCP 现在将 MotionVFX 直接整合进 App， 剪辑师可使用数千种元素，包括模板、图形、标题字和转场 ，以及转描、跟踪和校色工具。剪辑师还可直接在 Final Cut Pro 里访问内容库",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI"
-   ],
-   "time": "21:19",
-   "score": 7.8,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家"
   },
   {
    "id": "86373f13ec40cdcf",
@@ -2622,6 +2584,44 @@
    "why": "",
    "tier": "",
    "group": "36氪"
+  },
+  {
+   "id": "3baebdbe792a3464",
+   "title": "Nanotyrannus skeleton goes to auction in New York with £4.5m price tag",
+   "link": "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss",
+   "summary": "The auction of the rare skeleton comes amid debate in the scientific community about whether dinosaur remains should end up in private hands or public view.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:23",
+   "score": 7.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc"
+  },
+  {
+   "id": "143acaa831e7186b",
+   "title": "苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线",
+   "link": "https://www.ithome.com/1/018/666.htm",
+   "summary": "IT之家 10 月 27 日消息，苹果公司今日宣布为 Apple 创作坊带来重大更新，为创作者带来专业级工具。Mac 版 Final Cut Pro 现内置 MotionVFX，集成视觉特效、插件、转场、模板和运动图形工具等功能。同时 Pixelmator Pro、Keynote 讲演、Pages 文稿和 Numbers 表格推出多项全新 AI 功能 Beta。 Apple 创作坊将于今年 11 月以免费更新的形式通过 App Store 推出。 视频工作流 IT之家了解到，Mac 与 iPad 版 Final Cut Pro 为视频剪辑师、内容创作者和电影工作者提供了一系列新功能。Mac 版 FCP 现在将 MotionVFX 直接整合进 App， 剪辑师可使用数千种元素，包括模板、图形、标题字和转场 ，以及转描、跟踪和校色工具。剪辑师还可直接在 Final Cut Pro 里访问内容库",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "21:19",
+   "score": 7.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家"
   },
   {
    "id": "11d2aa8805550172",
@@ -2750,7 +2750,7 @@
    "topics": [],
    "words": [],
    "time": "21:00",
-   "score": 7.8,
+   "score": 7.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2907,7 +2907,7 @@
     "电动车"
    ],
    "time": "20:10",
-   "score": 7.7,
+   "score": 7.6,
    "level": 0,
    "why": "",
    "tier": "",
@@ -2967,80 +2967,6 @@
    "why": "",
    "tier": "must",
    "group": "bbc"
-  },
-  {
-   "id": "c364251178e60199",
-   "title": "宁夏援外医疗队成功救治危重感染婴儿",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721830.shtml",
-   "summary": "中新网银川10月27日电(记者 杨迪)记者27日从中国(宁夏)第28批援贝宁医疗队获悉，近日，该医疗队耳鼻喉科医生邓斌，在医疗条件有限、病情极其凶险的情况下，历经一个月，成功救治一名出生仅45天的危重坏死性筋膜炎患儿。据介绍，该患儿因左侧面、颈部肿胀三天入院，住院后病情迅速进展，感染快速扩散至双侧面颈部，出现大面积皮肤溃烂、流脓、组织坏死，病情急剧恶化。因患儿日龄极小、免疫力低下，随时可能发生脓毒血症、感染性休克，危及生命。如不及时有效干预，患儿即便存活，也将遗留严重面部皮肤缺损、瘢痕畸形，造成终身外观毁损。",
-   "body": "中新网银川10月27日电(记者 杨迪)记者27日从中国(宁夏)第28批援贝宁医疗队获悉，近日，该医疗队耳鼻喉科医生邓斌，在医疗条件有限、病情极其凶险的情况下，历经一个月，成功救治一名出生仅45天的危重坏死性筋膜炎患儿。据介绍，该患儿因左侧面、颈部肿胀三天入院，住院后病情迅速进展，感染快速扩散至双侧面颈部，出现大面积皮肤溃烂、流脓、组织坏死，病情急剧恶化。因患儿日龄极小、免疫力低下，随时可能发生脓毒血症、感染性休克，危及生命。如不及时有效干预，患儿即便存活，也将遗留严重面部皮肤缺损、瘢痕畸形，造成终身外观毁损。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "19:48",
-   "score": 7.6,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews"
-  },
-  {
-   "id": "8eedd257c3ec520e",
-   "title": "澳大利亚音乐家约翰·休伊：在中国旋律里寻找知音",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721819.shtml",
-   "summary": "第一次在上海听苏州评弹，澳大利亚音乐家约翰·休伊(John Huie)落泪了。台上，女演员弹着琵琶，男演员以三弦相和，弹奏与吟唱交织。“我听不懂唱词，但音乐实在太美了。”休伊近日在悉尼接受中新社记者采访，回忆起20多年前的那次观演经历，仍赞叹不已。休伊的妻子冯绮微(Grace Fung)也是他的制作人。她笑着说，当地一家华文报纸曾把休伊形容为“鸡蛋人”——外表是白人，内心却深受中国文化影响。这份中国情缘，始于朋友的一句提议。20世纪80年代末，休伊在悉尼从事音乐工作。一位朋友跟他说：“我们去香港闯闯吧。”1990年，休伊来到香港，开始为电影和电视广告创作音乐，也逐渐接触到中国传统乐器。",
-   "body": "第一次在上海听苏州评弹，澳大利亚音乐家约翰·休伊(John Huie)落泪了。台上，女演员弹着琵琶，男演员以三弦相和，弹奏与吟唱交织。“我听不懂唱词，但音乐实在太美了。”休伊近日在悉尼接受中新社记者采访，回忆起20多年前的那次观演经历，仍赞叹不已。休伊的妻子冯绮微(Grace Fung)也是他的制作人。她笑着说，当地一家华文报纸曾把休伊形容为“鸡蛋人”——外表是白人，内心却深受中国文化影响。这份中国情缘，始于朋友的一句提议。20世纪80年代末，休伊在悉尼从事音乐工作。一位朋友跟他说：“我们去香港闯闯吧。”1990年，休伊来到香港，开始为电影和电视广告创作音乐，也逐渐接触到中国传统乐器。",
-   "source": "中国新闻网·国际",
-   "also": [
-    {
-     "src": "中国新闻网·国际",
-     "t": "美国、澳大利亚、英国、法国等30余国发联合声明：苏丹粮食安全状况正急剧恶化",
-     "u": "https://www.chinanews.com.cn/gj/2026/10-27/10721657.shtml"
-    }
-   ],
-   "topics": [],
-   "words": [],
-   "time": "19:47",
-   "score": 7.6,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews"
-  },
-  {
-   "id": "a481d27fe298156c",
-   "title": "Ex-FBI chief James Comey faces federal charges for third time",
-   "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
-   "summary": "Watch: \"I'm still innocent\" - James Comey responds to new charges Federal prosecutors have taken steps to charge ex-Federal Bureau of Investigation (FBI) Director James Comey with leaking national defence information, according to a court filing.",
-   "body": "Watch: \"I'm still innocent\" - James Comey responds to new charges Federal prosecutors have taken steps to charge ex-Federal Bureau of Investigation (FBI) Director James Comey with leaking national defence information, according to a court filing.",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "19:44",
-   "score": 7.6,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc"
-  },
-  {
-   "id": "cf1f80bc20ca1d9f",
-   "title": "伊朗最高领袖最新发声：提出建设“更强大伊朗”路线图",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721835.shtml",
-   "summary": "中新网10月27日电 综合伊朗媒体报道，伊朗最高领袖穆杰塔巴当地时间27日会见了伊朗最高国家安全委员会秘书雷扎伊。会议上，雷扎伊就国家各领域的现状和正在开展的工作进行了汇报。据报道，穆杰塔巴在会晤中表示，制定一份基于对每项行动的全面路线图，是做出合理稳健决策的先决条件。报道称，会议还讨论了加强民族凝聚力和团结、增进人民与官员之间的互信；利用宪法，赋予总统和行政机构的权力，协助其促进和加快解决国家问题；通过对霍尔木兹海峡的有效管控来维护国家和地区安全；以及在可持续和共同利益的基础上加强与邻国的关系等议题。",
-   "body": "中新网10月27日电 综合伊朗媒体报道，伊朗最高领袖穆杰塔巴当地时间27日会见了伊朗最高国家安全委员会秘书雷扎伊。会议上，雷扎伊就国家各领域的现状和正在开展的工作进行了汇报。据报道，穆杰塔巴在会晤中表示，制定一份基于对每项行动的全面路线图，是做出合理稳健决策的先决条件。报道称，会议还讨论了加强民族凝聚力和团结、增进人民与官员之间的互信；利用宪法，赋予总统和行政机构的权力，协助其促进和加快解决国家问题；通过对霍尔木兹海峡的有效管控来维护国家和地区安全；以及在可持续和共同利益的基础上加强与邻国的关系等议题。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "19:43",
-   "score": 7.6,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews"
   },
   {
    "id": "85aac50bbde75bc8",
@@ -3183,6 +3109,80 @@
    "group": "chinanews"
   },
   {
+   "id": "c364251178e60199",
+   "title": "宁夏援外医疗队成功救治危重感染婴儿",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721830.shtml",
+   "summary": "中新网银川10月27日电(记者 杨迪)记者27日从中国(宁夏)第28批援贝宁医疗队获悉，近日，该医疗队耳鼻喉科医生邓斌，在医疗条件有限、病情极其凶险的情况下，历经一个月，成功救治一名出生仅45天的危重坏死性筋膜炎患儿。据介绍，该患儿因左侧面、颈部肿胀三天入院，住院后病情迅速进展，感染快速扩散至双侧面颈部，出现大面积皮肤溃烂、流脓、组织坏死，病情急剧恶化。因患儿日龄极小、免疫力低下，随时可能发生脓毒血症、感染性休克，危及生命。如不及时有效干预，患儿即便存活，也将遗留严重面部皮肤缺损、瘢痕畸形，造成终身外观毁损。",
+   "body": "中新网银川10月27日电(记者 杨迪)记者27日从中国(宁夏)第28批援贝宁医疗队获悉，近日，该医疗队耳鼻喉科医生邓斌，在医疗条件有限、病情极其凶险的情况下，历经一个月，成功救治一名出生仅45天的危重坏死性筋膜炎患儿。据介绍，该患儿因左侧面、颈部肿胀三天入院，住院后病情迅速进展，感染快速扩散至双侧面颈部，出现大面积皮肤溃烂、流脓、组织坏死，病情急剧恶化。因患儿日龄极小、免疫力低下，随时可能发生脓毒血症、感染性休克，危及生命。如不及时有效干预，患儿即便存活，也将遗留严重面部皮肤缺损、瘢痕畸形，造成终身外观毁损。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "19:48",
+   "score": 7.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews"
+  },
+  {
+   "id": "8eedd257c3ec520e",
+   "title": "澳大利亚音乐家约翰·休伊：在中国旋律里寻找知音",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721819.shtml",
+   "summary": "第一次在上海听苏州评弹，澳大利亚音乐家约翰·休伊(John Huie)落泪了。台上，女演员弹着琵琶，男演员以三弦相和，弹奏与吟唱交织。“我听不懂唱词，但音乐实在太美了。”休伊近日在悉尼接受中新社记者采访，回忆起20多年前的那次观演经历，仍赞叹不已。休伊的妻子冯绮微(Grace Fung)也是他的制作人。她笑着说，当地一家华文报纸曾把休伊形容为“鸡蛋人”——外表是白人，内心却深受中国文化影响。这份中国情缘，始于朋友的一句提议。20世纪80年代末，休伊在悉尼从事音乐工作。一位朋友跟他说：“我们去香港闯闯吧。”1990年，休伊来到香港，开始为电影和电视广告创作音乐，也逐渐接触到中国传统乐器。",
+   "body": "第一次在上海听苏州评弹，澳大利亚音乐家约翰·休伊(John Huie)落泪了。台上，女演员弹着琵琶，男演员以三弦相和，弹奏与吟唱交织。“我听不懂唱词，但音乐实在太美了。”休伊近日在悉尼接受中新社记者采访，回忆起20多年前的那次观演经历，仍赞叹不已。休伊的妻子冯绮微(Grace Fung)也是他的制作人。她笑着说，当地一家华文报纸曾把休伊形容为“鸡蛋人”——外表是白人，内心却深受中国文化影响。这份中国情缘，始于朋友的一句提议。20世纪80年代末，休伊在悉尼从事音乐工作。一位朋友跟他说：“我们去香港闯闯吧。”1990年，休伊来到香港，开始为电影和电视广告创作音乐，也逐渐接触到中国传统乐器。",
+   "source": "中国新闻网·国际",
+   "also": [
+    {
+     "src": "中国新闻网·国际",
+     "t": "美国、澳大利亚、英国、法国等30余国发联合声明：苏丹粮食安全状况正急剧恶化",
+     "u": "https://www.chinanews.com.cn/gj/2026/10-27/10721657.shtml"
+    }
+   ],
+   "topics": [],
+   "words": [],
+   "time": "19:47",
+   "score": 7.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews"
+  },
+  {
+   "id": "a481d27fe298156c",
+   "title": "Ex-FBI chief James Comey faces federal charges for third time",
+   "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
+   "summary": "Watch: \"I'm still innocent\" - James Comey responds to new charges Federal prosecutors have taken steps to charge ex-Federal Bureau of Investigation (FBI) Director James Comey with leaking national defence information, according to a court filing.",
+   "body": "Watch: \"I'm still innocent\" - James Comey responds to new charges Federal prosecutors have taken steps to charge ex-Federal Bureau of Investigation (FBI) Director James Comey with leaking national defence information, according to a court filing.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "19:44",
+   "score": 7.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc"
+  },
+  {
+   "id": "cf1f80bc20ca1d9f",
+   "title": "伊朗最高领袖最新发声：提出建设“更强大伊朗”路线图",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721835.shtml",
+   "summary": "中新网10月27日电 综合伊朗媒体报道，伊朗最高领袖穆杰塔巴当地时间27日会见了伊朗最高国家安全委员会秘书雷扎伊。会议上，雷扎伊就国家各领域的现状和正在开展的工作进行了汇报。据报道，穆杰塔巴在会晤中表示，制定一份基于对每项行动的全面路线图，是做出合理稳健决策的先决条件。报道称，会议还讨论了加强民族凝聚力和团结、增进人民与官员之间的互信；利用宪法，赋予总统和行政机构的权力，协助其促进和加快解决国家问题；通过对霍尔木兹海峡的有效管控来维护国家和地区安全；以及在可持续和共同利益的基础上加强与邻国的关系等议题。",
+   "body": "中新网10月27日电 综合伊朗媒体报道，伊朗最高领袖穆杰塔巴当地时间27日会见了伊朗最高国家安全委员会秘书雷扎伊。会议上，雷扎伊就国家各领域的现状和正在开展的工作进行了汇报。据报道，穆杰塔巴在会晤中表示，制定一份基于对每项行动的全面路线图，是做出合理稳健决策的先决条件。报道称，会议还讨论了加强民族凝聚力和团结、增进人民与官员之间的互信；利用宪法，赋予总统和行政机构的权力，协助其促进和加快解决国家问题；通过对霍尔木兹海峡的有效管控来维护国家和地区安全；以及在可持续和共同利益的基础上加强与邻国的关系等议题。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "19:43",
+   "score": 7.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews"
+  },
+  {
    "id": "d189a986a37383ac",
    "title": "2026和合文化论坛开幕 海内外人士共话全球治理之道",
    "link": "https://www.chinanews.com.cn/gn/2026/10-27/10721820.shtml",
@@ -3210,7 +3210,7 @@
    "topics": [],
    "words": [],
    "time": "19:23",
-   "score": 7.6,
+   "score": 7.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3445,27 +3445,6 @@
    "group": "bbc"
   },
   {
-   "id": "945d2a03cb830e14",
-   "title": "Reddit 开源社区争议是否禁止 AI",
-   "link": "https://www.solidot.org/story?sid=85722",
-   "summary": "美国社交新闻平台 Reddit 专注于讨论开源项目的社群 r/opensource 公布了禁止 AI 的政策《Your tokens aren't valuable: No more AI》，理由是 AI 与该社群不兼容，要求递交到该社群的开源项目必须至少存在一年、有多名贡献者，发帖者必须会说英语而不是用 AI 翻译。这一政策引发了激烈的讨论，随后有人创建了新的允许 AI 的开源社群如 r/OpenSourceAIAllowed。r/opensource 的版主（moderator）表示该政策未来会进行调整，该社群主要禁止的是那种用 AI 工具生成的个人项目，而不是 Linux 内核之类的知名项目。Linux 作者 Linus Torvalds 最近公开表达支持 AI，而内核也不再强制要求 AI 生成代码打上标签。",
-   "body": "",
-   "source": "Solidot 奇客",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI"
-   ],
-   "time": "18:09",
-   "score": 7.4,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "Solidot 奇客"
-  },
-  {
    "id": "1109a75640013362",
    "title": "中方：愿推动中朝关系不断向前发展",
    "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721168.shtml",
@@ -3563,6 +3542,27 @@
    "group": "chinanews"
   },
   {
+   "id": "945d2a03cb830e14",
+   "title": "Reddit 开源社区争议是否禁止 AI",
+   "link": "https://www.solidot.org/story?sid=85722",
+   "summary": "美国社交新闻平台 Reddit 专注于讨论开源项目的社群 r/opensource 公布了禁止 AI 的政策《Your tokens aren't valuable: No more AI》，理由是 AI 与该社群不兼容，要求递交到该社群的开源项目必须至少存在一年、有多名贡献者，发帖者必须会说英语而不是用 AI 翻译。这一政策引发了激烈的讨论，随后有人创建了新的允许 AI 的开源社群如 r/OpenSourceAIAllowed。r/opensource 的版主（moderator）表示该政策未来会进行调整，该社群主要禁止的是那种用 AI 工具生成的个人项目，而不是 Linux 内核之类的知名项目。Linux 作者 Linus Torvalds 最近公开表达支持 AI，而内核也不再强制要求 AI 生成代码打上标签。",
+   "body": "",
+   "source": "Solidot 奇客",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "18:09",
+   "score": 7.4,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "Solidot 奇客"
+  },
+  {
    "id": "b2b52da794018cb6",
    "title": "5 Key Moments From Israel’s Pivotal Election Campaign",
    "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-election-campaign-highlights.html",
@@ -3573,7 +3573,7 @@
    "topics": [],
    "words": [],
    "time": "17:45",
-   "score": 7.4,
+   "score": 7.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3745,23 +3745,6 @@
    "group": "bbc"
   },
   {
-   "id": "7eb754a89f4f3518",
-   "title": "刚果（金）本轮埃博拉疫情确诊病例超1万例",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721720.shtml",
-   "summary": "新华社快讯：刚果(金)卫生部27日发布的最新疫情报告显示，该国本轮埃博拉疫情累计确诊病例已升至10060例，其中死亡4887例。",
-   "body": "",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "16:33",
-   "score": 7.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews"
-  },
-  {
    "id": "25ef3e95c4d5a09a",
    "title": "标普500指数涨幅扩大至1%，费城半导体指数涨3%",
    "link": "https://www.jiemian.com/article/15242688.html",
@@ -3906,6 +3889,23 @@
    "group": "chinanews"
   },
   {
+   "id": "7eb754a89f4f3518",
+   "title": "刚果（金）本轮埃博拉疫情确诊病例超1万例",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721720.shtml",
+   "summary": "新华社快讯：刚果(金)卫生部27日发布的最新疫情报告显示，该国本轮埃博拉疫情累计确诊病例已升至10060例，其中死亡4887例。",
+   "body": "",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "16:33",
+   "score": 7.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews"
+  },
+  {
    "id": "067e9069bc305c5d",
    "title": "Cease-Fire Brokered by Melania Trump Begins in Ukrainian City of Oleshky",
    "link": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html",
@@ -3939,7 +3939,7 @@
    "topics": [],
    "words": [],
    "time": "16:08",
-   "score": 7.2,
+   "score": 7.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4050,51 +4050,11 @@
    "topics": [],
    "words": [],
    "time": "15:22",
-   "score": 7.1,
+   "score": 7.0,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "bbc"
-  },
-  {
-   "id": "d245e76fe360151c",
-   "title": "Flurry of Diplomacy in Iran Amid Reports of U.S. and Israeli Plans to Renew War",
-   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/iran-war-new-attacks-diplomacy.html",
-   "summary": "Saudi Arabia, Turkey and Pakistan made a rare joint visit to Tehran amid reports that the U.S. and Israel were drawing up plans to renew their attacks on Iran.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "14:59",
-   "score": 7.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
-   "id": "bb8adc894868a7b5",
-   "title": "“蛟龙”号实现迭代升级 顺利完成7000米级海试",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-27/10721638.shtml",
-   "summary": "记者27日从“深海一号”船了解到，实现第二次迭代升级的“蛟龙”号载人潜水器近日在菲律宾海盆进行了多次7000米潜次试验并安全返回，顺利完成国家重点研发计划“蛟龙号关键作业技术能力提升及科学应用”7000米级海试。据了解，此次海试依托中国大洋100航次第二航段科学考察，“蛟龙”号先后在菲律宾海盆开展了3个潜次试验，其中2个潜次试验下潜深度超7000米，最大下潜深度达7056.9米，各项试验指标均达到7000米级海试要求。“这充分验证了‘蛟龙’号迭代升级和关键部件国产化替代后的可靠性与安全性，巩固提高了我国载人深潜装备领域的技术优势。”中国国家深海基地管理中心研究员孙永福说。",
-   "body": "记者27日从“深海一号”船了解到，实现第二次迭代升级的“蛟龙”号载人潜水器近日在菲律宾海盆进行了多次7000米潜次试验并安全返回，顺利完成国家重点研发计划“蛟龙号关键作业技术能力提升及科学应用”7000米级海试。据了解，此次海试依托中国大洋100航次第二航段科学考察，“蛟龙”号先后在菲律宾海盆开展了3个潜次试验，其中2个潜次试验下潜深度超7000米，最大下潜深度达7056.9米，各项试验指标均达到7000米级海试要求。“这充分验证了‘蛟龙’号迭代升级和关键部件国产化替代后的可靠性与安全性，巩固提高了我国载人深潜装备领域的技术优势。”中国国家深海基地管理中心研究员孙永福说。",
-   "source": "中国新闻网·国内",
-   "also": [
-    {
-     "src": "中国新闻网·国内",
-     "t": "“蛟龙”号实现迭代升级 顺利完成7000米级海试",
-     "u": "https://www.chinanews.com.cn/gn/2026/10-27/10721636.shtml"
-    }
-   ],
-   "topics": [],
-   "words": [],
-   "time": "14:58",
-   "score": 7.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews"
   },
   {
    "id": "f09dc2445a72e650",
@@ -4219,6 +4179,46 @@
    "why": "",
    "tier": "must",
    "group": "bbc"
+  },
+  {
+   "id": "d245e76fe360151c",
+   "title": "Flurry of Diplomacy in Iran Amid Reports of U.S. and Israeli Plans to Renew War",
+   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/iran-war-new-attacks-diplomacy.html",
+   "summary": "Saudi Arabia, Turkey and Pakistan made a rare joint visit to Tehran amid reports that the U.S. and Israel were drawing up plans to renew their attacks on Iran.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "14:59",
+   "score": 7.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
+  },
+  {
+   "id": "bb8adc894868a7b5",
+   "title": "“蛟龙”号实现迭代升级 顺利完成7000米级海试",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-27/10721638.shtml",
+   "summary": "记者27日从“深海一号”船了解到，实现第二次迭代升级的“蛟龙”号载人潜水器近日在菲律宾海盆进行了多次7000米潜次试验并安全返回，顺利完成国家重点研发计划“蛟龙号关键作业技术能力提升及科学应用”7000米级海试。据了解，此次海试依托中国大洋100航次第二航段科学考察，“蛟龙”号先后在菲律宾海盆开展了3个潜次试验，其中2个潜次试验下潜深度超7000米，最大下潜深度达7056.9米，各项试验指标均达到7000米级海试要求。“这充分验证了‘蛟龙’号迭代升级和关键部件国产化替代后的可靠性与安全性，巩固提高了我国载人深潜装备领域的技术优势。”中国国家深海基地管理中心研究员孙永福说。",
+   "body": "记者27日从“深海一号”船了解到，实现第二次迭代升级的“蛟龙”号载人潜水器近日在菲律宾海盆进行了多次7000米潜次试验并安全返回，顺利完成国家重点研发计划“蛟龙号关键作业技术能力提升及科学应用”7000米级海试。据了解，此次海试依托中国大洋100航次第二航段科学考察，“蛟龙”号先后在菲律宾海盆开展了3个潜次试验，其中2个潜次试验下潜深度超7000米，最大下潜深度达7056.9米，各项试验指标均达到7000米级海试要求。“这充分验证了‘蛟龙’号迭代升级和关键部件国产化替代后的可靠性与安全性，巩固提高了我国载人深潜装备领域的技术优势。”中国国家深海基地管理中心研究员孙永福说。",
+   "source": "中国新闻网·国内",
+   "also": [
+    {
+     "src": "中国新闻网·国内",
+     "t": "“蛟龙”号实现迭代升级 顺利完成7000米级海试",
+     "u": "https://www.chinanews.com.cn/gn/2026/10-27/10721636.shtml"
+    }
+   ],
+   "topics": [],
+   "words": [],
+   "time": "14:58",
+   "score": 7.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews"
   },
   {
    "id": "8e8f14e8c248e4dd",
@@ -4403,7 +4403,7 @@
    "topics": [],
    "words": [],
    "time": "13:41",
-   "score": 6.9,
+   "score": 6.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4571,7 +4571,7 @@
    "topics": [],
    "words": [],
    "time": "12:08",
-   "score": 6.7,
+   "score": 6.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4831,7 +4831,7 @@
    "topics": [],
    "words": [],
    "time": "09:46",
-   "score": 6.4,
+   "score": 6.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4887,23 +4887,6 @@
    "why": "",
    "tier": "must",
    "group": "stats"
-  },
-  {
-   "id": "b3951a9f5db99b6b",
-   "title": "Jordan Arrests 3 in Connection With Church Attack, State Media Reports",
-   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/jordan-arrests-terror-attack-church.html",
-   "summary": "Nine people were killed and dozens were wounded in the attack last week on a Greek Orthodox Church in southern Jordan.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "09:22",
-   "score": 6.3,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
   },
   {
    "id": "927a30668227966c",
@@ -4983,6 +4966,23 @@
    "group": "chinanews"
   },
   {
+   "id": "b3951a9f5db99b6b",
+   "title": "Jordan Arrests 3 in Connection With Church Attack, State Media Reports",
+   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/jordan-arrests-terror-attack-church.html",
+   "summary": "Nine people were killed and dozens were wounded in the attack last week on a Greek Orthodox Church in southern Jordan.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "09:22",
+   "score": 6.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
+  },
+  {
    "id": "70987a7a380b75b9",
    "title": "El-Sayed Campaign Distances Itself From Group’s Ad Critical of Israel",
    "link": "https://www.nytimes.com/2026/10/26/us/michigan-senate-el-sayed-stevens-ad.html",
@@ -5017,23 +5017,6 @@
    "group": "nyt"
   },
   {
-   "id": "5c49c94ca3b62be1",
-   "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
-   "link": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
-   "summary": "Watch: Crowds welcome Venezuela's María Corina Machado after months in exile Driving down roads lined with jubilant supporters from the western state of Lara to the capital Caracas, María Corina Machado's return to Venezuela could hardly have been more different to her exit 10 months earlier.",
-   "body": "Watch: Crowds welcome Venezuela's María Corina Machado after months in exile Driving down roads lined with jubilant supporters from the western state of Lara to the capital Caracas, María Corina Machado's return to Venezuela could hardly have been more different to her exit 10 months earlier.",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "08:31",
-   "score": 6.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc"
-  },
-  {
    "id": "990d91a644fc130a",
    "title": "Part of Antarctica named after former BBC science correspondent",
    "link": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss",
@@ -5061,6 +5044,23 @@
    "topics": [],
    "words": [],
    "time": "03:27",
+   "score": 6.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc"
+  },
+  {
+   "id": "5c49c94ca3b62be1",
+   "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+   "link": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
+   "summary": "Watch: Crowds welcome Venezuela's María Corina Machado after months in exile Driving down roads lined with jubilant supporters from the western state of Lara to the capital Caracas, María Corina Machado's return to Venezuela could hardly have been more different to her exit 10 months earlier.",
+   "body": "Watch: Crowds welcome Venezuela's María Corina Machado after months in exile Driving down roads lined with jubilant supporters from the western state of Lara to the capital Caracas, María Corina Machado's return to Venezuela could hardly have been more different to her exit 10 months earlier.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "08:31",
    "score": 6.2,
    "level": 1,
    "why": "",
@@ -5272,23 +5272,6 @@
    "group": "nyt"
   },
   {
-   "id": "0176b206c83296fd",
-   "title": "Teen Arrested in Florida Shooting Will Be Tried as Adult, Officials Say",
-   "link": "https://www.nytimes.com/2026/10/26/us/famu-shooting-florida-arrest.html",
-   "summary": "The 15-year-old suspect will be charged with 11 counts of attempted second-degree murder after the shooting on Saturday that happened after Florida A&M’s homecoming game.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "07:00",
-   "score": 6.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
    "id": "a17941d9bcac75b9",
    "title": "台当局筹设学院培养基础科学人才 被曝招生计划延期",
    "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721361.shtml",
@@ -5394,6 +5377,23 @@
    "group": "36氪"
   },
   {
+   "id": "0176b206c83296fd",
+   "title": "Teen Arrested in Florida Shooting Will Be Tried as Adult, Officials Say",
+   "link": "https://www.nytimes.com/2026/10/26/us/famu-shooting-florida-arrest.html",
+   "summary": "The 15-year-old suspect will be charged with 11 counts of attempted second-degree murder after the shooting on Saturday that happened after Florida A&M’s homecoming game.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:00",
+   "score": 6.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
+  },
+  {
    "id": "d4e4b2346eea8df0",
    "title": "Ohio State Professor Who Tackled a Filmmaker on Campus Resigns",
    "link": "https://www.nytimes.com/2026/10/26/us/ohio-state-professor-tackled-filmmaker-resignation.html",
@@ -5421,7 +5421,7 @@
    "topics": [],
    "words": [],
    "time": "06:33",
-   "score": 6.0,
+   "score": 5.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5608,23 +5608,6 @@
    "group": "bbc"
   },
   {
-   "id": "a535c103668c5dd5",
-   "title": "What Early Voting Can Reveal About the 2026 Midterm Elections So Far",
-   "link": "https://www.nytimes.com/2026/10/26/us/midterm-elections-early-voting-takeaways.html",
-   "summary": "Millions of early votes tell us less than many would think, but there are key takeaways from results in Texas, Kansas, Georgia and North Carolina.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "05:19",
-   "score": 5.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
    "id": "d995eafd7f4e8707",
    "title": "345万人通过2027年国家公务员考试资格审查",
    "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721307.shtml",
@@ -5642,6 +5625,23 @@
    "group": "chinanews"
   },
   {
+   "id": "a535c103668c5dd5",
+   "title": "What Early Voting Can Reveal About the 2026 Midterm Elections So Far",
+   "link": "https://www.nytimes.com/2026/10/26/us/midterm-elections-early-voting-takeaways.html",
+   "summary": "Millions of early votes tell us less than many would think, but there are key takeaways from results in Texas, Kansas, Georgia and North Carolina.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:19",
+   "score": 5.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
+  },
+  {
    "id": "d27d46bb1ed57326",
    "title": "How Scuffles at Trump Rallies Echo His Past Events",
    "link": "https://www.nytimes.com/video/us/politics/100000011231247/how-scuffles-at-trump-rallies-echo-his-past-events.html",
@@ -5652,40 +5652,6 @@
    "topics": [],
    "words": [],
    "time": "04:39",
-   "score": 5.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
-   "id": "08af244134c0ff73",
-   "title": "Lula Defeats Bolsonaro for Brazil Presidency, in Blow to Latin America’s Right",
-   "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
-   "summary": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "04:32",
-   "score": 5.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
-   "id": "5b727a584dbde80c",
-   "title": "Israel Has Committed Genocidal Acts in Gaza Since Cease-Fire, U.N. Human Rights Panel Says",
-   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/un-human-rights-panel-israel-palestinians.html",
-   "summary": "The panel also accuses Israel of committing crimes against humanity in the West Bank. Israel condemned the report.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "04:30",
    "score": 5.7,
    "level": 1,
    "why": "",
@@ -5735,6 +5701,40 @@
    "group": "IT之家"
   },
   {
+   "id": "08af244134c0ff73",
+   "title": "Lula Defeats Bolsonaro for Brazil Presidency, in Blow to Latin America’s Right",
+   "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
+   "summary": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "04:32",
+   "score": 5.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
+  },
+  {
+   "id": "5b727a584dbde80c",
+   "title": "Israel Has Committed Genocidal Acts in Gaza Since Cease-Fire, U.N. Human Rights Panel Says",
+   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/un-human-rights-panel-israel-palestinians.html",
+   "summary": "The panel also accuses Israel of committing crimes against humanity in the West Bank. Israel condemned the report.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "04:30",
+   "score": 5.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
+  },
+  {
    "id": "7d7ed58600cfd455",
    "title": "深蓝 S09 车型 OTA V5.4 版本上线：首批搭载华为乾崑 ADS Max V5.0.2",
    "link": "https://www.ithome.com/1/018/650.htm",
@@ -5767,23 +5767,6 @@
    "topics": [],
    "words": [],
    "time": "04:06",
-   "score": 5.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
-   "id": "ac69c64a1468025d",
-   "title": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
-   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/egypt-military-saudi-houthis.html",
-   "summary": "The Egyptians will commit forces for defensive purposes only, officials have said, as the kingdom exchanges increasingly deadly strikes with the Iranian-backed militia in Yemen.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "03:42",
    "score": 5.6,
    "level": 1,
    "why": "",
@@ -5806,6 +5789,23 @@
    "why": "",
    "tier": "must",
    "group": "bbc"
+  },
+  {
+   "id": "ac69c64a1468025d",
+   "title": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
+   "link": "https://www.nytimes.com/2026/10/26/world/middleeast/egypt-military-saudi-houthis.html",
+   "summary": "The Egyptians will commit forces for defensive purposes only, officials have said, as the kingdom exchanges increasingly deadly strikes with the Iranian-backed militia in Yemen.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "03:42",
+   "score": 5.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
   },
   {
    "id": "21cb7e744a09cfd6",
@@ -6252,23 +6252,6 @@
    "group": "nyt"
   },
   {
-   "id": "8ea436ece3021f62",
-   "title": "Israel and the US are both going to the polls - the consequences will be global",
-   "link": "https://www.bbc.co.uk/news/articles/crlykey9jywqo?at_medium=RSS&at_campaign=rss",
-   "summary": "The next fortnight sees two elections on different continents. The outcomes will shape geopolitics and the global economy, writes James Landale",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "00:30",
-   "score": 5.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc"
-  },
-  {
    "id": "b0db2384f97c6acf",
    "title": "Five ways Trump has changed immigration in the US",
    "link": "https://www.bbc.co.uk/news/articles/c9203k1jrmpvo?at_medium=RSS&at_campaign=rss",
@@ -6335,6 +6318,23 @@
    "why": "",
    "tier": "must",
    "group": "chinanews"
+  },
+  {
+   "id": "8ea436ece3021f62",
+   "title": "Israel and the US are both going to the polls - the consequences will be global",
+   "link": "https://www.bbc.co.uk/news/articles/crlykey9jywqo?at_medium=RSS&at_campaign=rss",
+   "summary": "The next fortnight sees two elections on different continents. The outcomes will shape geopolitics and the global economy, writes James Landale",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "00:30",
+   "score": 5.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc"
   },
   {
    "id": "ca86946493697269",
