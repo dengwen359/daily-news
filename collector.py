@@ -1645,7 +1645,7 @@ def main():
     mailed = load_mailed()
     # 体积兜底：139 邮箱对整封信大小很敏感，超了容易被判垃圾邮件，
     # 所以先按配置生成，太大就自动减条目、缩摘要，直到落进上限。
-    max_kb = float(cfg.get("mail_max_kb", 20))
+    max_kb = float((cfg.get("limits", {}) or {}).get("mail_max_kb", 17))
     tiers = [
         {},
         {"mail_must": 8, "mail_level1": 6, "mail_interest": 4,
