@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27 22:51",
+ "generated_at": "2026-10-27 22:53",
  "hours_window": 30,
  "count": 366,
  "sources_ok": 17,
@@ -1664,7 +1664,7 @@
   },
   {
    "id": "fa239c00eb3350a3",
-   "title": "8点1氪丨Anthropic正式提交IPO申请；寿司郎传送带被曝窜出活老鼠；苹果客服称很多客户取消iPhone Duo订单",
+   "title": "8点1氪丨Anthropic正式提交IPO申请；寿司郎传送带被曝窜出活老鼠；苹果客��称很多客户取消iPhone Duo订单",
    "link": "https://36kr.com/p/4043364384707456?f=rss",
    "summary": "今日热点导览 Kimi致歉：将为会员提供重置机会 马斯克宣布X长按点赞可向对方转账1美元 微软向约6万名员工开放自愿离职方案，AI巨额投入挤压人力预算 中国石油午后涨近4%，创2008年5月以来新高 科学家展示全球首款织进衣服的触摸屏 TOP 3大新闻 Anthropic正式提交IPO申请 10月26日，Anthropic正式提交纳斯达克IPO申请，股票代码定为“ANT”。Anthropic上半年营收163亿美元，去年同期为12亿美元；上半年净亏损807亿美元。 Anthropic在招股书中披露，公司与多家科技企业签订大额算力及基础设施协议，相关支出承诺延伸至2036年。其中，公司承诺2026年4月至2033年7月向谷歌至少支出约1145亿美元；2026年5月至2036年4月向亚马逊至少支出1100亿美元；2026年11月至2033年5月向微软至少支出449亿美元，相关承诺原则上不因实际使",
    "body": "",
@@ -2057,7 +2057,7 @@
    "topics": [],
    "words": [],
    "time": "22:29",
-   "score": 8.0,
+   "score": 7.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2561,45 +2561,6 @@
    "group": "IT之家"
   },
   {
-   "id": "11d2aa8805550172",
-   "title": "消息称任天堂 Switch 2 Lite 掌机采用升级版三星 8nm 制程芯片，功耗有望降低 15%",
-   "link": "https://www.ithome.com/1/018/664.htm",
-   "summary": "IT之家 10 月 27 日消息，据外媒 Nintendo Patents Watch 近日报道，任天堂可能会在 Switch 2 Lite 掌机上采用升级版三星 8nm 制程芯片。 IT之家从原报道获悉， 现款 Switch 2 搭载英伟达 T239 处理器 ，采用三星 8nm 工艺制造。内部拥有 8 个 Arm Cortex-A78C CPU 核心，以及一颗拥有 1536 个 CUDA 核心的 Ampere 架构 GPU，芯片面积约为 207 平方毫米。 同时，任天堂如果要为 Switch 2 推出改款机型， 那么完全可能会采用改进工艺的芯片 ，降低芯片功耗。三星将在 12 月 14 日的 IEEE 国际电子器件会议介绍其 8LPU+ 制程工艺，与此前的 8LPU 工艺相比，8LPU+ 能够将性能提升 12%、功耗降低 15%。从理论上讲，这些改进可能有利于体积更小的掌机产品。 不过，",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "芯片",
-    "英伟达"
-   ],
-   "time": "21:16",
-   "score": 7.8,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家"
-  },
-  {
-   "id": "ca308450169d1c8c",
-   "title": "U.C.L.A. Asks Judge to Dismiss Trump Lawsuit Over Antisemitism",
-   "link": "https://www.nytimes.com/2026/10/27/us/ucla-trump-lawsuit-antisemitism-employees.html",
-   "summary": "The filing was the second time in less than a month that the university moved to throw out a federal lawsuit about its actions after the Oct. 7 attack on Israel.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "21:15",
-   "score": 7.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
    "id": "86373f13ec40cdcf",
    "title": "紫光国微 2026 年前三季度归母净利润 10.45 亿元，同比下降 17.23%",
    "link": "https://www.ithome.com/1/018/131.htm",
@@ -2661,6 +2622,45 @@
    "why": "",
    "tier": "",
    "group": "36氪"
+  },
+  {
+   "id": "11d2aa8805550172",
+   "title": "消息称任天堂 Switch 2 Lite 掌机采用升级版三星 8nm 制程芯片，功耗有望降低 15%",
+   "link": "https://www.ithome.com/1/018/664.htm",
+   "summary": "IT之家 10 月 27 日消息，据外媒 Nintendo Patents Watch 近日报道，任天堂可能会在 Switch 2 Lite 掌机上采用升级版三星 8nm 制程芯片。 IT之家从原报道获悉， 现款 Switch 2 搭载英伟达 T239 处理器 ，采用三星 8nm 工艺制造。内部拥有 8 个 Arm Cortex-A78C CPU 核心，以及一颗拥有 1536 个 CUDA 核心的 Ampere 架构 GPU，芯片面积约为 207 平方毫米。 同时，任天堂如果要为 Switch 2 推出改款机型， 那么完全可能会采用改进工艺的芯片 ，降低芯片功耗。三星将在 12 月 14 日的 IEEE 国际电子器件会议介绍其 8LPU+ 制程工艺，与此前的 8LPU 工艺相比，8LPU+ 能够将性能提升 12%、功耗降低 15%。从理论上讲，这些改进可能有利于体积更小的掌机产品。 不过，",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "芯片",
+    "英伟达"
+   ],
+   "time": "21:16",
+   "score": 7.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家"
+  },
+  {
+   "id": "ca308450169d1c8c",
+   "title": "U.C.L.A. Asks Judge to Dismiss Trump Lawsuit Over Antisemitism",
+   "link": "https://www.nytimes.com/2026/10/27/us/ucla-trump-lawsuit-antisemitism-employees.html",
+   "summary": "The filing was the second time in less than a month that the university moved to throw out a federal lawsuit about its actions after the Oct. 7 attack on Israel.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:15",
+   "score": 7.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
   },
   {
    "id": "06e5ba388995a443",
@@ -2771,7 +2771,7 @@
     "美股"
    ],
    "time": "20:52",
-   "score": 7.8,
+   "score": 7.7,
    "level": 0,
    "why": "",
    "tier": "",
@@ -2928,7 +2928,7 @@
     "AI"
    ],
    "time": "20:05",
-   "score": 7.7,
+   "score": 7.6,
    "level": 0,
    "why": "",
    "tier": "",
@@ -3251,23 +3251,6 @@
    "group": "nyt"
   },
   {
-   "id": "a8677ec3a28d250f",
-   "title": "In Maine, an ‘Oyster Thug’s’ Struggle to Get Over Graham Platner",
-   "link": "https://www.nytimes.com/2026/10/26/us/politics/maine-midterms-platner-jackson-collins.html",
-   "summary": "A Platner superfan’s reluctance to support the Democrat now running against Senator Susan Collins reflects the party’s challenges navigating left-wing passions.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "19:08",
-   "score": 7.5,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
    "id": "4a532ef4c86ff230",
    "title": "The Key Election Issues Dividing Israelis as They Vote",
    "link": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-elections-key-issues.html",
@@ -3323,6 +3306,23 @@
    "why": "",
    "tier": "must",
    "group": "chinanews"
+  },
+  {
+   "id": "a8677ec3a28d250f",
+   "title": "In Maine, an ‘Oyster Thug’s’ Struggle to Get Over Graham Platner",
+   "link": "https://www.nytimes.com/2026/10/26/us/politics/maine-midterms-platner-jackson-collins.html",
+   "summary": "A Platner superfan’s reluctance to support the Democrat now running against Senator Susan Collins reflects the party’s challenges navigating left-wing passions.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "19:08",
+   "score": 7.5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
   },
   {
    "id": "0ecdd3efe578a40a",
@@ -3956,7 +3956,7 @@
    "topics": [],
    "words": [],
    "time": "16:05",
-   "score": 7.2,
+   "score": 7.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4484,23 +4484,6 @@
    "group": "bbc"
   },
   {
-   "id": "0c4f29d0a0c7e2b6",
-   "title": "日本防灾大臣拟发“紧急呼吁” 敦促民众做好防灾准备",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721557.shtml",
-   "summary": "中新网10月27日电 据日本富士新闻网(FNN)10月27日报道，日本防灾担当大臣细野豪志表示，11月2日防灾厅正式成立当天，将向日本政府机构、全国都道府县及国民发出“紧急呼吁”，敦促各方做好应对灾害的准备。据报道，细野豪志在一档节目中呼吁日本民众，要在家里储备至少能使用三天、最好是一周的食物、水和应急厕所用品。此外，细野豪志还称，南海海槽大地震、首都直下型地震、千岛海沟和日本海沟沿线地区大地震、富士山喷发等“国难级灾害”是防灾厅的主要课题。",
-   "body": "中新网10月27日电 据日本富士新闻网(FNN)10月27日报道，日本防灾担当大臣细野豪志表示，11月2日防灾厅正式成立当天，将向日本政府机构、全国都道府县及国民发出“紧急呼吁”，敦促各方做好应对灾害的准备。据报道，细野豪志在一档节目中呼吁日本民众，要在家里储备至少能使用三天、最好是一周的食物、水和应急厕所用品。此外，细野豪志还称，南海海槽大地震、首都直下型地震、千岛海沟和日本海沟沿线地区大地震、富士山喷发等“国难级灾害”是防灾厅的主要课题。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "12:29",
-   "score": 6.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews"
-  },
-  {
    "id": "d0dd99a18d59e126",
    "title": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
    "link": "https://www.ithome.com/1/018/125.htm",
@@ -4559,6 +4542,23 @@
    "why": "",
    "tier": "must",
    "group": "nyt"
+  },
+  {
+   "id": "0c4f29d0a0c7e2b6",
+   "title": "日本防灾大臣拟发“紧急呼吁” 敦促民众做好防灾准备",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721557.shtml",
+   "summary": "中新网10月27日电 据日本富士新闻网(FNN)10月27日报道，日本防灾担当大臣细野豪志表示，11月2日防灾厅正式成立当天，将向日本政府机构、全国都道府县及国民发出“紧急呼吁”，敦促各方做好应对灾害的准备。据报道，细野豪志在一档节目中呼吁日本民众，要在家里储备至少能使用三天、最好是一周的食物、水和应急厕所用品。此外，细野豪志还称，南海海槽大地震、首都直下型地震、千岛海沟和日本海沟沿线地区大地震、富士山喷发等“国难级灾害”是防灾厅的主要课题。",
+   "body": "中新网10月27日电 据日本富士新闻网(FNN)10月27日报道，日本防灾担当大臣细野豪志表示，11月2日防灾厅正式成立当天，将向日本政府机构、全国都道府县及国民发出“紧急呼吁”，敦促各方做好应对灾害的准备。据报道，细野豪志在一档节目中呼吁日本民众，要在家里储备至少能使用三天、最好是一周的食物、水和应急厕所用品。此外，细野豪志还称，南海海槽大地震、首都直下型地震、千岛海沟和日本海沟沿线地区大地震、富士山喷发等“国难级灾害”是防灾厅的主要课题。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "12:29",
+   "score": 6.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews"
   },
   {
    "id": "faf2f9d92cbef25b",
@@ -5112,7 +5112,7 @@
    "topics": [],
    "words": [],
    "time": "08:04",
-   "score": 6.2,
+   "score": 6.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5289,23 +5289,6 @@
    "group": "nyt"
   },
   {
-   "id": "d4e4b2346eea8df0",
-   "title": "Ohio State Professor Who Tackled a Filmmaker on Campus Resigns",
-   "link": "https://www.nytimes.com/2026/10/26/us/ohio-state-professor-tackled-filmmaker-resignation.html",
-   "summary": "The professor, Luke M. Perez, taught at the university’s civics center. He wrestled down a documentary filmmaker who was trying to question the university’s former president.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "06:52",
-   "score": 6.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
    "id": "a17941d9bcac75b9",
    "title": "台当局筹设学院培养基础科学人才 被曝招生计划延期",
    "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721361.shtml",
@@ -5409,6 +5392,23 @@
    "why": "",
    "tier": "",
    "group": "36氪"
+  },
+  {
+   "id": "d4e4b2346eea8df0",
+   "title": "Ohio State Professor Who Tackled a Filmmaker on Campus Resigns",
+   "link": "https://www.nytimes.com/2026/10/26/us/ohio-state-professor-tackled-filmmaker-resignation.html",
+   "summary": "The professor, Luke M. Perez, taught at the university’s civics center. He wrestled down a documentary filmmaker who was trying to question the university’s former president.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "06:52",
+   "score": 6.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
   },
   {
    "id": "a7adad4989098ae4",
@@ -6269,23 +6269,6 @@
    "group": "bbc"
   },
   {
-   "id": "ca86946493697269",
-   "title": "House Democrats Call for Special Counsel to Scrutinize Trump’s Ties to Epstein",
-   "link": "https://www.nytimes.com/2026/10/26/us/democrats-special-counsel-trump-epstein.html",
-   "summary": "The request comes as Democrats are working to paint Republicans as corrupt and highlight their plans to investigate Trump should they win the midterm elections.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "00:29",
-   "score": 5.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt"
-  },
-  {
    "id": "b0db2384f97c6acf",
    "title": "Five ways Trump has changed immigration in the US",
    "link": "https://www.bbc.co.uk/news/articles/c9203k1jrmpvo?at_medium=RSS&at_campaign=rss",
@@ -6352,6 +6335,23 @@
    "why": "",
    "tier": "must",
    "group": "chinanews"
+  },
+  {
+   "id": "ca86946493697269",
+   "title": "House Democrats Call for Special Counsel to Scrutinize Trump’s Ties to Epstein",
+   "link": "https://www.nytimes.com/2026/10/26/us/democrats-special-counsel-trump-epstein.html",
+   "summary": "The request comes as Democrats are working to paint Republicans as corrupt and highlight their plans to investigate Trump should they win the midterm elections.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "00:29",
+   "score": 5.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt"
   },
   {
    "id": "9fcec9eb3a796b76",
