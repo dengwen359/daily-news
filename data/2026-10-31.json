@@ -1,8 +1,8 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31 14:12",
+ "generated_at": "2026-10-31 14:15",
  "hours_window": 30,
- "count": 307,
+ "count": 308,
  "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
@@ -29,7 +29,7 @@
    "topics": [],
    "words": [],
    "time": "17:26",
-   "score": 38.6,
+   "score": 44.6,
    "level": 1,
    "why": "全会",
    "tier": "must",
@@ -47,7 +47,7 @@
    "topics": [],
    "words": [],
    "time": "21:08",
-   "score": 37.0,
+   "score": 43.0,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -342,7 +342,7 @@
    "topics": [],
    "words": [],
    "time": "11:25",
-   "score": 21.7,
+   "score": 21.6,
    "level": 1,
    "why": "全会",
    "tier": "must",
@@ -766,7 +766,7 @@
     "IPO"
    ],
    "time": "11:25",
-   "score": 10.7,
+   "score": 10.6,
    "level": 0,
    "why": "",
    "tier": "",
@@ -777,7 +777,7 @@
    "id": "1c137130d37f00c9",
    "title": "美股三大指数收盘集体下跌，大型科技股普跌",
    "link": "https://36kr.com/newsflashes/4049116512565760?f=rss",
-   "summary": "36氪获悉，10月31日收盘，美股三大指数集体下跌，道指跌1.09%，纳指跌2.86%，标普500指数跌1.82%。大型科技股普跌，特斯拉跌0.86%，苹果跌1.11%，谷歌跌1.37%，亚马逊跌1.42%，微软���1.47%，Meta跌1.49%，英伟达跌4.08%，英特尔跌28.58%。热门中概股涨跌不一，阿里巴巴跌1.51%，拼多多跌0.85%，京东涨0.2%，百度跌2.86%，蔚来跌3.31%，小鹏集团跌1.53%，理想汽车跌0.99%，哔哩哔哩跌1.48%。",
+   "summary": "36氪获悉，10月31日收盘，美股三大指数集体下跌，道指跌1.09%，纳指跌2.86%，标普500指数跌1.82%。大型科技股普跌，特斯拉跌0.86%，苹果跌1.11%，谷歌跌1.37%，亚马逊跌1.42%，微软跌1.47%，Meta跌1.49%，英伟达跌4.08%，英特尔跌28.58%。热门中概股涨跌不一，阿里巴巴跌1.51%，拼多多跌0.85%，京东涨0.2%，百度跌2.86%，蔚来跌3.31%，小鹏集团跌1.53%，理想汽车跌0.99%，哔哩哔哩跌1.48%。",
    "body": "",
    "source": "36氪",
    "also": [
@@ -1102,28 +1102,6 @@
    "ai": ""
   },
   {
-   "id": "0c0053cc2d5ab6cf",
-   "title": "萨尔瓦多前总统萨卡刑满释放 曾因贪污3亿美元公款入狱",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723293.shtml",
-   "summary": "中新网北京10月30日电 圣萨尔瓦多消息：据萨尔瓦多《世界报》等媒体报道，萨尔瓦多前总统安东尼奥·萨卡当地时间29日服刑期满获释，于当天下午前往首都圣萨尔瓦多一家法院报告获释情况。他此前曾因侵吞公款和洗钱被判处十年监禁。萨卡的律师表示，萨卡已服满十年刑期，未享受提前释放待遇。此次到法院办理手续后，他将等待法院关于刑罚执行完毕的通知。据萨尔瓦多当地媒体报道，萨卡于2018年9月因侵吞公款和洗钱两项罪名被判处十年监禁，并被判向国家支付约2.6亿美元的民事赔偿。他2016年10月被捕，这两年的羁押时间也被计入刑期。",
-   "body": "中新网北京10月30日电 圣萨尔瓦多消息：据萨尔瓦多《世界报》等媒体报道，萨尔瓦多前总统安东尼奥·萨卡当地时间29日服刑期满获释，于当天下午前往首都圣萨尔瓦多一家法院报告获释情况。他此前曾因侵吞公款和洗钱被判处十年监禁。萨卡的律师表示，萨卡已服满十年刑期，未享受提前释放待遇。此次到法院办理手续后，他将等待法院关于刑罚执行完毕的通知。据萨尔瓦多当地媒体报道，萨卡于2018年9月因侵吞公款和洗钱两项罪名被判处十年监禁，并被判向国家支付约2.6亿美元的民事赔偿。他2016年10月被捕，这两年的羁押时间也被计入刑期。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "总统"
-   ],
-   "time": "15:02",
-   "score": 9.1,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "8def0a60096d5f0b",
    "title": "奥尔特曼回应 AI 冲击：理解数学家的处境，但 OpenAI 不会停止研究",
    "link": "https://www.ithome.com/1/020/361.htm",
@@ -1144,6 +1122,28 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "0c0053cc2d5ab6cf",
+   "title": "萨尔瓦多前总统萨卡刑满释放 曾因贪污3亿美元公款入狱",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723293.shtml",
+   "summary": "中新网北京10月30日电 圣萨尔瓦多消息：据萨尔瓦多《世界报》等媒体报道，萨尔瓦多前总统安东尼奥·萨卡当地时间29日服刑期满获释，于当天下午前往首都圣萨尔瓦多一家法院报告获释情况。他此前曾因侵吞公款和洗钱被判处十年监禁。萨卡的律师表示，萨卡已服满十年刑期，未享受提前释放待遇。此次到法院办理手续后，他将等待法院关于刑罚执行完毕的通知。据萨尔瓦多当地媒体报道，萨卡于2018年9月因侵吞公款和洗钱两项罪名被判处十年监禁，并被判向国家支付约2.6亿美元的民事赔偿。他2016年10月被捕，这两年的羁押时间也被计入刑期。",
+   "body": "中新网北京10月30日电 圣萨尔瓦多消息：据萨尔瓦多《世界报》等媒体报道，萨尔瓦多前总统安东尼奥·萨卡当地时间29日服刑期满获释，于当天下午前往首都圣萨尔瓦多一家法院报告获释情况。他此前曾因侵吞公款和洗钱被判处十年监禁。萨卡的律师表示，萨卡已服满十年刑期，未享受提前释放待遇。此次到法院办理手续后，他将等待法院关于刑罚执行完毕的通知。据萨尔瓦多当地媒体报道，萨卡于2018年9月因侵吞公款和洗钱两项罪名被判处十年监禁，并被判向国家支付约2.6亿美元的民事赔偿。他2016年10月被捕，这两年的羁押时间也被计入刑期。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "15:02",
+   "score": 9.1,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -1286,7 +1286,7 @@
     "融资"
    ],
    "time": "15:25",
-   "score": 8.2,
+   "score": 8.1,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1294,11 +1294,34 @@
    "ai": ""
   },
   {
+   "id": "ce72921e376a7425",
+   "title": "不用反复退登了：ChatGPT 支持多账号切换，AI 工作号 / 生活号不再打架",
+   "link": "https://www.ithome.com/1/020/470.htm",
+   "summary": "IT之家 10 月 31 日消息，OpenAI 核心产品与平台负责人蒂博 · 索蒂奥（Thibault Sottiaux）今天（10 月 31 日）在 X 平台发布推文，宣布已在网页端、iOS 和安卓端推出 ChatGPT 账号切换功能，并计划很快上线桌面端。 索蒂奥同时预告称， 接下来的两天都会有重置卡。 IT之家援引 OpenAI 官方更新日志，用户最多可同时登录两个账号，并在不退出登录的情况下快速切换， 不过同一时间内，仍只有一个账号可以处于活跃状态。 对同时使用个人账号和公司账号的用户而言，这一更新解决了长期以来的登录切换痛点。用户过去若想切换个人智能体与工作智能体账号，往往需要反复退出、重新登录；现在只需在账户菜单或“设置 — 切换账号”中完成操作，即可切换两个账号。 OpenAI 强调，切换账号后，聊天记录、记忆、文件和设置都会随所选账号变化，工作区也仅属于对应账号。账号之间不",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "OpenAI"
+   ],
+   "time": "14:13",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "58876a32b620aad2",
    "title": "Spain train disaster clouds Sánchez chances of re-election",
    "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished28 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
-   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished28 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished30 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished30 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
@@ -1687,8 +1710,8 @@
    "id": "a632ab5dce4d9731",
    "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
    "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, ReutersByLily JamaliNorth America Technology correspondentPublished3 hours agoTwo major blockchain analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprits in the $6.3bn (£4.7bn) hack of Binance, the world's largest cryptocu…",
-   "body": "Image source, ReutersByLily JamaliNorth America Technology correspondentPublished3 hours agoTwo major blockchain analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprits in the $6.3bn (£4.7bn) hack of Binance, the world's largest cryptocu…",
+   "summary": "Image source, ReutersByLily JamaliNorth America Technology correspondentPublished4 hours agoTwo major blockchain analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprits in the $6.3bn (£4.7bn) hack of Binance, the world's largest cryptocu…",
+   "body": "Image source, ReutersByLily JamaliNorth America Technology correspondentPublished4 hours agoTwo major blockchain analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprits in the $6.3bn (£4.7bn) hack of Binance, the world's largest cryptocu…",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
@@ -2360,7 +2383,7 @@
    "topics": [],
    "words": [],
    "time": "07:26",
-   "score": 7.2,
+   "score": 7.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2378,7 +2401,7 @@
    "topics": [],
    "words": [],
    "time": "07:25",
-   "score": 7.2,
+   "score": 7.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3367,7 +3390,7 @@
    "topics": [],
    "words": [],
    "time": "02:36",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3838,24 +3861,6 @@
    "ai": ""
   },
   {
-   "id": "f176505fd5af87a5",
-   "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pests",
-   "link": "https://www.nytimes.com/2026/10/30/business/mosquito-laser-ai.html",
-   "summary": "Using sensors developed for self-driving cars, a Chinese start-up claims it can track and destroy tiny flying targets while avoiding people, pets and reflective surfaces.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "22:14",
-   "score": 6.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "f2c5ed2d2c8bcef1",
    "title": "36氪研究院 | 2026年中国自动驾驶行业发展研究报告",
    "link": "https://36kr.com/p/4046684874429576?f=rss",
@@ -3880,6 +3885,24 @@
    "why": "",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "f176505fd5af87a5",
+   "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pests",
+   "link": "https://www.nytimes.com/2026/10/30/business/mosquito-laser-ai.html",
+   "summary": "Using sensors developed for self-driving cars, a Chinese start-up claims it can track and destroy tiny flying targets while avoiding people, pets and reflective surfaces.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "22:14",
+   "score": 6.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -4418,24 +4441,6 @@
    "ai": ""
   },
   {
-   "id": "e192d1e94dde51a7",
-   "title": "Court Rejects Erin Patterson’s Appeal in Mushroom Murders Case",
-   "link": "https://www.nytimes.com/2026/10/29/world/asia/mushroom-murder-case-sentencing-appeal-australia.html",
-   "summary": "Judges took away the possibility of parole for an Australian woman, Erin Patterson, and rejected a bid to overturn her conviction over a deadly beef Wellington lunch.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "18:14",
-   "score": 5.5,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "4aeb1a75dd6dba4d",
    "title": "Bostonians Compete to Be Their Airport’s New Voice",
    "link": "https://www.nytimes.com/2026/10/29/us/voice-logan-airport-contest-boston-accent.html",
@@ -4526,6 +4531,24 @@
    "ai": ""
   },
   {
+   "id": "e192d1e94dde51a7",
+   "title": "Court Rejects Erin Patterson’s Appeal in Mushroom Murders Case",
+   "link": "https://www.nytimes.com/2026/10/29/world/asia/mushroom-murder-case-sentencing-appeal-australia.html",
+   "summary": "Judges took away the possibility of parole for an Australian woman, Erin Patterson, and rejected a bid to overturn her conviction over a deadly beef Wellington lunch.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "18:14",
+   "score": 5.5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "68fabac089f3de6b",
    "title": "Why Trump Is Losing Young Men",
    "link": "https://www.nytimes.com/video/us/elections/100000011230123/trump-young-men-voters-michigan.html",
@@ -4560,7 +4583,7 @@
     "美联储"
    ],
    "time": "09:50",
-   "score": 5.5,
+   "score": 5.4,
    "level": 0,
    "why": "",
    "tier": "",
@@ -4728,7 +4751,7 @@
    "topics": [],
    "words": [],
    "time": "17:02",
-   "score": 5.4,
+   "score": 5.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4746,7 +4769,7 @@
    "topics": [],
    "words": [],
    "time": "17:01",
-   "score": 5.4,
+   "score": 5.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4764,7 +4787,7 @@
    "topics": [],
    "words": [],
    "time": "17:00",
-   "score": 5.4,
+   "score": 5.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5107,24 +5130,6 @@
    "ai": ""
   },
   {
-   "id": "3f7d4f944c51890f",
-   "title": "最新民调显示支持对华合作是韩国社会的共识",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723286.shtml",
-   "summary": "中新网首尔10月30日电 据中国驻韩国大使馆30日消息，近期，中国驻韩国大使馆委托韩国权威民调机构盖洛普实施《韩民众对华认知民调》。10月1日至7日，盖洛普面向韩国1000名受访者开展民意调查，调查对象涵盖不同年龄、性别、地区及政治倾向的群体。现发布结果如下：一、73.8%受访民众支持中韩关系发展，35.5%希望两国关系更加密切。二、80.8%受访民众支持中韩经贸合作，44.2%希望进一步深化合作。三、72.4%受访民众支持中韩科技合作，37.9%希望进一步深化合作。四、46.1%受访民众考虑赴华旅游。五、74.3%受访民众希望韩国在中美间保持平衡。",
-   "body": "中新网首尔10月30日电 据中国驻韩国大使馆30日消息，近期，中国驻韩国大使馆委托韩国权威民调机构盖洛普实施《韩民众对华认知民调》。10月1日至7日，盖洛普面向韩国1000名受访者开展民意调查，调查对象涵盖不同年龄、性别、地区及政治倾向的群体。现发布结果如下：一、73.8%受访民众支持中韩关系发展，35.5%希望两国关系更加密切。二、80.8%受访民众支持中韩经贸合作，44.2%希望进一步深化合作。三、72.4%受访民众支持中韩科技合作，37.9%希望进一步深化合作。四、46.1%受访民众考虑赴华旅游。五、74.3%受访民众希望韩国在中美间保持平衡。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "15:02",
-   "score": 5.1,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "18924d18981a48d3",
    "title": "英特尔股价开盘跌超 30%，或将创下有记录以来最大单日跌幅",
    "link": "https://www.ithome.com/1/020/364.htm",
@@ -5271,6 +5276,24 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "3f7d4f944c51890f",
+   "title": "最新民调显示支持对华合作是韩国社会的共识",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723286.shtml",
+   "summary": "中新网首尔10月30日电 据中国驻韩国大使馆30日消息，近期，中国驻韩国大使馆委托韩国权威民调机构盖洛普实施《韩民众对华认知民调》。10月1日至7日，盖洛普面向韩国1000名受访者开展民意调查，调查对象涵盖不同年龄、性别、地区及政治倾向的群体。现发布结果如下：一、73.8%受访民众支持中韩关系发展，35.5%希望两国关系更加密切。二、80.8%受访民众支持中韩经贸合作，44.2%希望进一步深化合作。三、72.4%受访民众支持中韩科技合作，37.9%希望进一步深化合作。四、46.1%受访民众考虑赴华旅游。五、74.3%受访民众希望韩国在中美间保持平衡。",
+   "body": "中新网首尔10月30日电 据中国驻韩国大使馆30日消息，近期，中国驻韩国大使馆委托韩国权威民调机构盖洛普实施《韩民众对华认知民调》。10月1日至7日，盖洛普面向韩国1000名受访者开展民意调查，调查对象涵盖不同年龄、性别、地区及政治倾向的群体。现发布结果如下：一、73.8%受访民众支持中韩关系发展，35.5%希望两国关系更加密切。二、80.8%受访民众支持中韩经贸合作，44.2%希望进一步深化合作。三、72.4%受访民众支持中韩科技合作，37.9%希望进一步深化合作。四、46.1%受访民众考虑赴华旅游。五、74.3%受访民众希望韩国在中美间保持平衡。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "15:02",
+   "score": 5.1,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
