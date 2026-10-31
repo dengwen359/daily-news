@@ -984,7 +984,18 @@ def select_mail_rows(items, cfg, run_time, exclude=None):
     lv2 = [it for it in items if it.get("level", 0) == 2 and it["id"] not in excl]
     lv1 = [it for it in items if it.get("level", 0) == 1 and it["id"] not in excl]
     lv0 = [it for it in items if it.get("level", 0) == 0 and it["id"] not in excl]
+    # 国家级大事加权在选稿层再补一道：收集打分加了，这里也加，
+    # 保证已经抓回来的旧数据（打分时还没这个功能）同样能排上来
+    heavy_kw = (cfg.get("heavy_events", {}) or {}).get("keywords", []) or []
+
+    def _heavy_boost(rows):
+        for it in rows:
+            n = sum(1 for k in heavy_kw if k in (it.get("title") or ""))
+            if n:
+                it["score"] = it.get("score", 0) + min(n, 2) * 6
+
     for lst in (lv2, lv1, lv0):
+        _heavy_boost(lst)
         lst.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
 
     lv1_zh, lv1_en = split_en(lv1)
@@ -1402,6 +1413,7 @@ def main():
     weak = set(cfg.get("weak_keywords", []) or [])
     breaking_kw = (cfg.get("breaking", {}) or {}).get("keywords", []) or []
     must_kw = (cfg.get("must_watch", {}) or {}).get("keywords", []) or []
+    heavy_kw = (cfg.get("heavy_events", {}) or {}).get("keywords", []) or []
     feeds = [f for f in (cfg.get("feeds", []) or []) if f.get("enabled", True)]
     hours_window = int(cfg.get("hours_window", 30))
     # 没有时间字段的源，每个源最多取多少条
@@ -1474,6 +1486,7 @@ def main():
                 # 突发词、政策词都只在标题里匹配：正文顺带提一句的不算
                 hit_breaking = [k for k in breaking_kw if kw_hit(k, title)]
                 hit_must = [k for k in must_kw if kw_hit(k, title)]
+                hit_heavy = [k for k in heavy_kw if kw_hit(k, title)]
 
                 # 分级：2=必看（突发：战争、天灾、重大事故）
                 #       1=要闻（政策发布、宏观数据、权威源）
@@ -1505,6 +1518,9 @@ def main():
                     score += min(len(hit_breaking), 3) * 2
                 if hit_must:
                     score += min(len(hit_must), 3) * 2
+                # 国家级大事加权：五中全会、国务院常务会议这类不能被同源通稿挤掉
+                if hit_heavy:
+                    score += min(len(hit_heavy), 2) * 6
                 # 时效加权：越新越靠前
                 if pdt:
                     age_h = (run_time - pdt).total_seconds() / 3600
