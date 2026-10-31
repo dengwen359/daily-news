@@ -55,42 +55,6 @@ jobs:
           # 每个时段只发一次，其余时段只抓取。这样定时任务延迟也能补发。
           python collector.py --no-dedup
 
-      - name: AI 备选端点测试（临时）
-        run: |
-          python - << 'PYEOF'
-          import json, urllib.request, urllib.parse
-          def post(url, body, headers):
-              req = urllib.request.Request(url, data=json.dumps(body).encode(),
-                  method="POST", headers=headers)
-              try:
-                  with urllib.request.urlopen(req, timeout=45) as r:
-                      d = json.loads(r.read().decode())
-                      return f"OK: {d['choices'][0]['message']['content'][:50]}"
-              except Exception as e:
-                  return f"FAIL: {str(e)[:90]}"
-          q = "用一句话分析：美联储加息25个基点有什么影响"
-          msgs = [{"role": "user", "content": q}]
-          print("A. POST+referrer字段:", post("https://text.pollinations.ai/openai",
-              {"model": "openai", "messages": msgs, "referrer": "dengwen359.github.io"},
-              {"Content-Type": "application/json"}))
-          print("B. POST+Referer头:", post("https://text.pollinations.ai/openai",
-              {"model": "openai", "messages": msgs},
-              {"Content-Type": "application/json", "Referer": "https://dengwen359.github.io/daily-news/"}))
-          try:
-              u = "https://text.pollinations.ai/" + urllib.parse.quote(q) + "?model=openai"
-              with urllib.request.urlopen(u, timeout=45) as r:
-                  print("C. GET 接口: OK:", r.read().decode()[:60])
-          except Exception as e:
-              print("C. GET 接口: FAIL:", str(e)[:90])
-          try:
-              u2 = ("https://text.pollinations.ai/" + urllib.parse.quote(q)
-                    + "?model=openai&referrer=dengwen359.github.io")
-              with urllib.request.urlopen(u2, timeout=45) as r:
-                  print("D. GET+referrer: OK:", r.read().decode()[:60])
-          except Exception as e:
-              print("D. GET+referrer: FAIL:", str(e)[:90])
-          PYEOF
-
       - name: 生成网页看板
         run: python build_site.py
 
