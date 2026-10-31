@@ -57,6 +57,24 @@ jobs:
           # 每个时段只发一次，其余时段只抓取。这样定时任务延迟也能补发。
           python collector.py --no-dedup
 
+      - name: AI 连通性诊断（临时）
+        run: |
+          echo "--- curl 测试 models.github.ai ---"
+          curl -sS -w "\nHTTP_CODE:%{http_code}\n" -X POST \
+            "https://models.github.ai/inference/chat/completions" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"用中文说你好"}],"max_tokens":30}' \
+            | head -c 500
+          echo ""
+          echo "--- curl 测试 azure 老端点 ---"
+          curl -sS -w "\nHTTP_CODE:%{http_code}\n" -X POST \
+            "https://models.inference.ai.azure.com/chat/completions" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"model":"gpt-4o-mini","messages":[{"role":"user","content":"hi"}],"max_tokens":30}' \
+            | head -c 500
+
       - name: 生成网页看板
         run: python build_site.py
 
