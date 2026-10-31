@@ -1341,16 +1341,12 @@ def load_today_json(cfg, date_str):
 
 
 # ---------------------------------------------------------------- AI 影响分析
-# 用 GitHub Models 的免费额度（现有 GitHub token 即可，不用注册新账号）。
+# 用 Pollinations 的免费文本接口（OpenAI 兼容、免注册、免key）。
 # 只给突发必看和政策要闻做，分析结果缓存到 data/ai.json 随仓库提交，
-# 同一条新闻绝不重复分析、重复扣额度。调用失败就跳过，不影响发信主流程。
+# 同一条新闻绝不重复分析。调用失败就跳过，不影响发信主流程。
+# （GitHub Models 实测整个域只返回占位响应，已弃用）
 AI_CACHE_PATH = os.path.join(BASE_DIR, "data", "ai.json")
-# 新端点（models.github.ai）在部分场景返回 200+OK 空响应，
-# 老端点（models.inference.ai.azure.com，模型名不带 org/ 前缀）作为备用
-AI_ENDPOINTS = [
-    ("https://models.github.ai/inference/chat/completions", False),
-    ("https://models.inference.ai.azure.com/chat/completions", True),
-]
+AI_ENDPOINTS = [("https://text.pollinations.ai/openai", False)]
 
 _AI_PROMPT = (
     "你是新闻分析助手。针对下面这条新闻，用中文写2句话、总共不超过100字，"
@@ -1384,19 +1380,20 @@ def _ai_chat(model, title, content, token):
     for url, strip_org in AI_ENDPOINTS:
         body = json.dumps({
             "model": model.split("/")[-1] if strip_org else model,
-            "messages": [{"role": "user", "content": prompt}],
+            "messages": [
+                {"role": "system", "content":
+                 "你是新闻分析助手，用中文客观简洁地回答。"},
+                {"role": "user", "content": prompt},
+            ],
             "max_tokens": 220,
             "temperature": 0.4,
         }).encode()
         req = urllib.request.Request(
             url, data=body, method="POST",
-            headers={"Authorization": f"Bearer {token}",
-                     "Content-Type": "application/json",
-                     "Accept": "application/vnd.github+json",
-                     "X-GitHub-Api-Version": "2026-03-10",
+            headers={"Content-Type": "application/json",
                      "User-Agent": "news-collector"})
         try:
-            with urllib.request.urlopen(req, timeout=40) as r:
+            with urllib.request.urlopen(req, timeout=60) as r:
                 raw = r.read()
             try:
                 d = json.loads(raw.decode("utf-8", "ignore"))
@@ -1418,13 +1415,7 @@ def ai_analyze(rows, cfg):
     ac = cfg.get("ai", {}) or {}
     if not ac.get("enabled", True):
         return
-    token = (os.environ.get("GH_MODELS_TOKEN")
-             or os.environ.get("GITHUB_TOKEN")
-             or os.environ.get("NEWS_AI_TOKEN") or "").strip()
-    if not token:
-        print("  [AI] 没有可用令牌，跳过分析（不影响发邮件）")
-        return
-    model = ac.get("model", "openai/gpt-4o-mini")
+    model = ac.get("model", "openai")
     max_items = int(ac.get("max_items", 16))
 
     cache = _load_ai_cache()
@@ -1449,7 +1440,7 @@ def ai_analyze(rows, cfg):
         if not content:
             content = it.get("title", "")
         try:
-            txt = _ai_chat(model, it.get("title", ""), content, token)
+            txt = _ai_chat(model, it.get("title", ""), content, "")
         except urllib.error.HTTPError as e:
             if e.code == 429:
                 print("  [AI] 免费额度限流，剩余条目下次运行再补")

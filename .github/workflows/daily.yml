@@ -50,23 +50,10 @@ jobs:
           NEWS_MAIL_PASSWORD: ${{ secrets.NEWS_MAIL_PASSWORD }}
           NEWS_MAIL_RECEIVER: ${{ secrets.NEWS_MAIL_RECEIVER }}
           NEWS_MAIL_HOST: ${{ secrets.NEWS_MAIL_HOST }}
-          # AI 影响分析用 GitHub Models，内置 token 就能用
-          GH_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 是否发邮件由 collector 按时间判断：08:30 后发早报、20:30 后发晚报，
           # 每个时段只发一次，其余时段只抓取。这样定时任务延迟也能补发。
           python collector.py --no-dedup
-
-      - name: AI 连通性诊断（临时）
-        run: |
-          echo "--- A. catalog GET ---"
-          curl -sS -D - -o /dev/null "https://models.github.ai/catalog/models" \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" | head -20
-          echo "--- B. POST 带响应头（不跟随重定向） ---"
-          curl -sS -D - -X POST "https://models.github.ai/inference/chat/completions" \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"hi"}],"max_tokens":20}' | head -30
 
       - name: 生成网页看板
         run: python build_site.py
