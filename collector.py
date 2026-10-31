@@ -1392,6 +1392,8 @@ def _ai_chat(model, title, content, token):
             url, data=body, method="POST",
             headers={"Authorization": f"Bearer {token}",
                      "Content-Type": "application/json",
+                     "Accept": "application/vnd.github+json",
+                     "X-GitHub-Api-Version": "2026-03-10",
                      "User-Agent": "news-collector"})
         try:
             with urllib.request.urlopen(req, timeout=40) as r:

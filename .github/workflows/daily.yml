@@ -14,11 +14,12 @@ on:
     - cron: '30 16 * * *'           # 北京 00:30  抓取
   workflow_dispatch:        # 支持在网页上手动点一下运行
 
-# 允许提交数据、部署网页
+# 允许提交数据、部署网页、调用 AI 模型
 permissions:
   contents: write
   pages: write
   id-token: write
+  models: read
 
 concurrency:
   group: daily-news
