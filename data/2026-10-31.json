@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31 14:08",
+ "generated_at": "2026-10-31 14:10",
  "hours_window": 30,
  "count": 307,
  "sources_ok": 17,
@@ -12,6 +12,48 @@
   "其他"
  ],
  "items": [
+  {
+   "id": "b7aa4d49ec4ed131",
+   "title": "外媒关注二十届五中全会：彰显中国共产党从严治党坚定决心",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723482.shtml",
+   "summary": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
+   "body": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
+   "source": "中国新闻网·国际",
+   "also": [
+    {
+     "src": "中国新闻网·国内",
+     "t": "从一场重磅发布会，看全面从严治党的久久为功",
+     "u": "https://www.chinanews.com.cn/gn/2026/10-30/10723673.shtml"
+    }
+   ],
+   "topics": [],
+   "words": [],
+   "time": "17:26",
+   "score": 32.6,
+   "level": 1,
+   "why": "全会",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "de664fc652e45d73",
+   "title": "习言道｜近5000字公报，“严”字贯穿始终",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-30/10723610.shtml",
+   "summary": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
+   "body": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:08",
+   "score": 31.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
   {
    "id": "7a58e7e350b3259d",
    "title": "英特尔：以色列 Fab 28 爆炸事故已致工厂停产约两周，预计 Q3 和 Q4 两个季度损失 6 亿美元营收",
@@ -32,30 +74,6 @@
    "why": "爆炸",
    "tier": "",
    "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "b7aa4d49ec4ed131",
-   "title": "外媒关注二十届五中全会：彰显中国共产党从严治党坚定决心",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723482.shtml",
-   "summary": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
-   "body": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
-   "source": "中国新闻网·国际",
-   "also": [
-    {
-     "src": "中国新闻网·国内",
-     "t": "从一场重磅发布会，看全面从严治党的久久为功",
-     "u": "https://www.chinanews.com.cn/gn/2026/10-30/10723673.shtml"
-    }
-   ],
-   "topics": [],
-   "words": [],
-   "time": "17:26",
-   "score": 26.6,
-   "level": 1,
-   "why": "全会",
-   "tier": "must",
-   "group": "chinanews",
    "ai": ""
   },
   {
@@ -89,24 +107,6 @@
    "why": "证监会",
    "tier": "",
    "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "de664fc652e45d73",
-   "title": "习言道｜近5000字公报，“严”字贯穿始终",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-30/10723610.shtml",
-   "summary": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
-   "body": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
-   "source": "中国新闻网·国内",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "21:08",
-   "score": 25.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
    "ai": ""
   },
   {
@@ -191,7 +191,7 @@
    "topics": [],
    "words": [],
    "time": "09:44",
-   "score": 16.5,
+   "score": 16.4,
    "level": 2,
    "why": "袭击",
    "tier": "must",
@@ -424,7 +424,7 @@
    "topics": [],
    "words": [],
    "time": "16:58",
-   "score": 14.4,
+   "score": 14.3,
    "level": 2,
    "why": "火山",
    "tier": "must",
@@ -932,7 +932,7 @@
     "国会"
    ],
    "time": "10:33",
-   "score": 9.6,
+   "score": 9.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1031,30 +1031,6 @@
    "ai": ""
   },
   {
-   "id": "1ddf9a9f78ef6c33",
-   "title": "谷歌宣布达成“Hello World”里程碑：在轨运行的数据中心级 TPU 首次给出 AI 响应，生成了一首俳句",
-   "link": "https://www.ithome.com/1/020/402.htm",
-   "summary": "IT之家 10 月 31 日消息，当地时间 10 月 1 日，谷歌成功发射了“逐日者计划”（Project Suncatcher）的原型卫星。此后数周，团队逐步完成了在轨测试与调试清单，其中包括为主机与 TPU 托盘通电，并顺利完成了早期的机器学习测试。 当地时间 10 月 30 日，谷歌宣布达成了“Hello World”里程碑： 在轨运行的数据中心级 TPU 首次给出了 AI 响应 。 本周地面工程师下发首个提示词时，要求预装在卫星上的谷歌 DeepMind 模型 Gemma 4 创作一首关于身处太空的俳句。模型作答如下： Blue marble below Data streams in silent grace Starlight feeds my core. ✨ IT之家附翻译如下： 俯瞰蔚蓝丸 数据无声流淌去 星光赋机芯 除俳句外，工程师还测试了五行打油诗生成以及轨道环境数据回",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "芯片",
-    "数据中心"
-   ],
-   "time": "07:51",
-   "score": 9.2,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "7c1b3864141ca593",
    "title": "芯和半导体发布EDA2027版本，AI for EDA走向平台化",
    "link": "https://www.jiemian.com/article/15275193.html",
@@ -1099,6 +1075,30 @@
    "why": "",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "1ddf9a9f78ef6c33",
+   "title": "谷歌宣布达成“Hello World”里程碑：在轨运行的数据中心级 TPU 首次给出 AI 响应，生成了一首俳句",
+   "link": "https://www.ithome.com/1/020/402.htm",
+   "summary": "IT之家 10 月 31 日消息，当地时间 10 月 1 日，谷歌成功发射了“逐日者计划”（Project Suncatcher）的原型卫星。此后数周，团队逐步完成了在轨测试与调试清单，其中包括为主机与 TPU 托盘通电，并顺利完成了早期的机器学习测试。 当地时间 10 月 30 日，谷歌宣布达成了“Hello World”里程碑： 在轨运行的数据中心级 TPU 首次给出了 AI 响应 。 本周地面工程师下发首个提示词时，要求预装在卫星上的谷歌 DeepMind 模型 Gemma 4 创作一首关于身处太空的俳句。模型作答如下： Blue marble below Data streams in silent grace Starlight feeds my core. ✨ IT之家附翻译如下： 俯瞰蔚蓝丸 数据无声流淌去 星光赋机芯 除俳句外，工程师还测试了五行打油诗生成以及轨道环境数据回",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "芯片",
+    "数据中心"
+   ],
+   "time": "07:51",
+   "score": 9.2,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1297,14 +1297,14 @@
    "id": "58876a32b620aad2",
    "title": "Spain train disaster clouds Sánchez chances of re-election",
    "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished20 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
-   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished20 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished23 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished23 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
    "words": [],
    "time": "13:44",
-   "score": 8.0,
+   "score": 7.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2056,29 +2056,6 @@
    "ai": ""
   },
   {
-   "id": "f1d2b2bf0578b5e8",
-   "title": "绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验",
-   "link": "https://www.ithome.com/1/020/409.htm",
-   "summary": "IT之家 10 月 31 日消息，《连线》（Wired）昨日（10 月 30 日）发布博文，采访了苹果现任首席执行官约翰 · 特努斯（John Ternus）， 并围绕着苹果公司产品未来发展方向、AI 领域发展等内容展开讨论。 在产品方面，特努斯在采访中反复强调自己是“产品型 CEO”：他热爱产品、重视硬件与细节，并希望苹果继续靠“让人真正喜欢的产品”取胜，而不是靠战略口号或管理哲学。 他明确表示，苹果不需要被“修理”，也不想制造戏剧性变革。 他把自己定位为延续者，会继续苹果的内部协作文化、产品方法论和长期积累。 在 AI 方面，面对“苹果的 Siri 是否落后”“苹果是不是在 AI 上保守”的质疑，特努斯的回答是：苹果会用 AI，但不会“为了 AI 而 AI”。特努斯认为如果 AI 做得好， 用户甚至不必意识到背后是 AI 还是传统软件；关键只在于产品是否更好用、更让人喜爱。 他也不同意",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "芯片"
-   ],
-   "time": "08:33",
-   "score": 7.3,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "7321dfb1abf8dbd7",
    "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
    "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
@@ -2112,6 +2089,29 @@
     "芯片"
    ],
    "time": "23:08",
+   "score": 7.3,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "f1d2b2bf0578b5e8",
+   "title": "绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验",
+   "link": "https://www.ithome.com/1/020/409.htm",
+   "summary": "IT之家 10 月 31 日消息，《连线》（Wired）昨日（10 月 30 日）发布博文，采访了苹果现任首席执行官约翰 · 特努斯（John Ternus）， 并围绕着苹果公司产品未来发展方向、AI 领域发展等内容展开讨论。 在产品方面，特努斯在采访中反复强调自己是“产品型 CEO”：他热爱产品、重视硬件与细节，并希望苹果继续靠“让人真正喜欢的产品”取胜，而不是靠战略口号或管理哲学。 他明确表示，苹果不需要被“修理”，也不想制造戏剧性变革。 他把自己定位为延续者，会继续苹果的内部协作文化、产品方法论和长期积累。 在 AI 方面，面对“苹果的 Siri 是否落后”“苹果是不是在 AI 上保守”的质疑，特努斯的回答是：苹果会用 AI，但不会“为了 AI 而 AI”。特努斯认为如果 AI 做得好， 用户甚至不必意识到背后是 AI 还是传统软件；关键只在于产品是否更好用、更让人喜爱。 他也不同意",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "芯片"
+   ],
+   "time": "08:33",
    "score": 7.3,
    "level": 0,
    "why": "",
@@ -3403,7 +3403,7 @@
    "topics": [],
    "words": [],
    "time": "02:32",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3590,7 +3590,7 @@
     "美股"
    ],
    "time": "16:10",
-   "score": 6.3,
+   "score": 6.2,
    "level": 0,
    "why": "",
    "tier": "",
@@ -4800,7 +4800,7 @@
    "topics": [],
    "words": [],
    "time": "16:57",
-   "score": 5.4,
+   "score": 5.3,
    "level": 1,
    "why": "",
    "tier": "must",
