@@ -1387,7 +1387,12 @@ def _ai_chat(model, title, content, token):
                  "Content-Type": "application/json",
                  "User-Agent": "news-collector"})
     with urllib.request.urlopen(req, timeout=40) as r:
-        d = json.loads(r.read().decode())
+        raw = r.read()
+    try:
+        d = json.loads(raw.decode("utf-8", "ignore"))
+    except Exception:
+        # 把响应开头带出来，方便在日志里确诊（空body/HTML页/编码问题一眼可见）
+        raise RuntimeError(f"响应不是JSON: {raw[:150]!r}")
     choices = d.get("choices") or []
     return ((choices[0].get("message") or {}).get("content") or "").strip()
 

@@ -68,6 +68,8 @@ jobs:
             echo "没有新内容，跳过提交"
           else
             git commit -m "新闻日报 $(date +'%Y-%m-%d %H:%M')"
+            # 并发的定时任务可能在我们运行期间也推了提交，先变基再推
+            git pull --rebase origin main || git rebase --abort || true
             git push
           fi
 
