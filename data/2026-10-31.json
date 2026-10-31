@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31 14:05",
+ "generated_at": "2026-10-31 14:08",
  "hours_window": 30,
  "count": 307,
  "sources_ok": 17,
@@ -35,6 +35,30 @@
    "ai": ""
   },
   {
+   "id": "b7aa4d49ec4ed131",
+   "title": "外媒关注二十届五中全会：彰显中国共产党从严治党坚定决心",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723482.shtml",
+   "summary": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
+   "body": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
+   "source": "中国新闻网·国际",
+   "also": [
+    {
+     "src": "中国新闻网·国内",
+     "t": "从一场重磅发布会，看全面从严治党的久久为功",
+     "u": "https://www.chinanews.com.cn/gn/2026/10-30/10723673.shtml"
+    }
+   ],
+   "topics": [],
+   "words": [],
+   "time": "17:26",
+   "score": 26.6,
+   "level": 1,
+   "why": "全会",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "3500dc69d7fb4d2d",
    "title": "词元工厂硅基流动港股上市申请获证监会备案接收：注册用户超千万，年内融资近 29 亿元",
    "link": "https://www.ithome.com/1/020/369.htm",
@@ -65,6 +89,24 @@
    "why": "证监会",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "de664fc652e45d73",
+   "title": "习言道｜近5000字公报，“严”字贯穿始终",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-30/10723610.shtml",
+   "summary": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
+   "body": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:08",
+   "score": 25.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -326,30 +368,6 @@
    "ai": ""
   },
   {
-   "id": "b7aa4d49ec4ed131",
-   "title": "外媒关注二十届五中全会：彰显中国共产党从严治党坚定决心",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723482.shtml",
-   "summary": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
-   "body": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
-   "source": "中国新闻网·国际",
-   "also": [
-    {
-     "src": "中国新闻网·国内",
-     "t": "从一场重磅发布会，看全面从严治党的久久为功",
-     "u": "https://www.chinanews.com.cn/gn/2026/10-30/10723673.shtml"
-    }
-   ],
-   "topics": [],
-   "words": [],
-   "time": "17:26",
-   "score": 20.6,
-   "level": 1,
-   "why": "全会",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "a98934718a97f3db",
    "title": "美媒：美国一高级将领被解职，涉嫌泄露涉伊朗战争机密",
    "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723106.shtml",
@@ -469,24 +487,6 @@
    "why": "CPI",
    "tier": "",
    "group": "36氪",
-   "ai": ""
-  },
-  {
-   "id": "de664fc652e45d73",
-   "title": "习言道｜近5000字公报，“严”字贯穿始终",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-30/10723610.shtml",
-   "summary": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
-   "body": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
-   "source": "中国新闻网·国内",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "21:08",
-   "score": 19.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
    "ai": ""
   },
   {
@@ -998,7 +998,7 @@
     "国会"
    ],
    "time": "08:55",
-   "score": 9.4,
+   "score": 9.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1297,8 +1297,8 @@
    "id": "58876a32b620aad2",
    "title": "Spain train disaster clouds Sánchez chances of re-election",
    "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished22 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
-   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished22 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished20 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished20 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
@@ -1572,6 +1572,28 @@
    "ai": ""
   },
   {
+   "id": "5f41067f267fd237",
+   "title": "《三星堆：未来往事》之后，AI院线电影何去何从？",
+   "link": "https://www.jiemian.com/article/15273053.html",
+   "summary": "对于整个电影行业而言，AI进入长片制作仍然需要有人探索。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "11:00",
+   "score": 7.6,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "5fa82a66d5ded5ef",
    "title": "“进一步增强了百年大党的稳定性和凝聚力”（外媒看中国）",
    "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723811.shtml",
@@ -1605,28 +1627,6 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "5f41067f267fd237",
-   "title": "《三星堆：未来往事》之后，AI院线电影何去何从？",
-   "link": "https://www.jiemian.com/article/15273053.html",
-   "summary": "对于整个电影行业而言，AI进入长片制作仍然需要有人探索。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI"
-   ],
-   "time": "11:00",
-   "score": 7.6,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -1828,7 +1828,7 @@
    "topics": [],
    "words": [],
    "time": "09:42",
-   "score": 7.5,
+   "score": 7.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2079,24 +2079,6 @@
    "ai": ""
   },
   {
-   "id": "1660ab9e46c4aaf7",
-   "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-   "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-   "summary": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "08:29",
-   "score": 7.3,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
    "id": "7321dfb1abf8dbd7",
    "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
    "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
@@ -2135,6 +2117,24 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "1660ab9e46c4aaf7",
+   "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+   "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+   "summary": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "08:29",
+   "score": 7.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -2396,7 +2396,7 @@
    "topics": [],
    "words": [],
    "time": "07:19",
-   "score": 7.2,
+   "score": 7.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3970,7 +3970,7 @@
    "topics": [],
    "words": [],
    "time": "21:43",
-   "score": 6.0,
+   "score": 5.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5302,7 +5302,7 @@
    "topics": [],
    "words": [],
    "time": "14:31",
-   "score": 5.1,
+   "score": 5.0,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5320,7 +5320,7 @@
    "topics": [],
    "words": [],
    "time": "14:31",
-   "score": 5.1,
+   "score": 5.0,
    "level": 1,
    "why": "",
    "tier": "must",
