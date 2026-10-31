@@ -1380,7 +1380,7 @@ def _save_ai_cache(cache, keep_days=7):
 
 def _ai_chat(model, title, content, token):
     prompt = _AI_PROMPT.format(title=title, content=content)
-    last_err = None
+    errs = []
     for url, strip_org in AI_ENDPOINTS:
         body = json.dumps({
             "model": model.split("/")[-1] if strip_org else model,
@@ -1408,9 +1408,9 @@ def _ai_chat(model, title, content, token):
             choices = d.get("choices") or []
             return ((choices[0].get("message") or {}).get("content") or "").strip()
         except Exception as e:
-            last_err = e
+            errs.append(f"{urllib.parse.urlsplit(url).netloc}: {str(e)[:130]}")
             continue  # 换下一个端点
-    raise last_err if last_err else RuntimeError("无可用端点")
+    raise RuntimeError(" | ".join(errs) if errs else "无可用端点")
 
 
 def ai_analyze(rows, cfg):
