@@ -1012,15 +1012,16 @@ def select_mail_rows(items, cfg, run_time, exclude=None):
     }
 
 
-def build_mail_body(items, cfg, run_time, exclude=None):
+def build_mail_body(items, cfg, run_time, exclude=None, edition=None):
     """邮件纯文本版。
 
     邮件要满足三件事：每条有原文链接、每条有正文摘录、条数不能太多。
     之前推送过的内容（exclude）直接跳过，不重复占版面。
+    edition：补发时外部指定叫早报还是晚报（不传就按时间自动判断）。
     """
     sel = select_mail_rows(items, cfg, run_time, exclude)
-    hour = run_time.hour
-    edition = "早报" if hour < 15 else "晚报"
+    if not edition:
+        edition = "早报" if run_time.hour < 15 else "晚报"
     site = cfg.get("site_url", "")
 
     L = []
@@ -1108,12 +1109,13 @@ h3.gold{color:#a8841c}
 </style>"""
 
 
-def build_mail_html(items, cfg, run_time, sel):
+def build_mail_html(items, cfg, run_time, sel, edition=None):
     """HTML 版邮件：顶部一排类别按钮，点哪个跳哪个分类，
     手机邮箱里也能像网页看板那样挑着看。"""
     lim = cfg.get("limits", {}) or {}
     body_chars = int(lim.get("mail_body_chars", 90))
-    edition = "早报" if run_time.hour < 15 else "晚报"
+    if not edition:
+        edition = "早报" if run_time.hour < 15 else "晚报"
     site = cfg.get("site_url", "")
     e = html.escape
 
@@ -1628,18 +1630,34 @@ def main():
         print("  [邮件] 本次只抓取，不发邮件")
         return
     # 一天跑好几次，但每个时段只发一封：谁先跑起来谁发，发过就跳过。
-    # 这样 GitHub 定时任务延迟/漏跑时，后面任意一次运行都能把这份补上。
-    slot = mail_slot(run_time)
-    if not slot:
-        print(f"  [邮件] {run_time.strftime('%H:%M')} 不在发信时段"
-              f"（08:30-15:00 早报 / 20:30 后晚报），本次只抓取")
-        return
+    # GitHub 定时任务经常漏跑/严重延迟（实测晚报三个点能连续几天全跳），
+    # 所以时段外也别白跑：凌晨补昨天的晚报，下午补今天的早报。
+    run_hm = run_time.hour * 100 + run_time.minute
     today_key = run_time.strftime("%Y-%m-%d")
     mstate = load_mailstate()
-    if (mstate.get(today_key) or {}).get(slot):
+    slot = state_key = edition = None
+    if 830 <= run_hm < 1500:
+        slot, state_key = "am", today_key
+    elif run_hm >= 2030:
+        slot, state_key = "pm", today_key
+    elif run_hm < 830:
+        # 凌晨（00:00-08:29）：昨天晚报还没发过 -> 补发
+        ykey = (run_time - dt.timedelta(days=1)).strftime("%Y-%m-%d")
+        if not (mstate.get(ykey) or {}).get("pm"):
+            slot, state_key, edition = "pm", ykey, "晚报"
+    else:
+        # 下午（15:00-20:29）：今天早报还没发过 -> 补发
+        if not (mstate.get(today_key) or {}).get("am"):
+            slot, state_key, edition = "am", today_key, "早报"
+    if not slot:
+        print(f"  [邮件] {run_time.strftime('%H:%M')} 该发的都发过了，本次只抓取")
+        return
+    if edition:
+        print(f"  [邮件] 发现 {state_key} 的{edition}漏发，本次补发")
+    if (mstate.get(state_key) or {}).get(slot):
         label = "早报" if slot == "am" else "晚报"
-        print(f"  [邮件] 今天的{label}已发过"
-              f"（{mstate[today_key][slot]}），本次跳过")
+        print(f"  [邮件] {state_key} 的{label}已发过"
+              f"（{mstate[state_key][slot]}），本次跳过")
         return
     # 排除之前推送过的：早报发过的晚报不发，昨天发过的今天不发，宁少勿重
     mailed = load_mailed()
@@ -1655,15 +1673,17 @@ def main():
     ]
     plain = html_mail = sel = None
     size_kb = 0
+    ed_fix = edition  # 补发时固定叫"早报/晚报"，不按当前时间判断
     for over in tiers:
         cfg_try = copy.deepcopy(cfg)
         if over:
             cfg_try.setdefault("limits", {}).update(over)
-        plain, edition, sel = build_mail_body(items, cfg_try, run_time, exclude=set(mailed))
+        plain, edition, sel = build_mail_body(
+            items, cfg_try, run_time, exclude=set(mailed), edition=ed_fix)
         if not sel["ids"]:
             print(f"  [邮件] 本轮 {len(items)} 条内容之前都推送过，不发邮件（宁少勿重）")
             return
-        html_mail = build_mail_html(items, cfg_try, run_time, sel)
+        html_mail = build_mail_html(items, cfg_try, run_time, sel, edition=ed_fix)
         size_kb = (len(plain.encode("utf-8")) + len(html_mail.encode("utf-8"))) / 1024
         if size_kb <= max_kb:
             break
@@ -1682,7 +1702,7 @@ def main():
         for iid in sel["ids"]:
             mailed[iid] = now_ts
         save_mailed(mailed)
-        mstate.setdefault(today_key, {})[slot] = run_time.strftime("%H:%M")
+        mstate.setdefault(state_key, {})[slot] = run_time.strftime("%H:%M")
         save_mailstate(mstate)
 
 
