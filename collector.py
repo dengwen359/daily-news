@@ -1114,6 +1114,7 @@ h3.gold{color:#a8841c}
 .mt{color:#999;font-size:12px;margin-top:2px}
 .mt b{color:#a8841c}
 .bd{color:#666;font-size:13px;margin-top:4px}
+.ai{margin-top:5px;padding:7px 9px;background:#f2f6fb;border-left:3px solid #2b5c8a;border-radius:4px;color:#41506b;font-size:12.5px;line-height:1.65}
 .board{margin-top:16px;padding:11px;background:#eaf1f8;border-radius:8px;text-align:center}
 .board a{color:#2b5c8a;text-decoration:none;font-size:13px;font-weight:600}
 .foot{color:#999;font-size:11px;margin-top:12px}
@@ -1148,6 +1149,9 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
              f'{e(r["title"])}</a><div class="mt">' + " · ".join(meta) + "</div>"]
         if body:
             h.append(f'<div class="bd">{e(body)}</div>')
+        # AI 影响分析：只有突发必看和政策要闻才有这个字段
+        if r.get("ai"):
+            h.append(f'<div class="ai">AI分析：{e(r["ai"])}</div>')
         h.append("</div>")
         return "".join(h)
 
@@ -1336,12 +1340,125 @@ def load_today_json(cfg, date_str):
     return out
 
 
+# ---------------------------------------------------------------- AI 影响分析
+# 用 GitHub Models 的免费额度（现有 GitHub token 即可，不用注册新账号）。
+# 只给突发必看和政策要闻做，分析结果缓存到 data/ai.json 随仓库提交，
+# 同一条新闻绝不重复分析、重复扣额度。调用失败就跳过，不影响发信主流程。
+AI_CACHE_PATH = os.path.join(BASE_DIR, "data", "ai.json")
+AI_MODELS_URL = "https://models.github.ai/inference/chat/completions"
+
+_AI_PROMPT = (
+    "你是新闻分析助手。针对下面这条新闻，用中文写2句话、总共不超过100字，"
+    "分析它可能对哪些方面造成影响（如宏观政策、相关行业、金融市场、民生等）。"
+    "要求：客观中性、基于常识推理、不夸大、不给投资建议、不编造事实和数据。"
+    "直接输出分析文字，不要任何前缀、标题或格式标记。\n"
+    "新闻标题：{title}\n新闻内容：{content}"
+)
+
+
+def _load_ai_cache():
+    try:
+        with open(AI_CACHE_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_ai_cache(cache, keep_days=7):
+    cutoff = (dt.date.today() - dt.timedelta(days=keep_days)).strftime("%Y-%m-%d")
+    cache = {k: v for k, v in cache.items()
+             if isinstance(v, dict) and v.get("t", "") >= cutoff}
+    os.makedirs(os.path.dirname(AI_CACHE_PATH), exist_ok=True)
+    with open(AI_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False)
+
+
+def _ai_chat(model, title, content, token):
+    body = json.dumps({
+        "model": model,
+        "messages": [{"role": "user",
+                      "content": _AI_PROMPT.format(title=title, content=content)}],
+        "max_tokens": 220,
+        "temperature": 0.4,
+    }).encode()
+    req = urllib.request.Request(
+        AI_MODELS_URL, data=body, method="POST",
+        headers={"Authorization": f"Bearer {token}",
+                 "Content-Type": "application/json",
+                 "User-Agent": "news-collector"})
+    with urllib.request.urlopen(req, timeout=40) as r:
+        d = json.loads(r.read().decode())
+    choices = d.get("choices") or []
+    return ((choices[0].get("message") or {}).get("content") or "").strip()
+
+
+def ai_analyze(rows, cfg):
+    """给重点条目补 AI 影响分析，成功后写到条目的 ai 字段。"""
+    ac = cfg.get("ai", {}) or {}
+    if not ac.get("enabled", True):
+        return
+    token = (os.environ.get("GH_MODELS_TOKEN")
+             or os.environ.get("GITHUB_TOKEN")
+             or os.environ.get("NEWS_AI_TOKEN") or "").strip()
+    if not token:
+        print("  [AI] 没有可用令牌，跳过分析（不影响发邮件）")
+        return
+    model = ac.get("model", "openai/gpt-4o-mini")
+    max_items = int(ac.get("max_items", 16))
+
+    cache = _load_ai_cache()
+    todo = []
+    for it in rows:
+        iid = it.get("id")
+        if not iid or it.get("ai"):
+            continue
+        if iid in cache:
+            it["ai"] = cache[iid].get("a", "")
+        else:
+            todo.append(it)
+    todo = todo[:max_items]
+    if not todo:
+        return
+    print(f"  [AI] 需要新分析 {len(todo)} 条（模型 {model}）")
+
+    fails = 0
+    today = dt.date.today().strftime("%Y-%m-%d")
+    for it in todo:
+        content = clean_body_text(it.get("body") or it.get("summary") or "")[:400]
+        if not content:
+            content = it.get("title", "")
+        try:
+            txt = _ai_chat(model, it.get("title", ""), content, token)
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                print("  [AI] 免费额度限流，剩余条目下次运行再补")
+                break
+            print(f"  [AI] 调用失败 HTTP {e.code}")
+            fails += 1
+        except Exception as e:
+            print(f"  [AI] 调用失败：{str(e)[:80]}")
+            fails += 1
+        else:
+            fails = 0
+            if txt:
+                it["ai"] = txt
+                cache[it["id"]] = {"a": txt, "t": today}
+        if fails >= 2:
+            print("  [AI] 连续失败，停止本轮分析（不影响发邮件）")
+            break
+    _save_ai_cache(cache)
+
+
 def write_json(items, cfg, run_time, feed_stats):
     """把当天结果存成 data/YYYY-MM-DD.json，供网页看板渲染"""
     data_dir = cfg.get("data_dir", "data")
     if not os.path.isabs(data_dir):
         data_dir = os.path.join(BASE_DIR, data_dir)
     os.makedirs(data_dir, exist_ok=True)
+
+    # 分析结果从缓存带出来：就算这一轮没做新分析（比如只抓取的轮次），
+    # 之前分析过的条目在看板上也照样显示
+    ai_cache = _load_ai_cache()
 
     payload = {
         "date": run_time.strftime("%Y-%m-%d"),
@@ -1368,6 +1485,7 @@ def write_json(items, cfg, run_time, feed_stats):
                 "why": it.get("why", ""),
                 "tier": it.get("tier", ""),
                 "group": it.get("group", ""),
+                "ai": (ai_cache.get(it["id"]) or {}).get("a", ""),
             }
             for it in items
         ],
@@ -1602,6 +1720,12 @@ def main():
             if len(merged) > len(items):
                 print(f"  累加当天已收录的 {len(prev)} 条，共 {len(merged)} 条")
             items = merged
+
+    # AI 影响分析：只给这封信要发的突发必看 + 政策要闻做，
+    # 分析挂在条目对象上，后面的邮件和看板数据都会带上
+    if not args.no_mail and not args.dry_run:
+        _sel_prev = select_mail_rows(items, cfg, run_time, exclude=set(load_mailed()))
+        ai_analyze(_sel_prev["must"] + _sel_prev["lv1"], cfg)
 
     # 没有内容时不覆盖当天已有的日报（避免把好报告刷成空）
     output_dir = cfg.get("output_dir", "reports")

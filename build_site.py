@@ -171,6 +171,7 @@ def build_html(days):
     padding:1px 7px;border-radius:4px;font-size:11.5px;font-weight:550;
   }}
   .sum{{font-size:13.5px;color:var(--tx2);margin-top:9px;line-height:1.65}}
+  .ai{{margin-top:9px;padding:8px 10px;background:var(--panel,#f2f6fb);border-left:3px solid #2b5c8a;border-radius:4px;font-size:12.5px;color:#41506b;line-height:1.65}}
   .also{{font-size:12px;color:var(--tx3);margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}}
   .also a{{color:var(--accent);text-decoration:none}}
   .also a:hover{{text-decoration:underline}}
@@ -314,6 +315,7 @@ function itemHTML(it, lv){{
         (i ? '<span class="dot">·</span>' : '') + `<span>${{m}}</span>`
       ).join('') + '</div>';
   if (it.s) h += `<div class="sum">${{esc(it.s)}}</div>`;
+  if (it.ai) h += `<div class="ai">AI分析：${{esc(it.ai)}}</div>`;
   if ((it.also||[]).length) {{
     h += '<div class="also">同题另报：' + it.also.map(a =>
       `<a href="${{esc(a.u)}}" target="_blank" rel="noopener">${{esc(a.src)}}</a>`

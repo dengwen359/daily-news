@@ -49,6 +49,8 @@ jobs:
           NEWS_MAIL_PASSWORD: ${{ secrets.NEWS_MAIL_PASSWORD }}
           NEWS_MAIL_RECEIVER: ${{ secrets.NEWS_MAIL_RECEIVER }}
           NEWS_MAIL_HOST: ${{ secrets.NEWS_MAIL_HOST }}
+          # AI 影响分析用 GitHub Models，内置 token 就能用
+          GH_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 是否发邮件由 collector 按时间判断：08:30 后发早报、20:30 后发晚报，
           # 每个时段只发一次，其余时段只抓取。这样定时任务延迟也能补发。
