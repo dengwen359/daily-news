@@ -1345,7 +1345,12 @@ def load_today_json(cfg, date_str):
 # 只给突发必看和政策要闻做，分析结果缓存到 data/ai.json 随仓库提交，
 # 同一条新闻绝不重复分析、重复扣额度。调用失败就跳过，不影响发信主流程。
 AI_CACHE_PATH = os.path.join(BASE_DIR, "data", "ai.json")
-AI_MODELS_URL = "https://models.github.ai/inference/chat/completions"
+# 新端点（models.github.ai）在部分场景返回 200+OK 空响应，
+# 老端点（models.inference.ai.azure.com，模型名不带 org/ 前缀）作为备用
+AI_ENDPOINTS = [
+    ("https://models.github.ai/inference/chat/completions", False),
+    ("https://models.inference.ai.azure.com/chat/completions", True),
+]
 
 _AI_PROMPT = (
     "你是新闻分析助手。针对下面这条新闻，用中文写2句话、总共不超过100字，"
@@ -1374,27 +1379,36 @@ def _save_ai_cache(cache, keep_days=7):
 
 
 def _ai_chat(model, title, content, token):
-    body = json.dumps({
-        "model": model,
-        "messages": [{"role": "user",
-                      "content": _AI_PROMPT.format(title=title, content=content)}],
-        "max_tokens": 220,
-        "temperature": 0.4,
-    }).encode()
-    req = urllib.request.Request(
-        AI_MODELS_URL, data=body, method="POST",
-        headers={"Authorization": f"Bearer {token}",
-                 "Content-Type": "application/json",
-                 "User-Agent": "news-collector"})
-    with urllib.request.urlopen(req, timeout=40) as r:
-        raw = r.read()
-    try:
-        d = json.loads(raw.decode("utf-8", "ignore"))
-    except Exception:
-        # 把响应开头带出来，方便在日志里确诊（空body/HTML页/编码问题一眼可见）
-        raise RuntimeError(f"响应不是JSON: {raw[:150]!r}")
-    choices = d.get("choices") or []
-    return ((choices[0].get("message") or {}).get("content") or "").strip()
+    prompt = _AI_PROMPT.format(title=title, content=content)
+    last_err = None
+    for url, strip_org in AI_ENDPOINTS:
+        body = json.dumps({
+            "model": model.split("/")[-1] if strip_org else model,
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 220,
+            "temperature": 0.4,
+        }).encode()
+        req = urllib.request.Request(
+            url, data=body, method="POST",
+            headers={"Authorization": f"Bearer {token}",
+                     "Content-Type": "application/json",
+                     "User-Agent": "news-collector"})
+        try:
+            with urllib.request.urlopen(req, timeout=40) as r:
+                raw = r.read()
+            try:
+                d = json.loads(raw.decode("utf-8", "ignore"))
+            except Exception:
+                # 把最终URL/类型/响应开头带出来，方便在日志里确诊
+                raise RuntimeError(
+                    f"响应不是JSON: {raw[:120]!r} (final={r.geturl()}, "
+                    f"ct={r.headers.get('Content-Type')})")
+            choices = d.get("choices") or []
+            return ((choices[0].get("message") or {}).get("content") or "").strip()
+        except Exception as e:
+            last_err = e
+            continue  # 换下一个端点
+    raise last_err if last_err else RuntimeError("无可用端点")
 
 
 def ai_analyze(rows, cfg):
