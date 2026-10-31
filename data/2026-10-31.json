@@ -1,8 +1,8 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31 14:25",
+ "generated_at": "2026-10-31 14:31",
  "hours_window": 30,
- "count": 308,
+ "count": 315,
  "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
@@ -29,12 +29,12 @@
    "topics": [],
    "words": [],
    "time": "17:26",
-   "score": 62.6,
+   "score": 68.6,
    "level": 1,
    "why": "全会",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
+   "ai": "这次全会强调从严治党，可能促使监管体系进一步完善，提升企业合规成本。  \n同时，会议被视为深化中巴合作的契机，或带动两国在基础设施与贸易领域的互联互通。"
   },
   {
    "id": "de664fc652e45d73",
@@ -47,7 +47,7 @@
    "topics": [],
    "words": [],
    "time": "21:08",
-   "score": 61.0,
+   "score": 67.0,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -136,7 +136,7 @@
    "why": "突发",
    "tier": "must",
    "group": "chinanews",
-   "ai": "此事件可能导致当地居民对公共场所安全的担忧升高，影响购物中心客流与零售业绩。与此同时，可能促使地方政府加强安保措施，激化关于枪支管制的政策讨论。"
+   "ai": ""
   },
   {
    "id": "a2b02abb312e65bf",
@@ -154,7 +154,25 @@
    "why": "地震",
    "tier": "",
    "group": "界面新闻",
-   "ai": "3.8级浅层地震对当地基础设施与居民安全构成短期关注，需加强应急预案与建筑抗震检查。此类事件可能促使地方政府加大地质监测投入，影响相关建筑与保险行业成本。"
+   "ai": ""
+  },
+  {
+   "id": "fa68ece12076838d",
+   "title": "本月玩什么｜影之刃零、战争机器：事变日等",
+   "link": "https://sspai.com/post/117960",
+   "summary": "欢迎来到「本月玩什么」，本栏目将从作者个人角度出发，独立挑选一些本月新发售的游戏作品/内容做简要介绍、评论，不保证收录覆盖面，且并非每一款都是笔者推荐游玩的，主要涵盖 PlayStation、Xbox、Nintendo、PC 和 iOS/Android 等主流平台；请注意，本文的探讨仅限于游戏刚发售时点的表现，游戏未来可能通过迭代变得更好或更差。期待这里能有勾起你兴趣的内容或探讨，也真诚感谢所有喜欢本栏目的朋友。",
+   "body": "欢迎来到「本月玩什么」，本栏目将从作者个人角度出发，独立挑选一些本月新发售的游戏作品/内容做简要介绍、评论，不保证收录覆盖面，且并非每一款都是笔者推荐游玩的，主要涵盖 PlayStation、Xbox、Nintendo、PC 和 iOS/Android 等主流平台；请注意，本文的探讨仅限于游戏刚发售时点的表现，游戏未来可能通过迭代变得更好或更差。期待这里能有勾起你兴趣的内容或探讨，也真诚感谢所有喜欢本栏目的朋友。",
+   "source": "少数派",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "13:29",
+   "score": 16.9,
+   "level": 2,
+   "why": "战争",
+   "tier": "",
+   "group": "少数派",
+   "ai": ""
   },
   {
    "id": "2f667eef858e123c",
@@ -199,6 +217,28 @@
    "ai": ""
   },
   {
+   "id": "418262c4b5d08318",
+   "title": "普京警告：若俄罗斯与欧洲真走到战争那一步，将不会有赢家",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723099.shtml",
+   "summary": "中新网10月30日电 综合俄媒报道，俄罗斯总统普京29日表示，俄罗斯不希望与欧洲发生战争，但已做好准备。他同时警告，要是俄罗斯与欧洲真走到战争那一步，这场战争将不会有赢家，这一点绝不能忘记。据报道，普京是在第三届俄罗斯-非洲峰会暨经济和人道主义论坛结束后的记者会上发表了上述言论。普京说，欧盟领导人至今未能实现让俄罗斯遭遇战略失败的目标，到2030年也不太可能实现。普京还表示，俄方支持任何旨在与欧洲国家恢复全面、完整关系的举措，无论是通过欧盟这一组织还是通过双边途径。",
+   "body": "中新网10月30日电 综合俄媒报道，俄罗斯总统普京29日表示，俄罗斯不希望与欧洲发生战争，但已做好准备。他同时警告，要是俄罗斯与欧洲真走到战争那一步，这场战争将不会有赢家，这一点绝不能忘记。据报道，普京是在第三届俄罗斯-非洲峰会暨经济和人道主义论坛结束后的记者会上发表了上述言论。普京说，欧盟领导人至今未能实现让俄罗斯遭遇战略失败的目标，到2030年也不太可能实现。普京还表示，俄方支持任何旨在与欧洲国家恢复全面、完整关系的举措，无论是通过欧盟这一组织还是通过双边途径。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "07:48",
+   "score": 16.4,
+   "level": 2,
+   "why": "战争",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "16dcf4a9885bb195",
    "title": "伊朗：4艘油轮在霍尔木兹海峡爆炸起火",
    "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723785.shtml",
@@ -218,28 +258,6 @@
    "score": 16.4,
    "level": 2,
    "why": "爆炸",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "418262c4b5d08318",
-   "title": "普京警告：若俄罗斯与欧洲真走到战争那一步，将不会有赢家",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723099.shtml",
-   "summary": "中新网10月30日电 综合俄媒报道，俄罗斯总统普京29日表示，俄罗斯不希望与欧洲发生战争，但已做好准备。他同时警告，要是俄罗斯与欧洲真走到战争那一步，这场战争将不会有赢家，这一点绝不能忘记。据报道，普京是在第三届俄罗斯-非洲峰会暨经济和人道主义论坛结束后的记者会上发表了上述言论。普京说，欧盟领导人至今未能实现让俄罗斯遭遇战略失败的目标，到2030年也不太可能实现。普京还表示，俄方支持任何旨在与欧洲国家恢复全面、完整关系的举措，无论是通过欧盟这一组织还是通过双边途径。",
-   "body": "中新网10月30日电 综合俄媒报道，俄罗斯总统普京29日表示，俄罗斯不希望与欧洲发生战争，但已做好准备。他同时警告，要是俄罗斯与欧洲真走到战争那一步，这场战争将不会有赢家，这一点绝不能忘记。据报道，普京是在第三届俄罗斯-非洲峰会暨经济和人道主义论坛结束后的记者会上发表了上述言论。普京说，欧盟领导人至今未能实现让俄罗斯遭遇战略失败的目标，到2030年也不太可能实现。普京还表示，俄方支持任何旨在与欧洲国家恢复全面、完整关系的举措，无论是通过欧盟这一组织还是通过双边途径。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "总统"
-   ],
-   "time": "07:48",
-   "score": 16.4,
-   "level": 2,
-   "why": "战争",
    "tier": "must",
    "group": "chinanews",
    "ai": ""
@@ -360,7 +378,7 @@
    "topics": [],
    "words": [],
    "time": "06:50",
-   "score": 21.1,
+   "score": 21.0,
    "level": 1,
    "why": "国务院",
    "tier": "must",
@@ -577,6 +595,34 @@
    "ai": ""
   },
   {
+   "id": "19a4d00b7e8c7ea5",
+   "title": "波兰总统发表声明：指责相关行动破坏波兰宪法秩序，召集紧急磋商",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723889.shtml",
+   "summary": "中新网10月31日电 据波兰总统府官方网站，当地时间10月31日，波兰总统纳夫罗茨基就宪法法院发生的事件发表声明，指责相关行动破坏波兰宪法秩序，并要求相关执法力量立即离开宪法法院。纳夫罗茨基同时宣布，将于当天召集议会各政治力量代表举行紧急磋商，以推动局势稳定、恢复宪法秩序。",
+   "body": "中新网10月31日电 据波兰总统府官方网站，当地时间10月31日，波兰总统纳夫罗茨基就宪法法院发生的事件发表声明，指责相关行动破坏波兰宪法秩序，并要求相关执法力量立即离开宪法法院。纳夫罗茨基同时宣布，将于当天召集议会各政治力量代表举行紧急磋商，以推动局势稳定、恢复宪法秩序。",
+   "source": "中国新闻网·国际",
+   "also": [
+    {
+     "src": "界面新闻",
+     "t": "波兰宪法法院危机持续，总统发表声明并召集紧急磋商",
+     "u": "https://www.jiemian.com/article/15277560.html"
+    }
+   ],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "14:23",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "dd4041fdd724317c",
    "title": "US tech stocks see sharp falls as AI spending nears $1tn",
    "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
@@ -777,7 +823,7 @@
    "id": "1c137130d37f00c9",
    "title": "美股三大指数收盘集体下跌，大型科技股普跌",
    "link": "https://36kr.com/newsflashes/4049116512565760?f=rss",
-   "summary": "36氪获悉，10月31日收盘，美股三大指数集体下跌，道指跌1.09%，纳指跌2.86%，标普500指数跌1.82%。大型科技股普跌，特斯拉跌0.86%，苹果跌1.11%，谷歌跌1.37%，亚马逊跌1.42%，微软跌1.47%，Meta跌1.49%，英伟达跌4.08%，英特尔跌28.58%。热门中概股涨跌不一，阿里巴巴跌1.51%，拼多多跌0.85%，京东涨0.2%，百度跌2.86%，蔚来跌3.31%，小鹏集团跌1.53%，理想汽车跌0.99%，哔哩哔哩跌1.48%。",
+   "summary": "36氪获悉，10月31日收盘，美股三大指数集体下跌，道指跌1.09%，纳指跌2.86%，标普500指数跌1.82%。大型科技股普���，特斯拉跌0.86%，苹果跌1.11%，谷歌跌1.37%，亚马逊跌1.42%，微软跌1.47%，Meta跌1.49%，英伟达跌4.08%，英特尔跌28.58%。热门中概股涨跌不一，阿里巴巴跌1.51%，拼多多跌0.85%，京东涨0.2%，百度跌2.86%，蔚来跌3.31%，小鹏集团跌1.53%，理想汽车跌0.99%，哔哩哔哩跌1.48%。",
    "body": "",
    "source": "36氪",
    "also": [
@@ -855,7 +901,7 @@
     "人工智能"
    ],
    "time": "07:41",
-   "score": 10.2,
+   "score": 10.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -984,28 +1030,6 @@
    "ai": ""
   },
   {
-   "id": "fed5fbbce5170225",
-   "title": "红果短剧登顶台湾APP下载榜首！有人看到天亮，有人退订Netflix",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-31/10723770.shtml",
-   "summary": "“Netflix(美国会员订阅制流媒体平台)一集还没看完，红果已经重生、复仇、离婚、闪婚三次了。”最近，这句话在台湾社交媒体引发大量讨论。十月中下旬，红果短剧同时登上台湾App Store与Google Play两个应用商店免费应用下载榜榜首。有台湾民众看到天亮，有人直接退订Netflix‌。这场席卷台湾的短剧风暴，究竟是如何发生的？红果短剧“篡位”Netflix？红果短剧这一微短剧平台在大陆引发的热潮早已势不可挡。截至今年7月，其日活跃用户数达1.68亿，超过腾讯视频、爱奇艺、优酷、芒果TV四大长视频平台同期日活用户数总和(约1.55亿)。目前在台湾市占率名列前茅的追剧平台是Netflix。",
-   "body": "“Netflix(美国会员订阅制流媒体平台)一集还没看完，红果已经重生、复仇、离婚、闪婚三次了。”最近，这句话在台湾社交媒体引发大量讨论。十月中下旬，红果短剧同时登上台湾App Store与Google Play两个应用商店免费应用下载榜榜首。有台湾民众看到天亮，有人直接退订Netflix‌。这场席卷台湾的短剧风暴，究竟是如何发生的？红果短剧“篡位”Netflix？红果短剧这一微短剧平台在大陆引发的热潮早已势不可挡。截至今年7月，其日活跃用户数达1.68亿，超过腾讯视频、爱奇艺、优酷、芒果TV四大长视频平台同期日活用户数总和(约1.55亿)。目前在台湾市占率名列前茅的追剧平台是Netflix。",
-   "source": "中国新闻网·国内",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "国会"
-   ],
-   "time": "08:55",
-   "score": 9.3,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "3dc8d2e21d06cb2b",
    "title": "不是字节跳动：联发科拿下第二家 AI 芯片大客户，2028 年量产",
    "link": "https://www.ithome.com/1/020/400.htm",
@@ -1028,6 +1052,28 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "fed5fbbce5170225",
+   "title": "红果短剧登顶台湾APP下载榜首！有人看到天亮，有人退订Netflix",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-31/10723770.shtml",
+   "summary": "“Netflix(美国会员订阅制流媒体平台)一集还没看完，红果已经重生、复仇、离婚、闪婚三次了。”最近，这句话在台湾社交媒体引发大量讨论。十月中下旬，红果短剧同时登上台湾App Store与Google Play两个应用商店免费应用下载榜榜首。有台湾民众看到天亮，有人直接退订Netflix‌。这场席卷台湾的短剧风暴，究竟是如何发生的？红果短剧“篡位”Netflix？红果短剧这一微短剧平台在大陆引发的热潮早已势不可挡。截至今年7月，其日活跃用户数达1.68亿，超过腾讯视频、爱奇艺、优酷、芒果TV四大长视频平台同期日活用户数总和(约1.55亿)。目前在台湾市占率名列前茅的追剧平台是Netflix。",
+   "body": "“Netflix(美国会员订阅制流媒体平台)一集还没看完，红果已经重生、复仇、离婚、闪婚三次了。”最近，这句话在台湾社交媒体引发大量讨论。十月中下旬，红果短剧同时登上台湾App Store与Google Play两个应用商店免费应用下载榜榜首。有台湾民众看到天亮，有人直接退订Netflix‌。这场席卷台湾的短剧风暴，究竟是如何发生的？红果短剧“篡位”Netflix？红果短剧这一微短剧平台在大陆引发的热潮早已势不可挡。截至今年7月，其日活跃用户数达1.68亿，超过腾讯视频、爱奇艺、优酷、芒果TV四大长视频平台同期日活用户数总和(约1.55亿)。目前在台湾市占率名列前茅的追剧平台是Netflix。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "国会"
+   ],
+   "time": "08:55",
+   "score": 9.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -1294,6 +1340,50 @@
    "ai": ""
   },
   {
+   "id": "ea036eaeedd1b76c",
+   "title": "奇瑞金弋波：假如奇瑞没有燃油车也是新能源汽车大厂，奇瑞新能源已经排中国前三、全球前五",
+   "link": "https://www.ithome.com/1/020/472.htm",
+   "summary": "10 月 31 日下午消息，发布第三季度财报后，奇瑞汽车股份有限公司执行副总裁戚士龙，奇瑞控股集团新闻发言人金弋波与媒体对话。 奇瑞控股集团新闻发言人金弋波坦言，很多人都批评奇瑞，认为奇瑞只会做，不会讲。有人说星途品牌在海外的影响力非常大，而且车子卖的很贵，表现很好，好像奇瑞都不讲，在国内都没有影响。因此每年 10 月份，奇瑞会做一个全球创新大会，把一些核心的东西展示一下，这样大家能感受就比较深了。 谈及奇瑞在新能源方面的表现，他强调，站在今天这个节点上来看，奇瑞新能源做的很好，可能大家无感，大家都没感觉到奇瑞是个新能源企业，甚至都不如其他的一些互联网造车企业。 “其实不是这样的， 我们撇开现有的燃油车来讲，假如奇瑞没有燃油车，我们就是一个新能源汽车的大厂 。因为在中国，我们新能源汽车排前三，全球我们排前五，你还能讲我不是一个新能源大厂吗？但很多人因为我们做油车，还认为奇瑞是一个传统车企。",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "新能源"
+   ],
+   "time": "14:31",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "ef279f3fbeea0b0b",
+   "title": "Anthropic 出手：Claude Opus 5.5 不再帮你“AI 复刻游戏”",
+   "link": "https://www.ithome.com/1/020/471.htm",
+   "summary": "IT之家 10 月 31 日消息，游戏媒体 gamedeveloper 今天（10 月 31 日）发布博文，报道称 Anthropic 已在 AI 编程工具 Claude Code 中，限制 Opus 5.5 模型 帮助用户复刻特定现有游戏。 开发者 @chasmmmmmmmmmmm 昨日（10 月 30 日）在 X 平台发布推文，称 Claude Code 在 10 月 27 日前后，为 Opus 5.5 模型新增了一条无法关闭的规则： 可以制作原创游戏、某一类型的游戏，以及基于用户自有设计与素材的游戏；不得复刻某个具体现有游戏，即使改名或自称原创也不行。 Anthropic 技术成员 Addy Osmani 随后回应称，公司已在 Claude Code 的提示词中加入两句引导内容，以避免其“重现他人的特定游戏”。他强调，使用 Claude 侵犯知识产权违反平台使用政策，而原创游戏、类型",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "14:26",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "ce72921e376a7425",
    "title": "不用反复退登了：ChatGPT 支持多账号切换，AI 工作号 / 生活号不再打架",
    "link": "https://www.ithome.com/1/020/470.htm",
@@ -1320,8 +1410,8 @@
    "id": "58876a32b620aad2",
    "title": "Spain train disaster clouds Sánchez chances of re-election",
    "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished37 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
-   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished37 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished47 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished47 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
@@ -1491,28 +1581,6 @@
    "ai": ""
   },
   {
-   "id": "46a2f1665d80a94a",
-   "title": "财富一年暴涨730亿，苏州富豪家族港股首秀却被“泼冷水”",
-   "link": "https://www.jiemian.com/article/15274936.html",
-   "summary": "东山精密在港股的首秀，有些“尴尬”。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "财经投资"
-   ],
-   "words": [
-    "港股"
-   ],
-   "time": "11:35",
-   "score": 7.6,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
    "id": "3ec621136066e47e",
    "title": "麦格米特：明年AI电源板块整体收入有望实现大幅增长",
    "link": "https://36kr.com/newsflashes/4049234239355398?f=rss",
@@ -1595,6 +1663,28 @@
    "ai": ""
   },
   {
+   "id": "46a2f1665d80a94a",
+   "title": "财富一年暴涨730亿，苏州富豪家族港股首秀却被“泼冷水”",
+   "link": "https://www.jiemian.com/article/15274936.html",
+   "summary": "东山精密在港股的首秀，有些“尴尬”。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "港股"
+   ],
+   "time": "11:35",
+   "score": 7.6,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "5f41067f267fd237",
    "title": "《三星堆：未来往事》之后，AI院线电影何去何从？",
    "link": "https://www.jiemian.com/article/15273053.html",
@@ -1627,7 +1717,7 @@
    "topics": [],
    "words": [],
    "time": "10:55",
-   "score": 7.6,
+   "score": 7.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1645,7 +1735,7 @@
    "topics": [],
    "words": [],
    "time": "10:55",
-   "score": 7.6,
+   "score": 7.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1735,7 +1825,7 @@
    "topics": [],
    "words": [],
    "time": "10:07",
-   "score": 7.5,
+   "score": 7.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1753,7 +1843,7 @@
    "topics": [],
    "words": [],
    "time": "10:04",
-   "score": 7.5,
+   "score": 7.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1779,7 +1869,7 @@
     "地缘"
    ],
    "time": "10:02",
-   "score": 7.5,
+   "score": 7.4,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1797,7 +1887,7 @@
    "topics": [],
    "words": [],
    "time": "10:02",
-   "score": 7.5,
+   "score": 7.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1841,6 +1931,24 @@
    "ai": ""
   },
   {
+   "id": "2591d3557b3c8d01",
+   "title": "四川省宜宾市生态环境局原党委书记、局长周永富接受纪律审查和监察调查",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-31/10723699.shtml",
+   "summary": "中新网成都10月31日电 (记者 张浪)四川省宜宾市纪委监委30日消息：宜宾市生态环境局原党委书记、局长周永富涉嫌严重违纪违法，目前正接受宜宾市纪委监委纪律审查和监察调查。简历显示：周永富，男，汉族，1963年10月生，四川富顺人，省委党校在职研究生学历。1982年8月参加工作，1990年1月加入中国共产党。",
+   "body": "中新网成都10月31日电 (记者 张浪)四川省宜宾市纪委监委30日消息：宜宾市生态环境局原党委书记、局长周永富涉嫌严重违纪违法，目前正接受宜宾市纪委监委纪律审查和监察调查。简历显示：周永富，男，汉族，1963年10月生，四川富顺人，省委党校在职研究生学历。1982年8月参加工作，1990年1月加入中国共产党。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "00:20",
+   "score": 7.4,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "1639528c665dbfb3",
    "title": "国家税务总局吉林省税务局党委委员于洋接受审查调查",
    "link": "https://www.chinanews.com.cn/gn/2026/10-31/10723780.shtml",
@@ -1859,21 +1967,26 @@
    "ai": ""
   },
   {
-   "id": "2591d3557b3c8d01",
-   "title": "四川省宜宾市生态环境局原党委书记、局长周永富接受纪律审查和监察调查",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-31/10723699.shtml",
-   "summary": "中新网成都10月31日电 (记者 张浪)四川省宜宾市纪委监委30日消息：宜宾市生态环境局原党委书记、局长周永富涉嫌严重违纪违法，目前正接受宜宾市纪委监委纪律审查和监察调查。简历显示：周永富，男，汉族，1963年10月生，四川富顺人，省委党校在职研究生学历。1982年8月参加工作，1990年1月加入中国共产党。",
-   "body": "中新网成都10月31日电 (记者 张浪)四川省宜宾市纪委监委30日消息：宜宾市生态环境局原党委书记、局长周永富涉嫌严重违纪违法，目前正接受宜宾市纪委监委纪律审查和监察调查。简历显示：周永富，男，汉族，1963年10月生，四川富顺人，省委党校在职研究生学历。1982年8月参加工作，1990年1月加入中国共产党。",
-   "source": "中国新闻网·国内",
+   "id": "647bb432c8024b0d",
+   "title": "苹果再度反超英伟达，成为全球市值最高公司",
+   "link": "https://36kr.com/newsflashes/4049119705594372?f=rss",
+   "summary": "苹果公司周五重新夺回全球市值最高公司的头衔，从英伟达手中接过这一位置。在人工智能支出引发担忧之际，投资者寻求苹果这家iPhone制造商所带来的相对安全感。苹果股价周五下跌1.2%，市值降至5.03万亿美元；英伟达下跌4.2%，收盘市值为4.93万亿美元。这是苹果自7月底短暂超过英伟达以来，首次再次反超。（财联社）",
+   "body": "",
+   "source": "36氪",
    "also": [],
-   "topics": [],
-   "words": [],
-   "time": "00:20",
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "人工智能",
+    "英伟达"
+   ],
+   "time": "09:37",
    "score": 7.4,
-   "level": 1,
+   "level": 0,
    "why": "",
-   "tier": "must",
-   "group": "chinanews",
+   "tier": "",
+   "group": "36氪",
    "ai": ""
   },
   {
@@ -2007,42 +2120,6 @@
    "ai": ""
   },
   {
-   "id": "f815d8a65dd928f5",
-   "title": "Could El Salvador’s Bukele Be Haiti’s Savior?",
-   "link": "https://www.nytimes.com/2026/10/30/world/americas/el-salvador-haiti-soldiers-bukele.html",
-   "summary": "The Salvadoran government dispatched more than 2,000 troops to Haiti this week in an extraordinary deployment on foreign soil.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "08:51",
-   "score": 7.3,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "f0d7d2710a32365e",
-   "title": "Judge Blocks Expediting Migrant Children’s Asylum Cases, For Now",
-   "link": "https://www.nytimes.com/2026/10/30/us/politics/children-asylum-fast-track-deport.html",
-   "summary": "Lawyers for the children praised the pause on fast-tracked interviews of unaccompanied minors, calling it a blow against the Trump administration’s “deportation assembly line.”",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "08:50",
-   "score": 7.3,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "7321dfb1abf8dbd7",
    "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
    "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
@@ -2081,6 +2158,42 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "f815d8a65dd928f5",
+   "title": "Could El Salvador’s Bukele Be Haiti’s Savior?",
+   "link": "https://www.nytimes.com/2026/10/30/world/americas/el-salvador-haiti-soldiers-bukele.html",
+   "summary": "The Salvadoran government dispatched more than 2,000 troops to Haiti this week in an extraordinary deployment on foreign soil.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "08:51",
+   "score": 7.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "f0d7d2710a32365e",
+   "title": "Judge Blocks Expediting Migrant Children’s Asylum Cases, For Now",
+   "link": "https://www.nytimes.com/2026/10/30/us/politics/children-asylum-fast-track-deport.html",
+   "summary": "Lawyers for the children praised the pause on fast-tracked interviews of unaccompanied minors, calling it a blow against the Trump administration’s “deportation assembly line.”",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "08:50",
+   "score": 7.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -2153,7 +2266,7 @@
    "topics": [],
    "words": [],
    "time": "08:29",
-   "score": 7.3,
+   "score": 7.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2177,7 +2290,7 @@
     "机器人"
    ],
    "time": "08:27",
-   "score": 7.3,
+   "score": 7.2,
    "level": 0,
    "why": "",
    "tier": "",
@@ -2211,8 +2324,8 @@
    "id": "af2d1db7c93eb3f0",
    "title": "'The necktie is dead': How US midterm candidates are dressing for votes",
    "link": "https://www.bbc.co.uk/news/articles/ckq6nz4286r4o?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, Getty ImagesByNardine SaadUS reporterPublished5 hours agoAs Americans prepare to vote in the US midterm elections, candidates with their eye on Congress are not just competing on policy.",
-   "body": "Image source, Getty ImagesByNardine SaadUS reporterPublished5 hours agoAs Americans prepare to vote in the US midterm elections, candidates with their eye on Congress are not just competing on policy.",
+   "summary": "Image source, Getty ImagesByNardine SaadUS reporterPublished6 hours agoAs Americans prepare to vote in the US midterm elections, candidates with their eye on Congress are not just competing on policy.",
+   "body": "Image source, Getty ImagesByNardine SaadUS reporterPublished6 hours agoAs Americans prepare to vote in the US midterm elections, candidates with their eye on Congress are not just competing on policy.",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
@@ -2223,24 +2336,6 @@
    "why": "",
    "tier": "must",
    "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "659150d7a446d90b",
-   "title": "Alina Habba’s Husband Ignited Drama in Trump’s Circle. Now He’s Under Scrutiny.",
-   "link": "https://www.nytimes.com/2026/10/30/us/politics/alina-habba-turhan-mildon-trump-congo-venezuela.html",
-   "summary": "Turhan Mildon, who married Alina Habba this summer, presents himself as a 29-year-old billionaire with ties to global leaders. His story has inconsistencies.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "08:01",
-   "score": 7.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -2333,6 +2428,24 @@
    "ai": ""
   },
   {
+   "id": "659150d7a446d90b",
+   "title": "Alina Habba’s Husband Ignited Drama in Trump’s Circle. Now He’s Under Scrutiny.",
+   "link": "https://www.nytimes.com/2026/10/30/us/politics/alina-habba-turhan-mildon-trump-congo-venezuela.html",
+   "summary": "Turhan Mildon, who married Alina Habba this summer, presents himself as a 29-year-old billionaire with ties to global leaders. His story has inconsistencies.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "08:01",
+   "score": 7.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "4bdc619014b58c89",
    "title": "俄学者：全球治理倡议为改革完善全球治理提供中国方案",
    "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723387.shtml",
@@ -2401,42 +2514,6 @@
    "topics": [],
    "words": [],
    "time": "07:25",
-   "score": 7.1,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "0b46f373b85c8d61",
-   "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-   "link": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
-   "summary": "CloseHundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. Residents had a four-hour window to leave the city.",
-   "body": "CloseHundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. Residents had a four-hour window to leave the city.",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "07:19",
-   "score": 7.1,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "5e8fb380595c6541",
-   "title": "Houston Grand Jury Indicts ICE Agent on Charges of Ramming Man in Chase",
-   "link": "https://www.nytimes.com/2026/10/30/us/houston-ice-agent-charged-ramming.html",
-   "summary": "The agent is facing charges of aggravated assault with a deadly weapon. The immigrant who was struck is recovering from severe leg injuries.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "07:14",
    "score": 7.1,
    "level": 1,
    "why": "",
@@ -2551,6 +2628,42 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "0b46f373b85c8d61",
+   "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+   "link": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+   "summary": "CloseHundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. Residents had a four-hour window to leave the city.",
+   "body": "CloseHundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. Residents had a four-hour window to leave the city.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:19",
+   "score": 7.1,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "5e8fb380595c6541",
+   "title": "Houston Grand Jury Indicts ICE Agent on Charges of Ramming Man in Chase",
+   "link": "https://www.nytimes.com/2026/10/30/us/houston-ice-agent-charged-ramming.html",
+   "summary": "The agent is facing charges of aggravated assault with a deadly weapon. The immigrant who was struck is recovering from severe leg injuries.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:14",
+   "score": 7.1,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -2805,6 +2918,28 @@
    "ai": ""
   },
   {
+   "id": "712f2c90c501bb45",
+   "title": "波兰司法部长批评总统",
+   "link": "https://www.jiemian.com/article/15277694.html",
+   "summary": "波兰司法部长兼总检察长茹雷克今天（10月31日）表示，希望检察机关就总统纳夫罗茨基在宪法法院的行为采取行动。茹雷克当天凌晨接受波兰电视台采访时说，网上流传的视频显示，总统在进入宪法法院时与现场人员发生肢体冲突。茹雷克批评这一行为不可接受，认为总统借相关事件激化街头情绪。总统府方面则指责现场人员阻挠总统进入法院，并侵犯总统人身权利。茹雷克表示，总统享有宪法规定的豁免权，但这并不意味着其行为不应受到法律审视。他希望检察机关能够寻找适当的法律途径，对相关事件进行处理。目前，检察机关已派检察官前往宪法法院调查相关情况。围绕事件责任及其法律性质，波兰总统府与政府方面各执一词。（CCTV国际时讯）",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "14:18",
+   "score": 7.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "413ea708776c9a4b",
    "title": "Minnesota Declined to Buy a Prison for $75 Million. D.H.S. Paid $495 Million.",
    "link": "https://www.nytimes.com/2026/10/30/us/minnesota-prison-homeland-security.html",
@@ -2838,28 +2973,6 @@
    "why": "",
    "tier": "must",
    "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "35a45d4aafbfaab1",
-   "title": "波兰宪法法院危机持续，总统发表声明并召集紧急磋商",
-   "link": "https://www.jiemian.com/article/15277560.html",
-   "summary": "当地时间10月31日，波兰总统纳夫罗茨基就宪法法院发生的事件发表声明，指责相关行动破坏波兰宪法秩序，并要求相关执法力量立即离开宪法法院。纳夫罗茨基同时宣布，将于当天召集议会各政治力量代表举行紧急磋商，以推动局势稳定、恢复宪法秩序。（央视新闻）",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "总统"
-   ],
-   "time": "13:51",
-   "score": 6.9,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -2933,6 +3046,28 @@
    "ai": ""
   },
   {
+   "id": "35a45d4aafbfaab1",
+   "title": "波兰宪法法院危机持续，总统发表声明并召集紧急磋商",
+   "link": "https://www.jiemian.com/article/15277560.html",
+   "summary": "当地时间10月31日，波兰总统纳夫罗茨基就宪法法院发生的事件发表声明，指责相关行动破坏波兰宪法秩序，并要求相关执法力量立即离开宪法法院。纳夫罗茨基同时宣布，将于当天召集议会各政治力量代表举行紧急磋商，以推动局势稳定、恢复宪法秩序。（央视新闻）",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "13:51",
+   "score": 6.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "1dea1ad5edb4f20b",
    "title": "Christa Pike Describes Pain and Isolation After Botched Execution",
    "link": "https://www.nytimes.com/2026/10/30/us/christa-pike-botched-execution-statement.html",
@@ -2943,7 +3078,7 @@
    "topics": [],
    "words": [],
    "time": "05:13",
-   "score": 6.9,
+   "score": 6.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2961,7 +3096,7 @@
    "topics": [],
    "words": [],
    "time": "05:13",
-   "score": 6.9,
+   "score": 6.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3041,46 +3176,6 @@
    "ai": ""
   },
   {
-   "id": "8745354462c761c0",
-   "title": "中国常驻联合国代表团举办发展权主题边会",
-   "link": "https://www.jiemian.com/article/15277457.html",
-   "summary": "中国常驻联合国代表团10月30日与不结盟运动、联合国人权事务高级专员办公室合作举办发展权主题边会。中国常驻联合国副代表孙磊表示，发展是人类社会永恒的主题，发展权是不可剥夺的基本人权。全球发展倡议为重振全球发展事业提供了中国方案，为完善全球人权治理提供了深刻启示。国际社会应携手发展，共享人权。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "联合国"
-   ],
-   "time": "12:53",
-   "score": 6.8,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "95d212dad13f4ba7",
-   "title": "How Michigan’s Midterm Senate Race Could Influence the 2028 Democratic Presidential Primary",
-   "link": "https://www.nytimes.com/2026/10/30/us/politics/michigan-senate-democratic-presidential-primary.html",
-   "summary": "The fate of Dr. Abdul El-Sayed, the progressive candidate in the race, will serve as a litmus test for the left’s potency heading into the next presidential contest.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "04:50",
-   "score": 6.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "64ce39e6a7950294",
    "title": "极空间 Z4Air 四盘位 NAS 发售：搭载海思 Hi3781V730 八核芯片，首发 1899 元",
    "link": "https://www.ithome.com/1/020/318.htm",
@@ -3121,6 +3216,46 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "8745354462c761c0",
+   "title": "中国常驻联合国代表团举办发展权主题边会",
+   "link": "https://www.jiemian.com/article/15277457.html",
+   "summary": "中国常驻联合国代表团10月30日与不结盟运动、联合国人权事务高级专员办公室合作举办发展权主题边会。中国常驻联合国副代表孙磊表示，发展是人类社会永恒的主题，发展权是不可剥夺的基本人权。全球发展倡议为重振全球发展事业提供了中国方案，为完善全球人权治理提供了深刻启示。国际社会应携手发展，共享人权。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "联合国"
+   ],
+   "time": "12:53",
+   "score": 6.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "95d212dad13f4ba7",
+   "title": "How Michigan’s Midterm Senate Race Could Influence the 2028 Democratic Presidential Primary",
+   "link": "https://www.nytimes.com/2026/10/30/us/politics/michigan-senate-democratic-presidential-primary.html",
+   "summary": "The fate of Dr. Abdul El-Sayed, the progressive candidate in the race, will serve as a litmus test for the left’s potency heading into the next presidential contest.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "04:50",
+   "score": 6.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -3282,7 +3417,7 @@
    "topics": [],
    "words": [],
    "time": "03:40",
-   "score": 6.7,
+   "score": 6.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3336,7 +3471,7 @@
    "topics": [],
    "words": [],
    "time": "02:53",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3354,7 +3489,7 @@
    "topics": [],
    "words": [],
    "time": "02:51",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3509,8 +3644,8 @@
    "id": "48f5b0dbb18fd6e3",
    "title": "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage",
    "link": "https://www.bbc.co.uk/news/articles/cwdd8q8e9e9yo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, Supplied/Scott WardImage caption, Scott Ward pictured with one of the rescue dogs he handled in Banff National Park Scott Ward can still recall the relief he saw on parents' faces when a search and rescue dog he was working with found their children safe in Canada's vast and heavily wo…",
-   "body": "Image source, Supplied/Scott WardImage caption, Scott Ward pictured with one of the rescue dogs he handled in Banff National Park Scott Ward can still recall the relief he saw on parents' faces when a search and rescue dog he was working with found their children safe in Canada's vast and heavily wo…",
+   "summary": "A 55-year-old dog rescue programme that has found missing hikers and children in the Canadian wilderness was axed as part of government budget cuts.",
+   "body": "",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
@@ -3552,7 +3687,7 @@
    "topics": [],
    "words": [],
    "time": "00:26",
-   "score": 6.3,
+   "score": 6.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3921,7 +4056,7 @@
     "机器人"
    ],
    "time": "14:03",
-   "score": 6.0,
+   "score": 5.9,
    "level": 0,
    "why": "",
    "tier": "",
@@ -3939,7 +4074,7 @@
    "topics": [],
    "words": [],
    "time": "22:03",
-   "score": 6.0,
+   "score": 5.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4213,7 +4348,7 @@
    "topics": [],
    "words": [],
    "time": "20:29",
-   "score": 5.8,
+   "score": 5.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4231,7 +4366,7 @@
    "topics": [],
    "words": [],
    "time": "20:27",
-   "score": 5.8,
+   "score": 5.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4253,28 +4388,6 @@
    "level": 1,
    "why": "",
    "tier": "must",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "370caab08a4b5cc2",
-   "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-   "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-   "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
-   "body": "",
-   "source": "BBC·商业",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI"
-   ],
-   "time": "20:04",
-   "score": 5.7,
-   "level": 0,
-   "why": "",
-   "tier": "",
    "group": "bbc",
    "ai": ""
   },
@@ -4351,21 +4464,25 @@
    "ai": ""
   },
   {
-   "id": "e153eb1060490d55",
-   "title": "How Ukrainian Soldiers Are Moving Underground",
-   "link": "https://www.nytimes.com/video/world/europe/100000011210889/how-ukrainian-soldiers-are-moving-underground.html",
-   "summary": "Ukrainian soldiers are traveling underground through abandoned gas pipes to reach positions near the front. Our correspondent Maria Varenikova joins them on the journey through the kill zone and into positions where troops can spend weeks at a time.",
+   "id": "370caab08a4b5cc2",
+   "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+   "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+   "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
    "body": "",
-   "source": "纽约时报·国际",
+   "source": "BBC·商业",
    "also": [],
-   "topics": [],
-   "words": [],
-   "time": "19:14",
-   "score": 5.6,
-   "level": 1,
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "20:04",
+   "score": 5.7,
+   "level": 0,
    "why": "",
-   "tier": "must",
-   "group": "nyt",
+   "tier": "",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -4415,6 +4532,24 @@
    "topics": [],
    "words": [],
    "time": "09:39",
+   "score": 5.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "e153eb1060490d55",
+   "title": "How Ukrainian Soldiers Are Moving Underground",
+   "link": "https://www.nytimes.com/video/world/europe/100000011210889/how-ukrainian-soldiers-are-moving-underground.html",
+   "summary": "Ukrainian soldiers are traveling underground through abandoned gas pipes to reach positions near the front. Our correspondent Maria Varenikova joins them on the journey through the kill zone and into positions where troops can spend weeks at a time.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "19:14",
    "score": 5.6,
    "level": 1,
    "why": "",
@@ -5333,24 +5468,6 @@
    "ai": ""
   },
   {
-   "id": "a04c25b59c4ccc56",
-   "title": "What Israeli Election Results Reveal About the Electorate",
-   "link": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-voter-data-takeaways.html",
-   "summary": "Some groups stood by Prime Minister Benjamin Netanyahu’s party, but support fell off among others. Turnout was also a striking factor in the election.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "14:31",
-   "score": 5.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "4e067a45b9d94487",
    "title": "Haiti Postpones Elections as Gang Violence Runs Rampant",
    "link": "https://www.nytimes.com/2026/10/29/world/americas/haiti-elections-postponed-violence.html",
@@ -5657,6 +5774,24 @@
    "ai": ""
   },
   {
+   "id": "337fd6898c10c714",
+   "title": "悉尼中国文化中心：从文化相遇开始，让相知跨越山海",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723253.shtml",
+   "summary": "中新社悉尼10月30日电(记者 薄雯雯 贾靖峰 张子扬 张蔚然 安英昭)从杭州到天津，约5小时的高铁旅程，让澳大利亚人皮特·怀泽尔想起半个多世纪前的首次中国行。“1975年我第一次来中国时，同样的路程花了20多个小时。”他在纪行中写道，如今的旅程平稳而舒适，令人赞叹。几个月前，在悉尼中国文化中心组织下，澳中友好协会新南威尔士州分会主席怀泽尔随澳大利亚文化界人士代表团赴浙江、天津交流。在他看来，交流不仅发生在参访活动中，也融于旅途中的日常互动。这些经历有助于打破刻板印象，让彼此看见共同的情感与愿望。让这样的相遇持续发生，是悉尼中国文化中心推动中澳人文交流的着力点。",
+   "body": "中新社悉尼10月30日电(记者 薄雯雯 贾靖峰 张子扬 张蔚然 安英昭)从杭州到天津，约5小时的高铁旅程，让澳大利亚人皮特·怀泽尔想起半个多世纪前的首次中国行。“1975年我第一次来中国时，同样的路程花了20多个小时。”他在纪行中写道，如今的旅程平稳而舒适，令人赞叹。几个月前，在悉尼中国文化中心组织下，澳中友好协会新南威尔士州分会主席怀泽尔随澳大利亚文化界人士代表团赴浙江、天津交流。在他看来，交流不仅发生在参访活动中，也融于旅途中的日常互动。这些经历有助于打破刻板印象，让彼此看见共同的情感与愿望。让这样的相遇持续发生，是悉尼中国文化中心推动中澳人文交流的着力点。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "13:28",
+   "score": 5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "e2f2d45ce3ce8330",
    "title": "国际锐评丨日本TBS应当悔改而非狡辩",
    "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723167.shtml",
@@ -5891,6 +6026,24 @@
    "ai": ""
   },
   {
+   "id": "a04c25b59c4ccc56",
+   "title": "What Israeli Election Results Reveal About the Electorate",
+   "link": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-voter-data-takeaways.html",
+   "summary": "Some groups stood by Prime Minister Benjamin Netanyahu’s party, but support fell off among others. Turnout was also a striking factor in the election.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "14:31",
+   "score": 5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "62427e93ca9302b6",
    "title": "How the Japanese Spy Drama ‘Vivant’ Became The Target of China’s Anger",
    "link": "https://www.nytimes.com/2026/10/30/world/asia/japan-vivant-spy-show-china.html",
@@ -5942,24 +6095,6 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "337fd6898c10c714",
-   "title": "悉尼中国文化中心：从文化相遇开始，让相知跨越山海",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723253.shtml",
-   "summary": "中新社悉尼10月30日电(记者 薄雯雯 贾靖峰 张子扬 张蔚然 安英昭)从杭州到天津，约5小时的高铁旅程，让澳大利亚人皮特·怀泽尔想起半个多世纪前的首次中国行。“1975年我第一次来中国时，同样的路程花了20多个小时。”他在纪行中写道，如今的旅程平稳而舒适，令人赞叹。几个月前，在悉尼中国文化中心组织下，澳中友好协会新南威尔士州分会主席怀泽尔随澳大利亚文化界人士代表团赴浙江、天津交流。在他看来，交流不仅发生在参访活动中，也融于旅途中的日常互动。这些经历有助于打破刻板印象，让彼此看见共同的情感与愿望。让这样的相遇持续发生，是悉尼中国文化中心推动中澳人文交流的着力点。",
-   "body": "中新社悉尼10月30日电(记者 薄雯雯 贾靖峰 张子扬 张蔚然 安英昭)从杭州到天津，约5小时的高铁旅程，让澳大利亚人皮特·怀泽尔想起半个多世纪前的首次中国行。“1975年我第一次来中国时，同样的路程花了20多个小时。”他在纪行中写道，如今的旅程平稳而舒适，令人赞叹。几个月前，在悉尼中国文化中心组织下，澳中友好协会新南威尔士州分会主席怀泽尔随澳大利亚文化界人士代表团赴浙江、天津交流。在他看来，交流不仅发生在参访活动中，也融于旅途中的日常互动。这些经历有助于打破刻板印象，让彼此看见共同的情感与愿望。让这样的相遇持续发生，是悉尼中国文化中心推动中澳人文交流的着力点。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "13:28",
-   "score": 5,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
    "ai": ""
   },
   {
@@ -6074,7 +6209,7 @@
    "id": "1ac29da6a895384d",
    "title": "AI进入细胞工厂，资本等的「大结果」快到了？",
    "link": "https://36kr.com/p/4046754792543106?f=rss",
-   "summary": "文 | 刘凌果 编辑 | 海若镜 10月14日，诺贝尔化学奖得主David Baker团队连发两篇《Nature》，宣布AI能从头设计蛋白酶；9月以来，Claude、Gemini 4接连宣称具备发现、设计新酶的能力。 AI4S水温沸腾，以酶为关键工具的昔日顶流“合成生物”，能否复制AI制药的升温路径，借由AI证明自己，重获资本青睐？ “直至今年，大多数企业都没从坑里爬出来。包括当年顶尖VC投的一批公司，甚至估值倒挂。”回顾上一周期，一位投资人感慨。 五年前，合成生物也曾风头无两。但此后，随着一批企业倒在中试和商业化，资本退潮，“以生物造万物”变得模糊而遥远。 进入今年，AI打开新想象，上一轮出清也让一些项目估值回落，部分投资人透露，又开始关注这一赛道。“今年肯定是有回暖的，但不是回到2021年的状态，主要基于AI和‘十五五’政策驱动。”森瑞斯创始人罗小舟告诉36氪。 “既要菌株、代谢通路设",
+   "summary": "文 | 刘凌果 编辑 | 海若镜 10月14日，诺贝尔化学奖得主David Baker���队连发两篇《Nature》，宣布AI能从头设计蛋白酶；9月以来，Claude、Gemini 4接连宣称具备发现、设计新酶的能力。 AI4S水温沸腾，以酶为关键工具的昔日顶流“合成生物”，能否复制AI制药的升温路径，借由AI证明自己，重获资本青睐？ “直至今年，大多数企业都没从坑里爬出来。包括当年顶尖VC投的一批公司，甚至估值倒挂。”回顾上一周期，一位投资人感慨。 五年前，合成生物也曾风头无两。但此后，随着一批企业倒在中试和商业化，资本退潮，“以生物造万物”变得模糊而遥远。 进入今年，AI打开新想象，上一轮出清也让一些项目估值回落，部分投资人透露，又开始关注这一赛道。“今年肯定是有回暖的，但不是回到2021年的状态，主要基于AI和‘十五五’政策驱动。”森瑞斯创始人罗小舟告诉36氪。 “既要菌株、代谢通",
    "body": "",
    "source": "36氪",
    "also": [],
@@ -6129,6 +6264,29 @@
    "why": "",
    "tier": "must",
    "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "f41270c0a8cfda10",
+   "title": "卡塔尔与伊朗举行会谈，推动美伊达成协议",
+   "link": "https://www.jiemian.com/article/15277629.html",
+   "summary": "据美国方面10月30日消息，消息人士透露，当天卡塔尔调解人员与伊朗方面在伊朗首都德黑兰举行了超过12小时的会谈，会谈旨在推动美国和伊朗达成协议，避免在美国中期选举后再次爆发冲突。消息称，卡塔尔与伊朗之间的会谈10月31日将在卡塔尔首都多哈继续进行。据悉，一名消息人士称，会谈取得了积极进展。会谈期间，卡塔尔方面同时与美国白宫保持着联系。卡塔尔正敦促美国和伊朗就一系列对等措施达成一致，并在接下来几天里实施这些措施，从而使各方重返就伊朗核项目等议题的直接谈判。（央视新闻）",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "白宫",
+    "选举"
+   ],
+   "time": "14:06",
+   "score": 4.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
