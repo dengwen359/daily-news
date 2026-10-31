@@ -364,6 +364,92 @@ def due_slots(now):
 
 
 # ---------------------------------------------------------------- 主流程
+# ---------------------------------------------------------------- 本机 AI 分析
+GH_TOKEN_FILE = os.path.join(HERE, ".state", "gh_token")
+
+
+def run_ai_analysis(limit=3):
+    """本机顺带做 AI 影响分析。
+
+    云端（GitHub Actions）的出口是数据中心 IP，被免费的 AI 接口拒收（402），
+    但家里的宽带是通的。桌面巡检每 30 分钟本来就跑一次，捎带分析几条
+    推回仓库，云端的邮件和网页看板就都能带上分析。
+    """
+    try:
+        import collector as C
+    except Exception:
+        return
+    try:
+        date_str, data, via = latest_day(tries=1)
+    except Exception as e:
+        print(f"[AI] 取不到数据，跳过：{e}")
+        return
+    items = data.get("items") or []
+    cache = C._load_ai_cache()
+    todo = []
+    for it in items:
+        if (it.get("level") or 0) < 1 or not it.get("title"):
+            continue
+        iid = it.get("id")
+        if not iid:
+            try:
+                iid = C.item_id(it.get("link", ""), it.get("title", ""))
+            except Exception:
+                continue
+        it["id"] = iid
+        if iid not in cache:
+            todo.append(it)
+    todo = todo[:limit]
+    if not todo:
+        return                                   # 都分析过了，安静退出
+    print(f"[AI] 本机分析 {len(todo)} 条（{date_str} 数据）")
+    cfg = C.load_config(os.path.join(HERE, "config.yaml"))
+    model = ((cfg.get("ai") or {}).get("model") or "openai")
+    done = fails = 0
+    today = dt.date.today().strftime("%Y-%m-%d")
+    for it in todo:
+        content = (it.get("body") or it.get("summary") or "")[:400]
+        try:
+            txt = C._ai_chat(model, it.get("title", ""), content, "")
+        except Exception as e:
+            if "402" in str(e) or "429" in str(e):
+                # 免费档按 IP 限流，每轮大约只放行 1 条：立刻收手，
+                # 缓存会累积，下次巡检接着分析剩下的
+                print("[AI] 免费额度限流，本轮到此为止（下次巡检继续）")
+                break
+            fails += 1
+            print(f"[AI] 调用失败：{str(e)[:80]}")
+            if fails >= 2:
+                print("[AI] 连续失败，停止本轮（不影响桌面通知）")
+                break
+            continue
+        fails = 0
+        if txt:
+            cache[it["id"]] = {"a": txt, "t": today}
+            done += 1
+    if not done:
+        return
+    C._save_ai_cache(cache)
+    print(f"[AI] 完成 {done} 条，推送仓库…")
+    token = ""
+    try:
+        with open(GH_TOKEN_FILE, encoding="utf-8") as f:
+            token = f.read().strip()
+    except Exception:
+        pass
+    if not token:
+        print("[AI] 缺少 .state/gh_token，分析只存在本机")
+        return
+    try:
+        subprocess.run([sys.executable, os.path.join(HERE, "push_github.py"),
+                        "data/ai.json"],
+                       env=dict(os.environ, GH_TOKEN=token),
+                       timeout=120, capture_output=True)
+        print("[AI] 已推送云端，邮件/看板可用")
+    except Exception as e:
+        print(f"[AI] 推送失败（下次运行会带上）：{e}")
+
+
 def run_auto(args):
     """巡检模式：只在"今天该弹的那份还没弹过"时才真弹，否则一声不响地退出。
 
@@ -424,6 +510,13 @@ def main():
         webbrowser.open(SITE)
         print("已在浏览器打开：" + SITE)
         return 0
+
+    # 每次运行顺带做 AI 影响分析（限几条，失败不影响下面的通知逻辑）
+    if not args.test:
+        try:
+            run_ai_analysis()
+        except Exception as e:
+            print(f"[AI] 本轮跳过：{str(e)[:80]}")
 
     if args.auto:
         return run_auto(args)
