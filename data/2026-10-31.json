@@ -1,8 +1,8 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31 13:59",
+ "generated_at": "2026-10-31 14:05",
  "hours_window": 30,
- "count": 304,
+ "count": 307,
  "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
@@ -79,6 +79,11 @@
      "src": "中国新闻网·国际",
      "t": "美国加州发生枪击致至少7人受伤",
      "u": "https://www.chinanews.com.cn/gj/2026/10-31/10723869.shtml"
+    },
+    {
+     "src": "界面新闻",
+     "t": "美国加州发生枪击致至少7人受伤",
+     "u": "https://www.jiemian.com/article/15277496.html"
     }
    ],
    "topics": [],
@@ -89,6 +94,24 @@
    "why": "突发",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "a2b02abb312e65bf",
+   "title": "西藏那曲市巴青县发生3.8级地震，震源深度10千米",
+   "link": "https://www.jiemian.com/article/15277602.html",
+   "summary": "中国地震台网正式测定：10月31日13时52分在西藏那曲市巴青县（北纬32.46度，东经93.93度）发生3.8级地震，震源深度10千米。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "13:58",
+   "score": 17.0,
+   "level": 2,
+   "why": "地震",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -150,7 +173,7 @@
    "topics": [],
    "words": [],
    "time": "09:40",
-   "score": 16.5,
+   "score": 16.4,
    "level": 2,
    "why": "爆炸",
    "tier": "must",
@@ -303,6 +326,30 @@
    "ai": ""
   },
   {
+   "id": "b7aa4d49ec4ed131",
+   "title": "外媒关注二十届五中全会：彰显中国共产党从严治党坚定决心",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723482.shtml",
+   "summary": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
+   "body": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
+   "source": "中国新闻网·国际",
+   "also": [
+    {
+     "src": "中国新闻网·国内",
+     "t": "从一场重磅发布会，看全面从严治党的久久为功",
+     "u": "https://www.chinanews.com.cn/gn/2026/10-30/10723673.shtml"
+    }
+   ],
+   "topics": [],
+   "words": [],
+   "time": "17:26",
+   "score": 20.6,
+   "level": 1,
+   "why": "全会",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "a98934718a97f3db",
    "title": "美媒：美国一高级将领被解职，涉嫌泄露涉伊朗战争机密",
    "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723106.shtml",
@@ -422,6 +469,24 @@
    "why": "CPI",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "de664fc652e45d73",
+   "title": "习言道｜近5000字公报，“严”字贯穿始终",
+   "link": "https://www.chinanews.com.cn/gn/2026/10-30/10723610.shtml",
+   "summary": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
+   "body": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "21:08",
+   "score": 19.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -762,7 +827,7 @@
     "美股"
    ],
    "time": "08:03",
-   "score": 10.3,
+   "score": 10.2,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1149,30 +1214,6 @@
    "ai": ""
   },
   {
-   "id": "b7aa4d49ec4ed131",
-   "title": "外媒关注二十届五中全会：彰显中国共产党从严治党坚定决心",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723482.shtml",
-   "summary": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
-   "body": "中新网10月30日电 中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。多家外媒对此高度关注，报道认为，在中国共产党坚强领导下，中国经济社会发展取得显著成就。此次会议将对中国的发展产生重大而深远的影响。巴基斯坦《每日团结报》传媒集团的执行主编莫伊兹·法鲁克刊文称，2026年是“十五五”开局之年，也恰逢中国共产党成立105周年，在此节点召开会议，意义重大，彰显了把党的伟大自我革命进行到底的坚定决心和鲜明态度。法鲁克期待巴基斯坦与中国展开深入对话沟通，未来在更多领域加强合作。《今日巴基斯坦》也对此次会议进行了报道。",
-   "source": "中国新闻网·国际",
-   "also": [
-    {
-     "src": "中国新闻网·国内",
-     "t": "从一场重磅发布会，看全面从严治党的久久为功",
-     "u": "https://www.chinanews.com.cn/gn/2026/10-30/10723673.shtml"
-    }
-   ],
-   "topics": [],
-   "words": [],
-   "time": "17:26",
-   "score": 14.6,
-   "level": 1,
-   "why": "全会",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "9a3bd76b721fc95e",
    "title": "四川省凉山州布拖县政协党组书记、主席黄西虎接受纪律审查和监察调查",
    "link": "https://www.chinanews.com.cn/gn/2026/10-31/10723697.shtml",
@@ -1221,7 +1262,7 @@
     "算力"
    ],
    "time": "16:00",
-   "score": 8.3,
+   "score": 8.2,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1256,8 +1297,8 @@
    "id": "58876a32b620aad2",
    "title": "Spain train disaster clouds Sánchez chances of re-election",
    "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished16 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
-   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished16 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "summary": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished22 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
+   "body": "Image source, ReutersBySarah RainsfordSouthern and Eastern Europe correspondent , Reporting fromToledoPublished22 minutes agoThe breaking news from Spain this week was shocking but also shockingly familiar: another collision on the high-speed rail line south from Madrid, with reports of dozens kille…",
    "source": "BBC·国际",
    "also": [],
    "topics": [],
@@ -1285,7 +1326,7 @@
     "AI"
    ],
    "time": "13:36",
-   "score": 8.0,
+   "score": 7.9,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1329,7 +1370,7 @@
     "芯片"
    ],
    "time": "12:48",
-   "score": 7.9,
+   "score": 7.8,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1419,7 +1460,7 @@
    "topics": [],
    "words": [],
    "time": "12:01",
-   "score": 7.8,
+   "score": 7.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1531,28 +1572,6 @@
    "ai": ""
   },
   {
-   "id": "5f41067f267fd237",
-   "title": "《三星堆：未来往事》之后，AI院线电影何去何从？",
-   "link": "https://www.jiemian.com/article/15273053.html",
-   "summary": "对于整个电影行业而言，AI进入长片制作仍然需要有人探索。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI"
-   ],
-   "time": "11:00",
-   "score": 7.6,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
    "id": "5fa82a66d5ded5ef",
    "title": "“进一步增强了百年大党的稳定性和凝聚力”（外媒看中国）",
    "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723811.shtml",
@@ -1586,6 +1605,28 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "5f41067f267fd237",
+   "title": "《三星堆：未来往事》之后，AI院线电影何去何从？",
+   "link": "https://www.jiemian.com/article/15273053.html",
+   "summary": "对于整个电影行业而言，AI进入长片制作仍然需要有人探索。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "11:00",
+   "score": 7.6,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -1635,7 +1676,7 @@
    "topics": [],
    "words": [],
    "time": "10:27",
-   "score": 7.6,
+   "score": 7.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1885,24 +1926,6 @@
    "ai": ""
   },
   {
-   "id": "f012ae2cb3f43239",
-   "title": "Police deployed during stand-off over control of top Poland court",
-   "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, EPA/ShutterstockImage caption, Officers were faced down by critics of the move outside the Constitutional Tribunal in Warsaw Riot police have been deployed at Poland's Constitutional Court amid an escalating stand-off between the government and the court's top judges.",
-   "body": "Image source, EPA/ShutterstockImage caption, Officers were faced down by critics of the move outside the Constitutional Tribunal in Warsaw Riot police have been deployed at Poland's Constitutional Court amid an escalating stand-off between the government and the court's top judges.",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "09:11",
-   "score": 7.4,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
    "id": "2591d3557b3c8d01",
    "title": "四川省宜宾市生态环境局原党委书记、局长周永富接受纪律审查和监察调查",
    "link": "https://www.chinanews.com.cn/gn/2026/10-31/10723699.shtml",
@@ -1918,6 +1941,24 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "f012ae2cb3f43239",
+   "title": "Police deployed during stand-off over control of top Poland court",
+   "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, EPA/ShutterstockImage caption, Officers were faced down by critics of the move outside the Constitutional Tribunal in Warsaw Riot police have been deployed at Poland's Constitutional Court amid an escalating stand-off between the government and the court's top judges.",
+   "body": "Image source, EPA/ShutterstockImage caption, Officers were faced down by critics of the move outside the Constitutional Tribunal in Warsaw Riot police have been deployed at Poland's Constitutional Court amid an escalating stand-off between the government and the court's top judges.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "09:11",
+   "score": 7.4,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -1953,7 +1994,7 @@
    "topics": [],
    "words": [],
    "time": "08:51",
-   "score": 7.4,
+   "score": 7.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1971,7 +2012,7 @@
    "topics": [],
    "words": [],
    "time": "08:50",
-   "score": 7.4,
+   "score": 7.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2056,30 +2097,6 @@
    "ai": ""
   },
   {
-   "id": "257226630ae4366e",
-   "title": "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI",
-   "link": "https://www.ithome.com/1/020/408.htm",
-   "summary": "IT之家 10 月 31 日消息，据 Z Finance 昨晚消息， 字节跳动 Seed 核心负责人周畅已离职创业，方向为 Physical AI （物理 AI），并获得头部美元基金支持。具体投资方、融资金额及估值暂未披露。 周畅此前是 Seed 内管理范围较广的技术负责人之一，向 Seed 负责人吴永辉汇报，业务曾覆盖多模态交互、世界模型、视觉生成及机器人等方向。 IT之家查询互联网公开资料获悉，周畅 2012 年本科毕业于复旦大学计算机科学与技术专业，2017 年博士毕业于北京大学计算机软件与理论专业，随后加入阿里巴巴，花名“钟煌”，曾任通义千问大模型的技术负责人，曾和团队推出一系列语言模型、多模态模型。 2024 年 8 月，周畅加入字节跳动，从事 AI 大模型相关工作，现任字节跳动豆包大模型视觉多模态生成方向负责人。 此前，10 月 26 日，接近字节人士回应称“周畅没有离职”。 ",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "大模型",
-    "机器人"
-   ],
-   "time": "08:27",
-   "score": 7.3,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "7321dfb1abf8dbd7",
    "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
    "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
@@ -2113,6 +2130,30 @@
     "芯片"
    ],
    "time": "23:08",
+   "score": 7.3,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "257226630ae4366e",
+   "title": "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI",
+   "link": "https://www.ithome.com/1/020/408.htm",
+   "summary": "IT之家 10 月 31 日消息，据 Z Finance 昨晚消息， 字节跳动 Seed 核心负责人周畅已离职创业，方向为 Physical AI （物理 AI），并获得头部美元基金支持。具体投资方、融资金额及估值暂未披露。 周畅此前是 Seed 内管理范围较广的技术负责人之一，向 Seed 负责人吴永辉汇报，业务曾覆盖多模态交互、世界模型、视觉生成及机器人等方向。 IT之家查询互联网公开资料获悉，周畅 2012 年本科毕业于复旦大学计算机科学与技术专业，2017 年博士毕业于北京大学计算机软件与理论专业，随后加入阿里巴巴，花名“钟煌”，曾任通义千问大模型的技术负责人，曾和团队推出一系列语言模型、多模态模型。 2024 年 8 月，周畅加入字节跳动，从事 AI 大模型相关工作，现任字节跳动豆包大模型视觉多模态生成方向负责人。 此前，10 月 26 日，接近字节人士回应称“周畅没有离职”。 ",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "大模型",
+    "机器人"
+   ],
+   "time": "08:27",
    "score": 7.3,
    "level": 0,
    "why": "",
@@ -2172,7 +2213,7 @@
    "topics": [],
    "words": [],
    "time": "08:01",
-   "score": 7.3,
+   "score": 7.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2373,7 +2414,7 @@
    "topics": [],
    "words": [],
    "time": "07:14",
-   "score": 7.2,
+   "score": 7.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2629,24 +2670,6 @@
    "ai": ""
   },
   {
-   "id": "de664fc652e45d73",
-   "title": "习言道｜近5000字公报，“严”字贯穿始终",
-   "link": "https://www.chinanews.com.cn/gn/2026/10-30/10723610.shtml",
-   "summary": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
-   "body": "“坚持严的基调不动摇”“全面从严治党关键在从严治吏”“强化从严执纪”……10月29日，党的二十届五中全会公报公布，将近5000字的公报，一个“严”字贯穿始终。办好中国的事情，关键在党、关键在全面从严治党。今年是中国共产党成立105周年，也是“十五五”开局之年。新年伊始，习近平总书记在中央纪委全会上强调“以更高标准、更实举措推进全面从严治党”。今次五中全会，一项主要议程就是“研究持之以恒推进全面从严治党若干重大问题”。严的基调一贯到底，严的要求持续深化。严，是面对形势与任务时的清醒自觉。",
-   "source": "中国新闻网·国内",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "21:08",
-   "score": 13.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "ac50500c1936054b",
    "title": "长征胜利90周年文物联展亮相中国国家博物馆",
    "link": "https://www.chinanews.com.cn/gn/2026/10-30/10723605.shtml",
@@ -2795,39 +2818,25 @@
    "ai": ""
   },
   {
-   "id": "1dea1ad5edb4f20b",
-   "title": "Christa Pike Describes Pain and Isolation After Botched Execution",
-   "link": "https://www.nytimes.com/2026/10/30/us/christa-pike-botched-execution-statement.html",
-   "summary": "Christa Pike, who was convicted of a 1995 murder, released her first statement since the failed attempt to execute her last month.",
+   "id": "35a45d4aafbfaab1",
+   "title": "波兰宪法法院危机持续，总统发表声明并召集紧急磋商",
+   "link": "https://www.jiemian.com/article/15277560.html",
+   "summary": "当地时间10月31日，波兰总统纳夫罗茨基就宪法法院发生的事件发表声明，指责相关行动破坏波兰宪法秩序，并要求相关执法力量立即离开宪法法院。纳夫罗茨基同时宣布，将于当天召集议会各政治力量代表举行紧急磋商，以推动局势稳定、恢复宪法秩序。（央视新闻）",
    "body": "",
-   "source": "纽约时报·美国",
+   "source": "界面新闻",
    "also": [],
-   "topics": [],
-   "words": [],
-   "time": "05:13",
-   "score": 6.9,
-   "level": 1,
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统"
+   ],
+   "time": "13:51",
+   "score": 7.0,
+   "level": 0,
    "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "db231a9734ed3856",
-   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, Getty ImagesByJaroslav Lukiv and Joe Tidy, Cyber correspondent, BBC World ServicePublished30 October 2026Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (£4.7bn) was accessed in what is believed…",
-   "body": "Image source, Getty ImagesByJaroslav Lukiv and Joe Tidy, Cyber correspondent, BBC World ServicePublished30 October 2026Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (£4.7bn) was accessed in what is believed…",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "05:13",
-   "score": 6.9,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -2898,6 +2907,42 @@
    "why": "",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "1dea1ad5edb4f20b",
+   "title": "Christa Pike Describes Pain and Isolation After Botched Execution",
+   "link": "https://www.nytimes.com/2026/10/30/us/christa-pike-botched-execution-statement.html",
+   "summary": "Christa Pike, who was convicted of a 1995 murder, released her first statement since the failed attempt to execute her last month.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:13",
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "db231a9734ed3856",
+   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, Getty ImagesByJaroslav Lukiv and Joe Tidy, Cyber correspondent, BBC World ServicePublished30 October 2026Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (£4.7bn) was accessed in what is believed…",
+   "body": "Image source, Getty ImagesByJaroslav Lukiv and Joe Tidy, Cyber correspondent, BBC World ServicePublished30 October 2026Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (£4.7bn) was accessed in what is believed…",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:13",
+   "score": 6.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -2987,7 +3032,7 @@
     "联合国"
    ],
    "time": "12:53",
-   "score": 6.9,
+   "score": 6.8,
    "level": 0,
    "why": "",
    "tier": "",
@@ -3005,7 +3050,7 @@
    "topics": [],
    "words": [],
    "time": "04:50",
-   "score": 6.9,
+   "score": 6.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3067,24 +3112,6 @@
    "ai": ""
   },
   {
-   "id": "765212d1c942f2de",
-   "title": "Appeals Court Again Rejects Trump Effort to Impound California Ballots",
-   "link": "https://www.nytimes.com/2026/10/30/us/politics/appeals-trump-california-ballots.html",
-   "summary": "In a 2-to-1 vote, an appeals court panel declined to order the state to set aside more than 20,000 mail-in ballots, calling the notion plainly unconstitutional.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "04:25",
-   "score": 6.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "64ce39e6a7950294",
    "title": "极空间 Z4Air 四盘位 NAS 发售：搭载海思 Hi3781V730 八核芯片，首发 1899 元",
    "link": "https://www.ithome.com/1/020/318.htm",
@@ -3125,6 +3152,24 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "765212d1c942f2de",
+   "title": "Appeals Court Again Rejects Trump Effort to Impound California Ballots",
+   "link": "https://www.nytimes.com/2026/10/30/us/politics/appeals-trump-california-ballots.html",
+   "summary": "In a 2-to-1 vote, an appeals court panel declined to order the state to set aside more than 20,000 mail-in ballots, calling the notion plainly unconstitutional.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "04:25",
+   "score": 6.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -3563,7 +3608,7 @@
    "topics": [],
    "words": [],
    "time": "00:01",
-   "score": 6.3,
+   "score": 6.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3659,7 +3704,7 @@
    "topics": [],
    "words": [],
    "time": "23:17",
-   "score": 6.2,
+   "score": 6.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3811,6 +3856,56 @@
    "ai": ""
   },
   {
+   "id": "f2c5ed2d2c8bcef1",
+   "title": "36氪研究院 | 2026年中国自动驾驶行业发展研究报告",
+   "link": "https://36kr.com/p/4046684874429576?f=rss",
+   "summary": "自动驾驶是人工智能与汽车工业深度融合的战略性技术方向，也是中国智能网联新能源汽车战略性新兴产业中增长最为活跃的领域之一。当前，中国自动驾驶行业正处于从全域道路测试、示范应用迈向规模化商业落地的关键阶段。政策层面，2026年7月，首部针对L3、L4级自动驾驶系统的强制性国家标准（GB44721-2026）正式发布，将于2027年7月1日起实施，为自动驾驶产品确立了统一的安全准入基线；2026年8月，《道路交通安全法》修订草案完成初次审议，首设“自动驾驶汽车的特别规定”专章，填补了自动驾驶法律责任的顶层空白。技术层面，核心部件国产化降本成效显著；端到端大模型加速普及并向“物理AI基座模型”演进，技术底座的代际跃迁正重塑产业价值链。资本层面，一级市场资金加速向具备明确商业化路径的场景应用与核心部件环节集中；二级市场估值逻辑经历深层重构，由前期的技术叙事与赛道稀缺性，转向对商业模式盈利可持续性的严",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "AI",
+    "人工智能",
+    "大模型",
+    "芯片",
+    "算力"
+   ],
+   "time": "18:59",
+   "score": 6,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "96d06fb8c1d5b247",
+   "title": "连续 16 天增长创纪录：Grok Bot 日活破 60 万，马斯克称增速“前所未见”",
+   "link": "https://www.ithome.com/1/020/468.htm",
+   "summary": "IT之家 10 月 31 日消息，科技媒体 tikr 昨日（10 月 30 日）发布博文，报道称 全球首富埃隆 · 马斯克旗下 SpaceXSI 公司的 AI 助手 Grok Bot 迎来强劲增长周期，连续 16 天增长，日活跃用户不到两个月增长逾 6 倍。 根据 Similarweb 等第三方数据及市场报道，Grok Bot 的日活跃用户已连续 16 天增加，创下该产品发布以来的最长连续增长纪录。 数据显示，Grok Bot 的日活跃用户在 9 月初尚不足 10 万人，到 10 月 26 日已突破 60 万人。若以 9 月 20 日约 15.5 万人的日活规模计算，其用户数在不到一个月内接近增长两倍；拉长至发布后的不足两个月，整体增幅超过 6 倍。 Grok Bot 于 2026 年 8 月 11 日以测试版形式上线，定位为可执行任务的 AI 智能体，而非单纯的聊天机器人。其功能包括交互",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "机器人"
+   ],
+   "time": "14:03",
+   "score": 6.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "f56ac3ff33079bd1",
    "title": "The Justice Department’s Unusual Election-Year Activity",
    "link": "https://www.nytimes.com/video/us/elections/100000011240630/the-justice-departments-unusual-election-year-activity.html",
@@ -3844,33 +3939,6 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "f2c5ed2d2c8bcef1",
-   "title": "36氪研究院 | 2026年中国自动驾驶行业发展研究报告",
-   "link": "https://36kr.com/p/4046684874429576?f=rss",
-   "summary": "自动驾驶是人工智能与汽车工业深度融合的战略性技术方向，也是中国智能网联新能源汽车战略性新兴产业中增长最为活跃的领域之一。当前，中国自动驾驶行业正处于从全域道路测试、示范应用迈向规模化商业落地的关键阶段。政策层面，2026年7月，首部针对L3、L4级自动驾驶系统的强制性国家标准（GB44721-2026）正式发布，将于2027年7月1日起实施，为自动驾驶产品确立了统一的安全准入基线；2026年8月，《道路交通安全法》修订草案完成初次审议，首设“自动驾驶汽车的特别规定”专章，填补了自动驾驶法律责任的顶层空白。技术层面，核心部件国产化降本成效显著；端到端大模型加速普及并向“物理AI基座模型”演进，技术底座的代际跃迁正重塑产业价值链。资本层面，一级市场资金加速向具备明确商业化路径的场景应用与核心部件环节集中；二级市场估值逻辑经历深层重构，由前期的技术叙事与赛道稀缺性，转向对商业模式盈利可持续性的严",
-   "body": "",
-   "source": "36氪",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资"
-   ],
-   "words": [
-    "AI",
-    "人工智能",
-    "大模型",
-    "芯片",
-    "算力"
-   ],
-   "time": "18:59",
-   "score": 6,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "36氪",
    "ai": ""
   },
   {
@@ -3920,7 +3988,7 @@
    "topics": [],
    "words": [],
    "time": "21:41",
-   "score": 6.0,
+   "score": 5.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3938,7 +4006,7 @@
    "topics": [],
    "words": [],
    "time": "21:41",
-   "score": 6.0,
+   "score": 5.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3956,7 +4024,7 @@
    "topics": [],
    "words": [],
    "time": "21:40",
-   "score": 6.0,
+   "score": 5.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3974,7 +4042,7 @@
    "topics": [],
    "words": [],
    "time": "21:39",
-   "score": 6.0,
+   "score": 5.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4019,42 +4087,6 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "f0864120e8bb4baa",
-   "title": "印尼爪哇野牛诞下第三只幼崽",
-   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723583.shtml",
-   "summary": "中新社雅加达10月30日电 (记者 李志全)印度尼西亚林业部30日发布消息称，位于西爪哇省庞岸达兰的帕南宗自然保护区近日迎来第三只爪哇野牛幼崽。目前，该保护区爪哇野牛数量已增至7头。爪哇野牛是东南亚特有的大型哺乳动物，也是印尼具有代表性的野生动物之一。受非法捕猎、栖息地丧失等因素影响，其种群数量持续下降。其受威胁等级由濒危调整为极危，目前被列入《世界自然保护联盟濒危物种红色名录》极危物种。据印尼林业部介绍，目前全球成年爪哇野牛数量估计仅约3300头。帕南宗自然保护区曾是爪哇野牛的重要栖息地。20世纪80年代，当地遭遇火山喷发，野牛赖以生存的草场受到破坏，种群数量锐减。",
-   "body": "中新社雅加达10月30日电 (记者 李志全)印度尼西亚林业部30日发布消息称，位于西爪哇省庞岸达兰的帕南宗自然保护区近日迎来第三只爪哇野牛幼崽。目前，该保护区爪哇野牛数量已增至7头。爪哇野牛是东南亚特有的大型哺乳动物，也是印尼具有代表性的野生动物之一。受非法捕猎、栖息地丧失等因素影响，其种群数量持续下降。其受威胁等级由濒危调整为极危，目前被列入《世界自然保护联盟濒危物种红色名录》极危物种。据印尼林业部介绍，目前全球成年爪哇野牛数量估计仅约3300头。帕南宗自然保护区曾是爪哇野牛的重要栖息地。20世纪80年代，当地遭遇火山喷发，野牛赖以生存的草场受到破坏，种群数量锐减。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "20:29",
-   "score": 5.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "6e444c478d4e3fdf",
-   "title": "What we know about Binance's $6.3bn hack",
-   "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
-   "summary": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "20:27",
-   "score": 5.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -4148,6 +4180,42 @@
    "ai": ""
   },
   {
+   "id": "f0864120e8bb4baa",
+   "title": "印尼爪哇野牛诞下第三只幼崽",
+   "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723583.shtml",
+   "summary": "中新社雅加达10月30日电 (记者 李志全)印度尼西亚林业部30日发布消息称，位于西爪哇省庞岸达兰的帕南宗自然保护区近日迎来第三只爪哇野牛幼崽。目前，该保护区爪哇野牛数量已增至7头。爪哇野牛是东南亚特有的大型哺乳动物，也是印尼具有代表性的野生动物之一。受非法捕猎、栖息地丧失等因素影响，其种群数量持续下降。其受威胁等级由濒危调整为极危，目前被列入《世界自然保护联盟濒危物种红色名录》极危物种。据印尼林业部介绍，目前全球成年爪哇野牛数量估计仅约3300头。帕南宗自然保护区曾是爪哇野牛的重要栖息地。20世纪80年代，当地遭遇火山喷发，野牛赖以生存的草场受到破坏，种群数量锐减。",
+   "body": "中新社雅加达10月30日电 (记者 李志全)印度尼西亚林业部30日发布消息称，位于西爪哇省庞岸达兰的帕南宗自然保护区近日迎来第三只爪哇野牛幼崽。目前，该保护区爪哇野牛数量已增至7头。爪哇野牛是东南亚特有的大型哺乳动物，也是印尼具有代表性的野生动物之一。受非法捕猎、栖息地丧失等因素影响，其种群数量持续下降。其受威胁等级由濒危调整为极危，目前被列入《世界自然保护联盟濒危物种红色名录》极危物种。据印尼林业部介绍，目前全球成年爪哇野牛数量估计仅约3300头。帕南宗自然保护区曾是爪哇野牛的重要栖息地。20世纪80年代，当地遭遇火山喷发，野牛赖以生存的草场受到破坏，种群数量锐减。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "20:29",
+   "score": 5.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "6e444c478d4e3fdf",
+   "title": "What we know about Binance's $6.3bn hack",
+   "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+   "summary": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "20:27",
+   "score": 5.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "71d9298440c8b8cf",
    "title": "China denies allegations of spy operation targeting Nvidia CEO",
    "link": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
@@ -4180,7 +4248,7 @@
     "AI"
    ],
    "time": "20:04",
-   "score": 5.8,
+   "score": 5.7,
    "level": 0,
    "why": "",
    "tier": "",
@@ -4270,7 +4338,7 @@
    "topics": [],
    "words": [],
    "time": "19:14",
-   "score": 5.7,
+   "score": 5.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4500,30 +4568,6 @@
    "ai": ""
   },
   {
-   "id": "525ccdc58674c1f4",
-   "title": "荣耀罗巍：会带给大家全新的阿莱拍照模式，不是简单视频模式截图",
-   "link": "https://www.ithome.com/1/020/419.htm",
-   "summary": "IT之家 10 月 31 日消息，荣耀首席影像工程师罗巍今日发文，透露了荣耀与阿莱合作的最新进展。 我们会带给大家全新的阿莱拍照模式，不是简单的视频模式的截图 ，而是基于 LogC 曲线的设计原理，和阿莱的 Film Lab 合作，通过 RAW 信号重构全光谱，然后模拟阿莱的 35mm 胶片的感光曲线，重感光。再模拟暗房的冲印过程去真正还原电影胶片的成像。这是一个完全颠覆现有数字成像的技术应用。 我们 萝卜手机 （IT之家注：指 荣耀 Robot Phone ） 2 代也在路上了 ，这次会把一代的问题都解决掉，带来更加随手电影感的随身设备。 同时我们 还有和阿莱合作更加创新形态的产品在路上 ，保证是大家从来没有见过，甚至没有想过的产品形态。 而且可能是两款 。 罗巍同时宣称，相信未来一年肯定有不少团队睡不着觉了，尾灯应该看不到了，“让我们给世界一点点震撼。” 我们团队的愿景就是赋予每个记录",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI",
-    "大模型",
-    "芯片"
-   ],
-   "time": "09:12",
-   "score": 5.4,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "f08447eea8bdcd84",
    "title": "Moody Makes Appeal to a South Florida Audience Leery of the Left",
    "link": "https://www.nytimes.com/2026/10/29/us/elections/ashley-moody-florida-senate-race.html",
@@ -4611,6 +4655,30 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "525ccdc58674c1f4",
+   "title": "荣耀罗巍：会带给大家全新的阿莱拍照模式，不是简单视频模式截图",
+   "link": "https://www.ithome.com/1/020/419.htm",
+   "summary": "IT之家 10 月 31 日消息，荣耀首席影像工程师罗巍今日发文，透露了荣耀与阿莱合作的最新进展。 我们会带给大家全新的阿莱拍照模式，不是简单的视频模式的截图 ，而是基于 LogC 曲线的设计原理，和阿莱的 Film Lab 合作，通过 RAW 信号重构全光谱，然后模拟阿莱的 35mm 胶片的感光曲线，重感光。再模拟暗房的冲印过程去真正还原电影胶片的成像。这是一个完全颠覆现有数字成像的技术应用。 我们 萝卜手机 （IT之家注：指 荣耀 Robot Phone ） 2 代也在路上了 ，这次会把一代的问题都解决掉，带来更加随手电影感的随身设备。 同时我们 还有和阿莱合作更加创新形态的产品在路上 ，保证是大家从来没有见过，甚至没有想过的产品形态。 而且可能是两款 。 罗巍同时宣称，相信未来一年肯定有不少团队睡不着觉了，尾灯应该看不到了，“让我们给世界一点点震撼。” 我们团队的愿景就是赋予每个记录",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "大模型",
+    "芯片"
+   ],
+   "time": "09:12",
+   "score": 5.4,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -5278,24 +5346,6 @@
    "ai": ""
   },
   {
-   "id": "76ea1a91b35d22d8",
-   "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
-   "link": "https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss",
-   "summary": "End of subsidies and rising prices drive discontent, testing support for Ahmed al-Sharaa's government.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "14:02",
-   "score": 5.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
    "id": "4e067a45b9d94487",
    "title": "Haiti Postpones Elections as Gang Violence Runs Rampant",
    "link": "https://www.nytimes.com/2026/10/29/world/americas/haiti-elections-postponed-violence.html",
@@ -5815,6 +5865,24 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "76ea1a91b35d22d8",
+   "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+   "link": "https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss",
+   "summary": "End of subsidies and rising prices drive discontent, testing support for Ahmed al-Sharaa's government.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "14:02",
+   "score": 5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
