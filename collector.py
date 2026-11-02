@@ -1231,6 +1231,11 @@ def send_mail(cfg, subject, body, body_html=""):
     sender = os.environ.get("NEWS_MAIL_SENDER") or ec.get("sender")
     password = os.environ.get("NEWS_MAIL_PASSWORD") or ec.get("password")
     receiver_raw = os.environ.get("NEWS_MAIL_RECEIVER") or ec.get("receiver") or sender
+    # 额外收件人：新增邮箱/测试时用，不动主收件人配置
+    extra_raw = (os.environ.get("NEWS_MAIL_RECEIVER_EXTRA")
+                 or ec.get("receiver_extra") or "")
+    if extra_raw:
+        receiver_raw = f"{receiver_raw},{extra_raw}"
     host = os.environ.get("NEWS_MAIL_HOST") or ec.get("smtp_host", "smtp.qq.com")
     port = int(os.environ.get("NEWS_MAIL_PORT") or ec.get("smtp_port", 465))
 
@@ -1533,6 +1538,8 @@ def main():
                     help="不合并当天已生成的内容，直接覆盖")
     ap.add_argument("--no-mail", action="store_true",
                     help="只抓取不发邮件（用于白天加密抓取，避免频繁打扰）")
+    ap.add_argument("--force-mail", action="store_true",
+                    help="测试：强制发一封，跳过节流和去重判断，且不登记发送状态")
     ap.add_argument("--config", default=CONFIG_PATH)
     args = ap.parse_args()
 
@@ -1778,17 +1785,25 @@ def main():
     cleanup_old(output_dir, int(cfg.get("keep_days", 90)))
 
     # 邮件
-    if args.no_mail:
+    run_hm = run_time.hour * 100 + run_time.minute
+    today_key = run_time.strftime("%Y-%m-%d")
+    mstate = load_mailstate()
+    force = getattr(args, "force_mail", False)
+    if args.no_mail and not force:
         print("  [邮件] 本次只抓取，不发邮件")
         return
     # 一天跑好几次，但每个时段只发一封：谁先跑起来谁发，发过就跳过。
     # GitHub 定时任务经常漏跑/严重延迟（实测晚报三个点能连续几天全跳），
     # 所以时段外也别白跑：凌晨补昨天的晚报，下午补今天的早报。
-    run_hm = run_time.hour * 100 + run_time.minute
-    today_key = run_time.strftime("%Y-%m-%d")
-    mstate = load_mailstate()
     slot = state_key = edition = None
-    if 830 <= run_hm < 1500:
+    if force:
+        # 测试发信：不看时段、不看已推送记录，也不登记任何状态，
+        # 保证不会占掉今晚/明早那一封正式的。
+        slot = "pm" if run_hm >= 1500 else "am"
+        state_key = today_key
+        edition = "晚报" if slot == "pm" else "早报"
+        print("  [邮件] 测试模式：跳过节流与时段判断，本次不登记发送状态")
+    elif 830 <= run_hm < 1500:
         slot, state_key = "am", today_key
     elif run_hm >= 2030:
         slot, state_key = "pm", today_key
@@ -1806,13 +1821,14 @@ def main():
         return
     if edition:
         print(f"  [邮件] 发现 {state_key} 的{edition}漏发，本次补发")
-    if (mstate.get(state_key) or {}).get(slot):
+    if not force and (mstate.get(state_key) or {}).get(slot):
         label = "早报" if slot == "am" else "晚报"
         print(f"  [邮件] {state_key} 的{label}已发过"
               f"（{mstate[state_key][slot]}），本次跳过")
         return
     # 排除之前推送过的：早报发过的晚报不发，昨天发过的今天不发，宁少勿重
     mailed = load_mailed()
+    exclude_ids = set() if force else set(mailed)
     # 体积兜底：139 邮箱对整封信大小很敏感，超了容易被判垃圾邮件，
     # 所以先按配置生成，太大就自动减条目、缩摘要，直到落进上限。
     max_kb = float((cfg.get("limits", {}) or {}).get("mail_max_kb", 17))
@@ -1831,7 +1847,7 @@ def main():
         if over:
             cfg_try.setdefault("limits", {}).update(over)
         plain, edition, sel = build_mail_body(
-            items, cfg_try, run_time, exclude=set(mailed), edition=ed_fix)
+            items, cfg_try, run_time, exclude=exclude_ids, edition=ed_fix)
         if not sel["ids"]:
             print(f"  [邮件] 本轮 {len(items)} 条内容之前都推送过，不发邮件（宁少勿重）")
             return
@@ -1841,15 +1857,16 @@ def main():
             break
         print(f"  [邮件] {size_kb:.0f} KB 超过 {max_kb:.0f} KB 上限，自动精简后重排")
     print(f"  [邮件] {len(sel['ids'])} 条，体积 {size_kb:.0f} KB")
-    ok = send_mail(
-        cfg,
+    subject = (
         f"新闻{edition} {run_time.strftime('%m-%d')} · "
-        f"突发 {len(sel['must'])} 条 / 新增 {len(sel['ids'])} 条",
-        plain,
-        html_mail,
-    )
+        f"突发 {len(sel['must'])} 条 / 新增 {len(sel['ids'])} 条")
+    if force:
+        subject = "[测试] " + subject
+    ok = send_mail(cfg, subject, plain, html_mail)
     # 发送成功才登记：条目登记（防重复）和时段登记（防重发）
-    if ok:
+    if ok and force:
+        print("  [邮件] 测试发信成功，不登记状态")
+    elif ok:
         now_ts = run_time.timestamp()
         for iid in sel["ids"]:
             mailed[iid] = now_ts

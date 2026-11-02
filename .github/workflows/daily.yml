@@ -13,6 +13,11 @@ on:
     - cron: '30 12,13,14 * * *'     # 北京 20:30 / 21:30 / 22:30  晚报（后两发是补发）
     - cron: '30 16 * * *'           # 北京 00:30  抓取
   workflow_dispatch:        # 支持在网页上手动点一下运行
+    inputs:
+      force_mail:
+        description: "强制发一封测试邮件（不占正常早晚报额度）"
+        type: boolean
+        default: false
 
 # 允许提交数据、部署网页、调用 AI 模型
 permissions:
@@ -49,11 +54,18 @@ jobs:
           NEWS_MAIL_SENDER: ${{ secrets.NEWS_MAIL_SENDER }}
           NEWS_MAIL_PASSWORD: ${{ secrets.NEWS_MAIL_PASSWORD }}
           NEWS_MAIL_RECEIVER: ${{ secrets.NEWS_MAIL_RECEIVER }}
+          # 追加收件人（新增邮箱用，不影响主收件人设置）
+          NEWS_MAIL_RECEIVER_EXTRA: ${{ secrets.NEWS_MAIL_RECEIVER_EXTRA }}
           NEWS_MAIL_HOST: ${{ secrets.NEWS_MAIL_HOST }}
         run: |
           # 是否发邮件由 collector 按时间判断：08:30 后发早报、20:30 后发晚报，
           # 每个时段只发一次，其余时段只抓取。这样定时任务延迟也能补发。
-          python collector.py --no-dedup
+          # force_mail=true 时强制发一封测试信，跳过节流且不登记状态。
+          if [ "${{ inputs.force_mail }}" = "true" ]; then
+            python collector.py --no-dedup --force-mail
+          else
+            python collector.py --no-dedup
+          fi
 
       - name: 生成网页看板
         run: python build_site.py
