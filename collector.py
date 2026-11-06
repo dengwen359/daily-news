@@ -917,9 +917,10 @@ def build_report(items, cfg, run_time, feed_stats):
             L.extend(render_item(r, mark_key=True))
 
     if lv1_show:
-        L.append(f"## ★ 要闻 · 政策与数据（{len(lv1)} 条，先列 {len(lv1_show)} 条）")
+        L.append(f"## ★ 重大新闻（{len(lv1)} 条，先列 {len(lv1_show)} 条）")
         L.append("")
-        L.append("> 央行货币政策、监管政策、民生数据等政策类，以及权威源的原发内容。")
+        L.append("> 美国重大（总统表态、美联储、国会立法、关税与 AI 芯片监管、美股剧震）、"
+                 "国内政策（中央与国务院、央行、监管、宏观数据）、突发事件（战争、天灾、其他经济体重大决议）。")
         L.append("")
         for r in lv1_show:
             L.extend(render_item(r, mark_key=True))
@@ -929,7 +930,7 @@ def build_report(items, cfg, run_time, feed_stats):
     if lv2:
         L.append(f"- **★★ 必看**：{len(lv2)} 条（见上）")
     if lv1:
-        L.append(f"- **★ 要闻**：{len(lv1)} 条（见上）")
+        L.append(f"- **★ 重大新闻**：{len(lv1)} 条（见上）")
     for name in list(topics.keys()) + ["其他"]:
         if grouped[name]:
             L.append(f"- **{name}**：{len(grouped[name])} 条")
@@ -1066,8 +1067,8 @@ def build_mail_body(items, cfg, run_time, exclude=None, edition=None):
     L = []
     L.append(f"新闻{edition} · {run_time.strftime('%Y年%m月%d日')}")
     L.append("=" * 34)
-    head = (f"本次新增 {len(sel['ids'])} 条：突发必看 {len(sel['must'])} · "
-            f"政策要闻 {len(sel['lv1'])} · 兴趣 {len(sel['lv0'])}")
+    head = (f"本次新增 {len(sel['ids'])} 条：突发 {len(sel['must'])} · "
+            f"重大新闻 {len(sel['lv1'])}")
     if sel["skipped"]:
         head += f"（另有 {sel['skipped']} 条之前已推送过，不再重复）"
     L.append(head)
@@ -1177,7 +1178,7 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
              f'{e(r["title"])}</a><div class="mt">' + " · ".join(meta) + "</div>"]
         if body:
             h.append(f'<div class="bd">{e(body)}</div>')
-        # AI 影响分析：只有突发必看和政策要闻才有这个字段
+        # AI 影响分析：只有突发必看和重大新闻才有这个字段
         if r.get("ai"):
             h.append(f'<div class="ai">AI分析：{e(r["ai"])}</div>')
         h.append("</div>")
@@ -1216,7 +1217,7 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
     if sel["must"]:
         btns.append(_btn(f"★★ 突发必看 {len(sel['must'])}", "__key__", gold=True))
     if sel["lv1"]:
-        btns.append(_btn(f"★ 政策要闻 {len(sel['lv1'])}", "__news__"))
+        btns.append(_btn(f"★ 重大新闻 {len(sel['lv1'])}", "__news__"))
     for t, rows in groups:
         btns.append(_btn(f"{e(t)} {len(rows)}", t))
 
@@ -1230,7 +1231,7 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
              '<div>' + "".join(btns) + "</div>",
              '<p class="sub">↑ 点分类按钮，在浏览器里打开该分类的完整列表</p>',
              section("must", "★★ 突发必看", sel["must"], gold=True),
-             section("lv1", "★ 政策要闻", sel["lv1"])]
+             section("lv1", "★ 重大新闻", sel["lv1"])]
 
     for t, rows in groups:
         parts.append(section(f"g-{topics_order.index(t)}", t, rows))
@@ -1375,7 +1376,7 @@ def load_today_json(cfg, date_str):
 
 # ---------------------------------------------------------------- AI 影响分析
 # 用 Pollinations 的免费文本接口（OpenAI 兼容、免注册、免key）。
-# 只给突发必看和政策要闻做，分析结果缓存到 data/ai.json 随仓库提交，
+# 只给突发必看和重大新闻做，分析结果缓存到 data/ai.json 随仓库提交，
 # 同一条新闻绝不重复分析。调用失败就跳过，不影响发信主流程。
 # （GitHub Models 实测整个域只返回占位响应，已弃用）
 AI_CACHE_PATH = os.path.join(BASE_DIR, "data", "ai.json")
@@ -1577,12 +1578,11 @@ def main():
     title_excludes = cfg.get("title_excludes", []) or []
     weak = set(cfg.get("weak_keywords", []) or [])
     breaking_kw = (cfg.get("breaking", {}) or {}).get("keywords", []) or []
-    must_kw = (cfg.get("must_watch", {}) or {}).get("keywords", []) or []
     heavy_kw = (cfg.get("heavy_events", {}) or {}).get("keywords", []) or []
-    # 快讯源专用：只有命中这批「强政策词」才升要闻。
-    # 快讯一天几十条，若按普通 must_watch 判定（逆回购/中间价/创业板都算），
-    # 要闻区会被灌到上百条，真正重要的反而被稀释。
-    live_strong_kw = cfg.get("live_strong", []) or []
+    # 2026-11-06 新口径：只收三类大事（美国重大 / 国内政策 / 突发事件）。
+    # 准入必须同时满足：命中某一栏的关键词 + 命中事件强度词。
+    # 只命中栏目的（英伟达发新品、AI 评测榜）一律丢弃，不再留兴趣区。
+    intensity_kw = (cfg.get("intensity", {}) or {}).get("keywords", []) or []
     feeds = [f for f in (cfg.get("feeds", []) or []) if f.get("enabled", True)]
     hours_window = int(cfg.get("hours_window", 30))
     # 没有时间字段的源，每个源最多取多少条
@@ -1629,7 +1629,6 @@ def main():
                 entries = parse_feed(xml_text)
             if not entries:
                 raise ValueError("未解析到条目")
-            is_must_src = fd.get("tier") == "must"
             is_live = bool(fd.get("live"))
             cnt = 0
             undated = 0
@@ -1654,38 +1653,42 @@ def main():
                 if any(kw and kw in title for kw in title_excludes):
                     continue
 
-                hits, words = match_topics(text, topics, weak, title)
+                # 栏目归属只看标题：摘要里几乎每篇都会提到"美国""关税""美联储"，
+                # 用摘要匹配会把整版稿子都灌进美国栏（实测：英国央行加息被归到美国）。
+                hits, words = match_topics(title, topics, weak, title)
 
-                # 突发词、政策词都只在标题里匹配：正文顺带提一句的不算
+                # 突发词、强度词都只在标题里匹配：正文顺带提一句的不算
                 hit_breaking = [k for k in breaking_kw if kw_hit(k, title)]
-                hit_must = [k for k in must_kw if kw_hit(k, title)]
+                hit_int = [k for k in intensity_kw if kw_hit(k, title)]
                 hit_heavy = [k for k in heavy_kw if kw_hit(k, title)]
 
-                # 分级：2=必看（突发：战争、天灾、重大事故）
-                #       1=要闻（政策发布、宏观数据、权威源）
-                #       0=普通兴趣
-                if hit_breaking:
-                    level = 2
-                elif is_live:
-                    # 快讯源单独判定：只认强政策词（暂停数据中心、出口管制、
-                    # 降息、美联储……），其余即便命中普通政策词也只算兴趣级
-                    if any(kw_hit(k, title) for k in live_strong_kw):
-                        level = 1
-                    elif hits:
-                        level = 0
-                    else:
-                        continue
-                elif hit_must or is_must_src:
-                    level = 1
-                elif not hits:
+                # ---- 准入门槛（2026-11-06 重构）----
+                # 只收三种：美国重大、国内政策、突发事件。
+                # ① 命中某一栏 → 决定进哪一栏
+                # ② 命中事件强度词 → 证明这事真的发生了
+                # 只满足①的（英伟达发新品、AI 评测榜）直接丢，不再留兴趣区。
+                # 例外：美联储、SEC、统计局这类机构源发的就是事件，源即准入。
+                is_inst = bool(fd.get("institution"))
+                fd_block = fd.get("block") or ""
+                if not hits and fd_block and (is_inst or (hit_int and fd.get("intl"))):
+                    # 只给外媒兜底：英文标题常不写机构全名（"Fed cuts rates"）。
+                    # 中文源不能用源级兜底——中新网国内一天几十条通稿，
+                    # 兜底等于把地方小文件全收进国内政策。
+                    hits, words = [fd_block], []
+                if not hits:
                     continue
-                else:
-                    level = 0
-                    # 只在摘要里蹭到单个泛词而标题毫无关联的，丢弃
-                    if not title_hits(title, topics) and len(words) == 1 and len(words[0]) <= 4:
-                        continue
+                if not (is_inst or hit_int):
+                    continue
+                # 一条只留一个主归属：同一条稿子可能同时命中美国栏和国际栏
+                # （比如"特朗普宣布制裁伊朗"），按 weight 取主栏，
+                # 免得同一条新闻在三个栏目里各出现一次。
+                hits.sort(key=lambda t: -topics.get(t, {}).get("weight", 1))
+                hits = hits[:1]
+                # 2=突发（战争、天灾、重大事故、总统级宣布）
+                # 1=重大（政策发布、监管动作、宏观数据）
+                level = 2 if hit_breaking else 1
 
-                why = hit_breaking[0] if hit_breaking else (hit_must[0] if hit_must else "")
+                why = hit_breaking[0] if hit_breaking else (hit_int[0] if hit_int else "")
                 iid = item_id(link, title)
                 score = 0
                 for t in hits:
@@ -1698,8 +1701,8 @@ def main():
                     score += 5
                 if hit_breaking:
                     score += min(len(hit_breaking), 3) * 2
-                if hit_must:
-                    score += min(len(hit_must), 3) * 2
+                if hit_int:
+                    score += min(len(hit_int), 3) * 2
                 # 国家级大事加权：五中全会、国务院常务会议这类不能被同源通稿挤掉
                 if hit_heavy:
                     score += min(len(hit_heavy), 2) * 6
@@ -1785,7 +1788,7 @@ def main():
                 print(f"  累加当天已收录的 {len(prev)} 条，共 {len(merged)} 条")
             items = merged
 
-    # AI 影响分析：只给这封信要发的突发必看 + 政策要闻做，
+    # AI 影响分析：只给这封信要发的突发必看 + 重大新闻做，
     # 分析挂在条目对象上，后面的邮件和看板数据都会带上
     if not args.no_mail and not args.dry_run:
         _sel_prev = select_mail_rows(items, cfg, run_time, exclude=set(load_mailed()))

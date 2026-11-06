@@ -31,7 +31,8 @@ breaking:
     - 伤亡
     - 失联
     # ---- 战争与冲突 ----
-    - 战争
+    # 注意：不放单独的"战争"——评论标题里到处是"伊朗战争不结束"，
+    # 一句顺带提及就会把加息新闻误标成突发必看。只认具体动作。
     - 开战
     - 交火
     - 停火
@@ -68,200 +69,345 @@ heavy_events:
     - 公报
 
 # ============================================================
-# 政策要闻（保证不遗漏）
+# 事件强度词（2026-11-06 重构：只收三类大事）
 # ============================================================
-# 命中下面这些词（标题）的内容进「要闻」区：
-# 央行货币政策、监管政策、宏观数据、重大会议等政策类。
-must_watch:
+# 新口径只收三种新闻：美国重大、国内政策、突发事件。
+# 一条新闻要进来，必须同时满足两条：
+#   ① 命中 topics 里某一栏的关键词（判断这事属于哪一栏）
+#   ② 命中下面这批"事件强度词"（判断这事真的发生了，不是随便聊聊）
+#
+# 只满足①、不满足②的一律丢弃。例如：
+#   「英伟达发布新一代芯片」 → ①未命中 → 丢
+#   「AI 大模型评测榜单」    → ①未命中 → 丢
+#   「美股暴跌 800 点」      → ①美股 + ②暴跌 → 收，进美国重大
+#   「民主党提案暂停先进AI」 → ①民主党 + ②暂停先进 → 收，进美国重大
+#
+# 例外：美联储、SEC、统计局这类机构源发的本身就是事件，源即准入（institution: true）。
+intensity:
   keywords:
-    # ---- 货币政策 / 央行 ----
-    - CPI
-    - PPI
-    - 居民消费价格
-    - 工业生产者价格
-    - 货币政策
+    # ---- 货币政策动作 ----
     - 降准
     - 降息
     - 加息
     - LPR
     - 中期借贷便利
     - MLF
-    - 公开市场操作
-    - 逆回购
-    - 净投放
-    - 央行
-    - 人民银行
-    - 中国人民银行
-    - 外汇储备
-    - 社融
-    - 社会融资
-    - 人民币汇率
-    - 中间价
-    # ---- 美联储 ----
-    - 美联储
-    - FOMC
-    - Federal Reserve
-    - 联邦基金利率
-    - 鲍威尔
-    - Powell
-    - 缩表
+    - 存款准备金
     - 量化宽松
+    - 缩表
+    - 扩表
+    - 利率决议
+    - 议息会议
+    - 维持利率
+    - 联邦基金利率
     - 点阵图
-    # ---- 证券 / 监管 ----
-    - 证监会
-    - 注册制
-    - 印花税
-    - 退市
-    - 发行审核
-    - 北交所
-    - 科创板
-    - 创业板
-    - 融资融券
-    - 减持新规
-    - 证券公司
-    # ---- 宏观政策 ----
-    - 国务院
-    - 国务院常务会议
-    - 政治局
-    - 政治局会议
-    - 全会
-    - 中央委员会
-    - 中央经济工作会议
-    - 政府工作报告
-    - 中纪委
-    - 巡视
-    - 两会
-    - 人大
-    - 政协
-    - 总书记
-    - GDP
-    - 赤字率
-    - 特别国债
-    - 专项债
+    - 流动性
+    - 公开市场
+    # ---- 财政、贸易与监管动作 ----
+    - 加征关税
+    - 上调关税
+    - 取消关税
     - 关税
-    - 制裁
     - 出口管制
-    # ---- 国际大事 ----
-    - 大选
-    - 峰会
-    - 联合国安理会
-    # ---- 产业政策与监管（2026-11-06 补） ----
-    # 起因：美国民主党喊「暂停先进AI发展」「暂停数据中心建设」，这类
-    # 政策转向信号此前一律被当成普通科技新闻，掉进兴趣区被 4 条上限挤掉。
-    # 这里只用短语不用「暂停」「禁止」单词——单词会误伤「暂停交易」
-    # 「暂停新售」这类无关快讯。
+    - 实体清单
+    - 制裁
+    - 禁令
+    - 立法
+    - 法案
+    - 提案
+    - 签署
+    - 通过法案
+    - 法案通过
     - 暂停先进
     - 暂停数据中心
     - 暂停研发
     - 暂停AI
     - 暂停人工智能
     - 数据中心停建
-    - 超级智能
     - 禁止研发
     - 反垄断
     - 监管新规
-    - 立法禁止
-    - 法案通过
+    - 立案调查
+    - 退市
+    - 印花税
+    - 特别国债
+    - 专项债
+    - 赤字率
+    - 注册制
+    # ---- 国家级会议与文件 ----
+    - 政治局
+    - 政治局会议
+    - 全会
+    - 中央委员会
+    - 人大常委会
+    - 国务院
+    - 国常会
+    - 国务院常务会议
+    - 中央经济工作会议
+    - 政府工作报告
+    - 一号文件
+    - 中央财经委员会
+    - 印发
+    - 部署
+    # ---- 宏观数据 ----
+    - CPI
+    - PPI
+    - GDP
+    - 社融
+    - 社会融资
+    - PMI
+    - 非农
+    - 失业率
+    - 外汇储备
+    # ---- 冲突与战争 ----
+    - 开战
+    - 宣战
+    - 空袭
+    - 入侵
+    - 军事行动
+    - 导弹袭击
+    - 交火
+    - 停火
+    - 政变
+    - 恐袭
+    - 恐怖袭击
+    - 暗杀
+    - 戒严
+    - 紧急状态
+    - 断交
+    - 撤离
+    # ---- 灾害与事故 ----
+    - 地震
+    - 海啸
+    - 台风
+    - 飓风
+    - 洪水
+    - 火山
+    - 核泄漏
+    - 坠机
+    - 空难
+    - 沉没
+    - 垮塌
+    - 伤亡
+    - 遇难
+    - 失联
+    # ---- 市场剧震 ----
+    - 暴跌
+    - 暴涨
+    - 熔断
+    - 崩盘
+    - 停摆
+    - 挤兑
+    - 违约
+    - 破产
+    - 减产
+    - 增产
+    # ---- 英文（外媒源用，必须是小写匹配，不区分大小写） ----
+    - rate cut
+    - rate hike
+    - cuts rates
+    - raises rates
+    - fomc statement
+    - tariff
+    - sanction
+    - export control
+    - executive order
+    - state of emergency
+    - declares war
+    - invades
+    - airstrike
+    - earthquake
+    - tsunami
+    - hurricane
+    - coup
+    - plunges
+    - crashes
+    - halts
+    - shutdown
     - moratorium
     - superintelligence
-    - ban on AI
 
-# ------------------------------------------------------------
-# 快讯源的"升要闻"门槛（只作用于配了 live: true 的源）
-# ------------------------------------------------------------
-# 快讯一天几十条，如果按上面的 must_watch 判定，逆回购、中间价、创业板
-# 涨跌这些都会被当成要闻，一晚上就灌出两百多条，真正的大事反而被稀释。
-# 所以快讯只认下面这批：不是"政策词"，是"政策转向/重大动作"。
-live_strong:
-  # ---- 货币政策动作 ----
-  - 降准
-  - 降息
-  - 加息
-  - 美联储
-  # ---- 产业政策与监管 ----
-  - 暂停先进
-  - 暂停数据中心
-  - 暂停研发
-  - 数据中心停建
-  - 超级智能
-  - 禁止研发
-  - 反垄断
-  - 监管新规
-  - 立法禁止
-  - 法案通过
-  - 出口管制
-  - 制裁
-  - 关税
-  # ---- 国家级大事 ----
-  - 政治局
-  - 全会
-  - 国务院常务会议
-  - 政府工作报告
-  - 特别国债
-  - 中央经济工作会议
-
-# ---------- 兴趣主题 ----------
-# 每个主题下的关键词命中任意一个即归入该主题
-# 权重 weight 决定排序优先级（数字越大越靠前）
+# ============================================================
+# 三大栏（2026-11-06 重构）
+# ============================================================
+# 原来的「科技与产业 / 财经投资 / 时政国际」全部取消。
+# 现在只按"这事发生在谁的桌上"分三栏：
+#
+#   美国重大 —— 总统与白宫的公开表态、美联储、财政部、国会立法、SEC、
+#               关税与出口管制、美股剧震、AI 与芯片监管。
+#               注意：AI 监管放这里，不放科技栏。一条「暂停先进 AI 发展」
+#               或者「对华芯片出口管制」能直接带崩整个板块，它是政策事件，
+#               不是产品新闻。这类必须进首栏，不能掉进后面的次要位置。
+#   国内政策 —— 中央与国务院、央行、证监会、财政部、发改委、统计局、
+#               重大产业政策与宏观数据。
+#   突发事件 —— 战争、天灾、重大事故（不分国别，中国的地震也在这），
+#               以及其他主要经济体（欧央行、日央行、OPEC）的重大决议。
+#
+# weight 决定同级别里的排序优先级：栏目越靠前，同分时越优先。
 topics:
-  科技与产业:
+  美国重大:
     weight: 3
     keywords:
-      - AI
-      - 人工智能
-      - 大模型
-      - 芯片
-      - 半导体
-      - 英伟达
-      - OpenAI
-      - 算力
-      - 机器人
-      - 新能源
-      - 电动车
-      - 光伏
-      - 储能
-      - 生物医药
-      - 商业航天
-      - 数据中心
-
-  财经投资:
-    weight: 3
-    keywords:
-      - 股市
-      - A股
-      - 港股
-      - 美股
-      - 利率
-      - 汇率
-      - 通胀
-      - 财报
-      - 营收
-      - 融资
-      - IPO
-      - 并购
-      - 债市
-      - 黄金
-      - 房地产
-      - 关税
+      # ---- 人物与机构 ----
+      - 特朗普
+      - Trump
+      - 白宫
+      - 美国总统
+      - 美国副总统
+      - 万斯
       - 美联储
-
-  时政国际:
-    weight: 2
-    keywords:
-      - 外交
-      - 内政
-      - 国会
+      - 鲍威尔
+      - Powell
+      - FOMC
+      - Federal Reserve
+      - 联邦基金利率
+      - 美国财政部
+      - 美国商务部
+      - 美国贸易代表
+      - 美国国会
       - 参议院
       - 众议院
-      - 总统
-      - 总理
-      - 欧盟
-      - 白宫
-      - 联合国
-      - 地缘
-      - 冲突
-      - 选举
-      - 法案
+      - 美国议员
+      - 民主党
+      - 共和党
+      - 最高法院
+      - 五角大楼
+      - 国务卿
+      - 美国国务院
+      - 美国证监会
+      - SEC
+      - 美国政府
+      # ---- 贸易与产业政策 ----
+      - 关税
+      - 贸易战
+      - 贸易协定
+      # 注意：出口管制、实体清单这类"动作词"不放在这里。
+      # 它们是强度词（见 intensity），拿来定栏会把"中荷出口管制对话"
+      # 这种双边会谈误算成美国重大。美国发起的管制必然带白宫/商务部/特朗普。
+      - 行政令
+      - 政府停摆
+      # ---- 科技监管（政策口径，不是产品新闻） ----
+      - AI监管
+      - 人工智能法案
+      - 芯片法案
+      - 芯片出口
+      - 暂停数据中心
+      - 超级智能
+      - moratorium
+      - superintelligence
+      # ---- 美国市场 ----
+      - 美股
+      - 纳斯达克
+      - 标普500
+      - 道琼斯
+      - 华尔街
+
+  国内政策:
+    weight: 3
+    keywords:
+      # ---- 中央与国务院 ----
+      - 政治局
+      - 全会
+      - 中央委员会
+      - 中央经济工作会议
+      - 国常会
+      - 国务院常务会议
+      - 国务院办公厅
+      - 国务院印发
+      - 国务院总理
+      - 政府工作报告
+      - 一号文件
+      - 中央财经委员会
+      - 中办国办
+      - 人大常委会
+      # ---- 金融监管与财政 ----
+      # 注意：这里不放单字"央行"，否则"英国央行""欧洲央行"会全部命中，
+      # 外国的利率决议被误算成国内政策。
+      - 央行行长
+      - 人民银行
+      - 中国人民银行
+      - 降准
+      - 降息
+      - LPR
+      - MLF
+      - 存款准备金
+      - 证监会
+      - 金融监管总局
+      - 外汇局
+      - 财政部
+      - 发改委
+      - 国资委
+      - 统计局
+      - 印花税
+      - 特别国债
+      - 专项债
+      # ---- 产业与民生政策 ----
+      - 限购
+      - 保交楼
+      - 以旧换新
+      - 反内卷
+      - 产能置换
+      - 新能源汽车补贴
+      # ---- 宏观数据 ----
+      - CPI
+      - PPI
+      - GDP
+      - 社融
+      - 社会融资
+      - PMI
+
+  突发事件:
+    weight: 2
+    keywords:
+      # ---- 战争与冲突 ----
+      - 战争
+      - 开战
+      - 宣战
+      - 空袭
+      - 入侵
+      - 交火
+      - 停火
+      - 导弹
+      - 军事行动
+      - 政变
+      - 恐袭
+      - 恐怖袭击
+      - 戒严
+      - 紧急状态
+      - 联合国安理会
+      - 北约
+      # ---- 灾害与事故 ----
+      - 地震
+      - 海啸
+      - 台风
+      - 飓风
+      - 洪水
+      - 山火
+      - 火山
+      - 泥石流
+      - 核泄漏
+      - 空难
+      - 坠机
+      - 沉船
+      - 垮塌
+      - 矿难
+      # ---- 地区与国别（用于定位冲突当事方） ----
+      - 中东
+      - 以色列
+      - 伊朗
+      - 乌克兰
+      - 俄罗斯
+      - 朝鲜
+      - 加沙
+      # ---- 其他主要经济体政策 ----
+      - 欧洲央行
+      - 欧央行
+      - 日本央行
+      - 英国央行
+      - OPEC
+      - 减产
+      - 增产
+      - 峰会
 
 # ---------- 泛词（只在标题出现时才算命中） ----------
 # 这些词在正文里到处都是，比如"上市"可能指产品发售而非 IPO，
@@ -296,6 +442,11 @@ exclude_keywords:
 # 尤其党媒客户端这类栏目很多，混进重点区会稀释真正的要闻
 title_excludes:
   - 一图读懂
+  - 学习贯彻
+  - 第一方阵
+  - 宣讲
+  - 署名文章
+  - 评论员
   - 第一观察
   - 东西问
   - 纪录片
@@ -319,57 +470,54 @@ title_excludes:
 feeds:
   # ---------- 国内权威源（必收） ----------
   - name: 中国新闻网·国内
+    block: 国内政策
     group: chinanews
     url: https://www.chinanews.com.cn/rss/china.xml
-    topic_hint: 时政国际
     tier: must
     enabled: true
 
   - name: 中国新闻网·国际
+    block: 突发事件
     group: chinanews
     url: https://www.chinanews.com.cn/rss/world.xml
-    topic_hint: 时政国际
     tier: must
     enabled: true
 
   - name: 国家统计局·数据发布
+    block: 国内政策
+    institution: true
     group: stats
     url: https://www.stats.gov.cn/sj/zxfb/rss.xml
-    topic_hint: 财经投资
     tier: must
     enabled: true
 
   # ---------- 国内媒体 ----------
   - name: 36氪
     url: https://www.36kr.com/feed
-    topic_hint: 科技与产业
-    enabled: true
+    enabled: false
 
   - name: IT之家
     url: https://www.ithome.com/rss/
-    topic_hint: 科技与产业
-    enabled: true
+    enabled: false
 
   - name: 界面新闻
     url: https://a.jiemian.com/index.php?m=article&a=rss
-    topic_hint: 财经投资
     enabled: true
 
   - name: 少数派
     url: https://sspai.com/feed
-    topic_hint: 科技与产业
-    enabled: true
+    enabled: false
 
   - name: Solidot 奇客
     url: https://www.solidot.org/index.rss
-    topic_hint: 科技与产业
-    enabled: true
+    enabled: false
 
   # ---------- 海外权威源（必收，需云端运行） ----------
   - name: 美联储·货币政策
+    block: 美国重大
+    institution: true
     group: fed
     url: https://www.federalreserve.gov/feeds/press_monetary.xml
-    topic_hint: 财经投资
     tier: must
     intl: true
     enabled: true
@@ -377,7 +525,6 @@ feeds:
   - name: 美联储·全部公告
     group: fed
     url: https://www.federalreserve.gov/feeds/press_all.xml
-    topic_hint: 财经投资
     tier: must
     intl: true
     enabled: true
@@ -385,52 +532,51 @@ feeds:
   - name: 美国证监会SEC
     group: sec
     url: https://www.sec.gov/news/pressreleases.rss
-    topic_hint: 财经投资
     intl: true
     enabled: true
 
   - name: 纽约时报·国际
+    block: 突发事件
     group: nyt
     url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-    topic_hint: 时政国际
     tier: must
     intl: true
     enabled: true
 
   - name: 纽约时报·美国
+    block: 美国重大
     group: nyt
     url: https://rss.nytimes.com/services/xml/rss/nyt/US.xml
-    topic_hint: 时政国际
     tier: must
     intl: true
     enabled: true
 
   - name: 纽约时报·商业
+    block: 美国重大
     group: nyt
     url: https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
-    topic_hint: 财经投资
     intl: true
     enabled: true
 
   - name: BBC·国际
+    block: 突发事件
     group: bbc
     url: https://feeds.bbci.co.uk/news/world/rss.xml
-    topic_hint: 时政国际
     tier: must
     intl: true
     enabled: true
 
   - name: BBC·商业
+    block: 美国重大
     group: bbc
     url: https://feeds.bbci.co.uk/news/business/rss.xml
-    topic_hint: 财经投资
     intl: true
     enabled: true
 
   - name: NPR·国际
+    block: 突发事件
     group: npr
     url: https://feeds.npr.org/1004/rss.xml
-    topic_hint: 时政国际
     intl: true
     enabled: true
 
@@ -444,13 +590,11 @@ feeds:
     type: json_lives          # 接口返回 JSON，不是 RSS
     live: true                # 快讯源：只认 live_strong 里的强政策词才升要闻
     url: https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&client=pc&limit=100
-    topic_hint: 财经投资
     enabled: true
 
   - name: 华尔街见闻·文章
     url: https://dedicated.wallstreetcn.com/rss.xml
     live: true                # 标题常带"创业板""中间价"，同样只认强政策词
-    topic_hint: 财经投资
     enabled: true
 
   # ---------- 备用源（公共 RSSHub，忙时限流，默认关闭） ----------
@@ -458,15 +602,13 @@ feeds:
     url:
       - https://rsshub.ktachibana.party/cls/telegraph
       - https://rss.owo.nz/cls/telegraph
-    topic_hint: 财经投资
     enabled: false
 
   - name: 澎湃新闻
     url:
       - https://rsshub.ktachibana.party/thepaper/featured
       - https://rss.owo.nz/thepaper/featured
-    topic_hint: 时政国际
-    enabled: false
+    enabled: true
 
 # ---------- 时间窗口 ----------
 # 只收最近 N 小时内发布的（小时）
@@ -491,11 +633,13 @@ enrich:
 # 一份日报塞太多条会看不完，所以按源限量：超出部分折叠到"其余"里，不丢内容。
 limits:
   max_per_feed: 8     # 中文权威源每个源最多先列几条
-  max_per_topic: 12   # 每个兴趣主题最多先列几条
+  max_per_topic: 12   # 每个栏目最多先列几条
   max_per_feed_en: 5  # 英文源每个源最多先列几条
-  mail_must: 9       # 邮件里突发必看最多给几条
-  mail_level1: 7     # 邮件里政策要闻最多给几条
-  mail_interest: 4   # 邮件里兴趣最多给几条
+  # 2026-11-06 改口径后每天只剩十几条大事，配额不再是"必须凑满"，
+  # 而是"最多给几条"：有几条发几条，绝不为凑数塞噪音。
+  mail_must: 12      # 邮件里突发最多给几条
+  mail_level1: 15    # 邮件里重大新闻最多给几条
+  mail_interest: 0   # 兴趣区已取消（只收大事，没有兴趣级）
   mail_per_feed: 4    # 邮件里同一个源最多占几条（避免一整封都是同一家通稿）
   mail_en: 2          # 邮件里外媒原文最多列几条标题
   mail_body_chars: 80   # 邮件里每条正文摘录最多多少字（中文 3 字节/字，太长会被 139 判垃圾）

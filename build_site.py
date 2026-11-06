@@ -284,7 +284,7 @@ function buildTabs(){{
     h += `<div class="tab keytab ${{curTopic==='__key__'?'on':''}}" data-t="__key__">★★ 突发必看 ${{keyN}}</div>`;
   }}
   if (newsN) {{
-    h += `<div class="tab ${{curTopic==='__news__'?'on':''}}" data-t="__news__">★ 政策要闻 ${{newsN}}</div>`;
+    h += `<div class="tab ${{curTopic==='__news__'?'on':''}}" data-t="__news__">★ 重大新闻 ${{newsN}}</div>`;
   }}
   all.forEach(t => {{
     const n = d.items.filter(it => (it.tp||[]).includes(t)).length;
@@ -380,7 +380,7 @@ function render(){{
       box.innerHTML = `<div class="empty">今天没有要闻</div>`;
       return;
     }}
-    box.innerHTML = `<div class="grp"><div class="grp-h">★ 政策要闻 · ${{headlines.length}}</div>`
+    box.innerHTML = `<div class="grp"><div class="grp-h">★ 重大新闻 · ${{headlines.length}}</div>`
       + headlines.map(it => itemHTML(it, 1)).join('') + '</div>';
     return;
   }}
@@ -394,7 +394,7 @@ function render(){{
       h += '</div>';
     }}
     if (headlines.length) {{
-      h += `<div class="grp"><div class="grp-h">★ 政策要闻 · ${{headlines.length}}</div>`;
+      h += `<div class="grp"><div class="grp-h">★ 重大新闻 · ${{headlines.length}}</div>`;
       h += headlines.map(it => itemHTML(it, 1)).join('');
       h += '</div>';
     }}
