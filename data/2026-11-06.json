@@ -1,8 +1,8 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06 13:20",
+ "generated_at": "2026-11-06 15:05",
  "hours_window": 30,
- "count": 14,
+ "count": 20,
  "sources_ok": 17,
  "sources_total": 17,
  "topics_order": [
@@ -12,6 +12,28 @@
   "其他"
  ],
  "items": [
+  {
+   "id": "c4fe750b3327694e",
+   "title": "实测下单定制AI明星带货视频：商家主动支招规避平台风控",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34404629",
+   "summary": "记者在闲鱼一店铺下单定制AI明星带货视频取证，商家明知内容存在侵权，还主动传授蒙版特效等避审方法，最终交付了一段41秒、千余帧的仿冒明星带货的合成视频。",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "台风"
+   ],
+   "time": "15:03",
+   "score": 23.0,
+   "level": 2,
+   "why": "台风",
+   "tier": "",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
   {
    "id": "9c554d8a4902aedb",
    "title": "共和党惨败中选，特朗普还能坚持关税吗？2029年前，不要指望有什么变化",
@@ -35,9 +57,61 @@
     "关税"
    ],
    "time": "11:02",
-   "score": 18.7,
+   "score": 18.5,
    "level": 1,
    "why": "关税",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "ee33c76fd8b4a31b",
+   "title": "撞上AI崩盘！今晚，一份强劲非农报告，或给美股又一重击",
+   "link": "https://wallstreetcn.com/articles/3785351",
+   "summary": "美国10月非农就业报告将于周五（11月6日）美东时间8:30发布。市场普遍预期数据将从9月低点反弹，但这份报告到来的时机极为棘手——就在数据公布前一日，科技股遭遇重创，纳斯达克100指数单日暴跌6.36%，创下自2020年3月以来最惨烈的一天，AI交易全面瓦解。 周四的市场剧震已经深刻改变了就业报告的解读框架。标普500指数单日下跌4.36%，费城半导体指数重挫12%，VIX恐慌指数跳升11.5点至28，市场流动性急剧收缩。 在此背景下，一份超预期的就业数据非但无法提振市场情绪，反而可能在最糟糕的时机重燃美联储12月加息预期，给已经岌岌可危的市场再添一把火。 从期权市场的反应来看，投资者正在为大幅波动做准备。周五标普500指数的跨式期权隐含波动幅度升至1.45%，为今年3月以来最高的单日定价水平——而周四当天的跨式期权实际实现幅度已是定价的近8倍。 数据指向反弹，但分歧犹存 市场普遍预期1",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "隔夜美股崩盘：一场由1000亿美元“抢跑”引爆的反身性风暴",
+     "u": "https://wallstreetcn.com/articles/3785338"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美股"
+   ],
+   "time": "14:30",
+   "score": 16.9,
+   "level": 1,
+   "why": "非农",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "796f2ff61823c0b5",
+   "title": "特朗普：美股经历史上最糟交易日之一，都怪民主党",
+   "link": "https://wallstreetcn.com/articles/3785344",
+   "summary": "美国中期选举结果揭晓后次日，华尔街遭遇今年以来最惨烈的单日抛售，特朗普将矛头直指民主党。 11月5日，纳斯达克综合指数单日暴跌5.52%，标普500指数下挫逾4%，三大股指均创下2025年4月关税冲击以来最大单日跌幅。科技股首当其冲，英伟达、博通、高通等芯片巨头跌幅均超9%，市场对民主党执政后AI政策走向的忧虑成为直接导火索。 特朗普随即在社交媒体连发多文， 将此次暴跌归咎于民主党的中期选举大胜，并以自创词\"蠢民主党人\"（Dumocrats）直接点名攻击，警告选民\"你们只能怪自己\"。他同时为共和党执政期间的市场表现辩护，并表示\"别担心，我们很快就会以某种方式，变得比以往任何时候都更加强大\"。 美股创下关税冲击以来最大单日跌幅 美东时间11月5日收盘，纳斯达克综合指数大跌5.52%，较10月6日创下的历史收盘高点回落逾10%，正式进入技术性回调区间，并创下19个月以来最大单日跌幅。标普500",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "民主党",
+    "美股"
+   ],
+   "time": "13:52",
+   "score": 16.8,
+   "level": 1,
+   "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -59,7 +133,7 @@
     "美股"
    ],
    "time": "10:34",
-   "score": 16.7,
+   "score": 16.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -107,9 +181,31 @@
     "英国央行"
    ],
    "time": "20:00",
-   "score": 15.8,
+   "score": 15.6,
    "level": 1,
    "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "bdb1d18f09489366",
+   "title": "美股暴跌冲击：对冲基金10月撤仓创十余年最快，多家机构裁员",
+   "link": "https://wallstreetcn.com/articles/3785346",
+   "summary": "美股史上最惨烈的抛售之一，正将对冲基金行业推入一场罕见的系统性压力测试。 据摩根士丹利客户报告，10月份是逾十年来股票型对冲基金主动平仓规模最大的月份，其市场敞口自6月以来已缩减约9%。纳斯达克100指数周四单日暴跌6.4%，蒸发市值约2.3万亿美元，VIX\"恐慌指数\"飙升70%，进一步加剧了此前已持续数月的行业困境。与此同时，Samlyn Capital、Engineers Gate、Walleye Capital等多家对冲基金近期相继宣布裁员或重组。 市场震荡对行业的损伤已超出单一事件范畴。高盛在周四致客户报告中指出，聚焦电信、媒体及科技板块的对冲基金周四单日损失逾4%，今年夏季AI行情逆转之前累积的高达24%的年内涨幅几乎悉数消弭；多策略基金当日亦损失1.4%，科技股及动量交易是主要拖累。 10月撤仓潮：十余年最大规模平仓 此轮压力的集中爆发点在10月。摩根士丹利报告显示，当月股票多",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美股"
+   ],
+   "time": "14:30",
+   "score": 14.9,
+   "level": 1,
+   "why": "暴跌",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -152,7 +248,7 @@
     "美国总统"
    ],
    "time": "11:42",
-   "score": 14.8,
+   "score": 14.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -174,7 +270,7 @@
     "暂停数据中心"
    ],
    "time": "08:15",
-   "score": 14.4,
+   "score": 14.1,
    "level": 1,
    "why": "暂停数据中心",
    "tier": "",
@@ -197,7 +293,7 @@
     "战争"
    ],
    "time": "08:04",
-   "score": 14.3,
+   "score": 14.1,
    "level": 1,
    "why": "",
    "tier": "",
@@ -205,25 +301,31 @@
    "ai": ""
   },
   {
-   "id": "0e08bca16418fe23",
-   "title": "Trump signs order preventing future presidents from changing Oval Office",
-   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 48 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 48 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "source": "BBC·国际",
-   "also": [],
+   "id": "f5f5113906835850",
+   "title": "特朗普称将就俄乌问题达成“重大协议”",
+   "link": "https://wallstreetcn.com/livenews/3195661",
+   "summary": "美国总统特朗普5日在白宫对媒体说，将就俄乌问题达成“重大协议”，他认为距离解决俄乌问题已经“非常接近”。（新华社）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [
+    {
+     "src": "中国新闻网·国际",
+     "t": "特朗普：将就俄乌问题达成“重大协议”",
+     "u": "https://www.chinanews.com.cn/gj/2026/11-06/10727064.shtml"
+    }
+   ],
    "topics": [
     "美国重大"
    ],
    "words": [
-    "Trump"
+    "特朗普"
    ],
-   "time": "12:29",
+   "time": "14:29",
    "score": 12.9,
    "level": 1,
    "why": "",
-   "tier": "must",
-   "group": "bbc",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -255,6 +357,28 @@
    "ai": ""
   },
   {
+   "id": "0e08bca16418fe23",
+   "title": "Trump signs order preventing future presidents from changing Oval Office",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 2 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 2 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "12:29",
+   "score": 12.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "53b533d3a3f2f349",
    "title": "Bank of England Raises Rates for First Time in Three Years",
    "link": "https://www.nytimes.com/2026/11/05/business/bank-of-england-interest-rates-inflation.html",
@@ -269,7 +393,7 @@
     "Bank of England"
    ],
    "time": "00:53",
-   "score": 12.4,
+   "score": 12.2,
    "level": 1,
    "why": "raises rates",
    "tier": "",
@@ -291,7 +415,7 @@
     "英国央行"
    ],
    "time": "00:01",
-   "score": 12.3,
+   "score": 12.1,
    "level": 1,
    "why": "加息",
    "tier": "must",
@@ -313,11 +437,33 @@
     "Trump"
    ],
    "time": "07:47",
-   "score": 12.3,
+   "score": 12.1,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "c003fe271287fda9",
+   "title": "特朗普：俄乌冲突已非常接近解决",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726987.shtml",
+   "summary": "特朗普在白宫对记者表示，俄乌冲突已非常接近解决，而结束这场冲突可能会涉及整个欧洲。“这将是一项协议。这将是一项重大协议，而且不仅涉及乌克兰…… 我甚至可以说，这可能会涉及整个欧洲。这将是一项重大而美好的协议，所有人都将为此感到欣喜。”特朗普表示。",
+   "body": "特朗普在白宫对记者表示，俄乌冲突已非常接近解决，而结束这场冲突可能会涉及整个欧洲。“这将是一项协议。这将是一项重大协议，而且不仅涉及乌克兰…… 我甚至可以说，这可能会涉及整个欧洲。这将是一项重大而美好的协议，所有人都将为此感到欣喜。”特朗普表示。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "07:20",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -333,7 +479,7 @@
    ],
    "words": [],
    "time": "22:31",
-   "score": 10.1,
+   "score": 9.9,
    "level": 1,
    "why": "tsunami",
    "tier": "must",
