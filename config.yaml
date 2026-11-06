@@ -145,6 +145,26 @@ must_watch:
     - 大选
     - 峰会
     - 联合国安理会
+    # ---- 产业政策与监管（2026-11-06 补） ----
+    # 起因：美国民主党喊「暂停先进AI发展」「暂停数据中心建设」，这类
+    # 政策转向信号此前一律被当成普通科技新闻，掉进兴趣区被 4 条上限挤掉。
+    # 这里只用短语不用「暂停」「禁止」单词——单词会误伤「暂停交易」
+    # 「暂停新售」这类无关快讯。
+    - 暂停先进
+    - 暂停数据中心
+    - 暂停研发
+    - 暂停AI
+    - 暂停人工智能
+    - 数据中心停建
+    - 超级智能
+    - 禁止研发
+    - 反垄断
+    - 监管新规
+    - 立法禁止
+    - 法案通过
+    - moratorium
+    - superintelligence
+    - ban on AI
 
 # ---------- 兴趣主题 ----------
 # 每个主题下的关键词命中任意一个即归入该主题
@@ -378,6 +398,23 @@ feeds:
     url: https://feeds.npr.org/1004/rss.xml
     topic_hint: 时政国际
     intl: true
+    enabled: true
+
+  # ---------- 财经快讯（2026-11-06 补） ----------
+  # 起因：11-05「民主党要暂停先进AI发展」这类政策转向新闻整条漏掉。
+  # 查下来主因不是关键词，是根本没有源送这条——中文报道只在凤凰/腾讯/
+  # 网易/财联社这些站，我们一个都没订。华尔街见闻的快讯接口实测可用，
+  # 而且这类新闻密度很高（得州暂停数据中心、特朗普甩锅股市都在里面）。
+  - name: 华尔街见闻·全球快讯
+    group: wscn
+    type: json_lives          # 接口返回 JSON，不是 RSS
+    url: https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&client=pc&limit=100
+    topic_hint: 财经投资
+    enabled: true
+
+  - name: 华尔街见闻·文章
+    url: https://dedicated.wallstreetcn.com/rss.xml
+    topic_hint: 财经投资
     enabled: true
 
   # ---------- 备用源（公共 RSSHub，忙时限流，默认关闭） ----------

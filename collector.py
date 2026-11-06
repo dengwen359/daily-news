@@ -215,6 +215,34 @@ def parse_feed(xml_text):
     return items
 
 
+def parse_json_lives(text):
+    """华尔街见闻快讯（JSON 接口）→ 与 parse_feed 相同的 (title, link, summary, pubdate) 格式。
+
+    快讯大多没有标题（title 为空），退化成用正文首句当标题；
+    display_time 是 unix 秒，转成本地 ISO 字符串交给 parse_time 统一处理。
+    """
+    d = json.loads(text)
+    rows = ((d.get("data") or {}).get("items")) or []
+    out = []
+    for it in rows:
+        body = strip_html(it.get("content_text") or it.get("content") or "")
+        title = (it.get("title") or it.get("highlight_title") or "").strip()
+        if not title:
+            m = re.match(r"^\s*(.{6,60}?[。！？；])", body)
+            title = m.group(1) if m else body[:40]
+        title = title.strip()
+        link = it.get("uri") or ""
+        ts = it.get("display_time")
+        try:
+            pub = dt.datetime.fromtimestamp(int(ts)).astimezone().isoformat() if ts else ""
+        except Exception:
+            pub = ""
+        if not title or len(title) < 4 or not link:
+            continue
+        out.append((title, link, body, pub))
+    return out
+
+
 def parse_time(s):
     s = (s or "").strip()
     if not s:
@@ -1591,7 +1619,10 @@ def main():
                     last_err = e
             if xml_text is None:
                 raise last_err
-            entries = parse_feed(xml_text)
+            if fd.get("type") == "json_lives":
+                entries = parse_json_lives(xml_text)
+            else:
+                entries = parse_feed(xml_text)
             if not entries:
                 raise ValueError("未解析到条目")
             is_must_src = fd.get("tier") == "must"
