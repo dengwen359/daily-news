@@ -725,20 +725,40 @@ def cluster_items(items):
 
     out = []
     for cl in clusters:
-        rep = items[cl["rep"]]
+        members = cl["members"]
+        # 用户口径（2026-11-06）：同一事件多个源只留最早发布的那条当正文（源文），
+        # 其余源全部挂进"同题另报"。没有时间的条目视为最晚；全都没时间时
+        # 保持原顺序（分高者当代表），不让缺时间的快讯把有时间的正文挤掉。
+        def _ts_key(i):
+            t = items[i].get("ts") or 0
+            return (0, t) if t else (1, 0.0)
+        rep_i = min(members, key=_ts_key)
+        rep = items[rep_i]
+        # 重新聚类场景：代表/成员身上可能已挂着上一轮的 also（跨批次累加），
+        # 全部摊平收进来，按链接去重，一条不丢也不重复
+        seen = {rep.get("link", "")}
         also = []
-        for m in cl["members"][1:]:
+        for m in members:
             other = items[m]
-            also.append({
-                "src": other.get("source", ""),
-                "t": other.get("title", ""),
-                "u": other.get("link", ""),
-            })
-            # 合并时保留更高的重要级别和命中的必收词
-            if other.get("level", 0) > rep.get("level", 0):
-                rep["level"] = other["level"]
-            if other.get("why") and not rep.get("why"):
-                rep["why"] = other["why"]
+            batch = []
+            if m != rep_i:
+                batch.append({"src": other.get("source", ""),
+                              "t": other.get("title", ""),
+                              "u": other.get("link", "")})
+                # 合并时保留更高的重要级别和命中的必收词
+                if other.get("level", 0) > rep.get("level", 0):
+                    rep["level"] = other["level"]
+                if other.get("why") and not rep.get("why"):
+                    rep["why"] = other["why"]
+            batch.extend(other.get("also") or [])
+            for a in batch:
+                key = a.get("u") or a.get("t", "")
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                also.append({"src": a.get("src", ""),
+                             "t": a.get("t", ""),
+                             "u": a.get("u", "")})
         rep["also"] = also
         out.append(rep)
     return out
@@ -1808,6 +1828,12 @@ def main():
             merged.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
             if len(merged) > len(items):
                 print(f"  累加当天已收录的 {len(prev)} 条，共 {len(merged)} 条")
+            # 跨批次重新聚类：同一条新闻分两次抓到（比如早上中新网、下午华尔街见闻），
+            # 各自批次内聚过类、互相之间没比过，不重聚就会出现一张事件两张卡
+            before = len(merged)
+            merged = cluster_items(merged)
+            if before > len(merged):
+                print(f"  跨批次同题合并：{before} 条并为 {len(merged)} 条")
             items = merged
 
     # AI 影响分析：只给这封信要发的突发必看 + 重大新闻做，
