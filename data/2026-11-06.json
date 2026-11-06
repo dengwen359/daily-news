@@ -1,10 +1,10 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06 13:06",
+ "generated_at": "2026-11-06 13:20",
  "hours_window": 30,
  "count": 14,
- "sources_ok": 16,
- "sources_total": 16,
+ "sources_ok": 17,
+ "sources_total": 17,
  "topics_order": [
   "美国重大",
   "国内政策",
@@ -107,7 +107,7 @@
     "英国央行"
    ],
    "time": "20:00",
-   "score": 15.9,
+   "score": 15.8,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -129,7 +129,7 @@
     "美股"
    ],
    "time": "11:57",
-   "score": 14.9,
+   "score": 14.8,
    "level": 1,
    "why": "崩盘",
    "tier": "",
@@ -197,7 +197,7 @@
     "战争"
    ],
    "time": "08:04",
-   "score": 14.4,
+   "score": 14.3,
    "level": 1,
    "why": "",
    "tier": "",
@@ -208,8 +208,8 @@
    "id": "0e08bca16418fe23",
    "title": "Trump signs order preventing future presidents from changing Oval Office",
    "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 38 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 38 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 48 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 48 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
    "source": "BBC·国际",
    "also": [],
    "topics": [
@@ -269,7 +269,7 @@
     "Bank of England"
    ],
    "time": "00:53",
-   "score": 12.5,
+   "score": 12.4,
    "level": 1,
    "why": "raises rates",
    "tier": "",
@@ -291,7 +291,7 @@
     "英国央行"
    ],
    "time": "00:01",
-   "score": 12.4,
+   "score": 12.3,
    "level": 1,
    "why": "加息",
    "tier": "must",
@@ -333,7 +333,7 @@
    ],
    "words": [],
    "time": "22:31",
-   "score": 10.2,
+   "score": 10.1,
    "level": 1,
    "why": "tsunami",
    "tier": "must",
