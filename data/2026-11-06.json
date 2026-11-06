@@ -1,8 +1,8 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06 12:59",
+ "generated_at": "2026-11-06 13:02",
  "hours_window": 30,
- "count": 7,
+ "count": 14,
  "sources_ok": 16,
  "sources_total": 16,
  "topics_order": [
@@ -19,7 +19,13 @@
    "summary": "关税退潮的希望，可能要等到2029年后才会到来，而且届时空间也相当有限。 美国中期选举结果显示，对生活成本的不满情绪是选民的核心关切，而关税政策是推高物价的重要因素之一，这也被普遍认为是共和党在此次选举中大幅失利的主要原因。 然而，据追风交易台，美国银行证券在最新发布的报告中指出，短期内关税政策不会出现任何实质性改变， 因为国会已将贸易政策控制权拱手相让于行政当局，当前政府对此具有完全的主导权。 从更长远的视角来看，即便2028年后政治格局发生变化，关税大幅回撤的可能性依然有限。关键制约因素在于财政：联邦政府目前面临高达2万亿美元的财政赤字，而关税收入每年约为3100亿美元，接近GDP的1%，已成为联邦财政不可轻易放弃的重要来源。这意味着，对于期待关税松绑的市场而言，短期内几乎没有任何喜讯。 国会已失去贸易政策主导权，近期无望逆转 美银报告明确指出，就眼下而言，蓝色浪潮对关税政策的影响答案",
    "body": "",
    "source": "华尔街见闻·文章",
-   "also": [],
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "特朗普中选后加码首都治安：美防长被曝批准国民警卫队使用军用车船",
+     "u": "https://wallstreetcn.com/articles/3785297"
+    }
+   ],
    "topics": [
     "美国重大"
    ],
@@ -34,6 +40,54 @@
    "why": "关税",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "6f0660496333a161",
+   "title": "特朗普回应美股大跌：是民主党人造成的",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727100.shtml",
+   "summary": "特朗普先发帖称，“受中期选举结果影响，(美国)股市遭遇史上最糟糕的交易日之一。看着这景象真令人痛心！我们付出了巨大努力，才将股市推至前所未有的高度，结果却落得这般下场。”特朗普称，这不是共和党的错，而是民主党人造成的，并说“我们很快就会变得比以往更强大、更辉煌”。随后，特朗普又再次发帖称，今天股市暴跌，是因为民主党人在中期选举中大获全胜，“看到这一幕真令人难过，你们只能怪自己”。",
+   "body": "特朗普先发帖称，“受中期选举结果影响，(美国)股市遭遇史上最糟糕的交易日之一。看着这景象真令人痛心！我们付出了巨大努力，才将股市推至前所未有的高度，结果却落得这般下场。”特朗普称，这不是共和党的错，而是民主党人造成的，并说“我们很快就会变得比以往更强大、更辉煌”。随后，特朗普又再次发帖称，今天股市暴跌，是因为民主党人在中期选举中大获全胜，“看到这一幕真令人难过，你们只能怪自己”。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "民主党",
+    "美股"
+   ],
+   "time": "10:34",
+   "score": 16.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "1e4d18d6f1798a3c",
+   "title": "特朗普称美股大跌赖民主党",
+   "link": "https://wallstreetcn.com/livenews/3195425",
+   "summary": "美国总统特朗普当地时间11月5日在社交媒体发帖称，“（美国）股市因本次（中期）选举结果遭遇史上最惨烈的交易日之一。记住，这不是共和党的锅，是那帮‘笨蛋民主党人’造成的。不过不必担心，我们很快就会变得比以往更强大、更辉煌。”（CCTV国际时讯）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "民主党",
+    "美股"
+   ],
+   "time": "08:13",
+   "score": 16.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -83,6 +137,29 @@
    "ai": ""
   },
   {
+   "id": "86f3b019ad79f6e1",
+   "title": "鲁比奥否认计划离职竞选美国总统 称将为特朗普工作至任期结束",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727163.shtml",
+   "summary": "鲁比奥向《纽约时报》表示，为美国总统特朗普工作至其任期结束，“一直都是我的计划”。对于有关他正在考虑离职的新闻报道，鲁比奥回应说：“说实话，我不知道这些说法是从哪里来的。”当被问及是否考虑参加2028年美国总统选举时，他拒绝回答。鲁比奥称：“我真的不会再谈论2028年大选的事了。我就是不再谈了。”",
+   "body": "鲁比奥向《纽约时报》表示，为美国总统特朗普工作至其任期结束，“一直都是我的计划”。对于有关他正在考虑离职的新闻报道，鲁比奥回应说：“说实话，我不知道这些说法是从哪里来的。”当被问及是否考虑参加2028年美国总统选举时，他拒绝回答。鲁比奥称：“我真的不会再谈论2028年大选的事了。我就是不再谈了。”",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "美国总统"
+   ],
+   "time": "11:42",
+   "score": 14.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "205ccfc42dff95b9",
    "title": "美国得州当选州长：在保护人民利益措施出台之前，必须暂停数据中心相关工作",
    "link": "https://wallstreetcn.com/articles/3785316",
@@ -102,6 +179,101 @@
    "why": "暂停数据中心",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "97815109dfb4178b",
+   "title": "特朗普称将“很快”决定是否重启对伊全面战争，外交斡旋同步提速",
+   "link": "https://wallstreetcn.com/articles/3785311",
+   "summary": "中期选举结束后，美国总统特朗普召集国家安全团队首次专题会议，目前考虑三个选项：发动新一轮空袭、继续经济制裁和封锁，或通过谈判达成协议。与此同时，多国调停方密集斡旋，伊朗方面也向莫斯科传递信号。 据 央视新闻 报道，当地时间11月4日，特朗普表示，他并没有说伊朗战争会在美国中期选举后立即结束。特朗普称，“ 伊朗战争将在我想要的时候结束 ”，伊朗战争的结束必须是正确的。 随后11月5日，据报道援引美国官员透露，特朗普当日在与国家安全顾问会面后表示， 随着中期选举结束，他很快就会决定是否在伊朗恢复全面战争。 美国官员透露，这是中期选举结束后，特朗普与国家安全高级顾问就伊朗问题举行的 首次专题会议 ，会议在每周例行情报简报框架内进行。 特朗普在白宫椭圆形办公室向记者表态称，“ 现在我们要做出决定了 ……我们是否要在打击上走得更远，以确保伊朗的核计划彻底终结，让它永远不会再发生？” 他随即补充：“如",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "战争"
+   ],
+   "time": "08:04",
+   "score": 14.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "0e08bca16418fe23",
+   "title": "Trump signs order preventing future presidents from changing Oval Office",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 33 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 33 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "12:29",
+   "score": 12.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "f194bcd16ced04c4",
+   "title": "特朗普：将就俄乌问题达成“重大协议”",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727064.shtml",
+   "summary": "中新社华盛顿11月5日电(记者 陈孟统)美国总统特朗普5日在白宫表示，将就俄乌问题达成“重大协议”。他还称，距离解决俄乌问题已“非常接近”。美国总统夫人梅拉尼娅5日在白宫就俄乌顺利实施奥列什基停火会见了俄乌官员。俄罗斯总统特别代表基里尔·德米特里耶夫、乌克兰执政党人民公仆党议会党团主席达维德·阿拉哈米亚和乌最高拉达(议会)人权事务专员德米特罗·卢比涅茨出席了活动。特朗普5日晚些时候在椭圆形办公室向记者证实，他当天会见了德米特里耶夫，但没有会见乌克兰代表。特朗普并未透露上述协议的有关内容，但他表示，该协议涉及的范围将不仅限于乌克兰，甚至可能涵盖整个欧洲。",
+   "body": "中新社华盛顿11月5日电(记者 陈孟统)美国总统特朗普5日在白宫表示，将就俄乌问题达成“重大协议”。他还称，距离解决俄乌问题已“非常接近”。美国总统夫人梅拉尼娅5日在白宫就俄乌顺利实施奥列什基停火会见了俄乌官员。俄罗斯总统特别代表基里尔·德米特里耶夫、乌克兰执政党人民公仆党议会党团主席达维德·阿拉哈米亚和乌最高拉达(议会)人权事务专员德米特罗·卢比涅茨出席了活动。特朗普5日晚些时候在椭圆形办公室向记者证实，他当天会见了德米特里耶夫，但没有会见乌克兰代表。特朗普并未透露上述协议的有关内容，但他表示，该协议涉及的范围将不仅限于乌克兰，甚至可能涵盖整个欧洲。",
+   "source": "中国新闻网·国际",
+   "also": [
+    {
+     "src": "中国新闻网·国际",
+     "t": "特朗普：俄乌冲突已非常接近解决",
+     "u": "https://www.chinanews.com.cn/gj/2026/11-06/10726987.shtml"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "11:05",
+   "score": 12.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "53b533d3a3f2f349",
+   "title": "Bank of England Raises Rates for First Time in Three Years",
+   "link": "https://www.nytimes.com/2026/11/05/business/bank-of-england-interest-rates-inflation.html",
+   "summary": "The central bank increased interest rates for the first time in more than three years and warned that inflation would climb to about 5 percent next year, far above its target.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "Bank of England"
+   ],
+   "time": "00:53",
+   "score": 12.5,
+   "level": 1,
+   "why": "raises rates",
+   "tier": "",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -127,22 +299,24 @@
    "ai": ""
   },
   {
-   "id": "53b533d3a3f2f349",
-   "title": "Bank of England Raises Rates for First Time in Three Years",
-   "link": "https://www.nytimes.com/2026/11/05/business/bank-of-england-interest-rates-inflation.html",
-   "summary": "The central bank increased interest rates for the first time in more than three years and warned that inflation would climb to about 5 percent next year, far above its target.",
+   "id": "e6cc87d811de42da",
+   "title": "Trump Says He Met With a Senior Russian Official on a Ukraine Peace Deal",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-russian-official-ukraine-peace-deal.html",
+   "summary": "President Trump said the deal “might involve all of Europe.” He indicated he had met with a Kremlin envoy whom Melania Trump hosted at the White House on Thursday.",
    "body": "",
-   "source": "纽约时报·商业",
+   "source": "纽约时报·美国",
    "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "00:53",
-   "score": 11.5,
+   "words": [
+    "Trump"
+   ],
+   "time": "07:47",
+   "score": 12.3,
    "level": 1,
-   "why": "raises rates",
-   "tier": "",
+   "why": "",
+   "tier": "must",
    "group": "nyt",
    "ai": ""
   },
