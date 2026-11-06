@@ -1781,6 +1781,12 @@ def main():
     if not args.no_merge:
         prev = load_today_json(cfg, date_str)
         if prev:
+            # 只累加属于当前栏目的条目。改口径那天（比如从"科技/财经/时政"
+            # 换成"美国重大/国内政策/突发事件"）旧数据的标签已经不存在了，
+            # 不滤掉就会把几百条旧分类混进当天，看板上新老栏目一起出现。
+            valid_topics = set((cfg.get("topics", {}) or {}).keys())
+            prev = [p for p in prev
+                    if (p.get("topics") or [None])[0] in valid_topics]
             have = {it["id"] for it in items}
             merged = items + [p for p in prev if p["id"] not in have]
             merged.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
