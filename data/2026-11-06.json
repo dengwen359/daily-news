@@ -1,8 +1,8 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06 15:22",
+ "generated_at": "2026-11-06 15:52",
  "hours_window": 30,
- "count": 23,
+ "count": 24,
  "sources_ok": 18,
  "sources_total": 18,
  "topics_order": [
@@ -57,7 +57,7 @@
     "关税"
    ],
    "time": "11:02",
-   "score": 18.5,
+   "score": 18.4,
    "level": 1,
    "why": "关税",
    "tier": "",
@@ -85,7 +85,7 @@
     "美股"
    ],
    "time": "14:30",
-   "score": 16.9,
+   "score": 16.8,
    "level": 1,
    "why": "非农",
    "tier": "",
@@ -109,7 +109,7 @@
     "美股"
    ],
    "time": "13:52",
-   "score": 16.8,
+   "score": 16.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -157,7 +157,7 @@
     "美股"
    ],
    "time": "10:34",
-   "score": 16.4,
+   "score": 16.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -201,7 +201,7 @@
     "英国央行"
    ],
    "time": "20:00",
-   "score": 15.6,
+   "score": 15.5,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -231,6 +231,34 @@
    "ai": ""
   },
   {
+   "id": "4e58c185e7494d29",
+   "title": "美国先减关税、中国再履行农产品采购承诺？外交部：建议询问主管部门",
+   "link": "https://wallstreetcn.com/livenews/3195718",
+   "summary": "外交部发言人郭嘉昆主持例行记者会。路透社记者提问，中国商务部发言人昨日表示，中国一贯对扩大自美国采购农产品持开放态度，但前提是双方落实此前商定的300亿美元互惠降税协议。这是否意味着除非关税削减，否则中方不会开始履行170亿美元的农产品采购承诺？ “这个问题建议向中方主管部门进一步询问。”郭嘉昆表示，维护中美经贸关系稳定发展，符合两国和两国人民利益，也有利于全球经济发展。双方要相向而行，坚持互利共赢导向，推动中美经贸关系持续稳定向好发展。（澎湃）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [
+    {
+     "src": "界面新闻",
+     "t": "美国先减关税、中国再履行农产品采购承诺？外交部：建议询问主管部门",
+     "u": "https://www.jiemian.com/article/15303580.html"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "关税"
+   ],
+   "time": "15:23",
+   "score": 14.9,
+   "level": 1,
+   "why": "关税",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
    "id": "bdb1d18f09489366",
    "title": "美股暴跌冲击：对冲基金10月撤仓创十余年最快，多家机构裁员",
    "link": "https://wallstreetcn.com/articles/3785346",
@@ -245,7 +273,7 @@
     "美股"
    ],
    "time": "14:30",
-   "score": 14.9,
+   "score": 14.8,
    "level": 1,
    "why": "暴跌",
    "tier": "",
@@ -312,7 +340,7 @@
     "暂停数据中心"
    ],
    "time": "08:15",
-   "score": 14.1,
+   "score": 14.0,
    "level": 1,
    "why": "暂停数据中心",
    "tier": "",
@@ -335,7 +363,7 @@
     "战争"
    ],
    "time": "08:04",
-   "score": 14.1,
+   "score": 14.0,
    "level": 1,
    "why": "",
    "tier": "",
@@ -363,7 +391,7 @@
     "特朗普"
    ],
    "time": "14:29",
-   "score": 12.9,
+   "score": 12.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -400,10 +428,10 @@
   },
   {
    "id": "0e08bca16418fe23",
-   "title": "Trump signs order preventing future presidents from changing Oval Office",
+   "title": "Trump signs order to preserve Oval Office as national monument",
    "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 2 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 2 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 3 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 3 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
    "source": "BBC·国际",
    "also": [],
    "topics": [
@@ -435,7 +463,7 @@
     "Bank of England"
    ],
    "time": "00:53",
-   "score": 12.2,
+   "score": 12.1,
    "level": 1,
    "why": "raises rates",
    "tier": "",
@@ -457,33 +485,11 @@
     "英国央行"
    ],
    "time": "00:01",
-   "score": 12.1,
+   "score": 12.0,
    "level": 1,
    "why": "加息",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "e6cc87d811de42da",
-   "title": "Trump Says He Met With a Senior Russian Official on a Ukraine Peace Deal",
-   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-russian-official-ukraine-peace-deal.html",
-   "summary": "President Trump said the deal “might involve all of Europe.” He indicated he had met with a Kremlin envoy whom Melania Trump hosted at the White House on Thursday.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "07:47",
-   "score": 12.1,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -502,11 +508,33 @@
     "中国人民银行"
    ],
    "time": "15:32",
-   "score": 12.0,
+   "score": 12,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "e6cc87d811de42da",
+   "title": "Trump Says He Met With a Senior Russian Official on a Ukraine Peace Deal",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-russian-official-ukraine-peace-deal.html",
+   "summary": "President Trump said the deal “might involve all of Europe.” He indicated he had met with a Kremlin envoy whom Melania Trump hosted at the White House on Thursday.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "07:47",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -524,7 +552,7 @@
     "特朗普"
    ],
    "time": "07:20",
-   "score": 12.0,
+   "score": 11.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -544,7 +572,7 @@
    ],
    "words": [],
    "time": "22:31",
-   "score": 9.9,
+   "score": 9.8,
    "level": 1,
    "why": "tsunami",
    "tier": "must",
