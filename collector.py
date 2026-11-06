@@ -133,6 +133,14 @@ def load_config(path):
             else:
                 if isinstance(cur, dict):
                     cur[key] = parse_scalar(val)
+
+    # 顶层排他表注入到「国内政策」栏。
+    # 放在顶层写，是因为 topics 里每个栏目下再嵌一层列表时，
+    # 缩进稍错就会被这个解析器吞进 keywords，排查起来很费劲。
+    cn_ex = root.get("cn_exclude") or []
+    tp = (root.get("topics") or {}).get("国内政策") if isinstance(root.get("topics"), dict) else None
+    if cn_ex and isinstance(tp, dict):
+        tp["exclude"] = list(cn_ex)
     return root
 
 
@@ -446,6 +454,12 @@ def match_topics(text, topics, weak=None, title=""):
     words = []
     weak = weak or set()
     for name, cfg in topics.items():
+        # 排他词：命中即认定这条不属于该栏。
+        # 例如国内政策里的「降息」「央行行长」会被「欧洲央行降息」「英国央行行长」
+        # 误命中，用 exclude 先挡掉，比逐个补限定词可靠。
+        excludes = cfg.get("exclude", []) or []
+        if any(kw_hit(k, text) for k in excludes):
+            continue
         kws = cfg.get("keywords", []) or []
         for kw in kws:
             if kw in weak:
