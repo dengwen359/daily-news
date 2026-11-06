@@ -251,6 +251,34 @@ def parse_json_lives(text):
     return out
 
 
+def parse_pbc(html):
+    """央行官网「沟通交流 > 新闻发布」列表页 → 与 parse_feed 相同格式。
+
+    官网没有 RSS（/rss/*.xml 全部 302），只能解析列表页 HTML：
+    - 条目链接形如 /goutongjiaoliu/113456/113469/YYYYMMDDHHMMSSxxxx/index.html，
+      URL 里自带发布时间（精确到秒），比页面上的日期字段可靠；
+    - 必须走 https，http 会被 302 挡掉。
+    """
+    out = []
+    base = "https://www.pbc.gov.cn"
+    cn = dt.timezone(dt.timedelta(hours=8))
+    for m in re.finditer(
+            r'href="(/goutongjiaoliu/\d+/\d+/(\d{14})\d*/index\.html)"[^>]*>([^<]+)<',
+            html):
+        link, ts, title = m.group(1), m.group(2), m.group(3)
+        title = re.sub(r"\s+", " ", title).strip()
+        if len(title) < 6:
+            continue
+        try:
+            # URL 时间戳是北京时间字面值，必须显式声明时区再转本地，
+            # 否则 GitHub Actions（UTC 容器）会把它当 UTC，显示时间差 8 小时
+            pub = dt.datetime.strptime(ts, "%Y%m%d%H%M%S").replace(tzinfo=cn).astimezone().isoformat()
+        except Exception:
+            pub = ""
+        out.append((title, base + link, "", pub))
+    return out
+
+
 def parse_time(s):
     s = (s or "").strip()
     if not s:
@@ -1655,6 +1683,8 @@ def main():
                 raise last_err
             if fd.get("type") == "json_lives":
                 entries = parse_json_lives(xml_text)
+            elif fd.get("type") == "pbc_html":
+                entries = parse_pbc(xml_text)
             else:
                 entries = parse_feed(xml_text)
             if not entries:
@@ -1681,6 +1711,11 @@ def main():
                     continue
                 # 过滤评论、图解、纪录片等非新闻栏目
                 if any(kw and kw in title for kw in title_excludes):
+                    continue
+                # 源级黑名单：机构源"源即准入"后，用它挡日常事务。
+                # 央行官网一天好几条"行长会见XX集团董事长"，全是外事应酬，
+                # 不挡的话这些全进国内政策要闻。
+                if any(kw and kw in title for kw in (fd.get("deny") or [])):
                     continue
 
                 # 栏目归属只看标题：摘要里几乎每篇都会提到"美国""关税""美联储"，

@@ -598,6 +598,21 @@ feeds:
     tier: must
     enabled: true
 
+  # 央行官网没有 RSS（/rss/*.xml 全部 302），这个源直接解析「沟通交流 > 新闻发布」
+  # 列表页 HTML（type: pbc_html）。降准降息、准备金率、再贷款政策的第一手公告在这里，
+  # 比媒体快讯早几分钟。institution: true 源即准入；deny 挡掉"行长会见XX"这类外事应酬。
+  # 注意必须 https，http 会被 302。
+  - name: 人民银行·新闻发布
+    block: 国内政策
+    institution: true
+    group: pbc
+    type: pbc_html
+    deny:
+      - 会见
+      - 出席
+    url: https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html
+    enabled: true
+
   # ---------- 国内媒体 ----------
   - name: 36氪
     url: https://www.36kr.com/feed
