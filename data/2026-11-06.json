@@ -1,8 +1,8 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06 15:52",
+ "generated_at": "2026-11-06 17:41",
  "hours_window": 30,
- "count": 24,
+ "count": 31,
  "sources_ok": 18,
  "sources_total": 18,
  "topics_order": [
@@ -12,6 +12,28 @@
   "其他"
  ],
  "items": [
+  {
+   "id": "165f25ebe265450d",
+   "title": "胡塞武装称沙特联军空袭也门一市场 多人伤亡",
+   "link": "https://wallstreetcn.com/livenews/3195791",
+   "summary": "当地时间6日上午，据也门胡塞武装方面消息，沙特主导的多国联军空袭了塔伊兹省一处市场，造成大量人员伤亡。 沙特方面对此暂无回应。（央视）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "空袭"
+   ],
+   "time": "16:36",
+   "score": 26.9,
+   "level": 2,
+   "why": "伤亡",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
   {
    "id": "c4fe750b3327694e",
    "title": "实测下单定制AI明星带货视频：商家主动支招规避平台风控",
@@ -32,6 +54,48 @@
    "why": "台风",
    "tier": "",
    "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
+   "id": "125fe2c8bc38f452",
+   "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
+   "link": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
+   "summary": "我受国务院委托，向全国人大常委会报告2025年10月以来金融工作情况，请予审议。习近平总书记高度重视和关心金融工作，对金融事业发展重大问题作出一系列重要论述和重要指示批示，为推进金融高质量发展、加快金融强国建设提供了根本遵循。国务院坚决贯彻落实以习近平同志为核心的党中央决策部署，李强总理对做好金融工作作出部署安排，丁薛祥、何立峰等领导同志提出明确要求。全国人大常委会高度重视、大力支持金融工作，2022年以来第五次听取和审议国务院关于金融工作情况的报告，并通过立法修法、督办建议、专题调研等方式，有力推动我国金融改革发展。",
+   "body": "我受国务院委托，向全国人大常委会报告2025年10月以来金融工作情况，请予审议。习近平总书记高度重视和关心金融工作，对金融事业发展重大问题作出一系列重要论述和重要指示批示，为推进金融高质量发展、加快金融强国建设提供了根本遵循。国务院坚决贯彻落实以习近平同志为核心的党中央决策部署，李强总理对做好金融工作作出部署安排，丁薛祥、何立峰等领导同志提出明确要求。全国人大常委会高度重视、大力支持金融工作，2022年以来第五次听取和审议国务院关于金融工作情况的报告，并通过立法修法、督办建议、专题调研等方式，有力推动我国金融改革发展。",
+   "source": "人民银行·新闻发布",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [],
+   "time": "10:33",
+   "score": 28,
+   "level": 1,
+   "why": "国务院",
+   "tier": "",
+   "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "bb9cd76f72adf9d6",
+   "title": "十四届全国人大常委会举行第七十六次委员长会议 决定将检察公益诉讼法草案等交付常委会会议表决 赵乐际主持会议",
+   "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727312.shtml",
+   "summary": "新华社北京11月6日电 十四届全国人大常委会第七十六次委员长会议6日上午在北京人民大会堂举行。赵乐际委员长主持会议。会议听取了全国人大宪法和法律委员会主任委员信春鹰作的关于检察公益诉讼法草案修改稿审议情况的汇报、关于南极活动与环境保护法草案修改稿审议情况的汇报、关于水法修订草案修改稿审议情况的汇报、关于反跨境腐败法草案修改稿审议情况的汇报、关于修改突发事件应对法等十五部法律的决定草案审议情况的汇报，审议了有关草案表决稿。",
+   "body": "新华社北京11月6日电 十四届全国人大常委会第七十六次委员长会议6日上午在北京人民大会堂举行。赵乐际委员长主持会议。会议听取了全国人大宪法和法律委员会主任委员信春鹰作的关于检察公益诉讼法草案修改稿审议情况的汇报、关于南极活动与环境保护法草案修改稿审议情况的汇报、关于水法修订草案修改稿审议情况的汇报、关于反跨境腐败法草案修改稿审议情况的汇报、关于修改突发事件应对法等十五部法律的决定草案审议情况的汇报，审议了有关草案表决稿。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "人大常委会"
+   ],
+   "time": "15:48",
+   "score": 26.8,
+   "level": 1,
+   "why": "人大常委会",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -57,7 +121,7 @@
     "关税"
    ],
    "time": "11:02",
-   "score": 18.4,
+   "score": 18.2,
    "level": 1,
    "why": "关税",
    "tier": "",
@@ -85,7 +149,7 @@
     "美股"
    ],
    "time": "14:30",
-   "score": 16.8,
+   "score": 16.6,
    "level": 1,
    "why": "非农",
    "tier": "",
@@ -109,7 +173,7 @@
     "美股"
    ],
    "time": "13:52",
-   "score": 16.7,
+   "score": 16.5,
    "level": 1,
    "why": "",
    "tier": "",
@@ -157,7 +221,7 @@
     "美股"
    ],
    "time": "10:34",
-   "score": 16.3,
+   "score": 16.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -165,23 +229,31 @@
    "ai": ""
   },
   {
-   "id": "125fe2c8bc38f452",
-   "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
-   "link": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
-   "summary": "我受国务院委托，向全国人大常委会报告2025年10月以来金融工作情况，请予审议。习近平总书记高度重视和关心金融工作，对金融事业发展重大问题作出一系列重要论述和重要指示批示，为推进金融高质量发展、加快金融强国建设提供了根本遵循。国务院坚决贯彻落实以习近平同志为核心的党中央决策部署，李强总理对做好金融工作作出部署安排，丁薛祥、何立峰等领导同志提出明确要求。全国人大常委会高度重视、大力支持金融工作，2022年以来第五次听取和审议国务院关于金融工作情况的报告，并通过立法修法、督办建议、专题调研等方式，有力推动我国金融改革发展。",
-   "body": "我受国务院委托，向全国人大常委会报告2025年10月以来金融工作情况，请予审议。习近平总书记高度重视和关心金融工作，对金融事业发展重大问题作出一系列重要论述和重要指示批示，为推进金融高质量发展、加快金融强国建设提供了根本遵循。国务院坚决贯彻落实以习近平同志为核心的党中央决策部署，李强总理对做好金融工作作出部署安排，丁薛祥、何立峰等领导同志提出明确要求。全国人大常委会高度重视、大力支持金融工作，2022年以来第五次听取和审议国务院关于金融工作情况的报告，并通过立法修法、督办建议、专题调研等方式，有力推动我国金融改革发展。",
-   "source": "人民银行·新闻发布",
-   "also": [],
-   "topics": [
-    "国内政策"
+   "id": "a59152c9ce798964",
+   "title": "英国央行行长贝利：如果能源价格维持高企，可能再次加息。",
+   "link": "https://wallstreetcn.com/livenews/3195747",
+   "summary": "英国央行行长贝利：如果能源价格维持高企，可能再次加息。 私人工资处于通胀目标区间的上限。 不认为我们已经出现内生性通胀。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "英国央行加息25基点，预测明年通胀升至5%，行长贝利警告：伊朗战争不结束，加息就不会到头",
+     "u": "https://wallstreetcn.com/articles/3785287"
+    }
    ],
-   "words": [],
-   "time": "10:33",
-   "score": 22,
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "英国央行"
+   ],
+   "time": "15:54",
+   "score": 15.8,
    "level": 1,
-   "why": "国务院",
+   "why": "加息",
    "tier": "",
-   "group": "pbc",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -231,53 +303,48 @@
    "ai": ""
   },
   {
-   "id": "4e58c185e7494d29",
-   "title": "美国先减关税、中国再履行农产品采购承诺？外交部：建议询问主管部门",
-   "link": "https://wallstreetcn.com/livenews/3195718",
-   "summary": "外交部发言人郭嘉昆主持例行记者会。路透社记者提问，中国商务部发言人昨日表示，中国一贯对扩大自美国采购农产品持开放态度，但前提是双方落实此前商定的300亿美元互惠降税协议。这是否意味着除非关税削减，否则中方不会开始履行170亿美元的农产品采购承诺？ “这个问题建议向中方主管部门进一步询问。”郭嘉昆表示，维护中美经贸关系稳定发展，符合两国和两国人民利益，也有利于全球经济发展。双方要相向而行，坚持互利共赢导向，推动中美经贸关系持续稳定向好发展。（澎湃）",
+   "id": "72efaba80917e82d",
+   "title": "“犹如晴天霹雳”！特朗普宣布终止对以援助，以色列总统表示震惊",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34421073",
+   "summary": "美国总统特朗普当地时间3日表示，美国每年向以色列提供的约40亿美元援助将于今年年底结束。该表态在以色列国内持续引发关注。据美国有线电视新闻网（CNN）、以色列Ynet新闻网5日报道，以色列总统赫尔佐格对特朗普这一决定表示震惊，称这“犹如晴天霹雳”。 赫尔佐格 资料图 图源：美媒 CNN称，赫尔佐格是在与埃森科特领导的以色列正直党会面时作出了上述表态。埃森科特是以总理内塔尼亚胡在选举中的主要竞争对手。 “美国（结束）援助问题让我非常担忧，而且对我来说也犹如晴天霹雳。我们与美国签署了一份谅解备忘录，该备忘录本应持续到2028年，这是我们的主要目标之一，因此必须尽快组建一个（新）政府，而不是反复举行选举”，赫尔佐格称。当地时间4日，赫尔佐格在选举陷入僵局后开始与各党派进行磋商，以组建新政府。 另据Ynet新闻网报道，特朗普有关结束援助的决定让以方“感到困惑且尴尬”。以色列官员们仍在努力理解特朗普",
    "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "美国先减关税、中国再履行农产品采购承诺？外交部：建议询问主管部门",
-     "u": "https://www.jiemian.com/article/15303580.html"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "关税"
-   ],
-   "time": "15:23",
-   "score": 14.9,
-   "level": 1,
-   "why": "关税",
-   "tier": "",
-   "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "bdb1d18f09489366",
-   "title": "美股暴跌冲击：对冲基金10月撤仓创十余年最快，多家机构裁员",
-   "link": "https://wallstreetcn.com/articles/3785346",
-   "summary": "美股史上最惨烈的抛售之一，正将对冲基金行业推入一场罕见的系统性压力测试。 据摩根士丹利客户报告，10月份是逾十年来股票型对冲基金主动平仓规模最大的月份，其市场敞口自6月以来已缩减约9%。纳斯达克100指数周四单日暴跌6.4%，蒸发市值约2.3万亿美元，VIX\"恐慌指数\"飙升70%，进一步加剧了此前已持续数月的行业困境。与此同时，Samlyn Capital、Engineers Gate、Walleye Capital等多家对冲基金近期相继宣布裁员或重组。 市场震荡对行业的损伤已超出单一事件范畴。高盛在周四致客户报告中指出，聚焦电信、媒体及科技板块的对冲基金周四单日损失逾4%，今年夏季AI行情逆转之前累积的高达24%的年内涨幅几乎悉数消弭；多策略基金当日亦损失1.4%，科技股及动量交易是主要拖累。 10月撤仓潮：十余年最大规模平仓 此轮压力的集中爆发点在10月。摩根士丹利报告显示，当月股票多",
-   "body": "",
-   "source": "华尔街见闻·文章",
+   "source": "澎湃新闻",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [
-    "美股"
+    "特朗普",
+    "以色列"
    ],
-   "time": "14:30",
-   "score": 14.8,
+   "time": "17:19",
+   "score": 15.0,
    "level": 1,
-   "why": "暴跌",
+   "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
+   "id": "791e98001942696d",
+   "title": "前瞻：食品价格走低、能源价格上行，10月CPI同比涨幅或保持平稳",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34420499",
+   "summary": "国家统计局将于11月9日9时30分公布10月物价数据。 机构认为，10月食品价格走低，对当月居民消费价格（CPI）形成拖累，能源价格持续上涨，预计10月CPI同比增速持平或小幅回落；能源价格继续支撑10月工业生产者出厂价格（PPI）同比上涨。 食品价格走低，10月CPI同比增速持平或小幅回落 据国家统计局，9月份，全国居民消费价格同比上涨0.9%，环比上涨0.2%。 多家机构认为，10月食品价格走低、能源价格继续上涨，综合影响下，10月CPI同比持平或小幅回落。中金宏观、招商宏观、浙商证券宏观研究团队、华创证券、民生银行首经团队的预测值分别为0.9%左右、0.7%附近、0.8%、0.7%左右、0.8%。 食品价格方面，中金宏观称，节后猪肉消费回落而供给仍较充足，22省市猪肉价格较上月回落，去年同期低基数推动同比降幅由上月的16.9%收窄至12.8%；蔬菜供应随秋季上市增加明显改善，10月蔬",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "CPI"
+   ],
+   "time": "16:40",
+   "score": 14.9,
+   "level": 1,
+   "why": "CPI",
+   "tier": "",
+   "group": "澎湃新闻",
    "ai": ""
   },
   {
@@ -303,6 +370,50 @@
    "ai": ""
   },
   {
+   "id": "4e58c185e7494d29",
+   "title": "美国先减关税、中国再履行农产品采购承诺？外交部：建议询问主管部门",
+   "link": "https://wallstreetcn.com/livenews/3195718",
+   "summary": "外交部发言人郭嘉昆主持例行记者会。路透社记者提问，中国商务部发言人昨日表示，中国一贯对扩大自美国采购农产品持开放态度，但前提是双方落实此前商定的300亿美元互惠降税协议。这是否意味着除非关税削减，否则中方不会开始履行170亿美元的农产品采购承诺？ “这个问题建议向中方主管部门进一步询问。”郭嘉昆表示，维护中美经贸关系稳定发展，符合两国和两国人民利益，也有利于全球经济发展。双方要相向而行，坚持互利共赢导向，推动中美经贸关系持续稳定向好发展。（澎湃）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "关税"
+   ],
+   "time": "15:23",
+   "score": 14.7,
+   "level": 1,
+   "why": "关税",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "bdb1d18f09489366",
+   "title": "美股暴跌冲击：对冲基金10月撤仓创十余年最快，多家机构裁员",
+   "link": "https://wallstreetcn.com/articles/3785346",
+   "summary": "美股史上最惨烈的抛售之一，正将对冲基金行业推入一场罕见的系统性压力测试。 据摩根士丹利客户报告，10月份是逾十年来股票型对冲基金主动平仓规模最大的月份，其市场敞口自6月以来已缩减约9%。纳斯达克100指数周四单日暴跌6.4%，蒸发市值约2.3万亿美元，VIX\"恐慌指数\"飙升70%，进一步加剧了此前已持续数月的行业困境。与此同时，Samlyn Capital、Engineers Gate、Walleye Capital等多家对冲基金近期相继宣布裁员或重组。 市场震荡对行业的损伤已超出单一事件范畴。高盛在周四致客户报告中指出，聚焦电信、媒体及科技板块的对冲基金周四单日损失逾4%，今年夏季AI行情逆转之前累积的高达24%的年内涨幅几乎悉数消弭；多策略基金当日亦损失1.4%，科技股及动量交易是主要拖累。 10月撤仓潮：十余年最大规模平仓 此轮压力的集中爆发点在10月。摩根士丹利报告显示，当月股票多",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美股"
+   ],
+   "time": "14:30",
+   "score": 14.6,
+   "level": 1,
+   "why": "暴跌",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "86f3b019ad79f6e1",
    "title": "鲁比奥否认计划离职竞选美国总统 称将为特朗普工作至任期结束",
    "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727163.shtml",
@@ -318,7 +429,7 @@
     "美国总统"
    ],
    "time": "11:42",
-   "score": 14.5,
+   "score": 14.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -340,7 +451,7 @@
     "暂停数据中心"
    ],
    "time": "08:15",
-   "score": 14.0,
+   "score": 13.8,
    "level": 1,
    "why": "暂停数据中心",
    "tier": "",
@@ -363,11 +474,55 @@
     "战争"
    ],
    "time": "08:04",
-   "score": 14.0,
+   "score": 13.8,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "0e08bca16418fe23",
+   "title": "Trump signs order to preserve Oval Office as national monument",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 21 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 21 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "17:19",
+   "score": 13.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "ff348aa3bacbff36",
+   "title": "特朗普签发中期选举后首份公告：禁止擅改总统办公室",
+   "link": "https://www.jiemian.com/article/15304431.html",
+   "summary": "美国总统特朗普11月5日签署公告，把白宫椭圆形办公室和内阁会议室列为“国家纪念地”，赋予位于白宫西翼的这两个房间特殊历史保护地位。特朗普告诉媒体记者，按照这份公告，任何人将不得擅自“触碰”这两个房间，禁止“任何笨蛋”为了新建“形状略有不同”的房间而毁坏或拆掉它们。他还强调，椭圆形办公室和内阁会议室未来的改造计划都需国会审批，“如果有人说‘不要椭圆形了，改成方形吧’，那他们得去找国会”。不过，据美联社报道，特朗普签署的公告并无效力阻止后任总统重新装修椭圆形办公室，公告本身也可能被继任者彻底推翻。（新华社）",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "17:08",
+   "score": 12.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -419,75 +574,9 @@
     "特朗普"
    ],
    "time": "11:05",
-   "score": 12.7,
+   "score": 12.2,
    "level": 1,
    "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "0e08bca16418fe23",
-   "title": "Trump signs order to preserve Oval Office as national monument",
-   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 3 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 3 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "12:29",
-   "score": 12.6,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "53b533d3a3f2f349",
-   "title": "Bank of England Raises Rates for First Time in Three Years",
-   "link": "https://www.nytimes.com/2026/11/05/business/bank-of-england-interest-rates-inflation.html",
-   "summary": "The central bank increased interest rates for the first time in more than three years and warned that inflation would climb to about 5 percent next year, far above its target.",
-   "body": "",
-   "source": "纽约时报·商业",
-   "also": [],
-   "topics": [
-    "突发事件"
-   ],
-   "words": [
-    "Bank of England"
-   ],
-   "time": "00:53",
-   "score": 12.1,
-   "level": 1,
-   "why": "raises rates",
-   "tier": "",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "4e5bf7c18c9b22e2",
-   "title": "英国央行三年多来首度加息",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726974.shtml",
-   "summary": "中新社伦敦11月5日电 (记者 欧阳开宇)当地时间11月5日，英国央行宣布加息25个基点，基准利率由3.75%上调至4%。这是该行自2023年8月之后时隔三年多首次加息。本次决议由英国央行货币政策委员会以8票赞成、1票反对通过，唯一异议委员主张更大幅度加息。英国央行明确释放后续信号，称若当前美伊地缘冲突持续、能源价格压力不退，英国大概率迎来新一轮加息。英国央行行长安德鲁·贝利表示，本次加息并非必然开启持续加息长周期，但在地缘风险未缓解的背景下，本次调整大概率不是最后一次加息。受能源涨价滞后传导影响，英国通胀风险再度抬头。",
-   "body": "中新社伦敦11月5日电 (记者 欧阳开宇)当地时间11月5日，英国央行宣布加息25个基点，基准利率由3.75%上调至4%。这是该行自2023年8月之后时隔三年多首次加息。本次决议由英国央行货币政策委员会以8票赞成、1票反对通过，唯一异议委员主张更大幅度加息。英国央行明确释放后续信号，称若当前美伊地缘冲突持续、能源价格压力不退，英国大概率迎来新一轮加息。英国央行行长安德鲁·贝利表示，本次加息并非必然开启持续加息长周期，但在地缘风险未缓解的背景下，本次调整大概率不是最后一次加息。受能源涨价滞后传导影响，英国通胀风险再度抬头。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "突发事件"
-   ],
-   "words": [
-    "英国央行"
-   ],
-   "time": "00:01",
-   "score": 12.0,
-   "level": 1,
-   "why": "加息",
    "tier": "must",
    "group": "chinanews",
    "ai": ""
@@ -516,24 +605,44 @@
    "ai": ""
   },
   {
-   "id": "e6cc87d811de42da",
-   "title": "Trump Says He Met With a Senior Russian Official on a Ukraine Peace Deal",
-   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-russian-official-ukraine-peace-deal.html",
-   "summary": "President Trump said the deal “might involve all of Europe.” He indicated he had met with a Kremlin envoy whom Melania Trump hosted at the White House on Thursday.",
-   "body": "",
-   "source": "纽约时报·美国",
+   "id": "1c78bf808ad65a8d",
+   "title": "'Several victims' after school bus crashes in France, officials say",
+   "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+   "summary": "Published8 minutes agoA school bus has crashed in eastern France, officials have said, adding that there are \"several victims\". The incident happened on Friday morning in the town of Lent, north-east of Lyon, around 34 miles (55km) from the border with Switzerland.",
+   "body": "Published8 minutes agoA school bus has crashed in eastern France, officials have said, adding that there are \"several victims\". The incident happened on Friday morning in the town of Lent, north-east of Lyon, around 34 miles (55km) from the border with Switzerland.",
+   "source": "BBC·国际",
    "also": [],
    "topics": [
-    "美国重大"
+    "突发事件"
    ],
-   "words": [
-    "Trump"
-   ],
-   "time": "07:47",
+   "words": [],
+   "time": "17:32",
    "score": 12.0,
    "level": 1,
-   "why": "",
+   "why": "crashes",
    "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "53b533d3a3f2f349",
+   "title": "Bank of England Raises Rates for First Time in Three Years",
+   "link": "https://www.nytimes.com/2026/11/05/business/bank-of-england-interest-rates-inflation.html",
+   "summary": "The central bank increased interest rates for the first time in more than three years and warned that inflation would climb to about 5 percent next year, far above its target.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "Bank of England"
+   ],
+   "time": "00:53",
+   "score": 11.9,
+   "level": 1,
+   "why": "raises rates",
+   "tier": "",
    "group": "nyt",
    "ai": ""
   },
@@ -560,6 +669,50 @@
    "ai": ""
   },
   {
+   "id": "4e5bf7c18c9b22e2",
+   "title": "英国央行三年多来首度加息",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726974.shtml",
+   "summary": "中新社伦敦11月5日电 (记者 欧阳开宇)当地时间11月5日，英国央行宣布加息25个基点，基准利率由3.75%上调至4%。这是该行自2023年8月之后时隔三年多首次加息。本次决议由英国央行货币政策委员会以8票赞成、1票反对通过，唯一异议委员主张更大幅度加息。英国央行明确释放后续信号，称若当前美伊地缘冲突持续、能源价格压力不退，英国大概率迎来新一轮加息。英国央行行长安德鲁·贝利表示，本次加息并非必然开启持续加息长周期，但在地缘风险未缓解的背景下，本次调整大概率不是最后一次加息。受能源涨价滞后传导影响，英国通胀风险再度抬头。",
+   "body": "中新社伦敦11月5日电 (记者 欧阳开宇)当地时间11月5日，英国央行宣布加息25个基点，基准利率由3.75%上调至4%。这是该行自2023年8月之后时隔三年多首次加息。本次决议由英国央行货币政策委员会以8票赞成、1票反对通过，唯一异议委员主张更大幅度加息。英国央行明确释放后续信号，称若当前美伊地缘冲突持续、能源价格压力不退，英国大概率迎来新一轮加息。英国央行行长安德鲁·贝利表示，本次加息并非必然开启持续加息长周期，但在地缘风险未缓解的背景下，本次调整大概率不是最后一次加息。受能源涨价滞后传导影响，英国通胀风险再度抬头。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "英国央行"
+   ],
+   "time": "00:01",
+   "score": 11.8,
+   "level": 1,
+   "why": "加息",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "e6cc87d811de42da",
+   "title": "Trump Says He Met With a Senior Russian Official on a Ukraine Peace Deal",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-russian-official-ukraine-peace-deal.html",
+   "summary": "President Trump said the deal “might involve all of Europe.” He indicated he had met with a Kremlin envoy whom Melania Trump hosted at the White House on Thursday.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "07:47",
+   "score": 11.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "c2457b2e9b7dd654",
    "title": "Everyone’s Talking About the ‘Blue Tsunami.’ In Japan, It’s Complicated.",
    "link": "https://www.nytimes.com/2026/11/05/world/asia/japan-hokusai-great-wave-midterms.html",
@@ -572,7 +725,7 @@
    ],
    "words": [],
    "time": "22:31",
-   "score": 9.8,
+   "score": 9.6,
    "level": 1,
    "why": "tsunami",
    "tier": "must",
