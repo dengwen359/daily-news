@@ -1,0 +1,641 @@
+{
+ "date": "2026-11-07",
+ "generated_at": "2026-11-07 01:38",
+ "hours_window": 30,
+ "count": 27,
+ "sources_ok": 18,
+ "sources_total": 18,
+ "topics_order": [
+  "美国重大",
+  "国内政策",
+  "突发事件",
+  "其他"
+ ],
+ "items": [
+  {
+   "id": "8ba246aec07e497f",
+   "title": "刘海星同朝鲜劳动党中央政治局委员、中央书记、国际部部长金成男举行会谈",
+   "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727715.shtml",
+   "summary": "新华社北京11月6日电 11月6日，中共中央对外联络部部长刘海星在北京同朝鲜劳动党中央政治局委员、中央书记、国际部部长金成男举行会谈。双方就共同落实好两党两国最高领导人重要共识，加强党际交往、推动中朝关系发展等交换意见。",
+   "body": "",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "政治局",
+    "朝鲜"
+   ],
+   "time": "23:42",
+   "score": 28.8,
+   "level": 1,
+   "why": "政治局",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "96943b25cba44dec",
+   "title": "中领馆提醒中国公民关注印尼两座火山喷发",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727524.shtml",
+   "summary": "据印尼地质灾害与火山监测中心通报，当地时间11月5日，东爪哇省塞梅鲁火山、布罗莫火山同步发生喷发活动。两座火山当前维持二级警戒，存在火山灰飘散、二次喷发、碎石滚落等风险。一、计划前往东爪哇的中国公民，请审慎评估风险，近期暂缓前往布罗莫、塞梅鲁火山及周边景点。请密切跟踪印尼火山地质减灾中心、国家减灾署、布罗莫-腾格尔-塞梅鲁国家公园发布的预警与景区通知。二、已在布罗莫-腾格尔-塞梅鲁国家公园范围内的人员，请勿前往火山管控区冒险登山、观景、露营等。请听从当地政府、景区工作人员指引，遇险情迅速撤离至安全地带。",
+   "body": "据印尼地质灾害与火山监测中心通报，当地时间11月5日，东爪哇省塞梅鲁火山、布罗莫火山同步发生喷发活动。两座火山当前维持二级警戒，存在火山灰飘散、二次喷发、碎石滚落等风险。一、计划前往东爪哇的中国公民，请审慎评估风险，近期暂缓前往布罗莫、塞梅鲁火山及周边景点。请密切跟踪印尼火山地质减灾中心、国家减灾署、布罗莫-腾格尔-塞梅鲁国家公园发布的预警与景区通知。二、已在布罗莫-腾格尔-塞梅鲁国家公园范围内的人员，请勿前往火山管控区冒险登山、观景、露营等。请听从当地政府、景区工作人员指引，遇险情迅速撤离至安全地带。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "火山"
+   ],
+   "time": "20:48",
+   "score": 22.4,
+   "level": 2,
+   "why": "火山",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "62ec5ea714f5b4fc",
+   "title": "日本关东地区以东海域发生6.1级地震",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727456.shtml",
+   "summary": "中新网11月6日电 据日本气象厅消息，日本关东地区以东海域6日发生6.1级地震。",
+   "body": "",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "地震"
+   ],
+   "time": "18:57",
+   "score": 22.2,
+   "level": 2,
+   "why": "地震",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "65e9c90877285288",
+   "title": "国常会：完善资本市场稳市机制，增强股市内在稳定性",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34422193",
+   "summary": "国务院总理李强11月6日主持召开国务院常务会议，学习贯彻习近平总书记关于前三季度经济形势和后几个月重点工作的重要讲话精神，听取社会救助工作情况汇报。 会议指出，要深刻把握党中央对经济形势的科学判断和下一步工作部署要求，坚定发展信心，切实增强责任感、紧迫感，扎实推进各项政策落地见效，确保完成全年经济社会发展主要目标任务。要聚焦重点领域持续发力，加快重大项目和“六张网”建设实施进度，支持企业扩大设备更新、无形资产等投资，加强消费线上线下联动和城乡联动，畅通投资消费良性循环。要用好用足各项政策性资金，及时足额拨付涉及基层和企业各类款项，更好发挥财政金融协同促内需政策效应。要扎实做好稳就业、防风险和民生保障等工作，强化重点群体就业服务，对脱贫家庭、低保家庭、零就业家庭困难毕业生给予就业扶持。抓实抓细安全生产风险隐患排查整治，坚决遏制重特大事故发生。持续化解地方政府债务、中小金融机构等领域风险。完善",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "国常会"
+   ],
+   "time": "20:23",
+   "score": 26.3,
+   "level": 1,
+   "why": "国常会",
+   "tier": "",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
+   "id": "1ea702e3f93805fc",
+   "title": "10月非农重燃12月加息预期！华尔街押注概率超八成，“新美联储通讯社”：AI抛售或成政策变量",
+   "link": "https://wallstreetcn.com/articles/3785400",
+   "summary": "美国10月非农就业数据强于预期，重新点燃华尔街押注美联储12月加息的热情。交易员在报告公布后预计，美联储12月加息25个基点的概率已升至八成以上。 美国劳工统计局（BLS）11月6日周五公布的报告显示，10月非农就业人数增加16.5万人，远超华尔街预期的增幅7万；失业率降至4.1%，劳动力参与率则升至61.9%，均未如市场所料持平9月；平均时薪环比涨0.4%，较9月加快上涨程度超出市场预期。就业、失业和薪资指标整体偏强。 多家华尔街机构人士认为，这份报告为美联储12月进一步加息提供了更充分的依据。不过，能源价格和后续通胀走势，以及近期AI相关资产抛售对金融条件的影响，仍可能左右美联储下一步行动。 有“新美联储通讯社”之称的记者Nick Timiraos认为，这份就业报告并未动摇美联储对经济增长和通胀的判断，但近期AI相关资产抛售是否会改变金融条件，可能成为12月政策决策中的另一重变量。美联",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储",
+    "华尔街"
+   ],
+   "time": "00:15",
+   "score": 18.8,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "5ffe2934e21ea767",
+   "title": "随着民主党将掌控美国国会，议员计划推出大量AI法案",
+   "link": "https://wallstreetcn.com/livenews/3196104",
+   "summary": "法律制定者、国会助手及行业倡导者表示，当民主党在2027年1月份掌控美国国会时，正计划推出大量针对人工智能（AI）系统和数据中心开发的新立法。 这些计划将标志着与共和党主导的国会的鲜明转变。在共和党领导下，议员们主要聚焦于推动人工智能的发展，并拒绝通过限制该技术相关方面的立法，当时选民正对数据中心的迅猛扩张及其巨大的电力需求产生反感。 他们表示，民主党计划推出的法案旨在：保护消费者免受与数据中心挂钩不断上涨的电费负担的影响、对先进的人工智能系统进行独立测试、以及明确人工智能公司何时应为其产品造成的损害承担法律责任。（彭博）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美国国会",
+    "民主党"
+   ],
+   "time": "23:47",
+   "score": 16.8,
+   "level": 1,
+   "why": "法案",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "52b66196b33a409e",
+   "title": "白宫顾问哈塞特：美国总统特朗普对于与英特尔达成的交易感到兴奋。",
+   "link": "https://wallstreetcn.com/livenews/3196066",
+   "summary": "白宫顾问哈塞特：美国总统特朗普对于与英特尔达成的交易感到兴奋。 保证英特尔将随着时间的推移而迅猛翻身。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "白宫",
+    "美国总统"
+   ],
+   "time": "22:20",
+   "score": 16.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "796f2ff61823c0b5",
+   "title": "特朗普：美股经历史上最糟交易日之一，都怪民主党",
+   "link": "https://wallstreetcn.com/articles/3785344",
+   "summary": "美国中期选举结果揭晓后次日，华尔街遭遇今年以来最惨烈的单日抛售，特朗普将矛头直指民主党。 11月5日，纳斯达克综合指数单日暴跌5.52%，标普500指数下挫逾4%，三大股指均创下2025年4月关税冲击以来最大单日跌幅。科技股首当其冲，英伟达、博通、高通等芯片巨头跌幅均超9%，市场对民主党执政后AI政策走向的忧虑成为直接导火索。 特朗普随即在社交媒体连发多文， 将此次暴跌归咎于民主党的中期选举大胜，并以自创词\"蠢民主党人\"（Dumocrats）直接点名攻击，警告选民\"你们只能怪自己\"。他同时为共和党执政期间的市场表现辩护，并表示\"别担心，我们很快就会以某种方式，变得比以往任何时候都更加强大\"。 美股创下关税冲击以来最大单日跌幅 美东时间11月5日收盘，纳斯达克综合指数大跌5.52%，较10月6日创下的历史收盘高点回落逾10%，正式进入技术性回调区间，并创下19个月以来最大单日跌幅。标普500",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "民主党",
+    "美股"
+   ],
+   "time": "13:52",
+   "score": 15.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "bbf33f5021169762",
+   "title": "非农大超预期，美股芯片领涨，费半大涨7%，美债收益率走高，黄金承压回落",
+   "link": "https://wallstreetcn.com/articles/3785315",
+   "summary": "美国10月非农就业数据大幅超出预期，美股在芯片股反弹带动下维持涨势，美债收益率随之走高，黄金则承压下跌。 美国劳工统计局周五公布数据显示 ，10月非农就业人数增加16.5万，前两个月数据亦获上调修正，失业率降至4.1%。数据公布后，交易员加大对美联储12月加息的押注。现货黄金价格跌超1%，报4041.89美元/盎司。美国国债收益率走升，10年期收益率上行逾6个基点，报4.898%。 美股盘初，纳斯达克100指数涨2.4%，纳指涨2%，标普涨1.1%，道指跌幅收窄至0.15%。 美股存储芯片指数涨超8%，成分股拉姆研究涨10%，闪迪涨7.8%，应用材料、泰瑞达、Rambus、美光至少涨超5%。此前报道称，台积电考虑进军存储芯片市场。 费城半导体指数涨幅扩大至将近7%。台积电一度涨约7.8%，英伟达涨7.3%。 欧股跌幅扩大，德国DAX指数跌超2%，英国富时100指数跌近2%，欧洲斯托克50指",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美股"
+   ],
+   "time": "23:15",
+   "score": 14.7,
+   "level": 1,
+   "why": "非农",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "1a9fcffa55a6ac67",
+   "title": "加拿大10月季调后Ivey PMI 58.3，前值 58.2。",
+   "link": "https://wallstreetcn.com/livenews/3196094",
+   "summary": "加拿大10月季调后Ivey PMI 58.3，前值 58.2。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PMI"
+   ],
+   "time": "23:00",
+   "score": 14.7,
+   "level": 1,
+   "why": "PMI",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "401d02929cb4784c",
+   "title": "“新美联储通讯社”Nick Timiraos：美国10月份失业率小幅下降0.03个百分点，至4.14%。",
+   "link": "https://wallstreetcn.com/livenews/3196041",
+   "summary": "“新美联储通讯社”Nick Timiraos：美国10月份失业率小幅下降0.03个百分点，至4.14%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储"
+   ],
+   "time": "21:43",
+   "score": 14.5,
+   "level": 1,
+   "why": "失业率",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "f58eb06a258f4dc1",
+   "title": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
+   "link": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
+   "summary": "A judge has blocked construction of Trump's arch moments after it won federal approval to proceed. And, the Labor Department is set to release the latest jobs report today, a day after stocks plunged.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "20:24",
+   "score": 14.3,
+   "level": 1,
+   "why": "halts",
+   "tier": "",
+   "group": "npr",
+   "ai": ""
+  },
+  {
+   "id": "bdb1d18f09489366",
+   "title": "美股暴跌冲击：对冲基金10月撤仓创十余年最快，多家机构裁员",
+   "link": "https://wallstreetcn.com/articles/3785346",
+   "summary": "美股史上最惨烈的抛售之一，正将对冲基金行业推入一场罕见的系统性压力测试。 据摩根士丹利客户报告，10月份是逾十年来股票型对冲基金主动平仓规模最大的月份，其市场敞口自6月以来已缩减约9%。纳斯达克100指数周四单日暴跌6.4%，蒸发市值约2.3万亿美元，VIX\"恐慌指数\"飙升70%，进一步加剧了此前已持续数月的行业困境。与此同时，Samlyn Capital、Engineers Gate、Walleye Capital等多家对冲基金近期相继宣布裁员或重组。 市场震荡对行业的损伤已超出单一事件范畴。高盛在周四致客户报告中指出，聚焦电信、媒体及科技板块的对冲基金周四单日损失逾4%，今年夏季AI行情逆转之前累积的高达24%的年内涨幅几乎悉数消弭；多策略基金当日亦损失1.4%，科技股及动量交易是主要拖累。 10月撤仓潮：十余年最大规模平仓 此轮压力的集中爆发点在10月。摩根士丹利报告显示，当月股票多",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美股"
+   ],
+   "time": "14:30",
+   "score": 13.6,
+   "level": 1,
+   "why": "暴跌",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "2f9163cc2e872207",
+   "title": "掉期市场数据显示：加拿大央行12月加息可能性下降至32%左右，就业数据发布前为40%。",
+   "link": "https://wallstreetcn.com/livenews/3196045",
+   "summary": "掉期市场数据显示：加拿大央行12月加息可能性下降至32%左右，就业数据发布前为40%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "加拿大央行"
+   ],
+   "time": "21:54",
+   "score": 13.5,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "5cbbb23718be316d",
+   "title": "隔夜美股崩盘：一场由1000亿美元“抢跑”引爆的反身性风暴",
+   "link": "https://wallstreetcn.com/articles/3785338",
+   "summary": "周四，高盛的电话机要爆炸了。 “痛苦程度极高。” 这是高盛顶级股票交易员John Flood在周四当日报告中给客户发的一句话。他的电话机，用他自己的话说，“正在爆炸”。 纳斯达克100指数周四收跌6.4%，单日蒸发市值约2.3万亿美元，创2020年3月以来最大单日跌幅。标普500跌4.4%，费城半导体指数暴跌12%。“恐慌指数”VIX飙升70%，英伟达年内涨幅悉数回吐，闪迪单日暴跌22%。 触发这场崩盘的直接导火索，是民主党在中期选举中横扫国会两院。高盛随即警告，此次“蓝色海啸”将导致约45%的美国计划数据中心扩张容量面临暂停令——支撑AI科技股估值的核心叙事，在一夜之间被政治现实打了一个问号。 但行情的惨烈程度，远超政策冲击本身所能解释的范围。 野村证券衍生品策略师Charlie McElligott在周四盘中发布的一份报告里， 给出了另一层解释——这场崩盘，有相当一部分是被“最聪明的那",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "撞上AI崩盘！今晚，一份强劲非农报告，或给美股又一重击",
+     "u": "https://wallstreetcn.com/articles/3785351"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美股"
+   ],
+   "time": "11:57",
+   "score": 13.3,
+   "level": 1,
+   "why": "崩盘",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "86f3b019ad79f6e1",
+   "title": "鲁比奥否认计划离职竞选美国总统 称将为特朗普工作至任期结束",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727163.shtml",
+   "summary": "鲁比奥向《纽约时报》表示，为美国总统特朗普工作至其任期结束，“一直都是我的计划”。对于有关他正在考虑离职的新闻报道，鲁比奥回应说：“说实话，我不知道这些说法是从哪里来的。”当被问及是否考虑参加2028年美国总统选举时，他拒绝回答。鲁比奥称：“我真的不会再谈论2028年大选的事了。我就是不再谈了。”",
+   "body": "鲁比奥向《纽约时报》表示，为美国总统特朗普工作至其任期结束，“一直都是我的计划”。对于有关他正在考虑离职的新闻报道，鲁比奥回应说：“说实话，我不知道这些说法是从哪里来的。”当被问及是否考虑参加2028年美国总统选举时，他拒绝回答。鲁比奥称：“我真的不会再谈论2028年大选的事了。我就是不再谈了。”",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "美国总统"
+   ],
+   "time": "11:42",
+   "score": 13.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "f06852cde8ed014b",
+   "title": "特朗普：只有“愚蠢的”领导人才会对AI说不",
+   "link": "https://wallstreetcn.com/livenews/3196144",
+   "summary": "美国总统特朗普重申他支持人工智能（AI）的立场。此前，对这项技术可能受到更严格监管的担忧引发股市暴跌，市值蒸发2.3万亿美元。 他在Truth Social上谈到AI公司时表示：“它们是黄金，只有愚蠢的领导人才会对它们带来的财富说‘不’！”",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "01:23",
+   "score": 13.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "59027a623744ee98",
+   "title": "The Voters Who Powered the Blue Tsunami",
+   "link": "https://www.nytimes.com/video/us/elections/100000011265557/the-voters-who-powered-the-blue-tsunami.html",
+   "summary": "A younger, more diverse electorate than is typical in midterm elections helped drive Democrats’ decisive victory, along with gains among swing voters and support from some Republican voters. Nate Cohn, The New York Times’s chief political analyst, explains.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "00:41",
+   "score": 12.9,
+   "level": 1,
+   "why": "tsunami",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "205ccfc42dff95b9",
+   "title": "美国得州当选州长：在保护人民利益措施出台之前，必须暂停数据中心相关工作",
+   "link": "https://wallstreetcn.com/articles/3785316",
+   "summary": "当地时间11月6日，得克萨斯州当选州长Gina Hinojosa接受CNN采访，就数据中心问题公开发声。她的表态简短、直接，却在市场掀起了不小的波澜。 Hinojosa在采访中说： “我们将制定法律来保护得州居民，在这些保护措施到位之前，我们需要暂停目前在数据中心方面的相关工作。” 她随即补充：“我并不是讨厌数据中心。我讨厌它们利用得克萨斯州的方式。当我担任州长时，这种情况将停止。” 而该州数据中心冻结最早要到明年5月底才可能解除。得克萨斯州第90届立法会议将于2027年1月12日召开，常规会期于2027年5月31日结束。 对马斯克：合作可以，但要“按我们的条件” 这次采访中，Hinojosa也被问及如何与科技巨头打交道。 她的回答是： “我们可以与马斯克及其公司建立强劲的合作关系——但必须按我们的条件来。” 这句话划定了她的谈判底线：得州不拒绝科技投资，但不接受此前那种开发商主导、政府配",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "暂停数据中心"
+   ],
+   "time": "08:15",
+   "score": 12.8,
+   "level": 1,
+   "why": "暂停数据中心",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "97815109dfb4178b",
+   "title": "特朗普称将“很快”决定是否重启对伊全面战争，外交斡旋同步提速",
+   "link": "https://wallstreetcn.com/articles/3785311",
+   "summary": "中期选举结束后，美国总统特朗普召集国家安全团队首次专题会议，目前考虑三个选项：发动新一轮空袭、继续经济制裁和封锁，或通过谈判达成协议。与此同时，多国调停方密集斡旋，伊朗方面也向莫斯科传递信号。 据 央视新闻 报道，当地时间11月4日，特朗普表示，他并没有说伊朗战争会在美国中期选举后立即结束。特朗普称，“ 伊朗战争将在我想要的时候结束 ”，伊朗战争的结束必须是正确的。 随后11月5日，据报道援引美国官员透露，特朗普当日在与国家安全顾问会面后表示， 随着中期选举结束，他很快就会决定是否在伊朗恢复全面战争。 美国官员透露，这是中期选举结束后，特朗普与国家安全高级顾问就伊朗问题举行的 首次专题会议 ，会议在每周例行情报简报框架内进行。 特朗普在白宫椭圆形办公室向记者表态称，“ 现在我们要做出决定了 ……我们是否要在打击上走得更远，以确保伊朗的核计划彻底终结，让它永远不会再发生？” 他随即补充：“如",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "战争"
+   ],
+   "time": "08:04",
+   "score": 12.8,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "fab2355fef50f40d",
+   "title": "白宫顾问哈塞特：承认芯片公司最近数周出现了一些“小问题”",
+   "link": "https://wallstreetcn.com/livenews/3196061",
+   "summary": "白宫顾问哈塞特：美国总统特朗普尊重那些不想要数据中心的地方。 （回应有关AI泡沫担忧的问题）AI泡沫的确值得关注。 承认芯片公司最近数周出现了一些“小问题”。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "白宫顾问哈塞特：将针对（美国总统特朗普控告）美联储理事库克一事发布一份“基于证据的报告”。",
+     "u": "https://wallstreetcn.com/livenews/3196084"
+    },
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "白宫顾问哈塞特：我们将尊重美联储和美联储主席沃什的判断。",
+     "u": "https://wallstreetcn.com/livenews/3196065"
+    },
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "白宫顾问哈塞特：美国经济增长数据强劲，通胀放缓。",
+     "u": "https://wallstreetcn.com/livenews/3196083"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "白宫"
+   ],
+   "time": "22:13",
+   "score": 12.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "0e08bca16418fe23",
+   "title": "Trump signs order to preserve Oval Office as national monument",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 8 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 8 hours agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "17:19",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "1c78bf808ad65a8d",
+   "title": "Two dead after bus crashes in France, officials say",
+   "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, ReutersImage caption, French gendarmes and rescue workers at the scene of the crash in Lent, eastern France A young girl and an 18-year-old man have died after a bus crashed in eastern France, local authorities have said.",
+   "body": "Image source, ReutersImage caption, French gendarmes and rescue workers at the scene of the crash in Lent, eastern France A young girl and an 18-year-old man have died after a bus crashed in eastern France, local authorities have said.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [],
+   "time": "23:33",
+   "score": 11.7,
+   "level": 1,
+   "why": "crashes",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "53b533d3a3f2f349",
+   "title": "Bank of England Raises Rates for First Time in Three Years",
+   "link": "https://www.nytimes.com/2026/11/05/business/bank-of-england-interest-rates-inflation.html",
+   "summary": "The central bank increased interest rates for the first time in more than three years and warned that inflation would climb to about 5 percent next year, far above its target.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "Bank of England"
+   ],
+   "time": "00:53",
+   "score": 11,
+   "level": 1,
+   "why": "raises rates",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "e6cc87d811de42da",
+   "title": "Trump Says He Met With a Senior Russian Official on a Ukraine Peace Deal",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-russian-official-ukraine-peace-deal.html",
+   "summary": "President Trump said the deal “might involve all of Europe.” He indicated he had met with a Kremlin envoy whom Melania Trump hosted at the White House on Thursday.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "07:47",
+   "score": 10.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "d8a701e5513db41b",
+   "title": "特朗普中选后加码首都治安：美防长被曝批准国民警卫队使用军用车船",
+   "link": "https://wallstreetcn.com/articles/3785297",
+   "summary": "美国国防部长赫格塞思据称批准国民警卫队在华盛顿特区使用船只、数十辆警用标识车辆以及悍马和轻型中型战术车辆，进一步扩大军方在首都的存在。 据Politico获得的一份10月29日备忘录，此次调整允许国民警卫队使用多种此前主要用于军事行动的装备，协助执法人员开展打击毒品交易、帮派活动等行动。不过，国民警卫队人员仍不得自行追捕嫌疑人或实施逮捕。 上述赫格塞思的新安排将持续至今年年底。它意味着，特朗普政府在中期选举后继续强化其所谓的首都“犯罪紧急状态”行动，也进一步模糊了国民警卫队军事任务与地方执法之间的界限。 军用战术车辆驶上首都街头，船只参与警方行动 根据赫格塞思签署的备忘录，国民警卫队将获准使用数十辆带有明显警用标识的汽车、悍马以及轻型中型战术车辆。这些车辆通常用于美国军队在伊拉克、阿富汗等战场上的行动，此次将被部署到华盛顿街头，支持地方及联邦执法人员开展行动。 新增装备还包括船只。根据备忘",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "共和党惨败中选，特朗普还能坚持关税吗？2029年前，不要指望有什么变化",
+     "u": "https://wallstreetcn.com/articles/3785322"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "02:26",
+   "score": 10.1,
+   "level": 1,
+   "why": "关税",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "c2457b2e9b7dd654",
+   "title": "Everyone’s Talking About the ‘Blue Tsunami.’ In Japan, It’s Complicated.",
+   "link": "https://www.nytimes.com/2026/11/05/world/asia/japan-hokusai-great-wave-midterms.html",
+   "summary": "The New York Post used a Hokusai work to depict Donald Trump being swept away by Democrats’ midterm election win. Some in Japan were bothered by the imagery.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [],
+   "time": "22:31",
+   "score": 9,
+   "level": 1,
+   "why": "tsunami",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  }
+ ]
+}
