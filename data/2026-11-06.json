@@ -1,8 +1,8 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06 11:28",
+ "generated_at": "2026-11-06 11:35",
  "hours_window": 30,
- "count": 381,
+ "count": 402,
  "sources_ok": 19,
  "sources_total": 19,
  "topics_order": [
@@ -62,61 +62,6 @@
    "ai": ""
   },
   {
-   "id": "65ce8c3fd8ec86a3",
-   "title": "创业板盘中跌幅收窄至2%，AI硬件领跌、“易中天”重挫，光伏、农业逆势活跃，恒科指接近翻红，科网股局部反弹",
-   "link": "https://wallstreetcn.com/articles/3785325",
-   "summary": "隔夜美股遭遇大跌，科技股重创， 纳指重挫超5% ，芯片指数跳水12%，拖累亚太市场，日本和韩国股市周五早盘双双杀跌，三星电子、SK海力士下挫，A股和港股低开低走，AI硬件股跌幅居前，“易中天”齐跌。 11月6日，A股早盘大幅低开，三大股指盘初集体下跌，创业板开盘跌近5%，盘中股指跌幅有所收窄，算力硬件普遍陷入调整，光模块、光芯片、光通信等集体走低，“易中天”早盘跌幅均超过10%，华虹宏力逆势大涨超10%。光伏、新能源、电力、农业等板块逆势上涨。 港股同样低开，恒指、恒科指早盘跌幅收窄，恒科指盘初一度大跌超3%，目前接近转涨，科网股局部反弹，小米、京东、美团翻红。AI硬件股继续下挫，中际旭创、剑桥科技、长飞光纤光缆跌幅超过10%。债市方面，国债期货多数上涨。商品方面，国内商品期货涨跌参半。核心市场走势： A股 ：截至发稿，沪指跌0.83%，深成指跌1.53%，创业板指跌2.46%。 港股 ：",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资"
-   ],
-   "words": [
-    "AI",
-    "芯片",
-    "半导体",
-    "算力",
-    "新能源"
-   ],
-   "time": "10:39",
-   "score": 19.9,
-   "level": 1,
-   "why": "创业板",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "885d76af6c0c6f2d",
-   "title": "创业板冲高回落涨0.87%，AI硬件股分化、“易中天”再度大跌，光伏掀起涨停潮，恒科指暴涨5%，科网股全线攀升",
-   "link": "https://wallstreetcn.com/articles/3785230",
-   "summary": "光伏全链涨停潮成为当日最强主线。驱动来自三重共振：三季度光伏装机同比增长约38%、逆变器行业掀起集体涨价潮、美国中期选举落地强化绿色补贴延续预期。AI硬件内部分裂，CPO与PCB下挫，“易中天”集体大跌，昔日股王联讯仪器盘中跌破800元。 11月5日，A股全天冲高回落，午后沪指、创业板一度翻绿，尾盘小幅回升，创业板指此前一度涨超3%。AI硬件内部分化，电路板、光模块、存储芯片等概念股走低，“易中天”再度大跌，半导体设备、半导体材料等活跃。光伏设备、贵金属、锂电池等板块领涨；银行、煤炭、油气、航运港口等板块领跌。 港股全天高开高走，恒指、恒科指双双拉升，恒指涨3%，恒科指涨超5%，科网股爆发，小米、美团、阿里、网易大涨超7%。腾讯、京东、小米亦纷纷大涨。联想逆势下跌。光模块、存储芯片等科技股调整，天数智芯逆势拉升超7%。债市方面，国债期货多数上涨。商品方面，国内商品期货多数上涨，原油暴跌，隔",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资",
-    "时政国际"
-   ],
-   "words": [
-    "AI",
-    "芯片",
-    "半导体",
-    "英伟达",
-    "算力"
-   ],
-   "time": "16:16",
-   "score": 19.6,
-   "level": 1,
-   "why": "创业板",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "53a733326aa84cc0",
    "title": "美参议院民主党领袖：民主党将结束伊朗战争，伊朗战事“必须结束”",
    "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726505.shtml",
@@ -153,7 +98,7 @@
     "OpenAI"
    ],
    "time": "08:24",
-   "score": 24.6,
+   "score": 18.6,
    "level": 1,
    "why": "国务院",
    "tier": "",
@@ -192,13 +137,7 @@
    "summary": "日本经济产业大臣赤泽亮正：美国的选举不会立即影响到关税协议。",
    "body": "",
    "source": "华尔街见闻·全球快讯",
-   "also": [
-    {
-     "src": "华尔街见闻·全球快讯",
-     "t": "日本首相高市早苗：希望将日本央行加快出售ETF所得收益用作日本经济安全关键领域支出资金的来源。",
-     "u": "https://wallstreetcn.com/livenews/3195447"
-    }
-   ],
+   "also": [],
    "topics": [
     "财经投资",
     "时政国际"
@@ -208,7 +147,7 @@
     "选举"
    ],
    "time": "07:53",
-   "score": 18.6,
+   "score": 18.5,
    "level": 1,
    "why": "关税",
    "tier": "",
@@ -351,28 +290,6 @@
    "ai": ""
   },
   {
-   "id": "4cc79b2d55da46dc",
-   "title": "中国央行公开市场今日开展2260亿元人民币隔夜逆回购操作，利率为1.25%。",
-   "link": "https://wallstreetcn.com/livenews/3195465",
-   "summary": "中国央行公开市场今日开展2260亿元人民币隔夜逆回购操作，利率为1.25%。 中国央行公开市场本周净回笼15230亿元人民币，单周净回笼创三个月新高。",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [],
-   "topics": [
-    "财经投资"
-   ],
-   "words": [
-    "利率"
-   ],
-   "time": "09:24",
-   "score": 16.7,
-   "level": 1,
-   "why": "逆回购",
-   "tier": "",
-   "group": "wscn",
-   "ai": ""
-  },
-  {
    "id": "b2072e21515a3aef",
    "title": "芯片股遭“血洗”：美股经历过山车式暴跌，纳指 6 分钟抹平 2026 中期选举选后涨幅",
    "link": "https://www.ithome.com/1/023/061.htm",
@@ -494,7 +411,7 @@
    "topics": [],
    "words": [],
    "time": "08:27",
-   "score": 21.6,
+   "score": 15.6,
    "level": 1,
    "why": "全会",
    "tier": "must",
@@ -517,6 +434,52 @@
    "why": "袭击",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "b9e79a3287acf8fa",
+   "title": "A股午评：创业板指半日跌3.5%，CPO、玻纤、电子化学品等概念走弱",
+   "link": "https://www.jiemian.com/article/15302378.html",
+   "summary": "11月6日，A股三大指数早盘集体下跌，截至午间收盘，上证指数跌1.14%，深证成指跌2.22%，创业板指跌3.5%；北证50跌1.9%。沪深两市成交额约11210.79亿元，较前一个交易日缩量约3432.95亿元。截至午盘，全市场911只股票上涨、4549只股票下跌，其中27只涨停、1只跌停。 板块方面，农业种植、电信运营、高速公路、农林牧渔等行业以及概念涨幅居前；CPO、AMD、玻纤、电子化学品、电子、小金属等行业以及概念跌幅居前。",
+   "body": "11月6日，A股三大指数早盘集体下跌，截至午间收盘，上证指数跌1.14%，深证成指跌2.22%，创业板指跌3.5%；北证50跌1.9%。沪深两市成交额约11210.79亿元，较前一个交易日缩量约3432.95亿元。截至午盘，全市场911只股票上涨、4549只股票下跌，其中27只涨停、1只跌停。 板块方面，农业种植、电信运营、高速公路、农林牧渔等行业以及概念涨幅居前；CPO、AMD、玻纤、电子化学品、电子、小金属等行业以及概念跌幅居前。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "A股"
+   ],
+   "time": "11:32",
+   "score": 15.0,
+   "level": 1,
+   "why": "创业板",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "fcf7c6046db6915f",
+   "title": "中荷出口管制对话机制会议在深圳举行",
+   "link": "https://wallstreetcn.com/livenews/3195546",
+   "summary": "据商务部消息，2026年11月5日，中荷出口管制对话机制第九次会议在深圳举行。会议由中国商务部产业安全与进出口管制局局长江前良与荷兰外交部对外经济关系总司副总司长艾考德共同主持。会议中，双方就出口管制领域关切事项深入交换意见，同意进一步加强中荷出口管制对话交流，保持密切沟通，为双方业界开展合作创造良好条件，共同努力维护半导体等产业链供应链稳定畅通。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "时政国际"
+   ],
+   "words": [
+    "半导体",
+    "外交"
+   ],
+   "time": "10:58",
+   "score": 14.9,
+   "level": 1,
+   "why": "出口管制",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -551,6 +514,33 @@
    "why": "全会",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "65ce8c3fd8ec86a3",
+   "title": "创业板盘中跌幅收窄至2%，AI硬件领跌、“易中天”重挫，光伏、农业逆势活跃，恒科指接近翻红，科网股局部反弹",
+   "link": "https://wallstreetcn.com/articles/3785325",
+   "summary": "隔夜美股遭遇大跌，科技股重创， 纳指重挫超5% ，芯片指数跳水12%，拖累亚太市场，日本和韩国股市周五早盘双双杀跌，三星电子、SK海力士下挫，A股和港股低开低走，AI硬件股跌幅居前，“易中天”齐跌。 11月6日，A股早盘大幅低开，三大股指盘初集体下跌，创业板开盘跌近5%，盘中股指跌幅有所收窄，算力硬件普遍陷入调整，光模块、光芯片、光通信等集体走低，“易中天”早盘跌幅均超过10%，华虹宏力逆势大涨超10%。光伏、新能源、电力、农业等板块逆势上涨。 港股同样低开，恒指、恒科指早盘跌幅收窄，恒科指盘初一度大跌超3%，目前接近转涨，科网股局部反弹，小米、京东、美团翻红。AI硬件股继续下挫，中际旭创、剑桥科技、长飞光纤光缆跌幅超过10%。债市方面，国债期货多数上涨。商品方面，国内商品期货涨跌参半。核心市场走势： A股 ：截至发稿，沪指跌0.83%，深成指跌1.53%，创业板指跌2.46%。 港股 ：",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "AI",
+    "芯片",
+    "半导体",
+    "算力",
+    "新能源"
+   ],
+   "time": "10:39",
+   "score": 14.9,
+   "level": 0,
+   "why": "创业板",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -601,11 +591,39 @@
     "A股"
    ],
    "time": "09:30",
-   "score": 14.8,
+   "score": 14.7,
    "level": 0,
    "why": "",
    "tier": "",
    "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "885d76af6c0c6f2d",
+   "title": "创业板冲高回落涨0.87%，AI硬件股分化、“易中天”再度大跌，光伏掀起涨停潮，恒科指暴涨5%，科网股全线攀升",
+   "link": "https://wallstreetcn.com/articles/3785230",
+   "summary": "光伏全链涨停潮成为当日最强主线。驱动来自三重共振：三季度光伏装机同比增长约38%、逆变器行业掀起集体涨价潮、美国中期选举落地强化绿色补贴延续预期。AI硬件内部分裂，CPO与PCB下挫，“易中天”集体大跌，昔日股王联讯仪器盘中跌破800元。 11月5日，A股全天冲高回落，午后沪指、创业板一度翻绿，尾盘小幅回升，创业板指此前一度涨超3%。AI硬件内部分化，电路板、光模块、存储芯片等概念股走低，“易中天”再度大跌，半导体设备、半导体材料等活跃。光伏设备、贵金属、锂电池等板块领涨；银行、煤炭、油气、航运港口等板块领跌。 港股全天高开高走，恒指、恒科指双双拉升，恒指涨3%，恒科指涨超5%，科网股爆发，小米、美团、阿里、网易大涨超7%。腾讯、京东、小米亦纷纷大涨。联想逆势下跌。光模块、存储芯片等科技股调整，天数智芯逆势拉升超7%。债市方面，国债期货多数上涨。商品方面，国内商品期货多数上涨，原油暴跌，隔",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资",
+    "时政国际"
+   ],
+   "words": [
+    "AI",
+    "芯片",
+    "半导体",
+    "英伟达",
+    "算力"
+   ],
+   "time": "16:16",
+   "score": 14.6,
+   "level": 0,
+   "why": "创业板",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -679,8 +697,8 @@
    "id": "3945e2d3a810a143",
    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
    "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, Bloomberg via Getty ImagesByRachel Clun, Reporting fromNew York and Osmond Chia, Reporting fromSingaporePublished5 November 2026Updated 32 minutes agoHundreds of billions of dollars in market value has been wiped from major tech firms in the US and Asia in a stock market rout after the…",
-   "body": "Image source, Bloomberg via Getty ImagesByRachel Clun, Reporting fromNew York and Osmond Chia, Reporting fromSingaporePublished5 November 2026Updated 32 minutes agoHundreds of billions of dollars in market value has been wiped from major tech firms in the US and Asia in a stock market rout after the…",
+   "summary": "Image source, Bloomberg via Getty ImagesByRachel Clun, Reporting fromNew York and Osmond Chia, Reporting fromSingaporePublished5 November 2026Updated 38 minutes agoHundreds of billions of dollars in market value has been wiped from major tech firms in the US and Asia in a stock market rout after the…",
+   "body": "Image source, Bloomberg via Getty ImagesByRachel Clun, Reporting fromNew York and Osmond Chia, Reporting fromSingaporePublished5 November 2026Updated 38 minutes agoHundreds of billions of dollars in market value has been wiped from major tech firms in the US and Asia in a stock market rout after the…",
    "source": "BBC·国际",
    "also": [],
    "topics": [
@@ -726,7 +744,7 @@
    "id": "e101c6b0a829740a",
    "title": "韩国股市今年第11次触发熔断",
    "link": "https://36kr.com/newsflashes/4057643547153280?f=rss",
-   "summary": "韩国综合股价指数（KOSPI）今天（11月6日）暴跌，跌幅超过8%，触发熔断机制，暂停交易20分钟。这是韩国有价证券市场今年第11次触发熔断。熔断解除之后，有价证券市场触发暂停程序化交易卖单的临时停牌机制。KOSPI自今年2月6日以来再次失守5000点，据分析，在美国民主党赢得中期选举的背景下，��场担忧人工智能数据中心项目将面临监管风险，导致美国股市遭遇科技股大抛售，KOSPI受此影响大跌。（CCTV国际时讯）",
+   "summary": "韩国综合股价指数（KOSPI）今天（11月6日）暴跌，跌幅超过8%，触发熔断机制，暂停交易20分钟。这是韩国有价证券市场今年第11次触发熔断。熔断解除之后，有价证券市场触发暂停程序化交易卖单的临时停牌机制。KOSPI自今年2月6日以来再次失守5000点，据分析，在美国民主党赢得中期选举的背景下，市场担忧人工智能数据中心项目将面临监管风险，导致美国股市遭遇科技股大抛售，KOSPI受此影响大跌。（CCTV国际时讯）",
    "body": "",
    "source": "36氪",
    "also": [],
@@ -794,7 +812,7 @@
     "A股"
    ],
    "time": "09:32",
-   "score": 12.8,
+   "score": 12.7,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1062,6 +1080,28 @@
    "ai": ""
   },
   {
+   "id": "4cc79b2d55da46dc",
+   "title": "中国央行公开市场今日开展2260亿元人民币隔夜逆回购操作，利率为1.25%。",
+   "link": "https://wallstreetcn.com/livenews/3195465",
+   "summary": "中国央行公开市场今日开展2260亿元人民币隔夜逆回购操作，利率为1.25%。 中国央行公开市场本周净回笼15230亿元人民币，单周净回笼创三个月新高。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "利率"
+   ],
+   "time": "09:24",
+   "score": 11.7,
+   "level": 0,
+   "why": "逆回购",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
    "id": "30ff6022e380620f",
    "title": "日本首相高市早苗：已注意到人工智能（AI）及芯片股出现大幅下跌，目前尚难断定此轮跌势是暂时的还是会持续下去。",
    "link": "https://wallstreetcn.com/livenews/3195440",
@@ -1102,6 +1142,29 @@
    ],
    "time": "07:20",
    "score": 11.5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "a7fc2528e29a7fc9",
+   "title": "白宫发帖提示：特朗普仍是美国总统",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726395.shtml",
+   "summary": "多家美国媒体3日晚预测，民主党将在此次美国中期选举中夺回国会参议院和众议院控制权，全面掌控国会。在民主党被预测夺回众议院控制权后，一名白宫官员对美国媒体表示，白宫内部对此表示“不服气”。这名官员称，当伊朗战事解决、汽油价格迅速下降时，今天投票给民主党的人都会患上“严重的买家悔恨症”。美国总统特朗普3日发声，祝贺民主党在中期选举中获胜，他愿意接受中期选举的结果，准备与民主党合作。特朗普还称，这么多共和党人落选是因为他没有出现在选票上。“我觉得我没有出现在选票上，对此无能为力，”他说，“如果我出现在选票上，我们本会获胜。”",
+   "body": "多家美国媒体3日晚预测，民主党将在此次美国中期选举中夺回国会参议院和众议院控制权，全面掌控国会。在民主党被预测夺回众议院控制权后，一名白宫官员对美国媒体表示，白宫内部对此表示“不服气”。这名官员称，当伊朗战事解决、汽油价格迅速下降时，今天投票给民主党的人都会患上“严重的买家悔恨症”。美国总统特朗普3日发声，祝贺民主党在中期选举中获胜，他愿意接受中期选举的结果，准备与民主党合作。特朗普还称，这么多共和党人落选是因为他没有出现在选票上。“我觉得我没有出现在选票上，对此无能为力，”他说，“如果我出现在选票上，我们本会获胜。”",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "总统",
+    "白宫"
+   ],
+   "time": "09:22",
+   "score": 11.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1155,26 +1218,28 @@
    "ai": ""
   },
   {
-   "id": "a7fc2528e29a7fc9",
-   "title": "白宫发帖提示：特朗普仍是美国总统",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726395.shtml",
-   "summary": "多家美国媒体3日晚预测，民主党将在此次美国中期选举中夺回国会参议院和众议院控制权，全面掌控国会。在民主党被预测夺回众议院控制权后，一名白宫官员对美国媒体表示，白宫内部对此表示“不服气”。这名官员称，当伊朗战事解决、汽油价格迅速下降时，今天投票给民主党的人都会患上“严重的买家悔恨症”。美国总统特朗普3日发声，祝贺民主党在中期选举中获胜，他愿意接受中期选举的结果，准备与民主党合作。特朗普还称，这么多共和党人落选是因为他没有出现在选票上。“我觉得我没有出现在选票上，对此无能为力，”他说，“如果我出现在选票上，我们本会获胜。”",
-   "body": "多家美国媒体3日晚预测，民主党将在此次美国中期选举中夺回国会参议院和众议院控制权，全面掌控国会。在民主党被预测夺回众议院控制权后，一名白宫官员对美国媒体表示，白宫内部对此表示“不服气”。这名官员称，当伊朗战事解决、汽油价格迅速下降时，今天投票给民主党的人都会患上“严重的买家悔恨症”。美国总统特朗普3日发声，祝贺民主党在中期选举中获胜，他愿意接受中期选举的结果，准备与民主党合作。特朗普还称，这么多共和党人落选是因为他没有出现在选票上。“我觉得我没有出现在选票上，对此无能为力，”他说，“如果我出现在选票上，我们本会获胜。”",
-   "source": "中国新闻网·国际",
+   "id": "6bff6a6fd95f73af",
+   "title": "港、A红利阵营共振，中证红利ETF招商(515080)、港股红利低波ETF招商(520550)同步发力！",
+   "link": "https://www.jiemian.com/article/15302364.html",
+   "summary": "11月6日，隔夜美股重挫AI方向，港A红利阵营联袂拉升。截至11时21分，中证红利涨0.23%，恒生港股通红利低波动涨0.13%，中证红利ETF招商(515080)、港股红利低波ETF招商(520550)联袂走强。",
+   "body": "",
+   "source": "界面新闻",
    "also": [],
    "topics": [
-    "时政国际"
+    "科技与产业",
+    "财经投资"
    ],
    "words": [
-    "总统",
-    "白宫"
+    "AI",
+    "港股",
+    "美股"
    ],
-   "time": "09:22",
-   "score": 11.4,
-   "level": 1,
+   "time": "11:33",
+   "score": 11.0,
+   "level": 0,
    "why": "",
-   "tier": "must",
-   "group": "chinanews",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -1198,7 +1263,7 @@
     "人工智能"
    ],
    "time": "11:08",
-   "score": 11.0,
+   "score": 10.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1303,7 +1368,7 @@
     "融资"
    ],
    "time": "10:20",
-   "score": 10.9,
+   "score": 10.8,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1329,7 +1394,7 @@
     "融资"
    ],
    "time": "10:20",
-   "score": 10.9,
+   "score": 10.8,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1423,31 +1488,6 @@
    "ai": ""
   },
   {
-   "id": "0767311f7173e28b",
-   "title": "美股踩踏风暴！量化+杠杆ETF一天抛售700亿美元，还有500亿美元卖盘在路上",
-   "link": "https://wallstreetcn.com/articles/3785319",
-   "summary": "以科技股为导火索的美股大跌，正在引发系统性策略资金的连锁去杠杆，抛售规模之大、速度之快，令市场承压短期内难以消散。 据追风交易台，摩根大通股票衍生品策略团队11月5日发布的报告，当日美股遭遇\"关税日\"以来最惨单日表现，标普500指数重挫4.4%，纳斯达克100指数暴跌6.4%。量化策略资金在此轮下跌中扮演了关键的加速角色—— CTA趋势追踪策略、杠杆ETF当日合计抛售股票敞口逾700亿美元。 更值得警惕的是，抛售压力尚未出清。摩根大通模型估算，波动率目标基金（Volatility Targeting funds）未来数日仍有约500亿美元的股票敞口待售，以将目标杠杆率从约第67百分位压降至第30百分位。这意味着，若市场继续下行，机械式减仓将构成持续的下行压力。 CTA转为净空仓，开盘90分钟抛售110亿美元 此轮下跌的直接触发因素，是CTA趋势追踪策略的动量信号被批量击穿。摩根大通报告指出",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资"
-   ],
-   "words": [
-    "半导体",
-    "美股",
-    "关税"
-   ],
-   "time": "09:10",
-   "score": 10.7,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "33bafa1ba072f402",
    "title": "英国央行加息25个基点至4.00%",
    "link": "https://36kr.com/newsflashes/4056811556181129?f=rss",
@@ -1507,6 +1547,31 @@
    "why": "证监会",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "0767311f7173e28b",
+   "title": "美股踩踏风暴！量化+杠杆ETF一天抛售700亿美元，还有500亿美元卖盘在路上",
+   "link": "https://wallstreetcn.com/articles/3785319",
+   "summary": "以科技股为导火索的美股大跌，正在引发系统性策略资金的连锁去杠杆，抛售规模之大、速度之快，令市场承压短期内难以消散。 据追风交易台，摩根大通股票衍生品策略团队11月5日发布的报告，当日美股遭遇\"关税日\"以来最惨单日表现，标普500指数重挫4.4%，纳斯达克100指数暴跌6.4%。量化策略资金在此轮下跌中扮演了关键的加速角色—— CTA趋势追踪策略、杠杆ETF当日合计抛售股票敞口逾700亿美元。 更值得警惕的是，抛售压力尚未出清。摩根大通模型估算，波动率目标基金（Volatility Targeting funds）未来数日仍有约500亿美元的股票敞口待售，以将目标杠杆率从约第67百分位压降至第30百分位。这意味着，若市场继续下行，机械式减仓将构成持续的下行压力。 CTA转为净空仓，开盘90分钟抛售110亿美元 此轮下跌的直接触发因素，是CTA趋势追踪策略的动量信号被批量击穿。摩根大通报告指出",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "半导体",
+    "美股",
+    "关税"
+   ],
+   "time": "09:10",
+   "score": 10.7,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1610,7 +1675,7 @@
     "OpenAI"
    ],
    "time": "15:11",
-   "score": 10.5,
+   "score": 10.4,
    "level": 0,
    "why": "",
    "tier": "",
@@ -1746,6 +1811,24 @@
    "ai": ""
   },
   {
+   "id": "c148fc552d4e2bec",
+   "title": "招商引资数据造假、虚假包装项目申报特别国债，3起典型问题被通报",
+   "link": "https://www.jiemian.com/article/15302255.html",
+   "summary": "在被通报的典型问题中，有的地方虚假包装项目骗取资金，审批监管层层失守，财政资金存在损失风险；有的国有企业脱离实际制定考核指标，层层加码分解任务。据央视新闻周五发布消息，日前，中央层面整治形式主义为基层减负专项工作机制办公室会同中央纪委办公厅对3起整治形式主义为基层减负典型问题进行通报。在被通报的典型问题中，有的地方落实党中央防范和惩治统计造假要求不到位，把抓发展等同于抓数据，导致基层为完成任务弄虚作假；有的地方虚假包装项目骗取资金，审批监管层层失守，财政资金存在损失风险；有的国有企业脱离实际制定考核指标，层层加码分解任务，下属企业为完成考核任务系统性虚增营业收入。",
+   "body": "在被通报的典型问题中，有的地方虚假包装项目骗取资金，审批监管层层失守，财政资金存在损失风险；有的国有企业脱离实际制定考核指标，层层加码分解任务。据央视新闻周五发布消息，日前，中央层面整治形式主义为基层减负专项工作机制办公室会同中央纪委办公厅对3起整治形式主义为基层减负典型问题进行通报。在被通报的典型问题中，有的地方落实党中央防范和惩治统计造假要求不到位，把抓发展等同于抓数据，导致基层为完成任务弄虚作假；有的地方虚假包装项目骗取资金，审批监管层层失守，财政资金存在损失风险；有的国有企业脱离实际制定考核指标，层层加码分解任务，下属企业为完成考核任务系统性虚增营业收入。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "11:15",
+   "score": 10.0,
+   "level": 1,
+   "why": "特别国债",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "952779995629f710",
    "title": "营收创纪录后苹果拟发 70 亿美元债券，时隔一年半重返债市",
    "link": "https://www.ithome.com/1/023/182.htm",
@@ -1784,7 +1867,30 @@
     "白宫"
    ],
    "time": "11:05",
-   "score": 10.0,
+   "score": 9.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "792a1c9ec659abf5",
+   "title": "美众议院被曝最早下周弹劾美防长赫格塞思",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726541.shtml",
+   "summary": "中新网11月5日电 据美媒4日报道，美国国会众议院最早可能于下周投票，弹劾美国国防部长赫格塞思。多位共和党消息人士表示，他们预计该投票将获得通过。报道指出，许多共和党议员对该党在中期选举中惨败感到震惊，正迅速将选举结果的责任归咎于赫格塞思。他们称，赫格塞思在说服特朗普对伊朗发动攻击时发挥了关键作用——而此次攻击既无撤军策略，也未制定应对不可避免的政治后果的计划。美国总统特朗普承认，伊朗战事影响共和党在美国中期选举中的表现，但同时表示发动这场战事是“值得的”。美国哥伦比亚广播公司援引消息人士的话报道，在共和党中期选举失利后，特朗普曾询问顾问，赫格塞思是否应该继续留任。",
+   "body": "中新网11月5日电 据美媒4日报道，美国国会众议院最早可能于下周投票，弹劾美国国防部长赫格塞思。多位共和党消息人士表示，他们预计该投票将获得通过。报道指出，许多共和党议员对该党在中期选举中惨败感到震惊，正迅速将选举结果的责任归咎于赫格塞思。他们称，赫格塞思在说服特朗普对伊朗发动攻击时发挥了关键作用——而此次攻击既无撤军策略，也未制定应对不可避免的政治后果的计划。美国总统特朗普承认，伊朗战事影响共和党在美国中期选举中的表现，但同时表示发动这场战事是“值得的”。美国哥伦比亚广播公司援引消息人士的话报道，在共和党中期选举失利后，特朗普曾询问顾问，赫格塞思是否应该继续留任。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "国会",
+    "众议院"
+   ],
+   "time": "13:44",
+   "score": 9.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1813,29 +1919,6 @@
    "why": "出口管制",
    "tier": "",
    "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "792a1c9ec659abf5",
-   "title": "美众议院被曝最早下周弹劾美防长赫格塞思",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726541.shtml",
-   "summary": "中新网11月5日电 据美媒4日报道，美国国会众议院最早可能于下周投票，弹劾美国国防部长赫格塞思。多位共和党消息人士表示，他们预计该投票将获得通过。报道指出，许多共和党议员对该党在中期选举中惨败感到震惊，正迅速将选举结果的责任归咎于赫格塞思。他们称，赫格塞思在说服特朗普对伊朗发动攻击时发挥了关键作用——而此次攻击既无撤军策略，也未制定应对不可避免的政治后果的计划。美国总统特朗普承认，伊朗战事影响共和党在美国中期选举中的表现，但同时表示发动这场战事是“值得的”。美国哥伦比亚广播公司援引消息人士的话报道，在共和党中期选举失利后，特朗普曾询问顾问，赫格塞思是否应该继续留任。",
-   "body": "中新网11月5日电 据美媒4日报道，美国国会众议院最早可能于下周投票，弹劾美国国防部长赫格塞思。多位共和党消息人士表示，他们预计该投票将获得通过。报道指出，许多共和党议员对该党在中期选举中惨败感到震惊，正迅速将选举结果的责任归咎于赫格塞思。他们称，赫格塞思在说服特朗普对伊朗发动攻击时发挥了关键作用——而此次攻击既无撤军策略，也未制定应对不可避免的政治后果的计划。美国总统特朗普承认，伊朗战事影响共和党在美国中期选举中的表现，但同时表示发动这场战事是“值得的”。美国哥伦比亚广播公司援引消息人士的话报道，在共和党中期选举失利后，特朗普曾询问顾问，赫格塞思是否应该继续留任。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "国会",
-    "众议院"
-   ],
-   "time": "13:44",
-   "score": 9.9,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
    "ai": ""
   },
   {
@@ -2004,7 +2087,7 @@
     "总统"
    ],
    "time": "07:58",
-   "score": 9.6,
+   "score": 9.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2134,6 +2217,30 @@
    "ai": ""
   },
   {
+   "id": "92c51070fafebe60",
+   "title": "从“跷跷板”到“避风港”：红利质量ETF招商(159209)成资金增配方向，近5日累计吸金2.29亿元",
+   "link": "https://www.jiemian.com/article/15302348.html",
+   "summary": "11月6日A股大幅低开，上证指数跌逾1%，创业板指跌超3%。盘面上算力硬件、光模块跌幅居前，红利资产显露韧性。截至发文，红利质量ETF招商（159209）标的指数小幅下跌，日K线有望冲击6连阳。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "算力",
+    "A股"
+   ],
+   "time": "11:34",
+   "score": 9.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "70ff3000600d3ee2",
    "title": "（第九届进博会）丁薛祥出席第九届中国国际进口博览会开幕式并会见与会外方政要",
    "link": "https://www.chinanews.com.cn/gn/2026/11-05/10726880.shtml",
@@ -2184,30 +2291,6 @@
    "ai": ""
   },
   {
-   "id": "86256203cd84445f",
-   "title": "吹哥老了，独立游戏的黄金时代也是 | 玩点好的",
-   "link": "https://36kr.com/p/4056654258393992?f=rss",
-   "summary": "文丨二几 吹哥老了。 两个多月前《沉星之序》线下见面会上，我第一次见到他本人。除了追星的兴奋，我脑子里还自动冒出了上面四个字。 《沉星之序》已经在10月8日上线。这是一款以推箱子为基础、靠不同机制的组合不断拓展谜题可能性的解谜游戏，开发超过十年，包含上千个手工谜题，提供数百小时的游戏内容。 《沉星之序》游戏截图 再过一个月，吹哥就要满55岁。在国内游戏行业，“35岁被优化”是从业者常挂在嘴边的都市怪谈，而他却把十年的时间投入一款推箱子游戏。不管从什么层面看，这都是一场疯狂豪赌。 但如果是吹哥，我又觉得毫不意外。 我对吹哥的印象，很大程度上停留在他的互联网刻板印象里：独立游戏时代的启幕人，不屑于讨好玩家的天才开发者，与市场化背道而驰的独行者，高强度网络冲浪的暴论制造机。暴论包括：社交游戏都是垃圾，《魔兽世界》不该存在…… 但看到真正的乔纳森·布洛（Jonathan Blow），我发现他和互联",
-   "body": "",
-   "source": "36氪",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资"
-   ],
-   "words": [
-    "AI",
-    "黄金"
-   ],
-   "time": "17:53",
-   "score": 8.8,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "36氪",
-   "ai": ""
-  },
-  {
    "id": "28b5d66ef337803a",
    "title": "AI数据中心需求蓬勃推动瑞典建筑商订单积压总额达2242亿元",
    "link": "https://36kr.com/newsflashes/4056833516967047?f=rss",
@@ -2224,6 +2307,30 @@
     "数据中心"
    ],
    "time": "20:35",
+   "score": 8.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "86256203cd84445f",
+   "title": "吹哥老了，独立游戏的黄金时代也是 | 玩点好的",
+   "link": "https://36kr.com/p/4056654258393992?f=rss",
+   "summary": "文丨二几 吹哥老了。 两个多月前《沉星之序》线下见面会上，我第一次见到他本人。除了追星的兴奋，我脑子里还自动冒出了上面四个字。 《沉星之序》已经在10月8日上线。这是一款以推箱子为基础、靠不同机制的组合不断拓展谜题可能性的解谜游戏，开发超过十年，包含上千个手工谜题，提供数百小时的游戏内容。 《沉星之序》游戏截图 再过一个月，吹哥就要满55岁。在国内游戏行业，“35岁被优化”是从业者常挂在嘴边的都市怪谈，而他却把十年的时间投入一款推箱子游戏。不管从什么层面看，这都是一场疯狂豪赌。 但如果是吹哥，我又觉得毫不意外。 我对吹哥的印象，很大程度上停留在他的互联网刻板印象里：独立游戏时代的启幕人，不屑于讨好玩家的天才开发者，与市场化背道而驰的独行者，高强度网络冲浪的暴论制造机。暴论包括：社交游戏都是垃圾，《魔兽世界》不该存在…… 但看到真正的乔纳森·布洛（Jonathan Blow），我发现他和互联",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "AI",
+    "黄金"
+   ],
+   "time": "17:53",
    "score": 8.8,
    "level": 0,
    "why": "",
@@ -2582,6 +2689,175 @@
    "ai": ""
   },
   {
+   "id": "507163a698bc63f2",
+   "title": "Paraguay’s President, Santiago Peña, Quits Amid Ueno Bank Scandal",
+   "link": "https://www.nytimes.com/2026/11/05/world/americas/paraguay-santiago-pena-resigns.html",
+   "summary": "The president of the South American nation, Santiago Peña, has apologized for failing to prevent its worst financial crisis in decades.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "11:34",
+   "score": 8.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "292a1503a8e911df",
+   "title": "Trump’s Triumphal Arch Set for Final Approval Despite Legal Challenges",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-triumphal-arch-planning-commission.html",
+   "summary": "President Trump’s 250-foot arch project was approved on Thursday by a federal planning board led by his allies. Court action and Democrats’ upcoming control of Congress could halt the plans.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "11:33",
+   "score": 8.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "0e08bca16418fe23",
+   "title": "Trump signs order preventing future presidents from changing Oval Office",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 2 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 2 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "11:33",
+   "score": 8.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "cf4dae1e12063b30",
+   "title": "A股三大指数午间休盘集体下跌，全市场超4500股飘绿",
+   "link": "https://36kr.com/newsflashes/4057726696838019?f=rss",
+   "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌1.14%，深成指跌2.22%，创业板指跌3.5%；光模块概念走弱，剑桥科技逼近跌停，东山精密、中际旭创跌近9%，联讯仪器跌超7%；农业、电信板块逆势走强，万向德农涨停，秋乐种业涨超13%，中国移动、中国电信涨超2%；个股跌多涨少，全市场超4500股飘绿。",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "A股"
+   ],
+   "time": "11:33",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "9107ba36b715e134",
+   "title": "中国移动董事长陈忠岳：2027年计划进一步提升采购总量，加大算力投资、确保智算能力倍增",
+   "link": "https://www.jiemian.com/article/15302373.html",
+   "summary": "11月6日上午，中国移动董事长陈忠岳出席2026移动网络大会并发表演讲。陈忠岳表示，2027年，中国移动计划进一步提升采购总量，加大算力投资、确保智算能力倍增，扩大终端采销、实现销售过亿台；加强渠道资源投放、加速万店焕新。充分发挥产投协同“彩虹桥”作用，强化资本赋能，加大移动网络、芯片、模型、量子和具身智能等领域的资本合作，协同壮大智能服务产业。中国移动将发布移动生态聚合平台，作为服务全球合作伙伴的统一入口，实现商机与产品、技术与场景、需求与交付、产业与投资的高效对接。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "芯片",
+    "算力"
+   ],
+   "time": "11:32",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "8881a52593790236",
+   "title": "11月6日午间收评：创业板指半日跌3.5%，全市场下跌个股超4500只",
+   "link": "https://wallstreetcn.com/livenews/3195565",
+   "summary": "1、市场早间低开震荡，三大指数集体调整。农业股逆势走强，新赛股份、万向德农涨停。电力、电网股集体拉升，新能股份、立新能源、东方新能等涨停。AI漫剧概念反复活跃，上海电影、思美传媒、浙文影业等涨停。下跌方面，算力硬件股下挫，中际旭创、东山精密、生益科技跌超8%。个股跌多涨少，沪深京三市超4500股飘绿，上午半天成交1.13万亿。午间收盘沪指跌1.14%，深成指跌2.22%，创业板跌3.5%。 2、板块概念方面，农业、电力电网、银行、光伏等板块领涨；算力硬件、半导体芯片、白酒、游戏等板块领跌； 3、两市共849只个股上涨，27只个股涨停；4261只个股下跌，1只个股跌停；10只股票炸板，炸板率27%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "芯片",
+    "半导体",
+    "算力",
+    "新能源"
+   ],
+   "time": "11:30",
+   "score": 8.0,
+   "level": 0,
+   "why": "创业板",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "913cf2c2732ba88a",
+   "title": "国际金价震荡回落，非农数据或成后市关键变量，黄金ETF博时(159937)连续2日合计“吸金”超6400万元",
+   "link": "https://www.jiemian.com/article/15302323.html",
+   "summary": "黄金ETF博时(159937)跟踪AU9999指数，近两日净流入6442万元；金价震荡回落，非农数据成短期关键变量。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "黄金"
+   ],
+   "time": "11:28",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "edd5cb53eb252cfc",
+   "title": "现货黄金日内跌幅扩大至1%",
+   "link": "https://www.jiemian.com/article/15302339.html",
+   "summary": "",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "黄金"
+   ],
+   "time": "11:26",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "67646a4379002461",
    "title": "微星推出冒险家 15 AI+ 2026 全能本：X7 358H + 15.6\" 16:9 屏幕",
    "link": "https://www.ithome.com/1/023/200.htm",
@@ -2604,21 +2880,47 @@
    "ai": ""
   },
   {
-   "id": "0e08bca16418fe23",
-   "title": "Trump signs order preventing future presidents from changing Oval Office",
-   "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-   "summary": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 12 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "body": "Image source, EPAByMax MatzaPublished6 November 2026, 01:20 GMTUpdated 12 minutes agoUS President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office.",
-   "source": "BBC·国际",
+   "id": "46f8c69a6c436ab6",
+   "title": "新能源基本面有望边际改善，补贴回收提速或改善现金流表现，新能源ETF嘉实(159875)把握新能源行业发展机会",
+   "link": "https://www.jiemian.com/article/15302313.html",
+   "summary": "截至2026年11月6日 11:00，中证新能源指数下跌1.54%。成分股方面涨跌互现，特变电工领涨2.11%，中国广核上涨1.50%，三一重能上涨1.41%；罗博特科领跌，中材科技、德福科技跟跌。",
+   "body": "",
+   "source": "界面新闻",
    "also": [],
-   "topics": [],
-   "words": [],
-   "time": "11:17",
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "新能源"
+   ],
+   "time": "11:23",
    "score": 8.0,
-   "level": 1,
+   "level": 0,
    "why": "",
-   "tier": "must",
-   "group": "bbc",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "f953308f53eccf0c",
+   "title": "百胜中国财报深度：肯德基、必胜客换师傅了",
+   "link": "https://www.jiemian.com/article/15302228.html",
+   "summary": "从西学东渐到模式外延。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "财报"
+   ],
+   "time": "11:18",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -2641,6 +2943,29 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "95d3e8f92eaef786",
+   "title": "资金持续涌入清洁能源板块！电池ETF汇添富(159796)再度逆势吸金1.75亿元，近3日吸金超4.1亿元！海外政策底或已现，新能源赛道怎么看？",
+   "link": "https://www.jiemian.com/article/15302267.html",
+   "summary": "电池ETF汇添富（159796）标的指数跌超2%，光伏ETF汇添富（516290）标的指数跌超1%，资金坚定涌入新能源板块，电池ETF汇添富（159796）再度强势吸金1.75亿元，近3日吸金超4.1亿元。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "新能源",
+    "光伏"
+   ],
+   "time": "11:15",
+   "score": 8.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -2716,7 +3041,7 @@
     "AI"
    ],
    "time": "11:07",
-   "score": 8.0,
+   "score": 7.9,
    "level": 0,
    "why": "",
    "tier": "",
@@ -2734,7 +3059,7 @@
    "topics": [],
    "words": [],
    "time": "11:07",
-   "score": 8.0,
+   "score": 7.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2752,7 +3077,7 @@
    "topics": [],
    "words": [],
    "time": "11:06",
-   "score": 8.0,
+   "score": 7.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2770,7 +3095,7 @@
    "topics": [],
    "words": [],
    "time": "11:05",
-   "score": 8.0,
+   "score": 7.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -2880,28 +3205,6 @@
    "ai": ""
   },
   {
-   "id": "7c61e600da9601d2",
-   "title": "科创半导体设备ETF鹏华(589020)标的指数红盘向上，政策产业利好共振板块逆市拉升",
-   "link": "https://www.jiemian.com/article/15302056.html",
-   "summary": "半导体设备板块盘中震荡回升，消息面上，SEMI 预测 2026 年全球半导体设备销售额达1659亿美元，同比增 23.2%，2028 年有望至2295亿美元。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "半导体"
-   ],
-   "time": "10:52",
-   "score": 7.9,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
    "id": "f6998014bcd678da",
    "title": "Nithya Raman Wins Los Angeles Mayoral Race, Defeating Karen Bass",
    "link": "https://www.nytimes.com/2026/11/05/us/la-mayor-raman-bass.html",
@@ -2944,6 +3247,46 @@
    "ai": ""
   },
   {
+   "id": "eab1e97e8c7ff343",
+   "title": "Trump Tried to Undermine the Nation’s Elections. It Didn’t Work.",
+   "link": "https://www.nytimes.com/2026/11/05/us/election-deniers-midterms-trump.html",
+   "summary": "Millions of Americans cast their ballots on Tuesday in an election that showed the resiliency of democracy. The president said he would accept the results.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "10:47",
+   "score": 7.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "7c61e600da9601d2",
+   "title": "科创半导体设备ETF鹏华(589020)标的指数红盘向上，政策产业利好共振板块逆市拉升",
+   "link": "https://www.jiemian.com/article/15302056.html",
+   "summary": "半导体设备板块盘中震荡回升，消息面上，SEMI 预测 2026 年全球半导体设备销售额达1659亿美元，同比增 23.2%，2028 年有望至2295亿美元。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "半导体"
+   ],
+   "time": "10:52",
+   "score": 7.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "d013dd89cf440f46",
    "title": "地平线不想只卖芯片了",
    "link": "https://www.jiemian.com/article/15301663.html",
@@ -2964,24 +3307,6 @@
    "why": "",
    "tier": "",
    "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "eab1e97e8c7ff343",
-   "title": "Trump Tried to Undermine the Nation’s Elections. It Didn’t Work.",
-   "link": "https://www.nytimes.com/2026/11/05/us/election-deniers-midterms-trump.html",
-   "summary": "Millions of Americans cast their ballots on Tuesday in an election that showed the resiliency of democracy. The president said he would accept the results.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "10:47",
-   "score": 7.9,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -3067,24 +3392,6 @@
    "ai": ""
   },
   {
-   "id": "507163a698bc63f2",
-   "title": "Paraguay’s President, Santiago Peña, Quits Amid Ueno Bank Scandal",
-   "link": "https://www.nytimes.com/2026/11/05/world/americas/paraguay-santiago-pena-resigns.html",
-   "summary": "The president of the South American nation, Santiago Peña, has apologized for failing to prevent its worst financial crisis in decades.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "10:30",
-   "score": 7.9,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "37889388a9e698e9",
    "title": "AI漫剧概念震荡回升，上海电影触及涨停，浙文影业、城市传媒此前封板，幸福蓝海、中国电影、儒意电影、博纳影业跟涨。",
    "link": "https://wallstreetcn.com/livenews/3195526",
@@ -3146,7 +3453,7 @@
    "topics": [],
    "words": [],
    "time": "10:22",
-   "score": 7.9,
+   "score": 7.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3459,7 +3766,7 @@
     "AI"
    ],
    "time": "09:35",
-   "score": 7.8,
+   "score": 7.7,
    "level": 0,
    "why": "",
    "tier": "",
@@ -3481,7 +3788,7 @@
     "英伟达"
    ],
    "time": "09:33",
-   "score": 7.8,
+   "score": 7.7,
    "level": 0,
    "why": "",
    "tier": "",
@@ -3565,60 +3872,6 @@
    "ai": ""
   },
   {
-   "id": "cfd1ee4e446320da",
-   "title": "DOJ Steps Up Leak Investigation on Supreme Court Decision Overturning Roe v. Wade",
-   "link": "https://www.nytimes.com/2026/11/05/us/politics/supreme-court-trump-abortion-leak-dobbs.html",
-   "summary": "Investigators, using subpoenas and other law enforcement powers, are accelerating an inquiry that takes the Trump administration into the inner workings of the court.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "09:10",
-   "score": 7.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "38967af2a44f9153",
-   "title": "In Alaska, Ranked-Choice Ballots Are Unlikely to Be Enough for Dan Sullivan",
-   "link": "https://www.nytimes.com/2026/11/05/us/alaska-ranked-choice-data-sullivan-peltola.html",
-   "summary": "An analysis shows Mary Peltola is likely to keep her lead in the Senate race in part because of ballots she’d accumulate in ranked-choice tabulation from supporters of the other Dan Sullivan.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "09:08",
-   "score": 7.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "f5d11bea56927f3e",
-   "title": "中央层面整治形式主义为基层减负专项工作机制办公室 中央纪委办公厅公开通报3起整治形式主义为基层减负典型问题",
-   "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727027.shtml",
-   "summary": "新华社北京11月6日电 日前，中央层面整治形式主义为基层减负专项工作机制办公室会同中央纪委办公厅对3起整治形式主义为基层减负典型问题进行通报。具体如下：1.河北省沧州市纠治统计造假等弄虚作假行为不力，有的县数据造假问题较为突出。2025年至2026年，沧州市在推进招商引资、电商产业发展等工作中，制定过高增长目标，频繁搞通报调度，有的县为完成任务进行数据造假，市级有关部门对指标完成情况“只考不核”。",
-   "body": "新华社北京11月6日电 日前，中央层面整治形式主义为基层减负专项工作机制办公室会同中央纪委办公厅对3起整治形式主义为基层减负典型问题进行通报。具体如下：1.河北省沧州市纠治统计造假等弄虚作假行为不力，有的县数据造假问题较为突出。2025年至2026年，沧州市在推进招商引资、电商产业发展等工作中，制定过高增长目标，频繁搞通报调度，有的县为完成任务进行数据造假，市级有关部门对指标完成情况“只考不核”。",
-   "source": "中国新闻网·国内",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "09:07",
-   "score": 7.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "5a6e2fea9d2bde71",
    "title": "为加强高阶智驾技术研发能力，上汽集团拟与延电科技、Momenta 设立合资公司",
    "link": "https://www.ithome.com/1/022/964.htm",
@@ -3665,6 +3918,60 @@
     "选举"
    ],
    "time": "11:46",
+   "score": 7.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "cfd1ee4e446320da",
+   "title": "DOJ Steps Up Leak Investigation on Supreme Court Decision Overturning Roe v. Wade",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/supreme-court-trump-abortion-leak-dobbs.html",
+   "summary": "Investigators, using subpoenas and other law enforcement powers, are accelerating an inquiry that takes the Trump administration into the inner workings of the court.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "09:10",
+   "score": 7.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "38967af2a44f9153",
+   "title": "In Alaska, Ranked-Choice Ballots Are Unlikely to Be Enough for Dan Sullivan",
+   "link": "https://www.nytimes.com/2026/11/05/us/alaska-ranked-choice-data-sullivan-peltola.html",
+   "summary": "An analysis shows Mary Peltola is likely to keep her lead in the Senate race in part because of ballots she’d accumulate in ranked-choice tabulation from supporters of the other Dan Sullivan.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "09:08",
+   "score": 7.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "f5d11bea56927f3e",
+   "title": "中央层面整治形式主义为基层减负专项工作机制办公室 中央纪委办公厅公开通报3起整治形式主义为基层减负典型问题",
+   "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727027.shtml",
+   "summary": "新华社北京11月6日电 日前，中央层面整治形式主义为基层减负专项工作机制办公室会同中央纪委办公厅对3起整治形式主义为基层减负典型问题进行通报。具体如下：1.河北省沧州市纠治统计造假等弄虚作假行为不力，有的县数据造假问题较为突出。2025年至2026年，沧州市在推进招商引资、电商产业发展等工作中，制定过高增长目标，频繁搞通报调度，有的县为完成任务进行数据造假，市级有关部门对指标完成情况“只考不核”。",
+   "body": "新华社北京11月6日电 日前，中央层面整治形式主义为基层减负专项工作机制办公室会同中央纪委办公厅对3起整治形式主义为基层减负典型问题进行通报。具体如下：1.河北省沧州市纠治统计造假等弄虚作假行为不力，有的县数据造假问题较为突出。2025年至2026年，沧州市在推进招商引资、电商产业发展等工作中，制定过高增长目标，频繁搞通报调度，有的县为完成任务进行数据造假，市级有关部门对指标完成情况“只考不核”。",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "09:07",
    "score": 7.7,
    "level": 1,
    "why": "",
@@ -3723,7 +4030,7 @@
    "topics": [],
    "words": [],
    "time": "08:44",
-   "score": 7.7,
+   "score": 7.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -3768,6 +4075,24 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "cd9865deca049316",
+   "title": "Trump Emerges After the Midterms: ‘Did You Guys See the Helipad?’",
+   "link": "https://www.nytimes.com/2026/11/04/us/trump-midterms-ballroom.html",
+   "summary": "His party just suffered a drubbing unseen in decades. But the president, leading a tour of his ballroom project, was placid and eager to wax on about construction instead.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "00:51",
+   "score": 7.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -3826,24 +4151,6 @@
    "why": "",
    "tier": "",
    "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "cd9865deca049316",
-   "title": "Trump Emerges After the Midterms: ‘Did You Guys See the Helipad?’",
-   "link": "https://www.nytimes.com/2026/11/04/us/trump-midterms-ballroom.html",
-   "summary": "His party just suffered a drubbing unseen in decades. But the president, leading a tour of his ballroom project, was placid and eager to wax on about construction instead.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "00:51",
-   "score": 7.6,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -3986,46 +4293,6 @@
    "ai": ""
   },
   {
-   "id": "0e64c210006157f6",
-   "title": "受AI科技股10月惨烈跌势拖累，对冲基金Vara净值暴跌33%。",
-   "link": "https://wallstreetcn.com/livenews/3195400",
-   "summary": "受AI科技股10月惨烈跌势拖累，对冲基金Vara净值暴跌33%。",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "AI"
-   ],
-   "time": "07:34",
-   "score": 7.5,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "f2ce026e0024ba08",
-   "title": "Hegseth Lashes Out at Critics Calling for His Firing",
-   "link": "https://www.nytimes.com/2026/11/05/us/politics/hegseth-video-midterms-trump.html",
-   "summary": "In a new video, the defense secretary vowed to “finish what we have started.” Some Republicans say the Iran war was a big factor in their party’s midterm losses.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "07:30",
-   "score": 7.5,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "f48b6370701a2f40",
    "title": "全球媒体聚焦｜西班牙智库：深圳APEC会议为全球合作提供新契机",
    "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726438.shtml",
@@ -4075,6 +4342,46 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "0e64c210006157f6",
+   "title": "受AI科技股10月惨烈跌势拖累，对冲基金Vara净值暴跌33%。",
+   "link": "https://wallstreetcn.com/livenews/3195400",
+   "summary": "受AI科技股10月惨烈跌势拖累，对冲基金Vara净值暴跌33%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "07:34",
+   "score": 7.5,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "f2ce026e0024ba08",
+   "title": "Hegseth Lashes Out at Critics Calling for His Firing",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/hegseth-video-midterms-trump.html",
+   "summary": "In a new video, the defense secretary vowed to “finish what we have started.” Some Republicans say the Iran war was a big factor in their party’s midterm losses.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:30",
+   "score": 7.5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -4142,7 +4449,7 @@
    "topics": [],
    "words": [],
    "time": "07:09",
-   "score": 7.5,
+   "score": 7.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4292,7 +4599,7 @@
    "topics": [],
    "words": [],
    "time": "06:21",
-   "score": 7.4,
+   "score": 7.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4310,7 +4617,7 @@
    "topics": [],
    "words": [],
    "time": "06:21",
-   "score": 7.4,
+   "score": 7.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4436,7 +4743,7 @@
    "topics": [],
    "words": [],
    "time": "05:34",
-   "score": 7.3,
+   "score": 7.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4454,7 +4761,7 @@
    "topics": [],
    "words": [],
    "time": "05:30",
-   "score": 7.3,
+   "score": 7.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -4490,42 +4797,6 @@
    "topics": [],
    "words": [],
    "time": "05:16",
-   "score": 7.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "e56e53f51c449ea1",
-   "title": "Katherine Clark Could Be the House Majority Leader. Who Is She?",
-   "link": "https://www.nytimes.com/2026/11/05/us/politics/katherine-clark-house-majority-leader.html",
-   "summary": "A Massachusetts liberal who has never sought the No. 1 leadership spot, Ms. Clark is known as an adept member manager.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "05:08",
-   "score": 7.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "7e48a419b9b943e3",
-   "title": "How Melania Trump Became a Dark-Horse Diplomat on Ukraine",
-   "link": "https://www.nytimes.com/2026/11/05/world/europe/melania-trump-oleshky-ukraine-ceasefire.html",
-   "summary": "Both Moscow and Kyiv say Mrs. Trump’s team was the driving force behind an evacuation of a besieged city. It was also in their interest to deliver her a humanitarian win.",
-   "body": "",
-   "source": "纽约时报·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "05:07",
    "score": 7.2,
    "level": 1,
    "why": "",
@@ -4775,6 +5046,42 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "e56e53f51c449ea1",
+   "title": "Katherine Clark Could Be the House Majority Leader. Who Is She?",
+   "link": "https://www.nytimes.com/2026/11/05/us/politics/katherine-clark-house-majority-leader.html",
+   "summary": "A Massachusetts liberal who has never sought the No. 1 leadership spot, Ms. Clark is known as an adept member manager.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:08",
+   "score": 7.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "7e48a419b9b943e3",
+   "title": "How Melania Trump Became a Dark-Horse Diplomat on Ukraine",
+   "link": "https://www.nytimes.com/2026/11/05/world/europe/melania-trump-oleshky-ukraine-ceasefire.html",
+   "summary": "Both Moscow and Kyiv say Mrs. Trump’s team was the driving force behind an evacuation of a besieged city. It was also in their interest to deliver her a humanitarian win.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "05:07",
+   "score": 7.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -5052,7 +5359,7 @@
    "topics": [],
    "words": [],
    "time": "03:58",
-   "score": 7.1,
+   "score": 7.0,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5070,7 +5377,7 @@
    "topics": [],
    "words": [],
    "time": "03:56",
-   "score": 7.1,
+   "score": 7.0,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5111,42 +5418,6 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "b378ce6918da4a07",
-   "title": "‘More Divided Than Ever’: For Jewish Voters, a Mix of Elation and Dread",
-   "link": "https://www.nytimes.com/2026/11/05/us/jewish-reaction-el-sayed-israel.html",
-   "summary": "Juggling celebration and concern, American Jews are negotiating their place in a dramatically shifting political landscape.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "03:34",
-   "score": 7.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "4fe3ec3857942e00",
-   "title": "Eight killed in series of shootings in western Turkey",
-   "link": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
-   "summary": "Victims are found in several locations in three separate vehicles, according to local reports.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "03:32",
-   "score": 7.0,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -5273,6 +5544,42 @@
    "ai": ""
   },
   {
+   "id": "b378ce6918da4a07",
+   "title": "‘More Divided Than Ever’: For Jewish Voters, a Mix of Elation and Dread",
+   "link": "https://www.nytimes.com/2026/11/05/us/jewish-reaction-el-sayed-israel.html",
+   "summary": "Juggling celebration and concern, American Jews are negotiating their place in a dramatically shifting political landscape.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "03:34",
+   "score": 7.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "4fe3ec3857942e00",
+   "title": "Eight killed in series of shootings in western Turkey",
+   "link": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+   "summary": "Victims are found in several locations in three separate vehicles, according to local reports.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "03:32",
+   "score": 7.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "bfa0766a450b471f",
    "title": "Chris vs Chris: Who's running and what's at stake this New Zealand election",
    "link": "https://www.bbc.co.uk/news/videos/cr86zxe1q5j3o?at_medium=RSS&at_campaign=rss",
@@ -5283,7 +5590,7 @@
    "topics": [],
    "words": [],
    "time": "03:08",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5301,7 +5608,7 @@
    "topics": [],
    "words": [],
    "time": "03:08",
-   "score": 7.0,
+   "score": 6.9,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5324,54 +5631,6 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "ef25023845f2daf4",
-   "title": "格林纳达选举结果公布，执政党大胜",
-   "link": "https://www.jiemian.com/article/15302065.html",
-   "summary": "格林纳达议会选举办公室当地时间11月5日晚公布的计票结果显示，现任总理迪康·米切尔领导的民族民主大会党在当天举行的选举中赢得众议院全部15个席位中的14席。米切尔有望连任总理。格林纳达实行单一选区相对多数制，即每个选区得票最多的候选人当选。一个政党获得至少8个席位即可取得众议院多数。在2022年6月举行的选举中，米切尔领导的民族民主大会党赢得9个席位，米切尔随后出任总理。（央视新闻）",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "时政国际"
-   ],
-   "words": [
-    "众议院",
-    "总理",
-    "选举"
-   ],
-   "time": "10:47",
-   "score": 6.9,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "b599e3a805116459",
-   "title": "月之暗面发布托管智能体服务，沙箱运行与插件调用单独计费",
-   "link": "https://wallstreetcn.com/articles/3785283",
-   "summary": "11月5日，月之暗面宣布Kimi Hosted Agents（托管智能体）正式发布，将支撑Agent运行的Harness作为云端托管服务提供给企业和开发者。 开放平台更新日志显示，该服务今年9月已开启Beta，当时面向国内企业认证用户。 定价是此次披露中值得关注的信息。官方定价页显示，托管智能体的费用由云沙箱、模型推理和插件三部分组成，总费用等于沙箱运行时长乘以每小时0.072元，加上模型推理费用，再加插件调用次数与单价的乘积。 按官方定价估算，假设一个云沙箱连续计费30天，运行时长费用约51.84元，不包含模型推理与插件调用费用。不同任务所需的插件种类及调用频次不同，实际费用还需叠加模型推理与插件调用成本。 官方定价页还列出了各类插件的调用单价，价格从每次0.001元至0.45元不等。其中，联网搜索每次0.03元，搜图每次0.045元，部分金融数据插件每次调用收费0.35元或0.45元。",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "科技与产业",
-    "财经投资"
-   ],
-   "words": [
-    "大模型",
-    "IPO"
-   ],
-   "time": "18:46",
-   "score": 6.9,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -5556,6 +5815,54 @@
    "ai": ""
   },
   {
+   "id": "ef25023845f2daf4",
+   "title": "格林纳达选举结果公布，执政党大胜",
+   "link": "https://www.jiemian.com/article/15302065.html",
+   "summary": "格林纳达议会选举办公室当地时间11月5日晚公布的计票结果显示，现任总理迪康·米切尔领导的民族民主大会党在当天举行的选举中赢得众议院全部15个席位中的14席。米切尔有望连任总理。格林纳达实行单一选区相对多数制，即每个选区得票最多的候选人当选。一个政党获得至少8个席位即可取得众议院多数。在2022年6月举行的选举中，米切尔领导的民族民主大会党赢得9个席位，米切尔随后出任总理。（央视新闻）",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "众议院",
+    "总理",
+    "选举"
+   ],
+   "time": "10:47",
+   "score": 6.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "b599e3a805116459",
+   "title": "月之暗面发布托管智能体服务，沙箱运行与插件调用单独计费",
+   "link": "https://wallstreetcn.com/articles/3785283",
+   "summary": "11月5日，月之暗面宣布Kimi Hosted Agents（托管智能体）正式发布，将支撑Agent运行的Harness作为云端托管服务提供给企业和开发者。 开放平台更新日志显示，该服务今年9月已开启Beta，当时面向国内企业认证用户。 定价是此次披露中值得关注的信息。官方定价页显示，托管智能体的费用由云沙箱、模型推理和插件三部分组成，总费用等于沙箱运行时长乘以每小时0.072元，加上模型推理费用，再加插件调用次数与单价的乘积。 按官方定价估算，假设一个云沙箱连续计费30天，运行时长费用约51.84元，不包含模型推理与插件调用费用。不同任务所需的插件种类及调用频次不同，实际费用还需叠加模型推理与插件调用成本。 官方定价页还列出了各类插件的调用单价，价格从每次0.001元至0.45元不等。其中，联网搜索每次0.03元，搜图每次0.045元，部分金融数据插件每次调用收费0.35元或0.45元。",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "科技与产业",
+    "财经投资"
+   ],
+   "words": [
+    "大模型",
+    "IPO"
+   ],
+   "time": "18:46",
+   "score": 6.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "ca7fee44cb021427",
    "title": "Iran is Reviewing ‘Concrete Proposals’ on Nuclear Program, Officials Say",
    "link": "https://www.nytimes.com/2026/11/05/world/middleeast/peace-talks-iran-united-states-qatar-nuclear-program.html",
@@ -5584,7 +5891,7 @@
    "topics": [],
    "words": [],
    "time": "02:22",
-   "score": 6.9,
+   "score": 6.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5602,7 +5909,7 @@
    "topics": [],
    "words": [],
    "time": "02:18",
-   "score": 6.9,
+   "score": 6.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5796,7 +6103,7 @@
    "topics": [],
    "words": [],
    "time": "01:34",
-   "score": 6.8,
+   "score": 6.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -5841,24 +6148,6 @@
    "why": "",
    "tier": "",
    "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "3c0f4c6a6ff7592a",
-   "title": "Virginia House Republican Who Had Seemed Vulnerable Fends Off Democrat",
-   "link": "https://www.nytimes.com/2026/11/05/us/virginia-house-5-mcguire-perriello.html",
-   "summary": "Representative John McGuire, a Republican, held off a challenge from former Representative Tom Perriello, a Democrat.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "01:08",
-   "score": 6.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -5978,6 +6267,24 @@
    "ai": ""
   },
   {
+   "id": "3c0f4c6a6ff7592a",
+   "title": "Virginia House Republican Who Had Seemed Vulnerable Fends Off Democrat",
+   "link": "https://www.nytimes.com/2026/11/05/us/virginia-house-5-mcguire-perriello.html",
+   "summary": "Representative John McGuire, a Republican, held off a challenge from former Representative Tom Perriello, a Democrat.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "01:08",
+   "score": 6.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "cad5c314717fa1ed",
    "title": "印度金融机构遭黑客利用 AI 工具发动的网络攻击",
    "link": "https://www.solidot.org/story?sid=85809",
@@ -6054,24 +6361,6 @@
    "ai": ""
   },
   {
-   "id": "7e911ba78bc35972",
-   "title": "The Machine, and the Messaging, That Won Texas for Democrats",
-   "link": "https://www.nytimes.com/2026/11/05/us/texas-democrats-statewide-sweep.html",
-   "summary": "Years of organizing met a moment of voter discontent, as James Talarico and Gina Hinojosa offered Texans a vision of economic relief and political change.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "00:18",
-   "score": 6.6,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "66e799a63ccd992e",
    "title": "原子级制造“院士专家城市行”北京站活动在北京怀柔举办",
    "link": "https://www.chinanews.com.cn/gn/2026/11-05/10726800.shtml",
@@ -6126,6 +6415,24 @@
    "ai": ""
   },
   {
+   "id": "7e911ba78bc35972",
+   "title": "The Machine, and the Messaging, That Won Texas for Democrats",
+   "link": "https://www.nytimes.com/2026/11/05/us/texas-democrats-statewide-sweep.html",
+   "summary": "Years of organizing met a moment of voter discontent, as James Talarico and Gina Hinojosa offered Texans a vision of economic relief and political change.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "00:18",
+   "score": 6.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "2f776607cae82791",
    "title": "What to Know About Sexual Abuse Settlements Paid by Catholic Dioceses in the U.S.",
    "link": "https://www.nytimes.com/2026/11/05/us/catholic-dioceses-sexual-abuse-settlements-new-york.html",
@@ -6154,7 +6461,7 @@
    "topics": [],
    "words": [],
    "time": "23:57",
-   "score": 6.6,
+   "score": 6.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -6244,7 +6551,7 @@
    "topics": [],
    "words": [],
    "time": "23:07",
-   "score": 6.5,
+   "score": 6.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -6262,7 +6569,7 @@
    "topics": [],
    "words": [],
    "time": "23:06",
-   "score": 6.5,
+   "score": 6.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -6486,7 +6793,7 @@
    "topics": [],
    "words": [],
    "time": "19:58",
-   "score": 6.1,
+   "score": 6.0,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -6509,6 +6816,30 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "86bba1614c4ba8ce",
+   "title": "中国移动发布 6G 智能应用共创行动：多城市打造 6G 实训场，上行能力推向 Gbps 级",
+   "link": "https://www.ithome.com/1/023/208.htm",
+   "summary": "IT之家 11 月 6 日现场消息，以“共创智能经济新形态”为主题的 2026 移动网络大会于今日（11 月 6 日）在广东广州举行。中国移动总工程师、中国工程院院士王晓云在大会上发表了题为《6G 共创，智赢未来》的主题演讲，并发布“ 中国移动 6G 智能应用共创行动 ”。 该行动旨在联合产业合作伙伴，挖掘 6G 高价值场景，牵引 6G 网络技术创新，共同培育 6G 智能应用新产品、新业态。 中国工程院院士邬贺铨，宁德时代首席科学家、中国工程院院士吴凯，宇树科技创始人兼 CEO 王兴兴，西门子数字化工业大中华区智能制造软件负责人 Nicholas Hansen，智元合伙人、联席总裁熊彦，Rokid 乐奇首席科学家周军等行业专家及合作伙伴代表通过寄语视频，表达了对 6G 智能应用共创行动的期待与展望。 王晓云指出， 6G 将成为智能时代的新型网络底座 ，以网强智，提供更强的连接服务以及超越连",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI",
+    "算力",
+    "机器人"
+   ],
+   "time": "11:34",
+   "score": 6.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -6535,6 +6866,29 @@
    "ai": ""
   },
   {
+   "id": "c6b7954853cc0aca",
+   "title": "云图控股：预计明年磷酸铁行业发展具备较强韧性",
+   "link": "https://www.jiemian.com/article/15302322.html",
+   "summary": "云图控股11月5日接受机构调研时表示，随着新能源汽车市场和储能市场持续扩容，磷酸铁锂电池需求有望保持增长，带动上游磷酸铁需求增加；目前磷酸铁市场呈现紧平衡状态。预计明年磷酸铁行业发展具备较强韧性，但行业供给及市场竞争情况也值得关注和跟踪。公司将发挥磷化工一体化产业链优势，持续做好产品质量管理和客户开发工作，把握行业发展机遇。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "新能源",
+    "储能"
+   ],
+   "time": "11:24",
+   "score": 6.0,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "7d541d8639fe02ac",
    "title": "Netanyahu Alleges Election Fraud in Connection With Arab Turnout",
    "link": "https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-netanyahu-trump.html",
@@ -6550,6 +6904,28 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "a28572cc15b48859",
+   "title": "国家能源局：“十五五”时期，推动2030年虚拟电厂调节能力达到5000万千瓦以上",
+   "link": "https://wallstreetcn.com/livenews/3195545",
+   "summary": "国家能源局发展规划司副司长葛炬表示，“十五五”时期将充分挖掘电动汽车、空调等电力负荷调节潜力，全面推广智能有序充电，扩大车网互动规模化应用范围，促进虚拟电厂规模化发展，推动2030年虚拟电厂调节能力达到5000万千瓦以上，让用户更多参与电力系统调节互动。在储能侧，更好发挥储能作为电力系统“充电宝”“调节器”的作用，布局建设一批抽水蓄能电站，2030年装机规模达到1.6亿千瓦左右。大力发展新型储能，鼓励多种技术路线发展，2030年装机规模达到3亿千瓦。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "储能"
+   ],
+   "time": "10:57",
+   "score": 5.9,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -6743,24 +7119,6 @@
    "ai": ""
   },
   {
-   "id": "292a1503a8e911df",
-   "title": "Trump’s Triumphal Arch Set for Final Approval Despite Legal Challenges",
-   "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-triumphal-arch-planning-commission.html",
-   "summary": "President Trump’s 250-foot arch project is expected to win approval on Thursday from a federal planning board. Court action and Democrats’ upcoming control of Congress could halt the plans.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "18:04",
-   "score": 5.8,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "873f70ae13b5da01",
    "title": "Midterm Election Losses Complicate Trump’s Options on Iran War",
    "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-iran-war-midterm-elections.html",
@@ -6776,6 +7134,28 @@
    "why": "",
    "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "693055417c31f76b",
+   "title": "报道：部分投资者对Anthropic能否按计划于下周开展路演、赶在11月上市一事表示怀疑",
+   "link": "https://wallstreetcn.com/livenews/3195512",
+   "summary": "据熟悉投资者讨论情况的人士透露，Anthropic首次公开发行(IPO)的潜在投资者能否按计划于下周开展路演、从而赶在11月上市一事表示怀疑。投资者正要求提供更具吸引力的估值，才愿意认购此次IPO。部分投资者认为，近期讨论的1.5万亿美元估值已处于预期的高端。知情人士表示，投资者也在急切等待Anthropic的10月营收数据，以评估是否成功扭转了近几个月增长放缓势头。Anthropic拒绝就投资者的疑虑置评。（路透）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "IPO"
+   ],
+   "time": "10:01",
+   "score": 5.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -6861,6 +7241,87 @@
    "ai": ""
   },
   {
+   "id": "867a44f46884965e",
+   "title": "香港外汇基金第三季度投资收益186亿港元。",
+   "link": "https://wallstreetcn.com/livenews/3195487",
+   "summary": "香港外汇基金第三季度投资收益186亿港元。 香港外汇基金第三季度债券投资收益3.00亿港元。 香港外汇基金第三季度香港股票投资收益91亿港元。 香港外汇基金 9个月投资收益1,719亿港元。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "财经投资"
+   ],
+   "words": [
+    "港股"
+   ],
+   "time": "09:34",
+   "score": 5.7,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "8946c85fd16650d8",
+   "title": "‘It Is Never Enough’: Susan Collins Couldn’t Outrun Trump",
+   "link": "https://www.nytimes.com/2026/11/04/us/politics/susan-collins-defeat-donald-trump.html",
+   "summary": "The Maine Republican survived tough cycles in the past even as the political ground shifted beneath her. But the anti-Trump fever in her state doomed her this time.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "09:30",
+   "score": 5.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "7cc50cdbc97b2f7b",
+   "title": "我国高端镀膜装备实现自主突破，新景昇首台 8.5 代电致变色薄膜设备下线",
+   "link": "https://www.ithome.com/1/023/053.htm",
+   "summary": "IT之家 11 月 6 日消息，据北京亦庄公众号，近日，北京新景昇智联科技有限公司（以下简称“新景昇”）8.5 代电致变色薄膜产线完成重大攻关节点验收并成功下线首台设备，标志着我国大面积连续 磁控溅射镀膜 核心装备实现重大突破，补齐产业链上游关键短板。 IT之家从官方介绍获悉，电致变色薄膜是一种可通过电压可逆调节光学状态的功能薄膜，可应用于建筑节能、交通调光以及集成电路与光电器件等领域。8.5 代产线的难点在于大尺寸基板上多层薄膜的均匀性和连续量产稳定性， 而此类高端镀膜装备长期依赖进口 。 据悉，历经八年攻关，新景昇自研的 8.5 代 电致变色薄膜 设备可实现超大基板多层薄膜连续制备，膜厚均匀性控制在 2% 以内。接下来，该设备将运往哈尔滨景烁智能科技有限公司开展工艺验证，支撑全固态电致变色薄膜产业化落地。 北京经开区集成电路领域目前已形成覆盖设计、制造、封测、装备、材料、零部件等环节的",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "半导体",
+    "新能源"
+   ],
+   "time": "08:44",
+   "score": 5.7,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "0dde19044bfd8792",
+   "title": "Mississippi’s Senate Race Is Close. The State Has No Vote Recount Law.",
+   "link": "https://www.nytimes.com/2026/11/04/us/mississippi-senate-election-recount-law.html",
+   "summary": "The race for U.S. Senate is close in Mississippi, which does not allow for vote recounts in statewide elections.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [],
+   "words": [],
+   "time": "07:54",
+   "score": 5.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "4fcd531443a975d8",
    "title": "谷歌确认高通骁龙手机已支持安卓 Linux 终端，红魔 12 Pro 实测可用",
    "link": "https://www.ithome.com/1/023/058.htm",
@@ -6934,42 +7395,6 @@
    "ai": ""
   },
   {
-   "id": "8946c85fd16650d8",
-   "title": "‘It Is Never Enough’: Susan Collins Couldn’t Outrun Trump",
-   "link": "https://www.nytimes.com/2026/11/04/us/politics/susan-collins-defeat-donald-trump.html",
-   "summary": "The Maine Republican survived tough cycles in the past even as the political ground shifted beneath her. But the anti-Trump fever in her state doomed her this time.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "09:30",
-   "score": 5.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "0dde19044bfd8792",
-   "title": "Mississippi’s Senate Race Is Close. The State Has No Vote Recount Law.",
-   "link": "https://www.nytimes.com/2026/11/04/us/mississippi-senate-election-recount-law.html",
-   "summary": "The race for U.S. Senate is close in Mississippi, which does not allow for vote recounts in statewide elections.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [],
-   "words": [],
-   "time": "07:54",
-   "score": 5.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "f22d2382e350f0cc",
    "title": "Google 和 OpenAI 的模型对特定口音有偏见",
    "link": "https://www.solidot.org/story?sid=85804",
@@ -7009,34 +7434,11 @@
    "topics": [],
    "words": [],
    "time": "16:45",
-   "score": 5.7,
+   "score": 5.6,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "7cc50cdbc97b2f7b",
-   "title": "我国高端镀膜装备实现自主突破，新景昇首台 8.5 代电致变色薄膜设备下线",
-   "link": "https://www.ithome.com/1/023/053.htm",
-   "summary": "IT之家 11 月 6 日消息，据北京亦庄公众号，近日，北京新景昇智联科技有限公司（以下简称“新景昇”）8.5 代电致变色薄膜产线完成重大攻关节点验收并成功下线首台设备，标志着我国大面积连续 磁控溅射镀膜 核心装备实现重大突破，补齐产业链上游关键短板。 IT之家从官方介绍获悉，电致变色薄膜是一种可通过电压可逆调节光学状态的功能薄膜，可应用于建筑节能、交通调光以及集成电路与光电器件等领域。8.5 代产线的难点在于大尺寸基板上多层薄膜的均匀性和连续量产稳定性， 而此类高端镀膜装备长期依赖进口 。 据悉，历经八年攻关，新景昇自研的 8.5 代 电致变色薄膜 设备可实现超大基板多层薄膜连续制备，膜厚均匀性控制在 2% 以内。接下来，该设备将运往哈尔滨景烁智能科技有限公司开展工艺验证，支撑全固态电致变色薄膜产业化落地。 北京经开区集成电路领域目前已形成覆盖设计、制造、封测、装备、材料、零部件等环节的",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "科技与产业"
-   ],
-   "words": [
-    "半导体",
-    "新能源"
-   ],
-   "time": "08:44",
-   "score": 5.7,
-   "level": 0,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
    "ai": ""
   },
   {
@@ -7856,7 +8258,7 @@
     "白宫"
    ],
    "time": "18:22",
-   "score": 4.9,
+   "score": 4.8,
    "level": 0,
    "why": "",
    "tier": "",
@@ -8057,6 +8459,28 @@
    "ai": ""
   },
   {
+   "id": "40b3fdd8ddafacd1",
+   "title": "德国10月车市：零跑追近名爵，中国品牌竞争升温",
+   "link": "https://wallstreetcn.com/articles/3785278",
+   "summary": "作者 | 周智宇 去年10月，零跑在德国的上牌量只有名爵的三分之一。今年10月，两家只差479辆。 名爵这个月其实卖得不错。德国联邦机动车运输管理局（KBA）11月4日公布的数据显示，10月，上汽旗下名爵在德国上牌4140辆，同比增长近五成。零跑上牌3661辆，接近去年同期的四倍。一年间，名爵在德国乘用车市场的单月份额从约1.1%升至1.6%，零跑从约0.4%升至1.4%。 名爵2021年重返德国，今年头九个月的上牌量就超过了去年全年。前十个月，名爵仍比零跑多上牌近1.2万辆。可翻看KBA前三季度的纯电车注册量，零跑有1.51万辆，名爵只有8520辆。 10月，德国乘用车上牌量同比只涨了1.7%，纯电车却大涨近八成，占到新车的37%。从上牌人看，私人名下的新车比去年同期多了两成，企业等商业用户名下的少了8.2%。 今年5月，德国向符合收入条件的家庭开放电动车补贴申请。只要是今年首次上牌的合",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "电动车"
+   ],
+   "time": "18:01",
+   "score": 3.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "abc1719d592c191d",
    "title": "光大银行的利润拉锯战",
    "link": "https://wallstreetcn.com/articles/3785274",
@@ -8074,6 +8498,28 @@
    ],
    "time": "17:44",
    "score": 3.8,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "40529d7ef6b811db",
+   "title": "咖啡杯已装不下瑞幸的野心",
+   "link": "https://wallstreetcn.com/articles/3785242",
+   "summary": "瑞幸看起来已经不那么像一家咖啡店。 近日，瑞幸木薯桃胶炖奶在全国门店上市。继轻乳茶、冰奶、酸奶昔、泰奶等产品后，又将菜单扩展至中式糖水。 扩张的菜单背后，是瑞幸业绩增长与同店下滑的分化。 最新三季报显示，瑞幸营收178.91亿元，同比增长17.0%；经营利润27.56亿元，同比增长55.1%。 但自营门店同店销售额同比下降11.1%，为2024年第三季度以来首次出现两位数降幅。 瑞幸选择持续丰富菜单，试图为消费者创造更多购买理由。 第三季度，公司推出41款现制饮品及20余款轻食，创近年单季上新数量新高。其中，泰奶系列上市首周销量突破1300万杯。 从咖啡、奶茶到糖水，瑞幸正在把更多现制饮品纳入近4万家门店。 通过品类扩张覆盖更多消费时段，已成为现制饮品行业争取增长的普遍选择。 但对依靠紧凑店型、精简人力和标准化制作快速扩张的瑞幸而言，更丰富的菜单能否带来足够的新增消费，仍是这轮进攻需要回答",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "科技与产业"
+   ],
+   "words": [
+    "AI"
+   ],
+   "time": "12:41",
+   "score": 3.1,
    "level": 0,
    "why": "",
    "tier": "",
@@ -8120,6 +8566,28 @@
     "地缘"
    ],
    "time": "11:13",
+   "score": 2,
+   "level": 0,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "cb9252561b7f6f69",
+   "title": "油价雪上加霜！停战预期之外，全球原油过剩压力也来了",
+   "link": "https://wallstreetcn.com/articles/3785233",
+   "summary": "油价正在承受双重压力。一边是市场传出的美伊潜在停战协议消息，另一边是摩根大通最新研报揭示的一个关键转变——全球石油市场已重新滑入供应过剩。 据追风交易台消息，摩根大通大宗商品研究团队的估算，全球石油市场9月的过剩量约为每日 110万桶 ，10月进一步扩大至每日 140万桶 ，与去年全年平均过剩水平（每日130万桶）大体相当。 市场已经停止消耗库存，开始重建库存。 这个结论，可以从贸易流量和库存数据两个维度得到印证。 全球原油进口量9月平均为每日 4300万桶 ，同比增加50万桶；10月进一步攀升至每日 4490万桶 ，同比增加130万桶。 库存数据同样指向同一方向。韩国战略石油储备从6月低点5000万桶回升至6700万桶，创五年新高；欧洲OECD成员国过去三周也累计增加约1100万桶原油库存。综合来看，全球库存目前约为 79.99亿桶 ，较8月增加2300万桶，较9月增加1200万桶。 过",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "时政国际"
+   ],
+   "words": [
+    "地缘"
+   ],
+   "time": "10:13",
    "score": 2,
    "level": 0,
    "why": "",
