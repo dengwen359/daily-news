@@ -922,8 +922,23 @@ def build_report(items, cfg, run_time, feed_stats):
         L.append("> 美国重大（总统表态、美联储、国会立法、关税与 AI 芯片监管、美股剧震）、"
                  "国内政策（中央与国务院、央行、监管、宏观数据）、突发事件（战争、天灾、其他经济体重大决议）。")
         L.append("")
-        for r in lv1_show:
-            L.extend(render_item(r, mark_key=True))
+        # 按三栏分小节，和看板、邮件保持同一结构
+        placed_ids = set()
+        for t in list(topics.keys()):
+            rows = [r for r in lv1_show if t in (r.get("topics") or [])]
+            if not rows:
+                continue
+            L.append(f"### {t}（{len(rows)} 条）")
+            L.append("")
+            for r in rows:
+                placed_ids.add(r["id"])
+                L.extend(render_item(r, mark_key=True))
+        left_rows = [r for r in lv1_show if r["id"] not in placed_ids]
+        if left_rows:
+            L.append("### 其他（%d 条）" % len(left_rows))
+            L.append("")
+            for r in left_rows:
+                L.extend(render_item(r, mark_key=True))
 
     L.append("## 今日概览")
     L.append("")
