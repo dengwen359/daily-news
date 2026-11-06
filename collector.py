@@ -1067,8 +1067,7 @@ def build_mail_body(items, cfg, run_time, exclude=None, edition=None):
     L = []
     L.append(f"新闻{edition} · {run_time.strftime('%Y年%m月%d日')}")
     L.append("=" * 34)
-    head = (f"本次新增 {len(sel['ids'])} 条：突发 {len(sel['must'])} · "
-            f"重大新闻 {len(sel['lv1'])}")
+    head = (f"本次新增 {len(sel['ids'])} 条（其中突发 {len(sel['must'])} 条）")
     if sel["skipped"]:
         head += f"（另有 {sel['skipped']} 条之前已推送过，不再重复）"
     L.append(head)
@@ -1095,17 +1094,24 @@ def build_mail_body(items, cfg, run_time, exclude=None, edition=None):
             # 体积留给 HTML——139 邮箱对整封信的大小很敏感，超了会被判垃圾。
             L.append(f"   {r['link']}")
 
-    block("突发必看", sel["must"], "战争、天灾、重大突发事件，命中即置顶，保证不遗漏。")
-    if sel["rest_must"] > 0:
-        L.append(f"   还有 {sel['rest_must']} 条必看内容在网页版")
-
-    block("要闻 · 政策与数据", sel["lv1"], "央行货币政策、监管政策、民生数据等政策类要闻。")
-    if sel["rest_lv1"] > 0:
-        L.append(f"   还有 {sel['rest_lv1']} 条要闻在网页版")
-
-    block("兴趣", sel["lv0"])
-    if sel["rest_lv0"] > 0:
-        L.append(f"   还有 {sel['rest_lv0']} 条在网页版")
+    # 邮件按三栏分节，和看板、桌面弹窗保持一致。
+    # 用户打开邮件看到的就是"美国重大 / 国内政策 / 突发事件"三块，
+    # 不用再猜哪条属于哪类。突发（level 2）在同栏里排最前面。
+    order = list((cfg.get("topics", {}) or {}).keys())
+    by_block = {t: [] for t in order}
+    for r in sel["must"] + sel["lv1"]:
+        t = (r.get("topics") or [None])[0]
+        by_block.setdefault(t or "其他", []).append(r)
+    notes = {
+        "美国重大": "总统与白宫表态、美联储、国会立法、关税与 AI 芯片监管、美股剧震。",
+        "国内政策": "中央与国务院、央行与监管、财政与宏观数据。",
+        "突发事件": "战争、天灾、重大事故，以及欧央行/日央行/OPEC 的重大决议。",
+    }
+    for t in order + ["其他"]:
+        block(t, by_block.get(t) or [], notes.get(t, ""))
+    if sel["rest_must"] + sel["rest_lv1"] > 0:
+        L.append("")
+        L.append(f"   还有 {sel['rest_must'] + sel['rest_lv1']} 条在网页版")
 
     if sel["en"]:
         L.append("")
@@ -1189,19 +1195,13 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
         return (f'<a id="sec-{sid}"></a><h3{cls}>{e(name)}（{len(rows)}）</h3>'
                 + (custom or "".join(item_html(r) for r in rows)))
 
-    # 兴趣区按产业分类再分组，每组一个按钮
+    # 三栏分组：正文分节、顶部按钮、看板三处用同一套栏目名。
     topics_order = list((cfg.get("topics", {}) or {}).keys()) + ["其他"]
-    groups = []
-    used = set()
-    for t in topics_order:
-        rows = [r for r in sel["lv0"] if t in (r.get("topics") or []) and r["id"] not in used]
-        if rows:
-            for r in rows:
-                used.add(r["id"])
-            groups.append((t, rows))
-    left = [r for r in sel["lv0"] if r["id"] not in used]
-    if left:
-        groups.append(("其他", left))
+    _g = {t: [] for t in topics_order}
+    for r in sel["must"] + sel["lv1"]:
+        t = (r.get("topics") or [None])[0] or "其他"
+        _g.setdefault(t, []).append(r)
+    groups = [(t, rows) for t, rows in _g.items() if rows]
 
     # 顶部按钮：只有实际有内容的分类才出现。
     # 注意：手机邮箱 App（139/QQ 等）普遍不支持邮件内锚点跳转，点了没反应，
@@ -1214,12 +1214,10 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
                 f'rel="noopener">{label}</a>')
 
     btns = []
-    if sel["must"]:
-        btns.append(_btn(f"★★ 突发必看 {len(sel['must'])}", "__key__", gold=True))
-    if sel["lv1"]:
-        btns.append(_btn(f"★ 重大新闻 {len(sel['lv1'])}", "__news__"))
     for t, rows in groups:
-        btns.append(_btn(f"{e(t)} {len(rows)}", t))
+        n2 = sum(1 for r in rows if r.get("level") == 2)
+        label = f"{t} {len(rows)}" + (f"（突发 {n2}）" if n2 else "")
+        btns.append(_btn(label, t, gold=(n2 > 0)))
 
     head = f'本次新增 {len(sel["ids"])} 条'
     if sel["skipped"]:
@@ -1229,12 +1227,11 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
              f'<h2>新闻{edition} · {run_time.strftime("%Y年%m月%d日")}</h2>',
              f'<p class="sub">{e(head)}</p>',
              '<div>' + "".join(btns) + "</div>",
-             '<p class="sub">↑ 点分类按钮，在浏览器里打开该分类的完整列表</p>',
-             section("must", "★★ 突发必看", sel["must"], gold=True),
-             section("lv1", "★ 重大新闻", sel["lv1"])]
+             '<p class="sub">↑ 点分类按钮，在浏览器里打开该分类的完整列表</p>']
 
     for t, rows in groups:
-        parts.append(section(f"g-{topics_order.index(t)}", t, rows))
+        n2 = sum(1 for r in rows if r.get("level") == 2)
+        parts.append(section(f"g-{topics_order.index(t)}", t, rows, gold=(n2 > 0)))
     if sel["en"]:
         en_rows = "".join(
             f'<div class="it"><a class="tt" href="{e(r["link"], True)}">'
