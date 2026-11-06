@@ -1583,6 +1583,10 @@ def main():
     # 准入必须同时满足：命中某一栏的关键词 + 命中事件强度词。
     # 只命中栏目的（英伟达发新品、AI 评测榜）一律丢弃，不再留兴趣区。
     intensity_kw = (cfg.get("intensity", {}) or {}).get("keywords", []) or []
+    # 总统级公开表态单独放行（用户点名要的一类，标题常无强度词）
+    _sp = cfg.get("speech_rules", {}) or {}
+    speech_subj = _sp.get("subjects", []) or []
+    speech_verb = _sp.get("verbs", []) or []
     feeds = [f for f in (cfg.get("feeds", []) or []) if f.get("enabled", True)]
     hours_window = int(cfg.get("hours_window", 30))
     # 没有时间字段的源，每个源最多取多少条
@@ -1670,6 +1674,11 @@ def main():
                 # 例外：美联储、SEC、统计局这类机构源发的就是事件，源即准入。
                 is_inst = bool(fd.get("institution"))
                 fd_block = fd.get("block") or ""
+                # 总统/白宫的表态本身就是信号，不需要"事件强度词"
+                hit_speech = (any(kw_hit(k, title) for k in speech_subj)
+                              and any(kw_hit(k, title) for k in speech_verb))
+                if not hits and hit_speech:
+                    hits, words = ["美国重大"], []
                 if not hits and fd_block and (is_inst or (hit_int and fd.get("intl"))):
                     # 只给外媒兜底：英文标题常不写机构全名（"Fed cuts rates"）。
                     # 中文源不能用源级兜底——中新网国内一天几十条通稿，
@@ -1677,7 +1686,7 @@ def main():
                     hits, words = [fd_block], []
                 if not hits:
                     continue
-                if not (is_inst or hit_int):
+                if not (is_inst or hit_int or hit_speech):
                     continue
                 # 一条只留一个主归属：同一条稿子可能同时命中美国栏和国际栏
                 # （比如"特朗普宣布制裁伊朗"），按 weight 取主栏，

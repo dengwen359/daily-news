@@ -400,14 +400,60 @@ topics:
       - 朝鲜
       - 加沙
       # ---- 其他主要经济体政策 ----
+      # 英文名也要列，否则外媒稿子（"Bank of England Raises Rates"）
+      # 认不出是哪家央行，会被源级默认栏错算成美国重大。
       - 欧洲央行
       - 欧央行
       - 日本央行
       - 英国央行
+      - European Central Bank
+      - ECB
+      - Bank of Japan
+      - BOJ
+      - Bank of England
       - OPEC
       - 减产
       - 增产
       - 峰会
+
+# ============================================================
+# 总统级公开表态（单独放行）
+# ============================================================
+# 用户明确要"美国总统的公开言论"。这类标题往往没有任何事件强度词
+# （"特朗普：俄乌冲突已非常接近解决"），按强度门槛会被误杀。
+# 规则：标题同时出现 subject 和 verb 就算一条，直接进美国重大栏。
+# 只管总统/白宫这一层，部委发言不放——否则一天几十条"某官员表示"。
+speech_rules:
+  subjects:
+    - 特朗普
+    - 白宫
+    - 美国总统
+    - 美国副总统
+    - 万斯
+    - 鲁比奥
+    - Trump
+    - White House
+  verbs:
+    - 称
+    - 说
+    - 表示
+    - 宣布
+    - 警告
+    - 表态
+    - 回应
+    - 放话
+    - 扬言
+    - 签署
+    - 下令
+    # 冒号式表态：中文标题最常见的形式就是"特朗普：俄乌冲突已接近解决"
+    - "："
+    - says
+    - said
+    - warns
+    - announces
+    - signs
+    - tells
+    - vows
 
 # ---------- 泛词（只在标题出现时才算命中） ----------
 # 这些词在正文里到处都是，比如"上市"可能指产品发售而非 IPO，
@@ -552,7 +598,6 @@ feeds:
     enabled: true
 
   - name: 纽约时报·商业
-    block: 美国重大
     group: nyt
     url: https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
     intl: true
@@ -567,7 +612,6 @@ feeds:
     enabled: true
 
   - name: BBC·商业
-    block: 美国重大
     group: bbc
     url: https://feeds.bbci.co.uk/news/business/rss.xml
     intl: true
