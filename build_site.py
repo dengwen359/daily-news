@@ -275,17 +275,10 @@ function buildTabs(){{
       && !all.includes(curTopic)) {{
     curTopic = '__all__';
   }}
-  const keyN = d.items.filter(it => it.lv === 2).length;
-  const newsN = d.items.filter(it => it.lv === 1).length;
-
   const tabs = $('tabs');
   let h = `<div class="tab ${{curTopic==='__all__'?'on':''}}" data-t="__all__">全部 ${{d.items.length}}</div>`;
-  if (keyN) {{
-    h += `<div class="tab keytab ${{curTopic==='__key__'?'on':''}}" data-t="__key__">★★ 突发必看 ${{keyN}}</div>`;
-  }}
-  if (newsN) {{
-    h += `<div class="tab ${{curTopic==='__news__'?'on':''}}" data-t="__news__">★ 重大新闻 ${{newsN}}</div>`;
-  }}
+  // 只按栏目分 tab，不再按"必看/重大"分层——那会让同一条新闻在
+  // 必看区和栏目区各出现一次。突发条目在栏内置顶加高亮，见 render()。
   all.forEach(t => {{
     const n = d.items.filter(it => (it.tp||[]).includes(t)).length;
     if (n) h += `<div class="tab ${{curTopic===t?'on':''}}" data-t="${{t}}">${{t}} ${{n}}</div>`;
@@ -343,8 +336,6 @@ function render(){{
 
   const box = $('list');
   const all = d.items;
-  const mustRead = all.filter(it => it.lv === 2);
-  const headlines = all.filter(it => it.lv === 1);
 
   // ---- 搜索：不分主题，全局平铺 ----
   if (curQ) {{
@@ -363,60 +354,36 @@ function render(){{
     return;
   }}
 
-  // ---- 只看必看 ----
-  if (curTopic === '__key__') {{
-    if (!mustRead.length) {{
-      box.innerHTML = `<div class="empty">今天没有必看内容</div>`;
-      return;
-    }}
-    box.innerHTML = `<div class="grp"><div class="grp-h keyhead">★★ 突发必看 · ${{mustRead.length}}</div>`
-      + mustRead.map(it => itemHTML(it, 2)).join('') + '</div>';
-    return;
+  // ---- 只看必看（旧链接 ?t=__key__ 兼容：回落为突发条目过滤） ----
+  if (curTopic === '__key__' || curTopic === '__news__') {{
+    curTopic = '__all__';
   }}
 
-  // ---- 只看要闻 ----
-  if (curTopic === '__news__') {{
-    if (!headlines.length) {{
-      box.innerHTML = `<div class="empty">今天没有要闻</div>`;
-      return;
-    }}
-    box.innerHTML = `<div class="grp"><div class="grp-h">★ 重大新闻 · ${{headlines.length}}</div>`
-      + headlines.map(it => itemHTML(it, 1)).join('') + '</div>';
-    return;
-  }}
-
-  // ---- 全部：必看 → 要闻 → 各主题 ----
+  // ---- 全部：按栏目分组，每条只出现一次 ----
   if (curTopic === '__all__') {{
-    let h = '';
-    if (mustRead.length) {{
-      h += `<div class="grp"><div class="grp-h keyhead">★★ 突发必看 · ${{mustRead.length}}</div>`;
-      h += mustRead.map(it => itemHTML(it, 2)).join('');
-      h += '</div>';
-    }}
-    if (headlines.length) {{
-      h += `<div class="grp"><div class="grp-h">★ 重大新闻 · ${{headlines.length}}</div>`;
-      h += headlines.map(it => itemHTML(it, 1)).join('');
-      h += '</div>';
-    }}
-    const rest = all.filter(it => it.lv === 0);
     const groups = [];
     const used = new Set();
     (d.order||[]).forEach(t => {{
-      const rows = rest.filter(it => (it.tp||[]).includes(t) && !used.has(it.u + it.t));
+      // 栏内排序：突发(lv2)置顶，再按时间新→旧
+      const rows = all.filter(it => (it.tp||[]).includes(t) && !used.has(it.u + it.t));
       if (rows.length) {{
         rows.forEach(it => used.add(it.u + it.t));
+        rows.sort((a,b) => (b.lv - a.lv) || (b.tm||'').localeCompare(a.tm||''));
         groups.push([t, rows]);
       }}
     }});
-    const left = rest.filter(it => !used.has(it.u + it.t));
-    if (left.length) groups.push(['其他', left]);
-
-    groups.forEach(([name, rows]) => {{
-      h += `<div class="grp"><div class="grp-h">${{esc(name)}} · ${{rows.length}}</div>`;
-      h += rows.map(it => itemHTML(it, 0)).join('');
-      h += '</div>';
-    }});
-    box.innerHTML = h || `<div class="empty">今天没有内容</div>`;
+    const left = all.filter(it => !used.has(it.u + it.t));
+    if (left.length) {{
+      left.sort((a,b) => (b.lv - a.lv) || (b.tm||'').localeCompare(a.tm||''));
+      groups.push(['其他', left]);
+    }}
+    if (!groups.length) {{
+      box.innerHTML = `<div class="empty">今天没有内容</div>`;
+      return;
+    }}
+    box.innerHTML = groups.map(([name, rows]) =>
+      `<div class="grp"><div class="grp-h">${{esc(name)}} · ${{rows.length}}</div>`
+      + rows.map(it => itemHTML(it, it.lv)).join('') + '</div>').join('');
     return;
   }}
 

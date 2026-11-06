@@ -227,7 +227,7 @@ def pick_items(data, lines=3, exclude=None):
     order(head)
 
     rows = must[:lines]
-    tag = {id(it): "必看" for it in rows}
+    tag = {id(it): "突发" for it in rows}
     if len(rows) < lines:
         for it in head[:lines - len(rows)]:
             rows.append(it)
@@ -246,7 +246,7 @@ def build_xml(date_str, rows, tag, n_must, n_head, total, is_today=True):
     if not rows:
         title = f"{prefix}{mmdd} 新闻 · 本轮无新内容"
     elif n_must:
-        title = f"{prefix}{mmdd} 新闻 · 必看 {n_must} 条 / 本轮 {total} 条"
+        title = f"{prefix}{mmdd} 新闻 · 突发 {n_must} 条 / 本轮 {total} 条"
     elif total:
         title = f"{prefix}{mmdd} 新闻 · 本轮 {total} 条"
     else:
@@ -552,7 +552,7 @@ def main():
     is_today = (date_str == dt.date.today().strftime("%Y-%m-%d"))
     xml = build_xml(date_str, rows, tag, n_must, n_head, total, is_today)
 
-    print(f"数据日期 {date_str}（来源：{via}）：本轮 {total} 条（必看 {n_must} / 要闻 {n_head}）")
+    print(f"数据日期 {date_str}（来源：{via}）：本轮 {total} 条（突发 {n_must} / 要闻 {n_head}）")
     for i, it in enumerate(rows, 1):
         print(f"  {i}. [{tag[id(it)]}] {it.get('title', '')}")
     print(f"  看板：{SITE}")

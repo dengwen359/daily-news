@@ -910,23 +910,28 @@ def build_report(items, cfg, run_time, feed_stats):
     per_src = int(lim.get("max_per_feed", 8))
     per_topic = int(lim.get("max_per_topic", 12))
 
-    lv2 = [it for it in items if it.get("level", 0) == 2]
-    lv1 = [it for it in items if it.get("level", 0) == 1]
-    key_ids = {it["id"] for it in lv2 + lv1}
-    rest = [it for it in items if it["id"] not in key_ids]
+    lv0 = [it for it in items if it.get("level", 0) == 0]
+    main = [it for it in items if it.get("level", 0) > 0]
 
-    lv2.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
-    lv1.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
+    # 主区按三栏分组，一条只出现一次（2026-11-06 下午定稿）。
+    # 之前"必看区 + 重大区 + 栏目区"三套分区并存，同一条新闻在
+    # 必看区和"突发事件"栏各出现一次，用户明确不要这种重复：
+    # 共 N 条新闻就只展示 N 个条目。英文条目也并入所属栏，
+    # 不再单列"外媒原文"区。栏内：突发(2)在重大(1)前面。
+    order_names = list(topics.keys()) + ["其他"]
+    grouped_main = {name: [] for name in order_names}
+    for it in main:
+        t = (it.get("topics") or [None])[0]
+        grouped_main.setdefault(t or "其他", []).append(it)
+    for t in grouped_main:
+        grouped_main[t].sort(
+            key=lambda x: (-x.get("level", 0), -x["score"], -(x["ts"] or 0)))
 
-    # 中文/英文分开：英文源没法和中文稿比对，混排会显得同一件事出现两次
-    lv1_zh, lv1_en = split_en(lv1)
-    rest_zh, rest_en = split_en(rest)
-
-    lv1_show, lv1_more = cap_by_source(lv1_zh, per_src)
-
+    # lv0 现在基本恒空（新口径全部条目都是要闻级以上），逻辑保留兜底
+    lv0_zh, lv0_en = split_en(lv0)
     grouped = {name: [] for name in topics}
     grouped["其他"] = []
-    for it in rest_zh:
+    for it in lv0_zh:
         placed = False
         for t in it["topics"]:
             if t in grouped:
@@ -938,70 +943,45 @@ def build_report(items, cfg, run_time, feed_stats):
     total = len(items)
     sources_ok = sum(1 for v in feed_stats.values() if v["ok"])
     sources_fail = len(feed_stats) - sources_ok
+    n_break = sum(1 for it in main if it.get("level", 0) == 2)
 
     L = []
     L.append(f"# 每日新闻简报 · {run_time.strftime('%Y-%m-%d')}")
     L.append("")
     L.append(f"> 生成时间：{run_time.strftime('%Y-%m-%d %H:%M')}　|　"
-             f"必看 **{len(lv2)}** 条 · 要闻 **{len(lv1)}** 条 · 全部 **{total}** 条　|　"
+             f"突发 **{n_break}** 条 · 共 **{total}** 条　|　"
              f"时间窗：最近 {hw} 小时")
     L.append(f"> 信息源：{sources_ok} 个正常" +
              (f"，{sources_fail} 个暂不可用（已自动跳过）" if sources_fail else ""))
     L.append("> 每条都带原文链接和正文摘录；同一事件多家报道只列一条，其余收在“同题另报”。")
     L.append("")
 
-    if lv2:
-        L.append(f"## ★★ 必看 · 突发（{len(lv2)} 条）")
+    # 三栏正文：美国重大 / 国内政策 / 突发事件，栏内突发置顶
+    for t in order_names:
+        rows = grouped_main[t]
+        if not rows:
+            continue
+        show, more = cap_by_source(rows, per_src)
+        L.append(f"## {t}（{len(rows)} 条）")
         L.append("")
-        L.append("> 战争冲突、自然灾害、重大事故等突发新闻自动置顶，国内国际都算。**这部分保证不遗漏。**")
-        L.append("")
-        for r in lv2:
+        for r in show:
             L.extend(render_item(r, mark_key=True))
-
-    if lv1_show:
-        L.append(f"## ★ 重大新闻（{len(lv1)} 条，先列 {len(lv1_show)} 条）")
-        L.append("")
-        L.append("> 美国重大（总统表态、美联储、国会立法、关税与 AI 芯片监管、美股剧震）、"
-                 "国内政策（中央与国务院、央行、监管、宏观数据）、突发事件（战争、天灾、其他经济体重大决议）。")
-        L.append("")
-        # 按三栏分小节，和看板、邮件保持同一结构
-        placed_ids = set()
-        for t in list(topics.keys()):
-            rows = [r for r in lv1_show if t in (r.get("topics") or [])]
-            if not rows:
-                continue
-            L.append(f"### {t}（{len(rows)} 条）")
+        if more:
+            L.append(f"<details><summary>展开该栏其余 {len(more)} 条</summary>")
             L.append("")
-            for r in rows:
-                placed_ids.add(r["id"])
+            for r in more:
                 L.extend(render_item(r, mark_key=True))
-        left_rows = [r for r in lv1_show if r["id"] not in placed_ids]
-        if left_rows:
-            L.append("### 其他（%d 条）" % len(left_rows))
+            L.append("</details>")
             L.append("")
-            for r in left_rows:
-                L.extend(render_item(r, mark_key=True))
 
-    L.append("## 今日概览")
-    L.append("")
-    if lv2:
-        L.append(f"- **★★ 必看**：{len(lv2)} 条（见上）")
-    if lv1:
-        L.append(f"- **★ 重大新闻**：{len(lv1)} 条（见上）")
-    for name in list(topics.keys()) + ["其他"]:
-        if grouped[name]:
-            L.append(f"- **{name}**：{len(grouped[name])} 条")
-    if rest_en or lv1_en:
-        L.append(f"- **外媒原文**：{len(lv1_en) + len(rest_en)} 条（英文）")
-    L.append("")
-
-    for name in list(topics.keys()) + ["其他"]:
+    # lv0 兜底区（恒空时自动跳过）
+    for name in order_names:
         rows = grouped[name]
         if not rows:
             continue
         rows.sort(key=lambda x: (-x["score"], -(x["ts"] or 0)))
         show, more = rows[:per_topic], rows[per_topic:]
-        L.append(f"## {name}（{len(rows)} 条）")
+        L.append(f"## 其他关注 · {name}（{len(rows)} 条）")
         L.append("")
         for r in show:
             L.extend(render_item(r))
@@ -1011,35 +991,6 @@ def build_report(items, cfg, run_time, feed_stats):
             L.append("")
             for r in more:
                 L.extend(render_item(r))
-            L.append("</details>")
-            L.append("")
-
-    # 要闻超出的部分折叠，不丢内容但不占版面
-    if lv1_more:
-        L.append(f"### 要闻 · 其余 {len(lv1_more)} 条")
-        L.append("")
-        L.append("<details><summary>展开全部</summary>")
-        L.append("")
-        for r in lv1_more:
-            L.extend(render_item(r, mark_key=True))
-        L.append("</details>")
-        L.append("")
-
-    en_all = lv1_en + rest_en
-    if en_all:
-        en_all.sort(key=lambda x: (-x.get("level", 0), -x["score"], -(x["ts"] or 0)))
-        show, more = cap_by_source(en_all, int(lim.get("max_per_feed_en", 5)))
-        L.append(f"## 外媒原文 · 英文（{len(en_all)} 条）")
-        L.append("")
-        L.append("> BBC、纽约时报等英文源的原始报道，按源限量，方便对照着看外媒口径。")
-        L.append("")
-        for r in show:
-            L.extend(render_item(r, mark_key=(r.get("level", 0) > 0)))
-        if more:
-            L.append("<details><summary>其余外媒报道</summary>")
-            L.append("")
-            for r in more:
-                L.extend(render_item(r, mark_key=(r.get("level", 0) > 0)))
             L.append("</details>")
             L.append("")
 
@@ -1154,11 +1105,17 @@ def build_mail_body(items, cfg, run_time, exclude=None, edition=None):
     # 邮件按三栏分节，和看板、桌面弹窗保持一致。
     # 用户打开邮件看到的就是"美国重大 / 国内政策 / 突发事件"三块，
     # 不用再猜哪条属于哪类。突发（level 2）在同栏里排最前面。
+    # 英文条目（sel["en"]）也并入所属栏，不再单列"外媒原文"区——
+    # 单列的话，总数对不上（23 条新闻邮件里要出现 23+ 条目），
+    # 且英文条目明明属于"美国重大"却不在该栏，看着像漏了。
     order = list((cfg.get("topics", {}) or {}).keys())
     by_block = {t: [] for t in order}
-    for r in sel["must"] + sel["lv1"]:
+    for r in sel["must"] + sel["lv1"] + sel["en"]:
         t = (r.get("topics") or [None])[0]
         by_block.setdefault(t or "其他", []).append(r)
+    # 同栏内：突发 > 重大，再按分数
+    for t in by_block:
+        by_block[t].sort(key=lambda r: (-r.get("level", 0), -r.get("score", 0)))
     notes = {
         "美国重大": "总统与白宫表态、美联储、国会立法、关税与 AI 芯片监管、美股剧震。",
         "国内政策": "中央与国务院、央行与监管、财政与宏观数据。",
@@ -1169,14 +1126,6 @@ def build_mail_body(items, cfg, run_time, exclude=None, edition=None):
     if sel["rest_must"] + sel["rest_lv1"] > 0:
         L.append("")
         L.append(f"   还有 {sel['rest_must'] + sel['rest_lv1']} 条在网页版")
-
-    if sel["en"]:
-        L.append("")
-        L.append(f"【外媒原文 · 英文，{len(sel['en'])} 条】")
-        L.append("-" * 34)
-        for r in sel["en"]:
-            L.append(f"· {r['title']}")
-            L.append(f"  {r['source']}　{r['link']}")
 
     if site:
         L.append("")
@@ -1253,11 +1202,14 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
                 + (custom or "".join(item_html(r) for r in rows)))
 
     # 三栏分组：正文分节、顶部按钮、看板三处用同一套栏目名。
+    # 英文条目并入所属栏（不再单列"外媒原文"区），保证一条只出现一次。
     topics_order = list((cfg.get("topics", {}) or {}).keys()) + ["其他"]
     _g = {t: [] for t in topics_order}
-    for r in sel["must"] + sel["lv1"]:
+    for r in sel["must"] + sel["lv1"] + sel["en"]:
         t = (r.get("topics") or [None])[0] or "其他"
         _g.setdefault(t, []).append(r)
+    for t in _g:
+        _g[t].sort(key=lambda r: (-r.get("level", 0), -r.get("score", 0)))
     groups = [(t, rows) for t, rows in _g.items() if rows]
 
     # 顶部按钮：只有实际有内容的分类才出现。
@@ -1289,12 +1241,6 @@ def build_mail_html(items, cfg, run_time, sel, edition=None):
     for t, rows in groups:
         n2 = sum(1 for r in rows if r.get("level") == 2)
         parts.append(section(f"g-{topics_order.index(t)}", t, rows, gold=(n2 > 0)))
-    if sel["en"]:
-        en_rows = "".join(
-            f'<div class="it"><a class="tt" href="{e(r["link"], True)}">'
-            f'{e(r["title"])}</a><span class="mt">　{e(r["source"])}</span></div>'
-            for r in sel["en"])
-        parts.append(section("en", "外媒原文 · 英文", sel["en"], custom=en_rows))
 
     if site:
         parts.append(f'<div class="board"><a href="{e(site, True)}">'
