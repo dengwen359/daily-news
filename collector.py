@@ -1579,6 +1579,10 @@ def main():
     breaking_kw = (cfg.get("breaking", {}) or {}).get("keywords", []) or []
     must_kw = (cfg.get("must_watch", {}) or {}).get("keywords", []) or []
     heavy_kw = (cfg.get("heavy_events", {}) or {}).get("keywords", []) or []
+    # 快讯源专用：只有命中这批「强政策词」才升要闻。
+    # 快讯一天几十条，若按普通 must_watch 判定（逆回购/中间价/创业板都算），
+    # 要闻区会被灌到上百条，真正重要的反而被稀释。
+    live_strong_kw = cfg.get("live_strong", []) or []
     feeds = [f for f in (cfg.get("feeds", []) or []) if f.get("enabled", True)]
     hours_window = int(cfg.get("hours_window", 30))
     # 没有时间字段的源，每个源最多取多少条
@@ -1626,6 +1630,7 @@ def main():
             if not entries:
                 raise ValueError("未解析到条目")
             is_must_src = fd.get("tier") == "must"
+            is_live = bool(fd.get("live"))
             cnt = 0
             undated = 0
             for title, link, summary, pub in entries:
@@ -1661,6 +1666,15 @@ def main():
                 #       0=普通兴趣
                 if hit_breaking:
                     level = 2
+                elif is_live:
+                    # 快讯源单独判定：只认强政策词（暂停数据中心、出口管制、
+                    # 降息、美联储……），其余即便命中普通政策词也只算兴趣级
+                    if any(kw_hit(k, title) for k in live_strong_kw):
+                        level = 1
+                    elif hits:
+                        level = 0
+                    else:
+                        continue
                 elif hit_must or is_must_src:
                     level = 1
                 elif not hits:

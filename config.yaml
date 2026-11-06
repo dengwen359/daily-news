@@ -166,6 +166,40 @@ must_watch:
     - superintelligence
     - ban on AI
 
+# ------------------------------------------------------------
+# 快讯源的"升要闻"门槛（只作用于配了 live: true 的源）
+# ------------------------------------------------------------
+# 快讯一天几十条，如果按上面的 must_watch 判定，逆回购、中间价、创业板
+# 涨跌这些都会被当成要闻，一晚上就灌出两百多条，真正的大事反而被稀释。
+# 所以快讯只认下面这批：不是"政策词"，是"政策转向/重大动作"。
+live_strong:
+  # ---- 货币政策动作 ----
+  - 降准
+  - 降息
+  - 加息
+  - 美联储
+  # ---- 产业政策与监管 ----
+  - 暂停先进
+  - 暂停数据中心
+  - 暂停研发
+  - 数据中心停建
+  - 超级智能
+  - 禁止研发
+  - 反垄断
+  - 监管新规
+  - 立法禁止
+  - 法案通过
+  - 出口管制
+  - 制裁
+  - 关税
+  # ---- 国家级大事 ----
+  - 政治局
+  - 全会
+  - 国务院常务会议
+  - 政府工作报告
+  - 特别国债
+  - 中央经济工作会议
+
 # ---------- 兴趣主题 ----------
 # 每个主题下的关键词命中任意一个即归入该主题
 # 权重 weight 决定排序优先级（数字越大越靠前）
@@ -408,12 +442,14 @@ feeds:
   - name: 华尔街见闻·全球快讯
     group: wscn
     type: json_lives          # 接口返回 JSON，不是 RSS
+    live: true                # 快讯源：只认 live_strong 里的强政策词才升要闻
     url: https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&client=pc&limit=100
     topic_hint: 财经投资
     enabled: true
 
   - name: 华尔街见闻·文章
     url: https://dedicated.wallstreetcn.com/rss.xml
+    live: true                # 标题常带"创业板""中间价"，同样只认强政策词
     topic_hint: 财经投资
     enabled: true
 
