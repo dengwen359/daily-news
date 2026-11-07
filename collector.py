@@ -783,6 +783,124 @@ def save_state(state, max_age_days=7):
         json.dump(state, f)
 
 
+# ---------------------------------------------------------------- 推送层事件去重
+# mailed.json 只记条目 id：同一件事换个源、换种写法，id 就变了，
+# 上一封发过的内容下一封还会再出现（实测：特朗普把美股大跌怪民主党，
+# 中新网和华尔街见闻两条写法差很远，same_event 判 False，都进了晚报）。
+# 这里额外记一份"事件指纹"（归一化标题），推送时按同题比对。
+# 口径（用户 2026-11-07）：只挡"同一件事、又没有新进展"的；
+# 有新动作/新数字/新时间标记的一律放行——宁可漏挡，不误杀新消息。
+MAILED_EVENTS_PATH = os.path.join(BASE_DIR, "data", "mailed_events.json")
+
+# 出现这些词说明事情有了新动作/新进展，不能当重复挡掉
+_DEV_WORDS = (
+    "宣布", "签署", "签发", "批准", "通过", "加码", "升级", "改口", "推翻",
+    "达成", "中止", "暂停", "恢复", "延长", "扩大", "缩减", "辞职", "上任",
+    "降息", "加息", "减税", "加征", "制裁", "首次", "再次", "再度", "正式",
+    "进一步", "刚刚", "最新", "今日", "今晚", "今晨", "后续", "进展",
+    "更新", "公布", "发布", "决定", "获批", "生效", "起诉", "判决",
+    "当选", "就职", "访华",
+)
+# 注意：「回应/表态/否认/澄清」这类是**表述动词**，不是事件进展。
+# 同一件事两家媒体常一个写"回应"一个写"都怪"，把它当新进展会让去重失效。
+
+
+def push_same_event(a, b):
+    """推送层同题判定：比聚类宽，专门抓"换源换写法"的同一件事。
+    a/b 都是 norm_title 之后的标题。"""
+    if not a or not b:
+        return False
+    if is_cjk_text(a) != is_cjk_text(b):
+        return False
+    # 数字不同 → 新数据/新进展，不当重复（降息25 vs 降息50 是两条新闻）
+    if numbers_in(a) != numbers_in(b):
+        return False
+    if similar(a, b):
+        return True
+
+    def _hit(x, y):
+        # common_spans 的合并逻辑不对称（片段按 x 的位置合并），
+        # 两个方向都算一遍，任一方向命中就算同题
+        spans = [sp for sp in common_spans(x, y)
+                 if not any(bad in sp for bad in _ENT_BAD)]
+        return (len(spans) >= 3
+                and sum(len(sp) for sp in spans) >= 7
+                and max(len(sp) for sp in spans) >= 3)
+
+    # 3 个以上不同实体片段、总长 >= 7、且至少有一个 >= 3 字的实词
+    return _hit(a, b) or _hit(b, a)
+
+
+def has_development(new_t, old_t):
+    """新标题相对已推送的旧标题有没有新进展信号。有就放行，别当重复挡掉。"""
+    if numbers_in(new_t) - numbers_in(old_t):
+        return True
+    return any(w in new_t and w not in old_t for w in _DEV_WORDS)
+
+
+def load_mailed_events():
+    """已推送条目的事件指纹 [{t: 归一化标题, ts: 推送时间}]，保留 3 天。
+
+    老版本只有 mailed.json（id→ts），首次升级时从最近几天的 data/*.json
+    反查标题自动回填，不用手工迁移，云端 checkout 后也能自己补上。
+    """
+    if os.path.exists(MAILED_EVENTS_PATH):
+        try:
+            with open(MAILED_EVENTS_PATH, encoding="utf-8") as f:
+                d = json.load(f)
+            if isinstance(d, list):
+                return d
+        except Exception:
+            pass
+    out, seen = [], set()
+    try:
+        mailed = load_mailed()
+        dd = os.path.join(BASE_DIR, "data")
+        for fn in sorted(os.listdir(dd)):
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", fn):
+                continue
+            with open(os.path.join(dd, fn), encoding="utf-8") as f:
+                for it in (json.load(f).get("items") or []):
+                    iid = it.get("id")
+                    if iid not in mailed:
+                        continue
+                    nt = norm_title(it.get("title", ""))
+                    if nt and nt not in seen:
+                        seen.add(nt)
+                        out.append({"t": nt, "ts": mailed[iid]})
+    except Exception:
+        pass
+    if out:
+        save_mailed_events(out)
+    return out
+
+
+def save_mailed_events(events, keep_days=3):
+    cutoff = (dt.datetime.now() - dt.timedelta(days=keep_days)).timestamp()
+    events = [e for e in events
+              if isinstance(e, dict) and e.get("t")
+              and e.get("ts", cutoff) >= cutoff]
+    os.makedirs(os.path.dirname(MAILED_EVENTS_PATH), exist_ok=True)
+    with open(MAILED_EVENTS_PATH, "w", encoding="utf-8") as f:
+        json.dump(events, f, ensure_ascii=False)
+
+
+def drop_pushed_repeats(rows, pushed_titles, chosen):
+    """挑完稿后再过一道：同题且无新进展的丢掉，宁少勿重。
+    pushed_titles 是历史已推送的归一化标题，chosen 是本封已选中的。"""
+    keep = []
+    seen = [t for t in list(pushed_titles) + list(chosen) if t]
+    for it in rows:
+        nt = norm_title(it.get("title", ""))
+        if any(push_same_event(nt, old) and not has_development(nt, old)
+               for old in seen):
+            continue
+        keep.append(it)
+        if nt:
+            seen.append(nt)   # 本封留下的也算已出现，后面同题的不再进
+    return keep
+
+
 def load_mailed():
     """最近推送过邮件的条目登记：{条目id: 推送时间戳}
 
@@ -1029,12 +1147,14 @@ def build_report(items, cfg, run_time, feed_stats):
     return "\n".join(L)
 
 
-def select_mail_rows(items, cfg, run_time, exclude=None):
+def select_mail_rows(items, cfg, run_time, exclude=None, pushed_titles=None):
     """挑出这封邮件真正要发的内容。
 
     exclude 是之前推送过的条目 id 集合：早报发过的晚报不再发，
     昨天发过的今天不再发。宁可发得少，也不拿旧闻凑条数——
     哪怕这一轮只剩一条没推过，就只发那一条。
+    pushed_titles 是历史已推送的归一化标题，用来挡"换源换写法"的同一件事
+    （id 不同但讲的是同一条新闻），只挡无新进展的，看板/日报不受影响。
     """
     lim = cfg.get("limits", {}) or {}
     excl = exclude or set()
@@ -1066,6 +1186,15 @@ def select_mail_rows(items, cfg, run_time, exclude=None):
     en_rows.sort(key=lambda x: (-x.get("level", 0), -x["score"], -(x["ts"] or 0)))
     en_rows = en_rows[:int(lim.get("mail_en", 3))]
 
+    # 推送层去重：同题且无新进展的只留一条（突发 > 要闻 > 兴趣 > 外媒）。
+    # 历史已推送的和本封已选中的一起比，挡掉的不再补位，宁少勿重。
+    if pushed_titles is not None:
+        chosen = []
+        for bucket in (must_rows, lv1_rows, lv0_rows, en_rows):
+            kept = drop_pushed_repeats(bucket, pushed_titles, chosen)
+            chosen.extend(norm_title(r.get("title", "")) for r in kept)
+            bucket[:] = kept
+
     return {
         "must": must_rows,
         "lv1": lv1_rows,
@@ -1080,14 +1209,15 @@ def select_mail_rows(items, cfg, run_time, exclude=None):
     }
 
 
-def build_mail_body(items, cfg, run_time, exclude=None, edition=None):
+def build_mail_body(items, cfg, run_time, exclude=None, edition=None,
+                    pushed_titles=None):
     """邮件纯文本版。
 
     邮件要满足三件事：每条有原文链接、每条有正文摘录、条数不能太多。
     之前推送过的内容（exclude）直接跳过，不重复占版面。
     edition：补发时外部指定叫早报还是晚报（不传就按时间自动判断）。
     """
-    sel = select_mail_rows(items, cfg, run_time, exclude)
+    sel = select_mail_rows(items, cfg, run_time, exclude, pushed_titles)
     if not edition:
         edition = "早报" if run_time.hour < 15 else "晚报"
     site = cfg.get("site_url", "")
@@ -1839,7 +1969,10 @@ def main():
     # AI 影响分析：只给这封信要发的突发必看 + 重大新闻做，
     # 分析挂在条目对象上，后面的邮件和看板数据都会带上
     if not args.no_mail and not args.dry_run:
-        _sel_prev = select_mail_rows(items, cfg, run_time, exclude=set(load_mailed()))
+        _pt = [] if getattr(args, "force_mail", False) else [
+            e["t"] for e in load_mailed_events() if e.get("t")]
+        _sel_prev = select_mail_rows(items, cfg, run_time,
+                                     exclude=set(load_mailed()), pushed_titles=_pt)
         ai_analyze(_sel_prev["must"] + _sel_prev["lv1"], cfg)
 
     # 没有内容时不覆盖当天已有的日报（避免把好报告刷成空）
@@ -1925,6 +2058,9 @@ def main():
     # 排除之前推送过的：早报发过的晚报不发，昨天发过的今天不发，宁少勿重
     mailed = load_mailed()
     exclude_ids = set() if force else set(mailed)
+    # 事件指纹：挡住"换个源/换种写法又出现一次"的同一件事（id 拦不住）
+    mailed_events = [] if force else load_mailed_events()
+    pushed_titles = [e["t"] for e in mailed_events if e.get("t")]
     # 体积兜底：139 邮箱对整封信大小很敏感，超了容易被判垃圾邮件，
     # 所以先按配置生成，太大就自动减条目、缩摘要，直到落进上限。
     max_kb = float((cfg.get("limits", {}) or {}).get("mail_max_kb", 17))
@@ -1943,7 +2079,8 @@ def main():
         if over:
             cfg_try.setdefault("limits", {}).update(over)
         plain, edition, sel = build_mail_body(
-            items, cfg_try, run_time, exclude=exclude_ids, edition=ed_fix)
+            items, cfg_try, run_time, exclude=exclude_ids, edition=ed_fix,
+            pushed_titles=pushed_titles)
         if not sel["ids"]:
             print(f"  [邮件] 本轮 {len(items)} 条内容之前都推送过，不发邮件（宁少勿重）")
             return
@@ -1967,6 +2104,16 @@ def main():
         for iid in sel["ids"]:
             mailed[iid] = now_ts
         save_mailed(mailed)
+        # 登记事件指纹：下一封邮件/下一轮通知不再出现同一件事
+        have_t = {e.get("t") for e in mailed_events}
+        for it in items:
+            if it["id"] not in sel["ids"]:
+                continue
+            nt = norm_title(it.get("title", ""))
+            if nt and nt not in have_t:
+                have_t.add(nt)
+                mailed_events.append({"t": nt, "ts": now_ts})
+        save_mailed_events(mailed_events)
         mstate.setdefault(state_key, {})[slot] = run_time.strftime("%H:%M")
         save_mailstate(mstate)
 
