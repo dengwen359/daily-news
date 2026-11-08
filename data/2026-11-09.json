@@ -1,8 +1,8 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-09 02:00",
+ "generated_at": "2026-11-09 04:41",
  "hours_window": 30,
- "count": 14,
+ "count": 15,
  "sources_ok": 18,
  "sources_total": 18,
  "topics_order": [
@@ -27,7 +27,7 @@
     "地震"
    ],
    "time": "10:59",
-   "score": 21.1,
+   "score": 20.8,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -49,7 +49,7 @@
     "地震"
    ],
    "time": "07:54",
-   "score": 20.7,
+   "score": 20.4,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -71,7 +71,7 @@
     "空袭"
    ],
    "time": "06:53",
-   "score": 20.6,
+   "score": 20.3,
    "level": 2,
    "why": "空袭",
    "tier": "must",
@@ -137,11 +137,36 @@
     "全会"
    ],
    "time": "15:23",
-   "score": 19.7,
+   "score": 19.3,
    "level": 1,
    "why": "全会",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "fa3e5464aaf390a5",
+   "title": "美国总统特朗普在周四与以色列总理内塔尼亚胡的通话中表示，希望内塔尼亚胡采取措施，推动落实其加沙和平计划。",
+   "link": "https://wallstreetcn.com/livenews/3196504",
+   "summary": "美国总统特朗普在周四与以色列总理内塔尼亚胡的通话中表示，希望内塔尼亚胡采取措施，推动落实其加沙和平计划。（Axios）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "美国总统",
+    "以色列",
+    "加沙"
+   ],
+   "time": "02:10",
+   "score": 18.7,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -160,7 +185,7 @@
     "伊朗"
    ],
    "time": "01:08",
-   "score": 14.9,
+   "score": 14.6,
    "level": 1,
    "why": "",
    "tier": "",
@@ -179,6 +204,11 @@
      "src": "华尔街见闻·全球快讯",
      "t": "特朗普：若伊朗谈判取得进展，重启军事打击的可能性极低",
      "u": "https://wallstreetcn.com/livenews/3196502"
+    },
+    {
+     "src": "澎湃新闻",
+     "t": "特朗普称若美伊谈判取得进展，再次发动打击可能性极低",
+     "u": "https://m.thepaper.cn/newsDetail_forward_34435927"
     }
    ],
    "topics": [
@@ -189,7 +219,7 @@
     "美国总统"
    ],
    "time": "00:18",
-   "score": 14.8,
+   "score": 14.5,
    "level": 1,
    "why": "",
    "tier": "",
@@ -211,7 +241,7 @@
     "专项债"
    ],
    "time": "22:05",
-   "score": 14.5,
+   "score": 14.2,
    "level": 1,
    "why": "专项债",
    "tier": "",
@@ -233,7 +263,7 @@
     "美股"
    ],
    "time": "17:35",
-   "score": 13.9,
+   "score": 13.6,
    "level": 1,
    "why": "暴跌",
    "tier": "",
@@ -262,7 +292,7 @@
     "民主党"
    ],
    "time": "12:12",
-   "score": 13.3,
+   "score": 12.9,
    "level": 1,
    "why": "",
    "tier": "",
@@ -284,7 +314,7 @@
     "CPI"
    ],
    "time": "10:23",
-   "score": 13.0,
+   "score": 12.7,
    "level": 1,
    "why": "CPI",
    "tier": "",
@@ -307,7 +337,7 @@
     "白宫"
    ],
    "time": "10:15",
-   "score": 13.0,
+   "score": 12.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -329,7 +359,7 @@
     "白宫"
    ],
    "time": "17:31",
-   "score": 11.9,
+   "score": 11.6,
    "level": 1,
    "why": "",
    "tier": "",
