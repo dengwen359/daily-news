@@ -3,21 +3,22 @@
 # 所以同一件事排多次：邮件由 collector 自己判断"这个时段发过没"，
 # 谁先跑起来谁发，发过就不再重复——晚一次也不会整份丢掉。
 #
-# 2026-11-09：正在把执行器迁到 NAS 本机 cron。
-# workflow_dispatch 新增 deploy_only=true：NAS 推完 docs/index.html 后触发，
-# 只跑 Pages 部署（Pages 是 build_type=workflow，推文件不会自动发布）。
-# schedule 暂时保留，等 NAS 试跑验证通过后再停用。
+# 2026-11-09 22:25：执行器已全部迁到 NAS 本机 cron（root），试跑全链路通过。
+# 云端 schedule 停用——两边同时跑会互相覆盖 data/、抢 mailed.json 邮件节流状态。
+# workflow_dispatch 保留作 NAS 宕机时的全功能备用；deploy_only=true 供 NAS 推完看板后
+# 主动触发 Pages 重新发布（Pages 是 build_type=workflow，推文件不会自动发布）。
+# 需要回滚：把下面 schedule 的 4 行取消注释即可，班次与 NAS crontab 一一对应。
 
 name: 每日新闻
 
 on:
-  schedule:
-    # UTC 时间，北京时间 = UTC + 8
-    - cron: '30 0,1 * * *'          # 北京 08:30 / 09:30  早报（第二发是补发）
-    - cron: '30 2,4,6,8,10 * * *'   # 北京 10:30 12:30 14:30 16:30 18:30  抓取；早报漏了就补发
-    - cron: '30 12,13,14,15 * * *'  # 北京 20:30 / 21:30 / 22:30 / 23:30  晚报（后三发是补发）
-    - cron: '30 16 * * *'           # 北京 00:30  抓取
-  workflow_dispatch:        # 支持在网页上手动点一下运行
+  # schedule:
+  #   # UTC 时间，北京时间 = UTC + 8
+  #   - cron: '30 0,1 * * *'          # 北京 08:30 / 09:30  早报（第二发是补发）
+  #   - cron: '30 2,4,6,8,10 * * *'   # 北京 10:30 12:30 14:30 16:30 18:30  抓取
+  #   - cron: '30 12,13,14,15 * * *'  # 北京 20:30 / 21:30 / 22:30 / 23:30  晚报
+  #   - cron: '30 16 * * *'           # 北京 00:30  抓取
+  workflow_dispatch:        # 手动备用（全功能） / deploy_only=true（只发布网页）
     inputs:
       force_mail:
         description: "强制发一封测试邮件（不占正常早晚报额度）"
