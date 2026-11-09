@@ -2,6 +2,11 @@
 # GitHub 的定时任务会延迟几分钟到几小时，甚至整次漏跑，
 # 所以同一件事排多次：邮件由 collector 自己判断"这个时段发过没"，
 # 谁先跑起来谁发，发过就不再重复——晚一次也不会整份丢掉。
+#
+# 2026-11-09：正在把执行器迁到 NAS 本机 cron。
+# workflow_dispatch 新增 deploy_only=true：NAS 推完 docs/index.html 后触发，
+# 只跑 Pages 部署（Pages 是 build_type=workflow，推文件不会自动发布）。
+# schedule 暂时保留，等 NAS 试跑验证通过后再停用。
 
 name: 每日新闻
 
@@ -16,6 +21,10 @@ on:
     inputs:
       force_mail:
         description: "强制发一封测试邮件（不占正常早晚报额度）"
+        type: boolean
+        default: false
+      deploy_only:
+        description: "只重新发布网页（NAS 已抓取并推送数据），跳过抓取/看板/提交"
         type: boolean
         default: false
 
@@ -49,6 +58,7 @@ jobs:
           python-version: '3.11'
 
       - name: 抓取新闻
+        if: inputs.deploy_only != true
         env:
           # 邮件配置（在仓库 Settings → Secrets 里填，不填就不发邮件）
           NEWS_MAIL_SENDER: ${{ secrets.NEWS_MAIL_SENDER }}
@@ -68,9 +78,11 @@ jobs:
           fi
 
       - name: 生成网页看板
+        if: inputs.deploy_only != true
         run: python build_site.py
 
       - name: 保存结果到仓库
+        if: inputs.deploy_only != true
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
