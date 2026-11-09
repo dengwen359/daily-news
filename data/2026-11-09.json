@@ -1,8 +1,8 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-09 22:21",
+ "generated_at": "2026-11-09 22:30",
  "hours_window": 30,
- "count": 56,
+ "count": 57,
  "sources_ok": 12,
  "sources_total": 18,
  "topics_order": [
@@ -66,7 +66,7 @@
     "政治局"
    ],
    "time": "15:06",
-   "score": 26.6,
+   "score": 32.6,
    "level": 1,
    "why": "政治局",
    "tier": "",
@@ -170,7 +170,7 @@
     "地震"
    ],
    "time": "13:17",
-   "score": 21.9,
+   "score": 21.8,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -192,7 +192,7 @@
     "地震"
    ],
    "time": "13:10",
-   "score": 21.9,
+   "score": 21.8,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -644,7 +644,7 @@
     "伊朗"
    ],
    "time": "22:04",
-   "score": 16.0,
+   "score": 15.9,
    "level": 1,
    "why": "军事行动",
    "tier": "",
@@ -842,6 +842,29 @@
    "ai": ""
   },
   {
+   "id": "b9997cac791fdedb",
+   "title": "特朗普谈中期选举失利原因：美国人对以色列抱有“难以置信的厌恶”",
+   "link": "https://wallstreetcn.com/livenews/3196612",
+   "summary": "据美国哥伦比亚广播公司（CBS）11月8日报道，美国总统特朗普在该媒体节目上谈及共和党在中期选举中失利的原因。他说，美国人对以色列抱有“难以置信的厌恶”，这是共和党失利的主要原因之一。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "以色列"
+   ],
+   "time": "10:14",
+   "score": 14.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
    "id": "10e3a733ed64cc74",
    "title": "特朗普称“铁门”特遣行动正全面展开 几乎没有物资能进出伊朗",
    "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728573.shtml",
@@ -873,29 +896,6 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "b9997cac791fdedb",
-   "title": "特朗普谈中期选举失利原因：美国人对以色列抱有“难以置信的厌恶”",
-   "link": "https://wallstreetcn.com/livenews/3196612",
-   "summary": "据美国哥伦比亚广播公司（CBS）11月8日报道，美国总统特朗普在该媒体节目上谈及共和党在中期选举中失利的原因。他说，美国人对以色列抱有“难以置信的厌恶”，这是共和党失利的主要原因之一。",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "特朗普",
-    "以色列"
-   ],
-   "time": "10:14",
-   "score": 14.4,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "wscn",
    "ai": ""
   },
   {
@@ -1049,6 +1049,29 @@
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "1bffa279f643437f",
+   "title": "伊朗说美取消制裁和停止战争是谈判前提",
+   "link": "https://wallstreetcn.com/livenews/3196995",
+   "summary": "伊朗外交部发言人巴加埃11月9日表示，美国取消制裁、停止战争是启动谈判的前提。（新华社）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "战争",
+    "伊朗"
+   ],
+   "time": "",
+   "score": 13,
+   "level": 1,
+   "why": "制裁",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
