@@ -1,9 +1,9 @@
 {
  "date": "2026-11-10",
- "generated_at": "2026-11-10 22:30",
+ "generated_at": "2026-11-10 23:30",
  "hours_window": 30,
- "count": 87,
- "sources_ok": 12,
+ "count": 88,
+ "sources_ok": 20,
  "sources_total": 21,
  "topics_order": [
   "美国重大",
@@ -28,7 +28,7 @@
     "伊朗"
    ],
    "time": "11-10 18:04",
-   "score": 28.4,
+   "score": 28.3,
    "level": 2,
    "why": "沉没",
    "tier": "must",
@@ -212,7 +212,7 @@
     "中央委员会"
    ],
    "time": "11-10 21:58",
-   "score": 26.9,
+   "score": 26.8,
    "level": 1,
    "why": "中央委员会",
    "tier": "must",
@@ -278,7 +278,7 @@
     "人大常委会"
    ],
    "time": "11-10 19:35",
-   "score": 20.6,
+   "score": 20.5,
    "level": 1,
    "why": "人大常委会",
    "tier": "must",
@@ -315,7 +315,7 @@
     "伊朗"
    ],
    "time": "11-10 03:02",
-   "score": 20.6,
+   "score": 20.4,
    "level": 1,
    "why": "停摆",
    "tier": "",
@@ -380,8 +380,8 @@
    "words": [
     "Trump"
    ],
-   "time": "",
-   "score": 19.4,
+   "time": "11-10 16:23",
+   "score": 19.1,
    "level": 2,
    "why": "监管司法·FBI、investigating",
    "tier": "must",
@@ -427,7 +427,7 @@
     "美联储"
    ],
    "time": "11-10 17:28",
-   "score": 18.4,
+   "score": 18.2,
    "level": 1,
    "why": "降息",
    "tier": "",
@@ -449,7 +449,7 @@
     "特朗普"
    ],
    "time": "11-10 08:11",
-   "score": 18.2,
+   "score": 18.1,
    "level": 2,
    "why": "监管司法·FBI、调查",
    "tier": "",
@@ -471,7 +471,7 @@
     "美联储"
    ],
    "time": "11-10 15:10",
-   "score": 18.1,
+   "score": 18.0,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -490,8 +490,8 @@
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 17.5,
+   "time": "11-10 17:23",
+   "score": 17.2,
    "level": 2,
    "why": "监管司法·national security",
    "tier": "must",
@@ -499,23 +499,25 @@
    "ai": ""
   },
   {
-   "id": "faf3afbffeb4d88a",
-   "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-   "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
-   "summary": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
+   "id": "780cfda08449f3aa",
+   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
+   "link": "https://wallstreetcn.com/articles/3785664",
+   "summary": "美国10月通胀数据超出市场预期，令美联储12月会议上加息幅度的讨论骤然升温。美联储官员已公开表态，若通胀持续升温，不排除采取更大幅度行动。 美国劳工统计局周二公布数据显示， 10月核心CPI环比上涨0.3%，高于市场预期的0.2%；整体CPI环比上涨0.4%，同样超出预期的0.3%。在参与调查的70位分析师中，仅有1位预测通胀会高于最终公布的结果。 数据公布后，美国国债收益率大幅走高，股指期货下挫，市场对12月加息的押注进一步强化。由于去年10月政府停摆期间数据采集中断， 劳工统计局未公布同比变化数据 。 此次数据是美联储官员在12月8日至9日政策会议前所能看到的最后一份CPI报告。 在数据发布前，美联储理事Christopher Waller已在伦敦发表讲话， 明确表示若10月核心CPI环比达到0.3%或更高，12月会议应考虑加息50个基点。 Pacific Investment Man",
    "body": "",
-   "source": "BBC·国际",
+   "source": "华尔街见闻·文章",
    "also": [],
    "topics": [
-    "美国重大"
+    "国内政策"
    ],
-   "words": [],
-   "time": "",
-   "score": 17.0,
-   "level": 2,
-   "why": "监管司法·criminal",
-   "tier": "must",
-   "group": "bbc",
+   "words": [
+    "CPI"
+   ],
+   "time": "11-10 22:37",
+   "score": 16.9,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -533,7 +535,7 @@
     "CPI"
    ],
    "time": "11-10 22:28",
-   "score": 17.0,
+   "score": 16.9,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -553,7 +555,7 @@
    ],
    "words": [],
    "time": "11-10 14:25",
-   "score": 17.0,
+   "score": 16.9,
    "level": 2,
    "why": "监管司法·集体诉讼、指控",
    "tier": "",
@@ -576,7 +578,7 @@
     "CPI"
    ],
    "time": "11-10 21:33",
-   "score": 16.9,
+   "score": 16.8,
    "level": 1,
    "why": "CPI",
    "tier": "",
@@ -584,25 +586,23 @@
    "ai": ""
   },
   {
-   "id": "780cfda08449f3aa",
-   "title": "美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温",
-   "link": "https://wallstreetcn.com/articles/3785664",
-   "summary": "美国10月通胀数据再度走强，进一步巩固了美联储下月加息的预期。 美国劳工统计局周二公布数据显示， 10月消费者价格指数（CPI）环比上涨0.4%，高于市场预期的0.3% ； 剔除食品和能源的核心CPI环比上涨0.3%，同样超过预期的0.2% 。由于去年10月政府关门期间数据采集中断，劳工统计局未公布同比变动数据。 数据公布后，美股期指集体跳水，黄金短线下挫，市场对12月加息25个基点的概率几近100%， 同时加大对加息50个基点的押注。 在参与调查的70位分析师中，仅1位预判通胀会如此强劲，显示此次数据令市场普遍意外。 这是美联储官员在12月8日至9日政策会议前能看到的最后一份CPI报告。在数据发布前， 美联储理事沃勒已明确表态，若核心CPI环比涨幅达到0.3%或以上，美联储或许需要采取更大幅度的50个基点加息行动。 鹰派表态抢先预警，市场已先行承压 在CPI数据公布之前，美联储理事Chr",
+   "id": "faf3afbffeb4d88a",
+   "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+   "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+   "summary": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
    "body": "",
-   "source": "华尔街见闻·文章",
+   "source": "BBC·国际",
    "also": [],
    "topics": [
-    "国内政策"
+    "美国重大"
    ],
-   "words": [
-    "CPI"
-   ],
-   "time": "11-10 21:30",
-   "score": 16.9,
-   "level": 1,
-   "why": "加息",
-   "tier": "",
-   "group": "华尔街见闻·文章",
+   "words": [],
+   "time": "11-10 13:22",
+   "score": 16.7,
+   "level": 2,
+   "why": "监管司法·criminal",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -618,7 +618,7 @@
    ],
    "words": [],
    "time": "11-10 08:01",
-   "score": 16.2,
+   "score": 16.1,
    "level": 2,
    "why": "监管司法·免职",
    "tier": "",
@@ -724,6 +724,29 @@
    "ai": ""
   },
   {
+   "id": "61da85483198d6fe",
+   "title": "欧洲央行内格尔：显然不得不在12月加息",
+   "link": "https://www.jiemian.com/article/15317991.html",
+   "summary": "11月10日，据报道，欧洲央行管委内格尔表示，很明显，我们不得不在12月加息。我们将采取必要措施，使通胀率回归2%。",
+   "body": "11月10日，据报道，欧洲央行管委内格尔表示，很明显，我们不得不在12月加息。我们将采取必要措施，使通胀率回归2%。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "欧洲央行",
+    "欧洲"
+   ],
+   "time": "11-10 23:05",
+   "score": 15.9,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "7f7f079034e2b2a4",
    "title": "Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang",
    "link": "https://www.nytimes.com/2026/11/09/business/nvidia-stock-price-jensen-huang-ceo.html",
@@ -735,8 +758,8 @@
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 16.0,
+   "time": "11-10 05:23",
+   "score": 15.7,
    "level": 2,
    "why": "监管司法·investigation",
    "tier": "",
@@ -877,72 +900,6 @@
    "ai": ""
   },
   {
-   "id": "a8fb0eb34f1b339a",
-   "title": "美国10月CPI环比增长0.4%，高于市场预期",
-   "link": "https://www.jiemian.com/article/15317892.html",
-   "summary": "美国10月消费者价格指数（CPI）环比增长0.4%，预估为增长0.3%，前值为增长0.6%。由于美国联邦政府2025年10月停摆，劳工统计局当月未能完成物价数据采集，去年10月的通胀数据缺失，因此本次发布的月度数据不含同比涨幅。 分析人士指出，随着国际油价自近期高位快速回落，能源产品类别对整体物价的推升作用明显减弱，预计美国通胀短期内不存在再度飙升的风险。但是，当前整体物价水平仍显著高于美联储2%的长期通胀目标，货币政策尚未获得转向宽松的空间。芝商所“美联储观察”工具显示，市场预期美联储12月加息25个基点的概率为84.2%，维持利率不变的概率为15.8%。 （央视财经）",
-   "body": "美国10月消费者价格指数（CPI）环比增长0.4%，预估为增长0.3%，前值为增长0.6%。由于美国联邦政府2025年10月停摆，劳工统计局当月未能完成物价数据采集，去年10月的通胀数据缺失，因此本次发布的月度数据不含同比涨幅。 分析人士指出，随着国际油价自近期高位快速回落，能源产品类别对整体物价的推升作用明显减弱，预计美国通胀短期内不存在再度飙升的风险。但是，当前整体物价水平仍显著高于美联储2%的长期通胀目标，货币政策尚未获得转向宽松的空间。芝商所“美联储观察”工具显示，市场预期美联储12月加息25个基点的概率为84.2%，维持利率不变的概率为15.8%。 （央视财经）",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "CPI"
-   ],
-   "time": "11-10 21:32",
-   "score": 14.9,
-   "level": 1,
-   "why": "CPI",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "49c72d30b8c5a202",
-   "title": "美国10月核心CPI环比增长0.3%，高于市场预期",
-   "link": "https://www.jiemian.com/article/15317888.html",
-   "summary": "美国10月核心消费者价格指数（CPI）环比增长0.3%，预估为增长0.2%，前值为增长0.3%。",
-   "body": "美国10月核心消费者价格指数（CPI）环比增长0.3%，预估为增长0.2%，前值为增长0.3%。",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "CPI"
-   ],
-   "time": "11-10 21:31",
-   "score": 14.9,
-   "level": 1,
-   "why": "CPI",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "daeead63cab24a3d",
-   "title": "重庆两江新区力争2030年GDP实现8000亿元",
-   "link": "https://www.chinanews.com.cn/cj/2026/11-10/10729793.shtml",
-   "summary": "中新网重庆11月10日电 (记者 钟旖)在重庆市政府新闻办10日举行的发布会上，重庆市两江新区区委常委、区政府常务副区长肖文军表示，“十五五”时期，两江新区力争到2030年GDP实现8000亿元，当好现代化新重庆建设的主阵地、主力军和主引擎。两江新区位于长江、嘉陵江交汇处，是我国中西部地区首个实现行政化的国家级新区。2025年11月，国务院批复成立新的两江新区。肖文军称，这次区划调整不单单是区域的整合和城区面积的变化，还主要体现在新的发展使命、发展机遇、发展阶段和发展目标。",
-   "body": "中新网重庆11月10日电 (记者 钟旖)在重庆市政府新闻办10日举行的发布会上，重庆市两江新区区委常委、区政府常务副区长肖文军表示，“十五五”时期，两江新区力争到2030年GDP实现8000亿元，当好现代化新重庆建设的主阵地、主力军和主引擎。两江新区位于长江、嘉陵江交汇处，是我国中西部地区首个实现行政化的国家级新区。2025年11月，国务院批复成立新的两江新区。肖文军称，这次区划调整不单单是区域的整合和城区面积的变化，还主要体现在新的发展使命、发展机遇、发展阶段和发展目标。",
-   "source": "中国新闻网·财经",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "GDP"
-   ],
-   "time": "11-10 20:55",
-   "score": 14.8,
-   "level": 1,
-   "why": "GDP",
-   "tier": "",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "2fa58334679097fe",
    "title": "特朗普称似乎没必要再打伊朗",
    "link": "https://www.jiemian.com/article/15313443.html",
@@ -974,6 +931,72 @@
    "why": "",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "a8fb0eb34f1b339a",
+   "title": "美国10月CPI环比增长0.4%，高于市场预期",
+   "link": "https://www.jiemian.com/article/15317892.html",
+   "summary": "美国10月消费者价格指数（CPI）环比增长0.4%，预估为增长0.3%，前值为增长0.6%。由于美国联邦政府2025年10月停摆，劳工统计局当月未能完成物价数据采集，去年10月的通胀数据缺失，因此本次发布的月度数据不含同比涨幅。 分析人士指出，随着国际油价自近期高位快速回落，能源产品类别对整体物价的推升作用明显减弱，预计美国通胀短期内不存在再度飙升的风险。但是，当前整体物价水平仍显著高于美联储2%的长期通胀目标，货币政策尚未获得转向宽松的空间。芝商所“美联储观察”工具显示，市场预期美联储12月加息25个基点的概率为84.2%，维持利率不变的概率为15.8%。 （央视财经）",
+   "body": "美国10月消费者价格指数（CPI）环比增长0.4%，预估为增长0.3%，前值为增长0.6%。由于美国联邦政府2025年10月停摆，劳工统计局当月未能完成物价数据采集，去年10月的通胀数据缺失，因此本次发布的月度数据不含同比涨幅。 分析人士指出，随着国际油价自近期高位快速回落，能源产品类别对整体物价的推升作用明显减弱，预计美国通胀短期内不存在再度飙升的风险。但是，当前整体物价水平仍显著高于美联储2%的长期通胀目标，货币政策尚未获得转向宽松的空间。芝商所“美联储观察”工具显示，市场预期美联储12月加息25个基点的概率为84.2%，维持利率不变的概率为15.8%。 （央视财经）",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "CPI"
+   ],
+   "time": "11-10 21:32",
+   "score": 14.8,
+   "level": 1,
+   "why": "CPI",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "49c72d30b8c5a202",
+   "title": "美国10月核心CPI环比增长0.3%，高于市场预期",
+   "link": "https://www.jiemian.com/article/15317888.html",
+   "summary": "美国10月核心消费者价格指数（CPI）环比增长0.3%，预估为增长0.2%，前值为增长0.3%。",
+   "body": "美国10月核心消费者价格指数（CPI）环比增长0.3%，预估为增长0.2%，前值为增长0.3%。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "CPI"
+   ],
+   "time": "11-10 21:31",
+   "score": 14.8,
+   "level": 1,
+   "why": "CPI",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "daeead63cab24a3d",
+   "title": "重庆两江新区力争2030年GDP实现8000亿元",
+   "link": "https://www.chinanews.com.cn/cj/2026/11-10/10729793.shtml",
+   "summary": "中新网重庆11月10日电 (记者 钟旖)在重庆市政府新闻办10日举行的发布会上，重庆市两江新区区委常委、区政府常务副区长肖文军表示，“十五五”时期，两江新区力争到2030年GDP实现8000亿元，当好现代化新重庆建设的主阵地、主力军和主引擎。两江新区位于长江、嘉陵江交汇处，是我国中西部地区首个实现行政化的国家级新区。2025年11月，国务院批复成立新的两江新区。肖文军称，这次区划调整不单单是区域的整合和城区面积的变化，还主要体现在新的发展使命、发展机遇、发展阶段和发展目标。",
+   "body": "中新网重庆11月10日电 (记者 钟旖)在重庆市政府新闻办10日举行的发布会上，重庆市两江新区区委常委、区政府常务副区长肖文军表示，“十五五”时期，两江新区力争到2030年GDP实现8000亿元，当好现代化新重庆建设的主阵地、主力军和主引擎。两江新区位于长江、嘉陵江交汇处，是我国中西部地区首个实现行政化的国家级新区。2025年11月，国务院批复成立新的两江新区。肖文军称，这次区划调整不单单是区域的整合和城区面积的变化，还主要体现在新的发展使命、发展机遇、发展阶段和发展目标。",
+   "source": "中国新闻网·财经",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "GDP"
+   ],
+   "time": "11-10 20:55",
+   "score": 14.7,
+   "level": 1,
+   "why": "GDP",
+   "tier": "",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -1021,29 +1044,6 @@
    "ai": ""
   },
   {
-   "id": "66df6e539be5e4cb",
-   "title": "特朗普质疑中期选举结果 民主党人回应：迟早的事",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729474.shtml",
-   "summary": "中新网11月10日电 据英国《独立报》报道，美国总统特朗普当地时间9日在社交媒体上发文，质疑中期选举结果的公正性。对此，美国参议院民主党领袖查克·舒默回应称，特朗普质疑选举结果是“迟早会发生的事”。特朗普当天在社交媒体平台上发文称：“真的有人相信这次‘选举’是公正的吗？民调怎么会错得这么离谱？”舒默随后在社交媒体上回应称：“特朗普可悲地重拾‘选举否认主义’是迟早的事。”他表示，无论特朗普如何抱怨，都无法改变民主党将在其总统任期最后两年掌握国会多数席位这一事实。",
-   "body": "中新网11月10日电 据英国《独立报》报道，美国总统特朗普当地时间9日在社交媒体上发文，质疑中期选举结果的公正性。对此，美国参议院民主党领袖查克·舒默回应称，特朗普质疑选举结果是“迟早会发生的事”。特朗普当天在社交媒体平台上发文称：“真的有人相信这次‘选举’是公正的吗？民调怎么会错得这么离谱？”舒默随后在社交媒体上回应称：“特朗普可悲地重拾‘选举否认主义’是迟早的事。”他表示，无论特朗普如何抱怨，都无法改变民主党将在其总统任期最后两年掌握国会多数席位这一事实。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "特朗普",
-    "民主党"
-   ],
-   "time": "11-10 16:02",
-   "score": 14.2,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "b757c2a54090ccab",
    "title": "美媒：特朗普或将与民主党合作，就移民问题达成协议",
    "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729278.shtml",
@@ -1059,6 +1059,29 @@
     "民主党"
    ],
    "time": "",
+   "score": 14.1,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "66df6e539be5e4cb",
+   "title": "特朗普质疑中期选举结果 民主党人回应：迟早的事",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729474.shtml",
+   "summary": "中新网11月10日电 据英国《独立报》报道，美国总统特朗普当地时间9日在社交媒体上发文，质疑中期选举结果的公正性。对此，美国参议院民主党领袖查克·舒默回应称，特朗普质疑选举结果是“迟早会发生的事”。特朗普当天在社交媒体平台上发文称：“真的有人相信这次‘选举’是公正的吗？民调怎么会错得这么离谱？”舒默随后在社交媒体上回应称：“特朗普可悲地重拾‘选举否认主义’是迟早的事。”他表示，无论特朗普如何抱怨，都无法改变民主党将在其总统任期最后两年掌握国会多数席位这一事实。",
+   "body": "中新网11月10日电 据英国《独立报》报道，美国总统特朗普当地时间9日在社交媒体上发文，质疑中期选举结果的公正性。对此，美国参议院民主党领袖查克·舒默回应称，特朗普质疑选举结果是“迟早会发生的事”。特朗普当天在社交媒体平台上发文称：“真的有人相信这次‘选举’是公正的吗？民调怎么会错得这么离谱？”舒默随后在社交媒体上回应称：“特朗普可悲地重拾‘选举否认主义’是迟早的事。”他表示，无论特朗普如何抱怨，都无法改变民主党将在其总统任期最后两年掌握国会多数席位这一事实。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "民主党"
+   ],
+   "time": "11-10 16:02",
    "score": 14.1,
    "level": 1,
    "why": "",
@@ -1144,6 +1167,40 @@
    "ai": ""
   },
   {
+   "id": "16daa5b9f30ccb7f",
+   "title": "欧洲央行管委Nagel：12月加息“相当明显”",
+   "link": "https://wallstreetcn.com/livenews/3197781",
+   "summary": "欧洲央行管理委员会成员约纳格尔（Joachim Nagel）表示，下个月有充分理由加息，并开始对经济施加约束以抑制通胀。 Nagel将央行当前的政策立场描述为“处于中性区间上限”，并称如果通胀数据明显高于2%的目标，政策可能需要进入“限制性区间”。 Nagel称消费价格涨幅“过高”，并强调即将作出的决定将借助首次纳入2029年的新预测来为官员们提供指引。 外界预计欧洲央行官员将在2026年最后一次货币政策会议上上调存款利率，投资者则押注未来数月还会至少再加息两次以遏制通胀。（彭博电视）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "欧洲央行首席经济学家Lane建议 若数据不变则应于12月加息",
+     "u": "https://wallstreetcn.com/livenews/3197549"
+    },
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "欧洲央行首席经济学家Lane：如果数据没有变化，12月加息是审慎之举。",
+     "u": "https://wallstreetcn.com/livenews/3197532"
+    }
+   ],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "欧洲央行",
+    "欧洲"
+   ],
+   "time": "",
+   "score": 13,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
    "id": "b721799e5c2a9eb2",
    "title": "特朗普称提议任命达纳·怀特为白宫新闻秘书“只是开玩笑”",
    "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728607.shtml",
@@ -1175,35 +1232,6 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "a0bb8743398d7129",
-   "title": "欧洲央行首席经济学家Lane建议 若数据不变则应于12月加息",
-   "link": "https://wallstreetcn.com/livenews/3197549",
-   "summary": "欧洲央行首席经济学家Philip Lane表示，如果未来几周数据没有变化，欧洲央行应在下次会议上再次上调借贷成本。虽然从现在到12月油价“可能大幅波动”，但年底通胀率可能“略高于”4%。食品价格和核心物价可能加速上涨，尤其是在明年第一季度。如果我们12月掌握的信息与今天完全相同，那么我认为加息确实是审慎之举，通胀峰值还未到来。Lane表示，欧洲央行明年将“根据数据行事”，并敦促交易员不要只看大宗商品来判断方向。",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [
-    {
-     "src": "华尔街见闻·全球快讯",
-     "t": "欧洲央行首席经济学家Lane：如果数据没有变化，12月加息是审慎之举。",
-     "u": "https://wallstreetcn.com/livenews/3197532"
-    }
-   ],
-   "topics": [
-    "突发事件"
-   ],
-   "words": [
-    "欧洲央行",
-    "欧洲"
-   ],
-   "time": "",
-   "score": 13,
-   "level": 1,
-   "why": "加息",
-   "tier": "",
-   "group": "wscn",
    "ai": ""
   },
   {
@@ -1244,7 +1272,7 @@
     "美联储"
    ],
    "time": "11-10 06:19",
-   "score": 13.0,
+   "score": 12.9,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1265,35 +1293,12 @@
    "words": [
     "Trump"
    ],
-   "time": "",
-   "score": 12.5,
+   "time": "11-10 17:40",
+   "score": 12.3,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "471caa218b832c99",
-   "title": "特朗普即将会见关键调解人，称无意升级伊朗战事，鲁比奥泼冷水：谈判远未突破",
-   "link": "https://wallstreetcn.com/articles/3785571",
-   "summary": "11月8日至9日，美国白宫针对伊朗问题释放出温差明显的两套信号。总统特朗普公开表示不打算升级对伊战事，并用条件句压低再开战风险溢价；国务卿鲁比奥则明确否认处于突破边缘。这种口径分裂表明：美伊接触的程序升级，目前尚未转化为结果升级。 调解进程的最新动态凸显了这一程序升级。据 央视新闻 ，白宫日程显示， 特朗普安排在当地时间11月9日中午会见美伊关键调解人——卡塔尔首相兼外长穆罕默德。 前期准备主要由副总统万斯推动，他计划在会晤前先单独会见卡塔尔首相。程序升级释放了现政府希望短期取得外交进展的意愿。 然而双方高层表态显示，距离协议仍远。特朗普称双方曾接近达成协议， “如果不是因为选举，可能早就或者再过几天就能达成协议了” ，且不打算升级战事。鲁比奥同日指出 外交手段“成效不大”，批评伊方要求“令人无法接受”、“不切实际”，并声明“我不会说我们正处于突破的边缘”。 面对混合信号，原油市场反应相对",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "特朗普",
-    "伊朗"
-   ],
-   "time": "11-09 16:53",
-   "score": 12,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1317,6 +1322,29 @@
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "471caa218b832c99",
+   "title": "特朗普即将会见关键调解人，称无意升级伊朗战事，鲁比奥泼冷水：谈判远未突破",
+   "link": "https://wallstreetcn.com/articles/3785571",
+   "summary": "11月8日至9日，美国白宫针对伊朗问题释放出温差明显的两套信号。总统特朗普公开表示不打算升级对伊战事，并用条件句压低再开战风险溢价；国务卿鲁比奥则明确否认处于突破边缘。这种口径分裂表明：美伊接触的程序升级，目前尚未转化为结果升级。 调解进程的最新动态凸显了这一程序升级。据 央视新闻 ，白宫日程显示， 特朗普安排在当地时间11月9日中午会见美伊关键调解人——卡塔尔首相兼外长穆罕默德。 前期准备主要由副总统万斯推动，他计划在会晤前先单独会见卡塔尔首相。程序升级释放了现政府希望短期取得外交进展的意愿。 然而双方高层表态显示，距离协议仍远。特朗普称双方曾接近达成协议， “如果不是因为选举，可能早就或者再过几天就能达成协议了” ，且不打算升级战事。鲁比奥同日指出 外交手段“成效不大”，批评伊方要求“令人无法接受”、“不切实际”，并声明“我不会说我们正处于突破的边缘”。 面对混合信号，原油市场反应相对",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "伊朗"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1497,53 +1525,11 @@
     "特朗普"
    ],
    "time": "11-10 08:04",
-   "score": 11.2,
+   "score": 11.1,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "2aec9b7175fc2e9e",
-   "title": "Two Arrested After Car Crashes Into Sign Near White House",
-   "link": "https://www.nytimes.com/2026/11/09/us/politics/white-house-car-crash.html",
-   "summary": "The driver of a silver sedan was arrested after crashing his car into a placard just north of the White House. The authorities also arrested a second man who jumped a barricade at a nearby park.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 11.1,
-   "level": 1,
-   "why": "crashes",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "fc5a42efbc586c00",
-   "title": "What Trump meant when he said the U.S. is cutting aid to Israel",
-   "link": "https://www.npr.org/2026/11/09/nx-s1-6029320/us-trump-israel-military-aid",
-   "summary": "President Trump says he's halting aid to Israel. Israelis are worried. But experts say the U.S. is just shifting aid from the State Department to the Pentagon, with less congressional oversight.",
-   "body": "",
-   "source": "NPR·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "",
-   "score": 11.1,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "npr",
    "ai": ""
   },
   {
@@ -1623,51 +1609,61 @@
    "ai": ""
   },
   {
+   "id": "2aec9b7175fc2e9e",
+   "title": "Two Arrested After Car Crashes Into Sign Near White House",
+   "link": "https://www.nytimes.com/2026/11/09/us/politics/white-house-car-crash.html",
+   "summary": "The driver of a silver sedan was arrested after crashing his car into a placard just north of the White House. The authorities also arrested a second man who jumped a barricade at a nearby park.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-10 06:40",
+   "score": 10.9,
+   "level": 1,
+   "why": "crashes",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "fc5a42efbc586c00",
+   "title": "What Trump meant when he said the U.S. is cutting aid to Israel",
+   "link": "https://www.npr.org/2026/11/09/nx-s1-6029320/us-trump-israel-military-aid",
+   "summary": "President Trump says he's halting aid to Israel. Israelis are worried. But experts say the U.S. is just shifting aid from the State Department to the Pentagon, with less congressional oversight.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-10 05:58",
+   "score": 10.8,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "npr",
+   "ai": ""
+  },
+  {
    "id": "fe456cc3f8278058",
    "title": "台积电批准以不超5亿美元设立投资公司",
    "link": "https://36kr.com/newsflashes/4063906113426566?f=rss",
    "summary": "台积电11月10日公告，董事会核准以不超过5亿美元的资金设立投资公司，以进行半导体产业及相关生态的策略性投资。（界面）",
    "body": "",
    "source": "36氪",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "台积电批准以不超5亿美元设立投资公司",
-     "u": "https://www.jiemian.com/article/15317745.html"
-    }
-   ],
+   "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
    "time": "11-10 20:19",
-   "score": 10.7,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "36氪",
-   "ai": ""
-  },
-  {
-   "id": "bccda3860e79dcf2",
-   "title": "谷歌、英伟达等七家公司承诺向Anthropic投资260亿美元",
-   "link": "https://36kr.com/newsflashes/4063879337333637?f=rss",
-   "summary": "11月10日，一份文件显示，谷歌、英伟达、AMD、博通、美光、微软及台积电合作伙伴公司已同意通过同步私募方式，合计认购260亿美元的Anthropic无投票权普通股，认购价格与IPO发行价相同。（界面）",
-   "body": "",
-   "source": "36氪",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "谷歌、英伟达等七家公司承诺向Anthropic投资260亿美元",
-     "u": "https://www.jiemian.com/article/15317706.html"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-10 19:51",
-   "score": 10.7,
+   "score": 10.6,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1687,7 +1683,7 @@
    ],
    "words": [],
    "time": "11-10 20:17",
-   "score": 10.7,
+   "score": 10.6,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1707,7 +1703,27 @@
    ],
    "words": [],
    "time": "11-10 19:54",
-   "score": 10.7,
+   "score": 10.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "bccda3860e79dcf2",
+   "title": "谷歌、英伟达等七家公司承诺向Anthropic投资260亿美元",
+   "link": "https://36kr.com/newsflashes/4063879337333637?f=rss",
+   "summary": "11月10日，一份文件显示，谷歌、英伟达、AMD、博通、美光、微软及台积电合作伙伴公司已同意通过同步私募方式，合计认购260亿美元的Anthropic无投票权普通股，认购价格与IPO发行价相同。（界面）",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-10 19:51",
+   "score": 10.5,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1727,7 +1743,7 @@
    ],
    "words": [],
    "time": "11-10 16:47",
-   "score": 10.3,
+   "score": 10.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1770,7 +1786,7 @@
    "words": [
     "民主党"
    ],
-   "time": "11-09 17:00",
+   "time": "",
    "score": 10,
    "level": 1,
    "why": "",
@@ -1857,7 +1873,7 @@
    ],
    "words": [],
    "time": "11-10 13:31",
-   "score": 9.9,
+   "score": 9.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1877,7 +1893,7 @@
    ],
    "words": [],
    "time": "11-10 11:01",
-   "score": 9.6,
+   "score": 9.4,
    "level": 1,
    "why": "",
    "tier": "",
