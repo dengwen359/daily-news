@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated_at": "2026-11-10 09:00",
+ "generated_at": "2026-11-10 09:30",
  "hours_window": 30,
  "count": 38,
  "sources_ok": 17,
@@ -27,7 +27,7 @@
     "地震"
    ],
    "time": "08:05",
-   "score": 24.9,
+   "score": 24.8,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -81,7 +81,7 @@
     "伊朗"
    ],
    "time": "03:02",
-   "score": 22.3,
+   "score": 22.2,
    "level": 1,
    "why": "停摆",
    "tier": "",
@@ -199,7 +199,7 @@
     "台风"
    ],
    "time": "16:49",
-   "score": 21.0,
+   "score": 20.9,
    "level": 2,
    "why": "台风",
    "tier": "must",
@@ -244,7 +244,7 @@
     "PPI"
    ],
    "time": "09:30",
-   "score": 16.1,
+   "score": 16.0,
    "level": 1,
    "why": "CPI",
    "tier": "",
@@ -264,7 +264,7 @@
    ],
    "words": [],
    "time": "",
-   "score": 22,
+   "score": 16,
    "level": 1,
    "why": "国务院",
    "tier": "",
@@ -350,19 +350,35 @@
    "ai": ""
   },
   {
+   "id": "39f58dae5b7dee15",
+   "title": "财政部副部长廖岷与加拿大财政部国际贸易与金融助理副部长帕特里克·海利 共同签署财政合作谅解备忘录",
+   "link": "https://www.jiemian.com/article/15313552.html",
+   "summary": "据财政部网站，2026年11月8日，在第二次中加经济财金战略对话期间，财政部副部长廖岷与加拿大财政部国际贸易与金融助理副部长帕特里克·海利在加拿大温哥华共同签署《中华人民共和国财政部与加拿大财政部合作谅解备忘录》。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "财政部"
+   ],
+   "time": "08:06",
+   "score": 14.9,
+   "level": 1,
+   "why": "签署",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "2ec0581c0400d5f7",
    "title": "牛市早报｜10月CPI同比上涨0.7%，国际油价显著下跌",
    "link": "https://m.thepaper.cn/newsDetail_forward_34440601",
    "summary": "【市场数据】 11月9日收盘，上证综指涨0.32%，报3660.79点；深证成指跌0.27%，报11145.49点；创业板指跌0.27%，报2458.56点。 纽约股市三大股指9日显著上涨。截至当天收盘，道琼斯工业平均指数比前一交易日上涨1104.02点，收于52389.75点，涨幅为2.15%；标准普尔500种股票指数上涨173.08点，收于7549.94点，涨幅为2.35%；纳斯达克综合指数上涨673.71点，收于25253.14点，涨幅为2.74%。 国际油价9日显著下跌。截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格下跌3.98美元，收于每桶86.85美元，跌幅为4.38%；1月交货的伦敦布伦特原油期货价格下跌5.75美元，收于每桶92.57美元，跌幅为5.85%。 【财经要闻】 1、据新华社，中共中央政治局委员、国务院副总理、中加经济财金战略对话中方牵头人何立峰，与对话",
    "body": "",
    "source": "澎湃新闻",
-   "also": [
-    {
-     "src": "澎湃新闻",
-     "t": "分析｜10月CPI同比涨幅回落至0.7%，下阶段走势如何？",
-     "u": "https://m.thepaper.cn/newsDetail_forward_34439524"
-    }
-   ],
+   "also": [],
    "topics": [
     "国内政策"
    ],
@@ -412,28 +428,6 @@
    "ai": ""
   },
   {
-   "id": "39f58dae5b7dee15",
-   "title": "财政部副部长廖岷与加拿大财政部国际贸易与金融助理副部长帕特里克·海利 共同签署财政合作谅解备忘录",
-   "link": "https://www.jiemian.com/article/15313552.html",
-   "summary": "据财政部网站，2026年11月8日，在第二次中加经济财金战略对话期间，财政部副部长廖岷与加拿大财政部国际贸易与金融助理副部长帕特里克·海利在加拿大温哥华共同签署《中华人民共和国财政部与加拿大财政部合作谅解备忘录》。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "财政部"
-   ],
-   "time": "08:06",
-   "score": 14.9,
-   "level": 1,
-   "why": "签署",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
    "id": "efc662da513d407a",
    "title": "“新美联储通讯社”：特朗普“掌控美联储”计划迎最大障碍——参议院易主",
    "link": "https://wallstreetcn.com/articles/3785527",
@@ -472,7 +466,7 @@
     "美联储"
    ],
    "time": "06:19",
-   "score": 14.7,
+   "score": 14.6,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -519,7 +513,7 @@
     "伊朗"
    ],
    "time": "17:38",
-   "score": 13.1,
+   "score": 13.0,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -550,6 +544,28 @@
    "ai": ""
   },
   {
+   "id": "1d4d916193d8e423",
+   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+   "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "09:22",
+   "score": 13.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "471caa218b832c99",
    "title": "特朗普即将会见关键调解人，称无意升级伊朗战事，鲁比奥泼冷水：谈判远未突破",
    "link": "https://wallstreetcn.com/articles/3785571",
@@ -565,33 +581,11 @@
     "伊朗"
    ],
    "time": "16:53",
-   "score": 13.0,
+   "score": 12.9,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "1d4d916193d8e423",
-   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-   "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-   "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "08:34",
-   "score": 12.9,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -609,7 +603,7 @@
     "特朗普"
    ],
    "time": "08:11",
-   "score": 12.9,
+   "score": 12.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -631,7 +625,7 @@
     "特朗普"
    ],
    "time": "08:04",
-   "score": 12.9,
+   "score": 12.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -651,7 +645,7 @@
    ],
    "words": [],
    "time": "06:40",
-   "score": 12.7,
+   "score": 12.6,
    "level": 1,
    "why": "crashes",
    "tier": "must",
@@ -673,7 +667,7 @@
     "特朗普"
    ],
    "time": "05:53",
-   "score": 12.6,
+   "score": 12.5,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -786,7 +780,7 @@
     "Trump"
    ],
    "time": "11:16",
-   "score": 10.3,
+   "score": 10.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -812,7 +806,7 @@
    ],
    "words": [],
    "time": "09:30",
-   "score": 8.1,
+   "score": 8,
    "level": 1,
    "why": "CPI",
    "tier": "must",
@@ -832,7 +826,7 @@
    ],
    "words": [],
    "time": "09:30",
-   "score": 8.1,
+   "score": 8,
    "level": 1,
    "why": "",
    "tier": "must",
