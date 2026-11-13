@@ -1,8 +1,8 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13 22:30",
+ "generated_at": "2026-11-13 23:30",
  "hours_window": 30,
- "count": 96,
+ "count": 100,
  "sources_ok": 20,
  "sources_total": 21,
  "topics_order": [
@@ -147,11 +147,34 @@
     "民主党"
    ],
    "time": "11-13 21:02",
-   "score": 19.8,
+   "score": 19.7,
    "level": 2,
    "why": "监管司法·国会、议员",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "6649941c1d8acfe7",
+   "title": "美国国会议员要求总统特朗普的商务部官员Kessler和英伟达法律总顾问到国会山出席听证会。",
+   "link": "https://wallstreetcn.com/livenews/3199880",
+   "summary": "美国国会议员要求总统特朗普的商务部官员Kessler和英伟达法律总顾问到国会山出席听证会。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "美国国会"
+   ],
+   "time": "",
+   "score": 19,
+   "level": 2,
+   "why": "监管司法·国会、议员",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -175,26 +198,6 @@
    "why": "监管司法·国会、众议院",
    "tier": "",
    "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "246bbd8d4107cea8",
-   "title": "黄仁勋辞职后，英伟达员工发声",
-   "link": "https://www.jiemian.com/article/15332351.html",
-   "summary": "黄仁勋辞去英伟达首席执行官职务后，部分员工开始呼吁其重返公司。当地时间11月12日，美国《连线》杂志报道称，一名英伟达资深工程师此前在公司内部“建议箱”发帖，呼吁董事会在对黄仁勋采取行动前，充分听取员工意见。截至报道发布时，该帖已获得超过1600条评论，其中多数支持黄仁勋复职。一名匿名员工留言称：“如果你相信公司的使命，就把这位掌舵人请回来。”另一名员工表示：“我们都是人，都会犯错。黄仁勋做出了巨大贡献，他理应获得第二次机会。”报道还称，还有一名员工向全公司发送邮件，要求提高黄仁勋离职决策过程的透明度。此外，约20名英伟达员工在职业社交平台LinkedIn公开表达对黄仁勋的支持。（上海证券报）",
-   "body": "",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 21:03",
-   "score": 17.8,
-   "level": 2,
-   "why": "监管司法·辞职",
-   "tier": "",
-   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -238,59 +241,49 @@
    "ai": ""
   },
   {
+   "id": "246bbd8d4107cea8",
+   "title": "黄仁勋辞职后，英伟达员工发声",
+   "link": "https://www.jiemian.com/article/15332351.html",
+   "summary": "黄仁勋辞去英伟达首席执行官职务后，部分员工开始呼吁其重返公司。当地时间11月12日，美国《连线》杂志报道称，一名英伟达资深工程师此前在公司内部“建议箱”发帖，呼吁董事会在对黄仁勋采取行动前，充分听取员工意见。截至报道发布时，该帖已获得超过1600条评论，其中多数支持黄仁勋复职。一名匿名员工留言称：“如果你相信公司的使命，就把这位掌舵人请回来。”另一名员工表示：“我们都是人，都会犯错。黄仁勋做出了巨大贡献，他理应获得第二次机会。”报道还称，还有一名员工向全公司发送邮件，要求提高黄仁勋离职决策过程的透明度。此外，约20名英伟达员工在职业社交平台LinkedIn公开表达对黄仁勋的支持。（上海证券报）",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 21:03",
+   "score": 17.7,
+   "level": 2,
+   "why": "监管司法·辞职",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "5ee38f042a11374b",
    "title": "韩国有关部门：黄仁勋离任 CEO 不影响英伟达 26 万块 GPU 供应计划",
    "link": "https://www.ithome.com/1/026/927.htm",
    "summary": "IT之家 11 月 13 日消息，据路透社报道，韩国科学技术信息通信部部长裴庆勋表示，英伟达确认将按计划向韩国供应 26 万块先进 GPU，履行此前作出的承诺。 裴庆勋在 X 上发文称，英伟达 CEO 黄仁勋的辞职不会影响上述供应计划。 ▲ IT之家注：第二段首句应为“自从黄仁勋宣布辞职以来” 去年，黄仁勋访韩出席亚太经合组织（APEC）会议期间， 英伟达与韩国达成了 26 万块 GPU 的供应协议 。双方还将继续推进多项合作，包括将韩国生产的 AI 芯片与英伟达平台对接、建设 AI 算力基础设施，以及联合开展物理 AI 研究和人才培养。 相关阅读： 《 韩国政府牵头成立 GPU 工作组，联合四大韩企采购 26 万块英伟达显卡 》",
    "body": "",
    "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 18:51",
-   "score": 17.5,
-   "level": 2,
-   "why": "监管司法·离任",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "332d5a49c2a651e8",
-   "title": "黄仁勋下台有何影响？市场给出答案：博通、AMD大涨，CoreWeave、Nebius承压，费半指数微跌",
-   "link": "https://wallstreetcn.com/articles/3785829",
-   "summary": "英伟达创始人、首席执行官黄仁勋突然离任，全球AI产业迎来重大领导层变局。这家由黄仁勋一手打造、并成为全球AI算力基础设施核心供应商的科技巨头，正式进入后黄仁勋时代。 当地时间11月12日， 英伟达宣布，黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。公司首席财务官Colette Kress接任临时CEO，董事会将同时考虑内部和外部候选人，启动正式继任者遴选程序。公司还任命长期董事、前Synopsys CEO Harvey Jones为首任董事长。 这一人事变动发生在英伟达经历一系列个人关系争议及国家安全调查之后。黄仁勋的离任不仅令投资者重新评估英伟达对创始人的依赖程度，也将AI产业融资模式以及全球算力投资前景推向新的不确定性之中。 消息公布后，英伟达股价盘中一度暴跌14.3%，市值一度跌破4万亿美元，随后跌幅大幅收窄，最终收跌4.3%。 在恐慌的同时，市场迅速转向寻找机会。Intera",
-   "body": "",
-   "source": "华尔街见闻·文章",
    "also": [
     {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋的下台是硅谷权利流失的标志",
-     "u": "https://wallstreetcn.com/articles/3785871"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
-     "u": "https://wallstreetcn.com/articles/3785851"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋下台，AI新玩家的“最大金主”也没了",
-     "u": "https://wallstreetcn.com/articles/3785857"
+     "src": "IT之家",
+     "t": "黄仁勋辞任英伟达 CEO，或给 Anthropic 下周“史上最大 IPO”添变数",
+     "u": "https://www.ithome.com/1/026/965.htm"
     }
    ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 08:05",
-   "score": 16.2,
+   "time": "11-13 18:51",
+   "score": 17.4,
    "level": 2,
-   "why": "监管司法·下台",
+   "why": "监管司法·离任",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -336,6 +329,42 @@
    "ai": ""
   },
   {
+   "id": "332d5a49c2a651e8",
+   "title": "黄仁勋下台有何影响？市场给出答案：博通、AMD大涨，CoreWeave、Nebius承压，费半指数微跌",
+   "link": "https://wallstreetcn.com/articles/3785829",
+   "summary": "英伟达创始人、首席执行官黄仁勋突然离任，全球AI产业迎来重大领导层变局。这家由黄仁勋一手打造、并成为全球AI算力基础设施核心供应商的科技巨头，正式进入后黄仁勋时代。 当地时间11月12日， 英伟达宣布，黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。公司首席财务官Colette Kress接任临时CEO，董事会将同时考虑内部和外部候选人，启动正式继任者遴选程序。公司还任命长期董事、前Synopsys CEO Harvey Jones为首任董事长。 这一人事变动发生在英伟达经历一系列个人关系争议及国家安全调查之后。黄仁勋的离任不仅令投资者重新评估英伟达对创始人的依赖程度，也将AI产业融资模式以及全球算力投资前景推向新的不确定性之中。 消息公布后，英伟达股价盘中一度暴跌14.3%，市值一度跌破4万亿美元，随后跌幅大幅收窄，最终收跌4.3%。 在恐慌的同时，市场迅速转向寻找机会。Intera",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋的下台是硅谷权利流失的标志",
+     "u": "https://wallstreetcn.com/articles/3785871"
+    },
+    {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
+     "u": "https://wallstreetcn.com/articles/3785851"
+    },
+    {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋下台，AI新玩家的“最大金主”也没了",
+     "u": "https://wallstreetcn.com/articles/3785857"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 08:05",
+   "score": 16.1,
+   "level": 2,
+   "why": "监管司法·下台",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "a11d624b24f48de0",
    "title": "美PPI低于预期，美股期指拉升，英伟达盘前企稳，布油反弹突破96美元",
    "link": "https://wallstreetcn.com/articles/3785885",
@@ -350,7 +379,7 @@
     "美股",
     "PPI"
    ],
-   "time": "11-13 21:49",
+   "time": "",
    "score": 16.9,
    "level": 1,
    "why": "PPI",
@@ -365,13 +394,7 @@
    "summary": "美国PPI报告公布后，交易员下调对美联储收紧政策的预期。美国10月生产者价格指数（PPI）同比增长6.5%，预估为6.6%，前值为6.3%。环比上涨0.3%，预估为0.4%。",
    "body": "",
    "source": "界面新闻",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "美联储公布2027年议息会议日程，10月会议不作利率决议、专门讨论货币政策战略",
-     "u": "https://www.jiemian.com/article/15328216.html"
-    }
-   ],
+   "also": [],
    "topics": [
     "美国重大"
    ],
@@ -379,31 +402,11 @@
     "美联储"
    ],
    "time": "11-13 21:36",
-   "score": 16.9,
+   "score": 16.8,
    "level": 1,
    "why": "PPI",
    "tier": "",
    "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "dfb46b48d60693d9",
-   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-   "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-   "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 11:57",
-   "score": 16.7,
-   "level": 2,
-   "why": "监管司法·Congress",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -427,6 +430,26 @@
    "ai": ""
   },
   {
+   "id": "dfb46b48d60693d9",
+   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+   "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 11:57",
+   "score": 16.6,
+   "level": 2,
+   "why": "监管司法·Congress",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "2d74d498c045adc0",
    "title": "特朗普称应中东盟友请求延缓对伊朗行动",
    "link": "https://m.thepaper.cn/newsDetail_forward_34468437",
@@ -443,7 +466,7 @@
     "伊朗"
    ],
    "time": "11-13 18:16",
-   "score": 16.5,
+   "score": 16.3,
    "level": 1,
    "why": "",
    "tier": "",
@@ -468,32 +491,6 @@
    "why": "监管司法·resigned",
    "tier": "must",
    "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "4fe0dee7b224c323",
-   "title": "英伟达高管致员工备忘录：黄仁勋离任后，公司领导层如何回应？",
-   "link": "https://wallstreetcn.com/articles/3785834",
-   "summary": "英伟达刚刚与首席执行官黄仁勋结束了合作关系。这位将英伟达打造为全球主导地位芯片制造商的人物，因婚外情丑闻而离职。 英伟达资深首席财务官科莱特·克雷斯（Colette Kress）将出任临时首席执行官。在寻找黄仁勋继任者期间，英伟达将由她暂时执掌。 公司还任命了历史上首位董事长，由董事哈维·琼斯（Harvey Jones）出任。现年73岁的琼斯此前曾担任芯片设计软件制造商新思科技（Synopsys Inc.）的负责人。 以下是琼斯和克雷斯向员工发送的内部备忘录，解释此次人事变动。 哈维·琼斯（Harvey Jones） 致英伟达全体员工： 我写信是为了向大家通报一项重要消息。 黄仁勋已辞去首席执行官及董事会成员职务。董事会已要求我们的首席财务官科莱特·克雷斯担任临时首席执行官， 同时启动正式继任者遴选工作，并同时考虑内部和外部候选人。 我将担任公司历史上首位董事会主席。 在担任首席财务官的1",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "英伟达黄仁勋离职，将损失约1.08亿美元未归属股权",
-     "u": "https://wallstreetcn.com/articles/3785846"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 06:57",
-   "score": 16.1,
-   "level": 2,
-   "why": "监管司法·离任",
-   "tier": "",
-   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -566,6 +563,32 @@
    "ai": ""
   },
   {
+   "id": "4fe0dee7b224c323",
+   "title": "英伟达高管致员工备忘录：黄仁勋离任后，公司领导层如何回应？",
+   "link": "https://wallstreetcn.com/articles/3785834",
+   "summary": "英伟达刚刚与首席执行官黄仁勋结束了合作关系。这位将英伟达打造为全球主导地位芯片制造商的人物，因婚外情丑闻而离职。 英伟达资深首席财务官科莱特·克雷斯（Colette Kress）将出任临时首席执行官。在寻找黄仁勋继任者期间，英伟达将由她暂时执掌。 公司还任命了历史上首位董事长，由董事哈维·琼斯（Harvey Jones）出任。现年73岁的琼斯此前曾担任芯片设计软件制造商新思科技（Synopsys Inc.）的负责人。 以下是琼斯和克雷斯向员工发送的内部备忘录，解释此次人事变动。 哈维·琼斯（Harvey Jones） 致英伟达全体员工： 我写信是为了向大家通报一项重要消息。 黄仁勋已辞去首席执行官及董事会成员职务。董事会已要求我们的首席财务官科莱特·克雷斯担任临时首席执行官， 同时启动正式继任者遴选工作，并同时考虑内部和外部候选人。 我将担任公司历史上首位董事会主席。 在担任首席财务官的1",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "英伟达黄仁勋离职，将损失约1.08亿美元未归属股权",
+     "u": "https://wallstreetcn.com/articles/3785846"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 06:57",
+   "score": 15.9,
+   "level": 2,
+   "why": "监管司法·离任",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "42d1ae42d9ee5d03",
    "title": "Jensen Huang has resigned, what's next for Nvidia?",
    "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
@@ -598,7 +621,7 @@
    ],
    "words": [],
    "time": "11-13 05:15",
-   "score": 15.8,
+   "score": 15.7,
    "level": 2,
    "why": "监管司法·resigns",
    "tier": "",
@@ -618,7 +641,7 @@
    ],
    "words": [],
    "time": "11-13 05:05",
-   "score": 15.8,
+   "score": 15.7,
    "level": 2,
    "why": "监管司法·ousted",
    "tier": "",
@@ -638,11 +661,31 @@
    ],
    "words": [],
    "time": "11-13 01:26",
-   "score": 15.4,
+   "score": 15.2,
    "level": 2,
    "why": "监管司法·resignation",
    "tier": "",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "b1c6d30af3f234b3",
+   "title": "“拯救黄仁勋”！马斯克等硅谷大佬集体声援：调查结束前不应解雇",
+   "link": "https://wallstreetcn.com/articles/3785804",
+   "summary": "一桩个人私德风波，正在演变为牵动公司治理、股东权利与AI交易走向的市场事件。 当地时间11月11日晚间，《纽约时报》曝出黄仁勋的第二段婚外情——与下属金伯利·鲍威尔的恋爱关系。随后《华尔街日报》报道，英伟达董事会已成立由独立董事主导、外部律师参与的调查委员会，并正在准备解除黄仁勋的职务。 部分董事倾向由首席财务官Colette Kress出任过渡期CEO，同时公司已委托外部猎头机构启动新CEO搜寻工作。 面对潜在的领导层更迭，多位科技巨头与风投机构高管通过社交媒体平台呼吁英伟达董事会保持克制。 Atreides Management管理合伙人兼首席投资官Gavin Baker提出 “调查结束后再由股东投票”的方案，马斯克回应：“正该如此。” Epic Games创始人兼首席执行官Tim Sweeney喊出： “拯救黄仁勋，如果英伟达董事会真这么做，将是堪比苹果解雇史蒂夫·乔布斯的愚蠢。” ",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 15.2,
+   "level": 2,
+   "why": "监管司法·调查",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -662,29 +705,9 @@
     "伊朗"
    ],
    "time": "11-13 08:40",
-   "score": 15.3,
+   "score": 15.1,
    "level": 1,
    "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "b1c6d30af3f234b3",
-   "title": "“拯救黄仁勋”！马斯克等硅谷大佬集体声援：调查结束前不应解雇",
-   "link": "https://wallstreetcn.com/articles/3785804",
-   "summary": "一桩个人私德风波，正在演变为牵动公司治理、股东权利与AI交易走向的市场事件。 当地时间11月11日晚间，《纽约时报》曝出黄仁勋的第二段婚外情——与下属金伯利·鲍威尔的恋爱关系。随后《华尔街日报》报道，英伟达董事会已成立由独立董事主导、外部律师参与的调查委员会，并正在准备解除黄仁勋的职务。 部分董事倾向由首席财务官Colette Kress出任过渡期CEO，同时公司已委托外部猎头机构启动新CEO搜寻工作。 面对潜在的领导层更迭，多位科技巨头与风投机构高管通过社交媒体平台呼吁英伟达董事会保持克制。 Atreides Management管理合伙人兼首席投资官Gavin Baker提出 “调查结束后再由股东投票”的方案，马斯克回应：“正该如此。” Epic Games创始人兼首席执行官Tim Sweeney喊出： “拯救黄仁勋，如果英伟达董事会真这么做，将是堪比苹果解雇史蒂夫·乔布斯的愚蠢。” ",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 15.2,
-   "level": 2,
-   "why": "监管司法·调查",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -718,7 +741,7 @@
    ],
    "words": [],
    "time": "11-12 23:23",
-   "score": 15.1,
+   "score": 15,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -832,62 +855,6 @@
    "ai": ""
   },
   {
-   "id": "23f036d135f599ea",
-   "title": "美国10月核心PPI同比增长5%",
-   "link": "https://www.jiemian.com/article/15332423.html",
-   "summary": "美国10月核心PPI同比增长5%，预期5%，前值5%；10月核心PPI环比增长0.3%，预期0.3%，前值由0.7%修正为0.8%。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [
-    {
-     "src": "华尔街见闻·全球快讯",
-     "t": "美国10月核心PPI同比 5%，预期 5%，前值 5%。",
-     "u": "https://wallstreetcn.com/livenews/3199832"
-    }
-   ],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "PPI"
-   ],
-   "time": "11-13 21:32",
-   "score": 14.9,
-   "level": 1,
-   "why": "PPI",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "6e8fc9b5f9cc290c",
-   "title": "美国10月PPI同比增长6.5%，低于市场预期",
-   "link": "https://www.jiemian.com/article/15332410.html",
-   "summary": "美国10月生产者价格指数（PPI）同比增长6.5%，预估为6.6%，前值为6.3%。",
-   "body": "",
-   "source": "界面新闻",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "美国10月PPI同比 6.5%创四年、但低于预期，激进加息预期小幅降温",
-     "u": "https://wallstreetcn.com/articles/3785905"
-    }
-   ],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "PPI"
-   ],
-   "time": "11-13 21:31",
-   "score": 14.9,
-   "level": 1,
-   "why": "PPI",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
    "id": "c67c0ba562bc658a",
    "title": "10月末中国社会融资规模存量和M2余额同比增长均超7%",
    "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731725.shtml",
@@ -901,7 +868,7 @@
    "words": [
     "社会融资"
    ],
-   "time": "11-13 20:58",
+   "time": "",
    "score": 14.8,
    "level": 1,
    "why": "社会融资",
@@ -950,6 +917,56 @@
    "score": 14.8,
    "level": 1,
    "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "23f036d135f599ea",
+   "title": "美国10月核心PPI同比增长5%",
+   "link": "https://www.jiemian.com/article/15332423.html",
+   "summary": "美国10月核心PPI同比增长5%，预期5%，前值5%；10月核心PPI环比增长0.3%，预期0.3%，前值由0.7%修正为0.8%。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "11-13 21:32",
+   "score": 14.8,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "6e8fc9b5f9cc290c",
+   "title": "美国10月PPI同比增长6.5%，低于市场预期",
+   "link": "https://www.jiemian.com/article/15332410.html",
+   "summary": "美国10月生产者价格指数（PPI）同比增长6.5%，预估为6.6%，前值为6.3%。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "美国10月PPI同比 6.5%创四年新高、但低于预期，激进加息预期小幅降温",
+     "u": "https://wallstreetcn.com/articles/3785905"
+    }
+   ],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "11-13 21:31",
+   "score": 14.8,
+   "level": 1,
+   "why": "PPI",
    "tier": "",
    "group": "界面新闻",
    "ai": ""
@@ -1035,7 +1052,7 @@
     "社融"
    ],
    "time": "11-13 17:37",
-   "score": 14.4,
+   "score": 14.3,
    "level": 1,
    "why": "社融",
    "tier": "",
@@ -1119,6 +1136,28 @@
    "ai": ""
   },
   {
+   "id": "71246a4c8ce0f067",
+   "title": "贝森特：不应因能源冲击而加息，继续施压伊朗，英伟达能摆脱黄仁勋继续发展",
+   "link": "https://wallstreetcn.com/articles/3785907",
+   "summary": "美国财长贝森特周五警告美联储，不应将伊朗战争引发的能源价格波动作为加息依据，同时强调近期国债拍卖表现强劲、美元买盘旺盛，显示市场对美国经济信心稳固。 周五在CNBC采访中， 贝森特将当前通胀压力定性为\"能源供给冲击\"，主张美联储应着眼未来而非被短期噪音数据左右。 他表示，自己对美国经济状况\"非常有信心\"，目前\"没有任何迹象引起警觉\"。 上周超预期的就业报告重燃市场对美联储进一步加息的预期，但这一前景与能源冲击背景下的经济不确定性形成张力。贝森特的公开发声，或将为市场加息预期降温。 贝森特还表示， 过去20年表现最为强劲的几次国债拍卖中，有四次发生在近期，且伴随\"美元买盘强劲\"。 此外， 贝森特披露他近期收到来自伊朗的死亡威胁，但表示\"无所畏惧\"，将继续对伊朗施压。 他批评《华尔街日报》刊登其家庭住址的做法\"不负责任\"。 关于近期热议的黄仁勋离职事件， 贝森特表示英伟达是一家出色的公司，能够",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "伊朗"
+   ],
+   "time": "11-13 23:08",
+   "score": 14.0,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "23b0cc182ea438a1",
    "title": "4连涨！短期美债收益率创2022年以来最快涨幅，市场押注美联储加息",
    "link": "https://wallstreetcn.com/articles/3785847",
@@ -1133,33 +1172,11 @@
     "美联储"
    ],
    "time": "11-13 08:11",
-   "score": 13.2,
+   "score": 13.1,
    "level": 1,
    "why": "加息",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "da86556ec08c7c67",
-   "title": "菲律宾启动东盟峰会安保戒备 逾2.3万安保人员部署到位",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731477.shtml",
-   "summary": "中新网马尼拉11月13日电 菲律宾国家警察总局12日表示，为确保第49届东盟峰会及系列会议安全举行，于13日零时起对部分警力实施全面戒备状态，以加强峰会主要活动区域及相关交通路线的安全保卫工作。菲律宾国家警察总局表示，此次安保行动共部署23154名安保人员，负责会议场馆、代表团驻地及指定交通路线等区域的安保工作。菲律宾国家警察总局表示，全面戒备状态将持续至11月19日，必要时可能延长。戒备期间，相关警力将保持全员在岗，以应对峰会期间各项安保任务。警方称，截至12日，警方对东盟峰会相关活动的安全威胁评估仍处于低级别，尚未发现重大安全威胁。",
-   "body": "中新网马尼拉11月13日电 菲律宾国家警察总局12日表示，为确保第49届东盟峰会及系列会议安全举行，于13日零时起对部分警力实施全面戒备状态，以加强峰会主要活动区域及相关交通路线的安全保卫工作。菲律宾国家警察总局表示，此次安保行动共部署23154名安保人员，负责会议场馆、代表团驻地及指定交通路线等区域的安保工作。菲律宾国家警察总局表示，全面戒备状态将持续至11月19日，必要时可能延长。戒备期间，相关警力将保持全员在岗，以应对峰会期间各项安保任务。警方称，截至12日，警方对东盟峰会相关活动的安全威胁评估仍处于低级别，尚未发现重大安全威胁。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "突发事件"
-   ],
-   "words": [
-    "峰会"
-   ],
-   "time": "11-13 15:26",
-   "score": 13.1,
-   "level": 1,
-   "why": "部署",
-   "tier": "must",
-   "group": "chinanews",
    "ai": ""
   },
   {
@@ -1183,6 +1200,28 @@
    "why": "加息",
    "tier": "",
    "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "da86556ec08c7c67",
+   "title": "菲律宾启动东盟峰会安保戒备 逾2.3万安保人员部署到位",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731477.shtml",
+   "summary": "中新网马尼拉11月13日电 菲律宾国家警察总局12日表示，为确保第49届东盟峰会及系列会议安全举行，于13日零时起对部分警力实施全面戒备状态，以加强峰会主要活动区域及相关交通路线的安全保卫工作。菲律宾国家警察总局表示，此次安保行动共部署23154名安保人员，负责会议场馆、代表团驻地及指定交通路线等区域的安保工作。菲律宾国家警察总局表示，全面戒备状态将持续至11月19日，必要时可能延长。戒备期间，相关警力将保持全员在岗，以应对峰会期间各项安保任务。警方称，截至12日，警方对东盟峰会相关活动的安全威胁评估仍处于低级别，尚未发现重大安全威胁。",
+   "body": "中新网马尼拉11月13日电 菲律宾国家警察总局12日表示，为确保第49届东盟峰会及系列会议安全举行，于13日零时起对部分警力实施全面戒备状态，以加强峰会主要活动区域及相关交通路线的安全保卫工作。菲律宾国家警察总局表示，此次安保行动共部署23154名安保人员，负责会议场馆、代表团驻地及指定交通路线等区域的安保工作。菲律宾国家警察总局表示，全面戒备状态将持续至11月19日，必要时可能延长。戒备期间，相关警力将保持全员在岗，以应对峰会期间各项安保任务。警方称，截至12日，警方对东盟峰会相关活动的安全威胁评估仍处于低级别，尚未发现重大安全威胁。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "峰会"
+   ],
+   "time": "11-13 15:26",
+   "score": 13.0,
+   "level": 1,
+   "why": "部署",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -1221,7 +1260,7 @@
    "words": [
     "军事行动"
    ],
-   "time": "11-13 07:27",
+   "time": "",
    "score": 12.1,
    "level": 1,
    "why": "军事行动",
@@ -1244,7 +1283,7 @@
     "美联储"
    ],
    "time": "11-12 23:08",
-   "score": 12.1,
+   "score": 12,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1258,13 +1297,7 @@
    "summary": "特朗普表示美国无需与伊朗达成协议，令中东局势前景更趋不明朗，市场对该地区供应风险的担忧重燃。 据央视新闻，当地时间11月12日， 美国总统特朗普表示，美国不需要与伊朗达成协议。 特朗普称，那样的日子早已过去。他声称，美国已经掌握了伊朗数千亿美元的资金以及霍尔木兹海峡。 话音一落，原油直线拉升，布油转涨，截至发稿，日内涨幅超过1%。 特朗普表示，副总统JD·万斯应把重点放在国内事务上，尤其是调查美国各地由民主党掌管的城市和州所涉腐败问题。而据媒体此前报道， 万斯正考虑与伊朗强硬派安全官员Mohsen Rezaei进行直接会谈 ，特朗普已向幕僚和外国对应方表示，支持万斯重启对伊谈判并授权其主导这一进程。 与此同时，伊朗方面也摆出强硬姿态。 据央视新闻12日报道，伊朗最高国家安全委员会秘书雷扎伊（Mohsen Rezaei）在11月11日播出的采访中表示，如果美国再次对伊朗发动军事打击，伊朗将把",
    "body": "",
    "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "中国新闻网·国际",
-     "t": "特朗普改口：美国不需要与伊朗达成协议",
-     "u": "https://www.chinanews.com.cn/gj/2026/11-13/10731246.shtml"
-    }
-   ],
+   "also": [],
    "topics": [
     "美国重大"
    ],
@@ -1301,6 +1334,50 @@
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "79abb14d8ca5b905",
+   "title": "美国银行：在此前预计美联储将于12月和2027年3月份加息的基础上，现在预计明年1月份也要加息。",
+   "link": "https://wallstreetcn.com/livenews/3199885",
+   "summary": "美国银行：在此前预计美联储将于12月和2027年3月份加息的基础上，现在预计明年1月份也要加息。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "8e9cdb8f2e9dda91",
+   "title": "墨西哥降息引发官员意图让比索贬值的猜测",
+   "link": "https://wallstreetcn.com/livenews/3199878",
+   "summary": "交易员正日益猜测墨西哥央行正在推动本币贬值，此前比索的强势曾对出口和旅游业构成威胁。 自9月初创下两年高点以来，墨西哥比索已暴跌近9%，在彭博追踪的31种主要货币中表现倒数第二。当月Banxico官员释放愿意降低借贷成本的信号后，比索的加速自由落体式下跌随之而来——上周该行出乎经济学家（此前普遍预期按兵不动）的意料，将利率下调了25个基点。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "降息"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "降息",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -1473,7 +1550,7 @@
     "白宫"
    ],
    "time": "11-13 13:19",
-   "score": 11.9,
+   "score": 11.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1495,7 +1572,7 @@
     "特朗普"
    ],
    "time": "11-13 12:02",
-   "score": 11.7,
+   "score": 11.6,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1535,6 +1612,32 @@
    ],
    "words": [],
    "time": "",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "927f90de5fab1212",
+   "title": "SpaceX AI据悉在Grok Imagine视频团队裁员60人",
+   "link": "https://www.jiemian.com/article/15332481.html",
+   "summary": "11月13日，据报道，知情人士称，SpaceX旗下人工智能部门在过去一周内裁撤了约60名负责其AI视频和图像生成工具Grok Imagine的员工，仅留下少数员工维持该产品的运转。报道称，该工具目前仍向用户开放，但在没有专职团队开发的情况下，其未来充满不确定性。此外，知情人士称，马斯克旗下xAI目前优先发展AI编程工具及其Grok Bot智能体产品。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "据知情人士透露，SpaceX旗下AI团队针对Grok Imagine裁员60人，意味着该团队大部分成员被裁。",
+     "u": "https://wallstreetcn.com/livenews/3199855"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 22:23",
    "score": 10.9,
    "level": 1,
    "why": "",
@@ -1623,26 +1726,6 @@
    "ai": ""
   },
   {
-   "id": "42d1b479535f9c3f",
-   "title": "马斯克转发《气垫传奇》电影片段致敬黄仁勋：有些事物是永恒的",
-   "link": "https://www.ithome.com/1/026/944.htm",
-   "summary": "IT之家 11 月 13 日消息，黄仁勋离任英伟达 CEO 后，全球首富埃隆 · 马斯克在社交媒体上发文向他致敬。 今天下午，马斯克在 X 上转发了一段两分钟的电影片段，出自 2023 年上映的《气垫传奇》。影片讲述了耐克与迈克尔 · 乔丹合作，以及 Air Jordan 品牌诞生的故事。 片段中，马特 · 达蒙饰演的耐克高管桑尼 · 瓦卡罗试图说服年轻的乔丹签下球鞋代言合同，并发表了一段仿佛预见未来的独白。“当他们把你捧到最高处，接下来就会把你拉下来。 你能不能鼓起勇气，忍受所有痛苦，继续奋战，再次站起来？ ” 这段视频最早由风险投资公司 Andreessen Horowitz 于周四晚间发布，该公司特别摘录了其中一句台词：“ 人们会永远记住你，因为有些东西是永恒的 。” 马斯克转发时没有多作评论，只写了一个名字：“ Jensen ”。 就在北京时间 12 日早些时候，英伟达董事会考虑罢",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 20:31",
-   "score": 10.8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "0ec120cbcb07887f",
    "title": "外媒：特朗普与内塔尼亚胡在交谈中爆发“地狱般的争吵”",
    "link": "https://www.chinanews.com.cn/gj/2026/11-12/10731223.shtml",
@@ -1665,6 +1748,26 @@
    "ai": ""
   },
   {
+   "id": "42d1b479535f9c3f",
+   "title": "马斯克转发《气垫传奇》电影片段致敬黄仁勋：有些事物是永恒的",
+   "link": "https://www.ithome.com/1/026/944.htm",
+   "summary": "IT之家 11 月 13 日消息，黄仁勋离任英伟达 CEO 后，全球首富埃隆 · 马斯克在社交媒体上发文向他致敬。 今天下午，马斯克在 X 上转发了一段两分钟的电影片段，出自 2023 年上映的《气垫传奇》。影片讲述了耐克与迈克尔 · 乔丹合作，以及 Air Jordan 品牌诞生的故事。 片段中，马特 · 达蒙饰演的耐克高管桑尼 · 瓦卡罗试图说服年轻的乔丹签下球鞋代言合同，并发表了一段仿佛预见未来的独白。“当他们把你捧到最高处，接下来就会把你拉下来。 你能不能鼓起勇气，忍受所有痛苦，继续奋战，再次站起来？ ” 这段视频最早由风险投资公司 Andreessen Horowitz 于周四晚间发布，该公司特别摘录了其中一句台词：“ 人们会永远记住你，因为有些东西是永恒的 。” 马斯克转发时没有多作评论，只写了一个名字：“ Jensen ”。 就在北京时间 12 日早些时候，英伟达董事会考虑罢",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 20:31",
+   "score": 10.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "88885df9b601a690",
    "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
    "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
@@ -1678,7 +1781,7 @@
    "words": [
     "Trump"
    ],
-   "time": "11-13 03:38",
+   "time": "",
    "score": 10.6,
    "level": 1,
    "why": "",
@@ -1758,28 +1861,6 @@
    "ai": ""
   },
   {
-   "id": "130fd086f7717a27",
-   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-   "summary": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-   "body": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-   "source": "美联储·货币政策",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Federal Reserve"
-   ],
-   "time": "11-13 01:45",
-   "score": 10.4,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "fed",
-   "ai": ""
-  },
-  {
    "id": "9be01ebb3168414a",
    "title": "消息称三星电子正谈判收购数据中心散热企业 Modine",
    "link": "https://www.ithome.com/1/026/661.htm",
@@ -1800,23 +1881,25 @@
    "ai": ""
   },
   {
-   "id": "1f0c89527bbe0d34",
-   "title": "英伟达新掌门会给AI融资踩刹车？她曾将2500亿美元数据中心担保砍半，被黄仁勋嘲讽“只会做财务”，是“惊弓之鹿”",
-   "link": "https://wallstreetcn.com/articles/3785870",
-   "summary": "黄仁勋的突然出局，不仅终结了英伟达一个时代，更动摇了整个AI生态系统赖以运转的融资基础。 过去三年，英伟达在黄仁勋主导下扮演着\"AI中央银行\"的角色，以股权投资、信贷担保和租约兜底织就一张规模逾5000亿美元的循环融资网络，为这个仍在烧钱的行业持续输血。如今，这位创始人因婚外情丑闻黯然离场，接棒者正是他曾当面羞辱为\"惊弓之鹿\"、斥之为\"只会做财务\"的首席财务官Colette Kress。 据《华尔街日报》报道， 此前正是Kress主动将英伟达对OpenAI俄亥俄州数据中心的兜底承诺从最初谈判的2500亿美元砍至约1050亿美元，也是她在融资担保项目快速扩张期间，一再追问如何为担保定价、如何计算投资回报。 在市场看来，这位新掌门让英伟达的资产负债表更安全，却让所有指望英伟达下一张支票的AI公司陷入了更深的不确定性。 高盛分析师James Schneider指出，现有承诺大概率会被履行，但\"没",
-   "body": "",
-   "source": "华尔街见闻·文章",
+   "id": "130fd086f7717a27",
+   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+   "summary": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "body": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "source": "美联储·货币政策",
    "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "11-13 14:43",
-   "score": 10.0,
+   "words": [
+    "Federal Reserve"
+   ],
+   "time": "11-13 01:45",
+   "score": 10.3,
    "level": 1,
    "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
+   "tier": "must",
+   "group": "fed",
    "ai": ""
   },
   {
@@ -1839,6 +1922,26 @@
    "why": "",
    "tier": "",
    "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "1f0c89527bbe0d34",
+   "title": "英伟达新掌门会给AI融资踩刹车？她曾将2500亿美元数据中心担保砍半，被黄仁勋嘲讽“只会做财务”，是“惊弓之鹿”",
+   "link": "https://wallstreetcn.com/articles/3785870",
+   "summary": "黄仁勋的突然出局，不仅终结了英伟达一个时代，更动摇了整个AI生态系统赖以运转的融资基础。 过去三年，英伟达在黄仁勋主导下扮演着\"AI中央银行\"的角色，以股权投资、信贷担保和租约兜底织就一张规模逾5000亿美元的循环融资网络，为这个仍在烧钱的行业持续输血。如今，这位创始人因婚外情丑闻黯然离场，接棒者正是他曾当面羞辱为\"惊弓之鹿\"、斥之为\"只会做财务\"的首席财务官Colette Kress。 据《华尔街日报》报道， 此前正是Kress主动将英伟达对OpenAI俄亥俄州数据中心的兜底承诺从最初谈判的2500亿美元砍至约1050亿美元，也是她在融资担保项目快速扩张期间，一再追问如何为担保定价、如何计算投资回报。 在市场看来，这位新掌门让英伟达的资产负债表更安全，却让所有指望英伟达下一张支票的AI公司陷入了更深的不确定性。 高盛分析师James Schneider指出，现有承诺大概率会被履行，但\"没",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 14:43",
+   "score": 9.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1883,26 +1986,6 @@
    "ai": ""
   },
   {
-   "id": "604ab987e5a044fb",
-   "title": "Cerebras电话会：拿下微软大单，HBM短缺反而是机会，WSE-5芯片明年夏天量产",
-   "link": "https://wallstreetcn.com/articles/3785852",
-   "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公司实现了非公认会计准则（Non-GAAP）下的净利润转正，达到3000万美元。 随后电话会上，Cerebras联合创始人兼CEO Andrew Feldman表示， 公司同步上调第四季度及全年指引，预计核心营收环比增速接近40%。公司还维持2027年营收\"三倍增长\"的目标，并预期核心毛利率持续向60%的长期目标靠拢。 Andrew Feldman宣布， 公司正式签署与微软的云合作协议 ，加上此前已",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 10:51",
-   "score": 9.5,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "94c97200d0241870",
    "title": "AMD 拟入股量子计算公司 PsiQuantum，将扩大合作、共同开发基础设施",
    "link": "https://www.ithome.com/1/026/390.htm",
@@ -1923,6 +2006,26 @@
    "ai": ""
   },
   {
+   "id": "604ab987e5a044fb",
+   "title": "Cerebras电话会：拿下微软大单，HBM短缺反而是机会，WSE-5芯片明年夏天量产",
+   "link": "https://wallstreetcn.com/articles/3785852",
+   "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公司实现了非公认会计准则（Non-GAAP）下的净利润转正，达到3000万美元。 随后电话会上，Cerebras联合创始人兼CEO Andrew Feldman表示， 公司同步上调第四季度及全年指引，预计核心营收环比增速接近40%。公司还维持2027年营收\"三倍增长\"的目标，并预期核心毛利率持续向60%的长期目标靠拢。 Andrew Feldman宣布， 公司正式签署与微软的云合作协议 ，加上此前已",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 10:51",
+   "score": 9.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "bd10a2552110254d",
    "title": "黄仁勋出局，英伟达5000亿美元AI融资计划也悬了",
    "link": "https://wallstreetcn.com/articles/3785848",
@@ -1935,7 +2038,7 @@
    ],
    "words": [],
    "time": "11-13 08:24",
-   "score": 9.2,
+   "score": 9.1,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1955,7 +2058,7 @@
    ],
    "words": [],
    "time": "11-13 08:12",
-   "score": 9.2,
+   "score": 9.1,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1995,7 +2098,7 @@
    ],
    "words": [],
    "time": "11-13 05:23",
-   "score": 8.9,
+   "score": 8.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -2137,26 +2240,6 @@
    "why": "",
    "tier": "",
    "group": "pbc",
-   "ai": ""
-  },
-  {
-   "id": "cf16891de405dcb6",
-   "title": "据知情人士透露，SpaceX旗下AI团队针对Grok Imagine裁员60人，意味着该团队大部分成员被裁。",
-   "link": "https://wallstreetcn.com/livenews/3199855",
-   "summary": "据知情人士透露，SpaceX旗下AI团队针对Grok Imagine裁员60人，意味着该团队大部分成员被裁。（The Information）",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "wscn",
    "ai": ""
   },
   {
