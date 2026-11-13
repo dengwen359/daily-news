@@ -1,8 +1,8 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13 21:30",
+ "generated_at": "2026-11-13 22:30",
  "hours_window": 30,
- "count": 92,
+ "count": 96,
  "sources_ok": 20,
  "sources_total": 21,
  "topics_order": [
@@ -87,6 +87,30 @@
    "ai": ""
   },
   {
+   "id": "f2c16c30f13bb0b6",
+   "title": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降",
+   "link": "https://wallstreetcn.com/livenews/3199857",
+   "summary": "中国人民银行公布2026年10月金融数据。10月末，社会融资规模存量为469.16万亿元，同比增长7.2%；广义货币（M2）余额359.06万亿元，同比增长7.1%。两项指标均高于名义GDP增速，同经济增长、价格总水平预期目标相匹配。 东方金诚首席宏观分析师王青判断，年底前使用全面降息降准等总量型货币政策工具的可能性下降，监管部门将主要引导银行等金融机构加大对国民经济重点领域和薄弱环节的支持力度，推动“六张网”建设及“五篇大文章”领域贷款高增。（21财经）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "降准",
+    "降息",
+    "社融"
+   ],
+   "time": "",
+   "score": 20,
+   "level": 1,
+   "why": "降准",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
    "id": "f3b1ded7fa9c7c48",
    "title": "日本熊本县发生4.0级地震",
    "link": "https://wallstreetcn.com/livenews/3199502",
@@ -123,7 +147,7 @@
     "民主党"
    ],
    "time": "11-13 21:02",
-   "score": 19.9,
+   "score": 19.8,
    "level": 2,
    "why": "监管司法·国会、议员",
    "tier": "",
@@ -154,47 +178,6 @@
    "ai": ""
   },
   {
-   "id": "f91bf771aab20a4d",
-   "title": "英伟达关于黄仁勋辞职及领导团队调整的声明全文",
-   "link": "https://wallstreetcn.com/articles/3785832",
-   "summary": "英伟达董事会12日宣布，黄仁勋已辞去总裁、首席执行官及董事会成员职务，即时生效。 英伟达现任执行副总裁兼首席财务官Colette Kress已同意担任临时首席执行官。 在正式继任者被任命之前，Kress在履行临时首席执行官之职的同时将继续兼任执行副总裁和首席财务官。 董事会正启动正式首席执行官的遴选，并将考虑公司内外的候选人。 Kress自2013年9月加入公司以来一直担任英伟达执行副总裁兼首席财务官。在任期间，她领导了公司的财务部门并在英伟达的发展与进化上发挥了关键作用。加入英伟达之前，Kress曾在思科和微软等领先科技公司的财务岗位服务25年。 董事会同时任命Harvey C. Jones为有史以来首任董事会主席。 Jones先生30多年来当过创业者、科技管理者和积极风险投资者，包括在新思科技担任首席执行官及执行主席。 “Colette协助带领英伟达度过了非凡发展的时期且对我们的业务、",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋辞职叠加油价走强，美股承压，英伟达市值一度跌破4万亿，美债、黄金遭抛售",
-     "u": "https://wallstreetcn.com/articles/3785806"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋辞职拖累AI交易，美股三大期指集体下跌，英伟达盘前企稳，布油反弹突破96美元",
-     "u": "https://wallstreetcn.com/articles/3785885"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋辞职三大冲击：委员会治理恐致技术供应链迟钝，美开源AI成输家，算力数据迎严查",
-     "u": "https://wallstreetcn.com/articles/3785860"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "“我是个烂人！”黄仁勋辞职前最后几小时的内幕曝光",
-     "u": "https://wallstreetcn.com/articles/3785866"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-12 23:23",
-   "score": 15.2,
-   "level": 2,
-   "why": "监管司法·辞职",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "246bbd8d4107cea8",
    "title": "黄仁勋辞职后，英伟达员工发声",
    "link": "https://www.jiemian.com/article/15332351.html",
@@ -207,7 +190,7 @@
    ],
    "words": [],
    "time": "11-13 21:03",
-   "score": 17.9,
+   "score": 17.8,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -267,7 +250,7 @@
    ],
    "words": [],
    "time": "11-13 18:51",
-   "score": 17.7,
+   "score": 17.5,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
@@ -303,7 +286,7 @@
    ],
    "words": [],
    "time": "11-13 08:05",
-   "score": 16.3,
+   "score": 16.2,
    "level": 2,
    "why": "监管司法·下台",
    "tier": "",
@@ -353,45 +336,74 @@
    "ai": ""
   },
   {
-   "id": "dfb46b48d60693d9",
-   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-   "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-   "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+   "id": "a11d624b24f48de0",
+   "title": "美PPI低于预期，美股期指拉升，英伟达盘前企稳，布油反弹突破96美元",
+   "link": "https://wallstreetcn.com/articles/3785885",
+   "summary": "美国10月PPI同比涨幅低于预期，缓解了市场对通胀持续走高及美联储进一步收紧政策的担忧，美股期指短线拉升。 PPI数据公布后，纳斯达克100指数期货涨幅扩大至0.5%，英伟达盘前走高，收复黄仁勋离职消息引发的部分跌幅。美国10年期国债收益率回落至5.144%，美元指数下跌约10点，报103.13，现货黄金短线上涨逾10美元，报3894.95美元/盎司。 数据显示，美国10月PPI同比上涨6.5%，低于市场预期的6.6%，但高于前值6.3%；核心PPI同比上涨5.0%，符合市场预期，与前值持平。 AT Global Markets驻悉尼首席市场分析师尼克·特威代尔表示：“显然，英伟达的处境在下周财报发布前仍然令投资者忧心忡忡，因 此周末市场将面临一定压力。说实话，只有PPI数据大幅下滑才能改变市场情绪。” 核心市场走势如下： 纳斯达克100指数期货短线拉升，涨幅扩大至0.5%。 欧洲斯托克5",
    "body": "",
-   "source": "BBC·商业",
+   "source": "华尔街见闻·文章",
    "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "11-13 11:57",
-   "score": 16.8,
-   "level": 2,
-   "why": "监管司法·Congress",
+   "words": [
+    "美股",
+    "PPI"
+   ],
+   "time": "11-13 21:49",
+   "score": 16.9,
+   "level": 1,
+   "why": "PPI",
    "tier": "",
-   "group": "bbc",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
-   "id": "672bbb1d1c248591",
-   "title": "美联储公布2027年议息会议日程，10月会议不作利率决议、专门讨论货币政策战略",
-   "link": "https://www.jiemian.com/article/15328216.html",
-   "summary": "美联储当地时间11月12日宣布调整2027年联邦公开市场委员会（FOMC）暂定会议日程。会议将分别于1月26日至27日、3月16日至17日、4月27日至28日、6月8日至9日、7月27日至28日、9月14日至15日、10月26日至27日及11月16日至17日举行，2028年1月会议暂定于1月25日至26日举行。除10月26日至27日会议专门讨论广泛的货币政策战略议题外，其余会议均计划在第二天公布政策决定。",
-   "body": "美联储当地时间11月12日宣布调整2027年联邦公开市场委员会（FOMC）暂定会议日程。会议将分别于1月26日至27日、3月16日至17日、4月27日至28日、6月8日至9日、7月27日至28日、9月14日至15日、10月26日至27日及11月16日至17日举行，2028年1月会议暂定于1月25日至26日举行。除10月26日至27日会议专门讨论广泛的货币政策战略议题外，其余会议均计划在第二天公布政策决定。",
+   "id": "b475793a9643d0fb",
+   "title": "美国PPI报告公布后，交易员下调对美联储收紧政策的预期",
+   "link": "https://www.jiemian.com/article/15332427.html",
+   "summary": "美国PPI报告公布后，交易员下调对美联储收紧政策的预期。美国10月生产者价格指数（PPI）同比增长6.5%，预估为6.6%，前值为6.3%。环比上涨0.3%，预估为0.4%。",
+   "body": "",
    "source": "界面新闻",
-   "also": [],
+   "also": [
+    {
+     "src": "界面新闻",
+     "t": "美联储公布2027年议息会议日程，10月会议不作利率决议、专门讨论货币政策战略",
+     "u": "https://www.jiemian.com/article/15328216.html"
+    }
+   ],
    "topics": [
     "美国重大"
    ],
    "words": [
     "美联储"
    ],
-   "time": "",
-   "score": 16.8,
+   "time": "11-13 21:36",
+   "score": 16.9,
    "level": 1,
-   "why": "利率决议",
+   "why": "PPI",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "dfb46b48d60693d9",
+   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+   "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 11:57",
+   "score": 16.7,
+   "level": 2,
+   "why": "监管司法·Congress",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -431,11 +443,31 @@
     "伊朗"
    ],
    "time": "11-13 18:16",
-   "score": 16.6,
+   "score": 16.5,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
+   "id": "62593d2c0b35c9d2",
+   "title": "Jensen Huang has resigned, what's next for Nvidia?",
+   "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
+   "summary": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 16.1,
+   "level": 2,
+   "why": "监管司法·resigned",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -457,31 +489,11 @@
    ],
    "words": [],
    "time": "11-13 06:57",
-   "score": 16.2,
+   "score": 16.1,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "62593d2c0b35c9d2",
-   "title": "Jensen Huang has resigned, what's next for Nvidia?",
-   "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
-   "summary": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 16.1,
-   "level": 2,
-   "why": "监管司法·resigned",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -554,6 +566,26 @@
    "ai": ""
   },
   {
+   "id": "42d1ae42d9ee5d03",
+   "title": "Jensen Huang has resigned, what's next for Nvidia?",
+   "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
+   "summary": "Jensen Huang has resigned from Nvidia as chief financial officer Colette Kress replaces him as an interim boss.",
+   "body": "",
+   "source": "BBC·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 15.9,
+   "level": 2,
+   "why": "监管司法·resigned",
+   "tier": "",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "3d49fc69836fa292",
    "title": "Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
    "link": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
@@ -566,7 +598,7 @@
    ],
    "words": [],
    "time": "11-13 05:15",
-   "score": 16.0,
+   "score": 15.8,
    "level": 2,
    "why": "监管司法·resigns",
    "tier": "",
@@ -586,31 +618,11 @@
    ],
    "words": [],
    "time": "11-13 05:05",
-   "score": 15.9,
+   "score": 15.8,
    "level": 2,
    "why": "监管司法·ousted",
    "tier": "",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "42d1ae42d9ee5d03",
-   "title": "Jensen Huang has resigned, what's next for Nvidia?",
-   "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
-   "summary": "Jensen Huang has resigned from Nvidia as chief financial officer Colette Kress replaces him as an interim boss.",
-   "body": "",
-   "source": "BBC·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 04:21",
-   "score": 15.9,
-   "level": 2,
-   "why": "监管司法·resigned",
-   "tier": "",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -626,7 +638,7 @@
    ],
    "words": [],
    "time": "11-13 01:26",
-   "score": 15.5,
+   "score": 15.4,
    "level": 2,
    "why": "监管司法·resignation",
    "tier": "",
@@ -650,7 +662,7 @@
     "伊朗"
    ],
    "time": "11-13 08:40",
-   "score": 15.4,
+   "score": 15.3,
    "level": 1,
    "why": "",
    "tier": "",
@@ -678,6 +690,42 @@
    "ai": ""
   },
   {
+   "id": "f91bf771aab20a4d",
+   "title": "英伟达关于黄仁勋辞职及领导团队调整的声明全文",
+   "link": "https://wallstreetcn.com/articles/3785832",
+   "summary": "英伟达董事会12日宣布，黄仁勋已辞去总裁、首席执行官及董事会成员职务，即时生效。 英伟达现任执行副总裁兼首席财务官Colette Kress已同意担任临时首席执行官。 在正式继任者被任命之前，Kress在履行临时首席执行官之职的同时将继续兼任执行副总裁和首席财务官。 董事会正启动正式首席执行官的遴选，并将考虑公司内外的候选人。 Kress自2013年9月加入公司以来一直担任英伟达执行副总裁兼首席财务官。在任期间，她领导了公司的财务部门并在英伟达的发展与进化上发挥了关键作用。加入英伟达之前，Kress曾在思科和微软等领先科技公司的财务岗位服务25年。 董事会同时任命Harvey C. Jones为有史以来首任董事会主席。 Jones先生30多年来当过创业者、科技管理者和积极风险投资者，包括在新思科技担任首席执行官及执行主席。 “Colette协助带领英伟达度过了非凡发展的时期且对我们的业务、",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋辞职叠加油价走强，美股承压，英伟达市值一度跌破4万亿，美债、黄金遭抛售",
+     "u": "https://wallstreetcn.com/articles/3785806"
+    },
+    {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋辞职三大冲击：委员会治理恐致技术供应链迟钝，美开源AI成输家，算力数据迎严查",
+     "u": "https://wallstreetcn.com/articles/3785860"
+    },
+    {
+     "src": "华尔街见闻·文章",
+     "t": "“我是个烂人！”黄仁勋辞职前最后几小时的内幕曝光",
+     "u": "https://wallstreetcn.com/articles/3785866"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-12 23:23",
+   "score": 15.1,
+   "level": 2,
+   "why": "监管司法·辞职",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "1254ea4899ea2612",
    "title": "黄仁勋辞职",
    "link": "https://www.solidot.org/story?sid=85872",
@@ -690,7 +738,7 @@
    ],
    "words": [],
    "time": "11-12 22:03",
-   "score": 15.1,
+   "score": 15,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -740,28 +788,6 @@
    "ai": ""
   },
   {
-   "id": "c67c0ba562bc658a",
-   "title": "10月末中国社会融资规模存量和M2余额同比增长均超7%",
-   "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731725.shtml",
-   "summary": "中新社北京11月13日电 (陶思阅)中国央行13日公布的最新数据显示，10月末，社会融资规模存量469.16万亿元人民币，同比增长7.2%；广义货币(M2)余额359.06万亿元，同比增长7.1%。社会融资规模存量是指一定时期末实体经济从金融体系获得的资金余额；M2反映全社会货币供给情况。“总体来看，M2和社会融资规模存量增速均保持在合理水平，同经济增长、价格总水平预期目标相匹配，为经济持续向好向优创造适宜的货币金融环境。”招联首席经济学家董希淼说。",
-   "body": "中新社北京11月13日电 (陶思阅)中国央行13日公布的最新数据显示，10月末，社会融资规模存量469.16万亿元人民币，同比增长7.2%；广义货币(M2)余额359.06万亿元，同比增长7.1%。社会融资规模存量是指一定时期末实体经济从金融体系获得的资金余额；M2反映全社会货币供给情况。“总体来看，M2和社会融资规模存量增速均保持在合理水平，同经济增长、价格总水平预期目标相匹配，为经济持续向好向优创造适宜的货币金融环境。”招联首席经济学家董希淼说。",
-   "source": "中国新闻网·财经",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "社会融资"
-   ],
-   "time": "11-13 20:58",
-   "score": 14.9,
-   "level": 1,
-   "why": "社会融资",
-   "tier": "",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
    "id": "4b5d9ce37d2db83c",
    "title": "法国10月CPI环比增长0.4%",
    "link": "https://www.jiemian.com/article/15330992.html",
@@ -803,6 +829,84 @@
    "why": "关税",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "23f036d135f599ea",
+   "title": "美国10月核心PPI同比增长5%",
+   "link": "https://www.jiemian.com/article/15332423.html",
+   "summary": "美国10月核心PPI同比增长5%，预期5%，前值5%；10月核心PPI环比增长0.3%，预期0.3%，前值由0.7%修正为0.8%。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "美国10月核心PPI同比 5%，预期 5%，前值 5%。",
+     "u": "https://wallstreetcn.com/livenews/3199832"
+    }
+   ],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "11-13 21:32",
+   "score": 14.9,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "6e8fc9b5f9cc290c",
+   "title": "美国10月PPI同比增长6.5%，低于市场预期",
+   "link": "https://www.jiemian.com/article/15332410.html",
+   "summary": "美国10月生产者价格指数（PPI）同比增长6.5%，预估为6.6%，前值为6.3%。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "美国10月PPI同比 6.5%创四年、但低于预期，激进加息预期小幅降温",
+     "u": "https://wallstreetcn.com/articles/3785905"
+    }
+   ],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "11-13 21:31",
+   "score": 14.9,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "c67c0ba562bc658a",
+   "title": "10月末中国社会融资规模存量和M2余额同比增长均超7%",
+   "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731725.shtml",
+   "summary": "中新社北京11月13日电 (陶思阅)中国央行13日公布的最新数据显示，10月末，社会融资规模存量469.16万亿元人民币，同比增长7.2%；广义货币(M2)余额359.06万亿元，同比增长7.1%。社会融资规模存量是指一定时期末实体经济从金融体系获得的资金余额；M2反映全社会货币供给情况。“总体来看，M2和社会融资规模存量增速均保持在合理水平，同经济增长、价格总水平预期目标相匹配，为经济持续向好向优创造适宜的货币金融环境。”招联首席经济学家董希淼说。",
+   "body": "中新社北京11月13日电 (陶思阅)中国央行13日公布的最新数据显示，10月末，社会融资规模存量469.16万亿元人民币，同比增长7.2%；广义货币(M2)余额359.06万亿元，同比增长7.1%。社会融资规模存量是指一定时期末实体经济从金融体系获得的资金余额；M2反映全社会货币供给情况。“总体来看，M2和社会融资规模存量增速均保持在合理水平，同经济增长、价格总水平预期目标相匹配，为经济持续向好向优创造适宜的货币金融环境。”招联首席经济学家董希淼说。",
+   "source": "中国新闻网·财经",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "社会融资"
+   ],
+   "time": "11-13 20:58",
+   "score": 14.8,
+   "level": 1,
+   "why": "社会融资",
+   "tier": "",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -886,34 +990,12 @@
    "words": [
     "社会融资"
    ],
-   "time": "11-13 18:01",
+   "time": "",
    "score": 14.6,
    "level": 1,
    "why": "社会融资",
    "tier": "",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "6f397e7c8e5145c5",
-   "title": "中国10月新增社融1.15万亿元，人民币贷款减少1000亿元，M2同比增长7.1%",
-   "link": "https://wallstreetcn.com/articles/3785892",
-   "summary": "10月社融增量较9月明显回落，人民币贷款单月转为减少，但社融存量增速小幅回升，M2与M1剪刀差明显收窄。与此同时，融资结构继续向直接融资倾斜，含政府债券的广义直接融资占新增社融比例超过实体人民币贷款。 据金融时报，业内专家认为，当前宏观政策持续积极有为，有力支撑金融总量合理增长。 总体来看，M2和社会融资规模增速均保持在合理水平，为经济持续向好向优创造适宜的货币金融环境。 市场人士分析，近期宏观政策持续加力，为金融总量合理增长提供了支撑。 在市场分析人士看来，新一轮政策是新旧动能转换背景下有针对性的务实管用政策，能够引导金融机构进一步提高服务实体经济的适配性，也有助于金融机构自身适配经济结构调整，拓展金融服务发展空间。 中国人民银行周五公布的数据显示： 中国1至10月社会融资规模增量28.61万亿元，前值27.46万亿元，据此计算， 10月当月新增社融1.15万亿元，较9月的3.55万亿元",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "社融"
-   ],
-   "time": "11-13 17:37",
-   "score": 14.5,
-   "level": 1,
-   "why": "社融",
-   "tier": "",
-   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -936,6 +1018,28 @@
    "why": "法案",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "6f397e7c8e5145c5",
+   "title": "中国10月新增社融1.15万亿元，人民币贷款减少1000亿元，M2同比增长7.1%",
+   "link": "https://wallstreetcn.com/articles/3785892",
+   "summary": "10月社融增量较9月明显回落，人民币贷款单月转为减少，但社融存量增速小幅回升，M2与M1剪刀差明显收窄。与此同时，融资结构继续向直接融资倾斜，含政府债券的广义直接融资占新增社融比例超过实体人民币贷款。 据金融时报，业内专家认为，当前宏观政策持续积极有为，有力支撑金融总量合理增长。 总体来看，M2和社会融资规模增速均保持在合理水平，为经济持续向好向优创造适宜的货币金融环境。 市场人士分析，近期宏观政策持续加力，为金融总量合理增长提供了支撑。 在市场分析人士看来，新一轮政策是新旧动能转换背景下有针对性的务实管用政策，能够引导金融机构进一步提高服务实体经济的适配性，也有助于金融机构自身适配经济结构调整，拓展金融服务发展空间。 中国人民银行周五公布的数据显示： 中国1至10月社会融资规模增量28.61万亿元，前值27.46万亿元，据此计算， 10月当月新增社融1.15万亿元，较9月的3.55万亿元",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "社融"
+   ],
+   "time": "11-13 17:37",
+   "score": 14.4,
+   "level": 1,
+   "why": "社融",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1029,7 +1133,7 @@
     "美联储"
    ],
    "time": "11-13 08:11",
-   "score": 13.3,
+   "score": 13.2,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1051,7 +1155,7 @@
     "峰会"
    ],
    "time": "11-13 15:26",
-   "score": 13.2,
+   "score": 13.1,
    "level": 1,
    "why": "部署",
    "tier": "must",
@@ -1118,7 +1222,7 @@
     "军事行动"
    ],
    "time": "11-13 07:27",
-   "score": 12.2,
+   "score": 12.1,
    "level": 1,
    "why": "军事行动",
    "tier": "must",
@@ -1140,7 +1244,7 @@
     "美联储"
    ],
    "time": "11-12 23:08",
-   "score": 12.2,
+   "score": 12.1,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1226,28 +1330,6 @@
    "title": "美国10月PPI环比 0.3%，预期 0.4%，前值 1.3%。",
    "link": "https://wallstreetcn.com/livenews/3199833",
    "summary": "美国10月PPI环比 0.3%，预期 0.4%，前值 1.3%。",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "PPI"
-   ],
-   "time": "",
-   "score": 12,
-   "level": 1,
-   "why": "PPI",
-   "tier": "",
-   "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "c70760193c4ce3c0",
-   "title": "美国10月核心PPI同比 5%，预期 5%，前值 5%。",
-   "link": "https://wallstreetcn.com/livenews/3199832",
-   "summary": "美国10月核心PPI同比 5%，预期 5%，前值 5%。",
    "body": "",
    "source": "华尔街见闻·全球快讯",
    "also": [],
@@ -1391,7 +1473,7 @@
     "白宫"
    ],
    "time": "11-13 13:19",
-   "score": 12.0,
+   "score": 11.9,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1413,7 +1495,7 @@
     "特朗普"
    ],
    "time": "11-13 12:02",
-   "score": 11.8,
+   "score": 11.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1461,26 +1543,6 @@
    "ai": ""
   },
   {
-   "id": "42d1b479535f9c3f",
-   "title": "马斯克转发《气垫传奇》电影片段致敬黄仁勋：有些事物是永恒的",
-   "link": "https://www.ithome.com/1/026/944.htm",
-   "summary": "IT之家 11 月 13 日消息，黄仁勋离任英伟达 CEO 后，全球首富埃隆 · 马斯克在社交媒体上发文向他致敬。 今天下午，马斯克在 X 上转发了一段两分钟的电影片段，出自 2023 年上映的《气垫传奇》。影片讲述了耐克与迈克尔 · 乔丹合作，以及 Air Jordan 品牌诞生的故事。 片段中，马特 · 达蒙饰演的耐克高管桑尼 · 瓦卡罗试图说服年轻的乔丹签下球鞋代言合同，并发表了一段仿佛预见未来的独白。“当他们把你捧到最高处，接下来就会把你拉下来。 你能不能鼓起勇气，忍受所有痛苦，继续奋战，再次站起来？ ” 这段视频最早由风险投资公司 Andreessen Horowitz 于周四晚间发布，该公司特别摘录了其中一句台词：“ 人们会永远记住你，因为有些东西是永恒的 。” 马斯克转发时没有多作评论，只写了一个名字：“ Jensen ”。 就在北京时间 12 日早些时候，英伟达董事会考虑罢",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 20:31",
-   "score": 10.9,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "18bd2ce4cded83fd",
    "title": "德国小厂拿下马斯克光伏订单，中国设备商为何未在列？",
    "link": "https://www.jiemian.com/article/15331654.html",
@@ -1492,7 +1554,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 20:15",
+   "time": "",
    "score": 10.8,
    "level": 1,
    "why": "",
@@ -1561,25 +1623,23 @@
    "ai": ""
   },
   {
-   "id": "88885df9b601a690",
-   "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
-   "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
-   "summary": "The announcement on social media deepened questions about what the president’s plan is to end the war. “We don’t need a deal with Iran,” he wrote.",
+   "id": "42d1b479535f9c3f",
+   "title": "马斯克转发《气垫传奇》电影片段致敬黄仁勋：有些事物是永恒的",
+   "link": "https://www.ithome.com/1/026/944.htm",
+   "summary": "IT之家 11 月 13 日消息，黄仁勋离任英伟达 CEO 后，全球首富埃隆 · 马斯克在社交媒体上发文向他致敬。 今天下午，马斯克在 X 上转发了一段两分钟的电影片段，出自 2023 年上映的《气垫传奇》。影片讲述了耐克与迈克尔 · 乔丹合作，以及 Air Jordan 品牌诞生的故事。 片段中，马特 · 达蒙饰演的耐克高管桑尼 · 瓦卡罗试图说服年轻的乔丹签下球鞋代言合同，并发表了一段仿佛预见未来的独白。“当他们把你捧到最高处，接下来就会把你拉下来。 你能不能鼓起勇气，忍受所有痛苦，继续奋战，再次站起来？ ” 这段视频最早由风险投资公司 Andreessen Horowitz 于周四晚间发布，该公司特别摘录了其中一句台词：“ 人们会永远记住你，因为有些东西是永恒的 。” 马斯克转发时没有多作评论，只写了一个名字：“ Jensen ”。 就在北京时间 12 日早些时候，英伟达董事会考虑罢",
    "body": "",
-   "source": "纽约时报·美国",
+   "source": "IT之家",
    "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-13 03:38",
+   "words": [],
+   "time": "11-13 20:31",
    "score": 10.8,
    "level": 1,
    "why": "",
-   "tier": "must",
-   "group": "nyt",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1602,6 +1662,28 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "88885df9b601a690",
+   "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+   "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
+   "summary": "The announcement on social media deepened questions about what the president’s plan is to end the war. “We don’t need a deal with Iran,” he wrote.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-13 03:38",
+   "score": 10.6,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -1633,28 +1715,6 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "130fd086f7717a27",
-   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-   "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-   "body": "",
-   "source": "美联储·货币政策",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Federal Reserve"
-   ],
-   "time": "11-13 01:45",
-   "score": 10.5,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "fed",
    "ai": ""
   },
   {
@@ -1698,6 +1758,28 @@
    "ai": ""
   },
   {
+   "id": "130fd086f7717a27",
+   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+   "summary": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "body": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "source": "美联储·货币政策",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Federal Reserve"
+   ],
+   "time": "11-13 01:45",
+   "score": 10.4,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "fed",
+   "ai": ""
+  },
+  {
    "id": "9be01ebb3168414a",
    "title": "消息称三星电子正谈判收购数据中心散热企业 Modine",
    "link": "https://www.ithome.com/1/026/661.htm",
@@ -1730,7 +1812,7 @@
    ],
    "words": [],
    "time": "11-13 14:43",
-   "score": 10.2,
+   "score": 10.0,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1757,26 +1839,6 @@
    "why": "",
    "tier": "",
    "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "604ab987e5a044fb",
-   "title": "Cerebras电话会：拿下微软大单，HBM短缺反而是机会，WSE-5芯片明年夏天量产",
-   "link": "https://wallstreetcn.com/articles/3785852",
-   "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公司实现了非公认会计准则（Non-GAAP）下的净利润转正，达到3000万美元。 随后电话会上，Cerebras联合创始人兼CEO Andrew Feldman表示， 公司同步上调第四季度及全年指引，预计核心营收环比增速接近40%。公司还维持2027年营收\"三倍增长\"的目标，并预期核心毛利率持续向60%的长期目标靠拢。 Andrew Feldman宣布， 公司正式签署与微软的云合作协议 ，加上此前已",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 10:51",
-   "score": 9.7,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1821,6 +1883,26 @@
    "ai": ""
   },
   {
+   "id": "604ab987e5a044fb",
+   "title": "Cerebras电话会：拿下微软大单，HBM短缺反而是机会，WSE-5芯片明年夏天量产",
+   "link": "https://wallstreetcn.com/articles/3785852",
+   "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公司实现了非公认会计准则（Non-GAAP）下的净利润转正，达到3000万美元。 随后电话会上，Cerebras联合创始人兼CEO Andrew Feldman表示， 公司同步上调第四季度及全年指引，预计核心营收环比增速接近40%。公司还维持2027年营收\"三倍增长\"的目标，并预期核心毛利率持续向60%的长期目标靠拢。 Andrew Feldman宣布， 公司正式签署与微软的云合作协议 ，加上此前已",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 10:51",
+   "score": 9.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "94c97200d0241870",
    "title": "AMD 拟入股量子计算公司 PsiQuantum，将扩大合作、共同开发基础设施",
    "link": "https://www.ithome.com/1/026/390.htm",
@@ -1853,7 +1935,7 @@
    ],
    "words": [],
    "time": "11-13 08:24",
-   "score": 9.4,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1873,7 +1955,7 @@
    ],
    "words": [],
    "time": "11-13 08:12",
-   "score": 9.3,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1913,7 +1995,7 @@
    ],
    "words": [],
    "time": "11-13 05:23",
-   "score": 9.0,
+   "score": 8.9,
    "level": 1,
    "why": "",
    "tier": "",
@@ -2055,6 +2137,26 @@
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "cf16891de405dcb6",
+   "title": "据知情人士透露，SpaceX旗下AI团队针对Grok Imagine裁员60人，意味着该团队大部分成员被裁。",
+   "link": "https://wallstreetcn.com/livenews/3199855",
+   "summary": "据知情人士透露，SpaceX旗下AI团队针对Grok Imagine裁员60人，意味着该团队大部分成员被裁。（The Information）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 8,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
