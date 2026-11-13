@@ -1,9 +1,9 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13 10:30",
+ "generated_at": "2026-11-13 12:30",
  "hours_window": 30,
- "count": 62,
- "sources_ok": 21,
+ "count": 66,
+ "sources_ok": 20,
  "sources_total": 21,
  "topics_order": [
   "美国重大",
@@ -51,7 +51,7 @@
     "交火"
    ],
    "time": "11-12 22:27",
-   "score": 21.5,
+   "score": 21.2,
    "level": 2,
    "why": "交火",
    "tier": "must",
@@ -104,6 +104,26 @@
    "ai": ""
   },
   {
+   "id": "dfb46b48d60693d9",
+   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+   "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 11:57",
+   "score": 17.9,
+   "level": 2,
+   "why": "监管司法·Congress",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "716039024e538f57",
    "title": "澎湃早晚报｜早餐湃·黄仁勋辞职",
    "link": "https://m.thepaper.cn/papernews/morningEveningPaper?n=268382",
@@ -115,7 +135,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 08:06",
+   "time": "",
    "score": 17.7,
    "level": 2,
    "why": "监管司法·辞职",
@@ -144,30 +164,61 @@
    "ai": ""
   },
   {
-   "id": "48294fd38b5a758b",
-   "title": "CoreWeave大涨给AI云“喘息之机”，接下来就看Anthropic IPO和英伟达了",
-   "link": "https://wallstreetcn.com/articles/3785774",
-   "summary": "CoreWeave周二发布三季度财报，营收和亏损均好于预期，全年指引亦超出市场预期上限。消息提振了此前因AI投资回报担忧而持续承压的“新云”（neocloud）板块。 在CoreWeave股价单日大涨约25%的带动下，新云（NeoCloud）板块盘中涨幅一度超过12%，纳指也收复了中期选举后的失地。 市场的乐观情绪还受到两则消息强化：Anthropic据报正讨论高达1.5万亿美元以上的IPO估值，打消了此前公司估值将大幅下调的担忧；此外，OpenAI单季营收强劲、首次达到100亿美元。 而对于即将在下周登陆资本市场的Anthropic而言，这份财报来得恰逢其时—— CoreWeave是Anthropic的重要算力供应商，两家公司的命运在一定程度上相互绑定。 与此同时，英伟达下周的财报将是另一块试金石，投资者届时将寻找更多理由判断AI基础设施热潮能否持续。 CoreWeave带动新云板块集体",
+   "id": "234f92b4169c53fb",
+   "title": "英伟达黄仁勋离职，将损失约1.08亿美元未归属股权",
+   "link": "https://wallstreetcn.com/articles/3785846",
+   "summary": "黄仁勋因婚外情丑闻被迫离开英伟达，将损失约1.08亿美元未归属股权补偿，但相较于其个人财富，这一损失微乎其微。 根据彭博亿万富翁指数，上述放弃的股权奖励约占其净资产的0.08%——彭博对其财富的估算为1384亿美元。 英伟达股价当日一度暴跌逾14%，随后收窄跌幅，最终收跌4.3%至166.19美元，令黄仁勋的净资产单日蒸发逾60亿美元。 根据英伟达的股权补偿政策，高管一旦终止连续服务，未归属的限制性股票单元（RSU）将予以没收。黄仁勋持有约34.6万个此类单元，并有望通过公司股权激励计划获得约31万股——前提是公司业绩达到特定目标。 与众多科技公司CEO不同，黄仁勋的财富几乎全部来源于英伟达普通股持仓，而非股票期权或其他形式的股权补偿。 彭博财富指数显示，他持有这家总部位于加利福尼亚州圣克拉拉的公司约3.5%的投票权益，占其总财富的近97%。由于英伟达仅设一类股份，黄仁勋并不持有任何特别投",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [
     {
      "src": "华尔街见闻·文章",
-     "t": "黄仁勋下台有何影响？市场给出答案：博通、AMD大涨，CoreWeave、Nebius承压，费半指数微跌",
-     "u": "https://wallstreetcn.com/articles/3785829"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
-     "u": "https://wallstreetcn.com/articles/3785851"
+     "t": "英伟达高管致员工备忘录：黄仁勋离任后，公司领导层如何回应？",
+     "u": "https://wallstreetcn.com/articles/3785834"
     }
    ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-12 08:43",
-   "score": 8,
+   "time": "11-13 07:07",
+   "score": 10.3,
+   "level": 2,
+   "why": "监管司法·离任",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "332d5a49c2a651e8",
+   "title": "黄仁勋下台有何影响？市场给出答案：博通、AMD大涨，CoreWeave、Nebius承压，费半指数微跌",
+   "link": "https://wallstreetcn.com/articles/3785829",
+   "summary": "英伟达创始人、首席执行官黄仁勋突然离任，全球AI产业迎来重大领导层变局。这家由黄仁勋一手打造、并成为全球AI算力基础设施核心供应商的科技巨头，正式进入后黄仁勋时代。 当地时间11月12日， 英伟达宣布，黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。公司首席财务官Colette Kress接任临时CEO，董事会将同时考虑内部和外部候选人，启动正式继任者遴选程序。公司还任命长期董事、前Synopsys CEO Harvey Jones为首任董事长。 这一人事变动发生在英伟达经历一系列个人关系争议及国家安全调查之后。黄仁勋的离任不仅令投资者重新评估英伟达对创始人的依赖程度，也将AI产业融资模式以及全球算力投资前景推向新的不确定性之中。 消息公布后，英伟达股价盘中一度暴跌14.3%，市值一度跌破4万亿美元，随后跌幅大幅收窄，最终收跌4.3%。 在恐慌的同时，市场迅速转向寻找机会。Intera",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
+     "u": "https://wallstreetcn.com/articles/3785851"
+    },
+    {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋下台，AI新玩家的“最大金主”也没了",
+     "u": "https://wallstreetcn.com/articles/3785857"
+    },
+    {
+     "src": "华尔街见闻·文章",
+     "t": "CoreWeave大涨给AI云“喘息之机”，接下来就看Anthropic IPO和英伟达了",
+     "u": "https://wallstreetcn.com/articles/3785774"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 08:05",
+   "score": 17.4,
    "level": 2,
    "why": "监管司法·下台",
    "tier": "",
@@ -175,29 +226,23 @@
    "ai": ""
   },
   {
-   "id": "4fe0dee7b224c323",
-   "title": "英伟达高管致员工备忘录：黄仁勋离任后，公司领导层如何回应？",
-   "link": "https://wallstreetcn.com/articles/3785834",
-   "summary": "英伟达刚刚与首席执行官黄仁勋结束了合作关系。这位将英伟达打造为全球主导地位芯片制造商的人物，因婚外情丑闻而离职。 英伟达资深首席财务官科莱特·克雷斯（Colette Kress）将出任临时首席执行官。在寻找黄仁勋继任者期间，英伟达将由她暂时执掌。 公司还任命了历史上首位董事长，由董事哈维·琼斯（Harvey Jones）出任。现年73岁的琼斯此前曾担任芯片设计软件制造商新思科技（Synopsys Inc.）的负责人。 以下是琼斯和克雷斯向员工发送的内部备忘录，解释此次人事变动。 哈维·琼斯（Harvey Jones） 致英伟达全体员工： 我写信是为了向大家通报一项重要消息。 黄仁勋已辞去首席执行官及董事会成员职务。董事会已要求我们的首席财务官科莱特·克雷斯担任临时首席执行官， 同时启动正式继任者遴选工作，并同时考虑内部和外部候选人。 我将担任公司历史上首位董事会主席。 在担任首席财务官的1",
+   "id": "42d1ae42d9ee5d03",
+   "title": "Jensen Huang has resigned, what's next for Nvidia?",
+   "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
+   "summary": "Jensen Huang has resigned from Nvidia as chief financial officer Colette Kress replaces him as an interim boss.",
    "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "英伟达黄仁勋离职，将损失约1.08亿美元未归属股权",
-     "u": "https://wallstreetcn.com/articles/3785846"
-    }
-   ],
+   "source": "BBC·商业",
+   "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 06:57",
-   "score": 17.6,
+   "time": "",
+   "score": 17.2,
    "level": 2,
-   "why": "监管司法·离任",
+   "why": "监管司法·resigned",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -213,7 +258,7 @@
    ],
    "words": [],
    "time": "11-13 05:15",
-   "score": 17.3,
+   "score": 17.1,
    "level": 2,
    "why": "监管司法·resigns",
    "tier": "",
@@ -233,51 +278,11 @@
    ],
    "words": [],
    "time": "11-13 05:05",
-   "score": 17.3,
+   "score": 17.1,
    "level": 2,
    "why": "监管司法·ousted",
    "tier": "",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "42d1ae42d9ee5d03",
-   "title": "Jensen Huang has resigned, what's next for Nvidia?",
-   "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
-   "summary": "Jensen Huang has resigned from Nvidia as chief financial officer Colette Kress replaces him as an interim boss.",
-   "body": "",
-   "source": "BBC·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 04:21",
-   "score": 17.2,
-   "level": 2,
-   "why": "监管司法·resigned",
-   "tier": "",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "62593d2c0b35c9d2",
-   "title": "Jensen Huang has resigned, what's next for Nvidia?",
-   "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
-   "summary": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 03:33",
-   "score": 17.1,
-   "level": 2,
-   "why": "监管司法·resigned",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -323,23 +328,23 @@
    "ai": ""
   },
   {
-   "id": "64f5f3832f0c1447",
-   "title": "Jensen Huang’s Resignation From Nvidia Could Complicate Billions in Philanthropic Giving",
-   "link": "https://www.nytimes.com/2026/11/12/technology/jensen-huang-philanthropy-nvidia.html",
-   "summary": "Mr. Huang, the company’s co-founder, and his wife oversee a charitable foundation with about $9 billion in assets.",
+   "id": "62593d2c0b35c9d2",
+   "title": "Jensen Huang has resigned, what's next for Nvidia?",
+   "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
+   "summary": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
    "body": "",
-   "source": "纽约时报·商业",
+   "source": "BBC·国际",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 01:26",
+   "time": "11-13 03:33",
    "score": 16.9,
    "level": 2,
-   "why": "监管司法·resignation",
-   "tier": "",
-   "group": "nyt",
+   "why": "监管司法·resigned",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -365,6 +370,46 @@
    "ai": ""
   },
   {
+   "id": "64f5f3832f0c1447",
+   "title": "Jensen Huang’s Resignation From Nvidia Could Complicate Billions in Philanthropic Giving",
+   "link": "https://www.nytimes.com/2026/11/12/technology/jensen-huang-philanthropy-nvidia.html",
+   "summary": "Mr. Huang, the company’s co-founder, and his wife oversee a charitable foundation with about $9 billion in assets.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 01:26",
+   "score": 16.6,
+   "level": 2,
+   "why": "监管司法·resignation",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "a9649874c07005ac",
+   "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
+   "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+   "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
+   "body": "",
+   "source": "BBC·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 16.6,
+   "level": 2,
+   "why": "监管司法·resigns",
+   "tier": "",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "ab2299d924920aeb",
    "title": "叫停万斯与伊朗谈判，特朗普“180度转变”：转向“不战不谈”",
    "link": "https://wallstreetcn.com/articles/3785850",
@@ -381,7 +426,7 @@
     "伊朗"
    ],
    "time": "11-13 08:40",
-   "score": 16.8,
+   "score": 16.5,
    "level": 1,
    "why": "",
    "tier": "",
@@ -389,59 +434,39 @@
    "ai": ""
   },
   {
-   "id": "c7fc5a63ad3ec0c6",
-   "title": "黄仁勋辞职后英伟达股价震荡 分析称做空该公司的投资者获利丰厚",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-12/10731232.shtml",
-   "summary": "中新网11月12日电 英伟达11月12日发布声明称，黄仁勋已辞去总裁、首席执行官及董事会成员职务，即刻生效。消息公布后，英伟达股价在开盘后暴跌。黄仁勋临时接任人是谁？根据英伟达声明，现任执行副总裁兼首席财务官科莱特·克雷斯(Colette Kress)已同意担任临时首席执行官。克雷斯2013年加入英伟达，拥有亚利桑那大学金融学理学学士学位和南卫理公会大学工商管理硕士(MBA)学位。加入英伟达前，其在科技企业从事财务工作近25年，曾在思科任高级副总裁兼商务技术运营财务总监；在微软任职13年；更早之前在德州仪器担任多个财务职位。",
-   "body": "中新网11月12日电 英伟达11月12日发布声明称，黄仁勋已辞去总裁、首席执行官及董事会成员职务，即刻生效。消息公布后，英伟达股价在开盘后暴跌。黄仁勋临时接任人是谁？根据英伟达声明，现任执行副总裁兼首席财务官科莱特·克雷斯(Colette Kress)已同意担任临时首席执行官。克雷斯2013年加入英伟达，拥有亚利桑那大学金融学理学学士学位和南卫理公会大学工商管理硕士(MBA)学位。加入英伟达前，其在科技企业从事财务工作近25年，曾在思科任高级副总裁兼商务技术运营财务总监；在微软任职13年；更早之前在德州仪器担任多个财务职位。",
+   "id": "782b5baae8c7e3bf",
+   "title": "英伟达宣布黄仁勋辞职",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-12/10731222.shtml",
+   "summary": "声明称，现任执行副总裁兼首席财务官科莱特·克雷斯(Colette Kress)已同意担任临时首席执行官。在正式继任者确定之前，克雷斯将继续履行执行副总裁兼首席财务官的职责。董事会目前已启动正式首席执行官的遴选工作，并将考虑内部及外部候选人。同时，英伟达董事会还任命哈维.琼斯(Harvey C. Jones)为公司首位董事会主席。",
+   "body": "声明称，现任执行副总裁兼首席财务官科莱特·克雷斯(Colette Kress)已同意担任临时首席执行官。在正式继任者确定之前，克雷斯将继续履行执行副总裁兼首席财务官的职责。董事会目前已启动正式首席执行官的遴选工作，并将考虑内部及外部候选人。同时，英伟达董事会还任命哈维.琼斯(Harvey C. Jones)为公司首位董事会主席。",
    "source": "中国新闻网·国际",
    "also": [
     {
-     "src": "IT之家",
-     "t": "黄仁勋辞职后续：美国司法部对英伟达启动多项调查，包括反垄断调查",
-     "u": "https://www.ithome.com/1/026/451.htm"
-    },
-    {
-     "src": "IT之家",
-     "t": "黄仁勋辞职后，特朗普呼吁苹果执行董事长库克接任英伟达 CEO",
-     "u": "https://www.ithome.com/1/026/439.htm"
+     "src": "中国新闻网·国际",
+     "t": "黄仁勋辞职后英伟达股价震荡 分析称做空该公司的投资者获利丰厚",
+     "u": "https://www.chinanews.com.cn/gj/2026/11-12/10731232.shtml"
     },
     {
      "src": "IT之家",
      "t": "黄仁勋辞职后，英伟达总部外出现鲜花和蜡烛",
      "u": "https://www.ithome.com/1/026/492.htm"
+    },
+    {
+     "src": "中国新闻网·国际",
+     "t": "英伟达宣布黄仁勋临时接任人：2013年加入该公司的女高管",
+     "u": "https://www.chinanews.com.cn/gj/2026/11-12/10731225.shtml"
     }
    ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-12 23:37",
-   "score": 16.6,
+   "time": "11-12 22:09",
+   "score": 16.2,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "a9649874c07005ac",
-   "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
-   "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-   "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
-   "body": "",
-   "source": "BBC·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-12 23:26",
-   "score": 16.6,
-   "level": 2,
-   "why": "监管司法·resigns",
-   "tier": "",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -456,6 +481,11 @@
      "src": "华尔街见闻·文章",
      "t": "黄仁勋辞职叠加油价走强，美股承压，英伟达市值一度跌破4万亿，美债、黄金遭抛售",
      "u": "https://wallstreetcn.com/articles/3785806"
+    },
+    {
+     "src": "华尔街见闻·文章",
+     "t": "“我是个烂人！”黄仁勋辞职前最后几小时的内幕曝光",
+     "u": "https://wallstreetcn.com/articles/3785866"
     }
    ],
    "topics": [
@@ -463,7 +493,7 @@
    ],
    "words": [],
    "time": "11-12 23:23",
-   "score": 16.6,
+   "score": 16.4,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -483,7 +513,7 @@
    ],
    "words": [],
    "time": "11-12 22:03",
-   "score": 16.4,
+   "score": 16.2,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -572,7 +602,7 @@
    ],
    "words": [],
    "time": "11-12 17:46",
-   "score": 15.9,
+   "score": 15.7,
    "level": 2,
    "why": "监管司法·调查",
    "tier": "",
@@ -580,13 +610,18 @@
    "ai": ""
   },
   {
-   "id": "cc79ed40c3878ead",
-   "title": "今日开会决定“黄仁勋是否下台”！英伟达董事会已开始遴选新CEO，考虑任命过渡CEO",
-   "link": "https://wallstreetcn.com/articles/3785773",
-   "summary": "英伟达正面临一场可能重塑这家全球最高市值人工智能芯片制造商领导架构的严峻危机。因首席执行官黄仁勋卷入多起婚外情丑闻，公司董事会目前正积极寻找潜在的继任者，以应对可能出现的权力真空。 据彭博和《华尔街日报》报道， 英伟达董事会于周三召开内部会议以决定黄仁勋的去留，并已与外部机构合作遴选新任CEO候选人，其中包括考虑任命一位过渡时期首席执行官。 此前，《纽约时报》最新披露了黄仁勋与一名直接下属存在不正当关系，这一消息进一步加剧了早前关于其与一名中国女性有染的严重指控。 （以上图片由AI生成） 继任不确定性迅速引发了金融市场的剧烈反应。在周三的盘后交易中，英伟达股价一度重挫9%，不仅单日抹去巨额市值，还引发了广泛的抛售情绪，拖累Intel、Dell Technologies等其他人工智能概念股同步下挫。 Polymarket数据显示，市场对英伟达CEO黄仁勋离职或被罢免的押注概率飙升。目前，黄仁",
-   "body": "",
-   "source": "华尔街见闻·文章",
+   "id": "2e5ebd97c264bd1f",
+   "title": "特朗普：建议库克接替黄仁勋担任英伟达CEO",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731233.shtml",
+   "summary": "据报道，特朗普当地时间12日在社交媒体上发文称，在长期担任英伟达掌舵人的黄仁勋辞职后，苹果前首席执行官蒂姆·库克是接替黄仁勋的“唯一人选”。“既然英伟达首席执行官黄仁勋已经辞职(他此前的工作非常出色)，那么只有一个人能接替他的位置——苹果公司的蒂姆·库克。一位传奇接替另一位传奇！”特朗普在帖子中写道。报道指出，特朗普长期以来一直欣赏库克，此前曾称库克为“一位了不起的管理者和领导者”。库克今年早些时候卸任苹果首席执行官一职。",
+   "body": "据报道，特朗普当地时间12日在社交媒体上发文称，在长期担任英伟达掌舵人的黄仁勋辞职后，苹果前首席执行官蒂姆·库克是接替黄仁勋的“唯一人选”。“既然英伟达首席执行官黄仁勋已经辞职(他此前的工作非常出色)，那么只有一个人能接替他的位置——苹果公司的蒂姆·库克。一位传奇接替另一位传奇！”特朗普在帖子中写道。报道指出，特朗普长期以来一直欣赏库克，此前曾称库克为“一位了不起的管理者和领导者”。库克今年早些时候卸任苹果首席执行官一职。",
+   "source": "中国新闻网·国际",
    "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "今日开会决定“黄仁勋是否下台”！英伟达董事会已开始遴选新CEO，考虑任命过渡CEO",
+     "u": "https://wallstreetcn.com/articles/3785773"
+    },
     {
      "src": "中国新闻网·财经",
      "t": "英伟达宣布黄仁勋辞职 将遴选新CEO",
@@ -603,11 +638,6 @@
      "u": "https://www.chinanews.com.cn/gj/2026/11-12/10731225.shtml"
     },
     {
-     "src": "中国新闻网·国际",
-     "t": "特朗普：建议库克接替黄仁勋担任英伟达CEO",
-     "u": "https://www.chinanews.com.cn/gj/2026/11-13/10731233.shtml"
-    },
-    {
      "src": "IT之家",
      "t": "消息称英伟达前 CEO 黄仁勋同意在感恩节前赴国会作证，具体日期仍在协商",
      "u": "https://www.ithome.com/1/026/489.htm"
@@ -616,13 +646,15 @@
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "11-12 07:59",
-   "score": 15,
+   "words": [
+    "特朗普"
+   ],
+   "time": "11-13 00:26",
+   "score": 11.5,
    "level": 2,
-   "why": "监管司法·下台",
-   "tier": "",
-   "group": "华尔街见闻·文章",
+   "why": "监管司法·离任",
+   "tier": "must",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -637,12 +669,34 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-12 07:17",
+   "time": "",
    "score": 15,
    "level": 2,
    "why": "监管司法·罢免",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "2ad88e05800b7162",
+   "title": "太阳能制造设备关税豁免再延期、光伏能效国标将落地，光伏ETF华泰柏瑞(515790)助力聚焦光伏产业链",
+   "link": "https://www.jiemian.com/article/15329927.html",
+   "summary": "光伏ETF华泰柏瑞紧密跟踪中证光伏产业指数，覆盖光伏产业链上、中、下游优质企业，布局涵盖硅料、硅片、电池片、电池组件、光伏玻璃、逆变器、光伏支架、电缆及光伏电站等核心环节。消息面上，11月6日，美国贸易代表办公室正式发布公告，将178项对华301关税产品豁免进一步延长至2027年1月9日，14项太阳能制造设备被单独列入附件B，涵盖直拉单晶硅生长炉、金刚线切片机、冷却液回收装置、制绒蚀刻抛光清洗设备、热扩散石英管炉，以及PECVD、PVD等薄膜沉积设备和丝网印刷、硅片搬运系统。供给端方面，刚性约束有望加速光伏落后产能出清。",
+   "body": "光伏ETF华泰柏瑞紧密跟踪中证光伏产业指数，覆盖光伏产业链上、中、下游优质企业，布局涵盖硅料、硅片、电池片、电池组件、光伏玻璃、逆变器、光伏支架、电缆及光伏电站等核心环节。消息面上，11月6日，美国贸易代表办公室正式发布公告，将178项对华301关税产品豁免进一步延长至2027年1月9日，14项太阳能制造设备被单独列入附件B，涵盖直拉单晶硅生长炉、金刚线切片机、冷却液回收装置、制绒蚀刻抛光清洗设备、热扩散石英管炉，以及PECVD、PVD等薄膜沉积设备和丝网印刷、硅片搬运系统。供给端方面，刚性约束有望加速光伏落后产能出清。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "关税"
+   ],
+   "time": "11-13 12:02",
+   "score": 14.9,
+   "level": 1,
+   "why": "关税",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -691,28 +745,6 @@
    "ai": ""
   },
   {
-   "id": "23b0cc182ea438a1",
-   "title": "4连涨！短期美债收益率创2022年以来最快涨幅，市场押注美联储加息",
-   "link": "https://wallstreetcn.com/articles/3785847",
-   "summary": "美国短期国债收益率在四个交易日内完成了自2022年加息周期以来最大幅度的跳升，市场正在重新定价美联储政策预期——押注利率将更高、更持久。 周四，对美联储政策最为敏感的2年期美债收益率升至4.862%，过去四个交易日（不计周三退伍军人节休市）累计上行38.8个基点，创下自2022年6月15日以来最大四交易日涨幅。 与此同时，10年期美债收益率也突破5.10%，刷新心理关键阈值，对美股构成压力。 此轮抛售的导火索接连引爆 ：10月美国CPI数据高于预期、劳动力市场依然火热，美联储理事沃勒周二暗示12月或需加息50个基点，克利夫兰联储主席Hammack重申政策须转向限制性立场，加之地缘政治升温推高油价，三重压力叠加，加速了国债市场的抛售。 TD Securities美国利率策略主管Gennadiy Goldberg表示： 此次收益率急升本质上是市场对美联储预期重新定价的结果，反映出未来数月更为鹰",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "美联储"
-   ],
-   "time": "11-13 08:11",
-   "score": 14.7,
-   "level": 1,
-   "why": "加息",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "b66fdf2a104b57ee",
    "title": "华尔街监管机构针对上市公司的执法案件降至16年低点",
    "link": "https://36kr.com/newsflashes/4066720735106179?f=rss",
@@ -732,6 +764,28 @@
    "why": "法案",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "23b0cc182ea438a1",
+   "title": "4连涨！短期美债收益率创2022年以来最快涨幅，市场押注美联储加息",
+   "link": "https://wallstreetcn.com/articles/3785847",
+   "summary": "美国短期国债收益率在四个交易日内完成了自2022年加息周期以来最大幅度的跳升，市场正在重新定价美联储政策预期——押注利率将更高、更持久。 周四，对美联储政策最为敏感的2年期美债收益率升至4.862%，过去四个交易日（不计周三退伍军人节休市）累计上行38.8个基点，创下自2022年6月15日以来最大四交易日涨幅。 与此同时，10年期美债收益率也突破5.10%，刷新心理关键阈值，对美股构成压力。 此轮抛售的导火索接连引爆 ：10月美国CPI数据高于预期、劳动力市场依然火热，美联储理事沃勒周二暗示12月或需加息50个基点，克利夫兰联储主席Hammack重申政策须转向限制性立场，加之地缘政治升温推高油价，三重压力叠加，加速了国债市场的抛售。 TD Securities美国利率策略主管Gennadiy Goldberg表示： 此次收益率急升本质上是市场对美联储预期重新定价的结果，反映出未来数月更为鹰",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储"
+   ],
+   "time": "11-13 08:11",
+   "score": 14.5,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -803,7 +857,7 @@
     "军事行动"
    ],
    "time": "11-13 07:27",
-   "score": 13.6,
+   "score": 13.4,
    "level": 1,
    "why": "军事行动",
    "tier": "must",
@@ -825,7 +879,7 @@
     "美联储"
    ],
    "time": "11-12 23:08",
-   "score": 13.6,
+   "score": 13.3,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -854,7 +908,29 @@
     "伊朗"
    ],
    "time": "11-12 21:20",
-   "score": 13.4,
+   "score": 13.1,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "a3772eabab848bf7",
+   "title": "巴克莱：做好美伊“不战不和”僵局持续到特朗普任期结束的准备",
+   "link": "https://wallstreetcn.com/articles/3785862",
+   "summary": "美伊战争已持续八个月，巴克莱认为冲突短期内结束的可能性不足五成，应认真考虑战事延续至特朗普整个任期的情景。 华尔街见闻文章 写道，当地时间11月12日，特朗普称，“ 我们不需要与伊朗达成任何协议，那些日子早已过去 ”，同时叫停万斯正在推进的美伊谈判进程，放弃此前坚持的以核协议为目标的战争逻辑，转而接受一种“不战不谈”的僵局状态。 据追风交易台消息，巴克莱分析师Michael McLean在11月12日发布的报告中指出，美国目前面临三条路径——升级（go big）、长期化（go long）、撤出（go home）—— 其中“长期化”是最可能的基准情景。 报告认为，美伊双方均认为时间站在自己一边，短期内达成实质性协议的可能性极低。美国国务卿Marco Rubio已将伊朗在谈判中的要求定性为“完全不切实际”，进一步印证了双方立场难以调和。 报告将当前局势与1979至1981年伊朗人质危机相类比。",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "11-13 12:02",
+   "score": 12.9,
    "level": 1,
    "why": "",
    "tier": "",
@@ -884,51 +960,6 @@
    "ai": ""
   },
   {
-   "id": "88885df9b601a690",
-   "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
-   "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
-   "summary": "The announcement on social media deepened questions about what the president’s plan is to end the war. “We don’t need a deal with Iran,” he wrote.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-13 03:38",
-   "score": 12.1,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "b6fcc0060467653a",
-   "title": "万斯考虑与伊朗强硬派“直接谈”，伊朗议长：美国必须满足伊方提出的七项条件",
-   "link": "https://wallstreetcn.com/articles/3785776",
-   "summary": "美伊之间的外交试探正在升温。 据媒体最新报道，美国副总统万斯正考虑与伊朗强硬派安全官员Mohsen Rezaei进行直接会谈，特朗普已向幕僚和外国对应方表示，支持万斯重启对伊谈判并授权其主导这一进程。 伊朗一方则表示，美国必须全面满足伊方七项条件，方可重开霍尔木兹海峡、重启谈判。据 央视新闻 12日报道，伊朗议会议长卡利巴夫表示，伊朗已向美方给出了明确且直白的答复，阐述了伊朗的正当诉求。 万斯浮出水面，主导对伊外交 据美国和中东官员以及知情人士向媒体透露，万斯近期在对伊外交中扮演的角色，已超过特使Steve Witkoff和Jared Kushner——后两人同时还在处理俄乌停战谈判事务。 万斯于10月向Rezaei发出一封信函，请求安排会面。Rezaei现任伊朗最高国家安全委员会秘书，属于伊朗政治体系中的强硬派人物。 目前会面日期尚未确定，双方正通过中间人和盟友就下一步安排进行沟通。 据",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "万斯",
-    "伊朗"
-   ],
-   "time": "11-12 08:56",
-   "score": 12,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "df588ef18fef16f5",
    "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
    "link": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110515320167091/index.html",
@@ -952,6 +983,51 @@
    "ai": ""
   },
   {
+   "id": "b6fcc0060467653a",
+   "title": "万斯考虑与伊朗强硬派“直接谈”，伊朗议长：美国必须满足伊方提出的七项条件",
+   "link": "https://wallstreetcn.com/articles/3785776",
+   "summary": "美伊之间的外交试探正在升温。 据媒体最新报道，美国副总统万斯正考虑与伊朗强硬派安全官员Mohsen Rezaei进行直接会谈，特朗普已向幕僚和外国对应方表示，支持万斯重启对伊谈判并授权其主导这一进程。 伊朗一方则表示，美国必须全面满足伊方七项条件，方可重开霍尔木兹海峡、重启谈判。据 央视新闻 12日报道，伊朗议会议长卡利巴夫表示，伊朗已向美方给出了明确且直白的答复，阐述了伊朗的正当诉求。 万斯浮出水面，主导对伊外交 据美国和中东官员以及知情人士向媒体透露，万斯近期在对伊外交中扮演的角色，已超过特使Steve Witkoff和Jared Kushner——后两人同时还在处理俄乌停战谈判事务。 万斯于10月向Rezaei发出一封信函，请求安排会面。Rezaei现任伊朗最高国家安全委员会秘书，属于伊朗政治体系中的强硬派人物。 目前会面日期尚未确定，双方正通过中间人和盟友就下一步安排进行沟通。 据",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "万斯",
+    "伊朗"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "88885df9b601a690",
+   "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+   "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
+   "summary": "The announcement on social media deepened questions about what the president’s plan is to end the war. “We don’t need a deal with Iran,” he wrote.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-13 03:38",
+   "score": 11.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "130fd086f7717a27",
    "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
    "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
@@ -966,7 +1042,7 @@
     "Federal Reserve"
    ],
    "time": "11-13 01:45",
-   "score": 11.9,
+   "score": 11.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -986,7 +1062,7 @@
    ],
    "words": [],
    "time": "11-12 22:51",
-   "score": 11.5,
+   "score": 11.3,
    "level": 1,
    "why": "暴跌",
    "tier": "must",
@@ -1008,11 +1084,37 @@
     "特朗普"
    ],
    "time": "11-12 22:11",
-   "score": 11.5,
+   "score": 11.2,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "9be01ebb3168414a",
+   "title": "消息称三星电子正谈判收购数据中心散热企业 Modine",
+   "link": "https://www.ithome.com/1/026/661.htm",
+   "summary": "IT之家 11 月 13 日消息，彭博社当地时间昨日报道称， 三星电子正就收购数据中心冷却系统制造商 Modine 的潜在交易进行谈判 。 该交易最早可能在未来几周内完成，不过谈判尚未得出最终决定，交易仍可能被取消。其它潜在收购方也可能加入竞逐 Modine 的行列。 Modine 总部位于美国，主要生产大型商业建筑和工业机械的重型冷却和加热系统，截至IT之家发稿时市值约为 56.4 亿美元 （IT之家注：现汇率约合 377.04 亿元人民币） 。 三星电子去年收购了另一家暖通空调企业 FläktGroup，今年 8 月宣布了 2,400 亿韩元 （现汇率约合 12 亿元人民币） 的 相关产能投资 。",
+   "body": "",
+   "source": "IT之家",
+   "also": [
+    {
+     "src": "界面新闻",
+     "t": "三星电子洽谈收购数据中心冷却系统制造商Modine，交易最快数周内达成",
+     "u": "https://www.jiemian.com/article/15328268.html"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 12:05",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1027,7 +1129,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 10:04",
+   "time": "",
    "score": 10.9,
    "level": 1,
    "why": "",
@@ -1076,57 +1178,6 @@
    "ai": ""
   },
   {
-   "id": "b6c081e4091a1e9d",
-   "title": "三星电子洽谈收购数据中心冷却系统制造商Modine，交易最快数周内达成",
-   "link": "https://www.jiemian.com/article/15328268.html",
-   "summary": "11月13日消息，据报道，三星电子正与美国数据中心冷却系统制造商Modine Manufacturing洽谈收购事宜，交易最快可能在未来数周内达成。Modine目前市值约56亿美元，但双方尚未作出最终决定，谈判仍可能破裂，也可能出现其他竞购方。",
-   "body": "11月13日消息，据报道，三星电子正与美国数据中心冷却系统制造商Modine Manufacturing洽谈收购事宜，交易最快可能在未来数周内达成。Modine目前市值约56亿美元，但双方尚未作出最终决定，谈判仍可能破裂，也可能出现其他竞购方。",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 10.8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "c83ec2ef40d9b685",
-   "title": "Anthropic、OpenAI 遭专利诉讼，被指侵犯五项神经网络技术专利",
-   "link": "https://www.ithome.com/1/026/464.htm",
-   "summary": "IT之家 11 月 13 日消息，当地时间 11 月 12 日，美国公司 Flinn Artificial Intelligence (AI) Technologies LLC（以下简称 Flinn AI）向美国特拉华州地区法院提起两起专利侵权诉讼，将 Anthropic PBC 和 OpenAI OpCo 共同列为被告，指控两家公司侵犯其持有的五项神经网络相关专利。 与此同时，还有一群非营利组织也起诉了 OpenAI、Anthropico、Meta、谷歌和 SpaceXAI 等公司，试图进一步阻止这些企业开发先进 AI 模型。 Flinn AI 两起诉讼分别为 Flinn AI Technologies LLC v. Anthropic PBC（案号：1:26-cv-01454）和 Flinn AI Technologies LLC v. OpenAI OpCo LLC（案号：1:26-",
-   "body": "",
-   "source": "IT之家",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "OpenAI据悉以1.25万亿美元估值融资150亿美元",
-     "u": "https://www.jiemian.com/article/15327849.html"
-    },
-    {
-     "src": "IT之家",
-     "t": "OpenAI 最新一轮私募融资 150 亿美元，融前估值 1.25 万亿美元",
-     "u": "https://www.ithome.com/1/026/495.htm"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 07:33",
-   "score": 10.6,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "ae9963795d6776a9",
    "title": "苹果首款智能家庭中枢 HomeView 及新款 Apple TV 4K 上市，首批订单已送至澳新客户手中",
    "link": "https://www.ithome.com/1/026/476.htm",
@@ -1138,7 +1189,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 08:46",
+   "time": "",
    "score": 10.8,
    "level": 1,
    "why": "",
@@ -1147,10 +1198,10 @@
    "ai": ""
   },
   {
-   "id": "bd10a2552110254d",
-   "title": "黄仁勋出局，英伟达5000亿美元AI融资计划也悬了",
-   "link": "https://wallstreetcn.com/articles/3785848",
-   "summary": "英伟达创始人兼首席执行官黄仁勋的突然离职，令这家芯片巨头一项雄心勃勃的AI融资计划陷入更深的不确定性。这项由黄仁勋亲自主导、联合华尔街六大资产管理巨头打造的5000亿美元AI计算基础设施融资平台，在黄仁勋出局之前便已问题重重，如今前景更加扑朔迷离。 据彭博社11月13日报道，知情人士透露，在过去数月内未能促成任何交易之后，英伟达近一个月来已面临来自部分客户和华尔街合作伙伴的压力， 要求其提高融资兜底比例 。英伟达目前承诺提供的“剩余价值支持协议”上限为交易规模的25%，低于竞争对手博通（Broadcom）的水平， 这一差距被认为是阻碍交易落地的关键因素之一 。据其中一位知情人士称， 英伟达最早可能要到明年1月才能宣布任何交易。 黄仁勋的离职使局面更加复杂。据 华尔街见闻文章 写道，英伟达周四宣布，首席财务官Colette Kress将出任临时首席执行官，黄仁勋则与公司彻底切割。 在黄仁勋执",
+   "id": "604ab987e5a044fb",
+   "title": "Cerebras电话会：拿下微软大单，HBM短缺反而是机会，WSE-5芯片明年夏天量产",
+   "link": "https://wallstreetcn.com/articles/3785852",
+   "summary": "AI芯片初创公司Cerebras在2026年第三季度交出首次实现净利润转正的答卷，并宣布微软成为其六个月内拿下的第三家超大规模云服务商客户，公司重申2027年营收将实现三倍增长的强劲指引。 华尔街见闻提及 ，当地时间11月12日，备受市场瞩目的Cerebras公布2026年第三季度财报。公司当季核心营收达到2.309亿美元，同比增长70%，高于分析师平均预期的2.147亿美元。 公司首次作为上市公司实现了非公认会计准则（Non-GAAP）下的净利润转正，达到3000万美元。 随后电话会上，Cerebras联合创始人兼CEO Andrew Feldman表示， 公司同步上调第四季度及全年指引，预计核心营收环比增速接近40%。公司还维持2027年营收\"三倍增长\"的目标，并预期核心毛利率持续向60%的长期目标靠拢。 Andrew Feldman宣布， 公司正式签署与微软的云合作协议 ，加上此前已",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [],
@@ -1158,8 +1209,8 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 08:24",
-   "score": 10.7,
+   "time": "11-13 10:51",
+   "score": 10.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1167,23 +1218,34 @@
    "ai": ""
   },
   {
-   "id": "67aaf5cca855559b",
-   "title": "SpaceX与特斯拉世纪合并谈判提速，最快12月宣布交易",
-   "link": "https://wallstreetcn.com/articles/3785849",
-   "summary": "SpaceX与特斯拉的合并谈判正在加速推进，这笔交易一旦落地，将成为全球有史以来规模最大的并购案，彻底重塑全球交易市场的边界。 据彭博报道， 知情人士透露， 双方最快可能在12月宣布这笔交易 ，这一激进时间表折射出马斯克在企业运作上一贯的快节奏风格。与此同时， 双方也讨论了公告推迟至2027年初的备选方案。 消息传出后，特斯拉股价当日盘中最高涨幅达1.9%，SpaceX股价同期上涨0.5%。 两家公司的董事会及顾问目前正就合并条款、合并后实体的治理架构等核心议题展开磋商。 然而，交易在正式落地前仍面临多重障碍，包括如何隔离特斯拉在中国的业务，以及SpaceX涉及美国政府和国防合同所引发的国家安全敏感性问题。 谈判进展与时间节点 据彭博此前报道，SpaceX与特斯拉此前的目标是在明年上半年宣布交易，并力争在特朗普总统任期结束前完成合并。 马斯克于10月披露，两家公司的董事会已分别成立由独立董",
+   "id": "9062f3aa6ceae6fb",
+   "title": "OpenAI 最新一轮私募融资 150 亿美元，融前估值 1.25 万亿美元",
+   "link": "https://www.ithome.com/1/026/495.htm",
+   "summary": "IT之家 11 月 13 日消息，据 CNBC 今日报道，OpenAI 在最新一轮私募融资中筹集了 150 亿美元 （IT之家注：现汇率约合 1,002.76 亿元人民币） ，公司融资前估值达到 1.25 万亿美元 （现汇率约合 8.36 万亿元人民币） 。 这一金额高于此前媒体披露的约 110 亿美元，此次融资也被视为 OpenAI 为 2027 年潜在首次公开募股（IPO）提前准备资金的重要举措。 知情人士对 CNBC 表示，此次融资尚未正式结束，预计将在未来几周内完成。相关人士将其描述为一次机会性融资，旨在帮助 OpenAI 为预计于 2027 年进行的 IPO 做准备。 与此同时，其主要竞争对手 Anthropic 正在筹备纳斯达克上市，计划于 11 月 19 日开始交易。根据路透社此前报道，Anthropic 此次 IPO 的估值目标最高约为 1.4 万亿美元 （现汇率约合 9.",
    "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
+   "source": "IT之家",
+   "also": [
+    {
+     "src": "IT之家",
+     "t": "Anthropic、OpenAI 遭专利诉讼，被指侵犯五项神经网络技术专利",
+     "u": "https://www.ithome.com/1/026/464.htm"
+    },
+    {
+     "src": "界面新闻",
+     "t": "OpenAI据悉以1.25万亿美元估值融资150亿美元",
+     "u": "https://www.jiemian.com/article/15327849.html"
+    }
+   ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 08:12",
-   "score": 10.7,
+   "time": "11-13 09:36",
+   "score": 10.6,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1207,6 +1269,46 @@
    "ai": ""
   },
   {
+   "id": "bd10a2552110254d",
+   "title": "黄仁勋出局，英伟达5000亿美元AI融资计划也悬了",
+   "link": "https://wallstreetcn.com/articles/3785848",
+   "summary": "英伟达创始人兼首席执行官黄仁勋的突然离职，令这家芯片巨头一项雄心勃勃的AI融资计划陷入更深的不确定性。这项由黄仁勋亲自主导、联合华尔街六大资产管理巨头打造的5000亿美元AI计算基础设施融资平台，在黄仁勋出局之前便已问题重重，如今前景更加扑朔迷离。 据彭博社11月13日报道，知情人士透露，在过去数月内未能促成任何交易之后，英伟达近一个月来已面临来自部分客户和华尔街合作伙伴的压力， 要求其提高融资兜底比例 。英伟达目前承诺提供的“剩余价值支持协议”上限为交易规模的25%，低于竞争对手博通（Broadcom）的水平， 这一差距被认为是阻碍交易落地的关键因素之一 。据其中一位知情人士称， 英伟达最早可能要到明年1月才能宣布任何交易。 黄仁勋的离职使局面更加复杂。据 华尔街见闻文章 写道，英伟达周四宣布，首席财务官Colette Kress将出任临时首席执行官，黄仁勋则与公司彻底切割。 在黄仁勋执",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 08:24",
+   "score": 10.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "67aaf5cca855559b",
+   "title": "SpaceX与特斯拉世纪合并谈判提速，最快12月宣布交易",
+   "link": "https://wallstreetcn.com/articles/3785849",
+   "summary": "SpaceX与特斯拉的合并谈判正在加速推进，这笔交易一旦落地，将成为全球有史以来规模最大的并购案，彻底重塑全球交易市场的边界。 据彭博报道， 知情人士透露， 双方最快可能在12月宣布这笔交易 ，这一激进时间表折射出马斯克在企业运作上一贯的快节奏风格。与此同时， 双方也讨论了公告推迟至2027年初的备选方案。 消息传出后，特斯拉股价当日盘中最高涨幅达1.9%，SpaceX股价同期上涨0.5%。 两家公司的董事会及顾问目前正就合并条款、合并后实体的治理架构等核心议题展开磋商。 然而，交易在正式落地前仍面临多重障碍，包括如何隔离特斯拉在中国的业务，以及SpaceX涉及美国政府和国防合同所引发的国家安全敏感性问题。 谈判进展与时间节点 据彭博此前报道，SpaceX与特斯拉此前的目标是在明年上半年宣布交易，并力争在特朗普总统任期结束前完成合并。 马斯克于10月披露，两家公司的董事会已分别成立由独立董",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 08:12",
+   "score": 10.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "c3aae3423fd112ac",
    "title": "SpaceX计划投资740亿美元，在亚利桑那州和德克萨斯州建设数据中心",
    "link": "https://wallstreetcn.com/articles/3785835",
@@ -1219,7 +1321,7 @@
    ],
    "words": [],
    "time": "11-13 05:23",
-   "score": 10.4,
+   "score": 10.1,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1246,26 +1348,6 @@
    "why": "",
    "tier": "",
    "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "1dbcb19f78541803",
-   "title": "马斯克：招揽黄仁勋将是我的荣幸",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731234.shtml",
-   "summary": "中新网11月13日电 综合报道，当地时间11月12日，美国企业家马斯克在社交媒体平台回应网友请他聘用黄仁勋时表示：“那将是我的荣幸”。",
-   "body": "",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 00:28",
-   "score": 9.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "chinanews",
    "ai": ""
   },
   {
@@ -1330,6 +1412,26 @@
    "ai": ""
   },
   {
+   "id": "1dbcb19f78541803",
+   "title": "马斯克：招揽黄仁勋将是我的荣幸",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731234.shtml",
+   "summary": "中新网11月13日电 综合报道，当地时间11月12日，美国企业家马斯克在社交媒体平台回应网友请他聘用黄仁勋时表示：“那将是我的荣幸”。",
+   "body": "",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 00:28",
+   "score": 9.5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
    "id": "f52534c7c58b2a9e",
    "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
    "link": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
@@ -1342,7 +1444,7 @@
    ],
    "words": [],
    "time": "11-12 20:15",
-   "score": 9.2,
+   "score": 9.0,
    "level": 1,
    "why": "",
    "tier": "",
