@@ -1,9 +1,9 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13 09:00",
+ "generated_at": "2026-11-13 09:30",
  "hours_window": 30,
- "count": 50,
- "sources_ok": 12,
+ "count": 59,
+ "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
   "美国重大",
@@ -51,7 +51,7 @@
     "交火"
    ],
    "time": "11-12 22:27",
-   "score": 21.7,
+   "score": 21.6,
    "level": 2,
    "why": "交火",
    "tier": "must",
@@ -94,7 +94,7 @@
    ],
    "words": [],
    "time": "11-13 08:06",
-   "score": 17.9,
+   "score": 17.8,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -115,14 +115,14 @@
      "u": "https://wallstreetcn.com/articles/3785829"
     },
     {
+     "src": "华尔街见闻·文章",
+     "t": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
+     "u": "https://wallstreetcn.com/articles/3785851"
+    },
+    {
      "src": "36氪",
      "t": "Anthropic与OpenAI被控抄袭神经网络专利",
      "u": "https://36kr.com/newsflashes/4067456655758211?f=rss"
-    },
-    {
-     "src": "华尔街见闻·全球快讯",
-     "t": "Anthropic与OpenAI被控抄袭神经网络专利",
-     "u": "https://wallstreetcn.com/livenews/3199429"
     },
     {
      "src": "IT之家",
@@ -140,6 +140,26 @@
    "why": "监管司法·被控",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "d6b8cf032d3a925e",
+   "title": "英伟达首席执行官黄仁勋辞职",
+   "link": "https://36kr.com/newsflashes/4066827553543043?f=rss",
+   "summary": "36氪获悉，英伟达董事会今日宣布，黄仁勋（Jensen Huang）已辞去总裁、首席执行官以及董事职务，辞呈即刻生效。 公司现任执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）将出任临时首席执行官。在正式继任者确定前，克雷斯将同时兼任执行副总裁、首席财务官与临时CEO。董事会已启动常设首席执行官的遴选工作，内部、外部候选人都将纳入考量范围。董事会任命哈维·C·琼斯（Harvey C． Jones）担任英伟达史上首任董事会主席。",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 17.7,
+   "level": 2,
+   "why": "监管司法·辞职",
+   "tier": "",
+   "group": "36氪",
    "ai": ""
   },
   {
@@ -169,23 +189,83 @@
    "ai": ""
   },
   {
-   "id": "d6b8cf032d3a925e",
-   "title": "英伟达首席执行官黄仁勋辞职",
-   "link": "https://36kr.com/newsflashes/4066827553543043?f=rss",
-   "summary": "36氪获悉，英伟达董事会今日宣布，黄仁勋（Jensen Huang）已辞去总裁、首席执行官以及董事职务，辞呈即刻生效。 公司现任执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）将出任临时首席执行官。在正式继任者确定前，克雷斯将同时兼任执行副总裁、首席财务官与临时CEO。董事会已启动常设首席执行官的遴选工作，内部、外部候选人都将纳入考量范围。董事会任命哈维·C·琼斯（Harvey C． Jones）担任英伟达史上首任董事会主席。",
+   "id": "3d49fc69836fa292",
+   "title": "Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+   "link": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
+   "summary": "News that the chipmaker’s chief executive, Jensen Huang, resigned drove Nvidia’s stock down, though the broader market rose slightly.",
    "body": "",
-   "source": "36氪",
+   "source": "纽约时报·商业",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 17.7,
+   "time": "11-13 05:15",
+   "score": 17.5,
    "level": 2,
-   "why": "监管司法·辞职",
+   "why": "监管司法·resigns",
    "tier": "",
-   "group": "36氪",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "22679f5f1027be18",
+   "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+   "link": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
+   "summary": "Nvidia’s ousted leader was a unique rhetorical and financial booster for investments that are driving economic growth.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 05:05",
+   "score": 17.4,
+   "level": 2,
+   "why": "监管司法·ousted",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "42d1ae42d9ee5d03",
+   "title": "Jensen Huang has resigned, what's next for Nvidia?",
+   "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
+   "summary": "Jensen Huang has resigned from Nvidia as chief financial officer Colette Kress replaces him as an interim boss.",
+   "body": "",
+   "source": "BBC·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 04:21",
+   "score": 17.4,
+   "level": 2,
+   "why": "监管司法·resigned",
+   "tier": "",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "62593d2c0b35c9d2",
+   "title": "Jensen Huang has resigned, what's next for Nvidia?",
+   "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
+   "summary": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 03:33",
+   "score": 17.3,
+   "level": 2,
+   "why": "监管司法·resigned",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -231,6 +311,26 @@
    "ai": ""
   },
   {
+   "id": "64f5f3832f0c1447",
+   "title": "Jensen Huang’s Resignation From Nvidia Could Complicate Billions in Philanthropic Giving",
+   "link": "https://www.nytimes.com/2026/11/12/technology/jensen-huang-philanthropy-nvidia.html",
+   "summary": "Mr. Huang, the company’s co-founder, and his wife oversee a charitable foundation with about $9 billion in assets.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 01:26",
+   "score": 17.0,
+   "level": 2,
+   "why": "监管司法·resignation",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "ab2299d924920aeb",
    "title": "叫停万斯与伊朗谈判，特朗普“180度转变”：转向“不战不谈”",
    "link": "https://wallstreetcn.com/articles/3785850",
@@ -247,7 +347,7 @@
     "伊朗"
    ],
    "time": "11-13 08:40",
-   "score": 17.0,
+   "score": 16.9,
    "level": 1,
    "why": "",
    "tier": "",
@@ -268,12 +368,32 @@
    "words": [
     "美联储"
    ],
-   "time": "11-13 07:25",
+   "time": "",
    "score": 16.8,
    "level": 1,
    "why": "利率决议",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "a9649874c07005ac",
+   "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
+   "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+   "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
+   "body": "",
+   "source": "BBC·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-12 23:26",
+   "score": 16.7,
+   "level": 2,
+   "why": "监管司法·resigns",
+   "tier": "",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -295,7 +415,7 @@
    ],
    "words": [],
    "time": "11-12 23:23",
-   "score": 16.8,
+   "score": 16.7,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -335,7 +455,7 @@
    ],
    "words": [],
    "time": "11-12 17:46",
-   "score": 16.1,
+   "score": 16.0,
    "level": 2,
    "why": "监管司法·调查",
    "tier": "",
@@ -431,13 +551,18 @@
     },
     {
      "src": "中国新闻网·国际",
+     "t": "英伟达宣布黄仁勋临时接任人：2013年加入该公司的女高管",
+     "u": "https://www.chinanews.com.cn/gj/2026/11-12/10731225.shtml"
+    },
+    {
+     "src": "中国新闻网·国际",
      "t": "特朗普：建议库克接替黄仁勋担任英伟达CEO",
      "u": "https://www.chinanews.com.cn/gj/2026/11-13/10731233.shtml"
     },
     {
-     "src": "中国新闻网·国际",
-     "t": "英伟达宣布黄仁勋临时接任人：2013年加入该公司的女高管",
-     "u": "https://www.chinanews.com.cn/gj/2026/11-12/10731225.shtml"
+     "src": "IT之家",
+     "t": "消息称英伟达前 CEO 黄仁勋同意在感恩节前赴国会作证，具体日期仍在协商",
+     "u": "https://www.ithome.com/1/026/489.htm"
     }
    ],
    "topics": [
@@ -487,7 +612,7 @@
     "美联储"
    ],
    "time": "11-13 08:11",
-   "score": 14.9,
+   "score": 14.8,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -508,7 +633,7 @@
    "words": [
     "美联储"
    ],
-   "time": "11-13 07:36",
+   "time": "",
    "score": 14.8,
    "level": 1,
    "why": "加息",
@@ -630,7 +755,7 @@
     "军事行动"
    ],
    "time": "11-13 07:27",
-   "score": 13.8,
+   "score": 13.7,
    "level": 1,
    "why": "军事行动",
    "tier": "must",
@@ -652,7 +777,7 @@
     "美联储"
    ],
    "time": "11-12 23:08",
-   "score": 13.8,
+   "score": 13.7,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -667,11 +792,6 @@
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [
-    {
-     "src": "界面新闻",
-     "t": "界面早报 | 李强主持国务院第二十二次专题学习；特朗普称美国不需要与伊朗达成协议",
-     "u": "https://www.jiemian.com/article/15327892.html"
-    },
     {
      "src": "中国新闻网·国际",
      "t": "特朗普改口：美国不需要与伊朗达成协议",
@@ -688,7 +808,7 @@
    "time": "11-12 21:20",
    "score": 13.5,
    "level": 1,
-   "why": "国务院",
+   "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -713,6 +833,50 @@
    "why": "加息",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "88885df9b601a690",
+   "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+   "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
+   "summary": "The announcement on social media deepened questions about what the president’s plan is to end the war. “We don’t need a deal with Iran,” he wrote.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-13 03:38",
+   "score": 12.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "130fd086f7717a27",
+   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+   "summary": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "body": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "source": "美联储·货币政策",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Federal Reserve"
+   ],
+   "time": "11-13 01:45",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "fed",
    "ai": ""
   },
   {
@@ -816,7 +980,27 @@
    ],
    "words": [],
    "time": "11-13 08:46",
-   "score": 11.0,
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "6841bfffbc8fc1b9",
+   "title": "Hugging Face CEO 哀叹黄仁勋从英伟达离职：“令人无比难过的一天”，承诺继续力挺开源 AI",
+   "link": "https://www.ithome.com/1/026/469.htm",
+   "summary": "IT之家 11 月 13 日消息，黄仁勋昨日（11 月 12 日）辞去英伟达总裁、首席执行官及董事职务，即刻生效。 Hugging Face 首席执行官克莱芒 · 德朗格（Clement Delangue）随即在领英发文，称这是“令人无比难过的一天”，并表示将继续更坚定地推动开源人工智能。 IT之家昨日报道，联合创始人黄仁勋已辞去英伟达公司总裁、首席执行官及董事职务，即日起生效；首席财务官科莱特 · 克雷斯将出任临时首席执行官，公司同时启动新任 CEO 遴选程序。 消息公布后，德朗格在领英发文表达惋惜。他写道：“整件事糟透了，我真希望这一切从未发生。这真是令人无比难过的一天！”德朗格同时强调，Hugging Face 将“比以往更加努力”地捍卫开源人工智能，并称此事重要到“现在不能放慢脚步”。 黄仁勋 1993 年参与创立英伟达，并长期担任 CEO，带领公司从图形芯片供应商发展为全球 AI",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 10.9,
    "level": 1,
    "why": "",
    "tier": "",
@@ -844,49 +1028,49 @@
    "ai": ""
   },
   {
-   "id": "0f6d8d974aa43936",
-   "title": "科技早报 | 知情人士称腾讯“裁员50%”说法不属实；台积电回应“6.9GB员工资料外泄”",
-   "link": "https://www.jiemian.com/article/15327665.html",
-   "summary": "三季度iPad国内销量大跌45.2%；双11买电脑贵过618；微信“看一看”内测短剧入口；京东完成对CECONOMY收购要约。11月12日消息，针对今日外界关于“腾讯裁员50%”的说法，界面新闻从接近腾讯的知情人士处获悉，在腾讯28周年的Linktime线上直播中，腾讯管理层主动表达了要加快组织变革的决心，同时特别提到，这和几年前那次“降本增效”不一样。前一次相对被动，更偏“降本”；这一次是面向AI时代的主动出击，更偏“增效”，激发团队去创造新的价值，鼓励一线同事积极举手向前冲，中间的管理层则需要变得更扁平和灵敏。",
-   "body": "三季度iPad国内销量大跌45.2%；双11买电脑贵过618；微信“看一看”内测短剧入口；京东完成对CECONOMY收购要约。11月12日消息，针对今日外界关于“腾讯裁员50%”的说法，界面新闻从接近腾讯的知情人士处获悉，在腾讯28周年的Linktime线上直播中，腾讯管理层主动表达了要加快组织变革的决心，同时特别提到，这和几年前那次“降本增效”不一样。前一次相对被动，更偏“降本”；这一次是面向AI时代的主动出击，更偏“增效”，激发团队去创造新的价值，鼓励一线同事积极举手向前冲，中间的管理层则需要变得更扁平和灵敏。",
-   "source": "界面新闻",
+   "id": "67aaf5cca855559b",
+   "title": "SpaceX与特斯拉世纪合并谈判提速，最快12月宣布交易",
+   "link": "https://wallstreetcn.com/articles/3785849",
+   "summary": "SpaceX与特斯拉的合并谈判正在加速推进，这笔交易一旦落地，将成为全球有史以来规模最大的并购案，彻底重塑全球交易市场的边界。 据彭博报道， 知情人士透露， 双方最快可能在12月宣布这笔交易 ，这一激进时间表折射出马斯克在企业运作上一贯的快节奏风格。与此同时， 双方也讨论了公告推迟至2027年初的备选方案。 消息传出后，特斯拉股价当日盘中最高涨幅达1.9%，SpaceX股价同期上涨0.5%。 两家公司的董事会及顾问目前正就合并条款、合并后实体的治理架构等核心议题展开磋商。 然而，交易在正式落地前仍面临多重障碍，包括如何隔离特斯拉在中国的业务，以及SpaceX涉及美国政府和国防合同所引发的国家安全敏感性问题。 谈判进展与时间节点 据彭博此前报道，SpaceX与特斯拉此前的目标是在明年上半年宣布交易，并力争在特朗普总统任期结束前完成合并。 马斯克于10月披露，两家公司的董事会已分别成立由独立董",
+   "body": "",
+   "source": "华尔街见闻·文章",
    "also": [
     {
-     "src": "36氪",
-     "t": "台积电称部分员工资料外泄，未发现公司系统遭入侵迹象",
-     "u": "https://36kr.com/newsflashes/4067453876999297?f=rss"
+     "src": "界面新闻",
+     "t": "SpaceX与特斯拉合并谈判取得进展，最快或于12月宣布交易",
+     "u": "https://www.jiemian.com/article/15328227.html"
     }
    ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 08:05",
-   "score": 10.9,
+   "time": "11-13 08:12",
+   "score": 10.8,
    "level": 1,
-   "why": "入侵",
+   "why": "",
    "tier": "",
-   "group": "界面新闻",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
-   "id": "6841bfffbc8fc1b9",
-   "title": "Hugging Face CEO 哀叹黄仁勋从英伟达离职：“令人无比难过的一天”，承诺继续力挺开源 AI",
-   "link": "https://www.ithome.com/1/026/469.htm",
-   "summary": "IT之家 11 月 13 日消息，黄仁勋昨日（11 月 12 日）辞去英伟达总裁、首席执行官及董事职务，即刻生效。 Hugging Face 首席执行官克莱芒 · 德朗格（Clement Delangue）随即在领英发文，称这是“令人无比难过的一天”，并表示将继续更坚定地推动开源人工智能。 IT之家昨日报道，联合创始人黄仁勋已辞去英伟达公司总裁、首席执行官及董事职务，即日起生效；首席财务官科莱特 · 克雷斯将出任临时首席执行官，公司同时启动新任 CEO 遴选程序。 消息公布后，德朗格在领英发文表达惋惜。他写道：“整件事糟透了，我真希望这一切从未发生。这真是令人无比难过的一天！”德朗格同时强调，Hugging Face 将“比以往更加努力”地捍卫开源人工智能，并称此事重要到“现在不能放慢脚步”。 黄仁勋 1993 年参与创立英伟达，并长期担任 CEO，带领公司从图形芯片供应商发展为全球 AI",
-   "body": "",
-   "source": "IT之家",
+   "id": "0f6d8d974aa43936",
+   "title": "科技早报 | 知情人士称腾讯“裁员50%”说法不属实；台积电回应“6.9GB员工资料外泄”",
+   "link": "https://www.jiemian.com/article/15327665.html",
+   "summary": "三季度iPad国内销量大跌45.2%；双11买电脑贵过618；微信“看一看”内测短剧入口；京东完成对CECONOMY收购要约。11月12日消息，针对今日外界关于“腾讯裁员50%”的说法，界面新闻从接近腾讯的知情人士处获悉，在腾讯28周年的Linktime线上直播中，腾讯管理层主动表达了要加快组织变革的决心，同时特别提到，这和几年前那次“降本增效”不一样。前一次相对被动，更偏“降本”；这一次是面向AI时代的主动出击，更偏“增效”，激发团队去创造新的价值，鼓励一线同事积极举手向前冲，中间的管理层则需要变得更扁平和灵敏。",
+   "body": "三季度iPad国内销量大跌45.2%；双11买电脑贵过618；微信“看一看”内测短剧入口；京东完成对CECONOMY收购要约。11月12日消息，针对今日外界关于“腾讯裁员50%”的说法，界面新闻从接近腾讯的知情人士处获悉，在腾讯28周年的Linktime线上直播中，腾讯管理层主动表达了要加快组织变革的决心，同时特别提到，这和几年前那次“降本增效”不一样。前一次相对被动，更偏“降本”；这一次是面向AI时代的主动出击，更偏“增效”，激发团队去创造新的价值，鼓励一线同事积极举手向前冲，中间的管理层则需要变得更扁平和灵敏。",
+   "source": "界面新闻",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 07:56",
-   "score": 10.9,
+   "time": "11-13 08:05",
+   "score": 10.8,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "IT之家",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -901,33 +1085,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 07:46",
-   "score": 10.8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "ff8bff39ba5bfc1b",
-   "title": "SpaceX与特斯拉合并谈判取得进展，最快或于12月宣布交易",
-   "link": "https://www.jiemian.com/article/15328227.html",
-   "summary": "11月13日消息，据报道，SpaceX与特斯拉的合并谈判正在推进，双方董事会及顾问正敲定交易条款和合并后公司的治理架构等事项，双方最快可能于12月宣布这笔交易，也可能推迟至2027年初。合并将把电动汽车、储能电池、火箭和卫星业务整合至同一集团，双方希望借此推动人工智能在太空、无人驾驶汽车及人形机器人等领域的应用。",
-   "body": "11月13日消息，据报道，SpaceX与特斯拉的合并谈判正在推进，双方董事会及顾问正敲定交易条款和合并后公司的治理架构等事项，双方最快可能于12月宣布这笔交易，也可能推迟至2027年初。合并将把电动汽车、储能电池、火箭和卫星业务整合至同一集团，双方希望借此推动人工智能在太空、无人驾驶汽车及人形机器人等领域的应用。",
-   "source": "界面新闻",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "SpaceX与特斯拉世纪合并谈判提速，最快12月宣布交易",
-     "u": "https://wallstreetcn.com/articles/3785849"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 07:28",
+   "time": "",
    "score": 10.8,
    "level": 1,
    "why": "",
@@ -956,26 +1114,6 @@
    "ai": ""
   },
   {
-   "id": "c3aae3423fd112ac",
-   "title": "SpaceX计划投资740亿美元，在亚利桑那州和德克萨斯州建设数据中心",
-   "link": "https://wallstreetcn.com/articles/3785835",
-   "summary": "SpaceX正大举押注人工智能基础设施。公司宣布，将在亚利桑那州和德克萨斯州合计投资740亿美元，兴建两座超级计算中心，标志着这家火箭制造商向AI基础设施供应商的转型进入新阶段。 其中，亚利桑那州项目投资额高达500亿美元，是此次计划的核心。SpaceX同步确认，将向位于德克萨斯州Starbase总部附近的另一处计算中心追加投资240亿美元。 马斯克正持续扩大SpaceX的计算能力，这也进一步推动该公司从一家领先的火箭制造商和发射服务提供商，向重要的人工智能基础设施供应商转型。 SpaceX目前已成为Anthropic PBC和Alphabet Inc.等公司的重要基础设施合作方。此外，该公司也在发展自身的人工智能模型，并已与特斯拉（Tesla Inc.）联手启动名为Terafab的大型芯片工厂项目。 截至发稿，SpaceX周四盘中上涨2.12%。 得州项目配备燃气发电厂，投入2.2亿美元",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 05:23",
-   "score": 10.5,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "df34de9f142e72bd",
    "title": "西门子 CEO 博乐仁：无论黄仁勋是否离职，与英伟达的合作都不会受影响",
    "link": "https://www.ithome.com/1/026/374.htm",
@@ -993,6 +1131,26 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "c3aae3423fd112ac",
+   "title": "SpaceX计划投资740亿美元，在亚利桑那州和德克萨斯州建设数据中心",
+   "link": "https://wallstreetcn.com/articles/3785835",
+   "summary": "SpaceX正大举押注人工智能基础设施。公司宣布，将在亚利桑那州和德克萨斯州合计投资740亿美元，兴建两座超级计算中心，标志着这家火箭制造商向AI基础设施供应商的转型进入新阶段。 其中，亚利桑那州项目投资额高达500亿美元，是此次计划的核心。SpaceX同步确认，将向位于德克萨斯州Starbase总部附近的另一处计算中心追加投资240亿美元。 马斯克正持续扩大SpaceX的计算能力，这也进一步推动该公司从一家领先的火箭制造商和发射服务提供商，向重要的人工智能基础设施供应商转型。 SpaceX目前已成为Anthropic PBC和Alphabet Inc.等公司的重要基础设施合作方。此外，该公司也在发展自身的人工智能模型，并已与特斯拉（Tesla Inc.）联手启动名为Terafab的大型芯片工厂项目。 截至发稿，SpaceX周四盘中上涨2.12%。 得州项目配备燃气发电厂，投入2.2亿美元",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 05:23",
+   "score": 10.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1038,13 +1196,18 @@
    "ai": ""
   },
   {
-   "id": "27d8ba75950d2fff",
-   "title": "黄仁勋辞去 CEO 后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯为临时首席执行官",
-   "link": "https://www.ithome.com/1/026/396.htm",
-   "summary": "IT之家 11 月 12 日消息，黄仁勋辞去总裁、首席执行官及董事会成员职务后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）为临时首席执行官。 英伟达董事会今日宣布，现任英伟达执行副总裁兼首席财务官科莱特 · 克雷斯已同意出任临时首席执行官。 在正式继任者确定之前，克雷斯在代行首席执行官职责的同时，将继续兼任执行副总裁兼首席财务官。 董事会目前已启动正式首席执行官的遴选工作，并将统筹考虑内部及外部候选人 。 IT之家注：克雷斯拥有亚利桑那大学金融系的理学学士学位和南卫理公会大学工商管理硕士（MBA）学位。自 2013 年 9 月加入英伟达以来，克雷斯一直担任执行副总裁兼首席财务官。 英伟达表示，任职期间，她全面领导公司财务部门，在英伟达的业务增长与发展演进中发挥了关键作用。 克雷斯曾在思科业务技术和运营财务部门担任了三年的高级副总裁兼首席财务官，负责所有",
+   "id": "cf4cce110dc734c9",
+   "title": "黄仁勋辞任 CEO 后，英伟达称维持原定时间公布 2027 财年三季度财报",
+   "link": "https://www.ithome.com/1/026/421.htm",
+   "summary": "IT之家 11 月 12 日消息，英伟达今日表示，公司将于太平洋时间 11 月 17 日下午 1 时 20 分左右公布 2027 财年第三季度财务业绩，并于当日下午 2 时召开业绩电话会议，相关安排维持不变。 今天早些时候英伟达发布声明称， 黄仁勋已辞去总裁、首席执行官及董事会成员职务 ，即刻生效。 现任执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）已同意担任临时 CEO。在正式继任者确定之前，克雷斯将继续履行其执行副总裁兼首席财务官的职责。董事会目前已启动正式 CEO 的遴选工作，并将综合考量内部及外部候选人。 IT之家注意到，英伟达董事会还任命曾任新思科技 CEO 的哈维 ·C· 琼斯（Harvey C. Jones）为公司史上首位董事会主席。",
    "body": "",
    "source": "IT之家",
    "also": [
+    {
+     "src": "IT之家",
+     "t": "黄仁勋辞去 CEO 后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯为临时首席执行官",
+     "u": "https://www.ithome.com/1/026/396.htm"
+    },
     {
      "src": "IT之家",
      "t": "黄仁勋辞职后续：美国司法部对英伟达启动多项调查，包括反垄断调查",
@@ -1059,18 +1222,13 @@
      "src": "中国新闻网·国际",
      "t": "黄仁勋辞职后英伟达股价震荡 分析称做空该公司的投资者获利丰厚",
      "u": "https://www.chinanews.com.cn/gj/2026/11-12/10731232.shtml"
-    },
-    {
-     "src": "IT之家",
-     "t": "黄仁勋辞任 CEO 后，英伟达称维持原定时间公布 2027 财年三季度财报",
-     "u": "https://www.ithome.com/1/026/421.htm"
     }
    ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-12 21:57",
+   "time": "11-12 22:14",
    "score": 9.6,
    "level": 2,
    "why": "反垄断",
@@ -1090,12 +1248,32 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-12 21:22",
+   "time": "",
    "score": 9.5,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "f52534c7c58b2a9e",
+   "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+   "link": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
+   "summary": "After more than a week of counting ballots, Scott Colom has narrowly won the Mississippi Senate seat. And, the White House has sent a letter warning Democrats who plan to investigate the administration.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-12 20:15",
+   "score": 9.3,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "npr",
    "ai": ""
   },
   {
