@@ -1,9 +1,9 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13 20:30",
+ "generated_at": "2026-11-13 21:30",
  "hours_window": 30,
- "count": 82,
- "sources_ok": 12,
+ "count": 92,
+ "sources_ok": 20,
  "sources_total": 21,
  "topics_order": [
   "美国重大",
@@ -109,6 +109,28 @@
    "ai": ""
   },
   {
+   "id": "90df8a55ffb2b7d4",
+   "title": "国会山又现“股神”？民主党议员夫妇高位减持英伟达",
+   "link": "https://wallstreetcn.com/articles/3785902",
+   "summary": "英伟达深陷CEO丑闻、股价大幅下挫之际，一位长期倡导禁止国会议员炒股的民主党众议员，却因其配偶恰好在股价高点附近完成减持而引发外界关注。 据追踪国会议员交易记录的平台Capitol Trades披露， 加利福尼亚州民主党众议员Ro Khanna的配偶分别于9月4日和10月7日两度出售英伟达股票，每笔交易金额在1000至15000美元之间。英伟达股价于10月6日触及历史高点，而就在次日，其配偶完成了第二笔减持。 此后，受黄仁勋婚外情的消息冲击，英伟达股价本周大幅下跌。 这一交易时机的高度吻合，令Khanna陷入舆论漩涡——尤其是考虑到他本人正是国会山上推动立法禁止议员持有个股的代表性倡导者之一。 减持时机高度吻合历史高点 根据Capitol Trades数据，Khanna配偶的两笔英伟达卖出交易分别发生在9月4日和10月7日，后者恰好是英伟达股价创下历史新高后的第二个交易日。 这并非Khan",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "民主党"
+   ],
+   "time": "11-13 21:02",
+   "score": 19.9,
+   "level": 2,
+   "why": "监管司法·国会、议员",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "07a38fa9612ef93a",
    "title": "美国国会众议院的马斯特、穆莱纳尔与克劳福德向黄仁勋及英伟达发出第二份质询函。",
    "link": "https://wallstreetcn.com/livenews/3199441",
@@ -165,7 +187,7 @@
    ],
    "words": [],
    "time": "11-12 23:23",
-   "score": 15.4,
+   "score": 15.2,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -173,34 +195,23 @@
    "ai": ""
   },
   {
-   "id": "5ee38f042a11374b",
-   "title": "韩国有关部门：黄仁勋离任 CEO 不影响英伟达 26 万块 GPU 供应计划",
-   "link": "https://www.ithome.com/1/026/927.htm",
-   "summary": "IT之家 11 月 13 日消息，据路透社报道，韩国科学技术信息通信部部长裴庆勋表示，英伟达确认将按计划向韩国供应 26 万块先进 GPU，履行此前作出的承诺。 裴庆勋在 X 上发文称，英伟达 CEO 黄仁勋的辞职不会影响上述供应计划。 ▲ IT之家注：第二段首句应为“自从黄仁勋宣布辞职以来” 去年，黄仁勋访韩出席亚太经合组织（APEC）会议期间， 英伟达与韩国达成了 26 万块 GPU 的供应协议 。双方还将继续推进多项合作，包括将韩国生产的 AI 芯片与英伟达平台对接、建设 AI 算力基础设施，以及联合开展物理 AI 研究和人才培养。 相关阅读： 《 韩国政府牵头成立 GPU 工作组，联合四大韩企采购 26 万块英伟达显卡 》",
+   "id": "246bbd8d4107cea8",
+   "title": "黄仁勋辞职后，英伟达员工发声",
+   "link": "https://www.jiemian.com/article/15332351.html",
+   "summary": "黄仁勋辞去英伟达首席执行官职务后，部分员工开始呼吁其重返公司。当地时间11月12日，美国《连线》杂志报道称，一名英伟达资深工程师此前在公司内部“建议箱”发帖，呼吁董事会在对黄仁勋采取行动前，充分听取员工意见。截至报道发布时，该帖已获得超过1600条评论，其中多数支持黄仁勋复职。一名匿名员工留言称：“如果你相信公司的使命，就把这位掌舵人请回来。”另一名员工表示：“我们都是人，都会犯错。黄仁勋做出了巨大贡献，他理应获得第二次机会。”报道还称，还有一名员工向全公司发送邮件，要求提高黄仁勋离职决策过程的透明度。此外，约20名英伟达员工在职业社交平台LinkedIn公开表达对黄仁勋的支持。（上海证券报）",
    "body": "",
-   "source": "IT之家",
-   "also": [
-    {
-     "src": "中国新闻网·国际",
-     "t": "特朗普：建议库克接替黄仁勋担任英伟达CEO",
-     "u": "https://www.chinanews.com.cn/gj/2026/11-13/10731233.shtml"
-    },
-    {
-     "src": "IT之家",
-     "t": "Hugging Face CEO 哀叹黄仁勋从英伟达离职：“令人无比难过的一天”，承诺继续力挺开源 AI",
-     "u": "https://www.ithome.com/1/026/469.htm"
-    }
-   ],
+   "source": "界面新闻",
+   "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-13 18:51",
-   "score": 17.8,
+   "time": "11-13 21:03",
+   "score": 17.9,
    "level": 2,
-   "why": "监管司法·离任",
+   "why": "监管司法·辞职",
    "tier": "",
-   "group": "IT之家",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -244,6 +255,26 @@
    "ai": ""
   },
   {
+   "id": "5ee38f042a11374b",
+   "title": "韩国有关部门：黄仁勋离任 CEO 不影响英伟达 26 万块 GPU 供应计划",
+   "link": "https://www.ithome.com/1/026/927.htm",
+   "summary": "IT之家 11 月 13 日消息，据路透社报道，韩国科学技术信息通信部部长裴庆勋表示，英伟达确认将按计划向韩国供应 26 万块先进 GPU，履行此前作出的承诺。 裴庆勋在 X 上发文称，英伟达 CEO 黄仁勋的辞职不会影响上述供应计划。 ▲ IT之家注：第二段首句应为“自从黄仁勋宣布辞职以来” 去年，黄仁勋访韩出席亚太经合组织（APEC）会议期间， 英伟达与韩国达成了 26 万块 GPU 的供应协议 。双方还将继续推进多项合作，包括将韩国生产的 AI 芯片与英伟达平台对接、建设 AI 算力基础设施，以及联合开展物理 AI 研究和人才培养。 相关阅读： 《 韩国政府牵头成立 GPU 工作组，联合四大韩企采购 26 万块英伟达显卡 》",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 18:51",
+   "score": 17.7,
+   "level": 2,
+   "why": "监管司法·离任",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "332d5a49c2a651e8",
    "title": "黄仁勋下台有何影响？市场给出答案：博通、AMD大涨，CoreWeave、Nebius承压，费半指数微跌",
    "link": "https://wallstreetcn.com/articles/3785829",
@@ -272,51 +303,11 @@
    ],
    "words": [],
    "time": "11-13 08:05",
-   "score": 16.4,
+   "score": 16.3,
    "level": 2,
    "why": "监管司法·下台",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "42d1ae42d9ee5d03",
-   "title": "Jensen Huang has resigned, what's next for Nvidia?",
-   "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
-   "summary": "Jensen Huang has resigned from Nvidia as chief financial officer Colette Kress replaces him as an interim boss.",
-   "body": "",
-   "source": "BBC·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 17.2,
-   "level": 2,
-   "why": "监管司法·resigned",
-   "tier": "",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
-   "id": "dfb46b48d60693d9",
-   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-   "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-   "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 17.2,
-   "level": 2,
-   "why": "监管司法·Congress",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -362,38 +353,23 @@
    "ai": ""
   },
   {
-   "id": "2d74d498c045adc0",
-   "title": "特朗普称应中东盟友请求延缓对伊朗行动",
-   "link": "https://m.thepaper.cn/newsDetail_forward_34468437",
-   "summary": "美国总统特朗普在一条12日发布的专访视频中称，他本可以“立即结束”伊朗战事，但应美国的中东盟友请求，他选择延缓对伊朗行动。 在美国媒体人斯蒂芬·史密斯当天发布在视频分享平台优兔上的一条专访视频中，特朗普说：“我本可以立即结束战事，但应我打算保护的国家请求，我们选择采取一种耗时更长、更加文明的方式。” 特朗普说，这些国家与美国保持着良好关系，是美国的重要投资者，在美国投入了数万亿美元。他举例说，沙特阿拉伯请求他暂时让伊朗局势保持现状，原因是伊朗“正在瓦解”，卡塔尔、科威特、阿联酋和巴林也倾向于维持这种“等待期”。 特朗普还称，如果美国决定进一步升级军事行动，可以在3天内摧毁伊朗能源、桥梁及制造业设施。 美国共和党中期选举惨败后，特朗普就伊朗战事的表态出现明显变化。9日，特朗普发帖表示美国重启对伊军事行动“可能性相当小”，并对媒体说，“从军事上讲，伊朗战事已经事实上结束”。美联社报道指出，这是",
+   "id": "dfb46b48d60693d9",
+   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+   "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
    "body": "",
-   "source": "澎湃新闻",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "特朗普称应中东盟友请求延缓对伊朗行动",
-     "u": "https://www.jiemian.com/article/15331858.html"
-    },
-    {
-     "src": "华尔街见闻·全球快讯",
-     "t": "特朗普称应中东盟友请求 延缓对伊朗行动",
-     "u": "https://wallstreetcn.com/livenews/3199737"
-    }
-   ],
+   "source": "BBC·商业",
+   "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [
-    "特朗普",
-    "中东",
-    "伊朗"
-   ],
-   "time": "11-13 18:16",
-   "score": 16.7,
-   "level": 1,
-   "why": "",
+   "words": [],
+   "time": "11-13 11:57",
+   "score": 16.8,
+   "level": 2,
+   "why": "监管司法·Congress",
    "tier": "",
-   "group": "澎湃新闻",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -439,6 +415,30 @@
    "ai": ""
   },
   {
+   "id": "2d74d498c045adc0",
+   "title": "特朗普称应中东盟友请求延缓对伊朗行动",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34468437",
+   "summary": "美国总统特朗普在一条12日发布的专访视频中称，他本可以“立即结束”伊朗战事，但应美国的中东盟友请求，他选择延缓对伊朗行动。 在美国媒体人斯蒂芬·史密斯当天发布在视频分享平台优兔上的一条专访视频中，特朗普说：“我本可以立即结束战事，但应我打算保护的国家请求，我们选择采取一种耗时更长、更加文明的方式。” 特朗普说，这些国家与美国保持着良好关系，是美国的重要投资者，在美国投入了数万亿美元。他举例说，沙特阿拉伯请求他暂时让伊朗局势保持现状，原因是伊朗“正在瓦解”，卡塔尔、科威特、阿联酋和巴林也倾向于维持这种“等待期”。 特朗普还称，如果美国决定进一步升级军事行动，可以在3天内摧毁伊朗能源、桥梁及制造业设施。 美国共和党中期选举惨败后，特朗普就伊朗战事的表态出现明显变化。9日，特朗普发帖表示美国重启对伊军事行动“可能性相当小”，并对媒体说，“从军事上讲，伊朗战事已经事实上结束”。美联社报道指出，这是",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "中东",
+    "伊朗"
+   ],
+   "time": "11-13 18:16",
+   "score": 16.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
    "id": "4fe0dee7b224c323",
    "title": "英伟达高管致员工备忘录：黄仁勋离任后，公司领导层如何回应？",
    "link": "https://wallstreetcn.com/articles/3785834",
@@ -457,51 +457,11 @@
    ],
    "words": [],
    "time": "11-13 06:57",
-   "score": 16.3,
+   "score": 16.2,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "3d49fc69836fa292",
-   "title": "Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-   "link": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
-   "summary": "News that the chipmaker’s chief executive, Jensen Huang, resigned drove Nvidia’s stock down, though the broader market rose slightly.",
-   "body": "",
-   "source": "纽约时报·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 16.3,
-   "level": 2,
-   "why": "监管司法·resigns",
-   "tier": "",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "22679f5f1027be18",
-   "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-   "link": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
-   "summary": "Nvidia’s ousted leader was a unique rhetorical and financial booster for investments that are driving economic growth.",
-   "body": "",
-   "source": "纽约时报·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 16.3,
-   "level": 2,
-   "why": "监管司法·ousted",
-   "tier": "",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -537,7 +497,7 @@
    ],
    "words": [],
    "time": "",
-   "score": 22,
+   "score": 16,
    "level": 1,
    "why": "国务院",
    "tier": "",
@@ -594,6 +554,66 @@
    "ai": ""
   },
   {
+   "id": "3d49fc69836fa292",
+   "title": "Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+   "link": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
+   "summary": "News that the chipmaker’s chief executive, Jensen Huang, resigned drove Nvidia’s stock down, though the broader market rose slightly.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 05:15",
+   "score": 16.0,
+   "level": 2,
+   "why": "监管司法·resigns",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "22679f5f1027be18",
+   "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+   "link": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
+   "summary": "Nvidia’s ousted leader was a unique rhetorical and financial booster for investments that are driving economic growth.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 05:05",
+   "score": 15.9,
+   "level": 2,
+   "why": "监管司法·ousted",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "42d1ae42d9ee5d03",
+   "title": "Jensen Huang has resigned, what's next for Nvidia?",
+   "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
+   "summary": "Jensen Huang has resigned from Nvidia as chief financial officer Colette Kress replaces him as an interim boss.",
+   "body": "",
+   "source": "BBC·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 04:21",
+   "score": 15.9,
+   "level": 2,
+   "why": "监管司法·resigned",
+   "tier": "",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "64f5f3832f0c1447",
    "title": "Jensen Huang’s Resignation From Nvidia Could Complicate Billions in Philanthropic Giving",
    "link": "https://www.nytimes.com/2026/11/12/technology/jensen-huang-philanthropy-nvidia.html",
@@ -605,8 +625,8 @@
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 15.9,
+   "time": "11-13 01:26",
+   "score": 15.5,
    "level": 2,
    "why": "监管司法·resignation",
    "tier": "",
@@ -630,7 +650,7 @@
     "伊朗"
    ],
    "time": "11-13 08:40",
-   "score": 15.5,
+   "score": 15.4,
    "level": 1,
    "why": "",
    "tier": "",
@@ -670,7 +690,7 @@
    ],
    "words": [],
    "time": "11-12 22:03",
-   "score": 15.2,
+   "score": 15.1,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
@@ -717,6 +737,28 @@
    "why": "法案",
    "tier": "",
    "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
+   "id": "c67c0ba562bc658a",
+   "title": "10月末中国社会融资规模存量和M2余额同比增长均超7%",
+   "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731725.shtml",
+   "summary": "中新社北京11月13日电 (陶思阅)中国央行13日公布的最新数据显示，10月末，社会融资规模存量469.16万亿元人民币，同比增长7.2%；广义货币(M2)余额359.06万亿元，同比增长7.1%。社会融资规模存量是指一定时期末实体经济从金融体系获得的资金余额；M2反映全社会货币供给情况。“总体来看，M2和社会融资规模存量增速均保持在合理水平，同经济增长、价格总水平预期目标相匹配，为经济持续向好向优创造适宜的货币金融环境。”招联首席经济学家董希淼说。",
+   "body": "中新社北京11月13日电 (陶思阅)中国央行13日公布的最新数据显示，10月末，社会融资规模存量469.16万亿元人民币，同比增长7.2%；广义货币(M2)余额359.06万亿元，同比增长7.1%。社会融资规模存量是指一定时期末实体经济从金融体系获得的资金余额；M2反映全社会货币供给情况。“总体来看，M2和社会融资规模存量增速均保持在合理水平，同经济增长、价格总水平预期目标相匹配，为经济持续向好向优创造适宜的货币金融环境。”招联首席经济学家董希淼说。",
+   "source": "中国新闻网·财经",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "社会融资"
+   ],
+   "time": "11-13 20:58",
+   "score": 14.9,
+   "level": 1,
+   "why": "社会融资",
+   "tier": "",
+   "group": "chinanews",
    "ai": ""
   },
   {
@@ -845,7 +887,7 @@
     "社会融资"
    ],
    "time": "11-13 18:01",
-   "score": 14.7,
+   "score": 14.6,
    "level": 1,
    "why": "社会融资",
    "tier": "",
@@ -867,7 +909,7 @@
     "社融"
    ],
    "time": "11-13 17:37",
-   "score": 14.6,
+   "score": 14.5,
    "level": 1,
    "why": "社融",
    "tier": "",
@@ -987,7 +1029,7 @@
     "美联储"
    ],
    "time": "11-13 08:11",
-   "score": 13.5,
+   "score": 13.3,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1009,7 +1051,7 @@
     "峰会"
    ],
    "time": "11-13 15:26",
-   "score": 13.4,
+   "score": 13.2,
    "level": 1,
    "why": "部署",
    "tier": "must",
@@ -1076,7 +1118,7 @@
     "军事行动"
    ],
    "time": "11-13 07:27",
-   "score": 12.4,
+   "score": 12.2,
    "level": 1,
    "why": "军事行动",
    "tier": "must",
@@ -1098,7 +1140,7 @@
     "美联储"
    ],
    "time": "11-12 23:08",
-   "score": 12.3,
+   "score": 12.2,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1127,29 +1169,7 @@
     "伊朗"
    ],
    "time": "11-12 21:20",
-   "score": 12.1,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "c08629d9f0d71502",
-   "title": "黄仁勋仓促离职，背后疑云重重：白宫是否暗中介入？未来有可能回归吗？",
-   "link": "https://wallstreetcn.com/articles/3785861",
-   "summary": "英伟达创始人兼首席执行官黄仁勋的离职来得突然而戏剧性，留下了一连串悬而未决的问题。 从董事会周日公开表态对其信任，到周三夜间黄仁勋正式辞职，短短数日之内发生了什么，目前仍无定论。 这场震动科技与资本市场的人事变局，不仅牵出白宫是否从中施压的疑云，更令投资者对英伟达未来的业务走向充满不确定性。 据英伟达在一份证券文件中披露，黄仁勋于周三夜间辞职。 值得关注的是，多篇报道周三晚间董事会会议的文章，均有华盛顿记者参与撰写——这些记者平日并不负责英伟达报道。 据科技媒体The Information 11月12日报道，外界由此猜测，白宫是否曾向媒体透露消息，以向黄仁勋施压，迫使其离职。这些问题的答案，据报道最终将会浮出水面，但目前仍无从证实。 消息公布后，英伟达股价周四从低点反弹，显示部分投资者认为此前两日的抛售已属过度。 截至周四收盘，英伟达股价约为166美元，对应远期市盈率仅为13.7倍，而竞",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "白宫"
-   ],
-   "time": "11-13 13:19",
-   "score": 12.1,
+   "score": 12,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1177,6 +1197,116 @@
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "a216e1b609625f9f",
+   "title": "美国10月核心PPI环比 0.3%，预期 0.3%，前值 0.7%。",
+   "link": "https://wallstreetcn.com/livenews/3199834",
+   "summary": "美国10月核心PPI环比 0.3%，预期 0.3%，前值 0.7%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "a1143469d0c5e102",
+   "title": "美国10月PPI环比 0.3%，预期 0.4%，前值 1.3%。",
+   "link": "https://wallstreetcn.com/livenews/3199833",
+   "summary": "美国10月PPI环比 0.3%，预期 0.4%，前值 1.3%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "c70760193c4ce3c0",
+   "title": "美国10月核心PPI同比 5%，预期 5%，前值 5%。",
+   "link": "https://wallstreetcn.com/livenews/3199832",
+   "summary": "美国10月核心PPI同比 5%，预期 5%，前值 5%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "c61228e95fe9c915",
+   "title": "美国10月PPI同比 6.5%，预期 6.6%，前值 6.3%。",
+   "link": "https://wallstreetcn.com/livenews/3199831",
+   "summary": "美国10月PPI同比 6.5%，预期 6.6%，前值 6.3%。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "a481842027d68808",
+   "title": "提醒：北京时间21:30，将公布美国10月PPI数据。",
+   "link": "https://wallstreetcn.com/livenews/3199828",
+   "summary": "提醒：北京时间21:30，将公布美国10月PPI数据。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "PPI",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -1247,6 +1377,28 @@
    "ai": ""
   },
   {
+   "id": "c08629d9f0d71502",
+   "title": "黄仁勋仓促离职，背后疑云重重：白宫是否暗中介入？未来有可能回归吗？",
+   "link": "https://wallstreetcn.com/articles/3785861",
+   "summary": "英伟达创始人兼首席执行官黄仁勋的离职来得突然而戏剧性，留下了一连串悬而未决的问题。 从董事会周日公开表态对其信任，到周三夜间黄仁勋正式辞职，短短数日之内发生了什么，目前仍无定论。 这场震动科技与资本市场的人事变局，不仅牵出白宫是否从中施压的疑云，更令投资者对英伟达未来的业务走向充满不确定性。 据英伟达在一份证券文件中披露，黄仁勋于周三夜间辞职。 值得关注的是，多篇报道周三晚间董事会会议的文章，均有华盛顿记者参与撰写——这些记者平日并不负责英伟达报道。 据科技媒体The Information 11月12日报道，外界由此猜测，白宫是否曾向媒体透露消息，以向黄仁勋施压，迫使其离职。这些问题的答案，据报道最终将会浮出水面，但目前仍无从证实。 消息公布后，英伟达股价周四从低点反弹，显示部分投资者认为此前两日的抛售已属过度。 截至周四收盘，英伟达股价约为166美元，对应远期市盈率仅为13.7倍，而竞",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "白宫"
+   ],
+   "time": "11-13 13:19",
+   "score": 12.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "a3772eabab848bf7",
    "title": "巴克莱：做好美伊“不战不和”僵局持续到特朗普任期结束的准备",
    "link": "https://wallstreetcn.com/articles/3785862",
@@ -1261,55 +1413,11 @@
     "特朗普"
    ],
    "time": "11-13 12:02",
-   "score": 11.9,
+   "score": 11.8,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "88885df9b601a690",
-   "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
-   "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
-   "summary": "The announcement on social media deepened questions about what the president’s plan is to end the war. “We don’t need a deal with Iran,” he wrote.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "",
-   "score": 11.1,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "130fd086f7717a27",
-   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-   "summary": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-   "body": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-   "source": "美联储·货币政策",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Federal Reserve"
-   ],
-   "time": "",
-   "score": 10.9,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "fed",
    "ai": ""
   },
   {
@@ -1346,6 +1454,46 @@
    "words": [],
    "time": "",
    "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "42d1b479535f9c3f",
+   "title": "马斯克转发《气垫传奇》电影片段致敬黄仁勋：有些事物是永恒的",
+   "link": "https://www.ithome.com/1/026/944.htm",
+   "summary": "IT之家 11 月 13 日消息，黄仁勋离任英伟达 CEO 后，全球首富埃隆 · 马斯克在社交媒体上发文向他致敬。 今天下午，马斯克在 X 上转发了一段两分钟的电影片段，出自 2023 年上映的《气垫传奇》。影片讲述了耐克与迈克尔 · 乔丹合作，以及 Air Jordan 品牌诞生的故事。 片段中，马特 · 达蒙饰演的耐克高管桑尼 · 瓦卡罗试图说服年轻的乔丹签下球鞋代言合同，并发表了一段仿佛预见未来的独白。“当他们把你捧到最高处，接下来就会把你拉下来。 你能不能鼓起勇气，忍受所有痛苦，继续奋战，再次站起来？ ” 这段视频最早由风险投资公司 Andreessen Horowitz 于周四晚间发布，该公司特别摘录了其中一句台词：“ 人们会永远记住你，因为有些东西是永恒的 。” 马斯克转发时没有多作评论，只写了一个名字：“ Jensen ”。 就在北京时间 12 日早些时候，英伟达董事会考虑罢",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 20:31",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "18bd2ce4cded83fd",
+   "title": "德国小厂拿下马斯克光伏订单，中国设备商为何未在列？",
+   "link": "https://www.jiemian.com/article/15331654.html",
+   "summary": "订单没有流向中国设备商，并非单纯技术或价格竞争的结果。马斯克的一则订单，引发A股光伏设备板震荡。北京时间11月11日，埃隆·马斯克(Elon Musk)在社交媒体平台X上转发SpaceX推文称：“SpaceX已向德国SINGULUS订购了每年100 GW产能的HJT太阳能电池制造设备。这是为了让Starmind创造一颗有感知能力的太阳。”当地时间11月10日，SINGULUS在官网公告，已与SpaceX签署首条HJT太阳能电池交钥匙生产线供应合同，订单金额超过6000万欧元（约合人民币4.42亿元），计划于2027年上半年交付。",
+   "body": "订单没有流向中国设备商，并非单纯技术或价格竞争的结果。马斯克的一则订单，引发A股光伏设备板震荡。北京时间11月11日，埃隆·马斯克(Elon Musk)在社交媒体平台X上转发SpaceX推文称：“SpaceX已向德国SINGULUS订购了每年100 GW产能的HJT太阳能电池制造设备。这是为了让Starmind创造一颗有感知能力的太阳。”当地时间11月10日，SINGULUS在官网公告，已与SpaceX签署首条HJT太阳能电池交钥匙生产线供应合同，订单金额超过6000万欧元（约合人民币4.42亿元），计划于2027年上半年交付。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 20:15",
+   "score": 10.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1413,6 +1561,28 @@
    "ai": ""
   },
   {
+   "id": "88885df9b601a690",
+   "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+   "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
+   "summary": "The announcement on social media deepened questions about what the president’s plan is to end the war. “We don’t need a deal with Iran,” he wrote.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-13 03:38",
+   "score": 10.8,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "0ec120cbcb07887f",
    "title": "外媒：特朗普与内塔尼亚胡在交谈中爆发“地狱般的争吵”",
    "link": "https://www.chinanews.com.cn/gj/2026/11-12/10731223.shtml",
@@ -1463,6 +1633,28 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "130fd086f7717a27",
+   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+   "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "body": "",
+   "source": "美联储·货币政策",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Federal Reserve"
+   ],
+   "time": "11-13 01:45",
+   "score": 10.5,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "fed",
    "ai": ""
   },
   {
@@ -1538,7 +1730,7 @@
    ],
    "words": [],
    "time": "11-13 14:43",
-   "score": 10.3,
+   "score": 10.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1580,7 +1772,7 @@
    ],
    "words": [],
    "time": "11-13 10:51",
-   "score": 9.8,
+   "score": 9.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1661,7 +1853,7 @@
    ],
    "words": [],
    "time": "11-13 08:24",
-   "score": 9.5,
+   "score": 9.4,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1681,27 +1873,7 @@
    ],
    "words": [],
    "time": "11-13 08:12",
-   "score": 9.5,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "c3aae3423fd112ac",
-   "title": "SpaceX计划投资740亿美元，在亚利桑那州和德克萨斯州建设数据中心",
-   "link": "https://wallstreetcn.com/articles/3785835",
-   "summary": "SpaceX正大举押注人工智能基础设施。公司宣布，将在亚利桑那州和德克萨斯州合计投资740亿美元，兴建两座超级计算中心，标志着这家火箭制造商向AI基础设施供应商的转型进入新阶段。 其中，亚利桑那州项目投资额高达500亿美元，是此次计划的核心。SpaceX同步确认，将向位于德克萨斯州Starbase总部附近的另一处计算中心追加投资240亿美元。 马斯克正持续扩大SpaceX的计算能力，这也进一步推动该公司从一家领先的火箭制造商和发射服务提供商，向重要的人工智能基础设施供应商转型。 SpaceX目前已成为Anthropic PBC和Alphabet Inc.等公司的重要基础设施合作方。此外，该公司也在发展自身的人工智能模型，并已与特斯拉（Tesla Inc.）联手启动名为Terafab的大型芯片工厂项目。 截至发稿，SpaceX周四盘中上涨2.12%。 得州项目配备燃气发电厂，投入2.2亿美元",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-13 05:23",
-   "score": 9.1,
+   "score": 9.3,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1726,6 +1898,26 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "c3aae3423fd112ac",
+   "title": "SpaceX计划投资740亿美元，在亚利桑那州和德克萨斯州建设数据中心",
+   "link": "https://wallstreetcn.com/articles/3785835",
+   "summary": "SpaceX正大举押注人工智能基础设施。公司宣布，将在亚利桑那州和德克萨斯州合计投资740亿美元，兴建两座超级计算中心，标志着这家火箭制造商向AI基础设施供应商的转型进入新阶段。 其中，亚利桑那州项目投资额高达500亿美元，是此次计划的核心。SpaceX同步确认，将向位于德克萨斯州Starbase总部附近的另一处计算中心追加投资240亿美元。 马斯克正持续扩大SpaceX的计算能力，这也进一步推动该公司从一家领先的火箭制造商和发射服务提供商，向重要的人工智能基础设施供应商转型。 SpaceX目前已成为Anthropic PBC和Alphabet Inc.等公司的重要基础设施合作方。此外，该公司也在发展自身的人工智能模型，并已与特斯拉（Tesla Inc.）联手启动名为Terafab的大型芯片工厂项目。 截至发稿，SpaceX周四盘中上涨2.12%。 得州项目配备燃气发电厂，投入2.2亿美元",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-13 05:23",
+   "score": 9.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1771,8 +1963,8 @@
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 8.2,
+   "time": "11-12 20:15",
+   "score": 8,
    "level": 1,
    "why": "",
    "tier": "",
