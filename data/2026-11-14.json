@@ -1,8 +1,8 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14 21:30",
+ "generated_at": "2026-11-14 22:30",
  "hours_window": 30,
- "count": 70,
+ "count": 71,
  "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
@@ -27,7 +27,7 @@
     "人大常委会"
    ],
    "time": "",
-   "score": 63.0,
+   "score": 69.0,
    "level": 1,
    "why": "人大常委会",
    "tier": "",
@@ -57,6 +57,28 @@
    "ai": ""
   },
   {
+   "id": "45327be77c95e27c",
+   "title": "网友反映日军侵华慰安所原址成网红拍照打卡点，杭州市园林文物局：若影响历史建筑安全会采取措施",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34470625",
+   "summary": "近日，有网友发布视频反映，在杭州泗水新邨建筑附近，有多位游客拍摄“出片打卡照”，该网友称因此处是侵华日军慰安所原址，其上前劝阻但未果。辖区湖滨街道办回应，拍照是自发行为不便介入。杭州市园林文物局工作人员称，若影响历史建筑安全会采取措施。",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "全会"
+   ],
+   "time": "",
+   "score": 26.9,
+   "level": 1,
+   "why": "全会",
+   "tier": "",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
    "id": "37b61677fbde8b73",
    "title": "17国强烈谴责以色列空袭加沙医院",
    "link": "https://www.jiemian.com/article/15333676.html",
@@ -79,33 +101,11 @@
     "加沙"
    ],
    "time": "11-14 20:48",
-   "score": 26.9,
+   "score": 26.8,
    "level": 2,
    "why": "空袭",
    "tier": "",
    "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "45327be77c95e27c",
-   "title": "网友反映日军侵华慰安所原址成网红拍照打卡点，杭州市园林文物局：若影响历史建筑安全会采取措施",
-   "link": "https://m.thepaper.cn/newsDetail_forward_34470625",
-   "summary": "近日，有网友发布视频反映，在杭州泗水新邨建筑附近，有多位游客拍摄“出片打卡照”，该网友称因此处是侵华日军慰安所原址，其上前劝阻但未果。辖区湖滨街道办回应，拍照是自发行为不便介入。杭州市园林文物局工作人员称，若影响历史建筑安全会采取措施。",
-   "body": "",
-   "source": "澎湃新闻",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "全会"
-   ],
-   "time": "",
-   "score": 26.9,
-   "level": 1,
-   "why": "全会",
-   "tier": "",
-   "group": "澎湃新闻",
    "ai": ""
   },
   {
@@ -241,7 +241,7 @@
     "华尔街"
    ],
    "time": "11-14 17:19",
-   "score": 19.5,
+   "score": 19.4,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
@@ -488,7 +488,7 @@
    ],
    "words": [],
    "time": "11-14 03:52",
-   "score": 15.8,
+   "score": 15.7,
    "level": 2,
    "why": "监管司法·ousted",
    "tier": "",
@@ -548,7 +548,7 @@
    ],
    "words": [],
    "time": "11-14 00:36",
-   "score": 15.4,
+   "score": 15.3,
    "level": 2,
    "why": "监管司法·resignation",
    "tier": "",
@@ -720,7 +720,7 @@
     "特朗普",
     "伊朗"
    ],
-   "time": "11-14 17:04",
+   "time": "",
    "score": 14.4,
    "level": 1,
    "why": "",
@@ -765,7 +765,7 @@
     "PPI"
    ],
    "time": "11-13 21:58",
-   "score": 14.1,
+   "score": 14,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -858,7 +858,7 @@
     "英国央行"
    ],
    "time": "11-14 15:55",
-   "score": 13.3,
+   "score": 13.2,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -880,11 +880,31 @@
     "美联储"
    ],
    "time": "11-14 07:06",
-   "score": 13.2,
+   "score": 13.1,
    "level": 1,
    "why": "流动性",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "f365f83410160401",
+   "title": "All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+   "link": "https://www.nytimes.com/2026/11/13/us/new-orleans-cruise-ship-crash.html",
+   "summary": "Gov. Jeff Landry of Louisiana called it a “literal miracle on the Mississippi” that all of the nearly 200 people aboard the riverboat were rescued.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-14 22:00",
+   "score": 12.9,
+   "level": 1,
+   "why": "crashes",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -908,7 +928,7 @@
     "美联储"
    ],
    "time": "11-14 05:54",
-   "score": 13.1,
+   "score": 12.9,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1064,31 +1084,11 @@
     "特朗普"
    ],
    "time": "11-14 09:18",
-   "score": 11.5,
+   "score": 11.4,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "f365f83410160401",
-   "title": "All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
-   "link": "https://www.nytimes.com/2026/11/13/us/new-orleans-cruise-ship-crash.html",
-   "summary": "Gov. Jeff Landry of Louisiana called it a “literal miracle on the Mississippi” that all of the nearly 200 people aboard the riverboat were rescued.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-14 09:17",
-   "score": 11.5,
-   "level": 1,
-   "why": "crashes",
-   "tier": "must",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -1106,11 +1106,51 @@
     "伊朗"
    ],
    "time": "11-13 23:08",
-   "score": 11.2,
+   "score": 11.1,
    "level": 1,
    "why": "加息",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "7657b7b50644a4fa",
+   "title": "黄仁勋辞任 CEO 后，英伟达诞生地丹尼餐厅移除纪念铭牌、又宣布将重新挂回",
+   "link": "https://www.ithome.com/1/027/233.htm",
+   "summary": "IT之家 11 月 14 日消息，据 NBC News 报道，在一家丹尼餐厅（Denny’s）路边店内，硅谷历史的一角仿佛凭空消失了。 30 多年前，黄仁勋与两位好友正是在这里构想出了英伟达，而如今纪念这一确切位置的牌匾已不翼而飞。牌匾上的铭文曾写道：“开启一家万亿美元公司的卡座”，如今只剩下一片空荡荡的砖墙和剥落的墙漆。两名店员证实，牌匾已被撤下。 ▲ 2023 年，丹尼餐厅 CEO Kelli Valade 与英伟达创始人黄仁勋在加利福尼亚州圣何塞的丹尼餐厅同框 IT之家注意到，在该媒体发文后，丹尼餐厅的一位发言人表示，该连锁餐厅正在“重新安装这块牌匾，以纪念在丹尼餐厅促成英伟达诞生的那些对话”。 “黄仁勋最初是在丹尼餐厅当洗碗工起家的。多年后，他和联合创始人们聚在我们的一个卡座里，探讨了后来演变为英伟达的构想。这块牌匾正是这段共同历史的见证，”该发言人说道。 英伟达创立于 1993 ",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-14 21:31",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "13005c36b74dd19e",
+   "title": "微软 14 年 AI 老将离职：称创新难落地，降本研究未获认真考虑",
+   "link": "https://www.ithome.com/1/027/078.htm",
+   "summary": "IT之家 11 月 14 日消息，科技媒体 Windows Latest 今天（11 月 14 日）发布博文， 报道称在微软任职逾 14 年的 AI 科学家、AI Frontiers 实验室联合创始人约翰 · 兰福德（John Langford）已离职。 他表示，离开的关键原因是研究成果看不到实际应用的路径，创新想法甚至难以获得认真考虑。 微软任职逾 14 年的 AI 科学家、AI Frontiers 实验室联合创始人约翰 · 兰福德（John Langford），图源：微软 IT之家查询公开资料，兰福德是机器学习领域资深且有影响力的研究者，长期从事机器学习与学习理论研究，其重要贡献是推进 Contextual Bandits（上下文多臂老虎机），与合作者在探索算法、学习问题归约及离线策略评估方面做出代表性工作，为机器学习系统利用不完整反馈改进决策提供了理论与方法基础。 兰福德所在的约 5",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 10.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1128,7 +1168,7 @@
     "Trump"
    ],
    "time": "11-14 03:02",
-   "score": 10.7,
+   "score": 10.6,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1150,31 +1190,11 @@
     "Trump"
    ],
    "time": "11-14 02:20",
-   "score": 10.6,
+   "score": 10.5,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "13005c36b74dd19e",
-   "title": "微软 14 年 AI 老将离职：称创新难落地，降本研究未获认真考虑",
-   "link": "https://www.ithome.com/1/027/078.htm",
-   "summary": "IT之家 11 月 14 日消息，科技媒体 Windows Latest 今天（11 月 14 日）发布博文， 报道称在微软任职逾 14 年的 AI 科学家、AI Frontiers 实验室联合创始人约翰 · 兰福德（John Langford）已离职。 他表示，离开的关键原因是研究成果看不到实际应用的路径，创新想法甚至难以获得认真考虑。 微软任职逾 14 年的 AI 科学家、AI Frontiers 实验室联合创始人约翰 · 兰福德（John Langford），图源：微软 IT之家查询公开资料，兰福德是机器学习领域资深且有影响力的研究者，长期从事机器学习与学习理论研究，其重要贡献是推进 Contextual Bandits（上下文多臂老虎机），与合作者在探索算法、学习问题归约及离线策略评估方面做出代表性工作，为机器学习系统利用不完整反馈改进决策提供了理论与方法基础。 兰福德所在的约 5",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 10.6,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1262,26 +1282,6 @@
    "ai": ""
   },
   {
-   "id": "0c147e0007249503",
-   "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
-   "link": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
-   "summary": "中国统计信息服务中心 卓创资讯 据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年11月上旬与10月下旬相比，16种产品价格上涨，32种下降，2种持平。 2026年11月上旬流通领域重要生产资料市场价格变动情况 产品名称单位本期价格（元）比上期价格涨跌（元）涨跌幅（%）一、黑色金属 螺纹钢...",
-   "body": "",
-   "source": "国家统计局·数据发布",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [],
-   "time": "11-14 09:30",
-   "score": 9.5,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "stats",
-   "ai": ""
-  },
-  {
    "id": "42d1b479535f9c3f",
    "title": "马斯克转发《气垫传奇》电影片段致敬黄仁勋：有些事物是永恒的",
    "link": "https://www.ithome.com/1/026/944.htm",
@@ -1299,6 +1299,26 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "0c147e0007249503",
+   "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+   "link": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+   "summary": "中国统计信息服务中心 卓创资讯 据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年11月上旬与10月下旬相比，16种产品价格上涨，32种下降，2种持平。 2026年11月上旬流通领域重要生产资料市场价格变动情况 产品名称单位本期价格（元）比上期价格涨跌（元）涨跌幅（%）一、黑色金属 螺纹钢...",
+   "body": "",
+   "source": "国家统计局·数据发布",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [],
+   "time": "11-14 09:30",
+   "score": 9.4,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "stats",
    "ai": ""
   },
   {
@@ -1320,7 +1340,7 @@
    ],
    "words": [],
    "time": "11-14 07:44",
-   "score": 9.3,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1346,7 +1366,7 @@
    ],
    "words": [],
    "time": "11-14 07:44",
-   "score": 9.3,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "",
