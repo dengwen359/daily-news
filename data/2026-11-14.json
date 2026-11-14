@@ -1,8 +1,8 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14 18:30",
+ "generated_at": "2026-11-14 20:30",
  "hours_window": 30,
- "count": 67,
+ "count": 69,
  "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
@@ -27,7 +27,7 @@
     "人大常委会"
    ],
    "time": "",
-   "score": 51.0,
+   "score": 57.0,
    "level": 1,
    "why": "人大常委会",
    "tier": "",
@@ -160,7 +160,7 @@
    "words": [
     "地震"
    ],
-   "time": "11-14 10:18",
+   "time": "",
    "score": 22.0,
    "level": 2,
    "why": "地震",
@@ -200,13 +200,8 @@
    "also": [
     {
      "src": "IT之家",
-     "t": "IT早报 1114：曝黄仁勋离任前夕心力交瘁；微软 365 核心服务全球宕机超 10 个小时；华为首个动态血糖仪官宣；37.98 万元起鸿蒙智行问界新 M8 上市...",
-     "u": "https://www.ithome.com/1/027/020.htm"
-    },
-    {
-     "src": "IT之家",
-     "t": "马斯克声援黄仁勋：将签署请愿，支持其重返英伟达 CEO 岗位",
-     "u": "https://www.ithome.com/1/027/033.htm"
+     "t": "黄仁勋离任 CEO 之际，英伟达品牌推广人员弗里曼称 GeForce 显卡不会终结",
+     "u": "https://www.ithome.com/1/027/212.htm"
     }
    ],
    "topics": [
@@ -216,7 +211,7 @@
     "华尔街"
    ],
    "time": "11-14 17:19",
-   "score": 19.9,
+   "score": 19.6,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
@@ -278,7 +273,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-14 14:24",
+   "time": "",
    "score": 17.5,
    "level": 2,
    "why": "监管司法·调查",
@@ -307,7 +302,7 @@
     "民主党"
    ],
    "time": "11-13 21:02",
-   "score": 17.3,
+   "score": 17.1,
    "level": 2,
    "why": "监管司法·国会、议员",
    "tier": "",
@@ -354,55 +349,6 @@
    "why": "PPI",
    "tier": "",
    "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "5fd7f43dcda8c1bf",
-   "title": "不想再打，也不愿谈：特朗普对伊朗转向“拖字诀”",
-   "link": "https://m.thepaper.cn/newsDetail_forward_34478610",
-   "summary": "在本月中期选举前夕，美国总统特朗普曾多次表示，他可能会重启针对伊朗的全面军事行动，或者通过谈判达成和解，以尽快结束这场已经持续八个月的冲突。 但在过去一周，特朗普政府似乎已经转向奉行“不战不谈”的策略。美国国务卿鲁比奥11月13日表示，美国没有必要对伊朗采取进一步的军事行动，因为美国“给一个虚弱的伊斯兰共和国造成的经济痛苦太大了”。鲁比奥的说法呼应了特朗普9日的声明，即伊朗战争“在军事上实际上已经结束”。特朗普12日还称，美国不需要与伊朗达成协议，并要求副总统万斯将全部精力集中到国内反腐和犯罪问题上。 美媒分析称，特朗普似乎愈发不愿重启这场政治上不得人心、且已严重消耗美国军事资源的战争。在短期内无法通过谈判结束冲突的情况下，继续封锁和制裁伊朗经济、等待经济压力逐渐积聚，似乎成为了特朗普政府的折衷方案。 美国油价压力减轻 据《华盛顿邮报》11月13日援引匿名知情官员的话报道，自中期选举结束以",
-   "body": "",
-   "source": "澎湃新闻",
-   "also": [
-    {
-     "src": "澎湃新闻",
-     "t": "特朗普称应中东盟友请求延缓对伊朗行动",
-     "u": "https://m.thepaper.cn/newsDetail_forward_34468437"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "特朗普",
-    "伊朗"
-   ],
-   "time": "11-14 17:04",
-   "score": 14.8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "澎湃新闻",
-   "ai": ""
-  },
-  {
-   "id": "595545945a4fe6f3",
-   "title": "Wall Street Loses a Powerful Dealmaker After Nvidia’s CEO Is Ousted",
-   "link": "https://www.nytimes.com/2026/11/13/business/jensen-huang-nvidia-wall-street.html",
-   "summary": "The ousted Nvidia chief executive was the consummate dealmaker leading the trillion-dollar A.I. build out.",
-   "body": "",
-   "source": "纽约时报·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-14 03:52",
-   "score": 16.2,
-   "level": 2,
-   "why": "监管司法·ousted",
-   "tier": "",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -500,10 +446,10 @@
    "ai": ""
   },
   {
-   "id": "098168721dcbb751",
-   "title": "Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-   "link": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
-   "summary": "Mr. Huang championed start-ups, with Nvidia holding $48 billion worth of stakes in 229 private companies, including OpenAI and Anthropic, at the end of July.",
+   "id": "595545945a4fe6f3",
+   "title": "Wall Street Loses a Powerful Dealmaker After Nvidia’s CEO Is Ousted",
+   "link": "https://www.nytimes.com/2026/11/13/business/jensen-huang-nvidia-wall-street.html",
+   "summary": "The ousted Nvidia chief executive was the consummate dealmaker leading the trillion-dollar A.I. build out.",
    "body": "",
    "source": "纽约时报·商业",
    "also": [],
@@ -511,10 +457,10 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-14 00:36",
-   "score": 15.8,
+   "time": "11-14 03:52",
+   "score": 15.9,
    "level": 2,
-   "why": "监管司法·resignation",
+   "why": "监管司法·ousted",
    "tier": "",
    "group": "nyt",
    "ai": ""
@@ -560,6 +506,26 @@
    "ai": ""
   },
   {
+   "id": "098168721dcbb751",
+   "title": "Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+   "link": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
+   "summary": "Mr. Huang championed start-ups, with Nvidia holding $48 billion worth of stakes in 229 private companies, including OpenAI and Anthropic, at the end of July.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-14 00:36",
+   "score": 15.5,
+   "level": 2,
+   "why": "监管司法·resignation",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "64f5f3832f0c1447",
    "title": "Jensen Huang’s Resignation From Nvidia Could Complicate Billions in Philanthropic Giving",
    "link": "https://www.nytimes.com/2026/11/12/technology/jensen-huang-philanthropy-nvidia.html",
@@ -586,18 +552,7 @@
    "summary": "英伟达联合创始人黄仁勋的被迫下台，打破了大型科技公司不可战胜的神话，标志着硅谷权力结构正在发生深刻的转移。 科技巨头不再庞大且不受约束，传统的官僚机构、制度权力以及旧有规范正在重新确立统治地位。 据华尔街日报11月12日报道，这位将英伟达精准布局于AI核心地位、并使其跻身全球最具价值公司之列的创始人，在丑闻发酵后短短数日内便宣告离任。 这一突发事件直接导致英伟达股价持续下挫，并引发了投资者对市场可能面临痛苦回调的深切担忧。 对于许多将英伟达算力视为行业风向标的投资者而言，核心人物的离去为整个AI领域带来了巨大的不确定性。 面对这一震动，科技界高管纷纷表达支持，试图捍卫这位在AI军备竞赛中掌握生杀大权的关键人物。 然而，这种抱团防御的姿态不仅凸显了科技行业对不计代价追求胜利的执念，也暴露出其本能反应与当前政治和制度现实的脱节。 随着华盛顿权力格局的更迭，科技巨头在政治上的影响力正在流失。 在",
    "body": "",
    "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋下台，AI新玩家的“最大金主”也没了",
-     "u": "https://wallstreetcn.com/articles/3785857"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
-     "u": "https://wallstreetcn.com/articles/3785851"
-    }
-   ],
+   "also": [],
    "topics": [
     "美国重大"
    ],
@@ -699,6 +654,29 @@
    "ai": ""
   },
   {
+   "id": "5fd7f43dcda8c1bf",
+   "title": "不想再打，也不愿谈：特朗普对伊朗转向“拖字诀”",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34478610",
+   "summary": "在本月中期选举前夕，美国总统特朗普曾多次表示，他可能会重启针对伊朗的全面军事行动，或者通过谈判达成和解，以尽快结束这场已经持续八个月的冲突。 但在过去一周，特朗普政府似乎已经转向奉行“不战不谈”的策略。美国国务卿鲁比奥11月13日表示，美国没有必要对伊朗采取进一步的军事行动，因为美国“给一个虚弱的伊斯兰共和国造成的经济痛苦太大了”。鲁比奥的说法呼应了特朗普9日的声明，即伊朗战争“在军事上实际上已经结束”。特朗普12日还称，美国不需要与伊朗达成协议，并要求副总统万斯将全部精力集中到国内反腐和犯罪问题上。 美媒分析称，特朗普似乎愈发不愿重启这场政治上不得人心、且已严重消耗美国军事资源的战争。在短期内无法通过谈判结束冲突的情况下，继续封锁和制裁伊朗经济、等待经济压力逐渐积聚，似乎成为了特朗普政府的折衷方案。 美国油价压力减轻 据《华盛顿邮报》11月13日援引匿名知情官员的话报道，自中期选举结束以",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "伊朗"
+   ],
+   "time": "11-14 17:04",
+   "score": 14.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
    "id": "1ce624a595b958e3",
    "title": "今年前10个月社会融资规模新增28.61万亿元",
    "link": "https://www.chinanews.com.cn/cj/2026/11-14/10731982.shtml",
@@ -712,34 +690,12 @@
    "words": [
     "社会融资"
    ],
-   "time": "11-14 14:07",
+   "time": "",
    "score": 14.5,
    "level": 1,
    "why": "社会融资",
    "tier": "",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "eb0bc61070061662",
-   "title": "美国10月PPI同比 6.5%创四年新高、但低于预期，激进加息预期小幅降温",
-   "link": "https://wallstreetcn.com/articles/3785905",
-   "summary": "美国批发通胀加速态势略低于预期，为本周一系列通胀数据画上注脚。 美国劳工统计局周五公布数据显示， 美国10月生产者价格指数（PPI）同比上涨6.5%，高于9月的6.3%，创2022年11月以来最高水平，略低于市场预期的6.6%。 数据公布后， 交易员小幅下调了对美联储进一步收紧政策的预期 ，美股期货短线走高。 在月度层面，10月PPI环比上涨0.3%，低于市场预期的0.4%。剔除食品和能源的核心PPI同比持平于5.0%，符合预期，环比同样上涨0.3%。食品价格大幅上涨及运输与仓储成本攀升，是本月批发通胀走高的重要推手。 通胀全面升温，供需双重压力持续 本次PPI报告显示，商品价格涨幅快于服务业，但两者均实现环比上涨，连续第三个月同步走高，反映出价格压力已向经济多个层面渗透。从结构来看，能源价格在月度层面出现小幅回落，但同比涨幅仍在扩大，其中燃料通胀尤为突出；与此同时，食品价格涨势明显加剧。",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "PPI"
-   ],
-   "time": "11-13 21:58",
-   "score": 14.4,
-   "level": 1,
-   "why": "加息",
-   "tier": "",
-   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -762,6 +718,28 @@
    "why": "禁令",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "eb0bc61070061662",
+   "title": "美国10月PPI同比 6.5%创四年新高、但低于预期，激进加息预期小幅降温",
+   "link": "https://wallstreetcn.com/articles/3785905",
+   "summary": "美国批发通胀加速态势略低于预期，为本周一系列通胀数据画上注脚。 美国劳工统计局周五公布数据显示， 美国10月生产者价格指数（PPI）同比上涨6.5%，高于9月的6.3%，创2022年11月以来最高水平，略低于市场预期的6.6%。 数据公布后， 交易员小幅下调了对美联储进一步收紧政策的预期 ，美股期货短线走高。 在月度层面，10月PPI环比上涨0.3%，低于市场预期的0.4%。剔除食品和能源的核心PPI同比持平于5.0%，符合预期，环比同样上涨0.3%。食品价格大幅上涨及运输与仓储成本攀升，是本月批发通胀走高的重要推手。 通胀全面升温，供需双重压力持续 本次PPI报告显示，商品价格涨幅快于服务业，但两者均实现环比上涨，连续第三个月同步走高，反映出价格压力已向经济多个层面渗透。从结构来看，能源价格在月度层面出现小幅回落，但同比涨幅仍在扩大，其中燃料通胀尤为突出；与此同时，食品价格涨势明显加剧。",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "PPI"
+   ],
+   "time": "11-13 21:58",
+   "score": 14.2,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -850,7 +828,7 @@
     "英国央行"
    ],
    "time": "11-14 15:55",
-   "score": 13.7,
+   "score": 13.4,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -872,7 +850,7 @@
     "美联储"
    ],
    "time": "11-14 07:06",
-   "score": 13.6,
+   "score": 13.3,
    "level": 1,
    "why": "流动性",
    "tier": "",
@@ -900,7 +878,7 @@
     "美联储"
    ],
    "time": "11-14 05:54",
-   "score": 13.4,
+   "score": 13.2,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -950,6 +928,29 @@
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "4cec3cec6f0056b2",
+   "title": "报道：特朗普考虑暂缓对伊朗军事打击",
+   "link": "https://wallstreetcn.com/livenews/3200128",
+   "summary": "知情人士透露，美国总统特朗普近日向高级顾问表示，如果美国未受到来自伊朗或也门胡塞武装的任何新挑衅，他可能会暂缓对伊朗采取军事打击。（路透）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "伊朗"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -1011,31 +1012,11 @@
     "特朗普"
    ],
    "time": "11-14 09:18",
-   "score": 11.9,
+   "score": 11.6,
    "level": 1,
    "why": "",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "f365f83410160401",
-   "title": "All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
-   "link": "https://www.nytimes.com/2026/11/13/us/new-orleans-cruise-ship-crash.html",
-   "summary": "Gov. Jeff Landry of Louisiana called it a “literal miracle on the Mississippi” that all of the nearly 200 people aboard the riverboat were rescued.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-14 09:17",
-   "score": 11.8,
-   "level": 1,
-   "why": "crashes",
-   "tier": "must",
-   "group": "nyt",
    "ai": ""
   },
   {
@@ -1061,6 +1042,26 @@
    "ai": ""
   },
   {
+   "id": "f365f83410160401",
+   "title": "All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+   "link": "https://www.nytimes.com/2026/11/13/us/new-orleans-cruise-ship-crash.html",
+   "summary": "Gov. Jeff Landry of Louisiana called it a “literal miracle on the Mississippi” that all of the nearly 200 people aboard the riverboat were rescued.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-14 09:17",
+   "score": 11.6,
+   "level": 1,
+   "why": "crashes",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "71246a4c8ce0f067",
    "title": "贝森特：不应因能源冲击而加息，继续施压伊朗，英伟达能摆脱黄仁勋继续发展",
    "link": "https://wallstreetcn.com/articles/3785907",
@@ -1075,7 +1076,7 @@
     "伊朗"
    ],
    "time": "11-13 23:08",
-   "score": 11.6,
+   "score": 11.3,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -1097,7 +1098,7 @@
     "Trump"
    ],
    "time": "11-14 03:02",
-   "score": 11.1,
+   "score": 10.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1119,7 +1120,7 @@
     "Trump"
    ],
    "time": "11-14 02:20",
-   "score": 11.0,
+   "score": 10.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1209,17 +1210,17 @@
    "ai": ""
   },
   {
-   "id": "c08629d9f0d71502",
-   "title": "黄仁勋仓促离职，背后疑云重重：白宫是否暗中介入？未来有可能回归吗？",
-   "link": "https://wallstreetcn.com/articles/3785861",
-   "summary": "英伟达创始人兼首席执行官黄仁勋的离职来得突然而戏剧性，留下了一连串悬而未决的问题。 从董事会周日公开表态对其信任，到周三夜间黄仁勋正式辞职，短短数日之内发生了什么，目前仍无定论。 这场震动科技与资本市场的人事变局，不仅牵出白宫是否从中施压的疑云，更令投资者对英伟达未来的业务走向充满不确定性。 据英伟达在一份证券文件中披露，黄仁勋于周三夜间辞职。 值得关注的是，多篇报道周三晚间董事会会议的文章，均有华盛顿记者参与撰写——这些记者平日并不负责英伟达报道。 据科技媒体The Information 11月12日报道，外界由此猜测，白宫是否曾向媒体透露消息，以向黄仁勋施压，迫使其离职。这些问题的答案，据报道最终将会浮出水面，但目前仍无从证实。 消息公布后，英伟达股价周四从低点反弹，显示部分投资者认为此前两日的抛售已属过度。 截至周四收盘，英伟达股价约为166美元，对应远期市盈率仅为13.7倍，而竞",
+   "id": "41a2568aabec0e9f",
+   "title": "英伟达创18个月最差单周表现，黄仁勋离职引发市场重估",
+   "link": "https://wallstreetcn.com/articles/3785919",
+   "summary": "英伟达股价本周遭遇逾18个月以来最惨烈的单周跌幅，市值蒸发超过6200亿美元。随着创始人黄仁勋因丑闻被董事会解职，华尔街分析师普遍转向观望，市场对这家全球最大芯片公司的前景信心受到严峻考验。 11月13日周五，英伟达股价收跌2%、盘中一度下跌4.7%，将本周累计跌幅扩大至约14%。 这是自2025年4月特朗普宣布大规模关税政策、引发全球股市震荡以来的最差单周表现。本周市值损失规模超过标普500指数中97%的成分股市值。 本周抛售压力骤然加剧的直接导火索，是黄仁勋承认存在婚外情，并据报道与一名员工另有不正当关系。英伟达董事会随即将其解职，由首席财务官Colette Kress出任临时首席执行官。 消息一出，至少13名分析师下调了对该股的“买入”评级，其中大多数集中在本周，据彭博汇编数据显示，该公司目前持有\"持有\"评级的分析师已增至15名，为2023年以来最多。 丑闻冲击评级，分析师转向观望 ",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [
     {
      "src": "华尔街见闻·文章",
-     "t": "英伟达创18个月最差单周表现，黄仁勋离职引发市场重估",
-     "u": "https://wallstreetcn.com/articles/3785919"
+     "t": "黄仁勋仓促离职，背后疑云重重：白宫是否暗中介入？未来有可能回归吗？",
+     "u": "https://wallstreetcn.com/articles/3785861"
     },
     {
      "src": "华尔街见闻·文章",
@@ -1230,11 +1231,9 @@
    "topics": [
     "美国重大"
    ],
-   "words": [
-    "白宫"
-   ],
-   "time": "11-13 13:19",
-   "score": 10,
+   "words": [],
+   "time": "11-14 07:44",
+   "score": 9.4,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1276,7 +1275,7 @@
    ],
    "words": [],
    "time": "11-14 09:30",
-   "score": 9.9,
+   "score": 9.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1302,7 +1301,7 @@
    ],
    "words": [],
    "time": "11-14 07:44",
-   "score": 9.7,
+   "score": 9.4,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1433,6 +1432,26 @@
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "15a64be6afd93833",
+   "title": "Meta被意大利罚款8.05亿欧元",
+   "link": "https://wallstreetcn.com/livenews/3200131",
+   "summary": "意大利数据保护机构因Meta平台涉嫌未经同意使用安卓用户的视频和照片对其处以8.05亿欧元罚款。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 8,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
