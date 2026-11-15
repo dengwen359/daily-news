@@ -1,8 +1,8 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15 21:30",
+ "generated_at": "2026-11-15 22:30",
  "hours_window": 30,
- "count": 35,
+ "count": 36,
  "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
@@ -32,6 +32,28 @@
    "score": 25.4,
    "level": 2,
    "why": "空袭",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "e67b993f2fe842a5",
+   "title": "云南昭通市巧家县发生3.0级地震，震源深度10千米",
+   "link": "https://www.jiemian.com/article/15334467.html",
+   "summary": "中国地震台网正式测定：11月15日21时21分在云南昭通市巧家县（北纬27.19度，东经103.15度）发生3.0级地震，震源深度10千米。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "地震"
+   ],
+   "time": "11-15 21:26",
+   "score": 22.9,
+   "level": 2,
+   "why": "地震",
    "tier": "",
    "group": "界面新闻",
    "ai": ""
@@ -79,7 +101,7 @@
     "全会"
    ],
    "time": "11-15 19:39",
-   "score": 26.8,
+   "score": 26.6,
    "level": 1,
    "why": "全会",
    "tier": "must",
@@ -99,7 +121,7 @@
    ],
    "words": [],
    "time": "11-15 20:35",
-   "score": 17.9,
+   "score": 17.8,
    "level": 2,
    "why": "监管司法·被诉",
    "tier": "",
@@ -490,6 +512,32 @@
    "ai": ""
   },
   {
+   "id": "b9c868ebbf99d97a",
+   "title": "意大利因 Meta 侵犯用户隐私对其处以 8.05 亿欧元罚款",
+   "link": "https://www.solidot.org/story?sid=85892",
+   "summary": "因 Meta 的 Android 版 Facebook 应用未经用户明确同意或充分披露的情况下访问用户的手机相册和视频，意大利监管机构对其处以 8.05 亿欧元罚款。调查人员发现，该功能默认开启，而 Facebook 在申请访问用户相册权限时，将该权限与多种不同用途的应用功能捆绑在一起，通过单一授权请求获取访问权。意大利要求 Meta 在 60 天内禁用该功能，对该功能的启用额外征求用户同意。意大利约有 2000 万 Android 用户，此次罚款是意大利对科技巨头开出的金额最高的罚单之一。意大利监管机构表示，在做出处罚决定时，考虑了受影响人数巨大以及 Meta 不配合等因素。对这一处罚，Meta 已经表态将会上诉。",
+   "body": "",
+   "source": "Solidot 奇客",
+   "also": [
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "Meta被意大利罚款8.05亿欧元",
+     "u": "https://wallstreetcn.com/livenews/3200131"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-15 21:51",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "Solidot 奇客",
+   "ai": ""
+  },
+  {
    "id": "1251cef8d79b48af",
    "title": "消息称黄仁勋离职后参与遴选接班人，已与至少一位英伟达新 CEO 候选人通话",
    "link": "https://www.ithome.com/1/027/418.htm",
@@ -501,11 +549,6 @@
      "src": "IT之家",
      "t": "黄仁勋卸任后，英伟达新任 CEO 面临重建员工信任难题",
      "u": "https://www.ithome.com/1/027/433.htm"
-    },
-    {
-     "src": "IT之家",
-     "t": "黄仁勋辞任英伟达 CEO，AI 初创企业融资面临变局",
-     "u": "https://www.ithome.com/1/027/339.htm"
     }
    ],
    "topics": [
@@ -513,7 +556,7 @@
    ],
    "words": [],
    "time": "11-15 17:45",
-   "score": 10.5,
+   "score": 10.4,
    "level": 1,
    "why": "",
    "tier": "",
@@ -778,26 +821,6 @@
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "15a64be6afd93833",
-   "title": "Meta被意大利罚款8.05亿欧元",
-   "link": "https://wallstreetcn.com/livenews/3200131",
-   "summary": "意大利数据保护机构因Meta平台涉嫌未经同意使用安卓用户的视频和照片对其处以8.05亿欧元罚款。",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "wscn",
    "ai": ""
   }
  ]
