@@ -1,9 +1,9 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-17 09:00",
+ "generated_at": "2026-11-17 09:30",
  "hours_window": 30,
  "count": 46,
- "sources_ok": 12,
+ "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
   "美国重大",
@@ -96,7 +96,7 @@
     "地震"
    ],
    "time": "11-17 06:41",
-   "score": 22.7,
+   "score": 22.6,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -164,7 +164,7 @@
     "恐怖袭击"
    ],
    "time": "11-16 20:04",
-   "score": 21.4,
+   "score": 21.3,
    "level": 2,
    "why": "袭击",
    "tier": "must",
@@ -204,7 +204,7 @@
    ],
    "words": [],
    "time": "11-17 06:33",
-   "score": 17.7,
+   "score": 17.6,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
@@ -227,6 +227,47 @@
    "score": 17.6,
    "level": 2,
    "why": "监管司法·调查",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "54d4dfe0587e6fdb",
+   "title": "OpenAI扩大AMD算力布局：与TensorWave签署六年协议，部署逾450MW算力",
+   "link": "https://wallstreetcn.com/articles/3786040",
+   "summary": "AI云服务商TensorWave与OpenAI达成一项重大基础设施协议，进一步推动AMD在前沿AI算力市场的布局。 根据协议，TensorWave将在美国多个数据中心站点为OpenAI提供457MW（兆瓦）的IT算力容量，为期六年，全部搭载AMD Instinct MI455X GPU，预计2027年上半年开始投入使用，2028年初完成全面部署。 这是TensorWave迄今规模最大的单笔部署，也标志着其算力交付能力从现有的大型集群跃升至数百兆瓦量级。 此次合作是OpenAI与AMD此前宣布的战略合作伙伴关系的组成部分，旨在支持OpenAI不断增长的产品与服务需求。 对市场而言，该协议意味着AMD在AI基础设施领域正加速向英伟达主导的市场格局发起挑战，TensorWave则成为首家公开宣布作为OpenAI与AMD合作基础设施提供商的新兴云服务商。 截至发稿，AMD周一盘中下跌5.18%。 ",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "美国加州正式起诉OpenAI，指控其模型测试疏于管控、危害公共安全",
+     "u": "https://wallstreetcn.com/articles/3786048"
+    },
+    {
+     "src": "IT之家",
+     "t": "美国加州正式起诉 OpenAI，指控 AI 智能体至少 80 次失控",
+     "u": "https://www.ithome.com/1/028/028.htm"
+    },
+    {
+     "src": "IT之家",
+     "t": "OpenAI 奥尔特曼谈黄仁勋离职：我也被解雇过，相信 AI 行业能平稳度过",
+     "u": "https://www.ithome.com/1/028/052.htm"
+    },
+    {
+     "src": "IT之家",
+     "t": "OpenAI 与 Goodfire 达成 AI 安全合作，此前曾探讨超 50 亿美元收购",
+     "u": "https://www.ithome.com/1/028/024.htm"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-16 23:34",
+   "score": 13.8,
+   "level": 2,
+   "why": "签署",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -338,7 +379,7 @@
     "美联储"
    ],
    "time": "11-17 08:54",
-   "score": 15.0,
+   "score": 14.9,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -359,7 +400,7 @@
    "words": [
     "美联储"
    ],
-   "time": "11-17 08:19",
+   "time": "",
    "score": 14.9,
    "level": 1,
    "why": "失业率",
@@ -383,7 +424,7 @@
     "欧盟"
    ],
    "time": "11-16 23:54",
-   "score": 14.9,
+   "score": 14.8,
    "level": 1,
    "why": "制裁",
    "tier": "must",
@@ -415,47 +456,6 @@
    "ai": ""
   },
   {
-   "id": "54d4dfe0587e6fdb",
-   "title": "OpenAI扩大AMD算力布局：与TensorWave签署六年协议，部署逾450MW算力",
-   "link": "https://wallstreetcn.com/articles/3786040",
-   "summary": "AI云服务商TensorWave与OpenAI达成一项重大基础设施协议，进一步推动AMD在前沿AI算力市场的布局。 根据协议，TensorWave将在美国多个数据中心站点为OpenAI提供457MW（兆瓦）的IT算力容量，为期六年，全部搭载AMD Instinct MI455X GPU，预计2027年上半年开始投入使用，2028年初完成全面部署。 这是TensorWave迄今规模最大的单笔部署，也标志着其算力交付能力从现有的大型集群跃升至数百兆瓦量级。 此次合作是OpenAI与AMD此前宣布的战略合作伙伴关系的组成部分，旨在支持OpenAI不断增长的产品与服务需求。 对市场而言，该协议意味着AMD在AI基础设施领域正加速向英伟达主导的市场格局发起挑战，TensorWave则成为首家公开宣布作为OpenAI与AMD合作基础设施提供商的新兴云服务商。 截至发稿，AMD周一盘中下跌5.18%。 ",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "36氪",
-     "t": "加州就Hugging Face遭入侵及其他AI模型失控事件起诉OpenAI",
-     "u": "https://36kr.com/newsflashes/4073082166072194?f=rss"
-    },
-    {
-     "src": "IT之家",
-     "t": "美国加州正式起诉 OpenAI，指控 AI 智能体至少 80 次失控",
-     "u": "https://www.ithome.com/1/028/028.htm"
-    },
-    {
-     "src": "华尔街见闻·文章",
-     "t": "美国加州正式起诉OpenAI，指控其模型测试疏于管控、危害公共安全",
-     "u": "https://wallstreetcn.com/articles/3786048"
-    },
-    {
-     "src": "IT之家",
-     "t": "OpenAI 与 Goodfire 达成 AI 安全合作，此前曾探讨超 50 亿美元收购",
-     "u": "https://www.ithome.com/1/028/024.htm"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-16 23:34",
-   "score": 13.8,
-   "level": 2,
-   "why": "签署",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "07ab8baaef468ad4",
    "title": "日本2026年三季度GDP再现负增长",
    "link": "https://www.chinanews.com.cn/gj/2026/11-16/10733142.shtml",
@@ -470,7 +470,7 @@
     "GDP"
    ],
    "time": "11-16 22:34",
-   "score": 13.7,
+   "score": 13.6,
    "level": 1,
    "why": "GDP",
    "tier": "must",
@@ -514,7 +514,7 @@
     "美联储"
    ],
    "time": "11-16 20:02",
-   "score": 13.4,
+   "score": 13.3,
    "level": 1,
    "why": "挤兑",
    "tier": "",
@@ -564,7 +564,7 @@
     "特朗普"
    ],
    "time": "11-17 06:38",
-   "score": 12.7,
+   "score": 12.6,
    "level": 1,
    "why": "",
    "tier": "",
@@ -652,7 +652,7 @@
    ],
    "words": [],
    "time": "11-17 07:24",
-   "score": 10.8,
+   "score": 10.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -692,7 +692,7 @@
    ],
    "words": [],
    "time": "11-17 01:43",
-   "score": 10.1,
+   "score": 10.0,
    "level": 1,
    "why": "",
    "tier": "",
@@ -734,7 +734,7 @@
    ],
    "words": [],
    "time": "11-16 23:04",
-   "score": 9.8,
+   "score": 9.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -760,7 +760,7 @@
    ],
    "words": [],
    "time": "11-16 22:15",
-   "score": 9.7,
+   "score": 9.6,
    "level": 1,
    "why": "",
    "tier": "",
@@ -780,7 +780,7 @@
    ],
    "words": [],
    "time": "11-16 19:56",
-   "score": 9.4,
+   "score": 9.3,
    "level": 1,
    "why": "",
    "tier": "",
@@ -800,7 +800,7 @@
    ],
    "words": [],
    "time": "11-16 19:28",
-   "score": 9.3,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -932,7 +932,7 @@
    ],
    "words": [],
    "time": "11-16 09:30",
-   "score": 8.1,
+   "score": 8,
    "level": 1,
    "why": "",
    "tier": "must",
