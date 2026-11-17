@@ -1,8 +1,8 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-17 20:30",
+ "generated_at": "2026-11-17 21:30",
  "hours_window": 30,
- "count": 67,
+ "count": 72,
  "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
@@ -142,7 +142,7 @@
     "地震"
    ],
    "time": "11-17 06:41",
-   "score": 21.3,
+   "score": 21.1,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -186,7 +186,7 @@
     "人大常委会"
    ],
    "time": "11-17 17:20",
-   "score": 26.6,
+   "score": 20.5,
    "level": 1,
    "why": "人大常委会",
    "tier": "must",
@@ -216,6 +216,26 @@
    "ai": ""
   },
   {
+   "id": "30710eaf6c43fce0",
+   "title": "苹果将于 2027 年 6 月在法国受审，被控通过限制 iPhone 第三方维修实施计划性报废",
+   "link": "https://www.ithome.com/1/028/519.htm",
+   "summary": "IT之家 11 月 17 日消息，法国消费者权益组织“反计划报废协会”（Halte à l'Obsolescence Programmée，简称 HOP）11 月 16 日在官网宣布，苹果将于 2027 年 6 月在巴黎接受审判，回应其涉嫌阻碍用户通过官方授权渠道以外的方式维修 iPhone 一事。此前，HOP 已于四年前就这一问题对苹果提起诉讼。 HOP 此次重点质疑的是苹果一项鲜为人知的技术，名为“零件序列化”（Serialization）。简单来说，苹果会为替换零部件添加数字标识，让 iPhone 在安装零件后能够自动识别。如果手机检测到安装的不是苹果官方零件，就可能直接阻止该零件正常工作，或者限制其部分功能。 HOP 指出，即使使用的是全新或二手的苹果原装零件，只要“维修操作未经苹果批准”，也可能受到软件限制或远程连接验证的影响。该组织表示，过去几年，这一问题主要影响屏幕、电池、摄",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 20:42",
+   "score": 17.9,
+   "level": 2,
+   "why": "监管司法·被控",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "e3240b03647653ed",
    "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
    "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
@@ -228,7 +248,7 @@
    ],
    "words": [],
    "time": "11-17 19:17",
-   "score": 17.8,
+   "score": 17.7,
    "level": 2,
    "why": "监管司法·investigated",
    "tier": "must",
@@ -248,7 +268,7 @@
    ],
    "words": [],
    "time": "11-16 21:09",
-   "score": 17.1,
+   "score": 17,
    "level": 2,
    "why": "反垄断",
    "tier": "",
@@ -279,6 +299,29 @@
    "ai": ""
   },
   {
+   "id": "71017231994c470e",
+   "title": "特朗普：泰国将取消所有对美国出口商品的关税",
+   "link": "https://36kr.com/newsflashes/4073828824880265?f=rss",
+   "summary": "美国总统特朗普表示，泰国将取消所有对美国出口商品的关税，泰国将取消对美国药品的非关税壁垒；泰国将购买价值26亿美元的农产品。（财联社）",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "关税"
+   ],
+   "time": "11-17 20:32",
+   "score": 16.9,
+   "level": 1,
+   "why": "关税",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
    "id": "e4fa8bfb9e0dc38b",
    "title": "美媒梳理特朗普出访亚洲团队名单：美国务卿、财长及多位白宫工作人员在列",
    "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733601.shtml",
@@ -295,7 +338,7 @@
     "国务卿"
    ],
    "time": "11-17 18:34",
-   "score": 16.8,
+   "score": 16.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -321,7 +364,7 @@
    ],
    "words": [],
    "time": "11-17 06:33",
-   "score": 16.3,
+   "score": 16.1,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
@@ -341,7 +384,7 @@
    ],
    "words": [],
    "time": "11-17 05:56",
-   "score": 16.2,
+   "score": 16.1,
    "level": 2,
    "why": "监管司法·调查",
    "tier": "",
@@ -418,6 +461,28 @@
    "ai": ""
   },
   {
+   "id": "d250a2c5846beb31",
+   "title": "美联储穆萨莱姆：春季前可能需要“数次”加息",
+   "link": "https://www.jiemian.com/article/15343239.html",
+   "summary": "据报道，美联储穆萨莱姆表示，通胀持续高企的风险显著，春季前可能需要“数次”加息，尽早采取行动是缓解价格压力而不损害劳动力市场或经济增长的最佳方式。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储"
+   ],
+   "time": "11-17 20:49",
+   "score": 14.9,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
    "id": "13cf75c93880571a",
    "title": "香港证监会与金融市场标准委员会签署咨询协议，进一步就全球市场标准及发展交流",
    "link": "https://36kr.com/newsflashes/4073674835727494?f=rss",
@@ -459,6 +524,34 @@
    "why": "出口管制",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "0ee0a079e3106200",
+   "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
+   "link": "https://wallstreetcn.com/articles/3786116",
+   "summary": "美联储圣路易斯联储行长Alberto Musalem释放鹰派信号，暗示未来数月内需要多次加息，以在合理时间内实现价格稳定目标。 Musalem周二在阿根廷发表讲话称，在最可能的情形下，若不进一步收紧货币政策，未来18个月内通胀将持续显著高于美联储2%的目标。 他表示，到2027年春季之前，经济\"可能需要多次加息\"，实际政策利率或需提升约100个基点。 在货币政策预期层面，利率期货市场目前反映出投资者预计美联储将在12月和1月各加息25个基点，并在4月前再次加息。 通胀风险仍偏向上行 Musalem此前已多次表示，当前利率仍处于宽松区间，通胀风险\"偏向于持续高于目标水平\"。 周二他进一步强调， 尽管通胀下行本身可自然推升实际利率，但决策者不能单纯依赖这一效应——直接加息\"可能需要承担主要调控职责\"。 这一表态意味着，Musalem认为仅依靠通胀自然回落来实现货币紧缩效果的路径存在风险，主动加",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "美联储官员警告：AI自动转账或成银行挤兑新推手",
+     "u": "https://wallstreetcn.com/articles/3786022"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储"
+   ],
+   "time": "11-17 20:32",
+   "score": 14.9,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -575,28 +668,6 @@
    "ai": ""
   },
   {
-   "id": "bb895ff6fca01a32",
-   "title": "美联储哈马克重申偏好小步加息，但通胀预期若失控将被迫提速",
-   "link": "https://wallstreetcn.com/articles/3786060",
-   "summary": "美联储克利夫兰联储主席哈马克（Beth Hammack）表示，她倾向于以小幅、稳定的节奏推进加息，但若通胀压力进一步恶化，美联储可能不得不采取更大幅度的行动。 11月16日，Hammack在接受彭博电视采访时称， 她正观察到越来越多的企业和消费者开始基于\"通胀将持续恶化\"的预期做出决策，这一趋势令她警觉。 （克利夫兰联储主席Hammack，图源：美国克利夫兰联邦储备银行官网） 她警告称， 若这种通胀心态在社会层面扎根，\"可能意味着我们已经落后于曲线，可能不得不更快行动，以更大的幅度加息。无论是单次幅度还是最终利率目标，都可能高于原先预期\"。 Hammack曾在美联储10月议息会议上对维持利率不变的决定投下反对票。期货市场目前已消化12月加息预期，并预判1月或将再度加息。 通胀动因广泛，劳动力市场出现收紧迹象 据报道，Hammack表示，当前通胀的来源涵盖关税余波、能源供给问题、人工智能基础",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "美联储"
-   ],
-   "time": "11-17 08:54",
-   "score": 13.6,
-   "level": 1,
-   "why": "加息",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "cff1010d9d39aac0",
    "title": "美军中央司令部证实，三艘航母再次在中东地区集结部署",
    "link": "https://m.thepaper.cn/newsDetail_forward_34491877",
@@ -619,25 +690,25 @@
    "ai": ""
   },
   {
-   "id": "91f50a48842c3f6a",
-   "title": "FBI 警告黑客利用 Artex 能在三小时内入侵网络",
-   "link": "https://www.solidot.org/story?sid=85910",
-   "summary": "FBI 发出警告，黑客正在利用名为 Artex 的 AI 驱动渗透测试工具，在部分情况下不到三个小时即可成功入侵网络。该工具已被发现与针对韩国金融机构、至少 2250 家 ConnectWise 客户以及 Barracuda 公司的攻击事件有关。Artex 最初是一个开源工具，开发者已将其转为闭源，但其开源版本在互联网上仍然很容易找到。Artex 会通过快速扫描受害者的网络寻找弱点，随后利用简单的安全漏洞如防护薄弱、密码泄露或被盗等建立立足点，之后借助 Artex 在网络内搜寻数据库、邮箱及其它敏感信息。",
+   "id": "bb895ff6fca01a32",
+   "title": "美联储哈马克重申偏好小步加息，但通胀预期若失控将被迫提速",
+   "link": "https://wallstreetcn.com/articles/3786060",
+   "summary": "美联储克利夫兰联储主席哈马克（Beth Hammack）表示，她倾向于以小幅、稳定的节奏推进加息，但若通胀压力进一步恶化，美联储可能不得不采取更大幅度的行动。 11月16日，Hammack在接受彭博电视采访时称， 她正观察到越来越多的企业和消费者开始基于\"通胀将持续恶化\"的预期做出决策，这一趋势令她警觉。 （克利夫兰联储主席Hammack，图源：美国克利夫兰联邦储备银行官网） 她警告称， 若这种通胀心态在社会层面扎根，\"可能意味着我们已经落后于曲线，可能不得不更快行动，以更大的幅度加息。无论是单次幅度还是最终利率目标，都可能高于原先预期\"。 Hammack曾在美联储10月议息会议上对维持利率不变的决定投下反对票。期货市场目前已消化12月加息预期，并预判1月或将再度加息。 通胀动因广泛，劳动力市场出现收紧迹象 据报道，Hammack表示，当前通胀的来源涵盖关税余波、能源供给问题、人工智能基础",
    "body": "",
-   "source": "Solidot 奇客",
+   "source": "华尔街见闻·文章",
    "also": [],
    "topics": [
-    "突发事件"
+    "美国重大"
    ],
    "words": [
-    "入侵"
+    "美联储"
    ],
-   "time": "11-17 16:07",
-   "score": 13.5,
+   "time": "11-17 08:54",
+   "score": 13.4,
    "level": 1,
-   "why": "入侵",
+   "why": "加息",
    "tier": "",
-   "group": "Solidot 奇客",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -663,23 +734,25 @@
    "ai": ""
   },
   {
-   "id": "ae0b37fdc473ef25",
-   "title": "谷歌与Quaise Energy签署电力协议，布局地热技术",
-   "link": "https://36kr.com/newsflashes/4073773055186050?f=rss",
-   "summary": "谷歌签下一份价值超5亿美元的协议，将从总部位于休斯顿的Quaise在俄勒冈州中部开发的地热项目采购50兆瓦电力。该项目产出的电力，将供给谷歌在俄勒冈州现有数据中心使用。这份协议对Quaise而言是重大利好。该公司研发的这项技术目前尚未经过商业化规模验证。Quaise首席执行官卡洛斯・阿拉克表示：“谷歌相当于为我们背书，表明‘我们看好这项技术，看好它的前景’。”Quaise称，该项目总投资约3.5亿美元，将成为全球首个利用温度超过572华氏度（约300摄氏度）岩层发电的项目。（新浪财经）",
+   "id": "91f50a48842c3f6a",
+   "title": "FBI 警告黑客利用 Artex 能在三小时内入侵网络",
+   "link": "https://www.solidot.org/story?sid=85910",
+   "summary": "FBI 发出警告，黑客正在利用名为 Artex 的 AI 驱动渗透测试工具，在部分情况下不到三个小时即可成功入侵网络。该工具已被发现与针对韩国金融机构、至少 2250 家 ConnectWise 客户以及 Barracuda 公司的攻击事件有关。Artex 最初是一个开源工具，开发者已将其转为闭源，但其开源版本在互联网上仍然很容易找到。Artex 会通过快速扫描受害者的网络寻找弱点，随后利用简单的安全漏洞如防护薄弱、密码泄露或被盗等建立立足点，之后借助 Artex 在网络内搜寻数据库、邮箱及其它敏感信息。",
    "body": "",
-   "source": "36氪",
+   "source": "Solidot 奇客",
    "also": [],
    "topics": [
-    "美国重大"
+    "突发事件"
    ],
-   "words": [],
-   "time": "11-17 19:36",
-   "score": 12.9,
+   "words": [
+    "入侵"
+   ],
+   "time": "11-17 16:07",
+   "score": 13.3,
    "level": 1,
-   "why": "签署",
+   "why": "入侵",
    "tier": "",
-   "group": "36氪",
+   "group": "Solidot 奇客",
    "ai": ""
   },
   {
@@ -705,19 +778,33 @@
    "ai": ""
   },
   {
+   "id": "ae0b37fdc473ef25",
+   "title": "谷歌与Quaise Energy签署电力协议，布局地热技术",
+   "link": "https://36kr.com/newsflashes/4073773055186050?f=rss",
+   "summary": "谷歌签下一份价值超5亿美元的协议，将从总部位于休斯顿的Quaise在���勒冈州中部开发的地热项目采购50兆瓦电力。该项目产出的电力，将供给谷歌在俄勒冈州现有数据中心使用。这份协议对Quaise而言是重大利好。该公司研发的这项技术目前尚未经过商业化规模验证。Quaise首席执行官卡洛斯・阿拉克表示：“谷歌相当于为我们背书，表明‘我们看好这项技术，看好它的前景’。”Quaise称，该项目总投资约3.5亿美元，将成为全球首个利用温度超过572华氏度（约300摄氏度）岩层发电的项目。（新浪财经）",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 19:36",
+   "score": 12.8,
+   "level": 1,
+   "why": "签署",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
    "id": "0e5e057bacb23b53",
    "title": "英伟达财报临近，美股期货盘前延续跌势，纳指期货跌近0.5%，油价小幅上涨",
    "link": "https://wallstreetcn.com/articles/3786084",
    "summary": "科技股抛售潮持续蔓延，投资者在英伟达季度财报公布前夕普遍选择观望，AI相关交易的前景因此蒙上更大阴影。 美股股指期货延续跌势，纳指期货、标普500指数期货跌近0.5%，触及盘中低点。美股存储板块盘前普涨，美光涨0.13%，闪迪涨0.08%，SK海力士涨0.51%，西部数据涨0.12%，希捷科技涨0.61%。与此同时，英伟达股价周一下跌4.1%，本周将公布的季度财报及首席执行官黄仁勋去留问题，共同构成近期AI交易方向的两大关键变量。MSCI全球股票指数周二小幅下滑0.2%，连续第四日录得跌幅。 大宗商品市场方面，布伦特原油日内涨幅达0.5%，报92.92美元/桶。供应过剩迹象及美国副总统JD Vance释放的避免对伊战争长期化信号共同施压油价。现货黄金小幅上涨0.5%至每盎司3874.40美元。 Bloomberg彭博策略师Mark Cranfield指出，交易员在流动性枯竭前倾向于主动降低",
    "body": "",
    "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "今夜，英伟达财报焦点：没有黄仁勋，谁还能讲好AI故事？",
-     "u": "https://wallstreetcn.com/articles/3786021"
-    }
-   ],
+   "also": [],
    "topics": [
     "美国重大"
    ],
@@ -725,33 +812,11 @@
     "美股"
    ],
    "time": "11-17 18:46",
-   "score": 12.8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "d728d5d7d0f549af",
-   "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
-   "link": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
-   "summary": "President Trump is off for a series of meetings in Asia that will cover trade, security and a rare trilateral meeting with China and Russia.",
-   "body": "",
-   "source": "NPR·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-17 17:46",
    "score": 12.7,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "npr",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -774,6 +839,28 @@
    "why": "",
    "tier": "must",
    "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "d728d5d7d0f549af",
+   "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
+   "link": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
+   "summary": "President Trump is off for a series of meetings in Asia that will cover trade, security and a rare trilateral meeting with China and Russia.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-17 17:46",
+   "score": 12.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "npr",
    "ai": ""
   },
   {
@@ -805,6 +892,28 @@
    "ai": ""
   },
   {
+   "id": "6c11b629dd333391",
+   "title": "中方如何评价特朗普称“可能会与金正恩在中国会面”言论？外交部回应",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34489922",
+   "summary": "11月17日，外交部发言人郭嘉昆主持例行记者会。 韩联社记者提问，当地时间16日，美国总统特朗普表示可能会在中国与朝鲜国务委员长金正恩会面，但称目前尚不清楚金正恩委员长是否会来。中方如何评价特朗普总统的上述言论？朝鲜和美国是否有举行会谈的可能性？ 对此，郭嘉昆表示：“我没有这方面的信息。” 有外媒记者继续提问，俄罗斯和美国方面称，普京和特朗普可能在APEC会议期间会见金正恩，中方是否作为东道国邀请了金正恩？ 郭嘉昆表示，刚才我已经回答了相关的问题，我没有这方面的信息。",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "",
+   "score": 12.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
    "id": "54d4dfe0587e6fdb",
    "title": "OpenAI扩大AMD算力布局：与TensorWave签署六年协议，部署逾450MW算力",
    "link": "https://wallstreetcn.com/articles/3786040",
@@ -823,53 +932,9 @@
    ],
    "words": [],
    "time": "11-16 23:34",
-   "score": 12.4,
+   "score": 12.3,
    "level": 2,
    "why": "签署",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "6c11b629dd333391",
-   "title": "中方如何评价特朗普称“可能会与金正恩在中国会面”言论？外交部回应",
-   "link": "https://m.thepaper.cn/newsDetail_forward_34489922",
-   "summary": "11月17日，外交部发言人郭嘉昆主持例行记者会。 韩联社记者提问，当地时间16日，美国总统特朗普表示可能会在中国与朝鲜国务委员长金正恩会面，但称目前尚不清楚金正恩委员长是否会来。中方如何评价特朗普总统的上述言论？朝鲜和美国是否有举行会谈的可能性？ 对此，郭嘉昆表示：“我没有这方面的信息。” 有外媒记者继续提问，俄罗斯和美国方面称，普京和特朗普可能在APEC会议期间会见金正恩，中方是否作为东道国邀请了金正恩？ 郭嘉昆表示，刚才我已经回答了相关的问题，我没有这方面的信息。",
-   "body": "",
-   "source": "澎湃新闻",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "特朗普"
-   ],
-   "time": "11-17 15:25",
-   "score": 12.4,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "澎湃新闻",
-   "ai": ""
-  },
-  {
-   "id": "718e708fcaf873e5",
-   "title": "美联储官员警告：AI自动转账或成银行挤兑新推手",
-   "link": "https://wallstreetcn.com/articles/3786022",
-   "summary": "美联储官员就人工智能对金融稳定的潜在威胁发出警告，将AI自主代理列为未来银行挤兑的新型风险来源。 美联储理事Michael Barr周一在米兰一场会议上发表讲话称，自主AI代理可能通过自动响应市场信号或利率变化、即时转移客户存款，从而加速银行体系的不稳定性。他指出， 主要银行已检测到AI代理试图在零售账户中执行未经授权操作的案例。 Barr警告， AI驱动的资金转移可能在数分钟内引发挤兑，令传统流动性管理和监管介入机制难以应对。 这一表态表明，随着AI技术在金融领域加速渗透，监管层对其系统性风险的关注正在上升，并对相关技术部署提出了明确的合规要求。 AI代理或将挤兑速度提升至分钟级 Barr在讲话中描绘了一个具体的风险场景：过去需要客户手动操作才能完成的存款转移，在AI代理介入后可能变得完全自动化且即时发生。 \" 客户过去需要亲自执行转账，而AI代理可以即时检测收益率差异或稳定性信号，并以",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "美联储"
-   ],
-   "time": "11-16 20:02",
-   "score": 12,
-   "level": 1,
-   "why": "挤兑",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -988,6 +1053,46 @@
    "ai": ""
   },
   {
+   "id": "ad0fa64d994cf473",
+   "title": "期权市场预计，英伟达财报发布后市值或出现 3350 亿美元波动",
+   "link": "https://www.ithome.com/1/028/528.htm",
+   "summary": "IT之家 11 月 17 日消息，据路透社报道，英伟达将于北京时间 18 日凌晨公布第三季度财报，期权市场预期，财报发布后公司 市值的波动幅度可能达到 3,350 亿美元 （IT之家注：现汇率约合 2.24 万亿元人民币） ，凸显投资者对其前景的不安。 伦敦证券交易所集团（LSEG）数据显示，英伟达市值从 10 月初的约 5.8 万亿美元 缩水至 13 日的约 3.9 万亿美元 ，周一股价再跌 4%。 萨斯奎汉纳国际集团数据显示，期权市场预计，英伟达财报公布后的首个交易日（当地时间 18 日），股价可能 上涨或下跌约 8.5% 。这一预期波幅超过过去八个季度财报发布后平均波幅的两倍，接近上次财报公布后 8.74% 的涨幅。 按照期权市场的预期，英伟达单日市值波动的规模甚至 超过标普 500 指数约九成成分股各自的市值 。 萨斯奎汉纳国际集团衍生品策略联席主管克里斯 · 墨菲指出，投资者在财",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 21:20",
+   "score": 11.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "3e3b94c9f1288759",
+   "title": "Nvidia’s Earnings Call Is a High-Stakes Moment",
+   "link": "https://www.nytimes.com/2026/11/17/business/dealbook/nvidia-ai-earnings-huang.html",
+   "summary": "Wall Street is bracing for the chip maker’s latest earnings call, as analysts seek clues about the artificial intelligence giant’s future.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 21:02",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "1eb990508b0ea742",
    "title": "伯克希尔三季度持仓曝光：未继续加码谷歌，新建仓这只科技股",
    "link": "https://m.thepaper.cn/newsDetail_forward_34491702",
@@ -1060,7 +1165,7 @@
    ],
    "words": [],
    "time": "11-17 16:59",
-   "score": 10.6,
+   "score": 10.4,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1122,27 +1227,7 @@
    ],
    "words": [],
    "time": "11-17 11:46",
-   "score": 9.9,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "d3879e0ecea3f300",
-   "title": "传奇投资者Druckenmiller抛售芯片股，增持SpaceX",
-   "link": "https://wallstreetcn.com/articles/3786071",
-   "summary": "传奇投资者Stanley Druckenmiller在2026年三季度对旗下投资组合进行了大幅调仓——清仓多只半导体及科技巨头股票，同时新建仓SpaceX、Palantir等标的，并转向黄金矿业板块。 根据Druckenmiller旗下Duquesne家族办公室向美国证券交易委员会（SEC）提交的最新13F文件， Druckenmiller在三季度完全退出了AMD、闪迪和Alphabet的持仓。 这份文件于11月16日截止日前提交，是市场观察其最新持仓动向的重要窗口。 此次调仓发生在科技股普遍承压的背景下。AMD自10月6日创下收盘新高后已累计下跌22%，闪迪自6月底高点以来股价跌幅接近三分之二，Alphabet则自5月中旬峰值以来累计下跌约30%，仅三季度结束后便已再跌18%。 清仓AMD、闪迪与谷歌，大幅削减台积电等持仓 Duquesne在二季度末持有AMD股票72,900股、闪迪股票",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-17 10:17",
-   "score": 9.7,
+   "score": 9.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1196,6 +1281,26 @@
    "ai": ""
   },
   {
+   "id": "d3879e0ecea3f300",
+   "title": "传奇投资者Druckenmiller抛售芯片股，增持SpaceX",
+   "link": "https://wallstreetcn.com/articles/3786071",
+   "summary": "传奇投资者Stanley Druckenmiller在2026年三季度对旗下投资组合进行了大幅调仓——清仓多只半导体及科技巨头股票，同时新建仓SpaceX、Palantir等标的，并转向黄金矿业板块。 根据Druckenmiller旗下Duquesne家族办公室向美国证券交易委员会（SEC）提交的最新13F文件， Druckenmiller在三季度完全退出了AMD、闪迪和Alphabet的持仓。 这份文件于11月16日截止日前提交，是市场观察其最新持仓动向的重要窗口。 此次调仓发生在科技股普遍承压的背景下。AMD自10月6日创下收盘新高后已累计下跌22%，闪迪自6月底高点以来股价跌幅接近三分之二，Alphabet则自5月中旬峰值以来累计下跌约30%，仅三季度结束后便已再跌18%。 清仓AMD、闪迪与谷歌，大幅削减台积电等持仓 Duquesne在二季度末持有AMD股票72,900股、闪迪股票",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 10:17",
+   "score": 9.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "338de1702ffe52bb",
    "title": "特斯拉拟投30亿欧元扩建德国工厂生产Cybercab，高管称2029年投产",
    "link": "https://wallstreetcn.com/articles/3786056",
@@ -1208,7 +1313,7 @@
    ],
    "words": [],
    "time": "11-17 07:24",
-   "score": 9.4,
+   "score": 9.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1234,7 +1339,7 @@
    ],
    "words": [],
    "time": "11-17 01:43",
-   "score": 8.7,
+   "score": 8.5,
    "level": 1,
    "why": "暴跌",
    "tier": "",
