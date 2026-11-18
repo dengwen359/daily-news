@@ -1,9 +1,9 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-18 09:00",
+ "generated_at": "2026-11-18 09:30",
  "hours_window": 30,
- "count": 57,
- "sources_ok": 12,
+ "count": 64,
+ "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
   "美国重大",
@@ -75,7 +75,7 @@
     "SEC"
    ],
    "time": "11-18 04:59",
-   "score": 19.5,
+   "score": 19.4,
    "level": 2,
    "why": "监管司法·SEC、调查",
    "tier": "",
@@ -118,7 +118,7 @@
    ],
    "words": [],
    "time": "11-17 23:05",
-   "score": 18.8,
+   "score": 18.7,
    "level": 2,
    "why": "出口管制",
    "tier": "",
@@ -178,7 +178,7 @@
    ],
    "words": [],
    "time": "11-18 07:58",
-   "score": 17.9,
+   "score": 17.8,
    "level": 2,
    "why": "监管司法·国家安全",
    "tier": "",
@@ -198,31 +198,11 @@
    ],
    "words": [],
    "time": "11-18 07:14",
-   "score": 17.8,
+   "score": 17.7,
    "level": 2,
    "why": "监管司法·辞职",
    "tier": "",
    "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "e3240b03647653ed",
-   "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-   "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-   "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 17.3,
-   "level": 2,
-   "why": "监管司法·investigated",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -266,6 +246,26 @@
    "why": "关税",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "e3240b03647653ed",
+   "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+   "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+   "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 19:17",
+   "score": 16.2,
+   "level": 2,
+   "why": "监管司法·investigated",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -374,7 +374,7 @@
     "国务卿"
    ],
    "time": "11-17 18:34",
-   "score": 15.2,
+   "score": 15.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -473,6 +473,28 @@
    "ai": ""
   },
   {
+   "id": "dbfc0fd6284d0b63",
+   "title": "中选之后清算潮？爱泼斯坦和特朗普税务文件流出，德银股价重挫，特朗普回应",
+   "link": "https://wallstreetcn.com/articles/3786144",
+   "summary": "德意志银行周二在法兰克福股价一度重挫逾6% ，导火索是一批多达1500万份的泄露文件，揭示这家德国最大银行处理了与爱泼斯坦（Jeffrey Epstein）相关的逾5.82亿美元可疑交款，在2017年将特朗普的税务文件意外泄露给外部人士。 这批文件由两名举报人从银行内部复制后，交给印度记者Josy Joseph和南非记者Khadija Sharife，由南非非营利机构Barracuda Media统筹协调，联合《金融时报》、《明镜》周刊、《世界报》和《纽约时报》等逾200名记者历时数月完成调查。 举报人的律师表示，相关材料已同步移交美国司法部、财政部金融犯罪执法网络（FinCEN）以及英国税务机关。 正在马尼拉出席四方峰会的特朗普被记者追问德意志银行泄露其税务记录一事，他回应称： “ 我缴了很多税。他们这样做是违法的。 ” 德意志银行则在声明中表示，相关事项“可追溯至多年前，部分甚至长达二",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "11-18 09:13",
+   "score": 13.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "0e5e057bacb23b53",
    "title": "英伟达财报临近，美股跌势延续，半导体指数涨0.7%，油价日内上涨1%",
    "link": "https://wallstreetcn.com/articles/3786084",
@@ -509,11 +531,33 @@
     "华尔街"
    ],
    "time": "11-17 15:17",
-   "score": 12.8,
+   "score": 12.7,
    "level": 1,
    "why": "暴跌",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "8f30c2f140434fa8",
+   "title": "Iran Is Emboldened After Trump and GOP’s Election Losses, Officials Say",
+   "link": "https://www.nytimes.com/2026/11/17/us/politics/iran-trump-midterms.html",
+   "summary": "Iran’s negotiating position has hardened since the midterms, U.S. and other Western officials say. An American lawmaker warned that Iran felt “strategically empowered.”",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-18 07:11",
+   "score": 12.7,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -530,7 +574,7 @@
    "words": [
     "入侵"
    ],
-   "time": "11-17 21:32",
+   "time": "",
    "score": 12.6,
    "level": 1,
    "why": "入侵",
@@ -556,28 +600,6 @@
    "why": "签署",
    "tier": "",
    "group": "36氪",
-   "ai": ""
-  },
-  {
-   "id": "d728d5d7d0f549af",
-   "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
-   "link": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
-   "summary": "President Trump is off for a series of meetings in Asia that will cover trade, security and a rare trilateral meeting with China and Russia.",
-   "body": "",
-   "source": "NPR·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "",
-   "score": 12.2,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "npr",
    "ai": ""
   },
   {
@@ -666,7 +688,7 @@
     "入侵"
    ],
    "time": "11-17 16:07",
-   "score": 11.9,
+   "score": 11.8,
    "level": 1,
    "why": "入侵",
    "tier": "",
@@ -696,6 +718,68 @@
    "ai": ""
   },
   {
+   "id": "226a2d946756a91a",
+   "title": "Russian military plane crashes, killing all 19 on board",
+   "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+   "summary": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [],
+   "time": "11-18 05:06",
+   "score": 11.5,
+   "level": 1,
+   "why": "crashes",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
+   "id": "d728d5d7d0f549af",
+   "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
+   "link": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
+   "summary": "President Trump is off for a series of meetings in Asia that will cover trade, security and a rare trilateral meeting with China and Russia.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-17 17:46",
+   "score": 11.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "npr",
+   "ai": ""
+  },
+  {
+   "id": "ee6a57aea812024a",
+   "title": "三星电机与英伟达扩大在AI芯片组件方面的合作",
+   "link": "https://36kr.com/newsflashes/4074592872518793?f=rss",
+   "summary": "三星电子旗下的电子元件子公司三星电机周三表示，已同意扩大与英伟达的合作，以支持这家美国芯片制造商提升其加速计算平台的产量，从而满足全球对人工智能（AI）基础设施日益增长的需求。三星电机指出，此次合作扩展是在双方上个月建立的半导体封装基板供应战略合作伙伴关系基础上进行的，重点在于增加用于英伟达下一代图形处理器（GPU）的先进封装基板的供应量。作为协议的一部分，英伟达将提供额外资金，支持三星电机在韩国的两处制造设施进行扩建。（新浪财经）",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 09:30",
+   "score": 11.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
    "id": "84647da5ff769888",
    "title": "SpaceX德克萨斯州数据中心项目获批空气污染许可证，扫清一大监管障碍",
    "link": "https://36kr.com/newsflashes/4074501849076612?f=rss",
@@ -716,6 +800,26 @@
    "ai": ""
   },
   {
+   "id": "6b3ad04f7726be75",
+   "title": "英伟达季度营收破千亿美金，但昨日的世界已经远去",
+   "link": "https://36kr.com/p/4074562529645445?f=rss",
+   "summary": "作者 | 邱晓芬 编辑 | 袁斯来 在黄仁勋离职卷起的风暴眼中，英伟达交出了近年来可能最受瞩目的财报。 北京时间11月18日凌晨，英伟达发布2027财年第三季度财报。这是原CFO Colette Kress接任临时CEO以来，英伟达的首份成绩单。 财报数据显示，英伟达第三季度营收达到 1158亿美元 ， 同比增长103%； 净利润达到 653亿美元 ， 同比增长105% ，双双创下历史新高。其中，数据中心业务营收达到 1076亿美元，同比增长110% ，占总营收的93%。 其中，按照客户总部所在地统计，英伟达来自中国大陆及香港的季度收入为 110.5亿 美元，同比增长约272%。这并不意味着中国AI芯片业务已经恢复。英伟达在下一季度财务指引中，仍未计入来自中国的数据中心计算业务收入。 风波以来短短五日，英伟达市值蒸发约8000亿美元，相当于跌去了3.5个阿里。亮眼的财报又为市场注入了一针强",
+   "body": "",
+   "source": "36氪",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 09:01",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
    "id": "268ce80d31f9106f",
    "title": "英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元",
    "link": "https://www.ithome.com/1/028/608.htm",
@@ -728,42 +832,11 @@
    ],
    "words": [],
    "time": "11-18 08:51",
-   "score": 11.0,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "2cacaa691de315da",
-   "title": "英伟达电话会：“不打算请回黄仁勋”，2028财年增速预期上调至75%，AI投资将更加“克制与挑剔”",
-   "link": "https://wallstreetcn.com/articles/3786136",
-   "summary": "华尔街见闻提及 ，美东时间17日周二美股盘后，英伟达公布，截至2026年10月25日的公司2027财年第三财季，营收同比增长103.1%至1158亿美元，不但公司史上首次单季营收突破1000亿美元，而且较分析师预期高约5.9%，也明显高于该司自身指引中值1080亿美元。 随后英伟达举行了2027财年第三季度财报电话会议，这也是公司经历高层巨震后的首场业绩沟通会。针对市场最关注的换帅问题，英伟达董事长Harvey Jones在开场给出了明确且强硬的定调： 英伟达董事会一致接受了他的辞呈，并且不打算恢复黄仁勋的CEO职务。 他强调，董事会已成立美国国家安全和出口控制监督委员会，并在积极寻找正式CEO。 面对外界的担忧，代理CEO兼首席财务官Colette Kress试图稳住军心，她强调从商业角度来看，“一切如常”，并表示： 我们的势头是真实的。我们拥有领先市场的多年路线图、延续到本十年末的供应",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "英伟达将2028财年营收增长预期上调至约75%",
-     "u": "https://www.jiemian.com/article/15343851.html"
-    },
-    {
-     "src": "36氪",
-     "t": "英伟达将2028财年营收增长预期上调至约75%",
-     "u": "https://36kr.com/newsflashes/4074492542932104?f=rss"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 08:35",
    "score": 10.9,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -778,32 +851,12 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 08:27",
+   "time": "",
    "score": 10.9,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "36氪",
-   "ai": ""
-  },
-  {
-   "id": "b4220cea4139663c",
-   "title": "英伟达上财季营收翻番首超千亿美元，董事会称未考虑黄仁勋“回归”",
-   "link": "https://m.thepaper.cn/newsDetail_forward_34500098",
-   "summary": "处于管理层剧变风波中的AI（人工智能）芯片龙头英伟达公布了强劲的季度业绩。 当地时间11月17日美股盘后，英伟达（Nasdaq：NVDA）发布了截至10月25日的2027财年第三财季财报，期内实现营收1158.4亿美元，同比增长103%，高于市场预期的1091亿美元；美国通用会计准则（GAAP）下净利润653亿美元，同比大增105%；Non-GAAP下每股摊薄收益为2.68美元，同比大增111%，超出市场预期的2.48美元。公司第三财季毛利率为74.9%。 同时，英伟达对下一财季的业绩作出指引，预计2027财年第四财季的销售额将达到1300亿美元，上下浮动3%，高于市场平均预期的1251亿美元。英伟达预计第四季度毛利率将达到71%至72%之间。 英伟达临时CEO科莱特·克雷斯（Colette Kress）表示：“我们的增长势头真实而强劲。英伟达是一家卓越的技术领导者，这得益于员工们持续不断",
-   "body": "",
-   "source": "澎湃新闻",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 08:22",
-   "score": 10.9,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "澎湃新闻",
    "ai": ""
   },
   {
@@ -844,6 +897,46 @@
    "why": "",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "2cacaa691de315da",
+   "title": "英伟达电话会：“不打算请回黄仁勋”，2028财年增速预期上调至75%，AI投资将更加“克制与挑剔”",
+   "link": "https://wallstreetcn.com/articles/3786136",
+   "summary": "华尔街见闻提及 ，美东时间17日周二美股盘后，英伟达公布，截至2026年10月25日的公司2027财年第三财季，营收同比增长103.1%至1158亿美元，不但公司史上首次单季营收突破1000亿美元，而且较分析师预期高约5.9%，也明显高于该司自身指引中值1080亿美元。 随后英伟达举行了2027财年第三季度财报电话会议，这也是公司经历高层巨震后的首场业绩沟通会。针对市场最关注的换帅问题，英伟达董事长Harvey Jones在开场给出了明确且强硬的定调： 英伟达董事会一致接受了他的辞呈，并且不打算恢复黄仁勋的CEO职务。 他强调，董事会已成立美国国家安全和出口控制监督委员会，并在积极寻找正式CEO。 面对外界的担忧，代理CEO兼首席财务官Colette Kress试图稳住军心，她强调从商业角度来看，“一切如常”，并表示： 我们的势头是真实的。我们拥有领先市场的多年路线图、延续到本十年末的供应",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 08:35",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "b4220cea4139663c",
+   "title": "英伟达上财季营收翻番首超千亿美元，董事会称未考虑黄仁勋“回归”",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34500098",
+   "summary": "处于管理层剧变风波中的AI（人工智能）芯片龙头英伟达公布了强劲的季度业绩。 当地时间11月17日美股盘后，英伟达（Nasdaq：NVDA）发布了截至10月25日的2027财年第三财季财报，期内实现营收1158.4亿美元，同比增长103%，高于市场预期的1091亿美元；美国通用会计准则（GAAP）下净利润653亿美元，同比大增105%；Non-GAAP下每股摊薄收益为2.68美元，同比大增111%，超出市场预期的2.48美元。公司第三财季毛利率为74.9%。 同时，英伟达对下一财季的业绩作出指引，预计2027财年第四财季的销售额将达到1300亿美元，上下浮动3%，高于市场平均预期的1251亿美元。英伟达预计第四季度毛利率将达到71%至72%之间。 英伟达临时CEO科莱特·克雷斯（Colette Kress）表示：“我们的增长势头真实而强劲。英伟达是一家卓越的技术领导者，这得益于员工们持续不断",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 08:22",
+   "score": 10.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "澎湃新闻",
    "ai": ""
   },
   {
@@ -907,26 +1000,6 @@
    "ai": ""
   },
   {
-   "id": "3e3b94c9f1288759",
-   "title": "Nvidia’s Earnings Call Is a High-Stakes Moment",
-   "link": "https://www.nytimes.com/2026/11/17/business/dealbook/nvidia-ai-earnings-huang.html",
-   "summary": "Wall Street is bracing for the chip maker’s latest earnings call, as analysts seek clues about the artificial intelligence giant’s future.",
-   "body": "",
-   "source": "纽约时报·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 10.6,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "6377401a2ae5a3f5",
    "title": "英伟达公布黄仁勋离职后的首份财报：2027 财年前三季度归母净利润 1832.97 亿美元同比增长 137.72%，Q3 营收 1158.44 亿美元同比增长 103%",
    "link": "https://www.ithome.com/1/028/575.htm",
@@ -939,11 +1012,31 @@
    ],
    "words": [],
    "time": "11-18 05:25",
-   "score": 10.6,
+   "score": 10.5,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "f18ea495cdfbaa0f",
+   "title": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
+   "link": "https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
+   "summary": "The chip maker is scheduled to release its quarterly results amid broader jitters about the A.I. trade.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 04:38",
+   "score": 10.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -953,21 +1046,15 @@
    "summary": "OpenAI推出旗舰模型最新迭代版本，在性能提升的同时大幅降低使用成本，并在多项基准测试中超越竞争对手Anthropic的顶级模型。 此次发布的GPT-6.2 Astra定位于复杂专业工作场景，涵盖金融建模与科学研究等领域，同步推出的GPT-6.2 Sol则面向日常任务。 OpenAI表示， GPT-6.2 Astra在多步骤专业工作基准测试中的得分较竞品Claude Fable 5.2高出5.5分，而成本仅为后者的5%。此次发布恰逢Anthropic备受市场关注的上市前夕，时间节点颇为微妙。 新模型的推出同时面临外界对前沿AI系统安全风险的持续审视。OpenAI曾于9月底以模型\"未能充分限定工作范围与权限边界\"为由，暂停发布GPT-6.1 Astra；此前，该公司还曾短暂中止对最高级AI系统的训练，并在切断模型的互联网访问权限后方才重启。 安全顾虑促使发布推迟近两个月 GPT-6.2 A",
    "body": "",
    "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "AI早报|Anthropic获准在纳斯达克全球精选市场上市A类普通股，美国加州起诉OpenAI",
-     "u": "https://www.jiemian.com/article/15343327.html"
-    }
-   ],
+   "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
    "time": "11-18 04:19",
    "score": 10.4,
-   "level": 2,
-   "why": "监管司法·起诉",
+   "level": 1,
+   "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -985,11 +1072,33 @@
    ],
    "words": [],
    "time": "11-18 03:55",
-   "score": 10.4,
+   "score": 10.3,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "644616ffec8471ba",
+   "title": "美国国务卿鲁比奥：没有迹象显示美国多起故障事件相互关联或涉及恶意行为者。",
+   "link": "https://wallstreetcn.com/livenews/3201618",
+   "summary": "美国国务卿鲁比奥：没有迹象显示美国多起故障事件相互关联或涉及恶意行为者。 不想臆测AI在任何故障事件扮演的角色。 尽管如此，美国完全承认“这令人不安”。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "国务卿"
+   ],
+   "time": "",
+   "score": 10,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -1024,7 +1133,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-17 21:39",
+   "time": "",
    "score": 9.6,
    "level": 1,
    "why": "",
@@ -1044,12 +1153,32 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-17 21:30",
+   "time": "",
    "score": 9.6,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "3e3b94c9f1288759",
+   "title": "Nvidia’s Earnings Call Is a High-Stakes Moment",
+   "link": "https://www.nytimes.com/2026/11/17/business/dealbook/nvidia-ai-earnings-huang.html",
+   "summary": "Wall Street is bracing for the chip maker’s latest earnings call, as analysts seek clues about the artificial intelligence giant’s future.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 21:02",
+   "score": 9.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -1085,7 +1214,7 @@
    ],
    "words": [],
    "time": "11-17 10:17",
-   "score": 8.2,
+   "score": 8.1,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1114,11 +1243,6 @@
      "src": "华尔街见闻·文章",
      "t": "英伟达担忧暂缓！本季指引再超预期创新高，Vera Rubin“爆发式开局”，调升下财年指引 | 财报见闻",
      "u": "https://wallstreetcn.com/articles/3786135"
-    },
-    {
-     "src": "IT之家",
-     "t": "黄仁勋卸任英伟达 CEO 后 X 账号企业徽章等被移除，马斯克回应免费恢复蓝标",
-     "u": "https://www.ithome.com/1/028/532.htm"
     }
    ],
    "topics": [
@@ -1126,7 +1250,7 @@
    ],
    "words": [],
    "time": "11-17 10:15",
-   "score": 8.2,
+   "score": 8.1,
    "level": 2,
    "why": "监管司法·国会、听证",
    "tier": "",
