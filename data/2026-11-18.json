@@ -1,9 +1,9 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-18 10:30",
+ "generated_at": "2026-11-18 12:30",
  "hours_window": 30,
- "count": 69,
- "sources_ok": 12,
+ "count": 73,
+ "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
   "美国重大",
@@ -29,11 +29,33 @@
     "美联储"
    ],
    "time": "11-18 06:54",
-   "score": 23.6,
+   "score": 23.3,
    "level": 2,
    "why": "监管司法·听证",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "681b2ec09be052c5",
+   "title": "巴布亚新几内亚发生5.9级地震，震源深度50千米",
+   "link": "https://www.jiemian.com/article/15345453.html",
+   "summary": "中国地震台网正式测定：11月18日11时42分在巴布亚新几内亚（南纬5.65度，东经146.50度）发生5.9级地震，震源深度50千米。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "地震"
+   ],
+   "time": "11-18 12:04",
+   "score": 22.9,
+   "level": 2,
+   "why": "地震",
+   "tier": "",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -85,7 +107,7 @@
    "words": [
     "加拿大央行"
    ],
-   "time": "11-18 10:18",
+   "time": "",
    "score": 20.0,
    "level": 1,
    "why": "签署",
@@ -108,7 +130,7 @@
     "SEC"
    ],
    "time": "11-18 04:59",
-   "score": 19.3,
+   "score": 19.1,
    "level": 2,
    "why": "监管司法·SEC、调查",
    "tier": "",
@@ -190,12 +212,32 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 10:05",
+   "time": "",
    "score": 17.9,
    "level": 2,
    "why": "监管司法·议员、调查",
    "tier": "",
    "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
+   "id": "9f2e39cc56290f95",
+   "title": "黄仁勋仍可影响英伟达：辞职后仍可提名最多两名董事候选人",
+   "link": "https://www.ithome.com/1/028/587.htm",
+   "summary": "IT之家 11 月 18 日消息，据路透社今日报道，英伟达创始人黄仁勋虽然已经辞去公司 CEO 和董事职务，但仍有机会通过股东提名机制影响公司董事会。 据介绍，黄仁勋符合公司「代理权准入」（Proxy Access）规则，可以在年度股东大会前提名最多两名独立董事候选人。 英伟达规定，连续至少三年持有公司 3% 以上投票权的股东，或由不超过 20 名股东组成的团体，可以提名董事候选人，并要求公司将相关人选列入代理投票材料。 根据伦敦证券交易所集团（LSEG）的数据，黄仁勋及其关联实体持有英伟达股份已超过三年，目前持股比例约为 3.5%，达到相关门槛。 不过，获得提名资格并不意味着黄仁勋可以直接安排人选进入董事会。被提名者必须符合英伟达独立董事资格及公司章程、治理政策的相关要求，最终还需要获得股东投票支持。英伟达也有权根据公司章程和治理规定，拒绝不符合条件的候选人。 按照英伟达现行安排，公司年",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 17.6,
+   "level": 2,
+   "why": "监管司法·辞职",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -211,7 +253,7 @@
    ],
    "words": [],
    "time": "11-18 08:21",
-   "score": 17.7,
+   "score": 17.5,
    "level": 2,
    "why": "监管司法·国家安全",
    "tier": "",
@@ -231,55 +273,9 @@
    ],
    "words": [],
    "time": "11-18 07:58",
-   "score": 17.7,
+   "score": 17.4,
    "level": 2,
    "why": "监管司法·国家安全",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "9f2e39cc56290f95",
-   "title": "黄仁勋仍可影响英伟达：辞职后仍可提名最多两名董事候选人",
-   "link": "https://www.ithome.com/1/028/587.htm",
-   "summary": "IT之家 11 月 18 日消息，据路透社今日报道，英伟达创始人黄仁勋虽然已经辞去公司 CEO 和董事职务，但仍有机会通过股东提名机制影响公司董事会。 据介绍，黄仁勋符合公司「代理权准入」（Proxy Access）规则，可以在年度股东大会前提名最多两名独立董事候选人。 英伟达规定，连续至少三年持有公司 3% 以上投票权的股东，或由不超过 20 名股东组成的团体，可以提名董事候选人，并要求公司将相关人选列入代理投票材料。 根据伦敦证券交易所集团（LSEG）的数据，黄仁勋及其关联实体持有英伟达股份已超过三年，目前持股比例约为 3.5%，达到相关门槛。 不过，获得提名资格并不意味着黄仁勋可以直接安排人选进入董事会。被提名者必须符合英伟达独立董事资格及公司章程、治理政策的相关要求，最终还需要获得股东投票支持。英伟达也有权根据公司章程和治理规定，拒绝不符合条件的候选人。 按照英伟达现行安排，公司年",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 07:14",
-   "score": 17.6,
-   "level": 2,
-   "why": "监管司法·辞职",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "58bcc7083b823ff3",
-   "title": "英伟达业绩超预期提振亚太股市，韩股一度涨超3%，SK海力士涨逾5%，黄金下挫1%",
-   "link": "https://wallstreetcn.com/articles/3786140",
-   "summary": "英伟达财季业绩强劲叠加乐观营收展望，为近期遭受抛售压力的AI相关资产注入一剂强心针，亚太股市普遍走高，美股期货同步上扬。 周三亚太早盘， 韩国综合股价指数 一度涨超3%，领涨亚太股市。 MSCI亚太股票指数 上涨0.3%，终结此前四连跌。此前周二美股盘后， 英伟达 涨逾4%， 纳斯达克100指数期货 劲升1.3%， 标普500指数期货 上涨0.7%。 日经225指数 涨幅曾扩大至1.1%，受日本10月出口数据超预期提振； 澳大利亚ASX 200 小幅下跌0.3%， 新加坡海峡时报指数 则下跌1.2%，走势分化。 eToro亚太区首席分析师Josh Gilbert表示： 在堪称企业史上讨论度最高的一周之后，这正是英伟达所需要的结果，基本面为一切代言。憋了数周的AI交易，终于可以小小地松一口气。 英伟达业绩：增长韧性超预期，CEO离职阴影尚存 英伟达公布第三财季业绩，营收及利润均超分析师预期。",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "三星、SK海力士、美光合谋制造内存短缺？美法官拒绝驳回反垄断诉讼",
-     "u": "https://wallstreetcn.com/articles/3786030"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 09:49",
-   "score": 10.9,
-   "level": 2,
-   "why": "反垄断",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -305,26 +301,6 @@
    "why": "关税",
    "tier": "",
    "group": "36氪",
-   "ai": ""
-  },
-  {
-   "id": "e3240b03647653ed",
-   "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-   "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-   "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 16.2,
-   "level": 2,
-   "why": "监管司法·investigated",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -397,6 +373,26 @@
    "ai": ""
   },
   {
+   "id": "e3240b03647653ed",
+   "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+   "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+   "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-17 19:17",
+   "score": 15.8,
+   "level": 2,
+   "why": "监管司法·investigated",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "c327aedac1695f19",
    "title": "微软全球服务宕机调查：一个潜伏四个月的漏洞，15小时才发现问题所在",
    "link": "https://wallstreetcn.com/articles/3786050",
@@ -432,7 +428,7 @@
     "白宫",
     "国务卿"
    ],
-   "time": "11-17 18:34",
+   "time": "",
    "score": 15.0,
    "level": 1,
    "why": "",
@@ -502,7 +498,7 @@
     "以色列"
    ],
    "time": "11-18 08:20",
-   "score": 13.7,
+   "score": 13.5,
    "level": 1,
    "why": "制裁",
    "tier": "must",
@@ -524,31 +520,9 @@
     "美联储"
    ],
    "time": "11-17 20:32",
-   "score": 13.3,
+   "score": 13.0,
    "level": 1,
    "why": "加息",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "dbfc0fd6284d0b63",
-   "title": "中选之后清算潮？爱泼斯坦和特朗普税务文件流出，德银股价重挫，特朗普回应",
-   "link": "https://wallstreetcn.com/articles/3786144",
-   "summary": "德意志银行周二在法兰克福股价一度重挫逾6% ，导火索是一批多达1500万份的泄露文件，揭示这家德国最大银行处理了与爱泼斯坦（Jeffrey Epstein）相关的逾5.82亿美元可疑交款，在2017年将特朗普的税务文件意外泄露给外部人士。 这批文件由两名举报人从银行内部复制后，交给印度记者Josy Joseph和南非记者Khadija Sharife，由南非非营利机构Barracuda Media统筹协调，联合《金融时报》、《明镜》周刊、《世界报》和《纽约时报》等逾200名记者历时数月完成调查。 举报人的律师表示，相关材料已同步移交美国司法部、财政部金融犯罪执法网络（FinCEN）以及英国税务机关。 正在马尼拉出席四方峰会的特朗普被记者追问德意志银行泄露其税务记录一事，他回应称： “ 我缴了很多税。他们这样做是违法的。 ” 德意志银行则在声明中表示，相关事项“可追溯至多年前，部分甚至长达二",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "特朗普"
-   ],
-   "time": "11-18 09:13",
-   "score": 12.8,
-   "level": 1,
-   "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -576,28 +550,6 @@
    "ai": ""
   },
   {
-   "id": "8f30c2f140434fa8",
-   "title": "Iran Is Emboldened After Trump and GOP’s Election Losses, Officials Say",
-   "link": "https://www.nytimes.com/2026/11/17/us/politics/iran-trump-midterms.html",
-   "summary": "Iran’s negotiating position has hardened since the midterms, U.S. and other Western officials say. An American lawmaker warned that Iran felt “strategically empowered.”",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "",
-   "score": 12.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
    "id": "c5e4189e5a38ee37",
    "title": "多家知名网站遭篡改，攻击者窃取加密货币并入侵 iPhone",
    "link": "https://www.ithome.com/1/028/530.htm",
@@ -620,10 +572,10 @@
    "ai": ""
   },
   {
-   "id": "03c5ad5d71a132bd",
-   "title": "AI暴跌前，华尔街大佬分道扬镳：桥水、索罗斯Q3大砍英伟达持仓，“木头姐”、Tepper逆势加码，德鲁肯米勒清仓闪迪、台积电",
-   "link": "https://wallstreetcn.com/articles/3786088",
-   "summary": "随着2026年三季度13F文件集中披露，全球顶级投资机构的持仓调整路径浮出水面——英伟达遭遇机构史上罕见的大分流，桥水转向AI硬件产业链，索罗斯完成\"芯片内部换仓\"，Druckenmiller大举清仓半导体并转向黄金与SpaceX，伯克希尔则继续远离科技追逐，坚守地产与航空。 这批截至9月30日的持仓报告， 恰好卡在一个高度敏感的时间节点： 英伟达CEO黄仁勋于11月12日被董事会解除职务，股价随之剧烈波动。而这一切，均发生在三季度持仓数据所反映的时间窗口之后。据holdingsintel.com汇总的497家机构13F数据， 英伟达成为本季度分歧最大的单一标的 ——减持方阵容包括Sixth Street Partners清仓1.6亿股、文艺复兴科技减持99.7%，加仓方则有ARK增持85%、DekaBank增持648%，Tepper亦增持。 此外，13F报告显示，Ken Griffin旗",
+   "id": "dbfc0fd6284d0b63",
+   "title": "中选之后清算潮？爱泼斯坦和特朗普税务文件流出，德银股价重挫，特朗普回应",
+   "link": "https://wallstreetcn.com/articles/3786144",
+   "summary": "德意志银行周二在法兰克福股价一度重挫逾6% ，导火索是一批多达1500万份的泄露文件，揭示这家德国最大银行处理了与爱泼斯坦（Jeffrey Epstein）相关的逾5.82亿美元可疑交款，在2017年将特朗普的税务文件意外泄露给外部人士。 这批文件由两名举报人从银行内部复制后，交给印度记者Josy Joseph和南非记者Khadija Sharife，由南非非营利机构Barracuda Media统筹协调，联合《金融时报》、《明镜》周刊、《世界报》和《纽约时报》等逾200名记者历时数月完成调查。 举报人的律师表示，相关材料已同步移交美国司法部、财政部金融犯罪执法网络（FinCEN）以及英国税务机关。 正在马尼拉出席四方峰会的特朗普被记者追问德意志银行泄露其税务记录一事，他回应称： “ 我缴了很多税。他们这样做是违法的。 ” 德意志银行则在声明中表示，相关事项“可追溯至多年前，部分甚至长达二",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [],
@@ -631,12 +583,12 @@
     "美国重大"
    ],
    "words": [
-    "华尔街"
+    "特朗普"
    ],
-   "time": "11-17 15:17",
+   "time": "11-18 09:13",
    "score": 12.6,
    "level": 1,
-   "why": "暴跌",
+   "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
    "ai": ""
@@ -662,10 +614,10 @@
    "ai": ""
   },
   {
-   "id": "bb895ff6fca01a32",
-   "title": "美联储哈马克重申偏好小步加息，但通胀预期若失控将被迫提速",
-   "link": "https://wallstreetcn.com/articles/3786060",
-   "summary": "美联储克利夫兰联储主席哈马克（Beth Hammack）表示，她倾向于以小幅、稳定的节奏推进加息，但若通胀压力进一步恶化，美联储可能不得不采取更大幅度的行动。 11月16日，Hammack在接受彭博电视采访时称， 她正观察到越来越多的企业和消费者开始基于\"通胀将持续恶化\"的预期做出决策，这一趋势令她警觉。 （克利夫兰联储主席Hammack，图源：美国克利夫兰联邦储备银行官网） 她警告称， 若这种通胀心态在社会层面扎根，\"可能意味着我们已经落后于曲线，可能不得不更快行动，以更大的幅度加息。无论是单次幅度还是最终利率目标，都可能高于原先预期\"。 Hammack曾在美联储10月议息会议上对维持利率不变的决定投下反对票。期货市场目前已消化12月加息预期，并预判1月或将再度加息。 通胀动因广泛，劳动力市场出现收紧迹象 据报道，Hammack表示，当前通胀的来源涵盖关税余波、能源供给问题、人工智能基础",
+   "id": "03c5ad5d71a132bd",
+   "title": "AI暴跌前，华尔街大佬分道扬镳：桥水、索罗斯Q3大砍英伟达持仓，“木头姐”、Tepper逆势加码，德鲁肯米勒清仓闪迪、台积电",
+   "link": "https://wallstreetcn.com/articles/3786088",
+   "summary": "随着2026年三季度13F文件集中披露，全球顶级投资机构的持仓调整路径浮出水面——英伟达遭遇机构史上罕见的大分流，桥水转向AI硬件产业链，索罗斯完成\"芯片内部换仓\"，Druckenmiller大举清仓半导体并转向黄金与SpaceX，伯克希尔则继续远离科技追逐，坚守地产与航空。 这批截至9月30日的持仓报告， 恰好卡在一个高度敏感的时间节点： 英伟达CEO黄仁勋于11月12日被董事会解除职务，股价随之剧烈波动。而这一切，均发生在三季度持仓数据所反映的时间窗口之后。据holdingsintel.com汇总的497家机构13F数据， 英伟达成为本季度分歧最大的单一标的 ——减持方阵容包括Sixth Street Partners清仓1.6亿股、文艺复兴科技减持99.7%，加仓方则有ARK增持85%、DekaBank增持648%，Tepper亦增持。 此外，13F报告显示，Ken Griffin旗",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [],
@@ -673,14 +625,36 @@
     "美国重大"
    ],
    "words": [
-    "美联储"
+    "华尔街"
    ],
-   "time": "11-17 08:54",
-   "score": 12,
+   "time": "11-17 15:17",
+   "score": 12.3,
    "level": 1,
-   "why": "加息",
+   "why": "暴跌",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "8f30c2f140434fa8",
+   "title": "Iran Is Emboldened After Trump and GOP’s Election Losses, Officials Say",
+   "link": "https://www.nytimes.com/2026/11/17/us/politics/iran-trump-midterms.html",
+   "summary": "Iran’s negotiating position has hardened since the midterms, U.S. and other Western officials say. An American lawmaker warned that Iran felt “strategically empowered.”",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-18 07:11",
+   "score": 12.3,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -704,6 +678,51 @@
    "why": "",
    "tier": "",
    "group": "pbc",
+   "ai": ""
+  },
+  {
+   "id": "59cbaf97dba5d68d",
+   "title": "特朗普：与伊朗的关系进展非常顺利。",
+   "link": "https://wallstreetcn.com/livenews/3201692",
+   "summary": "特朗普：与伊朗的关系进展非常顺利。",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "伊朗"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "bb895ff6fca01a32",
+   "title": "美联储哈马克重申偏好小步加息，但通胀预期若失控将被迫提速",
+   "link": "https://wallstreetcn.com/articles/3786060",
+   "summary": "美联储克利夫兰联储主席哈马克（Beth Hammack）表示，她倾向于以小幅、稳定的节奏推进加息，但若通胀压力进一步恶化，美联储可能不得不采取更大幅度的行动。 11月16日，Hammack在接受彭博电视采访时称， 她正观察到越来越多的企业和消费者开始基于\"通胀将持续恶化\"的预期做出决策，这一趋势令她警觉。 （克利夫兰联储主席Hammack，图源：美国克利夫兰联邦储备银行官网） 她警告称， 若这种通胀心态在社会层面扎根，\"可能意味着我们已经落后于曲线，可能不得不更快行动，以更大的幅度加息。无论是单次幅度还是最终利率目标，都可能高于原先预期\"。 Hammack曾在美联储10月议息会议上对维持利率不变的决定投下反对票。期货市场目前已消化12月加息预期，并预判1月或将再度加息。 通胀动因广泛，劳动力市场出现收紧迹象 据报道，Hammack表示，当前通胀的来源涵盖关税余波、能源供给问题、人工智能基础",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储"
+   ],
+   "time": "",
+   "score": 12,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -747,31 +766,11 @@
     "入侵"
    ],
    "time": "11-17 16:07",
-   "score": 11.7,
+   "score": 11.5,
    "level": 1,
    "why": "入侵",
    "tier": "",
    "group": "Solidot 奇客",
-   "ai": ""
-  },
-  {
-   "id": "226a2d946756a91a",
-   "title": "Russian military plane crashes, killing all 19 on board",
-   "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-   "summary": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "突发事件"
-   ],
-   "words": [],
-   "time": "",
-   "score": 11.5,
-   "level": 1,
-   "why": "crashes",
-   "tier": "must",
-   "group": "bbc",
    "ai": ""
   },
   {
@@ -789,7 +788,7 @@
     "特朗普"
    ],
    "time": "11-17 22:10",
-   "score": 11.5,
+   "score": 11.2,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -797,25 +796,23 @@
    "ai": ""
   },
   {
-   "id": "d728d5d7d0f549af",
-   "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
-   "link": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
-   "summary": "President Trump is off for a series of meetings in Asia that will cover trade, security and a rare trilateral meeting with China and Russia.",
+   "id": "226a2d946756a91a",
+   "title": "Russian military plane crashes, killing all 19 on board",
+   "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+   "summary": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
    "body": "",
-   "source": "NPR·国际",
+   "source": "BBC·国际",
    "also": [],
    "topics": [
-    "美国重大"
+    "突发事件"
    ],
-   "words": [
-    "Trump"
-   ],
-   "time": "",
-   "score": 11.0,
+   "words": [],
+   "time": "11-18 05:06",
+   "score": 11.1,
    "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "npr",
+   "why": "crashes",
+   "tier": "must",
+   "group": "bbc",
    "ai": ""
   },
   {
@@ -839,46 +836,6 @@
    "ai": ""
   },
   {
-   "id": "6b9c6bad4400ae97",
-   "title": "消息称英伟达安抚机器人生态伙伴，“物理 AI”投资不会急刹车",
-   "link": "https://www.ithome.com/1/028/660.htm",
-   "summary": "IT之家 11 月 18 日消息，科技媒体 Business Insider 今天（11 月 18 日）发布博文，报道称在黄仁勋突发离职后，英伟达及其风险投资部门 NVentures 已联系至少 3 家其投资的机器人初创公司， 明确表示业务将“照常进行”，以稳定市场对其机器人投资战略的担忧。 这一动作发生在临时 CEO 科莱特 · 克雷斯（Colette Kress）接掌公司之际。市场担忧，在黄仁勋离任后，英伟达对 AI、机器人和“物理 AI”初创企业的投资节奏可能放缓，相关公司对融资、算力资源及合作前景产生疑虑。 黄仁勋长期将机器人与“物理 AI”（physical AI）视为英伟达的重要增长方向。IT之家注：“物理 AI”是指能够感知、决策并在真实世界中行动的人工智能。 黄仁勋此前曾称，机器人是科技行业“首次有机会切入一个迄今基本缺乏技术的 50 万亿美元 （现汇率约合 333.99 ",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 10:14",
-   "score": 11.0,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "aa4749f7524e4bf2",
-   "title": "AMD 完成对 Taalas 收购，计划将后者芯片整合进加速器路线图",
-   "link": "https://www.ithome.com/1/028/640.htm",
-   "summary": "IT之家 11 月 18 日消息，AMD 当地时间昨日宣布 完成对专用 AI 推理芯片开发商 Taalas 的收购 。这家初创企业带来了差异化的技术和世界一流的工程专业知识。 AMD 表示此举将进一步加强其全栈 AI 产品组合和长期推理路线图。 AMD 计划将 Taalas 的技术整合到其加速器路线图中 ，结合 Instinct GPU 共同开发系统级解决方案。 IT之家了解到， Taalas 采用了将 AI 模型“固化”到 ASIC 上的技术路线 ，加速器芯片针对特定模型的工作负载进行优化。这一设计虽然大幅削弱了芯片的通用性，但也能显著提升推理效率。 相关阅读： 《 AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图 》",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 10:06",
-   "score": 11.0,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
    "id": "246ef26b7a7967cb",
    "title": "英伟达财报全线超预期，单季营收首次突破千亿美元，5GETF博时(159811)跟踪指数涨超1%",
    "link": "https://www.jiemian.com/article/15344484.html",
@@ -890,7 +847,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 09:59",
+   "time": "",
    "score": 10.9,
    "level": 1,
    "why": "",
@@ -919,23 +876,29 @@
    "ai": ""
   },
   {
-   "id": "48fdfb1394ab7c4d",
-   "title": "英伟达临时CEO：云计算行业订单积压规模已达2.5万亿美元",
-   "link": "https://www.jiemian.com/article/15343838.html",
-   "summary": "当地时间11月17日，英伟达临时CEO兼首席财务官科莱特·克雷斯在财报会议中表示，云计算行业订单积压规模已从三个月前的2万亿美元增至2.5万亿美元。她还表示，英伟达超大规模云客户的营收增速已连续六个季度加快，OpenAI和Anthropic推出的新一代前沿模型正推动AI应用及相关收入增长。",
-   "body": "当地时间11月17日，英伟达临时CEO兼首席财务官科莱特·克雷斯在财报会议中表示，云计算行业订单积压规模已从三个月前的2万亿美元增至2.5万亿美元。她还表示，英伟达超大规模云客户的营收增速已连续六个季度加快，OpenAI和Anthropic推出的新一代前沿模型正推动AI应用及相关收入增长。",
-   "source": "界面新闻",
-   "also": [],
+   "id": "7e252a9a9cc9fc1b",
+   "title": "英伟达临时 CEO 克雷斯：黄仁勋离职后，客户和员工都不会流失",
+   "link": "https://www.ithome.com/1/028/626.htm",
+   "summary": "IT之家 11 月 18 日消息，据 CNBC 今日报道，英伟达临时 CEO 科莱特・克雷斯（Colette Kress）表示，尽管黄仁勋已经辞职， 但公司主要客户依然高度支持英伟达 。 克雷斯强调，主要客户持续对英伟达的产品表达了兴趣。“有很多这些客户联系我，说‘看到一切都完好无损，真好。很高兴看到供应更多了。我需要更多产能’”。 然而，客户需求并不是英伟达面临的唯一问题。黄仁勋的离职也引发了外界质疑，即英伟达是否能留住那些帮助其在 AI 领域建立主导地位的工程师和其他员工。 克雷斯否认了对潜在员工流失的担忧 ，并向 CNBC 强调：“公司是在员工视英伟达为毕生事业的理念下建立的，许多人在这里工作了数十年，从技术角度或业务运营角度与我们合作。”“我们高度相信员工们肯定仍在努力工作，仍在与我们共事，并且享受在英伟达的工作。” 综合IT之家此前报道， 英伟达董事会于北京时间 11 月 12 ",
+   "body": "",
+   "source": "IT之家",
+   "also": [
+    {
+     "src": "界面新闻",
+     "t": "英伟达临时CEO：云计算行业订单积压规模已达2.5万亿美元",
+     "u": "https://www.jiemian.com/article/15343838.html"
+    }
+   ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 10.9,
+   "time": "11-18 09:39",
+   "score": 10.6,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "界面新闻",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -990,7 +953,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 09:30",
+   "time": "",
    "score": 10.9,
    "level": 1,
    "why": "",
@@ -999,23 +962,23 @@
    "ai": ""
   },
   {
-   "id": "6b3ad04f7726be75",
-   "title": "英伟达季度营收破千亿美金，但昨日的世界已经远去",
-   "link": "https://36kr.com/p/4074562529645445?f=rss",
-   "summary": "作者 | 邱晓芬 编辑 | 袁斯来 在黄仁勋离职卷起的风暴眼中，英伟达交出了近年来可能最受瞩目的财报。 北京时间11月18日凌晨，英伟达发布2027财年第三季度财报。这是原CFO Colette Kress接任临时CEO以来，英伟达的首份成绩单。 财报数据显示，英伟达第三季度营收达到 1158亿美元 ， 同比增长103%； 净利润达到 653亿美元 ， 同比增长105% ，双双创下历史新高。其中，数据中心业务营收达到 1076亿美元，同比增长110% ，占总营收的93%。 其中，按照客户总部所在地统计，英伟达来自中国大陆及香港的季度收入为 110.5亿 美元，同比增长约272%。这并不意味着中国AI芯片业务已经恢复。英伟达在下一季度财务指引中，仍未计入来自中国的数据中心计算业务收入。 风波以来短短五日，英伟达市值蒸发约8000亿美元，相当于跌去了3.5个阿里。亮眼的财报又为市场注入了一针强",
+   "id": "02680d9118d814ff",
+   "title": "浑水宣布做空英伟达",
+   "link": "https://www.jiemian.com/article/15345135.html",
+   "summary": "当地时间11月17日，做空机构浑水（Muddy Waters）发布报告宣布做空英伟达，称已建立空头仓位。浑水就英伟达前高管阿贾伊・普里（Ajay K. Puri）与超微电脑一位负责与英伟达相关业务的前高管之间的关系提出质疑。",
    "body": "",
-   "source": "36氪",
+   "source": "界面新闻",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 09:01",
-   "score": 10.8,
+   "time": "11-18 11:35",
+   "score": 10.9,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "36氪",
+   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -1039,10 +1002,10 @@
    "ai": ""
   },
   {
-   "id": "268ce80d31f9106f",
-   "title": "英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元",
-   "link": "https://www.ithome.com/1/028/608.htm",
-   "summary": "IT之家 11 月 18 日消息，NVIDIA（英伟达）当地时间昨日宣布在 今年 10 月宣布的合作 基础上进一步深化同供应链伙伴的关系，支持人工智能基础设施建设。 根据最新公告， 英伟达将向中国台湾地区半导体封装基板制造商景硕 (Kinsus) 投资超 10 亿美元 （IT之家注：现汇率约合 66.8 亿元人民币） 现金 ，购买设备支持景硕桃园幼狮厂的扩产计划，目标将该厂的先进 ABF 封装基板扩大 3.5 倍以上。 景硕幼狮厂新产能预计 2027 年下半年开出，2028Q3 达产。如果仍然不足，英伟达计划继续参与景硕后续的产能扩充计划，目标至少在 2030 年前掌握稳定产能。 英伟达还 修改了与三星电机 (SEM) 的现有基板供应协议 ，以提高现有工厂的运营能力，从而支持 NVIDIA 加速计算平台的增产。 此外，鸿海董事长刘扬伟表示：“鸿海将继续深化与英伟达在下一代 GPU 和网络平",
+   "id": "6b9c6bad4400ae97",
+   "title": "消息称英伟达安抚机器人生态伙伴，“物理 AI”投资不会急刹车",
+   "link": "https://www.ithome.com/1/028/660.htm",
+   "summary": "IT之家 11 月 18 日消息，科技媒体 Business Insider 今天（11 月 18 日）发布博文，报道称在黄仁勋突发离职后，英伟达及其风险投资部门 NVentures 已联系至少 3 家其投资的机器人初创公司， 明确表示业务将“照常进行”，以稳定市场对其机器人投资战略的担忧。 这一动作发生在临时 CEO 科莱特 · 克雷斯（Colette Kress）接掌公司之际。市场担忧，在黄仁勋离任后，英伟达对 AI、机器人和“物理 AI”初创企业的投资节奏可能放缓，相关公司对融资、算力资源及合作前景产生疑虑。 黄仁勋长期将机器人与“物理 AI”（physical AI）视为英伟达的重要增长方向。IT之家注：“物理 AI”是指能够感知、决策并在真实世界中行动的人工智能。 黄仁勋此前曾称，机器人是科技行业“首次有机会切入一个迄今基本缺乏技术的 50 万亿美元 （现汇率约合 333.99 ",
    "body": "",
    "source": "IT之家",
    "also": [],
@@ -1050,8 +1013,8 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 08:51",
-   "score": 10.8,
+   "time": "11-18 10:14",
+   "score": 10.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1059,10 +1022,30 @@
    "ai": ""
   },
   {
-   "id": "2cacaa691de315da",
-   "title": "英伟达电话会：“不打算请回黄仁勋”，2028财年增速预期上调至75%，AI投资将更加“克制与挑剔”",
-   "link": "https://wallstreetcn.com/articles/3786136",
-   "summary": "华尔街见闻提及 ，美东时间17日周二美股盘后，英伟达公布，截至2026年10月25日的公司2027财年第三财季，营收同比增长103.1%至1158亿美元，不但公司史上首次单季营收突破1000亿美元，而且较分析师预期高约5.9%，也明显高于该司自身指引中值1080亿美元。 随后英伟达举行了2027财年第三季度财报电话会议，这也是公司经历高层巨震后的首场业绩沟通会。针对市场最关注的换帅问题，英伟达董事长Harvey Jones在开场给出了明确且强硬的定调： 英伟达董事会一致接受了他的辞呈，并且不打算恢复黄仁勋的CEO职务。 他强调，董事会已成立美国国家安全和出口控制监督委员会，并在积极寻找正式CEO。 面对外界的担忧，代理CEO兼首席财务官Colette Kress试图稳住军心，她强调从商业角度来看，“一切如常”，并表示： 我们的势头是真实的。我们拥有领先市场的多年路线图、延续到本十年末的供应",
+   "id": "aa4749f7524e4bf2",
+   "title": "AMD 完成对 Taalas 收购，计划将后者芯片整合进加速器路线图",
+   "link": "https://www.ithome.com/1/028/640.htm",
+   "summary": "IT之家 11 月 18 日消息，AMD 当地时间昨日宣布 完成对专用 AI 推理芯片开发商 Taalas 的收购 。这家初创企业带来了差异化的技术和世界一流的工程专业知识。 AMD 表示此举将进一步加强其全栈 AI 产品组合和长期推理路线图。 AMD 计划将 Taalas 的技术整合到其加速器路线图中 ，结合 Instinct GPU 共同开发系统级解决方案。 IT之家了解到， Taalas 采用了将 AI 模型“固化”到 ASIC 上的技术路线 ，加速器芯片针对特定模型的工作负载进行优化。这一设计虽然大幅削弱了芯片的通用性，但也能显著提升推理效率。 相关阅读： 《 AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图 》",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 10:06",
+   "score": 10.7,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "58bcc7083b823ff3",
+   "title": "英伟达业绩超预期提振亚太股市，韩股一度涨超3%，SK海力士涨逾5%，黄金下挫1%",
+   "link": "https://wallstreetcn.com/articles/3786140",
+   "summary": "英伟达财季业绩强劲叠加乐观营收展望，为近期遭受抛售压力的AI相关资产注入一剂强心针，亚太股市普遍走高，美股期货同步上扬。 周三亚太早盘， 韩国综合股价指数 一度涨超3%，领涨亚太股市。 MSCI亚太股票指数 上涨0.3%，终结此前四连跌。此前周二美股盘后， 英伟达 涨逾4%， 纳斯达克100指数期货 劲升1.3%， 标普500指数期货 上涨0.7%。 日经225指数 涨幅曾扩大至1.1%，受日本10月出口数据超预期提振； 澳大利亚ASX 200 小幅下跌0.3%， 新加坡海峡时报指数 则下跌1.2%，走势分化。 eToro亚太区首席分析师Josh Gilbert表示： 在堪称企业史上讨论度最高的一周之后，这正是英伟达所需要的结果，基本面为一切代言。憋了数周的AI交易，终于可以小小地松一口气。 英伟达业绩：增长韧性超预期，CEO离职阴影尚存 英伟达公布第三财季业绩，营收及利润均超分析师预期。",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [],
@@ -1070,12 +1053,34 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 08:35",
-   "score": 10.8,
+   "time": "11-18 09:49",
+   "score": 10.7,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "d728d5d7d0f549af",
+   "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
+   "link": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
+   "summary": "President Trump is off for a series of meetings in Asia that will cover trade, security and a rare trilateral meeting with China and Russia.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-17 17:46",
+   "score": 10.7,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "npr",
    "ai": ""
   },
   {
@@ -1110,7 +1115,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 06:56",
+   "time": "",
    "score": 10.6,
    "level": 1,
    "why": "",
@@ -1119,23 +1124,63 @@
    "ai": ""
   },
   {
-   "id": "f18ea495cdfbaa0f",
-   "title": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
-   "link": "https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
-   "summary": "The chip maker is scheduled to release its quarterly results amid broader jitters about the A.I. trade.",
+   "id": "6b3ad04f7726be75",
+   "title": "英伟达季度营收破千亿美金，但昨日的世界已经远去",
+   "link": "https://36kr.com/p/4074562529645445?f=rss",
+   "summary": "作者 | 邱晓芬 编辑 | 袁斯来 在黄仁勋离职卷起的风暴眼中，英伟达交出了近年来可能最受瞩目的财报。 北京时间11月18日凌晨，英伟达发布2027财年第三季度财报。这是原CFO Colette Kress接任临时CEO以来，英伟达的首份成绩单。 财报数据显示，英伟达第三季度营收达到 1158亿美元 ， 同比增长103%； 净利润达到 653亿美元 ， 同比增长105% ，双双创下历史新高。其中，数据中心业务营收达到 1076亿美元，同比增长110% ，占总营收的93%。 其中，按照客户总部所在地统计，英伟达来自中国大陆及香港的季度收入为 110.5亿 美元，同比增长约272%。这并不意味着中国AI芯片业务已经恢复。英伟达在下一季度财务指引中，仍未计入来自中国的数据中心计算业务收入。 风波以来短短五日，英伟达市值蒸发约8000亿美元，相当于跌去了3.5个阿里。亮眼的财报又为市场注入了一针强",
    "body": "",
-   "source": "纽约时报·商业",
+   "source": "36氪",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 10.4,
+   "time": "11-18 09:01",
+   "score": 10.6,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "nyt",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "268ce80d31f9106f",
+   "title": "英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元",
+   "link": "https://www.ithome.com/1/028/608.htm",
+   "summary": "IT之家 11 月 18 日消息，NVIDIA（英伟达）当地时间昨日宣布在 今年 10 月宣布的合作 基础上进一步深化同供应链伙伴的关系，支持人工智能基础设施建设。 根据最新公告， 英伟达将向中国台湾地区半导体封装基板制造商景硕 (Kinsus) 投资超 10 亿美元 （IT之家注：现汇率约合 66.8 亿元人民币） 现金 ，购买设备支持景硕桃园幼狮厂的扩产计划，目标将该厂的先进 ABF 封装基板扩大 3.5 倍以上。 景硕幼狮厂新产能预计 2027 年下半年开出，2028Q3 达产。如果仍然不足，英伟达计划继续参与景硕后续的产能扩充计划，目标至少在 2030 年前掌握稳定产能。 英伟达还 修改了与三星电机 (SEM) 的现有基板供应协议 ，以提高现有工厂的运营能力，从而支持 NVIDIA 加速计算平台的增产。 此外，鸿海董事长刘扬伟表示：“鸿海将继续深化与英伟达在下一代 GPU 和网络平",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 08:51",
+   "score": 10.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "2cacaa691de315da",
+   "title": "英伟达电话会：“不打算请回黄仁勋”，2028财年增速预期上调至75%，AI投资将更加“克制与挑剔”",
+   "link": "https://wallstreetcn.com/articles/3786136",
+   "summary": "华尔街见闻提及 ，美东时间17日周二美股盘后，英伟达公布，截至2026年10月25日的公司2027财年第三财季，营收同比增长103.1%至1158亿美元，不但公司史上首次单季营收突破1000亿美元，而且较分析师预期高约5.9%，也明显高于该司自身指引中值1080亿美元。 随后英伟达举行了2027财年第三季度财报电话会议，这也是公司经历高层巨震后的首场业绩沟通会。针对市场最关注的换帅问题，英伟达董事长Harvey Jones在开场给出了明确且强硬的定调： 英伟达董事会一致接受了他的辞呈，并且不打算恢复黄仁勋的CEO职务。 他强调，董事会已成立美国国家安全和出口控制监督委员会，并在积极寻找正式CEO。 面对外界的担忧，代理CEO兼首席财务官Colette Kress试图稳住军心，她强调从商业角度来看，“一切如常”，并表示： 我们的势头是真实的。我们拥有领先市场的多年路线图、延续到本十年末的供应",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 08:35",
+   "score": 10.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1156,7 +1201,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 05:25",
+   "time": "",
    "score": 10.4,
    "level": 1,
    "why": "",
@@ -1165,43 +1210,45 @@
    "ai": ""
   },
   {
-   "id": "a87f6a1fb7356d8f",
-   "title": "Anthropic IPO前夕，OpenAI推出最强模型GPT-6.2 Astra，称性能超越Fable 5.2",
-   "link": "https://wallstreetcn.com/articles/3786124",
-   "summary": "OpenAI推出旗舰模型最新迭代版本，在性能提升的同时大幅降低使用成本，并在多项基准测试中超越竞争对手Anthropic的顶级模型。 此次发布的GPT-6.2 Astra定位于复杂专业工作场景，涵盖金融建模与科学研究等领域，同步推出的GPT-6.2 Sol则面向日常任务。 OpenAI表示， GPT-6.2 Astra在多步骤专业工作基准测试中的得分较竞品Claude Fable 5.2高出5.5分，而成本仅为后者的5%。此次发布恰逢Anthropic备受市场关注的上市前夕，时间节点颇为微妙。 新模型的推出同时面临外界对前沿AI系统安全风险的持续审视。OpenAI曾于9月底以模型\"未能充分限定工作范围与权限边界\"为由，暂停发布GPT-6.1 Astra；此前，该公司还曾短暂中止对最高级AI系统的训练，并在切断模型的互联网访问权限后方才重启。 安全顾虑促使发布推迟近两个月 GPT-6.2 A",
+   "id": "f18ea495cdfbaa0f",
+   "title": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
+   "link": "https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
+   "summary": "The chip maker is scheduled to release its quarterly results amid broader jitters about the A.I. trade.",
    "body": "",
-   "source": "华尔街见闻·文章",
+   "source": "纽约时报·商业",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 04:19",
-   "score": 10.2,
+   "time": "11-18 04:38",
+   "score": 10.0,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "nyt",
    "ai": ""
   },
   {
-   "id": "92e00d47472de6cb",
-   "title": "英伟达“隐身”的重要市场：新加坡子公司被曝去年营收超千亿美元、一年增72%",
-   "link": "https://wallstreetcn.com/articles/3786126",
-   "summary": "去年，新加坡在英伟达对外披露的地域销售数据中“隐身”，但据新近报道曝光，当地的子公司一年营收增超七成、突破1000亿美元。 英国《金融时报》的报道称，英伟达自2025年起停止单独披露新加坡销售额，转而按照客户总部所在地而非客户开票地址划分地域收入。与此同时，根据该报查阅的公司账目，英伟达新加坡子公司的营收规模远超其实际在当地的业务体量。 这一反差引发外界对英伟达地域收入披露方式及其新加坡业务规模的关注。值得注意的是，尽管该子公司账面营收超过千亿美元，其2025年利润却只有5300万美元，营收与利润规模明显不匹配。 新加坡曾是英伟达第二大收入来源，2025年突然从地域披露中消失 英伟达此前一直将新加坡列为重要的地域收入来源。据公司2025财年年报，按客户开票地址统计，截至2025年1月26日的财年，英伟达来自新加坡的收入达到236.84亿美元，占公司总营收的18%，仅次于美国的612.57亿",
+   "id": "f977908546fdeb67",
+   "title": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
+   "link": "https://wallstreetcn.com/livenews/3201691",
+   "summary": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
    "body": "",
-   "source": "华尔街见闻·文章",
+   "source": "华尔街见闻·全球快讯",
    "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "11-18 03:55",
-   "score": 10.2,
+   "words": [
+    "特朗普"
+   ],
+   "time": "",
+   "score": 10,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "wscn",
    "ai": ""
   },
   {
@@ -1224,6 +1271,46 @@
    "why": "",
    "tier": "",
    "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "a87f6a1fb7356d8f",
+   "title": "Anthropic IPO前夕，OpenAI推出最强模型GPT-6.2 Astra，称性能超越Fable 5.2",
+   "link": "https://wallstreetcn.com/articles/3786124",
+   "summary": "OpenAI推出旗舰模型最新迭代版本，在性能提升的同时大幅降低使用成本，并在多项基准测试中超越竞争对手Anthropic的顶级模型。 此次发布的GPT-6.2 Astra定位于复杂专业工作场景，涵盖金融建模与科学研究等领域，同步推出的GPT-6.2 Sol则面向日常任务。 OpenAI表示， GPT-6.2 Astra在多步骤专业工作基准测试中的得分较竞品Claude Fable 5.2高出5.5分，而成本仅为后者的5%。此次发布恰逢Anthropic备受市场关注的上市前夕，时间节点颇为微妙。 新模型的推出同时面临外界对前沿AI系统安全风险的持续审视。OpenAI曾于9月底以模型\"未能充分限定工作范围与权限边界\"为由，暂停发布GPT-6.1 Astra；此前，该公司还曾短暂中止对最高级AI系统的训练，并在切断模型的互联网访问权限后方才重启。 安全顾虑促使发布推迟近两个月 GPT-6.2 A",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 04:19",
+   "score": 10.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "92e00d47472de6cb",
+   "title": "英伟达“隐身”的重要市场：新加坡子公司被曝去年营收超千亿美元、一年增72%",
+   "link": "https://wallstreetcn.com/articles/3786126",
+   "summary": "去年，新加坡在英伟达对外披露的地域销售数据中“隐身”，但据新近报道曝光，当地的子公司一年营收增超七成、突破1000亿美元。 英国《金融时报》的报道称，英伟达自2025年起停止单独披露新加坡销售额，转而按照客户总部所在地而非客户开票地址划分地域收入。与此同时，根据该报查阅的公司账目，英伟达新加坡子公司的营收规模远超其实际在当地的业务体量。 这一反差引发外界对英伟达地域收入披露方式及其新加坡业务规模的关注。值得注意的是，尽管该子公司账面营收超过千亿美元，其2025年利润却只有5300万美元，营收与利润规模明显不匹配。 新加坡曾是英伟达第二大收入来源，2025年突然从地域披露中消失 英伟达此前一直将新加坡列为重要的地域收入来源。据公司2025财年年报，按客户开票地址统计，截至2025年1月26日的财年，英伟达来自新加坡的收入达到236.84亿美元，占公司总营收的18%，仅次于美国的612.57亿",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 03:55",
+   "score": 9.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1298,8 +1385,8 @@
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 9.4,
+   "time": "11-17 21:02",
+   "score": 9.1,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1319,7 +1406,7 @@
    ],
    "words": [],
    "time": "11-17 11:46",
-   "score": 8.2,
+   "score": 8,
    "level": 1,
    "why": "",
    "tier": "",
