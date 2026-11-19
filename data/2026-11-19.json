@@ -1,8 +1,8 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19 12:30",
+ "generated_at": "2026-11-19 14:30",
  "hours_window": 30,
- "count": 76,
+ "count": 78,
  "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
@@ -30,7 +30,7 @@
     "伊朗"
    ],
    "time": "11-18 16:37",
-   "score": 32.5,
+   "score": 32.3,
    "level": 2,
    "why": "交火",
    "tier": "",
@@ -54,7 +54,7 @@
     "加沙"
    ],
    "time": "11-19 10:11",
-   "score": 26.7,
+   "score": 26.5,
    "level": 2,
    "why": "停火",
    "tier": "must",
@@ -122,7 +122,7 @@
     "地震"
    ],
    "time": "11-18 21:45",
-   "score": 21.2,
+   "score": 20.9,
    "level": 2,
    "why": "地震",
    "tier": "must",
@@ -144,7 +144,7 @@
     "国常会"
    ],
    "time": "11-18 22:54",
-   "score": 25.3,
+   "score": 25.1,
    "level": 1,
    "why": "国常会",
    "tier": "",
@@ -172,6 +172,98 @@
    "ai": ""
   },
   {
+   "id": "418ff6ba61248229",
+   "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+   "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
+   "summary": "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them.",
+   "body": "",
+   "source": "纽约时报·商业",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 13:11",
+   "score": 17.8,
+   "level": 2,
+   "why": "监管司法·resignation",
+   "tier": "",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "ab2b037e024566e5",
+   "title": "美亚利桑那州称已对OpenAI及其他公司展开刑事调查",
+   "link": "https://36kr.com/newsflashes/4076185928127623?f=rss",
+   "summary": "据报道，亚利桑那州总检察长克里斯·梅斯（Kris Mayes）表示，该州已对OpenAI及其他AI公司展开刑事调查，事由是“银行疑似遭失控AI代理渗透”。梅斯表示，刑事调查并不一定意味着会提起指控。目前她的办公室正在调查是否存在持续违反亚利桑那州法律的行为。（财联社）",
+   "body": "",
+   "source": "36氪",
+   "also": [
+    {
+     "src": "36氪",
+     "t": "美国亚利桑那州对OpenAI等展开刑事调查，因失控智能体入侵银行系统",
+     "u": "https://36kr.com/newsflashes/4076280570107016?f=rss"
+    },
+    {
+     "src": "IT之家",
+     "t": "供应链确认 OpenAI 首款 AI 硬件年底启动出货：前苹果设计师 Jony Ive 合作打造，立讯精密等中国厂商深度参与",
+     "u": "https://www.ithome.com/1/029/152.htm"
+    },
+    {
+     "src": "界面新闻",
+     "t": "OpenAI首款AI硬件或于年底启动出货，立讯精密等中国供应商参与",
+     "u": "https://www.jiemian.com/article/15348671.html"
+    },
+    {
+     "src": "36氪",
+     "t": "OpenAI首款AI硬件或于年底启动出货，立讯精密等中国供应商参与",
+     "u": "https://36kr.com/newsflashes/4075950980699011?f=rss"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 12:44",
+   "score": 17.8,
+   "level": 2,
+   "why": "监管司法·调查",
+   "tier": "",
+   "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "a13d11c35866b13e",
+   "title": "英伟达回应“黄仁勋离任会打乱 AI 芯片供货”疑虑：需求仍强劲，产品按计划推进",
+   "link": "https://www.ithome.com/1/029/234.htm",
+   "summary": "IT之家 11 月 19 日消息，行业媒体 Digitimes 今天（11 月 19 日）发布博文，报道称在最新财报电话会议上，针对“换帅是否会打乱 AI 芯片供货”疑虑， 英伟达临时首席执行官科莱特 · 克雷斯（Colette Kress）表示，公司业务照常开展。 在黄仁勋辞职后英伟达举行的首次财报电话会议上，克雷斯强调英伟达公司未来产品开发与推出节奏保持不变。她表示公司运营表现、业务展望及产品规划尚未因管理层变动受到明显影响， 市场需求仍保持积极，并预估短期内对 AI 芯片供应链的冲击有限。 IT之家援引博文介绍，针对领导层变化是否会打乱新品推出和客户交付问题，克雷斯称公司业务照常开展， 并获得客户及供应商支持；最新业绩指引也显示，管理层变动尚未拖慢产品路线图，也没有削弱市场需求。 市场研究机构 IDC 认为，未来几个季度的大客户采购承诺和供应安排已提前确定，云厂商对 AI 算力的需求",
+   "body": "",
+   "source": "IT之家",
+   "also": [
+    {
+     "src": "IT之家",
+     "t": "彭博社：黄仁勋离任英伟达 CEO 后，日本 AI 股首当其冲",
+     "u": "https://www.ithome.com/1/029/265.htm"
+    },
+    {
+     "src": "IT之家",
+     "t": "黄仁勋离职引发科技圈讨论：马斯克称其无可替代，微软纳德拉建议不要神化创始人",
+     "u": "https://www.ithome.com/1/029/174.htm"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 11:42",
+   "score": 17.7,
+   "level": 2,
+   "why": "监管司法·离任",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "03d5e10eb0980e1c",
    "title": "How We Broke Open the Nvidia Investigation",
    "link": "https://www.nytimes.com/2026/11/18/insider/nvidia-jensen-huang-spying-plot.html",
@@ -184,30 +276,10 @@
    ],
    "words": [],
    "time": "11-19 07:52",
-   "score": 17.4,
+   "score": 17.2,
    "level": 2,
    "why": "监管司法·investigation",
    "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "418ff6ba61248229",
-   "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
-   "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
-   "summary": "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them.",
-   "body": "",
-   "source": "纽约时报·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-19 07:10",
-   "score": 17.3,
-   "level": 2,
-   "why": "监管司法·resignation",
-   "tier": "",
    "group": "nyt",
    "ai": ""
   },
@@ -256,6 +328,29 @@
    "ai": ""
   },
   {
+   "id": "a59d863a088a6c3b",
+   "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
+   "link": "https://wallstreetcn.com/articles/3786264",
+   "summary": "美联储10月FOMC会议纪要释放矛盾信号：一边为上次会议的暂停加息提供了五花八门的理由，一边又以罕见的力度向市场预告，12月会议大概率将至少加息25个基点。 11月18日，据追风交易台消息， 摩根大通将这份纪要形容为\"主啊，让我转鹰吧，但再等等\"（Lord, make me hawkish, but not yet）。 纪要在前瞻指引上措辞清晰、毫不回避。\"几乎所有与会者\"认为，在基线预期情景下，未来数月进一步收紧政策将是适当之举。其中\"少数几位\"与会者表示 ，12月加息幅度或需超过25基点 ——摩根大通分析师Michael Feroli判断， 这其中可能包括理事Waller及另一名委员；还有\"少数几位\"认为政策或需走向\"更具限制性\"的立场，暗示可能还需要额外超过两次25基点的加息。 纪要显示，尽管前瞻立场明显偏鹰，联储官员为10月暂停加息所援引的理由却相当多元。综合纪要措辞与摩根大通解读",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储",
+    "FOMC"
+   ],
+   "time": "11-19 14:01",
+   "score": 16.9,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "f028dceeddf6e6af",
    "title": "CoreWeave淡化黄仁勋离任影响，称英伟达仍是关键合作伙伴",
    "link": "https://wallstreetcn.com/articles/3786226",
@@ -268,7 +363,7 @@
    ],
    "words": [],
    "time": "11-19 03:53",
-   "score": 16.9,
+   "score": 16.7,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
@@ -345,26 +440,6 @@
    "ai": ""
   },
   {
-   "id": "481762c5c8be9a09",
-   "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
-   "link": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
-   "summary": "Former Democratic Rep. Mary Peltola has won one of the U.S.' most watched Senate races. And, Nvidia's board says it doesn't plan to reinstate former CEO Jensen Huang despite pressure from his allies.",
-   "body": "",
-   "source": "NPR·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 20:14",
-   "score": 16.0,
-   "level": 2,
-   "why": "监管司法·Senate",
-   "tier": "",
-   "group": "npr",
-   "ai": ""
-  },
-  {
    "id": "7838c3856d2b10aa",
    "title": "老旧软件面临“AI威胁”！微软故障、全美停飞之后，美国国家安全局系统瘫痪，苹果多项服务受扰",
    "link": "https://wallstreetcn.com/articles/3786139",
@@ -398,12 +473,32 @@
    "words": [
     "日本央行"
    ],
-   "time": "11-19 10:52",
+   "time": "",
    "score": 15.8,
    "level": 1,
    "why": "加息",
    "tier": "",
    "group": "36氪",
+   "ai": ""
+  },
+  {
+   "id": "481762c5c8be9a09",
+   "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+   "link": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+   "summary": "Former Democratic Rep. Mary Peltola has won one of the U.S.' most watched Senate races. And, Nvidia's board says it doesn't plan to reinstate former CEO Jensen Huang despite pressure from his allies.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 20:14",
+   "score": 15.7,
+   "level": 2,
+   "why": "监管司法·Senate",
+   "tier": "",
+   "group": "npr",
    "ai": ""
   },
   {
@@ -448,6 +543,45 @@
    "why": "加息",
    "tier": "",
    "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "e76e9bdbcedf87d6",
+   "title": "美国总统特朗普：非常期待同习近平主席、普京总统会晤",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34510195",
+   "summary": "11月19日上午，亚太经合组织第三十三次领导人非正式会议在深圳举行。美国总统特朗普在会议上发表讲话。 特朗普说，感谢习近平主席对我今年第二次访华的热情欢迎。此前，我很荣幸在华盛顿接待了习近平主席和夫人彭丽媛。现在，我很高兴来到深圳参加APEC领导人非正式会议。环太平洋国家共同构成了全球经济最具活力、增长最快的区域，是全球财富、资本、能源与创新的源泉。我期待同习近平主席和普京总统举行一次具有历史意义的三方会晤，为三方创造更多机遇。我们对此充满期待，非常期待。在场的各位领导人，我们齐聚于此，共同致力于建设一个更加安全、更加繁荣的世界。中国是一个令人惊叹的国家，你们取得了非凡的成就。习近平主席也是一位了不起的领导人。",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [
+    {
+     "src": "36氪",
+     "t": "美国总统特朗普：非常期待同习近平主席、普京总统会晤",
+     "u": "https://36kr.com/newsflashes/4076238441010054?f=rss"
+    },
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "俄罗斯总统助理乌沙科夫：俄罗斯和美国的多名人员将参加俄罗斯总统普京与美国总统特朗普的会晤。",
+     "u": "https://wallstreetcn.com/livenews/3202053"
+    },
+    {
+     "src": "华尔街见闻·全球快讯",
+     "t": "美国总统特朗普：希望解决俄乌问题。",
+     "u": "https://wallstreetcn.com/livenews/3202263"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普",
+    "美国总统"
+   ],
+   "time": "11-19 13:16",
+   "score": 14.8,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "澎湃新闻",
    "ai": ""
   },
   {
@@ -497,36 +631,6 @@
    "ai": ""
   },
   {
-   "id": "323bf30ab9131693",
-   "title": "俄罗斯总统助理乌沙科夫：俄罗斯和美国的多名人员将参加俄罗斯总统普京与美国总统特朗普的会晤。",
-   "link": "https://wallstreetcn.com/livenews/3202053",
-   "summary": "俄罗斯总统助理乌沙科夫：俄罗斯和美国的多名人员将参加俄罗斯总统普京与美国总统特朗普的会晤。",
-   "body": "",
-   "source": "华尔街见闻·全球快讯",
-   "also": [
-    {
-     "src": "华尔街见闻·全球快讯",
-     "t": "美国总统特朗普：希望解决俄乌问题。",
-     "u": "https://wallstreetcn.com/livenews/3202263"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "特朗普",
-    "美国总统",
-    "俄罗斯"
-   ],
-   "time": "",
-   "score": 14,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "wscn",
-   "ai": ""
-  },
-  {
    "id": "72aa13330f824fe0",
    "title": "美联储纪要鹰声大作：几乎全体认为还需加息，更多人支持10月就行动，“不透明”AI债务风险引担忧",
    "link": "https://wallstreetcn.com/articles/3786227",
@@ -541,7 +645,7 @@
     "美联储"
    ],
    "time": "11-19 03:00",
-   "score": 13.8,
+   "score": 13.6,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -563,7 +667,7 @@
     "CPI"
    ],
    "time": "11-19 01:06",
-   "score": 13.6,
+   "score": 13.3,
    "level": 1,
    "why": "CPI",
    "tier": "",
@@ -585,7 +689,7 @@
     "特别国债"
    ],
    "time": "11-18 22:24",
-   "score": 13.2,
+   "score": 13.0,
    "level": 1,
    "why": "特别国债",
    "tier": "",
@@ -607,7 +711,7 @@
     "美联储"
    ],
    "time": "11-18 21:49",
-   "score": 13.2,
+   "score": 12.9,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -628,7 +732,7 @@
    "words": [
     "特朗普"
    ],
-   "time": "11-19 11:42",
+   "time": "",
    "score": 12.9,
    "level": 1,
    "why": "",
@@ -651,7 +755,7 @@
     "Trump"
    ],
    "time": "11-18 18:53",
-   "score": 12.8,
+   "score": 12.5,
    "level": 1,
    "why": "coup",
    "tier": "must",
@@ -673,7 +777,7 @@
     "Trump"
    ],
    "time": "11-19 09:23",
-   "score": 12.6,
+   "score": 12.4,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -695,7 +799,7 @@
     "Trump"
    ],
    "time": "11-19 07:13",
-   "score": 12.3,
+   "score": 12.1,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -762,7 +866,7 @@
     "入侵"
    ],
    "time": "11-18 17:12",
-   "score": 11.6,
+   "score": 11.3,
    "level": 1,
    "why": "入侵",
    "tier": "",
@@ -814,6 +918,26 @@
    "ai": ""
   },
   {
+   "id": "751118ac67a88542",
+   "title": "Meta 暂停 1:2 拆股计划，优先应对相关法律诉讼",
+   "link": "https://www.ithome.com/1/029/286.htm",
+   "summary": "IT之家 11 月 19 日消息，据《金融时报》报道，Meta 在当地时间本周三向美国特拉华州法院提交的文件中表示，在了结投资者提起的法律诉讼之前， 不会执行此前宣布的拆股计划 。 Meta 今年 10 月宣布拟进行一项 1:2 的拆股，股东在现有股票之外将得到等量的无投票权 C 类股票。这意味着股东可出售新股并保持股权控制。 Meta 本计划通过这一财务手段 在不影响控制权的情况下为其人工智能业务投资筹集额外资金 。此外，这也为 Meta 创始人 Mark Zuckerberg（马克 · 扎克伯格）应对美国加利福尼亚州曾考虑的亿万富翁财富税（IT之家注：该税收提案当前已被公投否决）提供了更灵活的财务结构。 包括美国加利福尼亚州教师退休系统和丹麦养老集团 PFA 在内的空方认为， Meta 董事会的独立性存疑 、 C 类股份的设立可能损害了一般股东的利益 。相关审判定于 2027 年 4 ",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 14:18",
+   "score": 11.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "63595fe5e440f14b",
    "title": "马斯克：要继续在中国加大产量",
    "link": "https://36kr.com/newsflashes/4076154822169474?f=rss",
@@ -825,56 +949,12 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 11:59",
+   "time": "",
    "score": 10.9,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "36氪",
-   "ai": ""
-  },
-  {
-   "id": "1785c614f0138be2",
-   "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
-   "link": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
-   "summary": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting.",
-   "body": "",
-   "source": "NPR·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-18 19:57",
-   "score": 10.9,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "npr",
-   "ai": ""
-  },
-  {
-   "id": "a468c8a8a1c94d80",
-   "title": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
-   "link": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
-   "summary": "NPR's Leila Fadel speaks to Nicholas Burns, former U.S. ambassador to China and NATO, about President Trump's planned meeting with the leaders of China and Russia.",
-   "body": "",
-   "source": "NPR·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-18 19:57",
-   "score": 10.9,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "npr",
    "ai": ""
   },
   {
@@ -949,7 +1029,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 11:40",
+   "time": "",
    "score": 10.9,
    "level": 1,
    "why": "",
@@ -958,34 +1038,23 @@
    "ai": ""
   },
   {
-   "id": "c0a5a3493293ef1f",
-   "title": "供应链确认 OpenAI 首款 AI 硬件年底启动出货：前苹果设计师 Jony Ive 合作打造，立讯精密等中国厂商深度参与",
-   "link": "https://www.ithome.com/1/029/152.htm",
-   "summary": "IT之家 11 月 19 日消息，每日经济新闻今日援引供应链消息，OpenAI 首款 AI 硬件产品计划于 2026 年底启动出货，多家中国厂商参与该项目，其中立讯精密独家承担整机制造，并同时供应核心零部件。关于这款硬件的具体形态，OpenAI 官方尚未正式公布。 此前有报道称，该设备由 OpenAI 与前苹果首席设计官 Jony Ive 的 LoveFrom 工作室合作开发，可能是一款外形类似“甜甜圈”、尺寸接近冰球的无屏设备，集成麦克风、扬声器、摄像头及多种环境传感器，主要依靠语音交互并具备感知周围环境的能力。传闻中该产品定价可能在 300 至 400 美元 （现汇率约合 2,004 至 2,672 元人民币） 区间，但尚未得到官方确认。 2026 年 1 月曾有报道称，OpenAI 首款 AI 硬件的代工订单可能从立讯精密转交鸿海，在越南工厂生产，立讯精密随后对相关传闻作出澄清。 O",
+   "id": "ac7ec0eb21c6058a",
+   "title": "马斯克：我是中国的超级粉丝",
+   "link": "https://36kr.com/newsflashes/4076240173355911?f=rss",
+   "summary": "美国特斯拉公司首席执行官埃隆·马斯克11月19日在深圳说：“我是中国的超级粉丝。”他说：“中国很酷。我一直鼓励世界各地的人们来中国走走，亲眼看看中国这些了不起的地方。这里有不可思议的城市、不可思议的自然风光，还有像兵马俑这样的世界奇迹。”马斯克说：“美中合作越多，各自也会越好。”中国贸促会会长任鸿斌当天在深圳会见马斯克。（央视新闻）",
    "body": "",
-   "source": "IT之家",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "OpenAI首款AI硬件或于年底启动出货，立讯精密等中国供应商参与",
-     "u": "https://www.jiemian.com/article/15348671.html"
-    },
-    {
-     "src": "36氪",
-     "t": "OpenAI首款AI硬件或于年底启动出货，立讯精密等中国供应商参与",
-     "u": "https://36kr.com/newsflashes/4075950980699011?f=rss"
-    }
-   ],
+   "source": "36氪",
+   "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "",
-   "score": 10.8,
+   "time": "11-19 13:25",
+   "score": 10.9,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "IT之家",
+   "group": "36氪",
    "ai": ""
   },
   {
@@ -1031,78 +1100,12 @@
    "ai": ""
   },
   {
-   "id": "586e042f288e3728",
-   "title": "马斯克：特斯拉计划推出无方向盘 Model Y，可搭载 6~7 人",
-   "link": "https://www.ithome.com/1/029/183.htm",
-   "summary": "IT之家 11 月 19 日消息，特斯拉 CEO 埃隆 · 马斯克今天通过视频连线出席《纽约时报》DealBook 峰会。 马斯克透露，特斯拉计划推出一款不配备方向盘和踏板的 Model Y 自动驾驶版本，最多可搭载 6 至 7 名乘客，主要面向家庭和多人出行场景。 Model Y 是特斯拉目前最畅销的车型，现有版本已经提供 FSD 辅助驾驶套件，但驾驶员仍需保持注意力并承担驾驶责任。 此次马斯克提出的无方向盘、无踏板版本，则意味着特斯拉希望将 Model Y 转变为完全依靠自动驾驶系统运行的车辆，责任将完全由厂商承担。 在此之前，特斯拉已经推出专门面向 Robotaxi 自动驾驶出行服务的 Cybercab（IT之家注：仅在极个别城市运营）。这款车型采用双座设计，没有方向盘和踏板，不过，Cybercab 的载客能力有限，无法满足多人家庭出行需求。 马斯克认为，双座车型已经能够满足大多数日",
+   "id": "1785c614f0138be2",
+   "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+   "summary": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting.",
    "body": "",
-   "source": "IT之家",
-   "also": [
-    {
-     "src": "界面新闻",
-     "t": "马斯克：特斯拉会继续在中国提高产量",
-     "u": "https://www.jiemian.com/article/15350038.html"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-19 10:16",
-   "score": 10.7,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "a6a859e71ffaddd9",
-   "title": "微软宣布砍掉 To Do 待办应用，建议用户迁移到 Microsoft Planner",
-   "link": "https://www.ithome.com/1/029/182.htm",
-   "summary": "IT之家 11 月 19 日消息，据IT之家小伙伴反馈，微软官网发布公告， Microsoft To Do 将于 2027 年 6 月 30 日停用 ，包括网页版、Windows、Mac、iOS 和 Android 客户端。 此外，底层的 To Do 服务、API 及相关同步支持将在后续停用。 微软表示，对于工作或学校账户，Microsoft Planner 将成为管理个人工作任务与分配工作的最佳选择。更新后的“My tasks”体验将于 2026 年 12 月开始推出。 对于个人账户用户，微软建议重新选择一款待办记录软件。 对于用户现有的待办事项内容，微软表示无法自动迁移到 Microsoft Planner， 不过会提供数据导出方法 ，当细节最终确定时，将提供说明、支持的数据、要求和限制。 IT之家注意到，微软还称， 导出的数据并不意味着内容可以导入到 Planner 或其他应用中 。",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-19 10:15",
-   "score": 10.7,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "c959ebfa7c1a5386",
-   "title": "派拉蒙天舞 CEO 确认获马斯克投资：能得到他的信任是莫大的荣幸",
-   "link": "https://www.ithome.com/1/029/178.htm",
-   "summary": "IT之家 11 月 19 日消息，派拉蒙天舞（Paramount Skydance）CEO 大卫 · 埃里森（David Ellison）今日在《纽约时报》DealBook 峰会上确认，埃隆 · 马斯克已经投资其旗下传媒集团，成为公司股东。 埃里森称，马斯克很少投资其他公司，能够获得他的信任并成为公司股东，是一种莫大的荣幸。“他并不会投资很多公司。因此，能够得到他的信任，并让他成为我们的股东，是一种荣誉和特权。” 此前 Semafor 于 10 月 22 日报道称，马斯克向派拉蒙天空之舞投资约 10 亿美元 （IT之家注：现汇率约合 66.81 亿元人民币） 。埃里森此次确认了马斯克的股东身份，但没有公开确认具体投资金额。 该集团由派拉蒙天舞与华纳兄弟探索合并而来，交易于 2026 年 10 月 6 日完成，交易规模约 1,110 亿美元 （现汇率约合 7,415.66 亿元人民币） 。此",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-19 10:11",
-   "score": 10.7,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
-   "ai": ""
-  },
-  {
-   "id": "f0cb631a85bc6c26",
-   "title": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
-   "link": "https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html",
-   "summary": "President Trump plans to discuss Ukraine with the leaders of Russia and China. He has halted some sanctions on Russia and announced that the United States will buy Russian diesel.",
-   "body": "",
-   "source": "纽约时报·国际",
+   "source": "NPR·国际",
    "also": [],
    "topics": [
     "美国重大"
@@ -1110,38 +1113,34 @@
    "words": [
     "Trump"
    ],
-   "time": "11-18 18:03",
+   "time": "11-18 19:57",
    "score": 10.7,
    "level": 1,
    "why": "",
-   "tier": "must",
-   "group": "nyt",
+   "tier": "",
+   "group": "npr",
    "ai": ""
   },
   {
-   "id": "a07805408ebb5852",
-   "title": "黄仁勋离职引发科技圈讨论：马斯克称其无可替代，微软纳德拉建议不要神化创始人",
-   "link": "https://www.ithome.com/1/029/174.htm",
-   "summary": "IT之家 11 月 19 日消息，OpenAI CEO 萨姆 · 奥尔特曼、微软 CEO 萨提亚 · 纳德拉和特斯拉 CEO 埃隆 · 马斯克等科技行业高管今日在《纽约时报》DealBook 峰会上谈及英伟达前 CEO 黄仁勋近期离职事件。 几位科技行业人士表达了对黄仁勋的支持或同情，但对于英伟达未来的管理层安排，各方态度并不完全一致。 黄仁勋于 11 月 12 日正式辞去英伟达 CEO、总裁及董事会成员职务，英伟达首席财务官科莱特 · 克雷斯（Colette Kress）出任临时 CEO。英伟达董事会此前宣布启动独立调查，黄仁勋则公开承认对妻子不忠，并向家人和公司员工道歉。 奥尔特曼：很难想象没有黄仁勋的 AI 行业 在此次峰会上，奥尔特曼表示，黄仁勋对整个 AI 行业具有重要意义。他说：“很难想象没有黄仁勋的 AI 行业。”他表示，自己对黄仁勋的处境抱有更多同情，并希望黄仁勋和英伟达都",
+   "id": "a468c8a8a1c94d80",
+   "title": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
+   "summary": "NPR's Leila Fadel speaks to Nicholas Burns, former U.S. ambassador to China and NATO, about President Trump's planned meeting with the leaders of China and Russia.",
    "body": "",
-   "source": "IT之家",
-   "also": [
-    {
-     "src": "IT之家",
-     "t": "英伟达回应“黄仁勋离任会打乱 AI 芯片供货”疑虑：需求仍强劲，产品按计划推进",
-     "u": "https://www.ithome.com/1/029/234.htm"
-    }
-   ],
+   "source": "NPR·国际",
+   "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "11-19 09:50",
+   "words": [
+    "Trump"
+   ],
+   "time": "11-18 19:57",
    "score": 10.7,
-   "level": 2,
-   "why": "监管司法·离任",
+   "level": 1,
+   "why": "",
    "tier": "",
-   "group": "IT之家",
+   "group": "npr",
    "ai": ""
   },
   {
@@ -1176,7 +1175,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 08:54",
+   "time": "",
    "score": 10.6,
    "level": 1,
    "why": "",
@@ -1185,18 +1184,24 @@
    "ai": ""
   },
   {
-   "id": "96926e28a8edcca5",
-   "title": "史上最大 IPO：Anthropic 每股定价 83 美元，预计募资 944 亿美元超 SpaceX",
-   "link": "https://www.ithome.com/1/029/132.htm",
-   "summary": "IT之家 11 月 19 日消息，据彭博社今日报道，Anthropic PBC 已将首次公开募股（IPO）发行价定为每股 83 美元，高于此前公布的 70 至 78 美元发行区间。 以此计算，Anthropic 完全稀释估值约 1.5 万亿美元，仅次于 SpaceX（1.77 万亿美元），但融资规模超越 SpaceX 成为全球史上最大 IPO。 根据 Anthropic 此前向美国证券交易委员会（SEC）提交的文件，公司原计划发行 8.0135 亿股，另外由 7 名联合创始人出售 2364.86 万股，合计约 8.25 亿股。按照每股 83 美元计算，此次公开发行预计募集资金约 684 亿美元 （IT之家注：现汇率约合 4,569.03 亿元人民币） 。 此外，Anthropic 还计划按照 IPO 发行价进行规模达 260 亿美元的私募配售。两部分合计融资规模将超过 944 亿美元 （现",
+   "id": "a6a859e71ffaddd9",
+   "title": "微软宣布砍掉 To Do 待办应用，建议用户迁移到 Microsoft Planner",
+   "link": "https://www.ithome.com/1/029/182.htm",
+   "summary": "IT之家 11 月 19 日消息，据IT之家小伙伴反馈，微软官网发布公告， Microsoft To Do 将于 2027 年 6 月 30 日停用 ，包括网页版、Windows、Mac、iOS 和 Android 客户端。 此外，底层的 To Do 服务、API 及相关同步支持将在后续停用。 微软表示，对于工作或学校账户，Microsoft Planner 将成为管理个人工作任务与分配工作的最佳选择。更新后的“My tasks”体验将于 2026 年 12 月开始推出。 对于个人账户用户，微软建议重新选择一款待办记录软件。 对于用户现有的待办事项内容，微软表示无法自动迁移到 Microsoft Planner， 不过会提供数据导出方法 ，当细节最终确定时，将提供说明、支持的数据、要求和限制。 IT之家注意到，微软还称， 导出的数据并不意味着内容可以导入到 Planner 或其他应用中 。",
    "body": "",
    "source": "IT之家",
-   "also": [],
+   "also": [
+    {
+     "src": "IT之家",
+     "t": "史上最大 IPO：Anthropic 每股定价 83 美元，预计募资 944 亿美元超 SpaceX",
+     "u": "https://www.ithome.com/1/029/132.htm"
+    }
+   ],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "",
+   "time": "11-19 10:15",
    "score": 10.5,
    "level": 1,
    "why": "",
@@ -1205,22 +1210,64 @@
    "ai": ""
   },
   {
-   "id": "27be0c6a32ad664d",
-   "title": "A.I. Makes More Tech Outages Likely, Microsoft’s Chief Warns",
-   "link": "https://www.nytimes.com/2026/11/18/business/dealbook/microsoft-satya-nadella-outages-ai.html",
-   "summary": "Satya Nadella said that A.I. tools were finding cybersecurity bugs at a breakneck pace, and that companies were having to create fixes and deploy them “instantaneously.”",
+   "id": "586e042f288e3728",
+   "title": "马斯克：特斯拉计划推出无方向盘 Model Y，可搭载 6~7 人",
+   "link": "https://www.ithome.com/1/029/183.htm",
+   "summary": "IT之家 11 月 19 日消息，特斯拉 CEO 埃隆 · 马斯克今天通过视频连线出席《纽约时报》DealBook 峰会。 马斯克透露，特斯拉计划推出一款不配备方向盘和踏板的 Model Y 自动驾驶版本，最多可搭载 6 至 7 名乘客，主要面向家庭和多人出行场景。 Model Y 是特斯拉目前最畅销的车型，现有版本已经提供 FSD 辅助驾驶套件，但驾驶员仍需保持注意力并承担驾驶责任。 此次马斯克提出的无方向盘、无踏板版本，则意味着特斯拉希望将 Model Y 转变为完全依靠自动驾驶系统运行的车辆，责任将完全由厂商承担。 在此之前，特斯拉已经推出专门面向 Robotaxi 自动驾驶出行服务的 Cybercab（IT之家注：仅在极个别城市运营）。这款车型采用双座设计，没有方向盘和踏板，不过，Cybercab 的载客能力有限，无法满足多人家庭出行需求。 马斯克认为，双座车型已经能够满足大多数日",
    "body": "",
-   "source": "纽约时报·商业",
+   "source": "IT之家",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 07:58",
-   "score": 10.4,
+   "time": "11-19 10:16",
+   "score": 10.5,
    "level": 1,
    "why": "",
    "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "c959ebfa7c1a5386",
+   "title": "派拉蒙天舞 CEO 确认获马斯克投资：能得到他的信任是莫大的荣幸",
+   "link": "https://www.ithome.com/1/029/178.htm",
+   "summary": "IT之家 11 月 19 日消息，派拉蒙天舞（Paramount Skydance）CEO 大卫 · 埃里森（David Ellison）今日在《纽约时报》DealBook 峰会上确认，埃隆 · 马斯克已经投资其旗下传媒集团，成为公司股东。 埃里森称，马斯克很少投资其他公司，能够获得他的信任并成为公司股东，是一种莫大的荣幸。“他并不会投资很多公司。因此，能够得到他的信任，并让他成为我们的股东，是一种荣誉和特权。” 此前 Semafor 于 10 月 22 日报道称，马斯克向派拉蒙天空之舞投资约 10 亿美元 （IT之家注：现汇率约合 66.81 亿元人民币） 。埃里森此次确认了马斯克的股东身份，但没有公开确认具体投资金额。 该集团由派拉蒙天舞与华纳兄弟探索合并而来，交易于 2026 年 10 月 6 日完成，交易规模约 1,110 亿美元 （现汇率约合 7,415.66 亿元人民币） 。此",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 10:11",
+   "score": 10.5,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "f0cb631a85bc6c26",
+   "title": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
+   "link": "https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html",
+   "summary": "President Trump plans to discuss Ukraine with the leaders of Russia and China. He has halted some sanctions on Russia and announced that the United States will buy Russian diesel.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-18 18:03",
+   "score": 10.4,
+   "level": 1,
+   "why": "",
+   "tier": "must",
    "group": "nyt",
    "ai": ""
   },
@@ -1245,29 +1292,23 @@
    "ai": ""
   },
   {
-   "id": "e251605e0e6c7514",
-   "title": "微软与英特尔扩大Azure及芯片合作，自研芯片首度引入EMIB封装",
-   "link": "https://wallstreetcn.com/articles/3786230",
-   "summary": "11月18日，微软与英特尔宣布扩大合作，签署长期协议共同推进Azure云与AI基础设施建设， 微软由此成为首家宣布采用英特尔代工厂EMIB先进封装技术用于自研芯片的企业。 此次协议涵盖多个层面 ： 英特尔确认向微软提供多年期Xeon处理器供货保障，包括下一代服务器CPU\"Diamond Rapids\"； 微软将把EMIB技术应用于Azure自研硅片的封装生产，其中包括下一代Maia AI加速器和Cobalt CPU。 双方还将在CXL内存扩展、英特尔QuickAssist加速技术及机密计算领域展开深度协作。 根据双方披露的技术数据，合作成果已初步显现。 Azure M系列v4虚拟机借助CXL内存与Xeon 6处理器的平坦内存模式实现最高2.3倍性能提升，云端SQL备份速度通过Intel QAT技术提升最高达2.5倍。 这些进展直接关系到微软在云计算与AI算力市场的竞争力，亦对英特尔代工业务",
+   "id": "27be0c6a32ad664d",
+   "title": "A.I. Makes More Tech Outages Likely, Microsoft’s Chief Warns",
+   "link": "https://www.nytimes.com/2026/11/18/business/dealbook/microsoft-satya-nadella-outages-ai.html",
+   "summary": "Satya Nadella said that A.I. tools were finding cybersecurity bugs at a breakneck pace, and that companies were having to create fixes and deploy them “instantaneously.”",
    "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "IT之家",
-     "t": "微软与英特尔深化合作：成 Azure 芯片首个 EMIB 客户，提前锁定下一代 Diamond Rapids 产能",
-     "u": "https://www.ithome.com/1/029/122.htm"
-    }
-   ],
+   "source": "纽约时报·商业",
+   "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 05:12",
-   "score": 10.1,
+   "time": "11-19 07:58",
+   "score": 10.2,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -1293,23 +1334,23 @@
    "ai": ""
   },
   {
-   "id": "b7211ca2eb22ec24",
-   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-   "summary": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-   "body": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-   "source": "美联储·货币政策",
+   "id": "e251605e0e6c7514",
+   "title": "微软与英特尔扩大Azure及芯片合作，自研芯片首度引入EMIB封装",
+   "link": "https://wallstreetcn.com/articles/3786230",
+   "summary": "11月18日，微软与英特尔宣布扩大合作，签署长期协议共同推进Azure云与AI基础设施建设， 微软由此成为首家宣布采用英特尔代工厂EMIB先进封装技术用于自研芯片的企业。 此次协议涵盖多个层面 ： 英特尔确认向微软提供多年期Xeon处理器供货保障，包括下一代服务器CPU\"Diamond Rapids\"； 微软将把EMIB技术应用于Azure自研硅片的封装生产，其中包括下一代Maia AI加速器和Cobalt CPU。 双方还将在CXL内存扩展、英特尔QuickAssist加速技术及机密计算领域展开深度协作。 根据双方披露的技术数据，合作成果已初步显现。 Azure M系列v4虚拟机借助CXL内存与Xeon 6处理器的平坦内存模式实现最高2.3倍性能提升，云端SQL备份速度通过Intel QAT技术提升最高达2.5倍。 这些进展直接关系到微软在云计算与AI算力市场的竞争力，亦对英特尔代工业务",
+   "body": "",
+   "source": "华尔街见闻·文章",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 03:00",
+   "time": "11-19 05:12",
    "score": 9.8,
    "level": 1,
    "why": "",
-   "tier": "must",
-   "group": "fed",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1333,23 +1374,23 @@
    "ai": ""
   },
   {
-   "id": "cc82e87b9fa15aed",
-   "title": "特斯拉以 3 万美元向客户出售 Cybercab 然后每月收 299 美元",
-   "link": "https://www.solidot.org/story?sid=85926",
-   "summary": "特斯拉宣布以 3 万美元向特选客户出售无人驾驶汽车 Cybercab，然后每月必须支付 299 美元否则汽车不会启动。Cybercab 类似 Waymo 旗下的无人驾驶出租车，没有方向盘也没有刹车踏板，但不同的是 Waymo 的汽车提供的网约车服务，而特斯拉计划将其提供给少许客户。分析师认为这类似花 3 万美元买下一个特许经营权。特斯拉称，如果 Cybercab 车主未能按时足额缴纳费用，汽车会停止工作。如果车主试图在不支持该服务的区域（目前仅限于佛罗里达州和德克萨斯州部分城市）使用汽车，它同样无法工作。如果车主有任何被认定为未经授权或不当的行为，特斯拉有权暂停或取消其订阅，届时汽车将停止工作。如果汽车失去网络连接，它同样会停止工作。此外未经特斯拉书面同意车主不得出售或转让汽车。特斯拉还建议 13 岁以下儿童不要乘坐 Cybercab，并明确禁止儿童在没有成年人陪同的情况下单独乘车。",
-   "body": "",
-   "source": "Solidot 奇客",
+   "id": "b7211ca2eb22ec24",
+   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+   "summary": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "body": "Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+   "source": "美联储·货币政策",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 23:29",
-   "score": 9.4,
+   "time": "11-19 03:00",
+   "score": 9.6,
    "level": 1,
    "why": "",
-   "tier": "",
-   "group": "Solidot 奇客",
+   "tier": "must",
+   "group": "fed",
    "ai": ""
   },
   {
@@ -1373,6 +1414,26 @@
    "ai": ""
   },
   {
+   "id": "cc82e87b9fa15aed",
+   "title": "特斯拉以 3 万美元向客户出售 Cybercab 然后每月收 299 美元",
+   "link": "https://www.solidot.org/story?sid=85926",
+   "summary": "特斯拉宣布以 3 万美元向特选客户出售无人驾驶汽车 Cybercab，然后每月必须支付 299 美元否则汽车不会启动。Cybercab 类似 Waymo 旗下的无人驾驶出租车，没有方向盘也没有刹车踏板，但不同的是 Waymo 的汽车提供的网约车服务，而特斯拉计划将其提供给少许客户。分析师认为这类似花 3 万美元买下一个特许经营权。特斯拉称，如果 Cybercab 车主未能按时足额缴纳费用，汽车会停止工作。如果车主试图在不支持该服务的区域（目前仅限于佛罗里达州和德克萨斯州部分城市）使用汽车，它同样无法工作。如果车主有任何被认定为未经授权或不当的行为，特斯拉有权暂停或取消其订阅，届时汽车将停止工作。如果汽车失去网络连接，它同样会停止工作。此外未经特斯拉书面同意车主不得出售或转让汽车。特斯拉还建议 13 岁以下儿童不要乘坐 Cybercab，并明确禁止儿童在没有成年人陪同的情况下单独乘车。",
+   "body": "",
+   "source": "Solidot 奇客",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 23:29",
+   "score": 9.1,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "Solidot 奇客",
+   "ai": ""
+  },
+  {
    "id": "2cacaa691de315da",
    "title": "英伟达电话会：“不打算请回黄仁勋”，2028财年增速预期上调至75%，AI投资将更加“克制与挑剔”",
    "link": "https://wallstreetcn.com/articles/3786136",
@@ -1392,26 +1453,6 @@
    "words": [],
    "time": "",
    "score": 9.0,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "d2c7131ca2ff00c9",
-   "title": "英伟达炸裂业绩也没能打消疑虑！大空头Burry盯上延期发布的10-Q报告",
-   "link": "https://wallstreetcn.com/articles/3786198",
-   "summary": "英伟达交出了一份亮眼的季报，但市场的疑虑并未随之消散。 英伟达周二盘后公布第三季度业绩，营收同比翻番至1158亿美元，大幅超出华尔街预期，第四季度指引同样高于分析师预测，并宣布1500亿美元股票回购计划，盘前股价随即上涨逾3%。然而 ，一份迟迟未能随财报同步披露的10-Q文件，迅速引发市场关注——知名空头Michael Burry对此公开表态，将其视为值得警惕的信号。 与此同时，围绕前CEO黄仁勋去留问题的争议仍在持续发酵。董事会明确表示不会恢复黄仁勋的CEO职位，但据Semafor报道，部分董事会成员私下仍在推动其回归，令公司治理层面的不确定性悬而未决。 财报数据全面超预期，回购计划提振情绪 英伟达第三季度每股收益2.68美元，高于彭博一致预期的2.47美元；营收1158亿美元，超出预期的1093亿美元。数据中心业务营收达1076亿美元，同比增长110%，亦高于市场预期的1019亿美元；",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 18:05",
-   "score": 8.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1459,6 +1500,46 @@
    "ai": ""
   },
   {
+   "id": "d2c7131ca2ff00c9",
+   "title": "英伟达炸裂业绩也没能打消疑虑！大空头Burry盯上延期发布的10-Q报告",
+   "link": "https://wallstreetcn.com/articles/3786198",
+   "summary": "英伟达交出了一份亮眼的季报，但市场的疑虑并未随之消散。 英伟达周二盘后公布第三季度业绩，营收同比翻番至1158亿美元，大幅超出华尔街预期，第四季度指引同样高于分析师预测，并宣布1500亿美元股票回购计划，盘前股价随即上涨逾3%。然而 ，一份迟迟未能随财报同步披露的10-Q文件，迅速引发市场关注——知名空头Michael Burry对此公开表态，将其视为值得警惕的信号。 与此同时，围绕前CEO黄仁勋去留问题的争议仍在持续发酵。董事会明确表示不会恢复黄仁勋的CEO职位，但据Semafor报道，部分董事会成员私下仍在推动其回归，令公司治理层面的不确定性悬而未决。 财报数据全面超预期，回购计划提振情绪 英伟达第三季度每股收益2.68美元，高于彭博一致预期的2.47美元；营收1158亿美元，超出预期的1093亿美元。数据中心业务营收达1076亿美元，同比增长110%，亦高于市场预期的1019亿美元；",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 18:05",
+   "score": 8.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "be6e5955eac42c7f",
+   "title": "谷歌系AI制药公司融资50亿美元，较上轮翻倍",
+   "link": "https://wallstreetcn.com/articles/3786168",
+   "summary": "谷歌母公司Alphabet旗下AI制药初创企业Isomorphic Labs完成50亿美元C轮融资，凸显资本市场对AI驱动新药研发赛道的高度押注。 据CNBC报道， Isomorphic Labs于周二（11月17日）宣布完成50亿美元C轮融资 ，本轮由Greenoaks与红杉资本（Sequoia Capital）联合领投，Andreessen Horowitz跟投，Alphabet亦参与其中。所募资金将用于推进AI驱动的新药设计与研发。 此次融资距Isomorphic Labs上一轮融资仅约六个月。该公司于今年5月完成21亿美元B轮融资，C轮规模较上轮增长逾一倍。与此同时，本轮融资距公司创始人、前谷歌DeepMind首席执行官Demis Hassabis卸任DeepMind CEO一职仅约三个半月。 业务布局：自研药物设计引擎与候选管线 Isomorphic Labs正在构建一套 专有A",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 8.3,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "db5eacc777e3a2e3",
    "title": "“AI央行”开启量化紧缩！英伟达新CEO收紧投资闸门，Neocloud融资命脉告急",
    "link": "https://wallstreetcn.com/articles/3786182",
@@ -1471,7 +1552,7 @@
    ],
    "words": [],
    "time": "11-18 16:26",
-   "score": 8.5,
+   "score": 8.2,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1491,7 +1572,7 @@
    ],
    "words": [],
    "time": "11-18 15:38",
-   "score": 8.4,
+   "score": 8.1,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1517,27 +1598,7 @@
    ],
    "words": [],
    "time": "11-18 15:16",
-   "score": 8.3,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "be6e5955eac42c7f",
-   "title": "谷歌系AI制药公司融资50亿美元，较上轮翻倍",
-   "link": "https://wallstreetcn.com/articles/3786168",
-   "summary": "谷歌母公司Alphabet旗下AI制药初创企业Isomorphic Labs完成50亿美元C轮融资，凸显资本市场对AI驱动新药研发赛道的高度押注。 据CNBC报道， Isomorphic Labs于周二（11月17日）宣布完成50亿美元C轮融资 ，本轮由Greenoaks与红杉资本（Sequoia Capital）联合领投，Andreessen Horowitz跟投，Alphabet亦参与其中。所募资金将用于推进AI驱动的新药设计与研发。 此次融资距Isomorphic Labs上一轮融资仅约六个月。该公司于今年5月完成21亿美元B轮融资，C轮规模较上轮增长逾一倍。与此同时，本轮融资距公司创始人、前谷歌DeepMind首席执行官Demis Hassabis卸任DeepMind CEO一职仅约三个半月。 业务布局：自研药物设计引擎与候选管线 Isomorphic Labs正在构建一套 专有A",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 14:44",
-   "score": 8.3,
+   "score": 8.1,
    "level": 1,
    "why": "",
    "tier": "",
