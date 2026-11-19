@@ -1,8 +1,8 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19 14:30",
+ "generated_at": "2026-11-19 16:30",
  "hours_window": 30,
- "count": 78,
+ "count": 84,
  "sources_ok": 21,
  "sources_total": 21,
  "topics_order": [
@@ -30,7 +30,7 @@
     "伊朗"
    ],
    "time": "11-18 16:37",
-   "score": 32.3,
+   "score": 32.0,
    "level": 2,
    "why": "交火",
    "tier": "",
@@ -54,10 +54,32 @@
     "加沙"
    ],
    "time": "11-19 10:11",
-   "score": 26.5,
+   "score": 26.2,
    "level": 2,
    "why": "停火",
    "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "5c6c6b507df64c93",
+   "title": "“国常会上有人表态不会再频繁救市了”系谣言",
+   "link": "https://www.chinanews.com.cn/cj/2026/11-18/10734213.shtml",
+   "summary": "中新社北京11月18日电 (记者 陈康亮)中国资本市场辟谣平台18日发布消息称，近日，互联网上传播关于“国常会(国务院常务会议)上有人表态不会再频繁救市了”相关信息。经核查，该信息为谣言。资本市场辟谣平台称，该信息系编造会议内容、歪曲炒作政策，严重扰乱资本市场预期，影响极其恶劣。在此提醒广大投资者和网民，理性甄别网络信息，不信谣、不传谣，共同维护良好的信息传播秩序。公开资料显示，资本市场辟谣平台是由中国上市公司协会承办运营的资本市场领域辟谣信息集中发布平台。",
+   "body": "中新社北京11月18日电 (记者 陈康亮)中国资本市场辟谣平台18日发布消息称，近日，互联网上传播关于“国常会(国务院常务会议)上有人表态不会再频繁救市了”相关信息。经核查，该信息为谣言。资本市场辟谣平台称，该信息系编造会议内容、歪曲炒作政策，严重扰乱资本市场预期，影响极其恶劣。在此提醒广大投资者和网民，理性甄别网络信息，不信谣、不传谣，共同维护良好的信息传播秩序。公开资料显示，资本市场辟谣平台是由中国上市公司协会承办运营的资本市场领域辟谣信息集中发布平台。",
+   "source": "中国新闻网·财经",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "国常会"
+   ],
+   "time": "",
+   "score": 31.1,
+   "level": 1,
+   "why": "国常会",
+   "tier": "",
    "group": "chinanews",
    "ai": ""
   },
@@ -108,97 +130,18 @@
    "ai": ""
   },
   {
-   "id": "ffb46564ce10aee7",
-   "title": "日本新潟县佐渡附近发生5.0级地震",
-   "link": "https://www.chinanews.com.cn/gj/2026/11-18/10734352.shtml",
-   "summary": "中新网东京11月18日电 (记者 朱晨曦)据日本气象厅消息，当地时间18日18时37分(北京时间17时37分)，日本新潟县佐渡附近发生5.0级地震。日本气象厅说该地震不会引发海啸。据日本气象厅数据，本次地震震中位于北纬38.8度、东经137.9度，震源深度为10公里。日本气象厅根据体感及周围状况将地震烈度分为0、1、2、3、4、5弱、5强、6弱、6强、7共10个级别。本次地震新潟县观测到的最大地震烈度级别为“3”。",
-   "body": "中新网东京11月18日电 (记者 朱晨曦)据日本气象厅消息，当地时间18日18时37分(北京时间17时37分)，日本新潟县佐渡附近发生5.0级地震。日本气象厅说该地震不会引发海啸。据日本气象厅数据，本次地震震中位于北纬38.8度、东经137.9度，震源深度为10公里。日本气象厅根据体感及周围状况将地震烈度分为0、1、2、3、4、5弱、5强、6弱、6强、7共10个级别。本次地震新潟县观测到的最大地震烈度级别为“3”。",
-   "source": "中国新闻网·国际",
-   "also": [],
-   "topics": [
-    "突发事件"
-   ],
-   "words": [
-    "地震"
-   ],
-   "time": "11-18 21:45",
-   "score": 20.9,
-   "level": 2,
-   "why": "地震",
-   "tier": "must",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "5c6c6b507df64c93",
-   "title": "“国常会上有人表态不会再频繁救市了”系谣言",
-   "link": "https://www.chinanews.com.cn/cj/2026/11-18/10734213.shtml",
-   "summary": "中新社北京11月18日电 (记者 陈康亮)中国资本市场辟谣平台18日发布消息称，近日，互联网上传播关于“国常会(国务院常务会议)上有人表态不会再频繁救市了”相关信息。经核查，该信息为谣言。资本市场辟谣平台称，该信息系编造会议内容、歪曲炒作政策，严重扰乱资本市场预期，影响极其恶劣。在此提醒广大投资者和网民，理性甄别网络信息，不信谣、不传谣，共同维护良好的信息传播秩序。公开资料显示，资本市场辟谣平台是由中国上市公司协会承办运营的资本市场领域辟谣信息集中发布平台。",
-   "body": "中新社北京11月18日电 (记者 陈康亮)中国资本市场辟谣平台18日发布消息称，近日，互联网上传播关于“国常会(国务院常务会议)上有人表态不会再频繁救市了”相关信息。经核查，该信息为谣言。资本市场辟谣平台称，该信息系编造会议内容、歪曲炒作政策，严重扰乱资本市场预期，影响极其恶劣。在此提醒广大投资者和网民，理性甄别网络信息，不信谣、不传谣，共同维护良好的信息传播秩序。公开资料显示，资本市场辟谣平台是由中国上市公司协会承办运营的资本市场领域辟谣信息集中发布平台。",
-   "source": "中国新闻网·财经",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "国常会"
-   ],
-   "time": "11-18 22:54",
-   "score": 25.1,
-   "level": 1,
-   "why": "国常会",
-   "tier": "",
-   "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "6d95632e2884ac38",
-   "title": "黄仁勋离任后英伟达首开全员大会：承诺12月加薪，坚持换帅",
-   "link": "https://www.jiemian.com/article/15348968.html",
-   "summary": "英伟达新任董事会主席重申，公司不会寻找一个“黄仁勋复刻版”继任者。在没有黄仁勋的皮衣和标志性开场白的全员会上，英伟达选择用“真金白银”来缓解内部的震荡。当地时间11月18日，英伟达创始人黄仁勋卸任后的首场全员大会如期举行，临时CEO科莱特·克雷斯（Colette Kress）开场仅几分钟便表示，将在12月提前给员工加薪并发放股权激励。此外，管理层也表达了坚持换帅的意愿。这场会议持续约50分钟，采用线下与线上直播结合的方式。会议开始前，英伟达内部共征集了约700个员工提问，薪酬保障、董事会决策透明度以及CEO人选，是关注度最高的三类议题。",
-   "body": "英伟达新任董事会主席重申，公司不会寻找一个“黄仁勋复刻版”继任者。在没有黄仁勋的皮衣和标志性开场白的全员会上，英伟达选择用“真金白银”来缓解内部的震荡。当地时间11月18日，英伟达创始人黄仁勋卸任后的首场全员大会如期举行，临时CEO科莱特·克雷斯（Colette Kress）开场仅几分钟便表示，将在12月提前给员工加薪并发放股权激励。此外，管理层也表达了坚持换帅的意愿。这场会议持续约50分钟，采用线下与线上直播结合的方式。会议开始前，英伟达内部共征集了约700个员工提问，薪酬保障、董事会决策透明度以及CEO人选，是关注度最高的三类议题。",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "",
-   "score": 17.9,
-   "level": 2,
-   "why": "监管司法·离任",
-   "tier": "",
-   "group": "界面新闻",
-   "ai": ""
-  },
-  {
-   "id": "418ff6ba61248229",
-   "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
-   "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
-   "summary": "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them.",
+   "id": "840caf716f10746c",
+   "title": "因智能体入侵银行系统，美国亚利桑那州对 OpenAI 等人工智能企业展开刑事调查",
+   "link": "https://www.ithome.com/1/029/331.htm",
+   "summary": "IT之家 11 月 19 日消息，据路透社今天报道，美国亚利桑那州总检察长克里斯 · 梅耶斯周三表示，该州已对 OpenAI 及其他人工智能企业展开刑事调查， 涉及“失控 AI 智能体入侵银行系统”事件 。 梅耶斯表示， 她们正在调查 OpenAI 等企业的行为是否持续违反亚利桑那州法律 。刑事调查并不意味着一定会提出指控，且这名检察长拒绝透露其他 AI 企业和银行的名称。 IT之家从原报道获悉，美国银行业界越来越担心，能力越来越强大的 AI 智能体可能会危害银行系统。美国银行、摩根大通银行、嘉信理财等金融机构已经从上个月开始， 阻止第三方 AI 智能体进入网银 。 同时，美国加利福尼亚州总检察长罗布 · 邦塔已经起诉 OpenAI，指控该公司在缺乏充分安全措施和监管的情况下开发危险产品。 截至发稿，OpenAI 暂未回应置评请求。",
    "body": "",
-   "source": "纽约时报·商业",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-19 13:11",
-   "score": 17.8,
-   "level": 2,
-   "why": "监管司法·resignation",
-   "tier": "",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "ab2b037e024566e5",
-   "title": "美亚利桑那州称已对OpenAI及其他公司展开刑事调查",
-   "link": "https://36kr.com/newsflashes/4076185928127623?f=rss",
-   "summary": "据报道，亚利桑那州总检察长克里斯·梅斯（Kris Mayes）表示，该州已对OpenAI及其他AI公司展开刑事调查，事由是“银行疑似遭失控AI代理渗透”。梅斯表示，刑事调查并不一定意味着会提起指控。目前她的办公室正在调查是否存在持续违反亚利桑那州法律的行为。（财联社）",
-   "body": "",
-   "source": "36氪",
+   "source": "IT之家",
    "also": [
+    {
+     "src": "36氪",
+     "t": "美亚利桑那州称已对OpenAI及其他公司展开刑事调查",
+     "u": "https://36kr.com/newsflashes/4076185928127623?f=rss"
+    },
     {
      "src": "36氪",
      "t": "美国亚利桑那州对OpenAI等展开刑事调查，因失控智能体入侵银行系统",
@@ -223,13 +166,107 @@
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "11-19 12:44",
-   "score": 17.8,
+   "words": [
+    "入侵"
+   ],
+   "time": "11-19 14:44",
+   "score": 21.8,
    "level": 2,
-   "why": "监管司法·调查",
+   "why": "入侵",
    "tier": "",
-   "group": "36氪",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "d1da4fd9d270db10",
+   "title": "河南省商丘市人大常委会原党组成员张团结被双开",
+   "link": "https://www.jiemian.com/article/15351133.html",
+   "summary": "经查，张团结丧失理想信念，背弃初心使命，对抗组织审查；无视中央八项规定精神，收受可能影响公正执行公务的礼金、消费卡，违规配备使用公务用车；违背组织原则，在组织函询时不如实说明问题，利用职权为他人谋取人事利益并收受财物；廉洁底线失守，借用管理和服务对象的车辆，通过民间借贷获取大额回报，违规从事营利活动，利用职权为他人谋取利益并收受财物；不正确履行职责，造成不良影响；丧失纪法底线，大搞权钱交易，利用职务便利为他人在项目承揽、职务调整等方面谋取利益，非法收受巨额财物。",
+   "body": "",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "人大常委会"
+   ],
+   "time": "11-19 16:00",
+   "score": 26.9,
+   "level": 1,
+   "why": "人大常委会",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
+  {
+   "id": "ffb46564ce10aee7",
+   "title": "日本新潟县佐渡附近发生5.0级地震",
+   "link": "https://www.chinanews.com.cn/gj/2026/11-18/10734352.shtml",
+   "summary": "中新网东京11月18日电 (记者 朱晨曦)据日本气象厅消息，当地时间18日18时37分(北京时间17时37分)，日本新潟县佐渡附近发生5.0级地震。日本气象厅说该地震不会引发海啸。据日本气象厅数据，本次地震震中位于北纬38.8度、东经137.9度，震源深度为10公里。日本气象厅根据体感及周围状况将地震烈度分为0、1、2、3、4、5弱、5强、6弱、6强、7共10个级别。本次地震新潟县观测到的最大地震烈度级别为“3”。",
+   "body": "中新网东京11月18日电 (记者 朱晨曦)据日本气象厅消息，当地时间18日18时37分(北京时间17时37分)，日本新潟县佐渡附近发生5.0级地震。日本气象厅说该地震不会引发海啸。据日本气象厅数据，本次地震震中位于北纬38.8度、东经137.9度，震源深度为10公里。日本气象厅根据体感及周围状况将地震烈度分为0、1、2、3、4、5弱、5强、6弱、6强、7共10个级别。本次地震新潟县观测到的最大地震烈度级别为“3”。",
+   "source": "中国新闻网·国际",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "地震"
+   ],
+   "time": "11-18 21:45",
+   "score": 20.7,
+   "level": 2,
+   "why": "地震",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "ae787b4292e01a61",
+   "title": "也门胡塞武装称多地遭沙特空袭 致11死36伤",
+   "link": "https://wallstreetcn.com/livenews/3202430",
+   "summary": "据也门胡塞武装控制的马西拉电视台19日报道，在过去24小时内，也门5个省遭沙特阿拉伯战机空袭，共造成11人死亡、36人受伤。报道说，沙特战机当天对萨那多地发动多轮空袭，其中包括再次袭击一家鞋类和纺织品工厂。（央视）",
+   "body": "",
+   "source": "华尔街见闻·全球快讯",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "空袭"
+   ],
+   "time": "",
+   "score": 20,
+   "level": 2,
+   "why": "空袭",
+   "tier": "",
+   "group": "wscn",
+   "ai": ""
+  },
+  {
+   "id": "403af8eac84ffc9c",
+   "title": "彭博社：黄仁勋离任英伟达 CEO 后，日本 AI 股首当其冲",
+   "link": "https://www.ithome.com/1/029/265.htm",
+   "summary": "IT之家 11 月 19 日消息，彭博社今天（11 月 19 日）发布博文，报道称英伟达管理层变动及创始人黄仁勋突然离任， 正引发全球 AI 概念股新一轮抛售，日本相关股票首当其冲。 彭博社指出日本股市风向从“AI 溢价”转向“AI 折价”，投资者重新审视日本芯片、半导体设备与 AI 基础设施企业，关注重点转向未来盈利能否兑现。 自黄仁勋辞职以来，日本存储芯片厂商铠侠（Kioxia）和半导体测试设备公司爱德万测试（Advantest）股价均累计下跌超过 9%，明显跑输东证指数约 2.9% 的跌幅。 分析人士将当前局面概括为“三重打击”：AI 企业盈利能力恶化的担忧、美国中期选举后监管趋严预期，以及英伟达领导层动荡带来的行业信心冲击。 野村新加坡高级跨资产策略师须田义孝认为，投资者可能不再愿意为 AI 标签支付溢价，反而会要求“AI 折价”。三菱 UFJ 资产管理执行基金经理友明弘明也表示，",
+   "body": "",
+   "source": "IT之家",
+   "also": [
+    {
+     "src": "界面新闻",
+     "t": "黄仁勋离任后英伟达首开全员大会：承诺12月加薪，坚持换帅",
+     "u": "https://www.jiemian.com/article/15348968.html"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 12:49",
+   "score": 17.5,
+   "level": 2,
+   "why": "监管司法·离任",
+   "tier": "",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -255,7 +292,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 11:42",
+   "time": "",
    "score": 17.7,
    "level": 2,
    "why": "监管司法·离任",
@@ -264,22 +301,22 @@
    "ai": ""
   },
   {
-   "id": "03d5e10eb0980e1c",
-   "title": "How We Broke Open the Nvidia Investigation",
-   "link": "https://www.nytimes.com/2026/11/18/insider/nvidia-jensen-huang-spying-plot.html",
-   "summary": "A global reporting effort by The New York Times included many twists and turns, from surprising photos and shipment records to a big break through astonishing tips from sources.",
+   "id": "418ff6ba61248229",
+   "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+   "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
+   "summary": "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them.",
    "body": "",
-   "source": "纽约时报·国际",
+   "source": "纽约时报·商业",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 07:52",
-   "score": 17.2,
+   "time": "11-19 13:11",
+   "score": 17.6,
    "level": 2,
-   "why": "监管司法·investigation",
-   "tier": "must",
+   "why": "监管司法·resignation",
+   "tier": "",
    "group": "nyt",
    "ai": ""
   },
@@ -328,6 +365,26 @@
    "ai": ""
   },
   {
+   "id": "03d5e10eb0980e1c",
+   "title": "How We Broke Open the Nvidia Investigation",
+   "link": "https://www.nytimes.com/2026/11/18/insider/nvidia-jensen-huang-spying-plot.html",
+   "summary": "A global reporting effort by The New York Times included many twists and turns, from surprising photos and shipment records to a big break through astonishing tips from sources.",
+   "body": "",
+   "source": "纽约时报·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 07:52",
+   "score": 16.9,
+   "level": 2,
+   "why": "监管司法·investigation",
+   "tier": "must",
+   "group": "nyt",
+   "ai": ""
+  },
+  {
    "id": "a59d863a088a6c3b",
    "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
    "link": "https://wallstreetcn.com/articles/3786264",
@@ -343,7 +400,7 @@
     "FOMC"
    ],
    "time": "11-19 14:01",
-   "score": 16.9,
+   "score": 16.7,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -363,7 +420,7 @@
    ],
    "words": [],
    "time": "11-19 03:53",
-   "score": 16.7,
+   "score": 16.4,
    "level": 2,
    "why": "监管司法·离任",
    "tier": "",
@@ -494,7 +551,7 @@
    ],
    "words": [],
    "time": "11-18 20:14",
-   "score": 15.7,
+   "score": 15.5,
    "level": 2,
    "why": "监管司法·Senate",
    "tier": "",
@@ -576,7 +633,7 @@
     "特朗普",
     "美国总统"
    ],
-   "time": "11-19 13:16",
+   "time": "",
    "score": 14.8,
    "level": 1,
    "why": "",
@@ -645,7 +702,7 @@
     "美联储"
    ],
    "time": "11-19 03:00",
-   "score": 13.6,
+   "score": 13.3,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -667,7 +724,7 @@
     "CPI"
    ],
    "time": "11-19 01:06",
-   "score": 13.3,
+   "score": 13.1,
    "level": 1,
    "why": "CPI",
    "tier": "",
@@ -675,47 +732,47 @@
    "ai": ""
   },
   {
-   "id": "1815ad074b2aca33",
-   "title": "3000亿元注资特别国债完成招标，二期票面利率1.40%",
-   "link": "https://wallstreetcn.com/articles/3786218",
-   "summary": "11月18日，财政部完成1500亿元中央金融机构注资特别国债（二期）招标，期限7年，票面利率1.40%。 加上10月8日招标发行的5年期、票面利率1.37%的一期，全年3000亿元中央金融机构注资特别国债完成招标。 本期国债将于11月19日起计息，11月23日起上市交易，2033年11月19日偿还本金并支付最后一次利息。 招标结果显示，本期债券加权中标收益率为1.40%，边际中标收益率为1.43%，全场认购倍数2.58倍，边际倍数8.2倍。 全场认购倍数意味着投标量达到发行量的2.58倍。两期债券票面利率均在1.4%左右，明确了这笔财政注资的发债融资成本。 募集资金将通过股权投资转化为金融机构的资本。 按照此前公布的安排，财政部将以股东身份向8家中央金融企业注资约3000亿元，用于补充核心一级资本。 加上中国烟草总公司及相关子公司合计约600亿元出资，8家机构计划增资约3600亿元。 财政",
+   "id": "8be5b53b70ebb84a",
+   "title": "金正恩与特朗普是否会举行会晤？外交部回应",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34511522",
+   "summary": "11月19日，外交部发言人郭嘉昆在例行记者会上回应有关金正恩与美国总统特朗普是否会举行会晤的提问，他表示“我没有这方面的信息。”",
    "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "特别国债"
-   ],
-   "time": "11-18 22:24",
-   "score": 13.0,
-   "level": 1,
-   "why": "特别国债",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "766b62221053d746",
-   "title": "美联储分歧加剧：沃勒称12月应考虑加息50个基点，威廉姆斯认为无需激进收紧",
-   "link": "https://wallstreetcn.com/articles/3786207",
-   "summary": "美联储内部对后续加息力度出现明显分歧，理事克里斯托弗·沃勒主张进一步加大加息幅度，而纽约联储主席约翰·威廉姆斯认为当前没有必要采取激进行动。 11月18日，据彭博报道，沃勒周三接受CNBC采访时表示， 通胀走势仍在朝错误方向发展，美联储需要在加息方面更加积极主动。如果通胀继续加速，他将支持12月一次性加息50个基点，以维护央行的抗通胀信誉。 威廉姆斯则持不同看法。 他周二在纽约出席Axios主办的活动时表示，当前形势并不需要采取激烈行动，并强调美联储循序渐进、根据经济数据调整政策的方式一直奏效。 两人的分歧反映出美联储内部对通胀风险及政策收紧节奏的不同判断。尽管市场目前仍倾向于常规加息路径，但沃勒提出的50个基点加息主张，为12月会议增添了新的不确定性。 沃勒要求加大抗通胀力度，50个基点加息选项浮出水面 沃勒此前已公开支持美联储在12月继续加息，并提出了考虑加息50个基点的条件：核心CP",
-   "body": "",
-   "source": "华尔街见闻·文章",
+   "source": "澎湃新闻",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [
-    "美联储"
+    "特朗普"
    ],
-   "time": "11-18 21:49",
+   "time": "11-19 16:20",
+   "score": 13.0,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "澎湃新闻",
+   "ai": ""
+  },
+  {
+   "id": "ef29181bfafbd81d",
+   "title": "视频丨特朗普：请中国继续保持强大",
+   "link": "https://m.thepaper.cn/newsDetail_forward_34511109",
+   "summary": "11月19日，在同习近平主席会见时，美国总统特朗普表示，从贸易投资到世界和平，中美都是领航的，中美都很强大，请中国继续保持强大。",
+   "body": "",
+   "source": "澎湃新闻",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "11-19 15:51",
    "score": 12.9,
    "level": 1,
-   "why": "加息",
+   "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "澎湃新闻",
    "ai": ""
   },
   {
@@ -741,6 +798,92 @@
    "ai": ""
   },
   {
+   "id": "01e5f595bc47f7a8",
+   "title": "金正恩会否与特朗普举行会晤？中方回应",
+   "link": "https://www.chinanews.com.cn/gn/2026/11-19/10734645.shtml",
+   "summary": "有记者提问：有韩国媒体今日报道，目前没有迹象显示朝鲜领导人金正恩将访问中国。外交部能否就金正恩与美国总统特朗普是否会举行会晤提供更多信息？",
+   "body": "有记者提问：有韩国媒体今日报道，目前没有迹象显示朝鲜领导人金正恩将访问中国。外交部能否就金正恩与美国总统特朗普是否会举行会晤提供更多信息？",
+   "source": "中国新闻网·国内",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "特朗普"
+   ],
+   "time": "11-19 15:20",
+   "score": 12.9,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "chinanews",
+   "ai": ""
+  },
+  {
+   "id": "fd06ec77e87f0381",
+   "title": "美国破产法庭法官批准 Google 以千万美元收购 Spirit Airlines 数据",
+   "link": "https://www.solidot.org/story?sid=85928",
+   "summary": "美国联邦破产法庭法官 Sean Lane 批准了 Google 以 1000 万美元收购破产航空公司 Spirit Airlines 内部数据的交易。廉航 Spirit Airlines 于今年五月停止运营，作为资产清算程序的一部分，Google 在八月拍下了其内部数据，这些数据包括了员工数据如电子邮件、电子表格和日历信息，以及市场营销、生产力和运营方面的数据。Google 表示它计划将这些数据用于产品开发和 AI 训练。在工会以及国会议员对该交易表达关注之后，Google 上周同意对相关数据采取额外的隐私保护措施。",
+   "body": "",
+   "source": "Solidot 奇客",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 14:46",
+   "score": 12.8,
+   "level": 1,
+   "why": "破产",
+   "tier": "",
+   "group": "Solidot 奇客",
+   "ai": ""
+  },
+  {
+   "id": "1815ad074b2aca33",
+   "title": "3000亿元注资特别国债完成招标，二期票面利率1.40%",
+   "link": "https://wallstreetcn.com/articles/3786218",
+   "summary": "11月18日，财政部完成1500亿元中央金融机构注资特别国债（二期）招标，期限7年，票面利率1.40%。 加上10月8日招标发行的5年期、票面利率1.37%的一期，全年3000亿元中央金融机构注资特别国债完成招标。 本期国债将于11月19日起计息，11月23日起上市交易，2033年11月19日偿还本金并支付最后一次利息。 招标结果显示，本期债券加权中标收益率为1.40%，边际中标收益率为1.43%，全场认购倍数2.58倍，边际倍数8.2倍。 全场认购倍数意味着投标量达到发行量的2.58倍。两期债券票面利率均在1.4%左右，明确了这笔财政注资的发债融资成本。 募集资金将通过股权投资转化为金融机构的资本。 按照此前公布的安排，财政部将以股东身份向8家中央金融企业注资约3000亿元，用于补充核心一级资本。 加上中国烟草总公司及相关子公司合计约600亿元出资，8家机构计划增资约3600亿元。 财政",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "特别国债"
+   ],
+   "time": "11-18 22:24",
+   "score": 12.7,
+   "level": 1,
+   "why": "特别国债",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "766b62221053d746",
+   "title": "美联储分歧加剧：沃勒称12月应考虑加息50个基点，威廉姆斯认为无需激进收紧",
+   "link": "https://wallstreetcn.com/articles/3786207",
+   "summary": "美联储内部对后续加息力度出现明显分歧，理事克里斯托弗·沃勒主张进一步加大加息幅度，而纽约联储主席约翰·威廉姆斯认为当前没有必要采取激进行动。 11月18日，据彭博报道，沃勒周三接受CNBC采访时表示， 通胀走势仍在朝错误方向发展，美联储需要在加息方面更加积极主动。如果通胀继续加速，他将支持12月一次性加息50个基点，以维护央行的抗通胀信誉。 威廉姆斯则持不同看法。 他周二在纽约出席Axios主办的活动时表示，当前形势并不需要采取激烈行动，并强调美联储循序渐进、根据经济数据调整政策的方式一直奏效。 两人的分歧反映出美联储内部对通胀风险及政策收紧节奏的不同判断。尽管市场目前仍倾向于常规加息路径，但沃勒提出的50个基点加息主张，为12月会议增添了新的不确定性。 沃勒要求加大抗通胀力度，50个基点加息选项浮出水面 沃勒此前已公开支持美联储在12月继续加息，并提出了考虑加息50个基点的条件：核心CP",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "美联储"
+   ],
+   "time": "11-18 21:49",
+   "score": 12.7,
+   "level": 1,
+   "why": "加息",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "97c59b4f1f7688a1",
    "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
    "link": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
@@ -755,7 +898,7 @@
     "Trump"
    ],
    "time": "11-18 18:53",
-   "score": 12.5,
+   "score": 12.3,
    "level": 1,
    "why": "coup",
    "tier": "must",
@@ -777,28 +920,6 @@
     "Trump"
    ],
    "time": "11-19 09:23",
-   "score": 12.4,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "d5a12ceeee5d74e6",
-   "title": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
-   "link": "https://www.nytimes.com/2026/11/18/us/politics/trump-israel-iran-war.html",
-   "summary": "Warnings that Iran is rebuilding its missile stockpile and advancing biological and chemical programs have divided the Trump administration.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-19 07:13",
    "score": 12.1,
    "level": 1,
    "why": "",
@@ -852,25 +973,25 @@
    "ai": ""
   },
   {
-   "id": "2001fd3c72b4f622",
-   "title": "Optimizely 遭入侵 BBC CNN 等知名网站传播恶意程序",
-   "link": "https://www.solidot.org/story?sid=85920",
-   "summary": "被知名网站用于网页 A/B 测试的软件 Optimizely 遭到入侵，黑客纂改了这些网站加载的 JavaScript 代码，向访客的计算机植入恶意程序。有至少 178 个网站受到影响，其中包括 BBC、CNN、Zoom、宜家、Salesforce、汇丰银行和 TalkTalk 等知名网站。这些网站使用了 Optimizely 的 Web Experimentation，允许在不更改网站底层代码的情况下调整网页的内容和布局。黑客利用了被称为 OPTIMJACK 的漏洞向 Optimizely 客户的项目中植入恶意的 JavaScript 代码。Optimizely 表示它已经修复了漏洞，通知了受影响的客户。黑客释放了多个恶意负荷，其中包括篡改用户的加密货币钱包地址将其替换为攻击者控制的地址；窃取支付卡信息、Cookie 和屏幕截图；甚至还会利用 iPhone 和 iPad 运行的旧版本 i",
+   "id": "d5a12ceeee5d74e6",
+   "title": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
+   "link": "https://www.nytimes.com/2026/11/18/us/politics/trump-israel-iran-war.html",
+   "summary": "Warnings that Iran is rebuilding its missile stockpile and advancing biological and chemical programs have divided the Trump administration.",
    "body": "",
-   "source": "Solidot 奇客",
+   "source": "纽约时报·美国",
    "also": [],
    "topics": [
-    "突发事件"
+    "美国重大"
    ],
    "words": [
-    "入侵"
+    "Trump"
    ],
-   "time": "11-18 17:12",
-   "score": 11.3,
+   "time": "11-19 07:13",
+   "score": 11.8,
    "level": 1,
-   "why": "入侵",
-   "tier": "",
-   "group": "Solidot 奇客",
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -896,6 +1017,28 @@
    "ai": ""
   },
   {
+   "id": "2001fd3c72b4f622",
+   "title": "Optimizely 遭入侵 BBC CNN 等知名网站传播恶意程序",
+   "link": "https://www.solidot.org/story?sid=85920",
+   "summary": "被知名网站用于网页 A/B 测试的软件 Optimizely 遭到入侵，黑客纂改了这些网站加载的 JavaScript 代码，向访客的计算机植入恶意程序。有至少 178 个网站受到影响，其中包括 BBC、CNN、Zoom、宜家、Salesforce、汇丰银行和 TalkTalk 等知名网站。这些网站使用了 Optimizely 的 Web Experimentation，允许在不更改网站底层代码的情况下调整网页的内容和布局。黑客利用了被称为 OPTIMJACK 的漏洞向 Optimizely 客户的项目中植入恶意的 JavaScript 代码。Optimizely 表示它已经修复了漏洞，通知了受影响的客户。黑客释放了多个恶意负荷，其中包括篡改用户的加密货币钱包地址将其替换为攻击者控制的地址；窃取支付卡信息、Cookie 和屏幕截图；甚至还会利用 iPhone 和 iPad 运行的旧版本 i",
+   "body": "",
+   "source": "Solidot 奇客",
+   "also": [],
+   "topics": [
+    "突发事件"
+   ],
+   "words": [
+    "入侵"
+   ],
+   "time": "11-18 17:12",
+   "score": 11.1,
+   "level": 1,
+   "why": "入侵",
+   "tier": "",
+   "group": "Solidot 奇客",
+   "ai": ""
+  },
+  {
    "id": "5b27cc6f796b9b2f",
    "title": "美国农业部（USDA）：天气因素可能会造成印度和印度尼西亚（印尼）的咖啡在2026-27种植季减产至少7%。",
    "link": "https://wallstreetcn.com/livenews/3202055",
@@ -915,26 +1058,6 @@
    "why": "减产",
    "tier": "",
    "group": "wscn",
-   "ai": ""
-  },
-  {
-   "id": "751118ac67a88542",
-   "title": "Meta 暂停 1:2 拆股计划，优先应对相关法律诉讼",
-   "link": "https://www.ithome.com/1/029/286.htm",
-   "summary": "IT之家 11 月 19 日消息，据《金融时报》报道，Meta 在当地时间本周三向美国特拉华州法院提交的文件中表示，在了结投资者提起的法律诉讼之前， 不会执行此前宣布的拆股计划 。 Meta 今年 10 月宣布拟进行一项 1:2 的拆股，股东在现有股票之外将得到等量的无投票权 C 类股票。这意味着股东可出售新股并保持股权控制。 Meta 本计划通过这一财务手段 在不影响控制权的情况下为其人工智能业务投资筹集额外资金 。此外，这也为 Meta 创始人 Mark Zuckerberg（马克 · 扎克伯格）应对美国加利福尼亚州曾考虑的亿万富翁财富税（IT之家注：该税收提案当前已被公投否决）提供了更灵活的财务结构。 包括美国加利福尼亚州教师退休系统和丹麦养老集团 PFA 在内的空方认为， Meta 董事会的独立性存疑 、 C 类股份的设立可能损害了一般股东的利益 。相关审判定于 2027 年 4 ",
-   "body": "",
-   "source": "IT之家",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-19 14:18",
-   "score": 11.0,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1049,7 +1172,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 13:25",
+   "time": "",
    "score": 10.9,
    "level": 1,
    "why": "",
@@ -1100,47 +1223,23 @@
    "ai": ""
   },
   {
-   "id": "1785c614f0138be2",
-   "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
-   "link": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
-   "summary": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting.",
+   "id": "751118ac67a88542",
+   "title": "Meta 暂停 1:2 拆股计划，优先应对相关法律诉讼",
+   "link": "https://www.ithome.com/1/029/286.htm",
+   "summary": "IT之家 11 月 19 日消息，据《金融时报》报道，Meta 在当地时间本周三向美国特拉华州法院提交的文件中表示，在了结投资者提起的法律诉讼之前， 不会执行此前宣布的拆股计划 。 Meta 今年 10 月宣布拟进行一项 1:2 的拆股，股东在现有股票之外将得到等量的无投票权 C 类股票。这意味着股东可出售新股并保持股权控制。 Meta 本计划通过这一财务手段 在不影响控制权的情况下为其人工智能业务投资筹集额外资金 。此外，这也为 Meta 创始人 Mark Zuckerberg（马克 · 扎克伯格）应对美国加利福尼亚州曾考虑的亿万富翁财富税（IT之家注：该税收提案当前已被公投否决）提供了更灵活的财务结构。 包括美国加利福尼亚州教师退休系统和丹麦养老集团 PFA 在内的空方认为， Meta 董事会的独立性存疑 、 C 类股份的设立可能损害了一般股东的利益 。相关审判定于 2027 年 4 ",
    "body": "",
-   "source": "NPR·国际",
+   "source": "IT之家",
    "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-18 19:57",
+   "words": [],
+   "time": "11-19 14:18",
    "score": 10.7,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "npr",
-   "ai": ""
-  },
-  {
-   "id": "a468c8a8a1c94d80",
-   "title": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
-   "link": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
-   "summary": "NPR's Leila Fadel speaks to Nicholas Burns, former U.S. ambassador to China and NATO, about President Trump's planned meeting with the leaders of China and Russia.",
-   "body": "",
-   "source": "NPR·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-18 19:57",
-   "score": 10.7,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "npr",
+   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1201,7 +1300,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 10:15",
+   "time": "",
    "score": 10.5,
    "level": 1,
    "why": "",
@@ -1221,7 +1320,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 10:16",
+   "time": "",
    "score": 10.5,
    "level": 1,
    "why": "",
@@ -1241,7 +1340,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 10:11",
+   "time": "",
    "score": 10.5,
    "level": 1,
    "why": "",
@@ -1250,12 +1349,12 @@
    "ai": ""
   },
   {
-   "id": "f0cb631a85bc6c26",
-   "title": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
-   "link": "https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html",
-   "summary": "President Trump plans to discuss Ukraine with the leaders of Russia and China. He has halted some sanctions on Russia and announced that the United States will buy Russian diesel.",
+   "id": "1785c614f0138be2",
+   "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+   "summary": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting.",
    "body": "",
-   "source": "纽约时报·国际",
+   "source": "NPR·国际",
    "also": [],
    "topics": [
     "美国重大"
@@ -1263,12 +1362,34 @@
    "words": [
     "Trump"
    ],
-   "time": "11-18 18:03",
+   "time": "11-18 19:57",
    "score": 10.4,
    "level": 1,
    "why": "",
-   "tier": "must",
-   "group": "nyt",
+   "tier": "",
+   "group": "npr",
+   "ai": ""
+  },
+  {
+   "id": "a468c8a8a1c94d80",
+   "title": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
+   "summary": "NPR's Leila Fadel speaks to Nicholas Burns, former U.S. ambassador to China and NATO, about President Trump's planned meeting with the leaders of China and Russia.",
+   "body": "",
+   "source": "NPR·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-18 19:57",
+   "score": 10.4,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "npr",
    "ai": ""
   },
   {
@@ -1292,23 +1413,51 @@
    "ai": ""
   },
   {
-   "id": "27be0c6a32ad664d",
-   "title": "A.I. Makes More Tech Outages Likely, Microsoft’s Chief Warns",
-   "link": "https://www.nytimes.com/2026/11/18/business/dealbook/microsoft-satya-nadella-outages-ai.html",
-   "summary": "Satya Nadella said that A.I. tools were finding cybersecurity bugs at a breakneck pace, and that companies were having to create fixes and deploy them “instantaneously.”",
+   "id": "f0cb631a85bc6c26",
+   "title": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
+   "link": "https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html",
+   "summary": "President Trump plans to discuss Ukraine with the leaders of Russia and China. He has halted some sanctions on Russia and announced that the United States will buy Russian diesel.",
    "body": "",
-   "source": "纽约时报·商业",
+   "source": "纽约时报·国际",
    "also": [],
    "topics": [
     "美国重大"
    ],
-   "words": [],
-   "time": "11-19 07:58",
+   "words": [
+    "Trump"
+   ],
+   "time": "11-18 18:03",
    "score": 10.2,
    "level": 1,
    "why": "",
-   "tier": "",
+   "tier": "must",
    "group": "nyt",
+   "ai": ""
+  },
+  {
+   "id": "eaa273a68f55adee",
+   "title": "尽管财报超预期、尽管新管理层称“一切如常”，英伟达依旧“五连跌”",
+   "link": "https://wallstreetcn.com/articles/3786239",
+   "summary": "英伟达交出超预期财报，新任管理层高调亮相、承诺薪酬激励，却依然未能止住股价颓势。 周三，公司股价再度下跌近3%，创下连续五日下跌纪录，盘中股价一度上涨，随后回吐全部涨幅。折射出市场对领导层动荡的持续担忧。 英伟达临时CEO科莱特·克雷斯（Colette Kress）在周二的分析师电话会议上首次以CEO身份主持财报发布，上调公司销售预期，并就旗下新兴云客户支持政策作出表态。周三盘前英伟达股价一度大涨约4%。 然而，这轮涨势在会后全部回吐，股价终以下跌约2%至3%收盘。道琼斯援引华尔街人士反应称， 市场并不买账管理层\"一切如常\"的定调。 自创始人黄仁勋辞去CEO职务的消息曝光以来，英伟达股价已累计下跌约13%，距52周高点回落幅度更达37%。 与此同时，新董事会主席Harvey Jones明确表示不会让黄仁勋回归，并已聘请猎头公司物色新任CEO，内部稳定工作与市场信心重建的双重压力随之而来。 ",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [
+    {
+     "src": "华尔街见闻·文章",
+     "t": "高盛点评英伟达财报：增长前景依然强劲，但要平衡生态输血与股东回报",
+     "u": "https://wallstreetcn.com/articles/3786176"
+    }
+   ],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 09:06",
+   "score": 10.1,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1325,7 +1474,7 @@
    "words": [
     "Trump"
    ],
-   "time": "11-18 10:29",
+   "time": "",
    "score": 10,
    "level": 1,
    "why": "",
@@ -1334,23 +1483,23 @@
    "ai": ""
   },
   {
-   "id": "e251605e0e6c7514",
-   "title": "微软与英特尔扩大Azure及芯片合作，自研芯片首度引入EMIB封装",
-   "link": "https://wallstreetcn.com/articles/3786230",
-   "summary": "11月18日，微软与英特尔宣布扩大合作，签署长期协议共同推进Azure云与AI基础设施建设， 微软由此成为首家宣布采用英特尔代工厂EMIB先进封装技术用于自研芯片的企业。 此次协议涵盖多个层面 ： 英特尔确认向微软提供多年期Xeon处理器供货保障，包括下一代服务器CPU\"Diamond Rapids\"； 微软将把EMIB技术应用于Azure自研硅片的封装生产，其中包括下一代Maia AI加速器和Cobalt CPU。 双方还将在CXL内存扩展、英特尔QuickAssist加速技术及机密计算领域展开深度协作。 根据双方披露的技术数据，合作成果已初步显现。 Azure M系列v4虚拟机借助CXL内存与Xeon 6处理器的平坦内存模式实现最高2.3倍性能提升，云端SQL备份速度通过Intel QAT技术提升最高达2.5倍。 这些进展直接关系到微软在云计算与AI算力市场的竞争力，亦对英特尔代工业务",
+   "id": "27be0c6a32ad664d",
+   "title": "A.I. Makes More Tech Outages Likely, Microsoft’s Chief Warns",
+   "link": "https://www.nytimes.com/2026/11/18/business/dealbook/microsoft-satya-nadella-outages-ai.html",
+   "summary": "Satya Nadella said that A.I. tools were finding cybersecurity bugs at a breakneck pace, and that companies were having to create fixes and deploy them “instantaneously.”",
    "body": "",
-   "source": "华尔街见闻·文章",
+   "source": "纽约时报·商业",
    "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 05:12",
-   "score": 9.8,
+   "time": "11-19 07:58",
+   "score": 9.9,
    "level": 1,
    "why": "",
    "tier": "",
-   "group": "华尔街见闻·文章",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -1374,6 +1523,26 @@
    "ai": ""
   },
   {
+   "id": "e251605e0e6c7514",
+   "title": "微软与英特尔扩大Azure及芯片合作，自研芯片首度引入EMIB封装",
+   "link": "https://wallstreetcn.com/articles/3786230",
+   "summary": "11月18日，微软与英特尔宣布扩大合作，签署长期协议共同推进Azure云与AI基础设施建设， 微软由此成为首家宣布采用英特尔代工厂EMIB先进封装技术用于自研芯片的企业。 此次协议涵盖多个层面 ： 英特尔确认向微软提供多年期Xeon处理器供货保障，包括下一代服务器CPU\"Diamond Rapids\"； 微软将把EMIB技术应用于Azure自研硅片的封装生产，其中包括下一代Maia AI加速器和Cobalt CPU。 双方还将在CXL内存扩展、英特尔QuickAssist加速技术及机密计算领域展开深度协作。 根据双方披露的技术数据，合作成果已初步显现。 Azure M系列v4虚拟机借助CXL内存与Xeon 6处理器的平坦内存模式实现最高2.3倍性能提升，云端SQL备份速度通过Intel QAT技术提升最高达2.5倍。 这些进展直接关系到微软在云计算与AI算力市场的竞争力，亦对英特尔代工业务",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-19 05:12",
+   "score": 9.6,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
    "id": "b7211ca2eb22ec24",
    "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
    "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
@@ -1386,7 +1555,7 @@
    ],
    "words": [],
    "time": "11-19 03:00",
-   "score": 9.6,
+   "score": 9.3,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1414,26 +1583,6 @@
    "ai": ""
   },
   {
-   "id": "cc82e87b9fa15aed",
-   "title": "特斯拉以 3 万美元向客户出售 Cybercab 然后每月收 299 美元",
-   "link": "https://www.solidot.org/story?sid=85926",
-   "summary": "特斯拉宣布以 3 万美元向特选客户出售无人驾驶汽车 Cybercab，然后每月必须支付 299 美元否则汽车不会启动。Cybercab 类似 Waymo 旗下的无人驾驶出租车，没有方向盘也没有刹车踏板，但不同的是 Waymo 的汽车提供的网约车服务，而特斯拉计划将其提供给少许客户。分析师认为这类似花 3 万美元买下一个特许经营权。特斯拉称，如果 Cybercab 车主未能按时足额缴纳费用，汽车会停止工作。如果车主试图在不支持该服务的区域（目前仅限于佛罗里达州和德克萨斯州部分城市）使用汽车，它同样无法工作。如果车主有任何被认定为未经授权或不当的行为，特斯拉有权暂停或取消其订阅，届时汽车将停止工作。如果汽车失去网络连接，它同样会停止工作。此外未经特斯拉书面同意车主不得出售或转让汽车。特斯拉还建议 13 岁以下儿童不要乘坐 Cybercab，并明确禁止儿童在没有成年人陪同的情况下单独乘车。",
-   "body": "",
-   "source": "Solidot 奇客",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 23:29",
-   "score": 9.1,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "Solidot 奇客",
-   "ai": ""
-  },
-  {
    "id": "2cacaa691de315da",
    "title": "英伟达电话会：“不打算请回黄仁勋”，2028财年增速预期上调至75%，AI投资将更加“克制与挑剔”",
    "link": "https://wallstreetcn.com/articles/3786136",
@@ -1457,6 +1606,26 @@
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "cc82e87b9fa15aed",
+   "title": "特斯拉以 3 万美元向客户出售 Cybercab 然后每月收 299 美元",
+   "link": "https://www.solidot.org/story?sid=85926",
+   "summary": "特斯拉宣布以 3 万美元向特选客户出售无人驾驶汽车 Cybercab，然后每月必须支付 299 美元否则汽车不会启动。Cybercab 类似 Waymo 旗下的无人驾驶出租车，没有方向盘也没有刹车踏板，但不同的是 Waymo 的汽车提供的网约车服务，而特斯拉计划将其提供给少许客户。分析师认为这类似花 3 万美元买下一个特许经营权。特斯拉称，如果 Cybercab 车主未能按时足额缴纳费用，汽车会停止工作。如果车主试图在不支持该服务的区域（目前仅限于佛罗里达州和德克萨斯州部分城市）使用汽车，它同样无法工作。如果车主有任何被认定为未经授权或不当的行为，特斯拉有权暂停或取消其订阅，届时汽车将停止工作。如果汽车失去网络连接，它同样会停止工作。此外未经特斯拉书面同意车主不得出售或转让汽车。特斯拉还建议 13 岁以下儿童不要乘坐 Cybercab，并明确禁止儿童在没有成年人陪同的情况下单独乘车。",
+   "body": "",
+   "source": "Solidot 奇客",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-18 23:29",
+   "score": 8.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "Solidot 奇客",
    "ai": ""
   },
   {
@@ -1500,26 +1669,6 @@
    "ai": ""
   },
   {
-   "id": "d2c7131ca2ff00c9",
-   "title": "英伟达炸裂业绩也没能打消疑虑！大空头Burry盯上延期发布的10-Q报告",
-   "link": "https://wallstreetcn.com/articles/3786198",
-   "summary": "英伟达交出了一份亮眼的季报，但市场的疑虑并未随之消散。 英伟达周二盘后公布第三季度业绩，营收同比翻番至1158亿美元，大幅超出华尔街预期，第四季度指引同样高于分析师预测，并宣布1500亿美元股票回购计划，盘前股价随即上涨逾3%。然而 ，一份迟迟未能随财报同步披露的10-Q文件，迅速引发市场关注——知名空头Michael Burry对此公开表态，将其视为值得警惕的信号。 与此同时，围绕前CEO黄仁勋去留问题的争议仍在持续发酵。董事会明确表示不会恢复黄仁勋的CEO职位，但据Semafor报道，部分董事会成员私下仍在推动其回归，令公司治理层面的不确定性悬而未决。 财报数据全面超预期，回购计划提振情绪 英伟达第三季度每股收益2.68美元，高于彭博一致预期的2.47美元；营收1158亿美元，超出预期的1093亿美元。数据中心业务营收达1076亿美元，同比增长110%，亦高于市场预期的1019亿美元；",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-18 18:05",
-   "score": 8.4,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
    "id": "be6e5955eac42c7f",
    "title": "谷歌系AI制药公司融资50亿美元，较上轮翻倍",
    "link": "https://wallstreetcn.com/articles/3786168",
@@ -1540,10 +1689,10 @@
    "ai": ""
   },
   {
-   "id": "db5eacc777e3a2e3",
-   "title": "“AI央行”开启量化紧缩！英伟达新CEO收紧投资闸门，Neocloud融资命脉告急",
-   "link": "https://wallstreetcn.com/articles/3786182",
-   "summary": "英伟达正在重新定义自己在AI生态中扮演的金融角色。 这家芯片巨头的临时CEO Colette Kress在本周财报电话会上明确表示， 公司将对未来的投资、承诺和财务担保进行\"严格评估\"。 这意味着，黄仁勋时代那种对AI生态\"大手笔、广撒网\"的金融支持风格，或将正式画上句号。 受冲击最大的是新兴的Neocloud赛道。CoreWeave的股价已较历史高点暴跌逾70%，美债亦跌至困境级别，行业整体因高杠杆运营模式而承压。Bloomberg Intelligence分析师Mandeep Singh表示，英伟达的资产负债表资源将更多向供应商倾斜，而非继续为Neocloud提供融资。 从\"我投资你\"到\"看条件再说\" 黄仁勋执掌英伟达期间，这家公司被外界戏称为\"AI央行\"。 过去数年间，英伟达向AI生态系统累计投入超过1000亿美元，覆盖OpenAI、Anthropic、CoreWeave、Marve",
+   "id": "d2c7131ca2ff00c9",
+   "title": "英伟达炸裂业绩也没能打消疑虑！大空头Burry盯上延期发布的10-Q报告",
+   "link": "https://wallstreetcn.com/articles/3786198",
+   "summary": "英伟达交出了一份亮眼的季报，但市场的疑虑并未随之消散。 英伟达周二盘后公布第三季度业绩，营收同比翻番至1158亿美元，大幅超出华尔街预期，第四季度指引同样高于分析师预测，并宣布1500亿美元股票回购计划，盘前股价随即上涨逾3%。然而 ，一份迟迟未能随财报同步披露的10-Q文件，迅速引发市场关注——知名空头Michael Burry对此公开表态，将其视为值得警惕的信号。 与此同时，围绕前CEO黄仁勋去留问题的争议仍在持续发酵。董事会明确表示不会恢复黄仁勋的CEO职位，但据Semafor报道，部分董事会成员私下仍在推动其回归，令公司治理层面的不确定性悬而未决。 财报数据全面超预期，回购计划提振情绪 英伟达第三季度每股收益2.68美元，高于彭博一致预期的2.47美元；营收1158亿美元，超出预期的1093亿美元。数据中心业务营收达1076亿美元，同比增长110%，亦高于市场预期的1019亿美元；",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [],
@@ -1551,7 +1700,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 16:26",
+   "time": "11-18 18:05",
    "score": 8.2,
    "level": 1,
    "why": "",
@@ -1571,7 +1720,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 15:38",
+   "time": "",
    "score": 8.1,
    "level": 1,
    "why": "",
@@ -1580,25 +1729,19 @@
    "ai": ""
   },
   {
-   "id": "ba245047870ec194",
-   "title": "高盛点评英伟达财报：增长前景依然强劲，但要平衡生态输血与股东回报",
-   "link": "https://wallstreetcn.com/articles/3786176",
-   "summary": "英伟达交出一份超预期季报，并上调全年增长指引，高盛维持买入评级，认为当前股价风险回报比具有吸引力，并指出尽管面临管理层过渡与出口管制等不确定性，该公司 底层业务的增长前景依然强劲 。英伟达正试图在为庞大的AI生态系统提供资金支持与向股东返还资本之间， 寻找精准的平衡点 。 据追风交易台消息，高盛在11月18日研报中称，英伟达第三季度业绩及第四季度指引均超出华尔街预期，强劲的财务表现主要得益于市场对其新一代架构产品的旺盛需求。 基于未受限需求持续远超供应的现状，英伟达将2027自然年（CY27）的营收增长预测从70%上调至75%，进一步巩固了市场对其基本面的信心。 在维持高增长的同时，英伟达对客户及供应链合作伙伴的财务承诺规模出现激增， 总额已达到5180亿美元，以确保整个AI基础设施生态的稳定扩张。 与此同时，管理层明确表态将把所有多余现金返还给股东，并计划在CY27年底前执行完剩余的约2",
+   "id": "db5eacc777e3a2e3",
+   "title": "“AI央行”开启量化紧缩！英伟达新CEO收紧投资闸门，Neocloud融资命脉告急",
+   "link": "https://wallstreetcn.com/articles/3786182",
+   "summary": "英伟达正在重新定义自己在AI生态中扮演的金融角色。 这家芯片巨头的临时CEO Colette Kress在本周财报电话会上明确表示， 公司将对未来的投资、承诺和财务担保进行\"严格评估\"。 这意味着，黄仁勋时代那种对AI生态\"大手笔、广撒网\"的金融支持风格，或将正式画上句号。 受冲击最大的是新兴的Neocloud赛道。CoreWeave的股价已较历史高点暴跌逾70%，美债亦跌至困境级别，行业整体因高杠杆运营模式而承压。Bloomberg Intelligence分析师Mandeep Singh表示，英伟达的资产负债表资源将更多向供应商倾斜，而非继续为Neocloud提供融资。 从\"我投资你\"到\"看条件再说\" 黄仁勋执掌英伟达期间，这家公司被外界戏称为\"AI央行\"。 过去数年间，英伟达向AI生态系统累计投入超过1000亿美元，覆盖OpenAI、Anthropic、CoreWeave、Marve",
    "body": "",
    "source": "华尔街见闻·文章",
-   "also": [
-    {
-     "src": "华尔街见闻·文章",
-     "t": "尽管财报超预期、尽管新管理层称“一切如常”，英伟达依旧“五连跌”",
-     "u": "https://wallstreetcn.com/articles/3786239"
-    }
-   ],
+   "also": [],
    "topics": [
     "美国重大"
    ],
    "words": [],
-   "time": "11-18 15:16",
-   "score": 8.1,
+   "time": "11-18 16:26",
+   "score": 8,
    "level": 1,
    "why": "",
    "tier": "",
