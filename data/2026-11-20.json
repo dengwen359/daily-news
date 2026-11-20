@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20 22:30",
+ "generated_at": "2026-11-20 23:30",
  "hours_window": 30,
  "count": 71,
  "sources_ok": 21,
@@ -12,6 +12,28 @@
   "其他"
  ],
  "items": [
+  {
+   "id": "efba573193abb0e8",
+   "title": "国务院国资委举办进一步深化国资国企改革专题研讨班",
+   "link": "https://www.jiemian.com/article/15356960.html",
+   "summary": "11月18日，国务院国资委举办进一步深化国资国企改革专题研讨班。会议指出，各地、各中央企业把落实新一轮国资国企改革作为重要政治任务，坚持高位部署、精准施策，推动新一轮改革实现良好开局。会议强调，要突出重点、把握关键，优化布局结构要更加突出针对性、有效性，推动科技创新要更加突出畅通融合、激发活力，完善公司治理机制要更加突出规范运作、形神兼备，强化国资监管要更加突出智能穿透、标本兼治，更好推动新一轮改革工作重心从谋篇布局向全面实施转变。要坚持高位推动，加强统筹协调，强化分层分类，完善推进机制，确保新一轮改革取得扎实成效。",
+   "body": "11月18日，国务院国资委举办进一步深化国资国企改革专题研讨班。会议指出，各地、各中央企业把落实新一轮国资国企改革作为重要政治任务，坚持高位部署、精准施策，推动新一轮改革实现良好开局。会议强调，要突出重点、把握关键，优化布局结构要更加突出针对性、有效性，推动科技创新要更加突出畅通融合、激发活力，完善公司治理机制要更加突出规范运作、形神兼备，强化国资监管要更加突出智能穿透、标本兼治，更好推动新一轮改革工作重心从谋篇布局向全面实施转变。要坚持高位推动，加强统筹协调，强化分层分类，完善推进机制，确保新一轮改革取得扎实成效。",
+   "source": "界面新闻",
+   "also": [],
+   "topics": [
+    "国内政策"
+   ],
+   "words": [
+    "国资委"
+   ],
+   "time": "",
+   "score": 32.8,
+   "level": 1,
+   "why": "国务院",
+   "tier": "",
+   "group": "界面新闻",
+   "ai": ""
+  },
   {
    "id": "6821b606888e3300",
    "title": "以军在加沙中部发动地面行动 哈马斯谴责以色列违反停火协议",
@@ -73,33 +95,11 @@
     "停火"
    ],
    "time": "11-20 06:05",
-   "score": 20.9,
+   "score": 20.8,
    "level": 2,
    "why": "停火",
    "tier": "must",
    "group": "chinanews",
-   "ai": ""
-  },
-  {
-   "id": "efba573193abb0e8",
-   "title": "国务院国资委举办进一步深化国资国企改革专题研讨班",
-   "link": "https://www.jiemian.com/article/15356960.html",
-   "summary": "11月18日，国务院国资委举办进一步深化国资国企改革专题研讨班。会议指出，各地、各中央企业把落实新一轮国资国企改革作为重要政治任务，坚持高位部署、精准施策，推动新一轮改革实现良好开局。会议强调，要突出重点、把握关键，优化布局结构要更加突出针对性、有效性，推动科技创新要更加突出畅通融合、激发活力，完善公司治理机制要更加突出规范运作、形神兼备，强化国资监管要更加突出智能穿透、标本兼治，更好推动新一轮改革工作重心从谋篇布局向全面实施转变。要坚持高位推动，加强统筹协调，强化分层分类，完善推进机制，确保新一轮改革取得扎实成效。",
-   "body": "11月18日，国务院国资委举办进一步深化国资国企改革专题研讨班。会议指出，各地、各中央企业把落实新一轮国资国企改革作为重要政治任务，坚持高位部署、精准施策，推动新一轮改革实现良好开局。会议强调，要突出重点、把握关键，优化布局结构要更加突出针对性、有效性，推动科技创新要更加突出畅通融合、激发活力，完善公司治理机制要更加突出规范运作、形神兼备，强化国资监管要更加突出智能穿透、标本兼治，更好推动新一轮改革工作重心从谋篇布局向全面实施转变。要坚持高位推动，加强统筹协调，强化分层分类，完善推进机制，确保新一轮改革取得扎实成效。",
-   "source": "界面新闻",
-   "also": [],
-   "topics": [
-    "国内政策"
-   ],
-   "words": [
-    "国资委"
-   ],
-   "time": "11-20 20:56",
-   "score": 26.8,
-   "level": 1,
-   "why": "国务院",
-   "tier": "",
-   "group": "界面新闻",
    "ai": ""
   },
   {
@@ -115,7 +115,7 @@
    ],
    "words": [],
    "time": "11-20 08:04",
-   "score": 18.2,
+   "score": 18.1,
    "level": 2,
    "why": "暴涨",
    "tier": "",
@@ -261,26 +261,6 @@
    "ai": ""
   },
   {
-   "id": "ceed568c7328f906",
-   "title": "California targets Nvidia in China AI chip probe",
-   "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
-   "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
-   "body": "",
-   "source": "BBC·国际",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-20 07:04",
-   "score": 16.1,
-   "level": 2,
-   "why": "监管司法·probe",
-   "tier": "must",
-   "group": "bbc",
-   "ai": ""
-  },
-  {
    "id": "125fe2c8bc38f452",
    "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
    "link": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
@@ -389,6 +369,26 @@
    "ai": ""
   },
   {
+   "id": "ceed568c7328f906",
+   "title": "California targets Nvidia in China AI chip probe",
+   "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+   "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+   "body": "",
+   "source": "BBC·国际",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-20 07:04",
+   "score": 15.9,
+   "level": 2,
+   "why": "监管司法·probe",
+   "tier": "must",
+   "group": "bbc",
+   "ai": ""
+  },
+  {
    "id": "a900422b26e0fe0e",
    "title": "欧洲短债延续涨势，市场下调欧洲央行加息押注",
    "link": "https://36kr.com/newsflashes/4078028568794240?f=rss",
@@ -432,7 +432,7 @@
     "CPI"
    ],
    "time": "11-20 13:34",
-   "score": 15.9,
+   "score": 15.8,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -451,7 +451,7 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-19 17:09",
+   "time": "",
    "score": 15,
    "level": 2,
    "why": "监管司法·下台",
@@ -633,7 +633,7 @@
     "美联储"
    ],
    "time": "11-20 20:53",
-   "score": 14.8,
+   "score": 14.7,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -661,7 +661,7 @@
     "CPI"
    ],
    "time": "11-20 19:03",
-   "score": 14.6,
+   "score": 14.4,
    "level": 1,
    "why": "CPI",
    "tier": "must",
@@ -683,7 +683,7 @@
     "美联储"
    ],
    "time": "11-20 18:50",
-   "score": 14.5,
+   "score": 14.4,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -775,7 +775,7 @@
     "白宫"
    ],
    "time": "11-20 12:05",
-   "score": 13.7,
+   "score": 13.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -797,7 +797,7 @@
     "LPR"
    ],
    "time": "11-20 09:01",
-   "score": 13.3,
+   "score": 13.2,
    "level": 1,
    "why": "LPR",
    "tier": "",
@@ -847,7 +847,7 @@
     "美联储"
    ],
    "time": "11-20 06:19",
-   "score": 13.0,
+   "score": 12.9,
    "level": 1,
    "why": "加息",
    "tier": "",
@@ -876,7 +876,7 @@
     "伊朗"
    ],
    "time": "11-20 06:04",
-   "score": 12.9,
+   "score": 12.8,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -898,7 +898,7 @@
     "特朗普"
    ],
    "time": "11-20 21:24",
-   "score": 12.9,
+   "score": 12.7,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1011,7 +1011,7 @@
     "欧盟"
    ],
    "time": "11-19 23:19",
-   "score": 11.1,
+   "score": 11,
    "level": 1,
    "why": "部署",
    "tier": "",
@@ -1042,32 +1042,6 @@
    "why": "",
    "tier": "",
    "group": "36氪",
-   "ai": ""
-  },
-  {
-   "id": "b7dcc3047653bf32",
-   "title": "三星电子高管：Neocloud 风险有限，AI 投资基于实际需求",
-   "link": "https://www.ithome.com/1/030/247.htm",
-   "summary": "IT之家 11 月 20 日消息，据路透社当地时间 18 日报道，三星电子两位高管在本周举行的摩根士丹利会议上表示 Neocloud（新兴 AI 云服务企业）面临的不确定性对整体市场的影响有限，这轮 AI 投资基于实际需求而非投机。 三星 DS（设备解决方案，半导体板块）部门经营战略总管负责人 Kim Yong-kwan 表示，Neocloud 的“市占份额”仅约为 8%， 对此类企业的担忧不会对 AI 整体发展轨迹构成重大威胁 。这位高管并未详述作为市占计算基础的“市场”具体指什么。 三星晶圆代工销售营销主管 Kang Suk-chae 则认为，当前的 AI 投资热潮是结构性的，源自实在的需求而非投机冲动。 芯片短缺的局面“在可预见的未来仍将持续” ，长期合同使供需双方之间的关系更加明朗。",
-   "body": "",
-   "source": "IT之家",
-   "also": [
-    {
-     "src": "IT之家",
-     "t": "三星电子任命存储与移动业务新负责人，联席 CEO 全永铉、卢泰文留任",
-     "u": "https://www.ithome.com/1/029/769.htm"
-    }
-   ],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-20 22:09",
-   "score": 11.0,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "IT之家",
    "ai": ""
   },
   {
@@ -1163,6 +1137,26 @@
    "ai": ""
   },
   {
+   "id": "b7dcc3047653bf32",
+   "title": "三星电子高管：Neocloud 风险有限，AI 投资基于实际需求",
+   "link": "https://www.ithome.com/1/030/247.htm",
+   "summary": "IT之家 11 月 20 日消息，据路透社当地时间 18 日报道，三星电子两位高管在本周举行的摩根士丹利会议上表示 Neocloud（新兴 AI 云服务企业）面临的不确定性对整体市场的影响有限，这轮 AI 投资基于实际需求而非投机。 三星 DS（设备解决方案，半导体板块）部门经营战略总管负责人 Kim Yong-kwan 表示，Neocloud 的“市占份额”仅约为 8%， 对此类企业的担忧不会对 AI 整体发展轨迹构成重大威胁 。这位高管并未详述作为市占计算基础的“市场”具体指什么。 三星晶圆代工销售营销主管 Kang Suk-chae 则认为，当前的 AI 投资热潮是结构性的，源自实在的需求而非投机冲动。 芯片短缺的局面“在可预见的未来仍将持续” ，长期合同使供需双方之间的关系更加明朗。",
+   "body": "",
+   "source": "IT之家",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-20 22:09",
+   "score": 10.8,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "IT之家",
+   "ai": ""
+  },
+  {
    "id": "ae47416388adff2c",
    "title": "Senate Republicans Block Bid to Rein in Trump on Iran War",
    "link": "https://www.nytimes.com/2026/11/19/us/politics/senate-iran-war-powers-trump.html",
@@ -1177,49 +1171,7 @@
     "Trump"
    ],
    "time": "11-20 04:19",
-   "score": 10.7,
-   "level": 1,
-   "why": "",
-   "tier": "must",
-   "group": "nyt",
-   "ai": ""
-  },
-  {
-   "id": "0d0ea5c7e06a290c",
-   "title": "马斯克隔空示好，得州新州长回应：不反对数据中心，愿意与他合作",
-   "link": "https://wallstreetcn.com/articles/3786367",
-   "summary": "美国科技巨头与政治力量之间的关系，正在中期选举后面临重新调整。 得州当选州长 Gina Hinojosa 对数据中心投资持审慎态度，但表示愿意与马斯克合作。她主张，在州议会通过保护居民利益的相关立法之前，暂停发放新的数据中心许可。这一立场可能给 SpaceX 在得州 Starbase 计划投资约240亿美元的数据中心及配套燃气电厂项目带来审批压力。 Hinojosa 周四接受 Fox News 采访时表示： “我不讨厌数据中心，我只是讨厌它们现在这样占得州人的便宜。”她称，得州目前缺乏保护居民的相关法律，但只要合作能够“确保得州人过得更好、更兴旺”，她就愿意与马斯克沟通。 马斯克则在周三出席《纽约时报》DealBook 峰会时称， Hinojosa 上任后得州的情况会不错，并强调自己“不是MAGA”，在意识形态上“相当温和”。他还对此前为共和党投入巨额政治资金表示后悔。 特朗普随后回应称，",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-20 17:41",
-   "score": 10.4,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "94c55a4f6d5c9aee",
-   "title": "Senator Warns Congress to Secure Data From Intrusion by Trump Administration",
-   "link": "https://www.nytimes.com/2026/11/19/us/congress-phone-email-data-doj-wyden.html",
-   "summary": "Gaps in protections for lawmaker communications loom larger as the administration amplifies its threats to criminally investigate Democrats for aggressive oversight efforts.",
-   "body": "",
-   "source": "纽约时报·美国",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [
-    "Trump"
-   ],
-   "time": "11-20 01:10",
-   "score": 10.3,
+   "score": 10.6,
    "level": 1,
    "why": "",
    "tier": "must",
@@ -1247,10 +1199,10 @@
    "ai": ""
   },
   {
-   "id": "ee90ce6075d0e7be",
-   "title": "英伟达拟5亿美元收购扩散模型初创公司Inception，押注AI提速技术",
-   "link": "https://wallstreetcn.com/articles/3786353",
-   "summary": "英伟达正就收购AI初创公司Inception展开深度洽谈，交易估值 至少5亿美元 ，另附基于业绩目标的额外奖励安排。此举旨在为英伟达旗下开源模型项目Nemotron引入扩散模型技术与核心人才。 据科技媒体The Information 11月19日报道，三名知情人士透露，上述谈判已进入高级阶段。 Inception的扩散大语言模型技术及其背后的研究团队，预计将直接服务于英伟达Nemotron开源模型的研发 。谈判在英伟达CEO黄仁勋离任之前已经启动，目前尚无迹象显示英伟达将因领导层变动而退出。 值得关注的是， 微软此前也曾就类似交易与Inception接触 ，但最终未能推进。 扩散模型：比自回归更快的语言AI路径 据报道，知情人士指出，扩散模型相较于自回归模型的最大优势在于速度， 尤其在生成较长回复时，速度优势更为显著 。 扩散技术此前主要应用于图像生成领域，近年来才被Inception等",
+   "id": "0d0ea5c7e06a290c",
+   "title": "马斯克隔空示好，得州新州长回应：不反对数据中心，愿意与他合作",
+   "link": "https://wallstreetcn.com/articles/3786367",
+   "summary": "美国科技巨头与政治力量之间的关系，正在中期选举后面临重新调整。 得州当选州长 Gina Hinojosa 对数据中心投资持审慎态度，但表示愿意与马斯克合作。她主张，在州议会通过保护居民利益的相关立法之前，暂停发放新的数据中心许可。这一立场可能给 SpaceX 在得州 Starbase 计划投资约240亿美元的数据中心及配套燃气电厂项目带来审批压力。 Hinojosa 周四接受 Fox News 采访时表示： “我不讨厌数据中心，我只是讨厌它们现在这样占得州人的便宜。”她称，得州目前缺乏保护居民的相关法律，但只要合作能够“确保得州人过得更好、更兴旺”，她就愿意与马斯克沟通。 马斯克则在周三出席《纽约时报》DealBook 峰会时称， Hinojosa 上任后得州的情况会不错，并强调自己“不是MAGA”，在意识形态上“相当温和”。他还对此前为共和党投入巨额政治资金表示后悔。 特朗普随后回应称，",
    "body": "",
    "source": "华尔街见闻·文章",
    "also": [],
@@ -1258,12 +1210,34 @@
     "美国重大"
    ],
    "words": [],
-   "time": "11-20 16:17",
-   "score": 10.2,
+   "time": "11-20 17:41",
+   "score": 10.3,
    "level": 1,
    "why": "",
    "tier": "",
    "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "94c55a4f6d5c9aee",
+   "title": "Senator Warns Congress to Secure Data From Intrusion by Trump Administration",
+   "link": "https://www.nytimes.com/2026/11/19/us/congress-phone-email-data-doj-wyden.html",
+   "summary": "Gaps in protections for lawmaker communications loom larger as the administration amplifies its threats to criminally investigate Democrats for aggressive oversight efforts.",
+   "body": "",
+   "source": "纽约时报·美国",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [
+    "Trump"
+   ],
+   "time": "11-20 01:10",
+   "score": 10.2,
+   "level": 1,
+   "why": "",
+   "tier": "must",
+   "group": "nyt",
    "ai": ""
   },
   {
@@ -1284,6 +1258,26 @@
    "why": "",
    "tier": "",
    "group": "IT之家",
+   "ai": ""
+  },
+  {
+   "id": "ee90ce6075d0e7be",
+   "title": "英伟达拟5亿美元收购扩散模型初创公司Inception，押注AI提速技术",
+   "link": "https://wallstreetcn.com/articles/3786353",
+   "summary": "英伟达正就收购AI初创公司Inception展开深度洽谈，交易估值 至少5亿美元 ，另附基于业绩目标的额外奖励安排。此举旨在为英伟达旗下开源模型项目Nemotron引入扩散模型技术与核心人才。 据科技媒体The Information 11月19日报道，三名知情人士透露，上述谈判已进入高级阶段。 Inception的扩散大语言模型技术及其背后的研究团队，预计将直接服务于英伟达Nemotron开源模型的研发 。谈判在英伟达CEO黄仁勋离任之前已经启动，目前尚无迹象显示英伟达将因领导层变动而退出。 值得关注的是， 微软此前也曾就类似交易与Inception接触 ，但最终未能推进。 扩散模型：比自回归更快的语言AI路径 据报道，知情人士指出，扩散模型相较于自回归模型的最大优势在于速度， 尤其在生成较长回复时，速度优势更为显著 。 扩散技术此前主要应用于图像生成领域，近年来才被Inception等",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "11-20 16:17",
+   "score": 10.1,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
    "ai": ""
   },
   {
@@ -1325,7 +1319,7 @@
    ],
    "words": [],
    "time": "11-20 13:22",
-   "score": 9.9,
+   "score": 9.7,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1385,7 +1379,27 @@
    ],
    "words": [],
    "time": "11-20 06:55",
-   "score": 9.1,
+   "score": 8.9,
+   "level": 1,
+   "why": "",
+   "tier": "",
+   "group": "华尔街见闻·文章",
+   "ai": ""
+  },
+  {
+   "id": "3287d14e8bb3313b",
+   "title": "苹果赢下英国用户数据诉讼首回合，政府秘密令状被迫公开",
+   "link": "https://wallstreetcn.com/articles/3786314",
+   "summary": "苹果在与英国政府的隐私拉锯战中赢下了关键一局。 11月19日，据彭博报道， 英国调查权力法庭作出最新裁决，认定英国内政部“未能证明”公开秘密命令会损害国家安全 。这意味着，与以往绝大多数全程保密的监控案件不同， 苹果及两家非营利组织发起的这场法律挑战，接下来大部分程序将首次在公开法庭上进行。 此前，英国政府依据法律秘密向苹果发出一份“技术能力通知”（TCN），要求苹果交出用户的加密数据。 按照英国法律，这类命令附带严格的“封口令”，收到通知的公司甚至不能对外承认命令的存在，政府也一直以“国家安全”为由拒绝公开。苹果随后向专门审查秘密监控的英国调查权力法庭提起诉讼。 苹果发言人对此表示欢迎，称这是朝着信息透明迈出的正确一步。英国内政部则试图淡化影响，强调这只是一次“程序性裁定”，尚未决定苹果最终是否必须交出数据，并强硬表态称“关系英国公众安全的决定应由政府和法官作出，而不是科技公司的董事会”",
+   "body": "",
+   "source": "华尔街见闻·文章",
+   "also": [],
+   "topics": [
+    "美国重大"
+   ],
+   "words": [],
+   "time": "",
+   "score": 8.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1405,7 +1419,7 @@
    ],
    "words": [],
    "time": "11-20 05:32",
-   "score": 8.9,
+   "score": 8.8,
    "level": 1,
    "why": "",
    "tier": "",
@@ -1425,27 +1439,7 @@
    ],
    "words": [],
    "time": "11-20 05:10",
-   "score": 8.8,
-   "level": 1,
-   "why": "",
-   "tier": "",
-   "group": "华尔街见闻·文章",
-   "ai": ""
-  },
-  {
-   "id": "3287d14e8bb3313b",
-   "title": "苹果赢下英国用户数据诉讼首回合，政府秘密令状被迫公开",
-   "link": "https://wallstreetcn.com/articles/3786314",
-   "summary": "苹果在与英国政府的隐私拉锯战中赢下了关键一局。 11月19日，据彭博报道， 英国调查权力法庭作出最新裁决，认定英国内政部“未能证明”公开秘密命令会损害国家安全 。这意味着，与以往绝大多数全程保密的监控案件不同， 苹果及两家非营利组织发起的这场法律挑战，接下来大部分程序将首次在公开法庭上进行。 此前，英国政府依据法律秘密向苹果发出一份“技术能力通知”（TCN），要求苹果交出用户的加密数据。 按照英国法律，这类命令附带严格的“封口令”，收到通知的公司甚至不能对外承认命令的存在，政府也一直以“国家安全”为由拒绝公开。苹果随后向专门审查秘密监控的英国调查权力法庭提起诉讼。 苹果发言人对此表示欢迎，称这是朝着信息透明迈出的正确一步。英国内政部则试图淡化影响，强调这只是一次“程序性裁定”，尚未决定苹果最终是否必须交出数据，并强硬表态称“关系英国公众安全的决定应由政府和法官作出，而不是科技公司的董事会”",
-   "body": "",
-   "source": "华尔街见闻·文章",
-   "also": [],
-   "topics": [
-    "美国重大"
-   ],
-   "words": [],
-   "time": "11-20 05:10",
-   "score": 8.8,
+   "score": 8.7,
    "level": 1,
    "why": "",
    "tier": "",
