@@ -14,24 +14,86 @@ import datetime as dt
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 OUT_DIR = os.path.join(BASE_DIR, "docs")
-MAX_DAYS = 60          # 只保留最近 60 天，控制页面体积
-SUMMARY_LIMIT = 240    # 正文摘录截断字数
+MAX_DAYS = 21          # 只保留最近 21 天（手机 3.3MB 加载卡住→瘦身）
+SUMMARY_LIMIT = 110    # 正文摘录截断字数（240→110，体积大头）
+
+
+def _publish_date(tm, file_year, file_gen):
+    """从 time 字段（"MM-DD HH:MM"）反推新闻真实发布日期 YYYY-MM-DD。
+    按发布日期归组，避免「30 小时时间窗 + 按抓取日归档」把昨夜新闻串到次日标签。"""
+    m = re.match(r"(\d{1,2})-(\d{1,2})[ T](\d{1,2}):(\d{2})", tm or "")
+    if not m:
+        return None
+    mo, da, hh, mi = (int(x) for x in m.groups())
+    try:
+        cand = dt.datetime(file_year, mo, da, hh, mi)
+    except Exception:
+        return None
+    # 发布时间一定早于抓取时间；若反超说明跨年（12-31→01-01），回退一年
+    if file_gen and cand > file_gen:
+        try:
+            cand = cand.replace(year=file_year - 1)
+        except Exception:
+            return None
+    return cand.strftime("%Y-%m-%d")
 
 
 def load_all():
     if not os.path.isdir(DATA_DIR):
         return []
-    days = []
+    raw = []
     for fn in sorted(os.listdir(DATA_DIR)):
         if not fn.endswith(".json"):
             continue
         try:
             with open(os.path.join(DATA_DIR, fn), "r", encoding="utf-8") as f:
                 d = json.load(f)
-            if d.get("items"):
-                days.append(d)
         except Exception:
             continue
+        # ai.json / mailed.json 等非日报文件顶层可能是 list 或不含 items，跳过
+        if not isinstance(d, dict) or not d.get("items"):
+            continue
+        raw.append(d)
+    # 按「新闻发布日期」重新归组，而不是按「抓取日期」（文件命名日）。
+    # 这样 11-12 23:xx 的新闻会归到 11-12 标签，不会串到 11-13（用户 2026-11-13 反馈）。
+    groups = {}
+    for d in raw:
+        fd = d.get("date", "") or ""
+        try:
+            fy = int(fd[:4])
+        except Exception:
+            fy = dt.date.today().year
+        gen = d.get("generated_at", "") or ""
+        try:
+            fg = dt.datetime.strptime(gen, "%Y-%m-%d %H:%M") if gen else None
+        except Exception:
+            fg = None
+        if fg is None:  # 兜底：用抓取日 23:59 参与比较
+            try:
+                fg = dt.datetime.strptime(fd + " 23:59", "%Y-%m-%d %H:%M")
+            except Exception:
+                fg = None
+        for it in d.get("items", []):
+            key = _publish_date(it.get("time", ""), fy, fg) or fd
+            g = groups.get(key)
+            if g is None:
+                g = groups[key] = {
+                    "date": key, "gen": "", "hw": d.get("hours_window", 30),
+                    "ok": d.get("sources_ok", 0), "tot": d.get("sources_total", 0),
+                    "order": list(d.get("topics_order", []) or []), "items": [],
+                    "_gen": "",
+                }
+            g["items"].append(it)
+            # 以「最新一次抓取」的元信息为准（源在线数、栏顺序、生成时间）
+            if gen and gen >= g["_gen"]:
+                g["gen"] = gen
+                g["ok"] = d.get("sources_ok", 0)
+                g["tot"] = d.get("sources_total", 0)
+                g["order"] = list(d.get("topics_order", []) or [])
+                g["_gen"] = gen
+    days = list(groups.values())
+    for g in days:
+        g.pop("_gen", None)
     days.sort(key=lambda x: x.get("date", ""), reverse=True)
     return days[:MAX_DAYS]
 
@@ -72,7 +134,7 @@ def build_html(days):
                 "u": it.get("link", ""),
                 "s": short(it.get("body") or it.get("summary", "")),
                 "src": it.get("source", ""),
-                "also": it.get("also", []),
+                "also": (it.get("also") or [])[:3],
                 "tp": it.get("topics", []),
                 "w": (it.get("words") or [])[:4],
                 "tm": it.get("time", ""),
@@ -82,11 +144,13 @@ def build_html(days):
             })
         slim.append({
             "date": d.get("date", ""),
-            "gen": d.get("generated_at", ""),
-            "hw": d.get("hours_window", 30),
-            "ok": d.get("sources_ok", 0),
-            "tot": d.get("sources_total", 0),
-            "order": d.get("topics_order", []),
+            # load_all() 分组后字段是 gen/ok/tot/order，不是原始 JSON 的
+            # generated_at/sources_ok/...（第17版重构后遗症：曾全读成空→源在线 0/0）
+            "gen": d.get("gen") or d.get("generated_at", ""),
+            "hw": d.get("hw", d.get("hours_window", 30)),
+            "ok": d.get("ok", d.get("sources_ok", 0)),
+            "tot": d.get("tot", d.get("sources_total", 0)),
+            "order": d.get("order") or d.get("topics_order", []),
             "items": items,
         })
 
